@@ -1,0 +1,127 @@
+{
+ "artifacts": [],
+ "artifactRelationships": [],
+ "source": {
+  "type": "image",
+  "target": {
+   "userInput": "docker.io/library/hola-mundo:latest",
+   "imageID": "sha256:aa08f42dc4966ae0974623690d98c5ea8ed008a08921010cbd9317c9cffe9beb",
+   "manifestDigest": "sha256:96cbf03396259df63a258b969b2a3f364fdda7e1d6ec0b799d37e9ecc4e04b19",
+   "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+   "tags": [],
+   "imageSize": 1864,
+   "layers": [
+    {
+     "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+     "digest": "sha256:80bd31b3e8bddde7dc5a0d60b0fa937e14de5ea68493289f5464e85983e62aed",
+     "size": 1864
+    }
+   ],
+   "manifest": "ewogICAic2NoZW1hVmVyc2lvbiI6IDIsCiAgICJtZWRpYVR5cGUiOiAiYXBwbGljYXRpb24vdm5kLmRvY2tlci5kaXN0cmlidXRpb24ubWFuaWZlc3QudjIranNvbiIsCiAgICJjb25maWciOiB7CiAgICAgICJtZWRpYVR5cGUiOiAiYXBwbGljYXRpb24vdm5kLmRvY2tlci5jb250YWluZXIuaW1hZ2UudjEranNvbiIsCiAgICAgICJzaXplIjogMTUxMCwKICAgICAgImRpZ2VzdCI6ICJzaGEyNTY6YWEwOGY0MmRjNDk2NmFlMDk3NDYyMzY5MGQ5OGM1ZWE4ZWQwMDhhMDg5MjEwMTBjYmQ5MzE3YzljZmZlOWJlYiIKICAgfSwKICAgImxheWVycyI6IFsKICAgICAgewogICAgICAgICAibWVkaWFUeXBlIjogImFwcGxpY2F0aW9uL3ZuZC5kb2NrZXIuaW1hZ2Uucm9vdGZzLmRpZmYudGFyLmd6aXAiLAogICAgICAgICAic2l6ZSI6IDEwMDQsCiAgICAgICAgICJkaWdlc3QiOiAic2hhMjU2OjcwOGU1NjIwMWM5MzJkZTNiYWM1ZDg3ZDc0NGEzZTMyZTUxYWY3ZjliOTNhMDRlNzJlN2M4NzcyZDQ5MTQxMDAiCiAgICAgIH0KICAgXQp9",
+   "config": "eyJhcmNoaXRlY3R1cmUiOiJhbWQ2NCIsImNvbmZpZyI6eyJIb3N0bmFtZSI6IiIsIkRvbWFpbm5hbWUiOiIiLCJVc2VyIjoiIiwiQXR0YWNoU3RkaW4iOmZhbHNlLCJBdHRhY2hTdGRvdXQiOmZhbHNlLCJBdHRhY2hTdGRlcnIiOmZhbHNlLCJUdHkiOmZhbHNlLCJPcGVuU3RkaW4iOmZhbHNlLCJTdGRpbk9uY2UiOmZhbHNlLCJFbnYiOlsiUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4iXSwiQ21kIjpbIi9oZWxsbyJdLCJBcmdzRXNjYXBlZCI6dHJ1ZSwiSW1hZ2UiOiJzaGEyNTY6ZTg4Y2U4ODNjMzA5YWNjZjg5NjZkNzlhNWMyYmZhNTdjZDBhMzc2YzYzMTA3YWU2M2QyMzE1Y2MzOWI4NmIyNSIsIlZvbHVtZXMiOm51bGwsIldvcmtpbmdEaXIiOiIiLCJFbnRyeXBvaW50IjpudWxsLCJPbkJ1aWxkIjpudWxsLCJMYWJlbHMiOm51bGx9LCJjb250YWluZXIiOiIzNjZkM2IzZTk4NWM0MmY1MTk0NTU4YzY0ZDdlMmNjOWRiNWVlN2Y2OTE0NWYwZWVlNWIwN2I2NTRhZGYzYmVjIiwiY29udGFpbmVyX2NvbmZpZyI6eyJIb3N0bmFtZSI6IjM2NmQzYjNlOTg1YyIsIkRvbWFpbm5hbWUiOiIiLCJVc2VyIjoiIiwiQXR0YWNoU3RkaW4iOmZhbHNlLCJBdHRhY2hTdGRvdXQiOmZhbHNlLCJBdHRhY2hTdGRlcnIiOmZhbHNlLCJUdHkiOmZhbHNlLCJPcGVuU3RkaW4iOmZhbHNlLCJTdGRpbk9uY2UiOmZhbHNlLCJFbnYiOlsiUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4iXSwiQ21kIjpbIi9iaW4vc2giLCItYyIsIiMobm9wKSAiLCJDTUQgW1wiL2hlbGxvXCJdIl0sIkFyZ3NFc2NhcGVkIjp0cnVlLCJJbWFnZSI6InNoYTI1NjplODhjZTg4M2MzMDlhY2NmODk2NmQ3OWE1YzJiZmE1N2NkMGEzNzZjNjMxMDdhZTYzZDIzMTVjYzM5Yjg2YjI1IiwiVm9sdW1lcyI6bnVsbCwiV29ya2luZ0RpciI6IiIsIkVudHJ5cG9pbnQiOm51bGwsIk9uQnVpbGQiOm51bGwsIkxhYmVscyI6e319LCJjcmVhdGVkIjoiMjAxOS0wMS0wMVQwMTozMDoyNS42NTEwMjI4MTNaIiwiZG9ja2VyX3ZlcnNpb24iOiIxOC4wNi4xLWNlIiwiaGlzdG9yeSI6W3siY3JlYXRlZCI6IjIwMTktMDEtMDFUMDE6MzA6MjUuNTA4MzYyMjI2WiIsImNyZWF0ZWRfYnkiOiIvYmluL3NoIC1jICMobm9wKSBDT1BZIGZpbGU6YWIxODU5ZDk1NDkxOWQ4NzdlMmU4NTlkNjkyYmUxNGVjNWY5YmZkN2E1NWIzYTJiY2UxNDk5YjE4ZDdiNDM2ZSBpbiAvICJ9LHsiY3JlYXRlZCI6IjIwMTktMDEtMDFUMDE6MzA6MjUuNjUxMDIyODEzWiIsImNyZWF0ZWRfYnkiOiIvYmluL3NoIC1jICMobm9wKSAgQ01EIFtcIi9oZWxsb1wiXSIsImVtcHR5X2xheWVyIjp0cnVlfV0sIm9zIjoibGludXgiLCJyb290ZnMiOnsidHlwZSI6ImxheWVycyIsImRpZmZfaWRzIjpbInNoYTI1Njo4MGJkMzFiM2U4YmRkZGU3ZGM1YTBkNjBiMGZhOTM3ZTE0ZGU1ZWE2ODQ5MzI4OWY1NDY0ZTg1OTgzZTYyYWVkIl19fQ==",
+   "repoDigests": [
+    "index.docker.io/library/hola-mundo@sha256:7fd85c550d60b54cf950722d75b0307ebb374329833b87b03d8a0eb59efdb487"
+   ],
+   "architecture": "",
+   "os": ""
+  }
+ },
+ "distro": {},
+ "descriptor": {
+  "name": "syft",
+  "version": "0.46.1",
+  "configuration": {
+   "configPath": "",
+   "verbosity": 0,
+   "quiet": true,
+   "output": [
+    "json"
+   ],
+   "file": "",
+   "check-for-app-update": true,
+   "anchore": {
+    "host": "",
+    "path": "",
+    "dockerfile": "",
+    "overwrite-existing-image": false,
+    "import-timeout": 30
+   },
+   "dev": {
+    "profile-cpu": false,
+    "profile-mem": false
+   },
+   "log": {
+    "structured": false,
+    "level": "panic",
+    "file-location": ""
+   },
+   "package": {
+    "cataloger": {
+     "enabled": true,
+     "scope": "Squashed"
+    },
+    "search-unindexed-archives": false,
+    "search-indexed-archives": true
+   },
+   "file-metadata": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "digests": [
+     "sha256"
+    ]
+   },
+   "file-classification": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    }
+   },
+   "file-contents": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "skip-files-above-size": 1048576,
+    "globs": []
+   },
+   "secrets": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "AllLayers"
+    },
+    "additional-patterns": {},
+    "exclude-pattern-names": [],
+    "reveal-values": false,
+    "skip-files-above-size": 1048576
+   },
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": []
+   },
+   "exclude": [],
+   "attest": {
+    "key": "",
+    "cert": "",
+    "noUpload": false,
+    "force": false,
+    "recursive": false,
+    "replace": false,
+    "fulcioUrl": "https://fulcio.sigstore.dev",
+    "fulcio_identity_token": "",
+    "insecure_skip_verify": false,
+    "rekorUrl": "https://rekor.sigstore.dev",
+    "oidcIssuer": "https://oauth2.sigstore.dev/auth",
+    "oidcClientId": "sigstore",
+    "OIDCRedirectURL": ""
+   },
+   "platform": ""
+  }
+ },
+ "schema": {
+  "version": "3.2.3",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-3.2.3.json"
+ }
+}

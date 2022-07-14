@@ -1,0 +1,4108 @@
+{
+ "artifacts": [
+  {
+   "id": "9f527213f4d2a873",
+   "name": "alpine-baselayout",
+   "version": "3.2.0-r18",
+   "type": "apk",
+   "foundBy": "apkdb-cataloger",
+   "locations": [
+    {
+     "path": "/lib/apk/db/installed",
+     "layerID": "sha256:384090946841500a55056014422e92ca8cade558968a9249ee81df47c5fabb0f"
+    }
+   ],
+   "licenses": [
+    "GPL-2.0-only"
+   ],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:alpine-baselayout:alpine-baselayout:3.2.0-r18:*:*:*:*:*:*:*",
+    "cpe:2.3:a:alpine-baselayout:alpine_baselayout:3.2.0-r18:*:*:*:*:*:*:*",
+    "cpe:2.3:a:alpine_baselayout:alpine-baselayout:3.2.0-r18:*:*:*:*:*:*:*",
+    "cpe:2.3:a:alpine_baselayout:alpine_baselayout:3.2.0-r18:*:*:*:*:*:*:*",
+    "cpe:2.3:a:alpine:alpine-baselayout:3.2.0-r18:*:*:*:*:*:*:*",
+    "cpe:2.3:a:alpine:alpine_baselayout:3.2.0-r18:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:alpine/alpine-baselayout@3.2.0-r18?arch=x86_64&upstream=alpine-baselayout&distro=alpine-3.15.4",
+   "metadataType": "ApkMetadata",
+   "metadata": {
+    "package": "alpine-baselayout",
+    "originPackage": "alpine-baselayout",
+    "maintainer": "Natanael Copa <ncopa@alpinelinux.org>",
+    "version": "3.2.0-r18",
+    "license": "GPL-2.0-only",
+    "architecture": "x86_64",
+    "url": "https://git.alpinelinux.org/cgit/aports/tree/main/alpine-baselayout",
+    "description": "Alpine base dir structure and init scripts",
+    "size": 21101,
+    "installedSize": 413696,
+    "pullDependencies": "/bin/sh so:libc.musl-x86_64.so.1",
+    "pullChecksum": "Q1EymS6rAgmGs7XYhqdyEoiWgEZ6A=",
+    "gitCommitOfApkPort": "dfa1379357a321e638feef1cd8d55ab03d020f45",
+    "files": [
+     {
+      "path": "/dev"
+     },
+     {
+      "path": "/dev/pts"
+     },
+     {
+      "path": "/dev/shm"
+     },
+     {
+      "path": "/etc"
+     },
+     {
+      "path": "/etc/fstab",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q11Q7hNe8QpDS531guqCdrXBzoA/o="
+      }
+     },
+     {
+      "path": "/etc/group",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q13K+olJg5ayzHSVNUkggZJXuB+9Y="
+      }
+     },
+     {
+      "path": "/etc/hostname",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q16nVwYVXP/tChvUPdukVD2ifXOmc="
+      }
+     },
+     {
+      "path": "/etc/hosts",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1BD6zJKZTRWyqGnPi4tSfd3krsMU="
+      }
+     },
+     {
+      "path": "/etc/inittab",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1TsthbhW7QzWRe1E/NKwTOuD4pHc="
+      }
+     },
+     {
+      "path": "/etc/modules",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1toogjUipHGcMgECgPJX64SwUT1M="
+      }
+     },
+     {
+      "path": "/etc/motd",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1XmduVVNURHQ27TvYp1Lr5TMtFcA="
+      }
+     },
+     {
+      "path": "/etc/mtab",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1kiljhXXH1LlQroHsEJIkPZg2eiw="
+      }
+     },
+     {
+      "path": "/etc/passwd",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1TchuuLUfur0izvfZQZxgN/LJhB8="
+      }
+     },
+     {
+      "path": "/etc/profile",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1VmHPWPjjvz4oCsbmYCUB4uWpSkc="
+      }
+     },
+     {
+      "path": "/etc/protocols",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1omKlp3vgGq2ZqYzyD/KHNdo8rDc="
+      }
+     },
+     {
+      "path": "/etc/services",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q19WLCv5ItKg4MH7RWfNRh1I7byQc="
+      }
+     },
+     {
+      "path": "/etc/shadow",
+      "ownerUid": "0",
+      "ownerGid": "42",
+      "permissions": "640",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1ltrPIAW2zHeDiajsex2Bdmq3uqA="
+      }
+     },
+     {
+      "path": "/etc/shells",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1ojm2YdpCJ6B/apGDaZ/Sdb2xJkA="
+      }
+     },
+     {
+      "path": "/etc/sysctl.conf",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q14upz3tfnNxZkIEsUhWn7Xoiw96g="
+      }
+     },
+     {
+      "path": "/etc/apk"
+     },
+     {
+      "path": "/etc/conf.d"
+     },
+     {
+      "path": "/etc/crontabs"
+     },
+     {
+      "path": "/etc/crontabs/root",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "600",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1vfk1apUWI4yLJGhhNRd0kJixfvY="
+      }
+     },
+     {
+      "path": "/etc/init.d"
+     },
+     {
+      "path": "/etc/modprobe.d"
+     },
+     {
+      "path": "/etc/modprobe.d/aliases.conf",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1WUbh6TBYNVK7e4Y+uUvLs/7viqk="
+      }
+     },
+     {
+      "path": "/etc/modprobe.d/blacklist.conf",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q14TdgFHkTdt3uQC+NBtrntOnm9n4="
+      }
+     },
+     {
+      "path": "/etc/modprobe.d/i386.conf",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1pnay/njn6ol9cCssL7KiZZ8etlc="
+      }
+     },
+     {
+      "path": "/etc/modprobe.d/kms.conf",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1ynbLn3GYDpvajba/ldp1niayeog="
+      }
+     },
+     {
+      "path": "/etc/modules-load.d"
+     },
+     {
+      "path": "/etc/network"
+     },
+     {
+      "path": "/etc/network/if-down.d"
+     },
+     {
+      "path": "/etc/network/if-post-down.d"
+     },
+     {
+      "path": "/etc/network/if-pre-up.d"
+     },
+     {
+      "path": "/etc/network/if-up.d"
+     },
+     {
+      "path": "/etc/opt"
+     },
+     {
+      "path": "/etc/periodic"
+     },
+     {
+      "path": "/etc/periodic/15min"
+     },
+     {
+      "path": "/etc/periodic/daily"
+     },
+     {
+      "path": "/etc/periodic/hourly"
+     },
+     {
+      "path": "/etc/periodic/monthly"
+     },
+     {
+      "path": "/etc/periodic/weekly"
+     },
+     {
+      "path": "/etc/profile.d"
+     },
+     {
+      "path": "/etc/profile.d/README",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q135OWsCzzvnB2fmFx62kbqm1Ax1k="
+      }
+     },
+     {
+      "path": "/etc/profile.d/color_prompt.sh.disabled",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q10wL23GuSCVfumMRgakabUI6EsSk="
+      }
+     },
+     {
+      "path": "/etc/profile.d/locale.sh",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1S8j+WW71mWxfVy8ythqU7HUVoBw="
+      }
+     },
+     {
+      "path": "/etc/sysctl.d"
+     },
+     {
+      "path": "/home"
+     },
+     {
+      "path": "/lib"
+     },
+     {
+      "path": "/lib/firmware"
+     },
+     {
+      "path": "/lib/mdev"
+     },
+     {
+      "path": "/lib/modules-load.d"
+     },
+     {
+      "path": "/lib/sysctl.d"
+     },
+     {
+      "path": "/lib/sysctl.d/00-alpine.conf",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1HpElzW1xEgmKfERtTy7oommnq6c="
+      }
+     },
+     {
+      "path": "/media"
+     },
+     {
+      "path": "/media/cdrom"
+     },
+     {
+      "path": "/media/floppy"
+     },
+     {
+      "path": "/media/usb"
+     },
+     {
+      "path": "/mnt"
+     },
+     {
+      "path": "/opt"
+     },
+     {
+      "path": "/proc"
+     },
+     {
+      "path": "/root",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "700"
+     },
+     {
+      "path": "/run"
+     },
+     {
+      "path": "/sbin"
+     },
+     {
+      "path": "/sbin/mkmntdirs",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "755",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1qjkdyRJcYblGC6RMqUR4Bdb5g10="
+      }
+     },
+     {
+      "path": "/srv"
+     },
+     {
+      "path": "/sys"
+     },
+     {
+      "path": "/tmp",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "1777"
+     },
+     {
+      "path": "/usr"
+     },
+     {
+      "path": "/usr/lib"
+     },
+     {
+      "path": "/usr/lib/modules-load.d"
+     },
+     {
+      "path": "/usr/local"
+     },
+     {
+      "path": "/usr/local/bin"
+     },
+     {
+      "path": "/usr/local/lib"
+     },
+     {
+      "path": "/usr/local/share"
+     },
+     {
+      "path": "/usr/sbin"
+     },
+     {
+      "path": "/usr/share"
+     },
+     {
+      "path": "/usr/share/man"
+     },
+     {
+      "path": "/usr/share/misc"
+     },
+     {
+      "path": "/var"
+     },
+     {
+      "path": "/var/run",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q11/SNZz/8cK2dSKK+cJpVrZIuF4Q="
+      }
+     },
+     {
+      "path": "/var/cache"
+     },
+     {
+      "path": "/var/cache/misc"
+     },
+     {
+      "path": "/var/empty",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "555"
+     },
+     {
+      "path": "/var/lib"
+     },
+     {
+      "path": "/var/lib/misc"
+     },
+     {
+      "path": "/var/local"
+     },
+     {
+      "path": "/var/lock"
+     },
+     {
+      "path": "/var/lock/subsys"
+     },
+     {
+      "path": "/var/log"
+     },
+     {
+      "path": "/var/mail"
+     },
+     {
+      "path": "/var/opt"
+     },
+     {
+      "path": "/var/spool"
+     },
+     {
+      "path": "/var/spool/mail",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1dzbdazYZA2nTzSIG3YyNw7d4Juc="
+      }
+     },
+     {
+      "path": "/var/spool/cron"
+     },
+     {
+      "path": "/var/spool/cron/crontabs",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1OFZt+ZMp7j0Gny0rqSKuWJyqYmA="
+      }
+     },
+     {
+      "path": "/var/tmp",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "1777"
+     }
+    ]
+   }
+  },
+  {
+   "id": "1a72ca3b88e1b67e",
+   "name": "alpine-keys",
+   "version": "2.4-r1",
+   "type": "apk",
+   "foundBy": "apkdb-cataloger",
+   "locations": [
+    {
+     "path": "/lib/apk/db/installed",
+     "layerID": "sha256:384090946841500a55056014422e92ca8cade558968a9249ee81df47c5fabb0f"
+    }
+   ],
+   "licenses": [
+    "MIT"
+   ],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:alpine-keys:alpine-keys:2.4-r1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:alpine-keys:alpine_keys:2.4-r1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:alpine_keys:alpine-keys:2.4-r1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:alpine_keys:alpine_keys:2.4-r1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:alpine:alpine-keys:2.4-r1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:alpine:alpine_keys:2.4-r1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:alpine/alpine-keys@2.4-r1?arch=x86_64&upstream=alpine-keys&distro=alpine-3.15.4",
+   "metadataType": "ApkMetadata",
+   "metadata": {
+    "package": "alpine-keys",
+    "originPackage": "alpine-keys",
+    "maintainer": "Natanael Copa <ncopa@alpinelinux.org>",
+    "version": "2.4-r1",
+    "license": "MIT",
+    "architecture": "x86_64",
+    "url": "https://alpinelinux.org",
+    "description": "Public keys for Alpine Linux packages",
+    "size": 13362,
+    "installedSize": 159744,
+    "pullDependencies": "",
+    "pullChecksum": "Q1kDF2stKo3e/RumlA8ZrRfCwdSv8=",
+    "gitCommitOfApkPort": "aab68f8c9ab434a46710de8e12fb3206e2930a59",
+    "files": [
+     {
+      "path": "/etc"
+     },
+     {
+      "path": "/etc/apk"
+     },
+     {
+      "path": "/etc/apk/keys"
+     },
+     {
+      "path": "/etc/apk/keys/alpine-devel@lists.alpinelinux.org-4a6a0840.rsa.pub",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1OvCFSO94z97c80mIDCxqGkh2Og4="
+      }
+     },
+     {
+      "path": "/etc/apk/keys/alpine-devel@lists.alpinelinux.org-5243ef4b.rsa.pub",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1v7YWZYzAWoclaLDI45jEguI7YN0="
+      }
+     },
+     {
+      "path": "/etc/apk/keys/alpine-devel@lists.alpinelinux.org-5261cecb.rsa.pub",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1NnGuDsdQOx4ZNYfB3N97eLyGPkI="
+      }
+     },
+     {
+      "path": "/etc/apk/keys/alpine-devel@lists.alpinelinux.org-6165ee59.rsa.pub",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1lZlTESNrelWTNkL/oQzmAU8a99A="
+      }
+     },
+     {
+      "path": "/etc/apk/keys/alpine-devel@lists.alpinelinux.org-61666e3f.rsa.pub",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1WNW6Sy87HpJ3IdemQy8pju33Kms="
+      }
+     },
+     {
+      "path": "/usr"
+     },
+     {
+      "path": "/usr/share"
+     },
+     {
+      "path": "/usr/share/apk"
+     },
+     {
+      "path": "/usr/share/apk/keys"
+     },
+     {
+      "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-4a6a0840.rsa.pub",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1OvCFSO94z97c80mIDCxqGkh2Og4="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-5243ef4b.rsa.pub",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1v7YWZYzAWoclaLDI45jEguI7YN0="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-524d27bb.rsa.pub",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1BTqS+H/UUyhQuzHwiBl47+BTKuU="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-5261cecb.rsa.pub",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1NnGuDsdQOx4ZNYfB3N97eLyGPkI="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-58199dcc.rsa.pub",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1Oaxdcsa6AYoPdLi0U4lO3J2we18="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-58cbb476.rsa.pub",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1yPq+su65ksNox3uXB+DR7P18+QU="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-58e4f17d.rsa.pub",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1MpZDNX0LeLHvSOwVUyXiXx11NN0="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-5e69ca50.rsa.pub",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1glCQ/eJbvA5xqcswdjFrWv5Fnk0="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-60ac2099.rsa.pub",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1XUdDEoNTtjlvrS+iunk6ziFgIpU="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-6165ee59.rsa.pub",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1lZlTESNrelWTNkL/oQzmAU8a99A="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-61666e3f.rsa.pub",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1WNW6Sy87HpJ3IdemQy8pju33Kms="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-616a9724.rsa.pub",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1I9Dy6hryacL2YWXg+KlE6WvwEd4="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-616abc23.rsa.pub",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1NSnsgmcMbU4g7j5JaNs0tVHpHVA="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-616ac3bc.rsa.pub",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1VaMBBk4Rxv6boPLKF+I085Q8y2E="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-616adfeb.rsa.pub",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q13hJBMHAUquPbp5jpAPFjQI2Y1vQ="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-616ae350.rsa.pub",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1V/a5P9pKRJb6tihE3e8O6xaPgLU="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-616db30d.rsa.pub",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q13wLJrcKQajql5a1p9Q45U+ZXENA="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/aarch64"
+     },
+     {
+      "path": "/usr/share/apk/keys/aarch64/alpine-devel@lists.alpinelinux.org-58199dcc.rsa.pub",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q17j9nWJkQ+wfIuVQzIFrmFZ7fSOc="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/aarch64/alpine-devel@lists.alpinelinux.org-616ae350.rsa.pub",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1snr+Q1UbfHyCr/cmmtVvMIS7SGs="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/armhf"
+     },
+     {
+      "path": "/usr/share/apk/keys/armhf/alpine-devel@lists.alpinelinux.org-524d27bb.rsa.pub",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1U9QtsdN+rYZ9Zh76EfXy00JZHMg="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/armhf/alpine-devel@lists.alpinelinux.org-616a9724.rsa.pub",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1bC+AdQ0qWBTmefXiI0PvmYOJoVQ="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/armv7"
+     },
+     {
+      "path": "/usr/share/apk/keys/armv7/alpine-devel@lists.alpinelinux.org-524d27bb.rsa.pub",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1U9QtsdN+rYZ9Zh76EfXy00JZHMg="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/armv7/alpine-devel@lists.alpinelinux.org-616adfeb.rsa.pub",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1xbIVu7ScwqGHxXGwI22aSe5OdUY="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/mips64"
+     },
+     {
+      "path": "/usr/share/apk/keys/mips64/alpine-devel@lists.alpinelinux.org-5e69ca50.rsa.pub",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1hCZdFx+LvzbLtPs753je78gEEBQ="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/ppc64le"
+     },
+     {
+      "path": "/usr/share/apk/keys/ppc64le/alpine-devel@lists.alpinelinux.org-58cbb476.rsa.pub",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1t21dhCLbTJmAHXSCeOMq/2vfSgo="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/ppc64le/alpine-devel@lists.alpinelinux.org-616abc23.rsa.pub",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1PS9zNIPJanC8qcsc5qarEWqhV5Q="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/riscv64"
+     },
+     {
+      "path": "/usr/share/apk/keys/riscv64/alpine-devel@lists.alpinelinux.org-60ac2099.rsa.pub",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1NVPbZavaXpsItFwQYDWbpor7yYE="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/riscv64/alpine-devel@lists.alpinelinux.org-616db30d.rsa.pub",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1U6tfuKRy5J8C6iaKPMZaT/e8tbA="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/s390x"
+     },
+     {
+      "path": "/usr/share/apk/keys/s390x/alpine-devel@lists.alpinelinux.org-58e4f17d.rsa.pub",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1sjbV2r2w0Ih2vwdzC4Jq6UI7cMQ="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/s390x/alpine-devel@lists.alpinelinux.org-616ac3bc.rsa.pub",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1l09xa7RnbOIC1dI9FqbaCfS/GXY="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/x86"
+     },
+     {
+      "path": "/usr/share/apk/keys/x86/alpine-devel@lists.alpinelinux.org-4a6a0840.rsa.pub",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1Ii51i7Nrc4uft14HhqugaUqdH64="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/x86/alpine-devel@lists.alpinelinux.org-5243ef4b.rsa.pub",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1Y49eVxhpvftbQ3yAdvlLfcrPLTU="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/x86/alpine-devel@lists.alpinelinux.org-61666e3f.rsa.pub",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1HjdvcVkpBZzr1aSe3p7oQfAtm/E="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/x86_64"
+     },
+     {
+      "path": "/usr/share/apk/keys/x86_64/alpine-devel@lists.alpinelinux.org-4a6a0840.rsa.pub",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1Ii51i7Nrc4uft14HhqugaUqdH64="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/x86_64/alpine-devel@lists.alpinelinux.org-5261cecb.rsa.pub",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1AUFY+fwSBTcrYetjT7NHvafrSQc="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/x86_64/alpine-devel@lists.alpinelinux.org-6165ee59.rsa.pub",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1qKA23VzMUDle+Dqnrr5Kz+Xvty4="
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "1c6e057c6965bdd6",
+   "name": "apk-tools",
+   "version": "2.12.7-r3",
+   "type": "apk",
+   "foundBy": "apkdb-cataloger",
+   "locations": [
+    {
+     "path": "/lib/apk/db/installed",
+     "layerID": "sha256:384090946841500a55056014422e92ca8cade558968a9249ee81df47c5fabb0f"
+    }
+   ],
+   "licenses": [
+    "GPL-2.0-only"
+   ],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:apk-tools:apk-tools:2.12.7-r3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apk-tools:apk_tools:2.12.7-r3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apk_tools:apk-tools:2.12.7-r3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apk_tools:apk_tools:2.12.7-r3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apk:apk-tools:2.12.7-r3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apk:apk_tools:2.12.7-r3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:alpine/apk-tools@2.12.7-r3?arch=x86_64&upstream=apk-tools&distro=alpine-3.15.4",
+   "metadataType": "ApkMetadata",
+   "metadata": {
+    "package": "apk-tools",
+    "originPackage": "apk-tools",
+    "maintainer": "Natanael Copa <ncopa@alpinelinux.org>",
+    "version": "2.12.7-r3",
+    "license": "GPL-2.0-only",
+    "architecture": "x86_64",
+    "url": "https://gitlab.alpinelinux.org/alpine/apk-tools",
+    "description": "Alpine Package Keeper - package manager for alpine",
+    "size": 120377,
+    "installedSize": 311296,
+    "pullDependencies": "musl>=1.2 ca-certificates-bundle so:libc.musl-x86_64.so.1 so:libcrypto.so.1.1 so:libssl.so.1.1 so:libz.so.1",
+    "pullChecksum": "Q13fPd+FRXaLwyNklVn+quFWDyknM=",
+    "gitCommitOfApkPort": "1ac3c1bb29eeff083c621cf6b27ad12ab93cb73a",
+    "files": [
+     {
+      "path": "/etc"
+     },
+     {
+      "path": "/etc/apk"
+     },
+     {
+      "path": "/etc/apk/keys"
+     },
+     {
+      "path": "/etc/apk/protected_paths.d"
+     },
+     {
+      "path": "/lib"
+     },
+     {
+      "path": "/lib/libapk.so.3.12.0",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "755",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1S5DL6DFOmjjNxAGNssfj4nUi8XU="
+      }
+     },
+     {
+      "path": "/sbin"
+     },
+     {
+      "path": "/sbin/apk",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "755",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1O1pBUB2kTM/LqL8d0T98CEbZYqw="
+      }
+     },
+     {
+      "path": "/var"
+     },
+     {
+      "path": "/var/cache"
+     },
+     {
+      "path": "/var/cache/misc"
+     },
+     {
+      "path": "/var/lib"
+     },
+     {
+      "path": "/var/lib/apk"
+     }
+    ]
+   }
+  },
+  {
+   "id": "a52702612aa16de3",
+   "name": "busybox",
+   "version": "1.34.1-r5",
+   "type": "apk",
+   "foundBy": "apkdb-cataloger",
+   "locations": [
+    {
+     "path": "/lib/apk/db/installed",
+     "layerID": "sha256:384090946841500a55056014422e92ca8cade558968a9249ee81df47c5fabb0f"
+    }
+   ],
+   "licenses": [
+    "GPL-2.0-only"
+   ],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:busybox:busybox:1.34.1-r5:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:alpine/busybox@1.34.1-r5?arch=x86_64&upstream=busybox&distro=alpine-3.15.4",
+   "metadataType": "ApkMetadata",
+   "metadata": {
+    "package": "busybox",
+    "originPackage": "busybox",
+    "maintainer": "Natanael Copa <ncopa@alpinelinux.org>",
+    "version": "1.34.1-r5",
+    "license": "GPL-2.0-only",
+    "architecture": "x86_64",
+    "url": "https://busybox.net/",
+    "description": "Size optimized toolbox of many common UNIX utilities",
+    "size": 500678,
+    "installedSize": 946176,
+    "pullDependencies": "so:libc.musl-x86_64.so.1",
+    "pullChecksum": "Q1LUyPKIKzUK6vpJcBj+O404efawg=",
+    "gitCommitOfApkPort": "2745de7e1b09e663b477a8141b84f7d81a049963",
+    "files": [
+     {
+      "path": "/bin"
+     },
+     {
+      "path": "/bin/busybox",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "755",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1yXbwH7S4azJF7263bArVBVo23/g="
+      }
+     },
+     {
+      "path": "/bin/sh",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1pcfTfDNEbNKQc2s1tia7da05M8Q="
+      }
+     },
+     {
+      "path": "/etc"
+     },
+     {
+      "path": "/etc/securetty",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1mB95Hq2NUTZ599RDiSsj9w5FrOU="
+      }
+     },
+     {
+      "path": "/etc/udhcpd.conf",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1EgLFjj67ou3eMqp4m3r2ZjnQ7QU="
+      }
+     },
+     {
+      "path": "/etc/logrotate.d"
+     },
+     {
+      "path": "/etc/logrotate.d/acpid",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1TylyCINVmnS+A/Tead4vZhE7Bks="
+      }
+     },
+     {
+      "path": "/etc/network"
+     },
+     {
+      "path": "/etc/network/if-down.d"
+     },
+     {
+      "path": "/etc/network/if-post-down.d"
+     },
+     {
+      "path": "/etc/network/if-post-up.d"
+     },
+     {
+      "path": "/etc/network/if-pre-down.d"
+     },
+     {
+      "path": "/etc/network/if-pre-up.d"
+     },
+     {
+      "path": "/etc/network/if-up.d"
+     },
+     {
+      "path": "/etc/network/if-up.d/dad",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "775",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1ORf+lPRKuYgdkBBcKoevR1t60Q4="
+      }
+     },
+     {
+      "path": "/sbin"
+     },
+     {
+      "path": "/tmp",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "1777"
+     },
+     {
+      "path": "/usr"
+     },
+     {
+      "path": "/usr/sbin"
+     },
+     {
+      "path": "/usr/share"
+     },
+     {
+      "path": "/usr/share/udhcpc"
+     },
+     {
+      "path": "/usr/share/udhcpc/default.script",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "755",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1t9vir/ZrX3nbSIYT9BDLWZenkVQ="
+      }
+     },
+     {
+      "path": "/var"
+     },
+     {
+      "path": "/var/cache"
+     },
+     {
+      "path": "/var/cache/misc"
+     },
+     {
+      "path": "/var/lib"
+     },
+     {
+      "path": "/var/lib/udhcpd"
+     }
+    ]
+   }
+  },
+  {
+   "id": "2c45222923d30fc5",
+   "name": "ca-certificates-bundle",
+   "version": "20211220-r0",
+   "type": "apk",
+   "foundBy": "apkdb-cataloger",
+   "locations": [
+    {
+     "path": "/lib/apk/db/installed",
+     "layerID": "sha256:384090946841500a55056014422e92ca8cade558968a9249ee81df47c5fabb0f"
+    }
+   ],
+   "licenses": [
+    "MPL-2.0",
+    "AND",
+    "MIT"
+   ],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:ca-certificates-bundle:ca-certificates-bundle:20211220-r0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ca-certificates-bundle:ca_certificates_bundle:20211220-r0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ca_certificates_bundle:ca-certificates-bundle:20211220-r0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ca_certificates_bundle:ca_certificates_bundle:20211220-r0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ca-certificates:ca-certificates-bundle:20211220-r0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ca-certificates:ca_certificates_bundle:20211220-r0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ca_certificates:ca-certificates-bundle:20211220-r0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ca_certificates:ca_certificates_bundle:20211220-r0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ca:ca-certificates-bundle:20211220-r0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ca:ca_certificates_bundle:20211220-r0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:alpine/ca-certificates-bundle@20211220-r0?arch=x86_64&upstream=ca-certificates&distro=alpine-3.15.4",
+   "metadataType": "ApkMetadata",
+   "metadata": {
+    "package": "ca-certificates-bundle",
+    "originPackage": "ca-certificates",
+    "maintainer": "Natanael Copa <ncopa@alpinelinux.org>",
+    "version": "20211220-r0",
+    "license": "MPL-2.0 AND MIT",
+    "architecture": "x86_64",
+    "url": "https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/",
+    "description": "Pre generated bundle of Mozilla certificates",
+    "size": 119748,
+    "installedSize": 221184,
+    "pullDependencies": "",
+    "pullChecksum": "Q1SVAWuWHdPHvbBhLTkAZ60/1WsmI=",
+    "gitCommitOfApkPort": "709b70bcb72738cfedc510bba08141b012038167",
+    "files": [
+     {
+      "path": "/etc"
+     },
+     {
+      "path": "/etc/ssl"
+     },
+     {
+      "path": "/etc/ssl/cert.pem",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1Nj6gTBdkZpTFW/obJGdpfvK0StA="
+      }
+     },
+     {
+      "path": "/etc/ssl/certs"
+     },
+     {
+      "path": "/etc/ssl/certs/ca-certificates.crt",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1m2cJofoNZtCCK41yvjTgX4K7dvs="
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "7a89e690ac55b537",
+   "name": "github.com/andybalholm/brotli",
+   "version": "v1.0.2",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/opt/api-firewall/api-firewall",
+     "layerID": "sha256:384090946841500a55056014422e92ca8cade558968a9249ee81df47c5fabb0f"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:andybalholm:brotli:v1.0.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/andybalholm/brotli@v1.0.2",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.17.4",
+    "architecture": "x86_64",
+    "h1Digest": "h1:JKnhI/XQ75uFBTiuzXpzFrUriDPiZjlOSzh6wXogP0E="
+   }
+  },
+  {
+   "id": "e815073834b6ad76",
+   "name": "github.com/ardanlabs/conf",
+   "version": "v1.5.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/opt/api-firewall/api-firewall",
+     "layerID": "sha256:384090946841500a55056014422e92ca8cade558968a9249ee81df47c5fabb0f"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:ardanlabs:conf:v1.5.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/ardanlabs/conf@v1.5.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.17.4",
+    "architecture": "x86_64",
+    "h1Digest": "h1:5TwP6Wu9Xi07eLFEpiCUF3oQXh9UzHMDVnD3u/I5d5c="
+   }
+  },
+  {
+   "id": "b275f6951244608c",
+   "name": "github.com/cespare/xxhash/v2",
+   "version": "v2.1.1",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/opt/api-firewall/api-firewall",
+     "layerID": "sha256:384090946841500a55056014422e92ca8cade558968a9249ee81df47c5fabb0f"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:cespare:xxhash:v2.1.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/cespare/xxhash/v2@v2.1.1",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.17.4",
+    "architecture": "x86_64",
+    "h1Digest": "h1:6MnRN8NT7+YBpUIWxHtefFZOKTAPgGjpQSxqLNn0+qY="
+   }
+  },
+  {
+   "id": "7320e0010652ca86",
+   "name": "github.com/dgraph-io/ristretto",
+   "version": "v0.1.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/opt/api-firewall/api-firewall",
+     "layerID": "sha256:384090946841500a55056014422e92ca8cade558968a9249ee81df47c5fabb0f"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:dgraph-io:ristretto:v0.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:dgraph_io:ristretto:v0.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:dgraph:ristretto:v0.1.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/dgraph-io/ristretto@v0.1.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.17.4",
+    "architecture": "x86_64",
+    "h1Digest": "h1:Jv3CGQHp9OjuMBSne1485aDpUkTKEcUqF+jm/LuerPI="
+   }
+  },
+  {
+   "id": "8df2046afe2733ed",
+   "name": "github.com/dustin/go-humanize",
+   "version": "v1.0.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/opt/api-firewall/api-firewall",
+     "layerID": "sha256:384090946841500a55056014422e92ca8cade558968a9249ee81df47c5fabb0f"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:dustin:go-humanize:v1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:dustin:go_humanize:v1.0.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/dustin/go-humanize@v1.0.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.17.4",
+    "architecture": "x86_64",
+    "h1Digest": "h1:VSnTsYCnlFHaM2/igO1h6X3HA71jcobQuxemgkq4zYo="
+   }
+  },
+  {
+   "id": "c680956363259f43",
+   "name": "github.com/fasthttp/router",
+   "version": "v1.4.5",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/opt/api-firewall/api-firewall",
+     "layerID": "sha256:384090946841500a55056014422e92ca8cade558968a9249ee81df47c5fabb0f"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:fasthttp:router:v1.4.5:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/fasthttp/router@v1.4.5",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.17.4",
+    "architecture": "x86_64",
+    "h1Digest": "h1:YZonsKCssEwEi3veDMhL6okIx550qegAiuXAK8NnM3Y="
+   }
+  },
+  {
+   "id": "df92cba3e8a6b83",
+   "name": "github.com/getkin/kin-openapi",
+   "version": "v0.88.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/opt/api-firewall/api-firewall",
+     "layerID": "sha256:384090946841500a55056014422e92ca8cade558968a9249ee81df47c5fabb0f"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:getkin:kin-openapi:v0.88.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:getkin:kin_openapi:v0.88.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/getkin/kin-openapi@v0.88.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.17.4",
+    "architecture": "x86_64",
+    "h1Digest": "h1:BjJ2JERWJbYE1o1RGEj/5LmR5qw7ecfl3O3su4ImR+0="
+   }
+  },
+  {
+   "id": "a329f9fe0cb03ae5",
+   "name": "github.com/ghodss/yaml",
+   "version": "v1.0.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/opt/api-firewall/api-firewall",
+     "layerID": "sha256:384090946841500a55056014422e92ca8cade558968a9249ee81df47c5fabb0f"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:ghodss:yaml:v1.0.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/ghodss/yaml@v1.0.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.17.4",
+    "architecture": "x86_64",
+    "h1Digest": "h1:wQHKEahhL6wmXdzwWG11gIVCkOv05bNOh+Rxn0yngAk="
+   }
+  },
+  {
+   "id": "3bb646e0c69180d3",
+   "name": "github.com/go-openapi/jsonpointer",
+   "version": "v0.19.5",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/opt/api-firewall/api-firewall",
+     "layerID": "sha256:384090946841500a55056014422e92ca8cade558968a9249ee81df47c5fabb0f"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:go-openapi:jsonpointer:v0.19.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:go_openapi:jsonpointer:v0.19.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:go:jsonpointer:v0.19.5:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/go-openapi/jsonpointer@v0.19.5",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.17.4",
+    "architecture": "x86_64",
+    "h1Digest": "h1:gZr+CIYByUqjcgeLXnQu2gHYQC9o73G2XUeOFYEICuY="
+   }
+  },
+  {
+   "id": "99b5757a6d6897bc",
+   "name": "github.com/go-openapi/swag",
+   "version": "v0.19.5",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/opt/api-firewall/api-firewall",
+     "layerID": "sha256:384090946841500a55056014422e92ca8cade558968a9249ee81df47c5fabb0f"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:go-openapi:swag:v0.19.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:go_openapi:swag:v0.19.5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:go:swag:v0.19.5:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/go-openapi/swag@v0.19.5",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.17.4",
+    "architecture": "x86_64",
+    "h1Digest": "h1:lTz6Ys4CmqqCQmZPBlbQENR1/GucA2bzYTE12Pw4tFY="
+   }
+  },
+  {
+   "id": "bdd4f089e23d7d26",
+   "name": "github.com/go-playground/locales",
+   "version": "v0.14.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/opt/api-firewall/api-firewall",
+     "layerID": "sha256:384090946841500a55056014422e92ca8cade558968a9249ee81df47c5fabb0f"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:go-playground:locales:v0.14.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:go_playground:locales:v0.14.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:go:locales:v0.14.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/go-playground/locales@v0.14.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.17.4",
+    "architecture": "x86_64",
+    "h1Digest": "h1:u50s323jtVGugKlcYeyzC0etD1HifMjqmJqb8WugfUU="
+   }
+  },
+  {
+   "id": "89940426911e4acc",
+   "name": "github.com/go-playground/universal-translator",
+   "version": "v0.18.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/opt/api-firewall/api-firewall",
+     "layerID": "sha256:384090946841500a55056014422e92ca8cade558968a9249ee81df47c5fabb0f"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:go-playground:universal-translator:v0.18.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:go-playground:universal_translator:v0.18.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:go_playground:universal-translator:v0.18.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:go_playground:universal_translator:v0.18.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:go:universal-translator:v0.18.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:go:universal_translator:v0.18.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/go-playground/universal-translator@v0.18.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.17.4",
+    "architecture": "x86_64",
+    "h1Digest": "h1:82dyy6p4OuJq4/CByFNOn/jYrnRPArHwAcmLoJZxyho="
+   }
+  },
+  {
+   "id": "85415ff5091d7d3a",
+   "name": "github.com/go-playground/validator",
+   "version": "v9.31.0+incompatible",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/opt/api-firewall/api-firewall",
+     "layerID": "sha256:384090946841500a55056014422e92ca8cade558968a9249ee81df47c5fabb0f"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:go-playground:validator:v9.31.0\\+incompatible:*:*:*:*:*:*:*",
+    "cpe:2.3:a:go_playground:validator:v9.31.0\\+incompatible:*:*:*:*:*:*:*",
+    "cpe:2.3:a:go:validator:v9.31.0\\+incompatible:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/go-playground/validator@v9.31.0+incompatible",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.17.4",
+    "architecture": "x86_64",
+    "h1Digest": "h1:UA72EPEogEnq76ehGdEDp4Mit+3FDh548oRqwVgNsHA="
+   }
+  },
+  {
+   "id": "e7d69e1852ed42fb",
+   "name": "github.com/golang-jwt/jwt",
+   "version": "v3.2.2+incompatible",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/opt/api-firewall/api-firewall",
+     "layerID": "sha256:384090946841500a55056014422e92ca8cade558968a9249ee81df47c5fabb0f"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:golang-jwt:jwt:v3.2.2\\+incompatible:*:*:*:*:*:*:*",
+    "cpe:2.3:a:golang_jwt:jwt:v3.2.2\\+incompatible:*:*:*:*:*:*:*",
+    "cpe:2.3:a:golang:jwt:v3.2.2\\+incompatible:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/golang-jwt/jwt@v3.2.2+incompatible",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.17.4",
+    "architecture": "x86_64",
+    "h1Digest": "h1:IfV12K8xAKAnZqdXVzCZ+TOjboZ2keLg81eXfW3O+oY="
+   }
+  },
+  {
+   "id": "ee4326e6fa6a45e",
+   "name": "github.com/golang/glog",
+   "version": "v0.0.0-20160126235308-23def4e6c14b",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/opt/api-firewall/api-firewall",
+     "layerID": "sha256:384090946841500a55056014422e92ca8cade558968a9249ee81df47c5fabb0f"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:golang:glog:v0.0.0-20160126235308-23def4e6c14b:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/golang/glog@v0.0.0-20160126235308-23def4e6c14b",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.17.4",
+    "architecture": "x86_64",
+    "h1Digest": "h1:VKtxabqXZkF25pY9ekfRL6a582T4P37/31XEstQ5p58="
+   }
+  },
+  {
+   "id": "4eb7bc2eb5d40ac6",
+   "name": "github.com/karlseguin/ccache/v2",
+   "version": "v2.0.8",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/opt/api-firewall/api-firewall",
+     "layerID": "sha256:384090946841500a55056014422e92ca8cade558968a9249ee81df47c5fabb0f"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:karlseguin:ccache:v2.0.8:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/karlseguin/ccache/v2@v2.0.8",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.17.4",
+    "architecture": "x86_64",
+    "h1Digest": "h1:lT38cE//uyf6KcFok0rlgXtGFBWxkI6h/qg4tbFyDnA="
+   }
+  },
+  {
+   "id": "59077afea83edbc6",
+   "name": "github.com/klauspost/compress",
+   "version": "v1.13.4",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/opt/api-firewall/api-firewall",
+     "layerID": "sha256:384090946841500a55056014422e92ca8cade558968a9249ee81df47c5fabb0f"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:klauspost:compress:v1.13.4:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/klauspost/compress@v1.13.4",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.17.4",
+    "architecture": "x86_64",
+    "h1Digest": "h1:0zhec2I8zGnjWcKyLl6i3gPqKANCCn5e9xmviEEeX6s="
+   }
+  },
+  {
+   "id": "53e991e0f4badd51",
+   "name": "github.com/leodido/go-urn",
+   "version": "v1.2.1",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/opt/api-firewall/api-firewall",
+     "layerID": "sha256:384090946841500a55056014422e92ca8cade558968a9249ee81df47c5fabb0f"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:leodido:go-urn:v1.2.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:leodido:go_urn:v1.2.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/leodido/go-urn@v1.2.1",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.17.4",
+    "architecture": "x86_64",
+    "h1Digest": "h1:BqpAaACuzVSgi/VLzGZIobT2z4v53pjosyNd9Yv6n/w="
+   }
+  },
+  {
+   "id": "da6d95988053dfe9",
+   "name": "github.com/mailru/easyjson",
+   "version": "v0.0.0-20190626092158-b2ccc519800e",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/opt/api-firewall/api-firewall",
+     "layerID": "sha256:384090946841500a55056014422e92ca8cade558968a9249ee81df47c5fabb0f"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:mailru:easyjson:v0.0.0-20190626092158-b2ccc519800e:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/mailru/easyjson@v0.0.0-20190626092158-b2ccc519800e",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.17.4",
+    "architecture": "x86_64",
+    "h1Digest": "h1:hB2xlXdHp/pmPZq0y3QnmWAArdw9PqbmotexnWx/FU8="
+   }
+  },
+  {
+   "id": "629dd3caccdac64e",
+   "name": "github.com/pkg/errors",
+   "version": "v0.9.1",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/opt/api-firewall/api-firewall",
+     "layerID": "sha256:384090946841500a55056014422e92ca8cade558968a9249ee81df47c5fabb0f"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:pkg:errors:v0.9.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/pkg/errors@v0.9.1",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.17.4",
+    "architecture": "x86_64",
+    "h1Digest": "h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4="
+   }
+  },
+  {
+   "id": "9ac2ac48666b0263",
+   "name": "github.com/savsgio/gotils",
+   "version": "v0.0.0-20211223103454-d0aaa54c5899",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/opt/api-firewall/api-firewall",
+     "layerID": "sha256:384090946841500a55056014422e92ca8cade558968a9249ee81df47c5fabb0f"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:savsgio:gotils:v0.0.0-20211223103454-d0aaa54c5899:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/savsgio/gotils@v0.0.0-20211223103454-d0aaa54c5899",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.17.4",
+    "architecture": "x86_64",
+    "h1Digest": "h1:Orn7s+r1raRTBKLSc9DmbktTT04sL+vkzsbRD2Q8rOI="
+   }
+  },
+  {
+   "id": "b9bb1fd2cfa95af3",
+   "name": "github.com/sirupsen/logrus",
+   "version": "v1.8.1",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/opt/api-firewall/api-firewall",
+     "layerID": "sha256:384090946841500a55056014422e92ca8cade558968a9249ee81df47c5fabb0f"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:sirupsen:logrus:v1.8.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/sirupsen/logrus@v1.8.1",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.17.4",
+    "architecture": "x86_64",
+    "h1Digest": "h1:dJKuHgqk1NNQlqoA6BTlM1Wf9DOH3NBjQyu0h9+AZZE="
+   }
+  },
+  {
+   "id": "1dbbfd9bfb4a7fc9",
+   "name": "github.com/valyala/bytebufferpool",
+   "version": "v1.0.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/opt/api-firewall/api-firewall",
+     "layerID": "sha256:384090946841500a55056014422e92ca8cade558968a9249ee81df47c5fabb0f"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:valyala:bytebufferpool:v1.0.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/valyala/bytebufferpool@v1.0.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.17.4",
+    "architecture": "x86_64",
+    "h1Digest": "h1:GqA5TC/0021Y/b9FG4Oi9Mr3q7XYx6KllzawFIhcdPw="
+   }
+  },
+  {
+   "id": "52bd22e1d426a641",
+   "name": "github.com/valyala/fasthttp",
+   "version": "v1.32.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/opt/api-firewall/api-firewall",
+     "layerID": "sha256:384090946841500a55056014422e92ca8cade558968a9249ee81df47c5fabb0f"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:valyala:fasthttp:v1.32.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/valyala/fasthttp@v1.32.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.17.4",
+    "architecture": "x86_64",
+    "h1Digest": "h1:keswgWzyKyNIIjz2a7JmCYHOOIkRp6HMx9oTV6QrZWY="
+   }
+  },
+  {
+   "id": "1c3975b450247e1d",
+   "name": "github.com/valyala/fastjson",
+   "version": "v1.6.3",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/opt/api-firewall/api-firewall",
+     "layerID": "sha256:384090946841500a55056014422e92ca8cade558968a9249ee81df47c5fabb0f"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:valyala:fastjson:v1.6.3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/valyala/fastjson@v1.6.3",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.17.4",
+    "architecture": "x86_64",
+    "h1Digest": "h1:tAKFnnwmeMGPbwJ7IwxcTPCNr3uIzoIj3/Fh90ra4xc="
+   }
+  },
+  {
+   "id": "9f61c3473acdd9bb",
+   "name": "github.com/wallarm/api-firewall",
+   "version": "(devel)",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/opt/api-firewall/api-firewall",
+     "layerID": "sha256:384090946841500a55056014422e92ca8cade558968a9249ee81df47c5fabb0f"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:wallarm:api-firewall:\\(devel\\):*:*:*:*:*:*:*",
+    "cpe:2.3:a:wallarm:api_firewall:\\(devel\\):*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/wallarm/api-firewall@(devel)",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.17.4",
+    "architecture": "x86_64"
+   }
+  },
+  {
+   "id": "f2ae753715d2d4d1",
+   "name": "golang.org/x/sys",
+   "version": "v0.0.0-20210514084401-e8d321eab015",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/opt/api-firewall/api-firewall",
+     "layerID": "sha256:384090946841500a55056014422e92ca8cade558968a9249ee81df47c5fabb0f"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:golang:x\\/sys:v0.0.0-20210514084401-e8d321eab015:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/golang.org/x/sys@v0.0.0-20210514084401-e8d321eab015",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.17.4",
+    "architecture": "x86_64",
+    "h1Digest": "h1:hZR0X1kPW+nwyJ9xRxqZk1vx5RUObAPBdKVvXPDUH/E="
+   }
+  },
+  {
+   "id": "3f63295baf0566da",
+   "name": "gopkg.in/yaml.v2",
+   "version": "v2.3.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/opt/api-firewall/api-firewall",
+     "layerID": "sha256:384090946841500a55056014422e92ca8cade558968a9249ee81df47c5fabb0f"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [],
+   "purl": "pkg:golang/gopkg.in/yaml.v2@v2.3.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.17.4",
+    "architecture": "x86_64",
+    "h1Digest": "h1:clyUAQHOM3G0M3f5vQj7LuJrETvjVot3Z5el9nffUtU="
+   }
+  },
+  {
+   "id": "e87a79fdaecaabd2",
+   "name": "libc-utils",
+   "version": "0.7.2-r3",
+   "type": "apk",
+   "foundBy": "apkdb-cataloger",
+   "locations": [
+    {
+     "path": "/lib/apk/db/installed",
+     "layerID": "sha256:384090946841500a55056014422e92ca8cade558968a9249ee81df47c5fabb0f"
+    }
+   ],
+   "licenses": [
+    "BSD-2-Clause",
+    "AND",
+    "BSD-3-Clause"
+   ],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:libc-utils:libc-utils:0.7.2-r3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:libc-utils:libc_utils:0.7.2-r3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:libc_utils:libc-utils:0.7.2-r3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:libc_utils:libc_utils:0.7.2-r3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:libc:libc-utils:0.7.2-r3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:libc:libc_utils:0.7.2-r3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:alpine/libc-utils@0.7.2-r3?arch=x86_64&upstream=libc-dev&distro=alpine-3.15.4",
+   "metadataType": "ApkMetadata",
+   "metadata": {
+    "package": "libc-utils",
+    "originPackage": "libc-dev",
+    "maintainer": "Natanael Copa <ncopa@alpinelinux.org>",
+    "version": "0.7.2-r3",
+    "license": "BSD-2-Clause AND BSD-3-Clause",
+    "architecture": "x86_64",
+    "url": "https://alpinelinux.org",
+    "description": "Meta package to pull in correct libc",
+    "size": 1485,
+    "installedSize": 4096,
+    "pullDependencies": "musl-utils",
+    "pullChecksum": "Q1eY3j67V/Pij0CAgHRpNfIToJlyI=",
+    "gitCommitOfApkPort": "60424133be2e79bbfeff3d58147a22886f817ce2",
+    "files": []
+   }
+  },
+  {
+   "id": "17c6fbb0cafbbe57",
+   "name": "libcrypto1.1",
+   "version": "1.1.1n-r0",
+   "type": "apk",
+   "foundBy": "apkdb-cataloger",
+   "locations": [
+    {
+     "path": "/lib/apk/db/installed",
+     "layerID": "sha256:384090946841500a55056014422e92ca8cade558968a9249ee81df47c5fabb0f"
+    }
+   ],
+   "licenses": [
+    "OpenSSL"
+   ],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:libcrypto1.1:libcrypto1.1:1.1.1n-r0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:alpine/libcrypto1.1@1.1.1n-r0?arch=x86_64&upstream=openssl&distro=alpine-3.15.4",
+   "metadataType": "ApkMetadata",
+   "metadata": {
+    "package": "libcrypto1.1",
+    "originPackage": "openssl",
+    "maintainer": "Timo Teras <timo.teras@iki.fi>",
+    "version": "1.1.1n-r0",
+    "license": "OpenSSL",
+    "architecture": "x86_64",
+    "url": "https://www.openssl.org/",
+    "description": "Crypto library from openssl",
+    "size": 1208228,
+    "installedSize": 2740224,
+    "pullDependencies": "so:libc.musl-x86_64.so.1",
+    "pullChecksum": "Q1rAsLcbY96T+Tqou0MH0yPQ11hGQ=",
+    "gitCommitOfApkPort": "455e966899a9358fc94f5bce633afe8a1942095c",
+    "files": [
+     {
+      "path": "/etc"
+     },
+     {
+      "path": "/etc/ssl1.1"
+     },
+     {
+      "path": "/etc/ssl1.1/cert.pem",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1OeUyODYWe2hBwBm0qws2oDW/WQc="
+      }
+     },
+     {
+      "path": "/etc/ssl1.1/certs",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1NoBF7RMIiT9fCXLj/mbDh+pnL9o="
+      }
+     },
+     {
+      "path": "/etc/ssl1.1/ct_log_list.cnf",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1a7VPR85wruXFmNFZE/DBa0Pyzq0="
+      }
+     },
+     {
+      "path": "/etc/ssl1.1/ct_log_list.cnf.dist",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1olh8TpdAi2QnTl4FK3TjdUiSwTo="
+      }
+     },
+     {
+      "path": "/etc/ssl1.1/openssl.cnf",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1wGuxVEOK9iGLj1i8D3BSBnT7MJA="
+      }
+     },
+     {
+      "path": "/etc/ssl1.1/openssl.cnf.dist",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1wGuxVEOK9iGLj1i8D3BSBnT7MJA="
+      }
+     },
+     {
+      "path": "/etc/ssl1.1/private"
+     },
+     {
+      "path": "/lib"
+     },
+     {
+      "path": "/lib/libcrypto.so.1.1",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "755",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q100hrOYrcWzCv0KG8HnRwpHOTFsE="
+      }
+     },
+     {
+      "path": "/usr"
+     },
+     {
+      "path": "/usr/lib"
+     },
+     {
+      "path": "/usr/lib/libcrypto.so.1.1",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1T2si+c7ts7sgDxQYve4B3i1Dgo0="
+      }
+     },
+     {
+      "path": "/usr/lib/engines-1.1"
+     },
+     {
+      "path": "/usr/lib/engines-1.1/afalg.so",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "755",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1Lpo2/RLTf5VlHmUQXyv5c1POpGY="
+      }
+     },
+     {
+      "path": "/usr/lib/engines-1.1/capi.so",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "755",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1llPqHOu3yeATJhVmax3aJV9w48w="
+      }
+     },
+     {
+      "path": "/usr/lib/engines-1.1/padlock.so",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "755",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1/GhjEQ17KSVbgypD06U5U2swksY="
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "6815189add643d1f",
+   "name": "libidn2",
+   "version": "2.3.2-r0",
+   "type": "apk",
+   "foundBy": "apkdb-cataloger",
+   "locations": [
+    {
+     "path": "/lib/apk/db/installed",
+     "layerID": "sha256:384090946841500a55056014422e92ca8cade558968a9249ee81df47c5fabb0f"
+    }
+   ],
+   "licenses": [
+    "GPL-2.0-or-later",
+    "GPL-3.0-or-later",
+    "LGPL-3.0-or-later"
+   ],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:libidn2:libidn2:2.3.2-r0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:alpine/libidn2@2.3.2-r0?arch=x86_64&upstream=libidn2&distro=alpine-3.15.4",
+   "metadataType": "ApkMetadata",
+   "metadata": {
+    "package": "libidn2",
+    "originPackage": "libidn2",
+    "maintainer": "Drew DeVault <sir@cmpwn.com>",
+    "version": "2.3.2-r0",
+    "license": "GPL-2.0-or-later GPL-3.0-or-later LGPL-3.0-or-later",
+    "architecture": "x86_64",
+    "url": "https://www.gnu.org/software/libidn#libidn2",
+    "description": "Encode/Decode library for internationalized domain names",
+    "size": 92869,
+    "installedSize": 217088,
+    "pullDependencies": "so:libc.musl-x86_64.so.1 so:libunistring.so.2",
+    "pullChecksum": "Q1FiYO2dPmicR7ODBjvIYcUDx0ODM=",
+    "gitCommitOfApkPort": "397a6483212be5a0d69722546fab9035b0db2302",
+    "files": [
+     {
+      "path": "/usr"
+     },
+     {
+      "path": "/usr/bin"
+     },
+     {
+      "path": "/usr/bin/idn2",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "755",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1EmnNFL6r+wI/KWg6BwIrxq12/1o="
+      }
+     },
+     {
+      "path": "/usr/lib"
+     },
+     {
+      "path": "/usr/lib/libidn2.so.0",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1wneBsONYb3TmmE3/TuR+1ogKkBs="
+      }
+     },
+     {
+      "path": "/usr/lib/libidn2.so.0.3.7",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "755",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1tmAXG33LmUOUKNVWGnp0ARQ2oQc="
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "6d0658c2b7237ea2",
+   "name": "libretls",
+   "version": "3.3.4-r3",
+   "type": "apk",
+   "foundBy": "apkdb-cataloger",
+   "locations": [
+    {
+     "path": "/lib/apk/db/installed",
+     "layerID": "sha256:384090946841500a55056014422e92ca8cade558968a9249ee81df47c5fabb0f"
+    }
+   ],
+   "licenses": [
+    "ISC",
+    "AND",
+    "(BSD-3-Clause",
+    "OR",
+    "MIT)"
+   ],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:libretls:libretls:3.3.4-r3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:alpine/libretls@3.3.4-r3?arch=x86_64&upstream=libretls&distro=alpine-3.15.4",
+   "metadataType": "ApkMetadata",
+   "metadata": {
+    "package": "libretls",
+    "originPackage": "libretls",
+    "maintainer": "Ariadne Conill <ariadne@dereferenced.org>",
+    "version": "3.3.4-r3",
+    "license": "ISC AND (BSD-3-Clause OR MIT)",
+    "architecture": "x86_64",
+    "url": "https://git.causal.agency/libretls/",
+    "description": "port of libtls from libressl to openssl",
+    "size": 29185,
+    "installedSize": 86016,
+    "pullDependencies": "ca-certificates-bundle so:libc.musl-x86_64.so.1 so:libcrypto.so.1.1 so:libssl.so.1.1",
+    "pullChecksum": "Q1Z9/v5UVsRRkrYNdq3pjFAbCugU8=",
+    "gitCommitOfApkPort": "91c7a9f3aa296b6d462c5634e7658ebdbff65bb9",
+    "files": [
+     {
+      "path": "/usr"
+     },
+     {
+      "path": "/usr/lib"
+     },
+     {
+      "path": "/usr/lib/libtls.so.2",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1nNEC9T/t6W+Ecm0DxqMUnRvcT6k="
+      }
+     },
+     {
+      "path": "/usr/lib/libtls.so.2.0.3",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "755",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1eSWnmusScl6wGcktkw2/8cr9zFE="
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "4b106e6c3fd74c1c",
+   "name": "libssl1.1",
+   "version": "1.1.1n-r0",
+   "type": "apk",
+   "foundBy": "apkdb-cataloger",
+   "locations": [
+    {
+     "path": "/lib/apk/db/installed",
+     "layerID": "sha256:384090946841500a55056014422e92ca8cade558968a9249ee81df47c5fabb0f"
+    }
+   ],
+   "licenses": [
+    "OpenSSL"
+   ],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:libssl1.1:libssl1.1:1.1.1n-r0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:alpine/libssl1.1@1.1.1n-r0?arch=x86_64&upstream=openssl&distro=alpine-3.15.4",
+   "metadataType": "ApkMetadata",
+   "metadata": {
+    "package": "libssl1.1",
+    "originPackage": "openssl",
+    "maintainer": "Timo Teras <timo.teras@iki.fi>",
+    "version": "1.1.1n-r0",
+    "license": "OpenSSL",
+    "architecture": "x86_64",
+    "url": "https://www.openssl.org/",
+    "description": "SSL shared libraries",
+    "size": 213209,
+    "installedSize": 540672,
+    "pullDependencies": "so:libc.musl-x86_64.so.1 so:libcrypto.so.1.1",
+    "pullChecksum": "Q1/KZ00qDHWZ5cj3AWG/DPdACRNYI=",
+    "gitCommitOfApkPort": "455e966899a9358fc94f5bce633afe8a1942095c",
+    "files": [
+     {
+      "path": "/lib"
+     },
+     {
+      "path": "/lib/libssl.so.1.1",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "755",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1xNjj7jxvOj3lDRd3sRXzHowTUsQ="
+      }
+     },
+     {
+      "path": "/usr"
+     },
+     {
+      "path": "/usr/lib"
+     },
+     {
+      "path": "/usr/lib/libssl.so.1.1",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q18j35pe3yp6HOgMih1wlGP1/mm2c="
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "fc41909eb9a03401",
+   "name": "libunistring",
+   "version": "0.9.10-r1",
+   "type": "apk",
+   "foundBy": "apkdb-cataloger",
+   "locations": [
+    {
+     "path": "/lib/apk/db/installed",
+     "layerID": "sha256:384090946841500a55056014422e92ca8cade558968a9249ee81df47c5fabb0f"
+    }
+   ],
+   "licenses": [
+    "GPL-2.0+",
+    "OR",
+    "LGPL-3.0+"
+   ],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:libunistring:libunistring:0.9.10-r1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:alpine/libunistring@0.9.10-r1?arch=x86_64&upstream=libunistring&distro=alpine-3.15.4",
+   "metadataType": "ApkMetadata",
+   "metadata": {
+    "package": "libunistring",
+    "originPackage": "libunistring",
+    "maintainer": "Natanael Copa <ncopa@alpinelinux.org>",
+    "version": "0.9.10-r1",
+    "license": "GPL-2.0+ OR LGPL-3.0+",
+    "architecture": "x86_64",
+    "url": "https://www.gnu.org/software/libunistring/",
+    "description": "Library for manipulating Unicode strings and C strings",
+    "size": 583900,
+    "installedSize": 1540096,
+    "pullDependencies": "so:libc.musl-x86_64.so.1",
+    "pullChecksum": "Q19ZcpCDapb2aVFbaE4RPF2x5RCS8=",
+    "gitCommitOfApkPort": "0de81d62244a5a6c26864b59c90d0e93aa492708",
+    "files": [
+     {
+      "path": "/usr"
+     },
+     {
+      "path": "/usr/lib"
+     },
+     {
+      "path": "/usr/lib/libunistring.so.2",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1dPA7MeJhqn+EzvcmVIs1wNc1k2E="
+      }
+     },
+     {
+      "path": "/usr/lib/libunistring.so.2.1.0",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "755",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1w7x+NwfGNudEIdmWPoqXun1pgso="
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "20dc20cbb6dbea6",
+   "name": "musl",
+   "version": "1.2.2-r7",
+   "type": "apk",
+   "foundBy": "apkdb-cataloger",
+   "locations": [
+    {
+     "path": "/lib/apk/db/installed",
+     "layerID": "sha256:384090946841500a55056014422e92ca8cade558968a9249ee81df47c5fabb0f"
+    }
+   ],
+   "licenses": [
+    "MIT"
+   ],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:musl:musl:1.2.2-r7:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:alpine/musl@1.2.2-r7?arch=x86_64&upstream=musl&distro=alpine-3.15.4",
+   "metadataType": "ApkMetadata",
+   "metadata": {
+    "package": "musl",
+    "originPackage": "musl",
+    "maintainer": "Timo Teräs <timo.teras@iki.fi>",
+    "version": "1.2.2-r7",
+    "license": "MIT",
+    "architecture": "x86_64",
+    "url": "https://musl.libc.org/",
+    "description": "the musl c library (libc) implementation",
+    "size": 383152,
+    "installedSize": 622592,
+    "pullDependencies": "",
+    "pullChecksum": "Q1Deb0jNytkrjPW4N/eKLZ43BwOlw=",
+    "gitCommitOfApkPort": "bf5bbfdbf780092f387b7abe401fbfceda90c84d",
+    "files": [
+     {
+      "path": "/lib"
+     },
+     {
+      "path": "/lib/ld-musl-x86_64.so.1",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "755",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q12adwqQOjo9dFl+VJD2Ecd901vhE="
+      }
+     },
+     {
+      "path": "/lib/libc.musl-x86_64.so.1",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q17yJ3JFNypA4mxhJJr0ou6CzsJVI="
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "35c3680577fae0df",
+   "name": "musl-utils",
+   "version": "1.2.2-r7",
+   "type": "apk",
+   "foundBy": "apkdb-cataloger",
+   "locations": [
+    {
+     "path": "/lib/apk/db/installed",
+     "layerID": "sha256:384090946841500a55056014422e92ca8cade558968a9249ee81df47c5fabb0f"
+    }
+   ],
+   "licenses": [
+    "MIT",
+    "BSD",
+    "GPL2+"
+   ],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:musl-utils:musl-utils:1.2.2-r7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:musl-utils:musl_utils:1.2.2-r7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:musl_utils:musl-utils:1.2.2-r7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:musl_utils:musl_utils:1.2.2-r7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:musl:musl-utils:1.2.2-r7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:musl:musl_utils:1.2.2-r7:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:alpine/musl-utils@1.2.2-r7?arch=x86_64&upstream=musl&distro=alpine-3.15.4",
+   "metadataType": "ApkMetadata",
+   "metadata": {
+    "package": "musl-utils",
+    "originPackage": "musl",
+    "maintainer": "Timo Teräs <timo.teras@iki.fi>",
+    "version": "1.2.2-r7",
+    "license": "MIT BSD GPL2+",
+    "architecture": "x86_64",
+    "url": "https://musl.libc.org/",
+    "description": "the musl c library (libc) implementation",
+    "size": 36723,
+    "installedSize": 143360,
+    "pullDependencies": "scanelf so:libc.musl-x86_64.so.1",
+    "pullChecksum": "Q1P50cfJiSsHoqsYRTyOEOlJiLn3o=",
+    "gitCommitOfApkPort": "bf5bbfdbf780092f387b7abe401fbfceda90c84d",
+    "files": [
+     {
+      "path": "/sbin"
+     },
+     {
+      "path": "/sbin/ldconfig",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "755",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1Kja2+POZKxEkUOZqwSjC6kmaED4="
+      }
+     },
+     {
+      "path": "/usr"
+     },
+     {
+      "path": "/usr/bin"
+     },
+     {
+      "path": "/usr/bin/getconf",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "755",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1Mi21BTcLtN9cYPV07P0awHyT6XU="
+      }
+     },
+     {
+      "path": "/usr/bin/getent",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "755",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1nZmDKKFQ2vooItNDLBleT8x7OMA="
+      }
+     },
+     {
+      "path": "/usr/bin/iconv",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "755",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1Q8TOOd5Tm2PtkO5EoowvhvGCIJ4="
+      }
+     },
+     {
+      "path": "/usr/bin/ldd",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "755",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1yFAhGggmL7ERgbIA7KQxyTzf3ks="
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "f2d426372356602d",
+   "name": "scanelf",
+   "version": "1.3.3-r0",
+   "type": "apk",
+   "foundBy": "apkdb-cataloger",
+   "locations": [
+    {
+     "path": "/lib/apk/db/installed",
+     "layerID": "sha256:384090946841500a55056014422e92ca8cade558968a9249ee81df47c5fabb0f"
+    }
+   ],
+   "licenses": [
+    "GPL-2.0-only"
+   ],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:scanelf:scanelf:1.3.3-r0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:alpine/scanelf@1.3.3-r0?arch=x86_64&upstream=pax-utils&distro=alpine-3.15.4",
+   "metadataType": "ApkMetadata",
+   "metadata": {
+    "package": "scanelf",
+    "originPackage": "pax-utils",
+    "maintainer": "Natanael Copa <ncopa@alpinelinux.org>",
+    "version": "1.3.3-r0",
+    "license": "GPL-2.0-only",
+    "architecture": "x86_64",
+    "url": "https://wiki.gentoo.org/wiki/Hardened/PaX_Utilities",
+    "description": "Scan ELF binaries for stuff",
+    "size": 36830,
+    "installedSize": 94208,
+    "pullDependencies": "so:libc.musl-x86_64.so.1",
+    "pullChecksum": "Q11/dZDkUIcKT3lnHCNpsxtbsHNJo=",
+    "gitCommitOfApkPort": "86b3d4fbb0a760febf3476f9a58abf8d0f728d5c",
+    "files": [
+     {
+      "path": "/usr"
+     },
+     {
+      "path": "/usr/bin"
+     },
+     {
+      "path": "/usr/bin/scanelf",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "755",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1sFe54RbdfT4CNimYm41D1Dv+Nsg="
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "1e1812deb66692c5",
+   "name": "ssl_client",
+   "version": "1.34.1-r5",
+   "type": "apk",
+   "foundBy": "apkdb-cataloger",
+   "locations": [
+    {
+     "path": "/lib/apk/db/installed",
+     "layerID": "sha256:384090946841500a55056014422e92ca8cade558968a9249ee81df47c5fabb0f"
+    }
+   ],
+   "licenses": [
+    "GPL-2.0-only"
+   ],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:ssl-client:ssl-client:1.34.1-r5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ssl-client:ssl_client:1.34.1-r5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ssl_client:ssl-client:1.34.1-r5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ssl_client:ssl_client:1.34.1-r5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ssl:ssl-client:1.34.1-r5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ssl:ssl_client:1.34.1-r5:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:alpine/ssl_client@1.34.1-r5?arch=x86_64&upstream=busybox&distro=alpine-3.15.4",
+   "metadataType": "ApkMetadata",
+   "metadata": {
+    "package": "ssl_client",
+    "originPackage": "busybox",
+    "maintainer": "Natanael Copa <ncopa@alpinelinux.org>",
+    "version": "1.34.1-r5",
+    "license": "GPL-2.0-only",
+    "architecture": "x86_64",
+    "url": "https://busybox.net/",
+    "description": "EXternal ssl_client for busybox wget",
+    "size": 4716,
+    "installedSize": 28672,
+    "pullDependencies": "so:libc.musl-x86_64.so.1 so:libtls.so.2",
+    "pullChecksum": "Q1LQpaTYZTzR/kgKvRwLuY8dEFYP4=",
+    "gitCommitOfApkPort": "2745de7e1b09e663b477a8141b84f7d81a049963",
+    "files": [
+     {
+      "path": "/usr"
+     },
+     {
+      "path": "/usr/bin"
+     },
+     {
+      "path": "/usr/bin/ssl_client",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "755",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q15ueF/P/EmAVVmUJ1PXBAkpCAX7c="
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "cc67710764b1e89a",
+   "name": "wget",
+   "version": "1.21.2-r2",
+   "type": "apk",
+   "foundBy": "apkdb-cataloger",
+   "locations": [
+    {
+     "path": "/lib/apk/db/installed",
+     "layerID": "sha256:384090946841500a55056014422e92ca8cade558968a9249ee81df47c5fabb0f"
+    }
+   ],
+   "licenses": [
+    "GPL-3.0-or-later",
+    "WITH",
+    "OpenSSL-Exception"
+   ],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:wget:wget:1.21.2-r2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:alpine/wget@1.21.2-r2?arch=x86_64&upstream=wget&distro=alpine-3.15.4",
+   "metadataType": "ApkMetadata",
+   "metadata": {
+    "package": "wget",
+    "originPackage": "wget",
+    "maintainer": "Carlo Landmeter <clandmeter@alpinelinux.org>",
+    "version": "1.21.2-r2",
+    "license": "GPL-3.0-or-later WITH OpenSSL-Exception",
+    "architecture": "x86_64",
+    "url": "https://www.gnu.org/software/wget/wget.html",
+    "description": "Network utility to retrieve files from the Web",
+    "size": 233055,
+    "installedSize": 499712,
+    "pullDependencies": "so:libc.musl-x86_64.so.1 so:libcrypto.so.1.1 so:libidn2.so.0 so:libssl.so.1.1",
+    "pullChecksum": "Q1RP2U77weK/Y6Q+M+0vzFOm5tRWU=",
+    "gitCommitOfApkPort": "670bf5a8cc5bc605eede8ca2fd55b50a5c9f8660",
+    "files": [
+     {
+      "path": "/etc"
+     },
+     {
+      "path": "/etc/wgetrc",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1yJ8Q73Q9d5k4yf9x71tPwSUdmIE="
+      }
+     },
+     {
+      "path": "/usr"
+     },
+     {
+      "path": "/usr/bin"
+     },
+     {
+      "path": "/usr/bin/wget",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "755",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1lkqS9fDpzmcHCwM98sqTCR6Mm4g="
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "b39908e72974609",
+   "name": "zlib",
+   "version": "1.2.12-r0",
+   "type": "apk",
+   "foundBy": "apkdb-cataloger",
+   "locations": [
+    {
+     "path": "/lib/apk/db/installed",
+     "layerID": "sha256:384090946841500a55056014422e92ca8cade558968a9249ee81df47c5fabb0f"
+    }
+   ],
+   "licenses": [
+    "Zlib"
+   ],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:zlib:zlib:1.2.12-r0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:alpine/zlib@1.2.12-r0?arch=x86_64&upstream=zlib&distro=alpine-3.15.4",
+   "metadataType": "ApkMetadata",
+   "metadata": {
+    "package": "zlib",
+    "originPackage": "zlib",
+    "maintainer": "Natanael Copa <ncopa@alpinelinux.org>",
+    "version": "1.2.12-r0",
+    "license": "Zlib",
+    "architecture": "x86_64",
+    "url": "https://zlib.net/",
+    "description": "A compression/decompression Library",
+    "size": 53488,
+    "installedSize": 110592,
+    "pullDependencies": "so:libc.musl-x86_64.so.1",
+    "pullChecksum": "Q1Hkp2zH2ayAWnQ73k0Rd270cQBB4=",
+    "gitCommitOfApkPort": "74148808679f47ad96dc99e83ef73acfdeec1642",
+    "files": [
+     {
+      "path": "/lib"
+     },
+     {
+      "path": "/lib/libz.so.1",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1+aBjyJ7dmLatVkyqCNnAChlDZh8="
+      }
+     },
+     {
+      "path": "/lib/libz.so.1.2.12",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "755",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1dMJz67/vdV1Ti8MFUpdMSttS6ng="
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "artifactRelationships": [
+  {
+   "parent": "20dc20cbb6dbea6",
+   "child": "8392a5eb6c7d4b2e",
+   "type": "contains"
+  },
+  {
+   "parent": "20dc20cbb6dbea6",
+   "child": "8392a5eb6c7d4b2e",
+   "type": "contains"
+  },
+  {
+   "parent": "a52702612aa16de3",
+   "child": "718a0b3f272003ee",
+   "type": "contains"
+  },
+  {
+   "parent": "a52702612aa16de3",
+   "child": "718a0b3f272003ee",
+   "type": "contains"
+  },
+  {
+   "parent": "a52702612aa16de3",
+   "child": "c5b945521a21956e",
+   "type": "contains"
+  },
+  {
+   "parent": "a52702612aa16de3",
+   "child": "e5c1ab90b0bd9cb7",
+   "type": "contains"
+  },
+  {
+   "parent": "a52702612aa16de3",
+   "child": "8ccc568dfcbc3a2d",
+   "type": "contains"
+  },
+  {
+   "parent": "a52702612aa16de3",
+   "child": "ccf567e12eb7987f",
+   "type": "contains"
+  },
+  {
+   "parent": "a52702612aa16de3",
+   "child": "aaa4a38cd27fafe1",
+   "type": "contains"
+  },
+  {
+   "parent": "9f527213f4d2a873",
+   "child": "fedb8592d4bd8f4d",
+   "type": "contains"
+  },
+  {
+   "parent": "9f527213f4d2a873",
+   "child": "85b5eeeadb4bc67b",
+   "type": "contains"
+  },
+  {
+   "parent": "9f527213f4d2a873",
+   "child": "5f0986503e5f11f1",
+   "type": "contains"
+  },
+  {
+   "parent": "9f527213f4d2a873",
+   "child": "ecefa6e0de803097",
+   "type": "contains"
+  },
+  {
+   "parent": "9f527213f4d2a873",
+   "child": "ff51332b77b819d3",
+   "type": "contains"
+  },
+  {
+   "parent": "9f527213f4d2a873",
+   "child": "551262eb00af4ecf",
+   "type": "contains"
+  },
+  {
+   "parent": "9f527213f4d2a873",
+   "child": "39c5b4a844270479",
+   "type": "contains"
+  },
+  {
+   "parent": "9f527213f4d2a873",
+   "child": "3075503f23295ac6",
+   "type": "contains"
+  },
+  {
+   "parent": "9f527213f4d2a873",
+   "child": "5ef1eb0591b80ce9",
+   "type": "contains"
+  },
+  {
+   "parent": "9f527213f4d2a873",
+   "child": "ab72ddb43d10c7c2",
+   "type": "contains"
+  },
+  {
+   "parent": "9f527213f4d2a873",
+   "child": "75d4bac626c1becb",
+   "type": "contains"
+  },
+  {
+   "parent": "9f527213f4d2a873",
+   "child": "1215292b0e16cc09",
+   "type": "contains"
+  },
+  {
+   "parent": "9f527213f4d2a873",
+   "child": "88b8b6cd8d536580",
+   "type": "contains"
+  },
+  {
+   "parent": "9f527213f4d2a873",
+   "child": "ce93120332fbefe5",
+   "type": "contains"
+  },
+  {
+   "parent": "9f527213f4d2a873",
+   "child": "d3d4f07a010da0f9",
+   "type": "contains"
+  },
+  {
+   "parent": "9f527213f4d2a873",
+   "child": "4cde5002b41081ae",
+   "type": "contains"
+  },
+  {
+   "parent": "9f527213f4d2a873",
+   "child": "bae2f38919152f2",
+   "type": "contains"
+  },
+  {
+   "parent": "9f527213f4d2a873",
+   "child": "a19d6dad6a610a4c",
+   "type": "contains"
+  },
+  {
+   "parent": "9f527213f4d2a873",
+   "child": "352e3127b5a408ff",
+   "type": "contains"
+  },
+  {
+   "parent": "9f527213f4d2a873",
+   "child": "ec76d921b08b0df7",
+   "type": "contains"
+  },
+  {
+   "parent": "9f527213f4d2a873",
+   "child": "a399abda83ee94ab",
+   "type": "contains"
+  },
+  {
+   "parent": "9f527213f4d2a873",
+   "child": "1011b8677c20a4c",
+   "type": "contains"
+  },
+  {
+   "parent": "9f527213f4d2a873",
+   "child": "b78410aad0fa8983",
+   "type": "contains"
+  },
+  {
+   "parent": "9f527213f4d2a873",
+   "child": "3fb06e317fdaba64",
+   "type": "contains"
+  },
+  {
+   "parent": "1a72ca3b88e1b67e",
+   "child": "c7a3b74eaea60bf1",
+   "type": "contains"
+  },
+  {
+   "parent": "1a72ca3b88e1b67e",
+   "child": "a06b3ead50275b19",
+   "type": "contains"
+  },
+  {
+   "parent": "1a72ca3b88e1b67e",
+   "child": "da1ebeea2102ca9b",
+   "type": "contains"
+  },
+  {
+   "parent": "1a72ca3b88e1b67e",
+   "child": "7d1d643d61ca4e57",
+   "type": "contains"
+  },
+  {
+   "parent": "1a72ca3b88e1b67e",
+   "child": "2647c7cd3a129367",
+   "type": "contains"
+  },
+  {
+   "parent": "1a72ca3b88e1b67e",
+   "child": "288f73cbb2e246ad",
+   "type": "contains"
+  },
+  {
+   "parent": "1a72ca3b88e1b67e",
+   "child": "d63077a5f2ddd159",
+   "type": "contains"
+  },
+  {
+   "parent": "1a72ca3b88e1b67e",
+   "child": "e9554b158a3b43ee",
+   "type": "contains"
+  },
+  {
+   "parent": "1a72ca3b88e1b67e",
+   "child": "2b7624417100a93a",
+   "type": "contains"
+  },
+  {
+   "parent": "1a72ca3b88e1b67e",
+   "child": "a7569a4dda55c365",
+   "type": "contains"
+  },
+  {
+   "parent": "1a72ca3b88e1b67e",
+   "child": "33e18915a21aee20",
+   "type": "contains"
+  },
+  {
+   "parent": "1a72ca3b88e1b67e",
+   "child": "288f73cbb2e246ad",
+   "type": "contains"
+  },
+  {
+   "parent": "1a72ca3b88e1b67e",
+   "child": "35b2066d59538881",
+   "type": "contains"
+  },
+  {
+   "parent": "1a72ca3b88e1b67e",
+   "child": "1056ce986226546a",
+   "type": "contains"
+  },
+  {
+   "parent": "1a72ca3b88e1b67e",
+   "child": "b864a984505da983",
+   "type": "contains"
+  },
+  {
+   "parent": "1a72ca3b88e1b67e",
+   "child": "63e39ba0ee693be8",
+   "type": "contains"
+  },
+  {
+   "parent": "1a72ca3b88e1b67e",
+   "child": "a8428545e38b4ce",
+   "type": "contains"
+  },
+  {
+   "parent": "1a72ca3b88e1b67e",
+   "child": "51a10e9c2655db1b",
+   "type": "contains"
+  },
+  {
+   "parent": "1a72ca3b88e1b67e",
+   "child": "560af514cac30e5a",
+   "type": "contains"
+  },
+  {
+   "parent": "1a72ca3b88e1b67e",
+   "child": "df03bbea49d81519",
+   "type": "contains"
+  },
+  {
+   "parent": "1a72ca3b88e1b67e",
+   "child": "87da18e6688b81e9",
+   "type": "contains"
+  },
+  {
+   "parent": "1a72ca3b88e1b67e",
+   "child": "d8a27d86001b34a7",
+   "type": "contains"
+  },
+  {
+   "parent": "1a72ca3b88e1b67e",
+   "child": "d63077a5f2ddd159",
+   "type": "contains"
+  },
+  {
+   "parent": "1a72ca3b88e1b67e",
+   "child": "f2303366ef005a72",
+   "type": "contains"
+  },
+  {
+   "parent": "1a72ca3b88e1b67e",
+   "child": "a7569a4dda55c365",
+   "type": "contains"
+  },
+  {
+   "parent": "1a72ca3b88e1b67e",
+   "child": "560af514cac30e5a",
+   "type": "contains"
+  },
+  {
+   "parent": "1a72ca3b88e1b67e",
+   "child": "a7569a4dda55c365",
+   "type": "contains"
+  },
+  {
+   "parent": "1a72ca3b88e1b67e",
+   "child": "d8a27d86001b34a7",
+   "type": "contains"
+  },
+  {
+   "parent": "1a72ca3b88e1b67e",
+   "child": "b864a984505da983",
+   "type": "contains"
+  },
+  {
+   "parent": "1a72ca3b88e1b67e",
+   "child": "35b2066d59538881",
+   "type": "contains"
+  },
+  {
+   "parent": "1a72ca3b88e1b67e",
+   "child": "df03bbea49d81519",
+   "type": "contains"
+  },
+  {
+   "parent": "1a72ca3b88e1b67e",
+   "child": "63e39ba0ee693be8",
+   "type": "contains"
+  },
+  {
+   "parent": "1a72ca3b88e1b67e",
+   "child": "f2303366ef005a72",
+   "type": "contains"
+  },
+  {
+   "parent": "1a72ca3b88e1b67e",
+   "child": "1056ce986226546a",
+   "type": "contains"
+  },
+  {
+   "parent": "1a72ca3b88e1b67e",
+   "child": "87da18e6688b81e9",
+   "type": "contains"
+  },
+  {
+   "parent": "1a72ca3b88e1b67e",
+   "child": "e9554b158a3b43ee",
+   "type": "contains"
+  },
+  {
+   "parent": "1a72ca3b88e1b67e",
+   "child": "2b7624417100a93a",
+   "type": "contains"
+  },
+  {
+   "parent": "1a72ca3b88e1b67e",
+   "child": "51a10e9c2655db1b",
+   "type": "contains"
+  },
+  {
+   "parent": "1a72ca3b88e1b67e",
+   "child": "e9554b158a3b43ee",
+   "type": "contains"
+  },
+  {
+   "parent": "1a72ca3b88e1b67e",
+   "child": "33e18915a21aee20",
+   "type": "contains"
+  },
+  {
+   "parent": "1a72ca3b88e1b67e",
+   "child": "a8428545e38b4ce",
+   "type": "contains"
+  },
+  {
+   "parent": "2c45222923d30fc5",
+   "child": "d101836e057418e0",
+   "type": "contains"
+  },
+  {
+   "parent": "2c45222923d30fc5",
+   "child": "d101836e057418e0",
+   "type": "contains"
+  },
+  {
+   "parent": "17c6fbb0cafbbe57",
+   "child": "d101836e057418e0",
+   "type": "contains"
+  },
+  {
+   "parent": "17c6fbb0cafbbe57",
+   "child": "752bb5df53dda435",
+   "type": "contains"
+  },
+  {
+   "parent": "17c6fbb0cafbbe57",
+   "child": "4b68c2a3c8f72ed5",
+   "type": "contains"
+  },
+  {
+   "parent": "17c6fbb0cafbbe57",
+   "child": "6fbe7fceb6de2b63",
+   "type": "contains"
+  },
+  {
+   "parent": "17c6fbb0cafbbe57",
+   "child": "4bb571ad3dd49533",
+   "type": "contains"
+  },
+  {
+   "parent": "17c6fbb0cafbbe57",
+   "child": "af3c0ee6f03ededa",
+   "type": "contains"
+  },
+  {
+   "parent": "17c6fbb0cafbbe57",
+   "child": "dec78a96cb7b3e5b",
+   "type": "contains"
+  },
+  {
+   "parent": "17c6fbb0cafbbe57",
+   "child": "64ecf423bc6d5b3c",
+   "type": "contains"
+  },
+  {
+   "parent": "17c6fbb0cafbbe57",
+   "child": "4bb571ad3dd49533",
+   "type": "contains"
+  },
+  {
+   "parent": "4b106e6c3fd74c1c",
+   "child": "51ff06d5dee4403e",
+   "type": "contains"
+  },
+  {
+   "parent": "4b106e6c3fd74c1c",
+   "child": "51ff06d5dee4403e",
+   "type": "contains"
+  },
+  {
+   "parent": "6d0658c2b7237ea2",
+   "child": "b170ef0c29337e0f",
+   "type": "contains"
+  },
+  {
+   "parent": "6d0658c2b7237ea2",
+   "child": "b170ef0c29337e0f",
+   "type": "contains"
+  },
+  {
+   "parent": "1e1812deb66692c5",
+   "child": "8e78d5982def23fd",
+   "type": "contains"
+  },
+  {
+   "parent": "b39908e72974609",
+   "child": "7ffad9df345cf8a5",
+   "type": "contains"
+  },
+  {
+   "parent": "b39908e72974609",
+   "child": "7ffad9df345cf8a5",
+   "type": "contains"
+  },
+  {
+   "parent": "1c6e057c6965bdd6",
+   "child": "d7888b01fcc9f7c8",
+   "type": "contains"
+  },
+  {
+   "parent": "1c6e057c6965bdd6",
+   "child": "2f5fee1be94d5647",
+   "type": "contains"
+  },
+  {
+   "parent": "f2d426372356602d",
+   "child": "4280b8d2d5a39350",
+   "type": "contains"
+  },
+  {
+   "parent": "35c3680577fae0df",
+   "child": "71707c51860f717c",
+   "type": "contains"
+  },
+  {
+   "parent": "35c3680577fae0df",
+   "child": "93f4097ed11512c",
+   "type": "contains"
+  },
+  {
+   "parent": "35c3680577fae0df",
+   "child": "56ae529b4ea5f80b",
+   "type": "contains"
+  },
+  {
+   "parent": "35c3680577fae0df",
+   "child": "f7bfa1cbf1227a50",
+   "type": "contains"
+  },
+  {
+   "parent": "35c3680577fae0df",
+   "child": "3b1db7c5a75c1588",
+   "type": "contains"
+  },
+  {
+   "parent": "fc41909eb9a03401",
+   "child": "445e66ea1fd6e2ff",
+   "type": "contains"
+  },
+  {
+   "parent": "fc41909eb9a03401",
+   "child": "445e66ea1fd6e2ff",
+   "type": "contains"
+  },
+  {
+   "parent": "6815189add643d1f",
+   "child": "6547d50ddbe6b958",
+   "type": "contains"
+  },
+  {
+   "parent": "6815189add643d1f",
+   "child": "849e9048a6538aee",
+   "type": "contains"
+  },
+  {
+   "parent": "6815189add643d1f",
+   "child": "849e9048a6538aee",
+   "type": "contains"
+  },
+  {
+   "parent": "cc67710764b1e89a",
+   "child": "85b4264b42f802e1",
+   "type": "contains"
+  },
+  {
+   "parent": "cc67710764b1e89a",
+   "child": "827a62baf7cda5a1",
+   "type": "contains"
+  }
+ ],
+ "files": [
+  {
+   "id": "718a0b3f272003ee",
+   "location": {
+    "path": "/bin/busybox",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "c7a3b74eaea60bf1",
+   "location": {
+    "path": "/etc/apk/keys/alpine-devel@lists.alpinelinux.org-4a6a0840.rsa.pub",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "a06b3ead50275b19",
+   "location": {
+    "path": "/etc/apk/keys/alpine-devel@lists.alpinelinux.org-5243ef4b.rsa.pub",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "da1ebeea2102ca9b",
+   "location": {
+    "path": "/etc/apk/keys/alpine-devel@lists.alpinelinux.org-5261cecb.rsa.pub",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "7d1d643d61ca4e57",
+   "location": {
+    "path": "/etc/apk/keys/alpine-devel@lists.alpinelinux.org-6165ee59.rsa.pub",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "2647c7cd3a129367",
+   "location": {
+    "path": "/etc/apk/keys/alpine-devel@lists.alpinelinux.org-61666e3f.rsa.pub",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "fedb8592d4bd8f4d",
+   "location": {
+    "path": "/etc/crontabs/root",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "85b5eeeadb4bc67b",
+   "location": {
+    "path": "/etc/fstab",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "5f0986503e5f11f1",
+   "location": {
+    "path": "/etc/group",
+    "layerID": "sha256:638240887de5d8c6dc494726f42883bee28792ba66efa5e3bec83048dee07011"
+   }
+  },
+  {
+   "id": "ecefa6e0de803097",
+   "location": {
+    "path": "/etc/hostname",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "ff51332b77b819d3",
+   "location": {
+    "path": "/etc/hosts",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "551262eb00af4ecf",
+   "location": {
+    "path": "/etc/inittab",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "c5b945521a21956e",
+   "location": {
+    "path": "/etc/logrotate.d/acpid",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "39c5b4a844270479",
+   "location": {
+    "path": "/etc/modprobe.d/aliases.conf",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "3075503f23295ac6",
+   "location": {
+    "path": "/etc/modprobe.d/blacklist.conf",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "5ef1eb0591b80ce9",
+   "location": {
+    "path": "/etc/modprobe.d/i386.conf",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "ab72ddb43d10c7c2",
+   "location": {
+    "path": "/etc/modprobe.d/kms.conf",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "75d4bac626c1becb",
+   "location": {
+    "path": "/etc/modules",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "1215292b0e16cc09",
+   "location": {
+    "path": "/etc/motd",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "e5c1ab90b0bd9cb7",
+   "location": {
+    "path": "/etc/network/if-up.d/dad",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "88b8b6cd8d536580",
+   "location": {
+    "path": "/etc/passwd",
+    "layerID": "sha256:638240887de5d8c6dc494726f42883bee28792ba66efa5e3bec83048dee07011"
+   }
+  },
+  {
+   "id": "ce93120332fbefe5",
+   "location": {
+    "path": "/etc/profile",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "d3d4f07a010da0f9",
+   "location": {
+    "path": "/etc/profile.d/README",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "4cde5002b41081ae",
+   "location": {
+    "path": "/etc/profile.d/color_prompt.sh.disabled",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "bae2f38919152f2",
+   "location": {
+    "path": "/etc/profile.d/locale.sh",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "a19d6dad6a610a4c",
+   "location": {
+    "path": "/etc/protocols",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "8ccc568dfcbc3a2d",
+   "location": {
+    "path": "/etc/securetty",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "352e3127b5a408ff",
+   "location": {
+    "path": "/etc/services",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "ec76d921b08b0df7",
+   "location": {
+    "path": "/etc/shadow",
+    "layerID": "sha256:638240887de5d8c6dc494726f42883bee28792ba66efa5e3bec83048dee07011"
+   }
+  },
+  {
+   "id": "a399abda83ee94ab",
+   "location": {
+    "path": "/etc/shells",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "d101836e057418e0",
+   "location": {
+    "path": "/etc/ssl/certs/ca-certificates.crt",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "752bb5df53dda435",
+   "location": {
+    "path": "/etc/ssl1.1/ct_log_list.cnf.dist",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "4b68c2a3c8f72ed5",
+   "location": {
+    "path": "/etc/ssl1.1/openssl.cnf",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "6fbe7fceb6de2b63",
+   "location": {
+    "path": "/etc/ssl1.1/openssl.cnf.dist",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "1011b8677c20a4c",
+   "location": {
+    "path": "/etc/sysctl.conf",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "ccf567e12eb7987f",
+   "location": {
+    "path": "/etc/udhcpd.conf",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "85b4264b42f802e1",
+   "location": {
+    "path": "/etc/wgetrc",
+    "layerID": "sha256:384090946841500a55056014422e92ca8cade558968a9249ee81df47c5fabb0f"
+   }
+  },
+  {
+   "id": "8392a5eb6c7d4b2e",
+   "location": {
+    "path": "/lib/ld-musl-x86_64.so.1",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "d7888b01fcc9f7c8",
+   "location": {
+    "path": "/lib/libapk.so.3.12.0",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "4bb571ad3dd49533",
+   "location": {
+    "path": "/lib/libcrypto.so.1.1",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "51ff06d5dee4403e",
+   "location": {
+    "path": "/lib/libssl.so.1.1",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "7ffad9df345cf8a5",
+   "location": {
+    "path": "/lib/libz.so.1.2.12",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "b78410aad0fa8983",
+   "location": {
+    "path": "/lib/sysctl.d/00-alpine.conf",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "2f5fee1be94d5647",
+   "location": {
+    "path": "/sbin/apk",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "71707c51860f717c",
+   "location": {
+    "path": "/sbin/ldconfig",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "3fb06e317fdaba64",
+   "location": {
+    "path": "/sbin/mkmntdirs",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "93f4097ed11512c",
+   "location": {
+    "path": "/usr/bin/getconf",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "56ae529b4ea5f80b",
+   "location": {
+    "path": "/usr/bin/getent",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "f7bfa1cbf1227a50",
+   "location": {
+    "path": "/usr/bin/iconv",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "6547d50ddbe6b958",
+   "location": {
+    "path": "/usr/bin/idn2",
+    "layerID": "sha256:384090946841500a55056014422e92ca8cade558968a9249ee81df47c5fabb0f"
+   }
+  },
+  {
+   "id": "3b1db7c5a75c1588",
+   "location": {
+    "path": "/usr/bin/ldd",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "4280b8d2d5a39350",
+   "location": {
+    "path": "/usr/bin/scanelf",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "8e78d5982def23fd",
+   "location": {
+    "path": "/usr/bin/ssl_client",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "827a62baf7cda5a1",
+   "location": {
+    "path": "/usr/bin/wget",
+    "layerID": "sha256:384090946841500a55056014422e92ca8cade558968a9249ee81df47c5fabb0f"
+   }
+  },
+  {
+   "id": "af3c0ee6f03ededa",
+   "location": {
+    "path": "/usr/lib/engines-1.1/afalg.so",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "dec78a96cb7b3e5b",
+   "location": {
+    "path": "/usr/lib/engines-1.1/capi.so",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "64ecf423bc6d5b3c",
+   "location": {
+    "path": "/usr/lib/engines-1.1/padlock.so",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "849e9048a6538aee",
+   "location": {
+    "path": "/usr/lib/libidn2.so.0.3.7",
+    "layerID": "sha256:384090946841500a55056014422e92ca8cade558968a9249ee81df47c5fabb0f"
+   }
+  },
+  {
+   "id": "b170ef0c29337e0f",
+   "location": {
+    "path": "/usr/lib/libtls.so.2.0.3",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "445e66ea1fd6e2ff",
+   "location": {
+    "path": "/usr/lib/libunistring.so.2.1.0",
+    "layerID": "sha256:384090946841500a55056014422e92ca8cade558968a9249ee81df47c5fabb0f"
+   }
+  },
+  {
+   "id": "e9554b158a3b43ee",
+   "location": {
+    "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-4a6a0840.rsa.pub",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "2b7624417100a93a",
+   "location": {
+    "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-5243ef4b.rsa.pub",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "a7569a4dda55c365",
+   "location": {
+    "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-524d27bb.rsa.pub",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "33e18915a21aee20",
+   "location": {
+    "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-5261cecb.rsa.pub",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "288f73cbb2e246ad",
+   "location": {
+    "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-58199dcc.rsa.pub",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "35b2066d59538881",
+   "location": {
+    "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-58cbb476.rsa.pub",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "1056ce986226546a",
+   "location": {
+    "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-58e4f17d.rsa.pub",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "b864a984505da983",
+   "location": {
+    "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-5e69ca50.rsa.pub",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "63e39ba0ee693be8",
+   "location": {
+    "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-60ac2099.rsa.pub",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "a8428545e38b4ce",
+   "location": {
+    "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-6165ee59.rsa.pub",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "51a10e9c2655db1b",
+   "location": {
+    "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-61666e3f.rsa.pub",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "560af514cac30e5a",
+   "location": {
+    "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-616a9724.rsa.pub",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "df03bbea49d81519",
+   "location": {
+    "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-616abc23.rsa.pub",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "87da18e6688b81e9",
+   "location": {
+    "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-616ac3bc.rsa.pub",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "d8a27d86001b34a7",
+   "location": {
+    "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-616adfeb.rsa.pub",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "d63077a5f2ddd159",
+   "location": {
+    "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-616ae350.rsa.pub",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "f2303366ef005a72",
+   "location": {
+    "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-616db30d.rsa.pub",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  },
+  {
+   "id": "aaa4a38cd27fafe1",
+   "location": {
+    "path": "/usr/share/udhcpc/default.script",
+    "layerID": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628"
+   }
+  }
+ ],
+ "source": {
+  "type": "image",
+  "target": {
+   "userInput": "docker.io/library/api-firewall:latest",
+   "imageID": "sha256:9cb80b988cf464b9a73d669e0b895b129bca1285e74393622c5613392ef25b85",
+   "manifestDigest": "sha256:4526e4516cc028da236dd42776c40742a823c7042ec31f81dfab53e06bfc9ce6",
+   "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+   "tags": [],
+   "imageSize": 17172109,
+   "layers": [
+    {
+     "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+     "digest": "sha256:4fc242d58285699eca05db3cc7c7122a2b8e014d9481f323bd9277baacfa0628",
+     "size": 5570141
+    },
+    {
+     "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+     "digest": "sha256:638240887de5d8c6dc494726f42883bee28792ba66efa5e3bec83048dee07011",
+     "size": 4689
+    },
+    {
+     "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+     "digest": "sha256:384090946841500a55056014422e92ca8cade558968a9249ee81df47c5fabb0f",
+     "size": 11597005
+    },
+    {
+     "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+     "digest": "sha256:d080cb97d21e831c04fd53538ab6ea97e817b7842903b7622578017708742f4e",
+     "size": 274
+    }
+   ],
+   "manifest": "ewogICAic2NoZW1hVmVyc2lvbiI6IDIsCiAgICJtZWRpYVR5cGUiOiAiYXBwbGljYXRpb24vdm5kLmRvY2tlci5kaXN0cmlidXRpb24ubWFuaWZlc3QudjIranNvbiIsCiAgICJjb25maWciOiB7CiAgICAgICJtZWRpYVR5cGUiOiAiYXBwbGljYXRpb24vdm5kLmRvY2tlci5jb250YWluZXIuaW1hZ2UudjEranNvbiIsCiAgICAgICJzaXplIjogNDQ3NywKICAgICAgImRpZ2VzdCI6ICJzaGEyNTY6OWNiODBiOTg4Y2Y0NjRiOWE3M2Q2NjllMGI4OTViMTI5YmNhMTI4NWU3NDM5MzYyMmM1NjEzMzkyZWYyNWI4NSIKICAgfSwKICAgImxheWVycyI6IFsKICAgICAgewogICAgICAgICAibWVkaWFUeXBlIjogImFwcGxpY2F0aW9uL3ZuZC5kb2NrZXIuaW1hZ2Uucm9vdGZzLmRpZmYudGFyLmd6aXAiLAogICAgICAgICAic2l6ZSI6IDI4MTQ1NTksCiAgICAgICAgICJkaWdlc3QiOiAic2hhMjU2OmRmOWI5Mzg4ZjA0YWQ2Mjc5YTc0MTBiODVjZWRmZGNiMjIwOGMwYTAwM2RhN2FiNTYxM2FmNzEwNzkxNDgxMzkiCiAgICAgIH0sCiAgICAgIHsKICAgICAgICAgIm1lZGlhVHlwZSI6ICJhcHBsaWNhdGlvbi92bmQuZG9ja2VyLmltYWdlLnJvb3Rmcy5kaWZmLnRhci5nemlwIiwKICAgICAgICAgInNpemUiOiAxMjAwLAogICAgICAgICAiZGlnZXN0IjogInNoYTI1NjplMzQyMDVhZDdlMTVhODVmYjYyMzhjYTY2MmYzNDdiODNkZDQyZDkxODFhZjBkMmJiMTBjYTBkZjVjN2VlMjAzIgogICAgICB9LAogICAgICB7CiAgICAgICAgICJtZWRpYVR5cGUiOiAiYXBwbGljYXRpb24vdm5kLmRvY2tlci5pbWFnZS5yb290ZnMuZGlmZi50YXIuZ3ppcCIsCiAgICAgICAgICJzaXplIjogNDc1NDg1NiwKICAgICAgICAgImRpZ2VzdCI6ICJzaGEyNTY6YjgwNWYwMmE0NGYyOTU0ZTU3MTZiZDdhMjAzMTliZmEyYmE0MjllNWZiMjE5YTlkZDZlMWI5OGEyOGY2NTg4MyIKICAgICAgfSwKICAgICAgewogICAgICAgICAibWVkaWFUeXBlIjogImFwcGxpY2F0aW9uL3ZuZC5kb2NrZXIuaW1hZ2Uucm9vdGZzLmRpZmYudGFyLmd6aXAiLAogICAgICAgICAic2l6ZSI6IDM1NCwKICAgICAgICAgImRpZ2VzdCI6ICJzaGEyNTY6YjcyNGVhMGQzN2VhMTA4OTc1YjA3NDI2NGIyNGFkMDZlMWU3NWEwOWFmYTJhMWVjM2I1YTdmMmFiNjUyNzcyNyIKICAgICAgfQogICBdCn0=",
+   "config": "eyJhcmNoaXRlY3R1cmUiOiJhbWQ2NCIsImNvbmZpZyI6eyJIb3N0bmFtZSI6IiIsIkRvbWFpbm5hbWUiOiIiLCJVc2VyIjoiYXBpLWZpcmV3YWxsIiwiQXR0YWNoU3RkaW4iOmZhbHNlLCJBdHRhY2hTdGRvdXQiOmZhbHNlLCJBdHRhY2hTdGRlcnIiOmZhbHNlLCJUdHkiOmZhbHNlLCJPcGVuU3RkaW4iOmZhbHNlLCJTdGRpbk9uY2UiOmZhbHNlLCJFbnYiOlsiUEFUSD0vb3B0L2FwaS1maXJld2FsbDovdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4iLCJBUElGV19QQVRIPS9vcHQvYXBpLWZpcmV3YWxsIiwiQVBJRklSRVdBTExfVkVSU0lPTj12MC42LjgiXSwiQ21kIjpbImFwaS1maXJld2FsbCJdLCJJbWFnZSI6InNoYTI1Njo5ZDM5MWRkYTM5YzYzNjM4OTNhNDZiMTg4YzYxYjkyM2E3YWY0MmU4ZjhmNjE4MWU3MWI3N2FjMmU0ODY1NjY0IiwiVm9sdW1lcyI6bnVsbCwiV29ya2luZ0RpciI6IiIsIkVudHJ5cG9pbnQiOlsiZG9ja2VyLWVudHJ5cG9pbnQuc2giXSwiT25CdWlsZCI6bnVsbCwiTGFiZWxzIjpudWxsfSwiY29udGFpbmVyIjoiNGY3M2M0M2E3NjdiNzdkYjdhOWM0NmI3ZGNkMWFlZTc3YjUxMGUxZjVlNDBmMzgzZTlmNjMxMGQxOWY0YTdiNSIsImNvbnRhaW5lcl9jb25maWciOnsiSG9zdG5hbWUiOiI0ZjczYzQzYTc2N2IiLCJEb21haW5uYW1lIjoiIiwiVXNlciI6ImFwaS1maXJld2FsbCIsIkF0dGFjaFN0ZGluIjpmYWxzZSwiQXR0YWNoU3Rkb3V0IjpmYWxzZSwiQXR0YWNoU3RkZXJyIjpmYWxzZSwiVHR5IjpmYWxzZSwiT3BlblN0ZGluIjpmYWxzZSwiU3RkaW5PbmNlIjpmYWxzZSwiRW52IjpbIlBBVEg9L29wdC9hcGktZmlyZXdhbGw6L3Vzci9sb2NhbC9zYmluOi91c3IvbG9jYWwvYmluOi91c3Ivc2JpbjovdXNyL2Jpbjovc2JpbjovYmluIiwiQVBJRldfUEFUSD0vb3B0L2FwaS1maXJld2FsbCIsIkFQSUZJUkVXQUxMX1ZFUlNJT049djAuNi44Il0sIkNtZCI6WyIvYmluL3NoIiwiLWMiLCIjKG5vcCkgIiwiQ01EIFtcImFwaS1maXJld2FsbFwiXSJdLCJJbWFnZSI6InNoYTI1Njo5ZDM5MWRkYTM5YzYzNjM4OTNhNDZiMTg4YzYxYjkyM2E3YWY0MmU4ZjhmNjE4MWU3MWI3N2FjMmU0ODY1NjY0IiwiVm9sdW1lcyI6bnVsbCwiV29ya2luZ0RpciI6IiIsIkVudHJ5cG9pbnQiOlsiZG9ja2VyLWVudHJ5cG9pbnQuc2giXSwiT25CdWlsZCI6bnVsbCwiTGFiZWxzIjp7fX0sImNyZWF0ZWQiOiIyMDIyLTA0LTExVDIxOjQyOjAwLjE2NDk4Nzg4WiIsImRvY2tlcl92ZXJzaW9uIjoiMjAuMTAuMTIiLCJoaXN0b3J5IjpbeyJjcmVhdGVkIjoiMjAyMi0wNC0wNVQwMDoxOTo1OS43OTA2MzY4NjdaIiwiY3JlYXRlZF9ieSI6Ii9iaW4vc2ggLWMgIyhub3ApIEFERCBmaWxlOjVkNjczZDI1ZGEzYTE0Y2UxZjZjZjY2ZTRjN2ZkNGY0Yjg1YTM3NTlhOWQ5M2VmYjNmZDlmZjg1MmI1YjU2ZTQgaW4gLyAifSx7ImNyZWF0ZWQiOiIyMDIyLTA0LTA1VDAwOjE5OjU5LjkxMjY2MjQ5OVoiLCJjcmVhdGVkX2J5IjoiL2Jpbi9zaCAtYyAjKG5vcCkgIENNRCBbXCIvYmluL3NoXCJdIiwiZW1wdHlfbGF5ZXIiOnRydWV9LHsiY3JlYXRlZCI6IjIwMjItMDQtMDVUMDQ6MDA6NDcuNDg1MTYxOTA3WiIsImNyZWF0ZWRfYnkiOiIvYmluL3NoIC1jICMobm9wKSAgRU5WIEFQSUZXX1BBVEg9L29wdC9hcGktZmlyZXdhbGwiLCJlbXB0eV9sYXllciI6dHJ1ZX0seyJjcmVhdGVkIjoiMjAyMi0wNC0wNVQwNDowMDo0Ny41ODk3NTYzODNaIiwiY3JlYXRlZF9ieSI6Ii9iaW4vc2ggLWMgIyhub3ApICBFTlYgUEFUSD0vb3B0L2FwaS1maXJld2FsbDovdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4iLCJlbXB0eV9sYXllciI6dHJ1ZX0seyJjcmVhdGVkIjoiMjAyMi0wNC0wNVQwNDowMDo0OC4xNDIyNjgzODlaIiwiY3JlYXRlZF9ieSI6Ii9iaW4vc2ggLWMgc2V0IC1ldXg7ICAgICBhZGR1c2VyIC11IDEwMDAgLUggLWggL29wdCAtRCAtcyAvYmluL3NoIGFwaS1maXJld2FsbCJ9LHsiY3JlYXRlZCI6IjIwMjItMDQtMTFUMjE6NDE6NTcuMjg3NzAyNDY4WiIsImNyZWF0ZWRfYnkiOiIvYmluL3NoIC1jICMobm9wKSAgRU5WIEFQSUZJUkVXQUxMX1ZFUlNJT049djAuNi44IiwiZW1wdHlfbGF5ZXIiOnRydWV9LHsiY3JlYXRlZCI6IjIwMjItMDQtMTFUMjE6NDE6NTkuNzI5Mzk3NTFaIiwiY3JlYXRlZF9ieSI6Ii9iaW4vc2ggLWMgc2V0IC1ldXg7ICAgICAgICAgYXBrIGFkZCAtLW5vLWNhY2hlIHdnZXQ7ICAgICAgICAgYXJjaD1cIiQoYXBrIC0tcHJpbnQtYXJjaClcIjsgICAgIGNhc2UgXCIkYXJjaFwiIGluICAgICAgICAgJ3g4Nl82NCcpICAgICAgICAgICAgIHVybD1cImh0dHBzOi8vZ2l0aHViLmNvbS93YWxsYXJtL2FwaS1maXJld2FsbC9yZWxlYXNlcy9kb3dubG9hZC8ke0FQSUZJUkVXQUxMX1ZFUlNJT059L2FwaS1maXJld2FsbC1hbWQ2NC1tdXNsLnRhci5nelwiOyAgICAgICAgICAgICBzaGEyNTY9J2FmOGU0OWU3ZWJmMTlkNjhiNGRjZjA5YTBmMGIwNGIzNmE1YzZlM2Y1NTY1NDljYjQ4ODUyZmNlYmFjMDM4OTInOyAgICAgICAgICAgICA7OyAgICAgICAgICdhYXJjaDY0JykgICAgICAgICAgICAgdXJsPVwiaHR0cHM6Ly9naXRodWIuY29tL3dhbGxhcm0vYXBpLWZpcmV3YWxsL3JlbGVhc2VzL2Rvd25sb2FkLyR7QVBJRklSRVdBTExfVkVSU0lPTn0vYXBpLWZpcmV3YWxsLWFybTY0LW11c2wudGFyLmd6XCI7ICAgICAgICAgICAgIHNoYTI1Nj0nYjE1ZmE4YmZiOThkMjM3NjBlYWM4OTQwMDJkYjc5NDIwY2RjMzIxYzFmMWJhYWJmNjBmYmE1NDU1NmRmZGFiNyc7ICAgICAgICAgICAgIDs7ICAgICAgICAgJ3g4NicpICAgICAgICAgICAgIHVybD1cImh0dHBzOi8vZ2l0aHViLmNvbS93YWxsYXJtL2FwaS1maXJld2FsbC9yZWxlYXNlcy9kb3dubG9hZC8ke0FQSUZJUkVXQUxMX1ZFUlNJT059L2FwaS1maXJld2FsbC0zODYtbXVzbC50YXIuZ3pcIjsgICAgICAgICAgICAgc2hhMjU2PSdkMzdjOWNlZjU2Mjc4OGNhZjAxNzcyMjQ1MTZjNTU1ODA4MjUxYTZkNzlhMzY4YjQ5MDI0MjRkNTcwMzdkMDIzJzsgICAgICAgICAgICAgOzsgICAgICAgICAqKSAgICAgICAgICAgICBlY2hvIFx1MDAzZVx1MDAyNjIgXCJlcnJvcjogY3VycmVudCBhcmNoaXRlY3R1cmUgKCRhcmNoKSBkb2VzIG5vdCBoYXZlIGEgY29ycmVzcG9uZGluZyBBUEktRmlyZXdhbGwgYmluYXJ5IHJlbGVhc2VcIjsgICAgICAgICAgICAgZXhpdCAxOyAgICAgICAgICAgICA7OyAgICAgZXNhYzsgICAgICAgICB3Z2V0IC1PIGFwaS1maXJld2FsbC50YXIuZ3ogXCIkdXJsXCI7ICAgICBlY2hvIFwiJHNoYTI1NiAqYXBpLWZpcmV3YWxsLnRhci5nelwiIHwgc2hhMjU2c3VtIC1jOyAgICAgICAgIG1rZGlyIC1wIFwiJEFQSUZXX1BBVEhcIjsgICAgIHRhciAteHpmIGFwaS1maXJld2FsbC50YXIuZ3ogLUMgXCIkQVBJRldfUEFUSFwiIC0tc3RyaXAtY29tcG9uZW50cyAxOyAgICAgcm0gYXBpLWZpcmV3YWxsLnRhci5nejsgICAgICAgICBjaG1vZCA3NTUgJEFQSUZXX1BBVEgvYXBpLWZpcmV3YWxsOyAgICAgICAgIGFwaS1maXJld2FsbCAtdiJ9LHsiY3JlYXRlZCI6IjIwMjItMDQtMTFUMjE6NDE6NTkuODY2Mzc3MDJaIiwiY3JlYXRlZF9ieSI6Ii9iaW4vc2ggLWMgIyhub3ApIENPUFkgZmlsZTpkMjc4ZThkOGY5Y2M4ZTk4YjAyMTI3Zjg3NzAzYjQzNzlhOGE5MzhhNTdlMTA3YWFjNWRkMzRjNzE2OTA3Zjg3IGluIC9vcHQvYXBpLWZpcmV3YWxsLyAifSx7ImNyZWF0ZWQiOiIyMDIyLTA0LTExVDIxOjQxOjU5Ljk2NTEyMjAyM1oiLCJjcmVhdGVkX2J5IjoiL2Jpbi9zaCAtYyAjKG5vcCkgIFVTRVIgYXBpLWZpcmV3YWxsIiwiZW1wdHlfbGF5ZXIiOnRydWV9LHsiY3JlYXRlZCI6IjIwMjItMDQtMTFUMjE6NDI6MDAuMDY0NTk0MzkzWiIsImNyZWF0ZWRfYnkiOiIvYmluL3NoIC1jICMobm9wKSAgRU5UUllQT0lOVCBbXCJkb2NrZXItZW50cnlwb2ludC5zaFwiXSIsImVtcHR5X2xheWVyIjp0cnVlfSx7ImNyZWF0ZWQiOiIyMDIyLTA0LTExVDIxOjQyOjAwLjE2NDk4Nzg4WiIsImNyZWF0ZWRfYnkiOiIvYmluL3NoIC1jICMobm9wKSAgQ01EIFtcImFwaS1maXJld2FsbFwiXSIsImVtcHR5X2xheWVyIjp0cnVlfV0sIm9zIjoibGludXgiLCJyb290ZnMiOnsidHlwZSI6ImxheWVycyIsImRpZmZfaWRzIjpbInNoYTI1Njo0ZmMyNDJkNTgyODU2OTllY2EwNWRiM2NjN2M3MTIyYTJiOGUwMTRkOTQ4MWYzMjNiZDkyNzdiYWFjZmEwNjI4Iiwic2hhMjU2OjYzODI0MDg4N2RlNWQ4YzZkYzQ5NDcyNmY0Mjg4M2JlZTI4NzkyYmE2NmVmYTVlM2JlYzgzMDQ4ZGVlMDcwMTEiLCJzaGEyNTY6Mzg0MDkwOTQ2ODQxNTAwYTU1MDU2MDE0NDIyZTkyY2E4Y2FkZTU1ODk2OGE5MjQ5ZWU4MWRmNDdjNWZhYmIwZiIsInNoYTI1NjpkMDgwY2I5N2QyMWU4MzFjMDRmZDUzNTM4YWI2ZWE5N2U4MTdiNzg0MjkwM2I3NjIyNTc4MDE3NzA4NzQyZjRlIl19fQ==",
+   "repoDigests": [
+    "index.docker.io/library/api-firewall@sha256:d004f0d72c0eea4ba69c66281e0fcb969f59d2e5537e42994f066e419efe521e"
+   ],
+   "architecture": "",
+   "os": ""
+  }
+ },
+ "distro": {
+  "prettyName": "Alpine Linux v3.15",
+  "name": "Alpine Linux",
+  "id": "alpine",
+  "versionID": "3.15.4",
+  "homeURL": "https://alpinelinux.org/",
+  "bugReportURL": "https://bugs.alpinelinux.org/"
+ },
+ "descriptor": {
+  "name": "syft",
+  "version": "0.46.1",
+  "configuration": {
+   "configPath": "",
+   "verbosity": 0,
+   "quiet": true,
+   "output": [
+    "json"
+   ],
+   "file": "",
+   "check-for-app-update": true,
+   "anchore": {
+    "host": "",
+    "path": "",
+    "dockerfile": "",
+    "overwrite-existing-image": false,
+    "import-timeout": 30
+   },
+   "dev": {
+    "profile-cpu": false,
+    "profile-mem": false
+   },
+   "log": {
+    "structured": false,
+    "level": "panic",
+    "file-location": ""
+   },
+   "package": {
+    "cataloger": {
+     "enabled": true,
+     "scope": "Squashed"
+    },
+    "search-unindexed-archives": false,
+    "search-indexed-archives": true
+   },
+   "file-metadata": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "digests": [
+     "sha256"
+    ]
+   },
+   "file-classification": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    }
+   },
+   "file-contents": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "skip-files-above-size": 1048576,
+    "globs": []
+   },
+   "secrets": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "AllLayers"
+    },
+    "additional-patterns": {},
+    "exclude-pattern-names": [],
+    "reveal-values": false,
+    "skip-files-above-size": 1048576
+   },
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": []
+   },
+   "exclude": [],
+   "attest": {
+    "key": "",
+    "cert": "",
+    "noUpload": false,
+    "force": false,
+    "recursive": false,
+    "replace": false,
+    "fulcioUrl": "https://fulcio.sigstore.dev",
+    "fulcio_identity_token": "",
+    "insecure_skip_verify": false,
+    "rekorUrl": "https://rekor.sigstore.dev",
+    "oidcIssuer": "https://oauth2.sigstore.dev/auth",
+    "oidcClientId": "sigstore",
+    "OIDCRedirectURL": ""
+   },
+   "platform": ""
+  }
+ },
+ "schema": {
+  "version": "3.2.3",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-3.2.3.json"
+ }
+}

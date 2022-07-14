@@ -1,0 +1,431 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:5ae9af96-1012-4842-92c3-b5fed237a796",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2022-07-14T13:42:26-07:00",
+    "tools": [
+      {
+        "vendor": "anchore",
+        "name": "syft",
+        "version": "0.46.1"
+      }
+    ],
+    "component": {
+      "bom-ref": "35093b9f19b0abdb",
+      "type": "container",
+      "name": "docker.io/library/fedora:latest",
+      "version": "sha256:486fd5578f93fbc57a519e34ad4b7cac927c3f8a95409baedf0c19e9f287c207"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:pypi/gpg@1.15.1?package-id=4b1b28262b7ac972",
+      "type": "library",
+      "author": "The GnuPG hackers \u003cgnupg-devel@gnupg.org\u003e",
+      "name": "gpg",
+      "version": "1.15.1",
+      "cpe": "cpe:2.3:a:gnupg_hackers:python-gpg:1.15.1:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/gpg@1.15.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "PythonPackageMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gnupg_hackers:python_gpg:1.15.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gnupg-devel:python-gpg:1.15.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gnupg-devel:python_gpg:1.15.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gnupg_devel:python-gpg:1.15.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gnupg_devel:python_gpg:1.15.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-gpg:python-gpg:1.15.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-gpg:python_gpg:1.15.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_gpg:python-gpg:1.15.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_gpg:python_gpg:1.15.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gnupg_hackers:gpg:1.15.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-gpg:1.15.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_gpg:1.15.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gnupg-devel:gpg:1.15.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gnupg_devel:gpg:1.15.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gpg:python-gpg:1.15.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gpg:python_gpg:1.15.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-gpg:gpg:1.15.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_gpg:gpg:1.15.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:gpg:1.15.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gpg:gpg:1.15.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:811f92a7a340873e7fef337f3f3cab4f353f24ca0b303ed0f46b00917e262a7b"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/usr/lib64/python3.10/site-packages/gpg-1.15.1-py3.10.egg-info"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/libcomps@0.1.18?package-id=d99191a20b30496c",
+      "type": "library",
+      "author": "RPM Software Management \u003crpm-ecosystem@lists.rpm.org\u003e",
+      "name": "libcomps",
+      "version": "0.1.18",
+      "cpe": "cpe:2.3:a:rpm_software_management:python-libcomps:0.1.18:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/libcomps@0.1.18",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "PythonPackageMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:rpm_software_management:python_libcomps:0.1.18:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:rpm_software_management:libcomps:0.1.18:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-libcomps:python-libcomps:0.1.18:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-libcomps:python_libcomps:0.1.18:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_libcomps:python-libcomps:0.1.18:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_libcomps:python_libcomps:0.1.18:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:rpm-ecosystem:python-libcomps:0.1.18:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:rpm-ecosystem:python_libcomps:0.1.18:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:rpm_ecosystem:python-libcomps:0.1.18:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:rpm_ecosystem:python_libcomps:0.1.18:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libcomps:python-libcomps:0.1.18:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libcomps:python_libcomps:0.1.18:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-libcomps:libcomps:0.1.18:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_libcomps:libcomps:0.1.18:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-libcomps:0.1.18:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_libcomps:0.1.18:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:rpm-ecosystem:libcomps:0.1.18:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:rpm_ecosystem:libcomps:0.1.18:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libcomps:libcomps:0.1.18:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:libcomps:0.1.18:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:811f92a7a340873e7fef337f3f3cab4f353f24ca0b303ed0f46b00917e262a7b"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/usr/lib64/python3.10/site-packages/libcomps-0.1.18-py3.10.egg-info/PKG-INFO"
+        },
+        {
+          "name": "syft:location:1:layerID",
+          "value": "sha256:811f92a7a340873e7fef337f3f3cab4f353f24ca0b303ed0f46b00917e262a7b"
+        },
+        {
+          "name": "syft:location:1:path",
+          "value": "/usr/lib64/python3.10/site-packages/libcomps-0.1.18-py3.10.egg-info/top_level.txt"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/rpm@4.17.0?package-id=ad0337a013b853d",
+      "type": "library",
+      "author": "UNKNOWN \u003crpm-maint@lists.rpm.org\u003e",
+      "name": "rpm",
+      "version": "4.17.0",
+      "cpe": "cpe:2.3:a:python-rpm:python-rpm:4.17.0:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/rpm@4.17.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "PythonPackageMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-rpm:python_rpm:4.17.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_rpm:python-rpm:4.17.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_rpm:python_rpm:4.17.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:rpm-maint:python-rpm:4.17.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:rpm-maint:python_rpm:4.17.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:rpm_maint:python-rpm:4.17.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:rpm_maint:python_rpm:4.17.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:unknown:python-rpm:4.17.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:unknown:python_rpm:4.17.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-rpm:4.17.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_rpm:4.17.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-rpm:rpm:4.17.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_rpm:rpm:4.17.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:rpm:python-rpm:4.17.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:rpm:python_rpm:4.17.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:rpm-maint:rpm:4.17.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:rpm_maint:rpm:4.17.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:unknown:rpm:4.17.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:rpm:4.17.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:rpm:rpm:4.17.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:811f92a7a340873e7fef337f3f3cab4f353f24ca0b303ed0f46b00917e262a7b"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/usr/lib64/python3.10/site-packages/rpm-4.17.0-py3.10.egg-info"
+        }
+      ]
+    },
+    {
+      "type": "operating-system",
+      "name": "fedora",
+      "version": "36",
+      "description": "Fedora Linux 36 (Container Image)",
+      "cpe": "cpe:/o:fedoraproject:fedora:36",
+      "swid": {
+        "tagId": "fedora",
+        "name": "fedora",
+        "version": "36"
+      },
+      "externalReferences": [
+        {
+          "url": "https://bugzilla.redhat.com/",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://fedoraproject.org/",
+          "type": "website"
+        },
+        {
+          "url": "https://ask.fedoraproject.org/",
+          "comment": "support",
+          "type": "other"
+        },
+        {
+          "url": "https://fedoraproject.org/wiki/Legal:PrivacyPolicy",
+          "comment": "privacyPolicy",
+          "type": "other"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:distro:id",
+          "value": "fedora"
+        },
+        {
+          "name": "syft:distro:prettyName",
+          "value": "Fedora Linux 36 (Container Image)"
+        },
+        {
+          "name": "syft:distro:variant",
+          "value": "Container Image"
+        },
+        {
+          "name": "syft:distro:variantID",
+          "value": "container"
+        },
+        {
+          "name": "syft:distro:versionID",
+          "value": "36"
+        }
+      ]
+    }
+  ]
+}

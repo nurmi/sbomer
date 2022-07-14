@@ -1,0 +1,4218 @@
+{
+ "artifacts": [
+  {
+   "id": "ab971b290905df2",
+   "name": "alpine-baselayout",
+   "version": "3.2.0-r7",
+   "type": "apk",
+   "foundBy": "apkdb-cataloger",
+   "locations": [
+    {
+     "path": "/lib/apk/db/installed",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [
+    "GPL-2.0-only"
+   ],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:alpine-baselayout:alpine-baselayout:3.2.0-r7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:alpine-baselayout:alpine_baselayout:3.2.0-r7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:alpine_baselayout:alpine-baselayout:3.2.0-r7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:alpine_baselayout:alpine_baselayout:3.2.0-r7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:alpine:alpine-baselayout:3.2.0-r7:*:*:*:*:*:*:*",
+    "cpe:2.3:a:alpine:alpine_baselayout:3.2.0-r7:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:alpine/alpine-baselayout@3.2.0-r7?arch=x86_64&upstream=alpine-baselayout&distro=alpine-3.12.12",
+   "metadataType": "ApkMetadata",
+   "metadata": {
+    "package": "alpine-baselayout",
+    "originPackage": "alpine-baselayout",
+    "maintainer": "Natanael Copa <ncopa@alpinelinux.org>",
+    "version": "3.2.0-r7",
+    "license": "GPL-2.0-only",
+    "architecture": "x86_64",
+    "url": "https://git.alpinelinux.org/cgit/aports/tree/main/alpine-baselayout",
+    "description": "Alpine base dir structure and init scripts",
+    "size": 19912,
+    "installedSize": 409600,
+    "pullDependencies": "/bin/sh so:libc.musl-x86_64.so.1",
+    "pullChecksum": "Q1WGpU5dl4U99OvcQ2KILlb+d6DAk=",
+    "gitCommitOfApkPort": "c3ce4065bd8a69d20ad392d4cf006ed652c3f1a7",
+    "files": [
+     {
+      "path": "/dev"
+     },
+     {
+      "path": "/dev/pts"
+     },
+     {
+      "path": "/dev/shm"
+     },
+     {
+      "path": "/etc"
+     },
+     {
+      "path": "/etc/fstab",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q11Q7hNe8QpDS531guqCdrXBzoA/o="
+      }
+     },
+     {
+      "path": "/etc/group",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1oJ16xWudgKOrXIEquEDzlF2Lsm4="
+      }
+     },
+     {
+      "path": "/etc/hostname",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q16nVwYVXP/tChvUPdukVD2ifXOmc="
+      }
+     },
+     {
+      "path": "/etc/hosts",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1BD6zJKZTRWyqGnPi4tSfd3krsMU="
+      }
+     },
+     {
+      "path": "/etc/inittab",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1TsthbhW7QzWRe1E/NKwTOuD4pHc="
+      }
+     },
+     {
+      "path": "/etc/modules",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1toogjUipHGcMgECgPJX64SwUT1M="
+      }
+     },
+     {
+      "path": "/etc/motd",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1XmduVVNURHQ27TvYp1Lr5TMtFcA="
+      }
+     },
+     {
+      "path": "/etc/mtab",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1kiljhXXH1LlQroHsEJIkPZg2eiw="
+      }
+     },
+     {
+      "path": "/etc/passwd",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1TchuuLUfur0izvfZQZxgN/LJhB8="
+      }
+     },
+     {
+      "path": "/etc/profile",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1KpFb8kl5LvwXWlY3e58FNsjrI34="
+      }
+     },
+     {
+      "path": "/etc/protocols",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q13FqXUnvuOpMDrH/6rehxuYAEE34="
+      }
+     },
+     {
+      "path": "/etc/services",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1C6HJNgQvLWqt5VY+n7MZJ1rsDuY="
+      }
+     },
+     {
+      "path": "/etc/shadow",
+      "ownerUid": "0",
+      "ownerGid": "42",
+      "permissions": "640",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1ltrPIAW2zHeDiajsex2Bdmq3uqA="
+      }
+     },
+     {
+      "path": "/etc/shells",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1ojm2YdpCJ6B/apGDaZ/Sdb2xJkA="
+      }
+     },
+     {
+      "path": "/etc/sysctl.conf",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q14upz3tfnNxZkIEsUhWn7Xoiw96g="
+      }
+     },
+     {
+      "path": "/etc/apk"
+     },
+     {
+      "path": "/etc/conf.d"
+     },
+     {
+      "path": "/etc/crontabs"
+     },
+     {
+      "path": "/etc/crontabs/root",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "600",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1vfk1apUWI4yLJGhhNRd0kJixfvY="
+      }
+     },
+     {
+      "path": "/etc/init.d"
+     },
+     {
+      "path": "/etc/modprobe.d"
+     },
+     {
+      "path": "/etc/modprobe.d/aliases.conf",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1WUbh6TBYNVK7e4Y+uUvLs/7viqk="
+      }
+     },
+     {
+      "path": "/etc/modprobe.d/blacklist.conf",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1xxYGU6S6TLQvb7ervPrWWwAWqMg="
+      }
+     },
+     {
+      "path": "/etc/modprobe.d/i386.conf",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1pnay/njn6ol9cCssL7KiZZ8etlc="
+      }
+     },
+     {
+      "path": "/etc/modprobe.d/kms.conf",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1ynbLn3GYDpvajba/ldp1niayeog="
+      }
+     },
+     {
+      "path": "/etc/modules-load.d"
+     },
+     {
+      "path": "/etc/network"
+     },
+     {
+      "path": "/etc/network/if-down.d"
+     },
+     {
+      "path": "/etc/network/if-post-down.d"
+     },
+     {
+      "path": "/etc/network/if-pre-up.d"
+     },
+     {
+      "path": "/etc/network/if-up.d"
+     },
+     {
+      "path": "/etc/opt"
+     },
+     {
+      "path": "/etc/periodic"
+     },
+     {
+      "path": "/etc/periodic/15min"
+     },
+     {
+      "path": "/etc/periodic/daily"
+     },
+     {
+      "path": "/etc/periodic/hourly"
+     },
+     {
+      "path": "/etc/periodic/monthly"
+     },
+     {
+      "path": "/etc/periodic/weekly"
+     },
+     {
+      "path": "/etc/profile.d"
+     },
+     {
+      "path": "/etc/profile.d/color_prompt",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q10wL23GuSCVfumMRgakabUI6EsSk="
+      }
+     },
+     {
+      "path": "/etc/profile.d/locale.sh",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1S8j+WW71mWxfVy8ythqU7HUVoBw="
+      }
+     },
+     {
+      "path": "/etc/sysctl.d"
+     },
+     {
+      "path": "/home"
+     },
+     {
+      "path": "/lib"
+     },
+     {
+      "path": "/lib/firmware"
+     },
+     {
+      "path": "/lib/mdev"
+     },
+     {
+      "path": "/lib/modules-load.d"
+     },
+     {
+      "path": "/lib/sysctl.d"
+     },
+     {
+      "path": "/lib/sysctl.d/00-alpine.conf",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1HpElzW1xEgmKfERtTy7oommnq6c="
+      }
+     },
+     {
+      "path": "/media"
+     },
+     {
+      "path": "/media/cdrom"
+     },
+     {
+      "path": "/media/floppy"
+     },
+     {
+      "path": "/media/usb"
+     },
+     {
+      "path": "/mnt"
+     },
+     {
+      "path": "/opt"
+     },
+     {
+      "path": "/proc"
+     },
+     {
+      "path": "/root",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "700"
+     },
+     {
+      "path": "/run"
+     },
+     {
+      "path": "/sbin"
+     },
+     {
+      "path": "/sbin/mkmntdirs",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "755",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1YeuSmC7iDbEWrusPzA/zUQF6YSg="
+      }
+     },
+     {
+      "path": "/srv"
+     },
+     {
+      "path": "/sys"
+     },
+     {
+      "path": "/tmp",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "1777"
+     },
+     {
+      "path": "/usr"
+     },
+     {
+      "path": "/usr/lib"
+     },
+     {
+      "path": "/usr/lib/modules-load.d"
+     },
+     {
+      "path": "/usr/local"
+     },
+     {
+      "path": "/usr/local/bin"
+     },
+     {
+      "path": "/usr/local/lib"
+     },
+     {
+      "path": "/usr/local/share"
+     },
+     {
+      "path": "/usr/sbin"
+     },
+     {
+      "path": "/usr/share"
+     },
+     {
+      "path": "/usr/share/man"
+     },
+     {
+      "path": "/usr/share/misc"
+     },
+     {
+      "path": "/var"
+     },
+     {
+      "path": "/var/run",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q11/SNZz/8cK2dSKK+cJpVrZIuF4Q="
+      }
+     },
+     {
+      "path": "/var/cache"
+     },
+     {
+      "path": "/var/cache/misc"
+     },
+     {
+      "path": "/var/empty",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "555"
+     },
+     {
+      "path": "/var/lib"
+     },
+     {
+      "path": "/var/lib/misc"
+     },
+     {
+      "path": "/var/local"
+     },
+     {
+      "path": "/var/lock"
+     },
+     {
+      "path": "/var/lock/subsys"
+     },
+     {
+      "path": "/var/log"
+     },
+     {
+      "path": "/var/mail"
+     },
+     {
+      "path": "/var/opt"
+     },
+     {
+      "path": "/var/spool"
+     },
+     {
+      "path": "/var/spool/mail",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1dzbdazYZA2nTzSIG3YyNw7d4Juc="
+      }
+     },
+     {
+      "path": "/var/spool/cron"
+     },
+     {
+      "path": "/var/spool/cron/crontabs",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1OFZt+ZMp7j0Gny0rqSKuWJyqYmA="
+      }
+     },
+     {
+      "path": "/var/tmp",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "1777"
+     }
+    ]
+   }
+  },
+  {
+   "id": "fdfd5687263b905c",
+   "name": "alpine-keys",
+   "version": "2.4-r0",
+   "type": "apk",
+   "foundBy": "apkdb-cataloger",
+   "locations": [
+    {
+     "path": "/lib/apk/db/installed",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [
+    "MIT"
+   ],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:alpine-keys:alpine-keys:2.4-r0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:alpine-keys:alpine_keys:2.4-r0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:alpine_keys:alpine-keys:2.4-r0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:alpine_keys:alpine_keys:2.4-r0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:alpine:alpine-keys:2.4-r0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:alpine:alpine_keys:2.4-r0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:alpine/alpine-keys@2.4-r0?arch=x86_64&upstream=alpine-keys&distro=alpine-3.12.12",
+   "metadataType": "ApkMetadata",
+   "metadata": {
+    "package": "alpine-keys",
+    "originPackage": "alpine-keys",
+    "maintainer": "Natanael Copa <ncopa@alpinelinux.org>",
+    "version": "2.4-r0",
+    "license": "MIT",
+    "architecture": "x86_64",
+    "url": "https://alpinelinux.org",
+    "description": "Public keys for Alpine Linux packages",
+    "size": 13095,
+    "installedSize": 159744,
+    "pullDependencies": "",
+    "pullChecksum": "Q1C5NL8CplG17nGq+43IM0m8adzl8=",
+    "gitCommitOfApkPort": "ad113d7b2c64187bba3c3e1f71c2774a3246800e",
+    "files": [
+     {
+      "path": "/etc"
+     },
+     {
+      "path": "/etc/apk"
+     },
+     {
+      "path": "/etc/apk/keys"
+     },
+     {
+      "path": "/etc/apk/keys/alpine-devel@lists.alpinelinux.org-4a6a0840.rsa.pub",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1OvCFSO94z97c80mIDCxqGkh2Og4="
+      }
+     },
+     {
+      "path": "/etc/apk/keys/alpine-devel@lists.alpinelinux.org-5243ef4b.rsa.pub",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1v7YWZYzAWoclaLDI45jEguI7YN0="
+      }
+     },
+     {
+      "path": "/etc/apk/keys/alpine-devel@lists.alpinelinux.org-5261cecb.rsa.pub",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1NnGuDsdQOx4ZNYfB3N97eLyGPkI="
+      }
+     },
+     {
+      "path": "/etc/apk/keys/alpine-devel@lists.alpinelinux.org-6165ee59.rsa.pub",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1lZlTESNrelWTNkL/oQzmAU8a99A="
+      }
+     },
+     {
+      "path": "/etc/apk/keys/alpine-devel@lists.alpinelinux.org-61666e3f.rsa.pub",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1WNW6Sy87HpJ3IdemQy8pju33Kms="
+      }
+     },
+     {
+      "path": "/usr"
+     },
+     {
+      "path": "/usr/share"
+     },
+     {
+      "path": "/usr/share/apk"
+     },
+     {
+      "path": "/usr/share/apk/keys"
+     },
+     {
+      "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-4a6a0840.rsa.pub",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1OvCFSO94z97c80mIDCxqGkh2Og4="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-5243ef4b.rsa.pub",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1v7YWZYzAWoclaLDI45jEguI7YN0="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-524d27bb.rsa.pub",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1BTqS+H/UUyhQuzHwiBl47+BTKuU="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-5261cecb.rsa.pub",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1NnGuDsdQOx4ZNYfB3N97eLyGPkI="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-58199dcc.rsa.pub",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1Oaxdcsa6AYoPdLi0U4lO3J2we18="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-58cbb476.rsa.pub",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1yPq+su65ksNox3uXB+DR7P18+QU="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-58e4f17d.rsa.pub",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1MpZDNX0LeLHvSOwVUyXiXx11NN0="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-5e69ca50.rsa.pub",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1glCQ/eJbvA5xqcswdjFrWv5Fnk0="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-60ac2099.rsa.pub",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1XUdDEoNTtjlvrS+iunk6ziFgIpU="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-6165ee59.rsa.pub",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1lZlTESNrelWTNkL/oQzmAU8a99A="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-61666e3f.rsa.pub",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1WNW6Sy87HpJ3IdemQy8pju33Kms="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-616a9724.rsa.pub",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1I9Dy6hryacL2YWXg+KlE6WvwEd4="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-616abc23.rsa.pub",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1NSnsgmcMbU4g7j5JaNs0tVHpHVA="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-616ac3bc.rsa.pub",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1VaMBBk4Rxv6boPLKF+I085Q8y2E="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-616adfeb.rsa.pub",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q13hJBMHAUquPbp5jpAPFjQI2Y1vQ="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-616ae350.rsa.pub",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1V/a5P9pKRJb6tihE3e8O6xaPgLU="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-616db30d.rsa.pub",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q13wLJrcKQajql5a1p9Q45U+ZXENA="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/aarch64"
+     },
+     {
+      "path": "/usr/share/apk/keys/aarch64/alpine-devel@lists.alpinelinux.org-58199dcc.rsa.pub",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q17j9nWJkQ+wfIuVQzIFrmFZ7fSOc="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/aarch64/alpine-devel@lists.alpinelinux.org-616ae350.rsa.pub",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1snr+Q1UbfHyCr/cmmtVvMIS7SGs="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/armhf"
+     },
+     {
+      "path": "/usr/share/apk/keys/armhf/alpine-devel@lists.alpinelinux.org-524d27bb.rsa.pub",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1U9QtsdN+rYZ9Zh76EfXy00JZHMg="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/armhf/alpine-devel@lists.alpinelinux.org-616a9724.rsa.pub",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1bC+AdQ0qWBTmefXiI0PvmYOJoVQ="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/armv7"
+     },
+     {
+      "path": "/usr/share/apk/keys/armv7/alpine-devel@lists.alpinelinux.org-524d27bb.rsa.pub",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1U9QtsdN+rYZ9Zh76EfXy00JZHMg="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/armv7/alpine-devel@lists.alpinelinux.org-616adfeb.rsa.pub",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1xbIVu7ScwqGHxXGwI22aSe5OdUY="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/mips64"
+     },
+     {
+      "path": "/usr/share/apk/keys/mips64/alpine-devel@lists.alpinelinux.org-5e69ca50.rsa.pub",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1hCZdFx+LvzbLtPs753je78gEEBQ="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/ppc64le"
+     },
+     {
+      "path": "/usr/share/apk/keys/ppc64le/alpine-devel@lists.alpinelinux.org-58cbb476.rsa.pub",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1t21dhCLbTJmAHXSCeOMq/2vfSgo="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/ppc64le/alpine-devel@lists.alpinelinux.org-616abc23.rsa.pub",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1PS9zNIPJanC8qcsc5qarEWqhV5Q="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/riscv64"
+     },
+     {
+      "path": "/usr/share/apk/keys/riscv64/alpine-devel@lists.alpinelinux.org-60ac2099.rsa.pub",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1NVPbZavaXpsItFwQYDWbpor7yYE="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/riscv64/alpine-devel@lists.alpinelinux.org-616db30d.rsa.pub",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1U6tfuKRy5J8C6iaKPMZaT/e8tbA="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/s390x"
+     },
+     {
+      "path": "/usr/share/apk/keys/s390x/alpine-devel@lists.alpinelinux.org-58e4f17d.rsa.pub",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1sjbV2r2w0Ih2vwdzC4Jq6UI7cMQ="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/s390x/alpine-devel@lists.alpinelinux.org-616ac3bc.rsa.pub",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1l09xa7RnbOIC1dI9FqbaCfS/GXY="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/x86"
+     },
+     {
+      "path": "/usr/share/apk/keys/x86/alpine-devel@lists.alpinelinux.org-4a6a0840.rsa.pub",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1Ii51i7Nrc4uft14HhqugaUqdH64="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/x86/alpine-devel@lists.alpinelinux.org-5243ef4b.rsa.pub",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1Y49eVxhpvftbQ3yAdvlLfcrPLTU="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/x86/alpine-devel@lists.alpinelinux.org-61666e3f.rsa.pub",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1HjdvcVkpBZzr1aSe3p7oQfAtm/E="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/x86_64"
+     },
+     {
+      "path": "/usr/share/apk/keys/x86_64/alpine-devel@lists.alpinelinux.org-4a6a0840.rsa.pub",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1Ii51i7Nrc4uft14HhqugaUqdH64="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/x86_64/alpine-devel@lists.alpinelinux.org-5261cecb.rsa.pub",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1AUFY+fwSBTcrYetjT7NHvafrSQc="
+      }
+     },
+     {
+      "path": "/usr/share/apk/keys/x86_64/alpine-devel@lists.alpinelinux.org-6165ee59.rsa.pub",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1qKA23VzMUDle+Dqnrr5Kz+Xvty4="
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "7609c21653a53e4f",
+   "name": "apk-tools",
+   "version": "2.10.8-r1",
+   "type": "apk",
+   "foundBy": "apkdb-cataloger",
+   "locations": [
+    {
+     "path": "/lib/apk/db/installed",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [
+    "GPL-2.0-only"
+   ],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:apk-tools:apk-tools:2.10.8-r1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apk-tools:apk_tools:2.10.8-r1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apk_tools:apk-tools:2.10.8-r1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apk_tools:apk_tools:2.10.8-r1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apk:apk-tools:2.10.8-r1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apk:apk_tools:2.10.8-r1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:alpine/apk-tools@2.10.8-r1?arch=x86_64&upstream=apk-tools&distro=alpine-3.12.12",
+   "metadataType": "ApkMetadata",
+   "metadata": {
+    "package": "apk-tools",
+    "originPackage": "apk-tools",
+    "maintainer": "Natanael Copa <ncopa@alpinelinux.org>",
+    "version": "2.10.8-r1",
+    "license": "GPL-2.0-only",
+    "architecture": "x86_64",
+    "url": "https://gitlab.alpinelinux.org/alpine/apk-tools",
+    "description": "Alpine Package Keeper - package manager for alpine",
+    "size": 104014,
+    "installedSize": 266240,
+    "pullDependencies": "so:libc.musl-x86_64.so.1 so:libcrypto.so.1.1 so:libssl.so.1.1 so:libz.so.1",
+    "pullChecksum": "Q1VsIloRQDeEkvn35FqpniZaTE34s=",
+    "gitCommitOfApkPort": "6a528d0bdbd1dc3aac4c1ec1f6c841765bc6ae75",
+    "files": [
+     {
+      "path": "/etc"
+     },
+     {
+      "path": "/etc/apk"
+     },
+     {
+      "path": "/etc/apk/keys"
+     },
+     {
+      "path": "/etc/apk/protected_paths.d"
+     },
+     {
+      "path": "/sbin"
+     },
+     {
+      "path": "/sbin/apk",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "755",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1NjFf+Qj6XMatBRWmqUKoyN6E9b0="
+      }
+     },
+     {
+      "path": "/var"
+     },
+     {
+      "path": "/var/cache"
+     },
+     {
+      "path": "/var/cache/misc"
+     },
+     {
+      "path": "/var/lib"
+     },
+     {
+      "path": "/var/lib/apk"
+     }
+    ]
+   }
+  },
+  {
+   "id": "a2df16fe1b3cca11",
+   "name": "busybox",
+   "version": "1.31.1-r22",
+   "type": "apk",
+   "foundBy": "apkdb-cataloger",
+   "locations": [
+    {
+     "path": "/lib/apk/db/installed",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [
+    "GPL-2.0-only"
+   ],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:busybox:busybox:1.31.1-r22:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:alpine/busybox@1.31.1-r22?arch=x86_64&upstream=busybox&distro=alpine-3.12.12",
+   "metadataType": "ApkMetadata",
+   "metadata": {
+    "package": "busybox",
+    "originPackage": "busybox",
+    "maintainer": "Natanael Copa <ncopa@alpinelinux.org>",
+    "version": "1.31.1-r22",
+    "license": "GPL-2.0-only",
+    "architecture": "x86_64",
+    "url": "https://busybox.net/",
+    "description": "Size optimized toolbox of many common UNIX utilities",
+    "size": 505919,
+    "installedSize": 962560,
+    "pullDependencies": "so:libc.musl-x86_64.so.1",
+    "pullChecksum": "Q1ONFY0GU7dj6i5jiZNrjWWf2Hjkw=",
+    "gitCommitOfApkPort": "41c9e389fd1ebce7fc2e723a9074fa7f2a00e11a",
+    "files": [
+     {
+      "path": "/bin"
+     },
+     {
+      "path": "/bin/busybox",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "755",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1HshENcdhYFoYEBl8FnfsNLI8CjA="
+      }
+     },
+     {
+      "path": "/bin/sh",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1pcfTfDNEbNKQc2s1tia7da05M8Q="
+      }
+     },
+     {
+      "path": "/etc"
+     },
+     {
+      "path": "/etc/securetty",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1RpeOldjaFVFDbjnK5fzpLGtxunM="
+      }
+     },
+     {
+      "path": "/etc/udhcpd.conf",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1UAiPZcDIW1ClRzobfggcCQ77V28="
+      }
+     },
+     {
+      "path": "/etc/logrotate.d"
+     },
+     {
+      "path": "/etc/logrotate.d/acpid",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1TylyCINVmnS+A/Tead4vZhE7Bks="
+      }
+     },
+     {
+      "path": "/etc/network"
+     },
+     {
+      "path": "/etc/network/if-down.d"
+     },
+     {
+      "path": "/etc/network/if-post-down.d"
+     },
+     {
+      "path": "/etc/network/if-post-up.d"
+     },
+     {
+      "path": "/etc/network/if-pre-down.d"
+     },
+     {
+      "path": "/etc/network/if-pre-up.d"
+     },
+     {
+      "path": "/etc/network/if-up.d"
+     },
+     {
+      "path": "/etc/network/if-up.d/dad",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "775",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1hlxd3qExrihH8bYxDQ3i7TsM/44="
+      }
+     },
+     {
+      "path": "/sbin"
+     },
+     {
+      "path": "/tmp",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "1777"
+     },
+     {
+      "path": "/usr"
+     },
+     {
+      "path": "/usr/sbin"
+     },
+     {
+      "path": "/usr/share"
+     },
+     {
+      "path": "/usr/share/udhcpc"
+     },
+     {
+      "path": "/usr/share/udhcpc/default.script",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "755",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1N2KRDz/R6RqKhGqujQ4Y6EokMXY="
+      }
+     },
+     {
+      "path": "/var"
+     },
+     {
+      "path": "/var/cache"
+     },
+     {
+      "path": "/var/cache/misc"
+     },
+     {
+      "path": "/var/lib"
+     },
+     {
+      "path": "/var/lib/udhcpd"
+     }
+    ]
+   }
+  },
+  {
+   "id": "d44f92f020efc258",
+   "name": "ca-certificates-bundle",
+   "version": "20211220-r0",
+   "type": "apk",
+   "foundBy": "apkdb-cataloger",
+   "locations": [
+    {
+     "path": "/lib/apk/db/installed",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [
+    "MPL-2.0",
+    "GPL-2.0-or-later"
+   ],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:ca-certificates-bundle:ca-certificates-bundle:20211220-r0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ca-certificates-bundle:ca_certificates_bundle:20211220-r0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ca_certificates_bundle:ca-certificates-bundle:20211220-r0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ca_certificates_bundle:ca_certificates_bundle:20211220-r0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ca-certificates:ca-certificates-bundle:20211220-r0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ca-certificates:ca_certificates_bundle:20211220-r0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ca_certificates:ca-certificates-bundle:20211220-r0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ca_certificates:ca_certificates_bundle:20211220-r0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ca:ca-certificates-bundle:20211220-r0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ca:ca_certificates_bundle:20211220-r0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:alpine/ca-certificates-bundle@20211220-r0?arch=x86_64&upstream=ca-certificates&distro=alpine-3.12.12",
+   "metadataType": "ApkMetadata",
+   "metadata": {
+    "package": "ca-certificates-bundle",
+    "originPackage": "ca-certificates",
+    "maintainer": "Natanael Copa <ncopa@alpinelinux.org>",
+    "version": "20211220-r0",
+    "license": "MPL-2.0 GPL-2.0-or-later",
+    "architecture": "x86_64",
+    "url": "https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/",
+    "description": "Pre generated bundle of Mozilla certificates",
+    "size": 119492,
+    "installedSize": 221184,
+    "pullDependencies": "",
+    "pullChecksum": "Q1ckrgfeS+UcgVnqO8Z9vY+tB/njQ=",
+    "gitCommitOfApkPort": "ff8801d22feefbb59c634f4e5bd3763869025a9f",
+    "files": [
+     {
+      "path": "/etc"
+     },
+     {
+      "path": "/etc/ssl"
+     },
+     {
+      "path": "/etc/ssl/cert.pem",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1Nj6gTBdkZpTFW/obJGdpfvK0StA="
+      }
+     },
+     {
+      "path": "/etc/ssl/certs"
+     },
+     {
+      "path": "/etc/ssl/certs/ca-certificates.crt",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1m2cJofoNZtCCK41yvjTgX4K7dvs="
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "e3ebd92ee026bd61",
+   "name": "github.com/BurntSushi/toml",
+   "version": "v0.3.1",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/notary/server/notary-server",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:BurntSushi:toml:v0.3.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/BurntSushi/toml@v0.3.1",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.13.15",
+    "architecture": "x86_64",
+    "h1Digest": "h1:WXkYYl6Yr3qBf1K79EBnL4mak0OimBfB0XUf9Vl28OQ=",
+    "mainModule": "github.com/theupdateframework/notary"
+   }
+  },
+  {
+   "id": "29914ae592189c2f",
+   "name": "github.com/Shopify/logrus-bugsnag",
+   "version": "v0.0.0-20170309145241-6dbc35f2c30d",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/notary/server/notary-server",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:Shopify:logrus-bugsnag:v0.0.0-20170309145241-6dbc35f2c30d:*:*:*:*:*:*:*",
+    "cpe:2.3:a:Shopify:logrus_bugsnag:v0.0.0-20170309145241-6dbc35f2c30d:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/Shopify/logrus-bugsnag@v0.0.0-20170309145241-6dbc35f2c30d",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.13.15",
+    "architecture": "x86_64",
+    "h1Digest": "h1:hi6J4K6DKrR4/ljxn6SF6nURyu785wKMuQcjt7H3VCQ=",
+    "mainModule": "github.com/theupdateframework/notary"
+   }
+  },
+  {
+   "id": "9a1159a8197623be",
+   "name": "github.com/beorn7/perks",
+   "version": "v0.0.0-20150223135152-b965b613227f",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/notary/server/notary-server",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:beorn7:perks:v0.0.0-20150223135152-b965b613227f:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/beorn7/perks@v0.0.0-20150223135152-b965b613227f",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.13.15",
+    "architecture": "x86_64",
+    "h1Digest": "h1:L/FlB1krOjojJSmUaiAiOMiIdRWylhc9QcHg0vHBuzA=",
+    "mainModule": "github.com/theupdateframework/notary"
+   }
+  },
+  {
+   "id": "65fa7786316b3ceb",
+   "name": "github.com/bugsnag/bugsnag-go",
+   "version": "v1.0.5-0.20150529004307-13fd6b8acda0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/notary/server/notary-server",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:bugsnag:bugsnag-go:v1.0.5-0.20150529004307-13fd6b8acda0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:bugsnag:bugsnag_go:v1.0.5-0.20150529004307-13fd6b8acda0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/bugsnag/bugsnag-go@v1.0.5-0.20150529004307-13fd6b8acda0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.13.15",
+    "architecture": "x86_64",
+    "h1Digest": "h1:s7+5BfS4WFJoVF9pnB8kBk03S7pZXRdKamnV0FOl5Sc=",
+    "mainModule": "github.com/theupdateframework/notary"
+   }
+  },
+  {
+   "id": "ecd5febc5e6c032b",
+   "name": "github.com/bugsnag/osext",
+   "version": "v0.0.0-20130617224835-0dd3f918b21b",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/notary/server/notary-server",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:bugsnag:osext:v0.0.0-20130617224835-0dd3f918b21b:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/bugsnag/osext@v0.0.0-20130617224835-0dd3f918b21b",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.13.15",
+    "architecture": "x86_64",
+    "h1Digest": "h1:otBG+dV+YK+Soembjv71DPz3uX/V/6MMlSyD9JBQ6kQ=",
+    "mainModule": "github.com/theupdateframework/notary"
+   }
+  },
+  {
+   "id": "4aa9875ea096418e",
+   "name": "github.com/bugsnag/panicwrap",
+   "version": "v0.0.0-20151223152923-e2c28503fcd0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/notary/server/notary-server",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:bugsnag:panicwrap:v0.0.0-20151223152923-e2c28503fcd0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/bugsnag/panicwrap@v0.0.0-20151223152923-e2c28503fcd0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.13.15",
+    "architecture": "x86_64",
+    "h1Digest": "h1:nvj0OLI3YqYXer/kZD8Ri1aaunCxIEsOst1BVJswV0o=",
+    "mainModule": "github.com/theupdateframework/notary"
+   }
+  },
+  {
+   "id": "8281e72d9ce80748",
+   "name": "github.com/docker/distribution",
+   "version": "v2.7.1+incompatible",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/notary/server/notary-server",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:docker:distribution:v2.7.1\\+incompatible:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/docker/distribution@v2.7.1+incompatible",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.13.15",
+    "architecture": "x86_64",
+    "h1Digest": "h1:a5mlkVzth6W5A4fOsS3D2EO5BUmsJpcB+cRlLU7cSug=",
+    "mainModule": "github.com/theupdateframework/notary"
+   }
+  },
+  {
+   "id": "60c26f2599c17be7",
+   "name": "github.com/docker/go",
+   "version": "v1.5.1-1.0.20160303222718-d30aec9fd63c",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/notary/server/notary-server",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:docker:go:v1.5.1-1.0.20160303222718-d30aec9fd63c:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/docker/go@v1.5.1-1.0.20160303222718-d30aec9fd63c",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.13.15",
+    "architecture": "x86_64",
+    "h1Digest": "h1:lzqkGL9b3znc+ZUgi7FlLnqjQhcXxkNM/quxIjBVMD0=",
+    "mainModule": "github.com/theupdateframework/notary"
+   }
+  },
+  {
+   "id": "cf99b3723252d92f",
+   "name": "github.com/docker/go-connections",
+   "version": "v0.4.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/notary/server/notary-server",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:docker:go-connections:v0.4.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:docker:go_connections:v0.4.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/docker/go-connections@v0.4.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.13.15",
+    "architecture": "x86_64",
+    "h1Digest": "h1:El9xVISelRB7BuFusrZozjnkIM5YnzCViNKohAFqRJQ=",
+    "mainModule": "github.com/theupdateframework/notary"
+   }
+  },
+  {
+   "id": "3fd232e6dc4f7dc5",
+   "name": "github.com/docker/libtrust",
+   "version": "v0.0.0-20160708172513-aabc10ec26b7",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/notary/server/notary-server",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:docker:libtrust:v0.0.0-20160708172513-aabc10ec26b7:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/docker/libtrust@v0.0.0-20160708172513-aabc10ec26b7",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.13.15",
+    "architecture": "x86_64",
+    "h1Digest": "h1:UhxFibDNY/bfvqU5CAUmr9zpesgbU6SWc8/B4mflAE4=",
+    "mainModule": "github.com/theupdateframework/notary"
+   }
+  },
+  {
+   "id": "19871a76935e498b",
+   "name": "github.com/go-sql-driver/mysql",
+   "version": "v1.3.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/notary/server/notary-server",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:go-sql-driver:mysql:v1.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:go_sql_driver:mysql:v1.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:go-sql:mysql:v1.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:go_sql:mysql:v1.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:go:mysql:v1.3.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/go-sql-driver/mysql@v1.3.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.13.15",
+    "architecture": "x86_64",
+    "h1Digest": "h1:pgwjLi/dvffoP9aabwkT3AKpXQM93QARkjFhDDqC1UE=",
+    "mainModule": "github.com/theupdateframework/notary"
+   }
+  },
+  {
+   "id": "76f7b9df2bacc1b3",
+   "name": "github.com/golang/protobuf",
+   "version": "v1.3.4",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/notary/server/notary-server",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:golang:protobuf:v1.3.4:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/golang/protobuf@v1.3.4",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.13.15",
+    "architecture": "x86_64",
+    "h1Digest": "h1:87PNWwrRvUSnqS4dlcBU/ftvOIBep4sYuBLlh6rX2wk=",
+    "mainModule": "github.com/theupdateframework/notary"
+   }
+  },
+  {
+   "id": "ffd3e794bf0d6729",
+   "name": "github.com/gorilla/mux",
+   "version": "v1.7.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/notary/server/notary-server",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:gorilla:mux:v1.7.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/gorilla/mux@v1.7.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.13.15",
+    "architecture": "x86_64",
+    "h1Digest": "h1:tOSd0UKHQd6urX6ApfOn4XdBMY6Sh1MfxV3kmaazO+U=",
+    "mainModule": "github.com/theupdateframework/notary"
+   }
+  },
+  {
+   "id": "3691443961805439",
+   "name": "github.com/hailocab/go-hostpool",
+   "version": "v0.0.0-20160125115350-e80d13ce29ed",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/notary/server/notary-server",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:hailocab:go-hostpool:v0.0.0-20160125115350-e80d13ce29ed:*:*:*:*:*:*:*",
+    "cpe:2.3:a:hailocab:go_hostpool:v0.0.0-20160125115350-e80d13ce29ed:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/hailocab/go-hostpool@v0.0.0-20160125115350-e80d13ce29ed",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.13.15",
+    "architecture": "x86_64",
+    "h1Digest": "h1:5upAirOpQc1Q53c0bnx2ufif5kANL7bfZWcc6VJWJd8=",
+    "mainModule": "github.com/theupdateframework/notary"
+   }
+  },
+  {
+   "id": "3f5cc7168137c2e9",
+   "name": "github.com/jinzhu/gorm",
+   "version": "v0.0.0-20170222002820-5409931a1bb8",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/notary/server/notary-server",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:jinzhu:gorm:v0.0.0-20170222002820-5409931a1bb8:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/jinzhu/gorm@v0.0.0-20170222002820-5409931a1bb8",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.13.15",
+    "architecture": "x86_64",
+    "h1Digest": "h1:CZkYfurY6KGhVtlalI4QwQ6T0Cu6iuY3e0x5RLu96WE=",
+    "mainModule": "github.com/theupdateframework/notary"
+   }
+  },
+  {
+   "id": "58e822872fed7dc9",
+   "name": "github.com/jinzhu/inflection",
+   "version": "v0.0.0-20170102125226-1c35d901db3d",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/notary/server/notary-server",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:jinzhu:inflection:v0.0.0-20170102125226-1c35d901db3d:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/jinzhu/inflection@v0.0.0-20170102125226-1c35d901db3d",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.13.15",
+    "architecture": "x86_64",
+    "h1Digest": "h1:jRQLvyVGL+iVtDElaEIDdKwpPqUIZJfzkNLV34htpEc=",
+    "mainModule": "github.com/theupdateframework/notary"
+   }
+  },
+  {
+   "id": "5474e6ad96b9d7f6",
+   "name": "github.com/kr/pretty",
+   "version": "v0.1.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/notary/server/notary-server",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:kr:pretty:v0.1.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/kr/pretty@v0.1.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.13.15",
+    "architecture": "x86_64",
+    "h1Digest": "h1:L/CwN0zerZDmRFUapSPitk6f+Q3+0za1rQkzVuMiMFI=",
+    "mainModule": "github.com/theupdateframework/notary"
+   }
+  },
+  {
+   "id": "e66da8683e533183",
+   "name": "github.com/kr/text",
+   "version": "v0.2.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/notary/server/notary-server",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:kr:text:v0.2.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/kr/text@v0.2.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.13.15",
+    "architecture": "x86_64",
+    "h1Digest": "h1:5Nx0Ya0ZqY2ygV366QzturHI13Jq95ApcVaJBhpS+AY=",
+    "mainModule": "github.com/theupdateframework/notary"
+   }
+  },
+  {
+   "id": "4744c3415d3b01f1",
+   "name": "github.com/lib/pq",
+   "version": "v0.0.0-20150723085316-0dad96c0b94f",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/notary/server/notary-server",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:lib:pq:v0.0.0-20150723085316-0dad96c0b94f:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/lib/pq@v0.0.0-20150723085316-0dad96c0b94f",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.13.15",
+    "architecture": "x86_64",
+    "h1Digest": "h1:I1iYfgQavGa2tgdgKn+2Qg1yQhHEETvh/mNSxG3x5c0=",
+    "mainModule": "github.com/theupdateframework/notary"
+   }
+  },
+  {
+   "id": "e3a92e54783f1b56",
+   "name": "github.com/magiconair/properties",
+   "version": "v1.5.3",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/notary/server/notary-server",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:magiconair:properties:v1.5.3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/magiconair/properties@v1.5.3",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.13.15",
+    "architecture": "x86_64",
+    "h1Digest": "h1:C8fxWnhYyME3n0klPOhVM7PtYUB3eV1W3DeFmN3j53Y=",
+    "mainModule": "github.com/theupdateframework/notary"
+   }
+  },
+  {
+   "id": "4a0f6f59e8ef077e",
+   "name": "github.com/matttproud/golang_protobuf_extensions",
+   "version": "v1.0.1",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/notary/server/notary-server",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:matttproud:golang-protobuf-extensions:v1.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:matttproud:golang_protobuf_extensions:v1.0.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/matttproud/golang_protobuf_extensions@v1.0.1",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.13.15",
+    "architecture": "x86_64",
+    "h1Digest": "h1:4hp9jkHxhMHkqkrB3Ix0jegS5sx/RkqARlsWZ6pIwiU=",
+    "mainModule": "github.com/theupdateframework/notary"
+   }
+  },
+  {
+   "id": "f9fc8889c664123f",
+   "name": "github.com/mitchellh/mapstructure",
+   "version": "v0.0.0-20150613213606-2caf8efc9366",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/notary/server/notary-server",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:mitchellh:mapstructure:v0.0.0-20150613213606-2caf8efc9366:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/mitchellh/mapstructure@v0.0.0-20150613213606-2caf8efc9366",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.13.15",
+    "architecture": "x86_64",
+    "h1Digest": "h1:1ypTpKUfEOyX1YsJru6lLq7hrmK+QGECpJQ1PHUHuGo=",
+    "mainModule": "github.com/theupdateframework/notary"
+   }
+  },
+  {
+   "id": "9ed1087cdc98a347",
+   "name": "github.com/opentracing/opentracing-go",
+   "version": "v1.1.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/notary/server/notary-server",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:opentracing:opentracing-go:v1.1.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:opentracing:opentracing_go:v1.1.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/opentracing/opentracing-go@v1.1.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.13.15",
+    "architecture": "x86_64",
+    "h1Digest": "h1:pWlfV3Bxv7k65HYwkikxat0+s3pV4bsqf19k25Ur8rU=",
+    "mainModule": "github.com/theupdateframework/notary"
+   }
+  },
+  {
+   "id": "e1d02ac9e867b29f",
+   "name": "github.com/pkg/errors",
+   "version": "v0.8.1",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/notary/server/notary-server",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:pkg:errors:v0.8.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/pkg/errors@v0.8.1",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.13.15",
+    "architecture": "x86_64",
+    "h1Digest": "h1:iURUrRGxPUNPdy5/HRSm+Yj6okJ6UtLINN0Q9M4+h3I=",
+    "mainModule": "github.com/theupdateframework/notary"
+   }
+  },
+  {
+   "id": "4681016e3e1e8e2a",
+   "name": "github.com/prometheus/client_golang",
+   "version": "v0.9.0-pre1.0.20180209125602-c332b6f63c06",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/notary/server/notary-server",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:prometheus:client-golang:v0.9.0-pre1.0.20180209125602-c332b6f63c06:*:*:*:*:*:*:*",
+    "cpe:2.3:a:prometheus:client_golang:v0.9.0-pre1.0.20180209125602-c332b6f63c06:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/prometheus/client_golang@v0.9.0-pre1.0.20180209125602-c332b6f63c06",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.13.15",
+    "architecture": "x86_64",
+    "h1Digest": "h1:HfhRu7DulhCtYuCwmHYHdZ0pR/qYrCde5uhuemqD8rI=",
+    "mainModule": "github.com/theupdateframework/notary"
+   }
+  },
+  {
+   "id": "61f5efa6357fe0a5",
+   "name": "github.com/prometheus/client_model",
+   "version": "v0.0.0-20171117100541-99fa1f4be8e5",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/notary/server/notary-server",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:prometheus:client-model:v0.0.0-20171117100541-99fa1f4be8e5:*:*:*:*:*:*:*",
+    "cpe:2.3:a:prometheus:client_model:v0.0.0-20171117100541-99fa1f4be8e5:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/prometheus/client_model@v0.0.0-20171117100541-99fa1f4be8e5",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.13.15",
+    "architecture": "x86_64",
+    "h1Digest": "h1:cLL6NowurKLMfCeQy4tIeph12XNQWgANCNvdyrOYKV4=",
+    "mainModule": "github.com/theupdateframework/notary"
+   }
+  },
+  {
+   "id": "4db5c21bf4e4332",
+   "name": "github.com/prometheus/common",
+   "version": "v0.0.0-20180110214958-89604d197083",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/notary/server/notary-server",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:prometheus:common:v0.0.0-20180110214958-89604d197083:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/prometheus/common@v0.0.0-20180110214958-89604d197083",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.13.15",
+    "architecture": "x86_64",
+    "h1Digest": "h1:BVsJT8+ZbyuL3hypz/HmEiM8h2P6hBQGig4el9/MdjA=",
+    "mainModule": "github.com/theupdateframework/notary"
+   }
+  },
+  {
+   "id": "4c6b9061c70862f6",
+   "name": "github.com/prometheus/procfs",
+   "version": "v0.0.0-20180125133057-cb4147076ac7",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/notary/server/notary-server",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:prometheus:procfs:v0.0.0-20180125133057-cb4147076ac7:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/prometheus/procfs@v0.0.0-20180125133057-cb4147076ac7",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.13.15",
+    "architecture": "x86_64",
+    "h1Digest": "h1:hhvfGDVThBnd4kYisSFmYuHYeUhglxcwag7FhVPH9zM=",
+    "mainModule": "github.com/theupdateframework/notary"
+   }
+  },
+  {
+   "id": "f18e9f70a358168f",
+   "name": "github.com/sirupsen/logrus",
+   "version": "v1.4.1",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/notary/server/notary-server",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:sirupsen:logrus:v1.4.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/sirupsen/logrus@v1.4.1",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.13.15",
+    "architecture": "x86_64",
+    "h1Digest": "h1:GL2rEmy6nsikmW0r8opw9JIRScdMF5hA8cOYLH7In1k=",
+    "mainModule": "github.com/theupdateframework/notary"
+   }
+  },
+  {
+   "id": "578bc28d3ee713e1",
+   "name": "github.com/spf13/cast",
+   "version": "v0.0.0-20150508191742-4d07383ffe94",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/notary/server/notary-server",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:spf13:cast:v0.0.0-20150508191742-4d07383ffe94:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/spf13/cast@v0.0.0-20150508191742-4d07383ffe94",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.13.15",
+    "architecture": "x86_64",
+    "h1Digest": "h1:JmfC365KywYwHB946TTiQWEb8kqPY+pybPLoGE9GgVk=",
+    "mainModule": "github.com/theupdateframework/notary"
+   }
+  },
+  {
+   "id": "f54172bba0e6374b",
+   "name": "github.com/spf13/jwalterweatherman",
+   "version": "v0.0.0-20141219030609-3d60171a6431",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/notary/server/notary-server",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:spf13:jwalterweatherman:v0.0.0-20141219030609-3d60171a6431:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/spf13/jwalterweatherman@v0.0.0-20141219030609-3d60171a6431",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.13.15",
+    "architecture": "x86_64",
+    "h1Digest": "h1:XTHrT015sxHyJ5FnQ0AeemSspZWaDq7DoTRW0EVsDCE=",
+    "mainModule": "github.com/theupdateframework/notary"
+   }
+  },
+  {
+   "id": "76dcbd673785b460",
+   "name": "github.com/spf13/pflag",
+   "version": "v1.0.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/notary/server/notary-server",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:spf13:pflag:v1.0.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/spf13/pflag@v1.0.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.13.15",
+    "architecture": "x86_64",
+    "h1Digest": "h1:oaPbdDe/x0UncahuwiPxW1GYJyilRAdsPnq3e1yaPcI=",
+    "mainModule": "github.com/theupdateframework/notary"
+   }
+  },
+  {
+   "id": "9cee4046760a8d3d",
+   "name": "github.com/spf13/viper",
+   "version": "v0.0.0-20150530192845-be5ff3e4840c",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/notary/server/notary-server",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:spf13:viper:v0.0.0-20150530192845-be5ff3e4840c:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/spf13/viper@v0.0.0-20150530192845-be5ff3e4840c",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.13.15",
+    "architecture": "x86_64",
+    "h1Digest": "h1:2EejZtjFjKJGk71ANb+wtFK5EjUzUkEM3R0xnp559xg=",
+    "mainModule": "github.com/theupdateframework/notary"
+   }
+  },
+  {
+   "id": "547e909d18ff7cc",
+   "name": "github.com/theupdateframework/notary",
+   "version": "(devel)",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/notary/server/notary-server",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:theupdateframework:notary:\\(devel\\):*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/github.com/theupdateframework/notary@(devel)",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.13.15",
+    "architecture": "x86_64",
+    "mainModule": "github.com/theupdateframework/notary"
+   }
+  },
+  {
+   "id": "9ec6894c977fba18",
+   "name": "golang.org/x/crypto",
+   "version": "v0.0.0-20201117144127-c1f2f97bffc9",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/notary/server/notary-server",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:golang:x\\/crypto:v0.0.0-20201117144127-c1f2f97bffc9:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/golang.org/x/crypto@v0.0.0-20201117144127-c1f2f97bffc9",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.13.15",
+    "architecture": "x86_64",
+    "h1Digest": "h1:phUcVbl53swtrUN8kQEXFhUxPlIlWyBfKmidCu7P95o=",
+    "mainModule": "github.com/theupdateframework/notary"
+   }
+  },
+  {
+   "id": "8e6a1ec7b6837ca1",
+   "name": "golang.org/x/net",
+   "version": "v0.0.0-20190404232315-eb5bcb51f2a3",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/notary/server/notary-server",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:golang:x\\/net:v0.0.0-20190404232315-eb5bcb51f2a3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/golang.org/x/net@v0.0.0-20190404232315-eb5bcb51f2a3",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.13.15",
+    "architecture": "x86_64",
+    "h1Digest": "h1:0GoQqolDA55aaLxZyTzK/Y2ePZzZTUrRacwib7cNsYQ=",
+    "mainModule": "github.com/theupdateframework/notary"
+   }
+  },
+  {
+   "id": "64b291f83926b34f",
+   "name": "golang.org/x/sys",
+   "version": "v0.0.0-20191120155948-bd437916bb0e",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/notary/server/notary-server",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:golang:x\\/sys:v0.0.0-20191120155948-bd437916bb0e:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/golang.org/x/sys@v0.0.0-20191120155948-bd437916bb0e",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.13.15",
+    "architecture": "x86_64",
+    "h1Digest": "h1:N7DeIrjYszNmSW409R3frPPwglRwMkXSBzwVbkOjLLA=",
+    "mainModule": "github.com/theupdateframework/notary"
+   }
+  },
+  {
+   "id": "531e0bd50bacd0ee",
+   "name": "golang.org/x/text",
+   "version": "v0.3.0",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/notary/server/notary-server",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:golang:x\\/text:v0.3.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/golang.org/x/text@v0.3.0",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.13.15",
+    "architecture": "x86_64",
+    "h1Digest": "h1:g61tztE5qeGQ89tm6NTjjM9VPIm088od1l6aSorWRWg=",
+    "mainModule": "github.com/theupdateframework/notary"
+   }
+  },
+  {
+   "id": "328cee2efca20237",
+   "name": "google.golang.org/grpc",
+   "version": "v1.0.5",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/notary/server/notary-server",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [
+    "cpe:2.3:a:google:grpc:v1.0.5:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:golang/google.golang.org/grpc@v1.0.5",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.13.15",
+    "architecture": "x86_64",
+    "h1Digest": "h1:2cfCGAsp1sd/+bSSMzLFrEa8TeVpvAq5x4y/jI0o6rY=",
+    "mainModule": "github.com/theupdateframework/notary"
+   }
+  },
+  {
+   "id": "58dd93cd684e5ae",
+   "name": "gopkg.in/cenkalti/backoff.v2",
+   "version": "v2.2.1",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/notary/server/notary-server",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [],
+   "purl": "pkg:golang/gopkg.in/cenkalti/backoff.v2@v2.2.1",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.13.15",
+    "architecture": "x86_64",
+    "h1Digest": "h1:eJ9UAg01/HIHG987TwxvnzK2MgxXq97YY6rYDpY9aII=",
+    "mainModule": "github.com/theupdateframework/notary"
+   }
+  },
+  {
+   "id": "f743d094f7388e",
+   "name": "gopkg.in/rethinkdb/rethinkdb-go.v6",
+   "version": "v6.2.1",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/notary/server/notary-server",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [],
+   "purl": "pkg:golang/gopkg.in/rethinkdb/rethinkdb-go.v6@v6.2.1",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.13.15",
+    "architecture": "x86_64",
+    "h1Digest": "h1:d4KQkxAaAiRY2h5Zqis161Pv91A37uZyJOx73duwUwM=",
+    "mainModule": "github.com/theupdateframework/notary"
+   }
+  },
+  {
+   "id": "e688307a2b806bc7",
+   "name": "gopkg.in/yaml.v2",
+   "version": "v2.2.8",
+   "type": "go-module",
+   "foundBy": "go-module-binary-cataloger",
+   "locations": [
+    {
+     "path": "/notary/server/notary-server",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [],
+   "language": "go",
+   "cpes": [],
+   "purl": "pkg:golang/gopkg.in/yaml.v2@v2.2.8",
+   "metadataType": "GolangBinMetadata",
+   "metadata": {
+    "goCompiledVersion": "go1.13.15",
+    "architecture": "x86_64",
+    "h1Digest": "h1:obN1ZagJSUGI0Ek/LBmuj4SNLPfIny3KsKFopxRdj10=",
+    "mainModule": "github.com/theupdateframework/notary"
+   }
+  },
+  {
+   "id": "f80d96baba263a29",
+   "name": "libc-utils",
+   "version": "0.7.2-r3",
+   "type": "apk",
+   "foundBy": "apkdb-cataloger",
+   "locations": [
+    {
+     "path": "/lib/apk/db/installed",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [
+    "BSD-2-Clause",
+    "AND",
+    "BSD-3-Clause"
+   ],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:libc-utils:libc-utils:0.7.2-r3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:libc-utils:libc_utils:0.7.2-r3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:libc_utils:libc-utils:0.7.2-r3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:libc_utils:libc_utils:0.7.2-r3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:libc:libc-utils:0.7.2-r3:*:*:*:*:*:*:*",
+    "cpe:2.3:a:libc:libc_utils:0.7.2-r3:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:alpine/libc-utils@0.7.2-r3?arch=x86_64&upstream=libc-dev&distro=alpine-3.12.12",
+   "metadataType": "ApkMetadata",
+   "metadata": {
+    "package": "libc-utils",
+    "originPackage": "libc-dev",
+    "maintainer": "Natanael Copa <ncopa@alpinelinux.org>",
+    "version": "0.7.2-r3",
+    "license": "BSD-2-Clause AND BSD-3-Clause",
+    "architecture": "x86_64",
+    "url": "https://alpinelinux.org",
+    "description": "Meta package to pull in correct libc",
+    "size": 1226,
+    "installedSize": 4096,
+    "pullDependencies": "musl-utils",
+    "pullChecksum": "Q16xP1yRei7gsfFFF2So96SPZpw0c=",
+    "gitCommitOfApkPort": "60424133be2e79bbfeff3d58147a22886f817ce2",
+    "files": []
+   }
+  },
+  {
+   "id": "29dec83807252c4d",
+   "name": "libcrypto1.1",
+   "version": "1.1.1n-r0",
+   "type": "apk",
+   "foundBy": "apkdb-cataloger",
+   "locations": [
+    {
+     "path": "/lib/apk/db/installed",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [
+    "OpenSSL"
+   ],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:libcrypto1.1:libcrypto1.1:1.1.1n-r0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:alpine/libcrypto1.1@1.1.1n-r0?arch=x86_64&upstream=openssl&distro=alpine-3.12.12",
+   "metadataType": "ApkMetadata",
+   "metadata": {
+    "package": "libcrypto1.1",
+    "originPackage": "openssl",
+    "maintainer": "Timo Teras <timo.teras@iki.fi>",
+    "version": "1.1.1n-r0",
+    "license": "OpenSSL",
+    "architecture": "x86_64",
+    "url": "https://www.openssl.org/",
+    "description": "Crypto library from openssl",
+    "size": 1210690,
+    "installedSize": 2764800,
+    "pullDependencies": "so:libc.musl-x86_64.so.1",
+    "pullChecksum": "Q1MC2DGhne+faPJKpms8itnmTcsqA=",
+    "gitCommitOfApkPort": "b759455d39ebc9606b4b980416c55aa87303ba5f",
+    "files": [
+     {
+      "path": "/etc"
+     },
+     {
+      "path": "/etc/ssl"
+     },
+     {
+      "path": "/etc/ssl/ct_log_list.cnf",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1olh8TpdAi2QnTl4FK3TjdUiSwTo="
+      }
+     },
+     {
+      "path": "/etc/ssl/ct_log_list.cnf.dist",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1olh8TpdAi2QnTl4FK3TjdUiSwTo="
+      }
+     },
+     {
+      "path": "/etc/ssl/openssl.cnf",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1wGuxVEOK9iGLj1i8D3BSBnT7MJA="
+      }
+     },
+     {
+      "path": "/etc/ssl/openssl.cnf.dist",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1wGuxVEOK9iGLj1i8D3BSBnT7MJA="
+      }
+     },
+     {
+      "path": "/etc/ssl/certs"
+     },
+     {
+      "path": "/etc/ssl/misc"
+     },
+     {
+      "path": "/etc/ssl/misc/CA.pl",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "755",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1IACevKhK93GYBHp96Ie26jgZ17s="
+      }
+     },
+     {
+      "path": "/etc/ssl/misc/tsget",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q13NVgfr7dQUuGYxur0tNalH6EIjU="
+      }
+     },
+     {
+      "path": "/etc/ssl/misc/tsget.pl",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "755",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1dIIouz/IZaWh9ah1d+bWyFrIyFI="
+      }
+     },
+     {
+      "path": "/etc/ssl/private"
+     },
+     {
+      "path": "/lib"
+     },
+     {
+      "path": "/lib/libcrypto.so.1.1",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "755",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1s5mvOyAxcK9B2vjkCEqX9TQVgv4="
+      }
+     },
+     {
+      "path": "/usr"
+     },
+     {
+      "path": "/usr/lib"
+     },
+     {
+      "path": "/usr/lib/libcrypto.so.1.1",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1T2si+c7ts7sgDxQYve4B3i1Dgo0="
+      }
+     },
+     {
+      "path": "/usr/lib/engines-1.1"
+     },
+     {
+      "path": "/usr/lib/engines-1.1/afalg.so",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "755",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1f+83peLpOiQHvR+lmPFVLv75P8U="
+      }
+     },
+     {
+      "path": "/usr/lib/engines-1.1/capi.so",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "755",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1ruNOHdcenzMDHtS8PbF1B5GAem4="
+      }
+     },
+     {
+      "path": "/usr/lib/engines-1.1/padlock.so",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "755",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1pKnWv4FP7mL6bUSOtzBQWGZ4+VU="
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "7aa7a3e1413a8d52",
+   "name": "libssl1.1",
+   "version": "1.1.1n-r0",
+   "type": "apk",
+   "foundBy": "apkdb-cataloger",
+   "locations": [
+    {
+     "path": "/lib/apk/db/installed",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [
+    "OpenSSL"
+   ],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:libssl1.1:libssl1.1:1.1.1n-r0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:alpine/libssl1.1@1.1.1n-r0?arch=x86_64&upstream=openssl&distro=alpine-3.12.12",
+   "metadataType": "ApkMetadata",
+   "metadata": {
+    "package": "libssl1.1",
+    "originPackage": "openssl",
+    "maintainer": "Timo Teras <timo.teras@iki.fi>",
+    "version": "1.1.1n-r0",
+    "license": "OpenSSL",
+    "architecture": "x86_64",
+    "url": "https://www.openssl.org/",
+    "description": "SSL shared libraries",
+    "size": 212737,
+    "installedSize": 540672,
+    "pullDependencies": "so:libc.musl-x86_64.so.1 so:libcrypto.so.1.1",
+    "pullChecksum": "Q1UX1nrMda47otMPLa7B8as33eXjk=",
+    "gitCommitOfApkPort": "b759455d39ebc9606b4b980416c55aa87303ba5f",
+    "files": [
+     {
+      "path": "/lib"
+     },
+     {
+      "path": "/lib/libssl.so.1.1",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "755",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q12qRM9J/i8u0Ux+Y1WI54gyq2MdA="
+      }
+     },
+     {
+      "path": "/usr"
+     },
+     {
+      "path": "/usr/lib"
+     },
+     {
+      "path": "/usr/lib/libssl.so.1.1",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q18j35pe3yp6HOgMih1wlGP1/mm2c="
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "cb2f5162c15647c4",
+   "name": "libtls-standalone",
+   "version": "2.9.1-r1",
+   "type": "apk",
+   "foundBy": "apkdb-cataloger",
+   "locations": [
+    {
+     "path": "/lib/apk/db/installed",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [
+    "ISC"
+   ],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:libtls-standalone:libtls-standalone:2.9.1-r1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:libtls-standalone:libtls_standalone:2.9.1-r1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:libtls_standalone:libtls-standalone:2.9.1-r1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:libtls_standalone:libtls_standalone:2.9.1-r1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:libtls:libtls-standalone:2.9.1-r1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:libtls:libtls_standalone:2.9.1-r1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:alpine/libtls-standalone@2.9.1-r1?arch=x86_64&upstream=libtls-standalone&distro=alpine-3.12.12",
+   "metadataType": "ApkMetadata",
+   "metadata": {
+    "package": "libtls-standalone",
+    "originPackage": "libtls-standalone",
+    "maintainer": "",
+    "version": "2.9.1-r1",
+    "license": "ISC",
+    "architecture": "x86_64",
+    "url": "https://www.libressl.org/",
+    "description": "libtls extricated from libressl sources",
+    "size": 33144,
+    "installedSize": 110592,
+    "pullDependencies": "ca-certificates-bundle so:libc.musl-x86_64.so.1 so:libcrypto.so.1.1 so:libssl.so.1.1",
+    "pullChecksum": "Q14BzqSsJ9wRYejKCBU++3I2VvzSs=",
+    "gitCommitOfApkPort": "7ebfa23b6119a24ca9b9375bdc55373259192da1",
+    "files": [
+     {
+      "path": "/usr"
+     },
+     {
+      "path": "/usr/lib"
+     },
+     {
+      "path": "/usr/lib/libtls-standalone.so.1",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1MePJJ8Ajcuvc5x+6vlF3ygJoZYw="
+      }
+     },
+     {
+      "path": "/usr/lib/libtls-standalone.so.1.0.0",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "755",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1kU83CxIxieMHau0S45nCTwuKR0o="
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "8838e981d6f951d5",
+   "name": "musl",
+   "version": "1.1.24-r10",
+   "type": "apk",
+   "foundBy": "apkdb-cataloger",
+   "locations": [
+    {
+     "path": "/lib/apk/db/installed",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [
+    "MIT"
+   ],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:musl:musl:1.1.24-r10:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:alpine/musl@1.1.24-r10?arch=x86_64&upstream=musl&distro=alpine-3.12.12",
+   "metadataType": "ApkMetadata",
+   "metadata": {
+    "package": "musl",
+    "originPackage": "musl",
+    "maintainer": "Timo Teräs <timo.teras@iki.fi>",
+    "version": "1.1.24-r10",
+    "license": "MIT",
+    "architecture": "x86_64",
+    "url": "https://musl.libc.org/",
+    "description": "the musl c library (libc) implementation",
+    "size": 377258,
+    "installedSize": 614400,
+    "pullDependencies": "",
+    "pullChecksum": "Q1mGDXWUFVE+6oFGyj8OMl5cZrkkU=",
+    "gitCommitOfApkPort": "908046ad5f96c4c1df5541ff4b0251767e110c85",
+    "files": [
+     {
+      "path": "/lib"
+     },
+     {
+      "path": "/lib/ld-musl-x86_64.so.1",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "755",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1xzUXmhmOZpxgXLS92cFyTaM63cE="
+      }
+     },
+     {
+      "path": "/lib/libc.musl-x86_64.so.1",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q17yJ3JFNypA4mxhJJr0ou6CzsJVI="
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "a9ea2a9f57787a19",
+   "name": "musl-utils",
+   "version": "1.1.24-r10",
+   "type": "apk",
+   "foundBy": "apkdb-cataloger",
+   "locations": [
+    {
+     "path": "/lib/apk/db/installed",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [
+    "MIT",
+    "BSD",
+    "GPL2+"
+   ],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:musl-utils:musl-utils:1.1.24-r10:*:*:*:*:*:*:*",
+    "cpe:2.3:a:musl-utils:musl_utils:1.1.24-r10:*:*:*:*:*:*:*",
+    "cpe:2.3:a:musl_utils:musl-utils:1.1.24-r10:*:*:*:*:*:*:*",
+    "cpe:2.3:a:musl_utils:musl_utils:1.1.24-r10:*:*:*:*:*:*:*",
+    "cpe:2.3:a:musl:musl-utils:1.1.24-r10:*:*:*:*:*:*:*",
+    "cpe:2.3:a:musl:musl_utils:1.1.24-r10:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:alpine/musl-utils@1.1.24-r10?arch=x86_64&upstream=musl&distro=alpine-3.12.12",
+   "metadataType": "ApkMetadata",
+   "metadata": {
+    "package": "musl-utils",
+    "originPackage": "musl",
+    "maintainer": "Timo Teräs <timo.teras@iki.fi>",
+    "version": "1.1.24-r10",
+    "license": "MIT BSD GPL2+",
+    "architecture": "x86_64",
+    "url": "https://musl.libc.org/",
+    "description": "the musl c library (libc) implementation",
+    "size": 37724,
+    "installedSize": 151552,
+    "pullDependencies": "scanelf so:libc.musl-x86_64.so.1",
+    "pullChecksum": "Q1MFuIRwDYNC3UF1ZCaWGJAIXPy8k=",
+    "gitCommitOfApkPort": "908046ad5f96c4c1df5541ff4b0251767e110c85",
+    "files": [
+     {
+      "path": "/sbin"
+     },
+     {
+      "path": "/sbin/ldconfig",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "755",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1Kja2+POZKxEkUOZqwSjC6kmaED4="
+      }
+     },
+     {
+      "path": "/usr"
+     },
+     {
+      "path": "/usr/bin"
+     },
+     {
+      "path": "/usr/bin/getconf",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "755",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1XKBOoJkPPx4oNESAPKd3c7D9R+Q="
+      }
+     },
+     {
+      "path": "/usr/bin/getent",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "755",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1uypFNoGWLQGnlxNN8nejgKZ93gk="
+      }
+     },
+     {
+      "path": "/usr/bin/iconv",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "755",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1TUCpbM0S8xy/Y6uVwQncMVTG8LY="
+      }
+     },
+     {
+      "path": "/usr/bin/ldd",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "755",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1yFAhGggmL7ERgbIA7KQxyTzf3ks="
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "9bb2292736678189",
+   "name": "scanelf",
+   "version": "1.2.6-r0",
+   "type": "apk",
+   "foundBy": "apkdb-cataloger",
+   "locations": [
+    {
+     "path": "/lib/apk/db/installed",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [
+    "GPL-2.0-only"
+   ],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:scanelf:scanelf:1.2.6-r0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:alpine/scanelf@1.2.6-r0?arch=x86_64&upstream=pax-utils&distro=alpine-3.12.12",
+   "metadataType": "ApkMetadata",
+   "metadata": {
+    "package": "scanelf",
+    "originPackage": "pax-utils",
+    "maintainer": "Natanael Copa <ncopa@alpinelinux.org>",
+    "version": "1.2.6-r0",
+    "license": "GPL-2.0-only",
+    "architecture": "x86_64",
+    "url": "https://wiki.gentoo.org/wiki/Hardened/PaX_Utilities",
+    "description": "Scan ELF binaries for stuff",
+    "size": 36446,
+    "installedSize": 94208,
+    "pullDependencies": "so:libc.musl-x86_64.so.1",
+    "pullChecksum": "Q1jvYavRv99SdiT3M3Kv5gvpi8LXY=",
+    "gitCommitOfApkPort": "753fa8d765c7a4edb76f11b1995f84cdcb45bce5",
+    "files": [
+     {
+      "path": "/usr"
+     },
+     {
+      "path": "/usr/bin"
+     },
+     {
+      "path": "/usr/bin/scanelf",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "755",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1ygdCUBIEUVclB0Qxv3fYcyxDRkE="
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "45ae35e9af81ecdf",
+   "name": "ssl_client",
+   "version": "1.31.1-r22",
+   "type": "apk",
+   "foundBy": "apkdb-cataloger",
+   "locations": [
+    {
+     "path": "/lib/apk/db/installed",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [
+    "GPL-2.0-only"
+   ],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:ssl-client:ssl-client:1.31.1-r22:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ssl-client:ssl_client:1.31.1-r22:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ssl_client:ssl-client:1.31.1-r22:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ssl_client:ssl_client:1.31.1-r22:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ssl:ssl-client:1.31.1-r22:*:*:*:*:*:*:*",
+    "cpe:2.3:a:ssl:ssl_client:1.31.1-r22:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:alpine/ssl_client@1.31.1-r22?arch=x86_64&upstream=busybox&distro=alpine-3.12.12",
+   "metadataType": "ApkMetadata",
+   "metadata": {
+    "package": "ssl_client",
+    "originPackage": "busybox",
+    "maintainer": "Natanael Copa <ncopa@alpinelinux.org>",
+    "version": "1.31.1-r22",
+    "license": "GPL-2.0-only",
+    "architecture": "x86_64",
+    "url": "https://busybox.net/",
+    "description": "EXternal ssl_client for busybox wget",
+    "size": 4305,
+    "installedSize": 28672,
+    "pullDependencies": "so:libc.musl-x86_64.so.1 so:libtls-standalone.so.1",
+    "pullChecksum": "Q1mZvJZxoqoHTRXR3t9h1kro95CU0=",
+    "gitCommitOfApkPort": "41c9e389fd1ebce7fc2e723a9074fa7f2a00e11a",
+    "files": [
+     {
+      "path": "/usr"
+     },
+     {
+      "path": "/usr/bin"
+     },
+     {
+      "path": "/usr/bin/ssl_client",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "755",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1q30UtJJ0J7SxLQGM6kC0iSd3waM="
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "10b3990af8d43075",
+   "name": "zlib",
+   "version": "1.2.12-r0",
+   "type": "apk",
+   "foundBy": "apkdb-cataloger",
+   "locations": [
+    {
+     "path": "/lib/apk/db/installed",
+     "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+    }
+   ],
+   "licenses": [
+    "Zlib"
+   ],
+   "language": "",
+   "cpes": [
+    "cpe:2.3:a:zlib:zlib:1.2.12-r0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:alpine/zlib@1.2.12-r0?arch=x86_64&upstream=zlib&distro=alpine-3.12.12",
+   "metadataType": "ApkMetadata",
+   "metadata": {
+    "package": "zlib",
+    "originPackage": "zlib",
+    "maintainer": "Natanael Copa <ncopa@alpinelinux.org>",
+    "version": "1.2.12-r0",
+    "license": "Zlib",
+    "architecture": "x86_64",
+    "url": "https://zlib.net/",
+    "description": "A compression/decompression Library",
+    "size": 52922,
+    "installedSize": 110592,
+    "pullDependencies": "so:libc.musl-x86_64.so.1",
+    "pullChecksum": "Q14m+bQxS8qUChf5pcwhwDGmOBHAk=",
+    "gitCommitOfApkPort": "370acac0e4514c90d8c4e33a9740a7c92254853a",
+    "files": [
+     {
+      "path": "/lib"
+     },
+     {
+      "path": "/lib/libz.so.1",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "777",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1+aBjyJ7dmLatVkyqCNnAChlDZh8="
+      }
+     },
+     {
+      "path": "/lib/libz.so.1.2.12",
+      "ownerUid": "0",
+      "ownerGid": "0",
+      "permissions": "755",
+      "digest": {
+       "algorithm": "sha1",
+       "value": "Q1EgIKOIEI157siS2/57WDej/Hzhs="
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "artifactRelationships": [
+  {
+   "parent": "8838e981d6f951d5",
+   "child": "c6055811e7065b6d",
+   "type": "contains"
+  },
+  {
+   "parent": "8838e981d6f951d5",
+   "child": "c6055811e7065b6d",
+   "type": "contains"
+  },
+  {
+   "parent": "a2df16fe1b3cca11",
+   "child": "93cb7e72e1829439",
+   "type": "contains"
+  },
+  {
+   "parent": "a2df16fe1b3cca11",
+   "child": "93cb7e72e1829439",
+   "type": "contains"
+  },
+  {
+   "parent": "a2df16fe1b3cca11",
+   "child": "163a7959656c5a0d",
+   "type": "contains"
+  },
+  {
+   "parent": "a2df16fe1b3cca11",
+   "child": "b2ab419080b18b68",
+   "type": "contains"
+  },
+  {
+   "parent": "a2df16fe1b3cca11",
+   "child": "769bde8c4aae1502",
+   "type": "contains"
+  },
+  {
+   "parent": "a2df16fe1b3cca11",
+   "child": "ad5b3fa643444ef8",
+   "type": "contains"
+  },
+  {
+   "parent": "a2df16fe1b3cca11",
+   "child": "619d7de3315dd70e",
+   "type": "contains"
+  },
+  {
+   "parent": "ab971b290905df2",
+   "child": "e0c55db1366565e6",
+   "type": "contains"
+  },
+  {
+   "parent": "ab971b290905df2",
+   "child": "6c6a945680115454",
+   "type": "contains"
+  },
+  {
+   "parent": "ab971b290905df2",
+   "child": "887a2e05f99e61ea",
+   "type": "contains"
+  },
+  {
+   "parent": "ab971b290905df2",
+   "child": "24ba95f0a7931610",
+   "type": "contains"
+  },
+  {
+   "parent": "ab971b290905df2",
+   "child": "5387251fe0618aa8",
+   "type": "contains"
+  },
+  {
+   "parent": "ab971b290905df2",
+   "child": "1d147f7477369788",
+   "type": "contains"
+  },
+  {
+   "parent": "ab971b290905df2",
+   "child": "8b9bff90db6dd7e",
+   "type": "contains"
+  },
+  {
+   "parent": "ab971b290905df2",
+   "child": "6f43d88b1a7f4075",
+   "type": "contains"
+  },
+  {
+   "parent": "ab971b290905df2",
+   "child": "a7e8b36870f42da6",
+   "type": "contains"
+  },
+  {
+   "parent": "ab971b290905df2",
+   "child": "c379647b57783d0d",
+   "type": "contains"
+  },
+  {
+   "parent": "ab971b290905df2",
+   "child": "fd2cf3ff487cb228",
+   "type": "contains"
+  },
+  {
+   "parent": "ab971b290905df2",
+   "child": "be69f9d1091986a2",
+   "type": "contains"
+  },
+  {
+   "parent": "ab971b290905df2",
+   "child": "8648694956f10d2f",
+   "type": "contains"
+  },
+  {
+   "parent": "ab971b290905df2",
+   "child": "61a566ae390d188a",
+   "type": "contains"
+  },
+  {
+   "parent": "ab971b290905df2",
+   "child": "e01b1c9adc498675",
+   "type": "contains"
+  },
+  {
+   "parent": "ab971b290905df2",
+   "child": "224d34ec6788fe45",
+   "type": "contains"
+  },
+  {
+   "parent": "ab971b290905df2",
+   "child": "2a4fd6037d5e6a0b",
+   "type": "contains"
+  },
+  {
+   "parent": "ab971b290905df2",
+   "child": "d9fc3f0279137264",
+   "type": "contains"
+  },
+  {
+   "parent": "ab971b290905df2",
+   "child": "9731df44baad595c",
+   "type": "contains"
+  },
+  {
+   "parent": "ab971b290905df2",
+   "child": "582dff32a6801300",
+   "type": "contains"
+  },
+  {
+   "parent": "ab971b290905df2",
+   "child": "645431670db7b8df",
+   "type": "contains"
+  },
+  {
+   "parent": "ab971b290905df2",
+   "child": "883f195f94c7c4f4",
+   "type": "contains"
+  },
+  {
+   "parent": "ab971b290905df2",
+   "child": "895745ccbe54628b",
+   "type": "contains"
+  },
+  {
+   "parent": "fdfd5687263b905c",
+   "child": "6427e5f1405a6c5a",
+   "type": "contains"
+  },
+  {
+   "parent": "fdfd5687263b905c",
+   "child": "6cc8c06359bf631a",
+   "type": "contains"
+  },
+  {
+   "parent": "fdfd5687263b905c",
+   "child": "a6f58a29a7532518",
+   "type": "contains"
+  },
+  {
+   "parent": "fdfd5687263b905c",
+   "child": "4596fdd00636bad4",
+   "type": "contains"
+  },
+  {
+   "parent": "fdfd5687263b905c",
+   "child": "a5885d4f40b256b0",
+   "type": "contains"
+  },
+  {
+   "parent": "fdfd5687263b905c",
+   "child": "a8b24455dacbd886",
+   "type": "contains"
+  },
+  {
+   "parent": "fdfd5687263b905c",
+   "child": "cf892a6bdba4760a",
+   "type": "contains"
+  },
+  {
+   "parent": "fdfd5687263b905c",
+   "child": "3cdb1ab31a2aa0dd",
+   "type": "contains"
+  },
+  {
+   "parent": "fdfd5687263b905c",
+   "child": "951d6c844b0caa05",
+   "type": "contains"
+  },
+  {
+   "parent": "fdfd5687263b905c",
+   "child": "ad3289bb4034a182",
+   "type": "contains"
+  },
+  {
+   "parent": "fdfd5687263b905c",
+   "child": "f641d79eba33c1f",
+   "type": "contains"
+  },
+  {
+   "parent": "fdfd5687263b905c",
+   "child": "a8b24455dacbd886",
+   "type": "contains"
+  },
+  {
+   "parent": "fdfd5687263b905c",
+   "child": "b81e73f5fe2099d2",
+   "type": "contains"
+  },
+  {
+   "parent": "fdfd5687263b905c",
+   "child": "dc27e17e85e7af9d",
+   "type": "contains"
+  },
+  {
+   "parent": "fdfd5687263b905c",
+   "child": "e33680efc9e5e928",
+   "type": "contains"
+  },
+  {
+   "parent": "fdfd5687263b905c",
+   "child": "a7bc6f9b7016100b",
+   "type": "contains"
+  },
+  {
+   "parent": "fdfd5687263b905c",
+   "child": "b5eae7b7c003c53d",
+   "type": "contains"
+  },
+  {
+   "parent": "fdfd5687263b905c",
+   "child": "1ad15a63585cd3b8",
+   "type": "contains"
+  },
+  {
+   "parent": "fdfd5687263b905c",
+   "child": "f12fc4f3cc901b0d",
+   "type": "contains"
+  },
+  {
+   "parent": "fdfd5687263b905c",
+   "child": "42b3660726a15ade",
+   "type": "contains"
+  },
+  {
+   "parent": "fdfd5687263b905c",
+   "child": "788c68d61e059b82",
+   "type": "contains"
+  },
+  {
+   "parent": "fdfd5687263b905c",
+   "child": "d95c60fca31191b0",
+   "type": "contains"
+  },
+  {
+   "parent": "fdfd5687263b905c",
+   "child": "cf892a6bdba4760a",
+   "type": "contains"
+  },
+  {
+   "parent": "fdfd5687263b905c",
+   "child": "194d09c6a4a9c6ed",
+   "type": "contains"
+  },
+  {
+   "parent": "fdfd5687263b905c",
+   "child": "ad3289bb4034a182",
+   "type": "contains"
+  },
+  {
+   "parent": "fdfd5687263b905c",
+   "child": "f12fc4f3cc901b0d",
+   "type": "contains"
+  },
+  {
+   "parent": "fdfd5687263b905c",
+   "child": "ad3289bb4034a182",
+   "type": "contains"
+  },
+  {
+   "parent": "fdfd5687263b905c",
+   "child": "d95c60fca31191b0",
+   "type": "contains"
+  },
+  {
+   "parent": "fdfd5687263b905c",
+   "child": "e33680efc9e5e928",
+   "type": "contains"
+  },
+  {
+   "parent": "fdfd5687263b905c",
+   "child": "b81e73f5fe2099d2",
+   "type": "contains"
+  },
+  {
+   "parent": "fdfd5687263b905c",
+   "child": "42b3660726a15ade",
+   "type": "contains"
+  },
+  {
+   "parent": "fdfd5687263b905c",
+   "child": "a7bc6f9b7016100b",
+   "type": "contains"
+  },
+  {
+   "parent": "fdfd5687263b905c",
+   "child": "194d09c6a4a9c6ed",
+   "type": "contains"
+  },
+  {
+   "parent": "fdfd5687263b905c",
+   "child": "dc27e17e85e7af9d",
+   "type": "contains"
+  },
+  {
+   "parent": "fdfd5687263b905c",
+   "child": "788c68d61e059b82",
+   "type": "contains"
+  },
+  {
+   "parent": "fdfd5687263b905c",
+   "child": "3cdb1ab31a2aa0dd",
+   "type": "contains"
+  },
+  {
+   "parent": "fdfd5687263b905c",
+   "child": "951d6c844b0caa05",
+   "type": "contains"
+  },
+  {
+   "parent": "fdfd5687263b905c",
+   "child": "1ad15a63585cd3b8",
+   "type": "contains"
+  },
+  {
+   "parent": "fdfd5687263b905c",
+   "child": "3cdb1ab31a2aa0dd",
+   "type": "contains"
+  },
+  {
+   "parent": "fdfd5687263b905c",
+   "child": "f641d79eba33c1f",
+   "type": "contains"
+  },
+  {
+   "parent": "fdfd5687263b905c",
+   "child": "b5eae7b7c003c53d",
+   "type": "contains"
+  },
+  {
+   "parent": "29dec83807252c4d",
+   "child": "12344e0f7d9ffcf1",
+   "type": "contains"
+  },
+  {
+   "parent": "29dec83807252c4d",
+   "child": "160a2a6b81b5c71f",
+   "type": "contains"
+  },
+  {
+   "parent": "29dec83807252c4d",
+   "child": "e93eb4176356e1c0",
+   "type": "contains"
+  },
+  {
+   "parent": "29dec83807252c4d",
+   "child": "cd70a9f7d86d85b3",
+   "type": "contains"
+  },
+  {
+   "parent": "29dec83807252c4d",
+   "child": "cd70a9f7d86d85b3",
+   "type": "contains"
+  },
+  {
+   "parent": "29dec83807252c4d",
+   "child": "6432484de6ce51c1",
+   "type": "contains"
+  },
+  {
+   "parent": "29dec83807252c4d",
+   "child": "70365609df392e1f",
+   "type": "contains"
+  },
+  {
+   "parent": "29dec83807252c4d",
+   "child": "94d22c3ea3d4a090",
+   "type": "contains"
+  },
+  {
+   "parent": "29dec83807252c4d",
+   "child": "f1433035c85d2afd",
+   "type": "contains"
+  },
+  {
+   "parent": "29dec83807252c4d",
+   "child": "8c9748a1943093c4",
+   "type": "contains"
+  },
+  {
+   "parent": "29dec83807252c4d",
+   "child": "fbd1554781d38def",
+   "type": "contains"
+  },
+  {
+   "parent": "29dec83807252c4d",
+   "child": "94d22c3ea3d4a090",
+   "type": "contains"
+  },
+  {
+   "parent": "7aa7a3e1413a8d52",
+   "child": "d61cfbade57ca569",
+   "type": "contains"
+  },
+  {
+   "parent": "7aa7a3e1413a8d52",
+   "child": "d61cfbade57ca569",
+   "type": "contains"
+  },
+  {
+   "parent": "d44f92f020efc258",
+   "child": "1e99761715c9ab97",
+   "type": "contains"
+  },
+  {
+   "parent": "d44f92f020efc258",
+   "child": "1e99761715c9ab97",
+   "type": "contains"
+  },
+  {
+   "parent": "cb2f5162c15647c4",
+   "child": "e86fd0f5baf3b2b3",
+   "type": "contains"
+  },
+  {
+   "parent": "cb2f5162c15647c4",
+   "child": "e86fd0f5baf3b2b3",
+   "type": "contains"
+  },
+  {
+   "parent": "45ae35e9af81ecdf",
+   "child": "bf55dfa58d25a61e",
+   "type": "contains"
+  },
+  {
+   "parent": "10b3990af8d43075",
+   "child": "c5e52c1b446d912",
+   "type": "contains"
+  },
+  {
+   "parent": "10b3990af8d43075",
+   "child": "c5e52c1b446d912",
+   "type": "contains"
+  },
+  {
+   "parent": "7609c21653a53e4f",
+   "child": "bdcc0a7b2fcf6b08",
+   "type": "contains"
+  },
+  {
+   "parent": "9bb2292736678189",
+   "child": "c88cf3fe63ed3e7f",
+   "type": "contains"
+  },
+  {
+   "parent": "a9ea2a9f57787a19",
+   "child": "a194ade95e34168f",
+   "type": "contains"
+  },
+  {
+   "parent": "a9ea2a9f57787a19",
+   "child": "4cc50c22c1ecc26b",
+   "type": "contains"
+  },
+  {
+   "parent": "a9ea2a9f57787a19",
+   "child": "e55f1e47bca93760",
+   "type": "contains"
+  },
+  {
+   "parent": "a9ea2a9f57787a19",
+   "child": "b88df1b5a1c177b",
+   "type": "contains"
+  },
+  {
+   "parent": "a9ea2a9f57787a19",
+   "child": "bebe8d39645c5167",
+   "type": "contains"
+  }
+ ],
+ "files": [
+  {
+   "id": "93cb7e72e1829439",
+   "location": {
+    "path": "/bin/busybox",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "6427e5f1405a6c5a",
+   "location": {
+    "path": "/etc/apk/keys/alpine-devel@lists.alpinelinux.org-4a6a0840.rsa.pub",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "6cc8c06359bf631a",
+   "location": {
+    "path": "/etc/apk/keys/alpine-devel@lists.alpinelinux.org-5243ef4b.rsa.pub",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "a6f58a29a7532518",
+   "location": {
+    "path": "/etc/apk/keys/alpine-devel@lists.alpinelinux.org-5261cecb.rsa.pub",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "4596fdd00636bad4",
+   "location": {
+    "path": "/etc/apk/keys/alpine-devel@lists.alpinelinux.org-6165ee59.rsa.pub",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "a5885d4f40b256b0",
+   "location": {
+    "path": "/etc/apk/keys/alpine-devel@lists.alpinelinux.org-61666e3f.rsa.pub",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "e0c55db1366565e6",
+   "location": {
+    "path": "/etc/crontabs/root",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "6c6a945680115454",
+   "location": {
+    "path": "/etc/fstab",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "887a2e05f99e61ea",
+   "location": {
+    "path": "/etc/group",
+    "layerID": "sha256:9a52c56b725e59f58e92e99540cc0ab72a32d6027fbc13c04f992a7de3a1f605"
+   }
+  },
+  {
+   "id": "24ba95f0a7931610",
+   "location": {
+    "path": "/etc/hostname",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "5387251fe0618aa8",
+   "location": {
+    "path": "/etc/hosts",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "1d147f7477369788",
+   "location": {
+    "path": "/etc/inittab",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "163a7959656c5a0d",
+   "location": {
+    "path": "/etc/logrotate.d/acpid",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "8b9bff90db6dd7e",
+   "location": {
+    "path": "/etc/modprobe.d/aliases.conf",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "6f43d88b1a7f4075",
+   "location": {
+    "path": "/etc/modprobe.d/blacklist.conf",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "a7e8b36870f42da6",
+   "location": {
+    "path": "/etc/modprobe.d/i386.conf",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "c379647b57783d0d",
+   "location": {
+    "path": "/etc/modprobe.d/kms.conf",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "fd2cf3ff487cb228",
+   "location": {
+    "path": "/etc/modules",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "be69f9d1091986a2",
+   "location": {
+    "path": "/etc/motd",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "b2ab419080b18b68",
+   "location": {
+    "path": "/etc/network/if-up.d/dad",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "8648694956f10d2f",
+   "location": {
+    "path": "/etc/passwd",
+    "layerID": "sha256:9a52c56b725e59f58e92e99540cc0ab72a32d6027fbc13c04f992a7de3a1f605"
+   }
+  },
+  {
+   "id": "61a566ae390d188a",
+   "location": {
+    "path": "/etc/profile",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "e01b1c9adc498675",
+   "location": {
+    "path": "/etc/profile.d/color_prompt",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "224d34ec6788fe45",
+   "location": {
+    "path": "/etc/profile.d/locale.sh",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "2a4fd6037d5e6a0b",
+   "location": {
+    "path": "/etc/protocols",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "769bde8c4aae1502",
+   "location": {
+    "path": "/etc/securetty",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "d9fc3f0279137264",
+   "location": {
+    "path": "/etc/services",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "9731df44baad595c",
+   "location": {
+    "path": "/etc/shadow",
+    "layerID": "sha256:9a52c56b725e59f58e92e99540cc0ab72a32d6027fbc13c04f992a7de3a1f605"
+   }
+  },
+  {
+   "id": "582dff32a6801300",
+   "location": {
+    "path": "/etc/shells",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "1e99761715c9ab97",
+   "location": {
+    "path": "/etc/ssl/certs/ca-certificates.crt",
+    "layerID": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b"
+   }
+  },
+  {
+   "id": "12344e0f7d9ffcf1",
+   "location": {
+    "path": "/etc/ssl/ct_log_list.cnf",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "160a2a6b81b5c71f",
+   "location": {
+    "path": "/etc/ssl/ct_log_list.cnf.dist",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "e93eb4176356e1c0",
+   "location": {
+    "path": "/etc/ssl/misc/CA.pl",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "cd70a9f7d86d85b3",
+   "location": {
+    "path": "/etc/ssl/misc/tsget.pl",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "6432484de6ce51c1",
+   "location": {
+    "path": "/etc/ssl/openssl.cnf",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "70365609df392e1f",
+   "location": {
+    "path": "/etc/ssl/openssl.cnf.dist",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "645431670db7b8df",
+   "location": {
+    "path": "/etc/sysctl.conf",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "ad5b3fa643444ef8",
+   "location": {
+    "path": "/etc/udhcpd.conf",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "c6055811e7065b6d",
+   "location": {
+    "path": "/lib/ld-musl-x86_64.so.1",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "94d22c3ea3d4a090",
+   "location": {
+    "path": "/lib/libcrypto.so.1.1",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "d61cfbade57ca569",
+   "location": {
+    "path": "/lib/libssl.so.1.1",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "c5e52c1b446d912",
+   "location": {
+    "path": "/lib/libz.so.1.2.12",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "883f195f94c7c4f4",
+   "location": {
+    "path": "/lib/sysctl.d/00-alpine.conf",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "bdcc0a7b2fcf6b08",
+   "location": {
+    "path": "/sbin/apk",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "a194ade95e34168f",
+   "location": {
+    "path": "/sbin/ldconfig",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "895745ccbe54628b",
+   "location": {
+    "path": "/sbin/mkmntdirs",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "4cc50c22c1ecc26b",
+   "location": {
+    "path": "/usr/bin/getconf",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "e55f1e47bca93760",
+   "location": {
+    "path": "/usr/bin/getent",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "b88df1b5a1c177b",
+   "location": {
+    "path": "/usr/bin/iconv",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "bebe8d39645c5167",
+   "location": {
+    "path": "/usr/bin/ldd",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "c88cf3fe63ed3e7f",
+   "location": {
+    "path": "/usr/bin/scanelf",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "bf55dfa58d25a61e",
+   "location": {
+    "path": "/usr/bin/ssl_client",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "f1433035c85d2afd",
+   "location": {
+    "path": "/usr/lib/engines-1.1/afalg.so",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "8c9748a1943093c4",
+   "location": {
+    "path": "/usr/lib/engines-1.1/capi.so",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "fbd1554781d38def",
+   "location": {
+    "path": "/usr/lib/engines-1.1/padlock.so",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "e86fd0f5baf3b2b3",
+   "location": {
+    "path": "/usr/lib/libtls-standalone.so.1.0.0",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "3cdb1ab31a2aa0dd",
+   "location": {
+    "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-4a6a0840.rsa.pub",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "951d6c844b0caa05",
+   "location": {
+    "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-5243ef4b.rsa.pub",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "ad3289bb4034a182",
+   "location": {
+    "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-524d27bb.rsa.pub",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "f641d79eba33c1f",
+   "location": {
+    "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-5261cecb.rsa.pub",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "a8b24455dacbd886",
+   "location": {
+    "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-58199dcc.rsa.pub",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "b81e73f5fe2099d2",
+   "location": {
+    "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-58cbb476.rsa.pub",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "dc27e17e85e7af9d",
+   "location": {
+    "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-58e4f17d.rsa.pub",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "e33680efc9e5e928",
+   "location": {
+    "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-5e69ca50.rsa.pub",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "a7bc6f9b7016100b",
+   "location": {
+    "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-60ac2099.rsa.pub",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "b5eae7b7c003c53d",
+   "location": {
+    "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-6165ee59.rsa.pub",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "1ad15a63585cd3b8",
+   "location": {
+    "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-61666e3f.rsa.pub",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "f12fc4f3cc901b0d",
+   "location": {
+    "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-616a9724.rsa.pub",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "42b3660726a15ade",
+   "location": {
+    "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-616abc23.rsa.pub",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "788c68d61e059b82",
+   "location": {
+    "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-616ac3bc.rsa.pub",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "d95c60fca31191b0",
+   "location": {
+    "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-616adfeb.rsa.pub",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "cf892a6bdba4760a",
+   "location": {
+    "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-616ae350.rsa.pub",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "194d09c6a4a9c6ed",
+   "location": {
+    "path": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-616db30d.rsa.pub",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  },
+  {
+   "id": "619d7de3315dd70e",
+   "location": {
+    "path": "/usr/share/udhcpc/default.script",
+    "layerID": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5"
+   }
+  }
+ ],
+ "source": {
+  "type": "image",
+  "target": {
+   "userInput": "docker.io/library/notary:server",
+   "imageID": "sha256:1230af5d9d13460917775dc55aa93b0dbaa64345b273d5b2f7e863a435e835db",
+   "manifestDigest": "sha256:01340e33eaa4eb2547b49d57e3c30761290c1180f5cb1f37c368ef4b5d30b9e3",
+   "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+   "tags": [],
+   "imageSize": 21883568,
+   "layers": [
+    {
+     "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+     "digest": "sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+     "size": 5576689
+    },
+    {
+     "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+     "digest": "sha256:dbeaff7f6355f54e83d91f50e7af28e1b353f2ed6ff55a1efc0602a8f8d530b8",
+     "size": 0
+    },
+    {
+     "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+     "digest": "sha256:cdd56701a7dcdf7667daf25ecaaf17087e4386448298f328451aed2f53139d2b",
+     "size": 16301394
+    },
+    {
+     "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+     "digest": "sha256:bcb96c9f3951895f66d2dce1e874e1845d2c39842f6519cf36480a555d2eb4b8",
+     "size": 532
+    },
+    {
+     "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+     "digest": "sha256:582b41b6810be9dbd612e600f868425a713d77e96419d21ce3c27c25c5dc277e",
+     "size": 316
+    },
+    {
+     "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+     "digest": "sha256:9a52c56b725e59f58e92e99540cc0ab72a32d6027fbc13c04f992a7de3a1f605",
+     "size": 4637
+    }
+   ],
+   "manifest": "ewogICAic2NoZW1hVmVyc2lvbiI6IDIsCiAgICJtZWRpYVR5cGUiOiAiYXBwbGljYXRpb24vdm5kLmRvY2tlci5kaXN0cmlidXRpb24ubWFuaWZlc3QudjIranNvbiIsCiAgICJjb25maWciOiB7CiAgICAgICJtZWRpYVR5cGUiOiAiYXBwbGljYXRpb24vdm5kLmRvY2tlci5jb250YWluZXIuaW1hZ2UudjEranNvbiIsCiAgICAgICJzaXplIjogNDM1MywKICAgICAgImRpZ2VzdCI6ICJzaGEyNTY6MTIzMGFmNWQ5ZDEzNDYwOTE3Nzc1ZGM1NWFhOTNiMGRiYWE2NDM0NWIyNzNkNWIyZjdlODYzYTQzNWU4MzVkYiIKICAgfSwKICAgImxheWVycyI6IFsKICAgICAgewogICAgICAgICAibWVkaWFUeXBlIjogImFwcGxpY2F0aW9uL3ZuZC5kb2NrZXIuaW1hZ2Uucm9vdGZzLmRpZmYudGFyLmd6aXAiLAogICAgICAgICAic2l6ZSI6IDI4MDgwNjAsCiAgICAgICAgICJkaWdlc3QiOiAic2hhMjU2OjFiN2NhNmFlYTFkZGZlNzE2ZjM2OTRlZGI4MTFhYjM1MTE0ZGI5ZTkzZjNjZTM4ZDdkYWI2YjRkOTI3MGNiMGMiCiAgICAgIH0sCiAgICAgIHsKICAgICAgICAgIm1lZGlhVHlwZSI6ICJhcHBsaWNhdGlvbi92bmQuZG9ja2VyLmltYWdlLnJvb3Rmcy5kaWZmLnRhci5nemlwIiwKICAgICAgICAgInNpemUiOiAxNTEsCiAgICAgICAgICJkaWdlc3QiOiAic2hhMjU2OmI4MmU0YzEyNGQyMGVlN2YxZWUxZTRhMjNlYjBjMDVkMjk4MjZiYmJhOTgwMTY5ZjY2MDU0OWVkOWE1ODc1MmQiCiAgICAgIH0sCiAgICAgIHsKICAgICAgICAgIm1lZGlhVHlwZSI6ICJhcHBsaWNhdGlvbi92bmQuZG9ja2VyLmltYWdlLnJvb3Rmcy5kaWZmLnRhci5nemlwIiwKICAgICAgICAgInNpemUiOiA2MTAyMDEwLAogICAgICAgICAiZGlnZXN0IjogInNoYTI1Njo5ZDk2MjMwZWI1MmQ0NDA3YTI2M2M4MDllZjdjNzJjMzkwNWY4YjNlNmNmNTkyNDJiZTA2Y2FlYjRhNDQwNjJiIgogICAgICB9LAogICAgICB7CiAgICAgICAgICJtZWRpYVR5cGUiOiAiYXBwbGljYXRpb24vdm5kLmRvY2tlci5pbWFnZS5yb290ZnMuZGlmZi50YXIuZ3ppcCIsCiAgICAgICAgICJzaXplIjogNDE2LAogICAgICAgICAiZGlnZXN0IjogInNoYTI1Njo0NWFhYTE1ZTE2NTJkNmQzMmRmMGNhMGM4NWQ1NmIyN2IyM2M2ZWU2NDVmYjYyNWZkZTRmYjM4NmEzNTYxYTcwIgogICAgICB9LAogICAgICB7CiAgICAgICAgICJtZWRpYVR5cGUiOiAiYXBwbGljYXRpb24vdm5kLmRvY2tlci5pbWFnZS5yb290ZnMuZGlmZi50YXIuZ3ppcCIsCiAgICAgICAgICJzaXplIjogMzc4LAogICAgICAgICAiZGlnZXN0IjogInNoYTI1NjpmOWMyYjVjNGY4MWJhZGUxMzZjZjEzNjViNjczYWQxZTk4MmYwODg2NjMyYzE4OTgxNzdmYThmMmJmZDViZTc3IgogICAgICB9LAogICAgICB7CiAgICAgICAgICJtZWRpYVR5cGUiOiAiYXBwbGljYXRpb24vdm5kLmRvY2tlci5pbWFnZS5yb290ZnMuZGlmZi50YXIuZ3ppcCIsCiAgICAgICAgICJzaXplIjogMTE3MCwKICAgICAgICAgImRpZ2VzdCI6ICJzaGEyNTY6ZDA3MzMxNTIyNGRkOTU1YjZlM2ZmYjc2M2FmNWZhMzVjZmIwYjQzOTk1NjMxYzMwMjc0NTQxMWYwY2IzNWQ0NyIKICAgICAgfQogICBdCn0=",
+   "config": "eyJhcmNoaXRlY3R1cmUiOiJhbWQ2NCIsImNvbmZpZyI6eyJIb3N0bmFtZSI6IiIsIkRvbWFpbm5hbWUiOiIiLCJVc2VyIjoibm90YXJ5IiwiQXR0YWNoU3RkaW4iOmZhbHNlLCJBdHRhY2hTdGRvdXQiOmZhbHNlLCJBdHRhY2hTdGRlcnIiOmZhbHNlLCJFeHBvc2VkUG9ydHMiOnsiNDQ0My90Y3AiOnt9fSwiVHR5IjpmYWxzZSwiT3BlblN0ZGluIjpmYWxzZSwiU3RkaW5PbmNlIjpmYWxzZSwiRW52IjpbIlBBVEg9L3Vzci9sb2NhbC9zYmluOi91c3IvbG9jYWwvYmluOi91c3Ivc2JpbjovdXNyL2Jpbjovc2JpbjovYmluOi9ub3Rhcnkvc2VydmVyIiwiVEFHPXYwLjcuMCIsIk5PVEFSWVBLRz1naXRodWIuY29tL3RoZXVwZGF0ZWZyYW1ld29yay9ub3RhcnkiLCJJTlNUQUxMRElSPS9ub3Rhcnkvc2VydmVyIl0sIkNtZCI6WyJub3Rhcnktc2VydmVyIiwiLS12ZXJzaW9uIl0sIkltYWdlIjoic2hhMjU2OjQxMDA1OTA0YmZiYTQ2MGZiNmRmZmVjMDJmZTNkNWIwNzEyYTdmN2E2YWNiM2NiMzVjZjM0NjhlMWM3ZjlhN2MiLCJWb2x1bWVzIjpudWxsLCJXb3JraW5nRGlyIjoiL25vdGFyeS9zZXJ2ZXIiLCJFbnRyeXBvaW50IjpbImVudHJ5cG9pbnQuc2giXSwiT25CdWlsZCI6bnVsbCwiTGFiZWxzIjpudWxsfSwiY29udGFpbmVyIjoiYzRkODQ2NDdhN2YzMDAyYWRiNDg1MmJiMWM1NWVlYTdhY2E1OTJiNzAzOWZiMTUwMTE3ZWJmNDg2NjUyZWM2OSIsImNvbnRhaW5lcl9jb25maWciOnsiSG9zdG5hbWUiOiJjNGQ4NDY0N2E3ZjMiLCJEb21haW5uYW1lIjoiIiwiVXNlciI6Im5vdGFyeSIsIkF0dGFjaFN0ZGluIjpmYWxzZSwiQXR0YWNoU3Rkb3V0IjpmYWxzZSwiQXR0YWNoU3RkZXJyIjpmYWxzZSwiRXhwb3NlZFBvcnRzIjp7IjQ0NDMvdGNwIjp7fX0sIlR0eSI6ZmFsc2UsIk9wZW5TdGRpbiI6ZmFsc2UsIlN0ZGluT25jZSI6ZmFsc2UsIkVudiI6WyJQQVRIPS91c3IvbG9jYWwvc2JpbjovdXNyL2xvY2FsL2JpbjovdXNyL3NiaW46L3Vzci9iaW46L3NiaW46L2Jpbjovbm90YXJ5L3NlcnZlciIsIlRBRz12MC43LjAiLCJOT1RBUllQS0c9Z2l0aHViLmNvbS90aGV1cGRhdGVmcmFtZXdvcmsvbm90YXJ5IiwiSU5TVEFMTERJUj0vbm90YXJ5L3NlcnZlciJdLCJDbWQiOlsiL2Jpbi9zaCIsIi1jIiwiIyhub3ApICIsIkNNRCBbXCJub3Rhcnktc2VydmVyXCIgXCItLXZlcnNpb25cIl0iXSwiSW1hZ2UiOiJzaGEyNTY6NDEwMDU5MDRiZmJhNDYwZmI2ZGZmZWMwMmZlM2Q1YjA3MTJhN2Y3YTZhY2IzY2IzNWNmMzQ2OGUxYzdmOWE3YyIsIlZvbHVtZXMiOm51bGwsIldvcmtpbmdEaXIiOiIvbm90YXJ5L3NlcnZlciIsIkVudHJ5cG9pbnQiOlsiZW50cnlwb2ludC5zaCJdLCJPbkJ1aWxkIjpudWxsLCJMYWJlbHMiOnt9fSwiY3JlYXRlZCI6IjIwMjItMDUtMDZUMDI6MTY6MjYuOTk0MTQwOTE4WiIsImRvY2tlcl92ZXJzaW9uIjoiMjAuMTAuMTIiLCJoaXN0b3J5IjpbeyJjcmVhdGVkIjoiMjAyMi0wNC0wNVQwMDoyMDoxOS43MTQ4NjM1MThaIiwiY3JlYXRlZF9ieSI6Ii9iaW4vc2ggLWMgIyhub3ApIEFERCBmaWxlOmMxYWE4N2EzYjQ2NGZjYTY0ZDc2OTQ0NGI1MjAxYmMwNDI2YTFmNTE3YzkxYzRhNzkxNjI3MGUxMGY4YjMwMGIgaW4gLyAifSx7ImNyZWF0ZWQiOiIyMDIyLTA0LTA1VDAwOjIwOjE5LjgxMTY5OTM1NloiLCJjcmVhdGVkX2J5IjoiL2Jpbi9zaCAtYyAjKG5vcCkgIENNRCBbXCIvYmluL3NoXCJdIiwiZW1wdHlfbGF5ZXIiOnRydWV9LHsiY3JlYXRlZCI6IjIwMjItMDUtMDZUMDI6MTY6MDkuOTc1ODcyMTE2WiIsImNyZWF0ZWRfYnkiOiIvYmluL3NoIC1jICMobm9wKSAgRU5WIFRBRz12MC43LjAiLCJlbXB0eV9sYXllciI6dHJ1ZX0seyJjcmVhdGVkIjoiMjAyMi0wNS0wNlQwMjoxNjoxMC4wNjg3OTQzMTNaIiwiY3JlYXRlZF9ieSI6Ii9iaW4vc2ggLWMgIyhub3ApICBFTlYgTk9UQVJZUEtHPWdpdGh1Yi5jb20vdGhldXBkYXRlZnJhbWV3b3JrL25vdGFyeSIsImVtcHR5X2xheWVyIjp0cnVlfSx7ImNyZWF0ZWQiOiIyMDIyLTA1LTA2VDAyOjE2OjEwLjE2MDcwOTczM1oiLCJjcmVhdGVkX2J5IjoiL2Jpbi9zaCAtYyAjKG5vcCkgIEVOViBJTlNUQUxMRElSPS9ub3Rhcnkvc2VydmVyIiwiZW1wdHlfbGF5ZXIiOnRydWV9LHsiY3JlYXRlZCI6IjIwMjItMDUtMDZUMDI6MTY6MTAuMjU0ODI4MzUyWiIsImNyZWF0ZWRfYnkiOiIvYmluL3NoIC1jICMobm9wKSAgRVhQT1NFIDQ0NDMiLCJlbXB0eV9sYXllciI6dHJ1ZX0seyJjcmVhdGVkIjoiMjAyMi0wNS0wNlQwMjoxNjoxMC4zNDk2MDM2NzdaIiwiY3JlYXRlZF9ieSI6Ii9iaW4vc2ggLWMgIyhub3ApIFdPUktESVIgL25vdGFyeS9zZXJ2ZXIifSx7ImNyZWF0ZWQiOiIyMDIyLTA1LTA2VDAyOjE2OjI1LjgzNDc1MTEzOVoiLCJjcmVhdGVkX2J5IjoiL2Jpbi9zaCAtYyBzZXQgLWV1eDsgICAgIGFwayBhZGQgLS1uby1jYWNoZSAtLXZpcnR1YWwgYnVpbGQtZGVwcyBnaXQgZ28gbWFrZSBtdXNsLWRldjsgICAgIGV4cG9ydCBHT1BBVEg9L2dvIEdPQ0FDSEU9L2dvL2NhY2hlOyAgICAgbWtkaXIgLXAgJHtHT1BBVEh9L3NyYy8ke05PVEFSWVBLR307ICAgICBnaXQgY2xvbmUgLWIgJHtUQUd9IC0tZGVwdGggMSBodHRwczovLyR7Tk9UQVJZUEtHfSAke0dPUEFUSH0vc3JjLyR7Tk9UQVJZUEtHfTsgICAgIG1ha2UgLUMgJHtHT1BBVEh9L3NyYy8ke05PVEFSWVBLR30gU0tJUEVOVkNIRUNLPTEgUFJFRklYPS4gLi9iaW4vc3RhdGljL25vdGFyeS1zZXJ2ZXI7ICAgICBjcCAtdkwgJHtHT1BBVEh9L3NyYy8ke05PVEFSWVBLR30vYmluL3N0YXRpYy9ub3Rhcnktc2VydmVyIC4vOyAgICAgYXBrIGRlbCAtLW5vLW5ldHdvcmsgYnVpbGQtZGVwczsgICAgIHJtIC1yZiAke0dPUEFUSH07ICAgICAuL25vdGFyeS1zZXJ2ZXIgLS12ZXJzaW9uIn0seyJjcmVhdGVkIjoiMjAyMi0wNS0wNlQwMjoxNjoyNS45NjU0NTA3MzRaIiwiY3JlYXRlZF9ieSI6Ii9iaW4vc2ggLWMgIyhub3ApIENPUFkgZmlsZTozMzY0M2FiNjM2OGY3MDA3NjEwYTgxYWJkNWVmMjkxZWM0M2NiZDQ3YTBkMTU4MWIyOTQ5MDY5MGRjNDRmNzA5IGluIC4gIn0seyJjcmVhdGVkIjoiMjAyMi0wNS0wNlQwMjoxNjoyNi4wNzQzNTQ5NzdaIiwiY3JlYXRlZF9ieSI6Ii9iaW4vc2ggLWMgIyhub3ApIENPUFkgZmlsZTphZDFhYjI1YWM4Y2ViMjlmMWNkYzczNjNjMjZjMDgzODg3ZDc2YmRiZDM3ZGI5OThiYWFkMDk4NzNlZjA4MTFlIGluIC4gIn0seyJjcmVhdGVkIjoiMjAyMi0wNS0wNlQwMjoxNjoyNi42MTQ0MzU1NDFaIiwiY3JlYXRlZF9ieSI6Ii9iaW4vc2ggLWMgYWRkdXNlciAtRCAtSCAtZyBcIlwiIG5vdGFyeSJ9LHsiY3JlYXRlZCI6IjIwMjItMDUtMDZUMDI6MTY6MjYuNzExOTYwMjk5WiIsImNyZWF0ZWRfYnkiOiIvYmluL3NoIC1jICMobm9wKSAgVVNFUiBub3RhcnkiLCJlbXB0eV9sYXllciI6dHJ1ZX0seyJjcmVhdGVkIjoiMjAyMi0wNS0wNlQwMjoxNjoyNi44MDU1NDI3MjZaIiwiY3JlYXRlZF9ieSI6Ii9iaW4vc2ggLWMgIyhub3ApICBFTlYgUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW46L25vdGFyeS9zZXJ2ZXIiLCJlbXB0eV9sYXllciI6dHJ1ZX0seyJjcmVhdGVkIjoiMjAyMi0wNS0wNlQwMjoxNjoyNi44OTU5ODMwMloiLCJjcmVhdGVkX2J5IjoiL2Jpbi9zaCAtYyAjKG5vcCkgIEVOVFJZUE9JTlQgW1wiZW50cnlwb2ludC5zaFwiXSIsImVtcHR5X2xheWVyIjp0cnVlfSx7ImNyZWF0ZWQiOiIyMDIyLTA1LTA2VDAyOjE2OjI2Ljk5NDE0MDkxOFoiLCJjcmVhdGVkX2J5IjoiL2Jpbi9zaCAtYyAjKG5vcCkgIENNRCBbXCJub3Rhcnktc2VydmVyXCIgXCItLXZlcnNpb25cIl0iLCJlbXB0eV9sYXllciI6dHJ1ZX1dLCJvcyI6ImxpbnV4Iiwicm9vdGZzIjp7InR5cGUiOiJsYXllcnMiLCJkaWZmX2lkcyI6WyJzaGEyNTY6MWFkMjdiZGQxNjZiOTIyNDkyMDMxYjE5MzhhNGZiMmY3NzVlM2Q5OGM4ZjFiNzIwNTFkYWQwNTcwYTRkZDFiNSIsInNoYTI1NjpkYmVhZmY3ZjYzNTVmNTRlODNkOTFmNTBlN2FmMjhlMWIzNTNmMmVkNmZmNTVhMWVmYzA2MDJhOGY4ZDUzMGI4Iiwic2hhMjU2OmNkZDU2NzAxYTdkY2RmNzY2N2RhZjI1ZWNhYWYxNzA4N2U0Mzg2NDQ4Mjk4ZjMyODQ1MWFlZDJmNTMxMzlkMmIiLCJzaGEyNTY6YmNiOTZjOWYzOTUxODk1ZjY2ZDJkY2UxZTg3NGUxODQ1ZDJjMzk4NDJmNjUxOWNmMzY0ODBhNTU1ZDJlYjRiOCIsInNoYTI1Njo1ODJiNDFiNjgxMGJlOWRiZDYxMmU2MDBmODY4NDI1YTcxM2Q3N2U5NjQxOWQyMWNlM2MyN2MyNWM1ZGMyNzdlIiwic2hhMjU2OjlhNTJjNTZiNzI1ZTU5ZjU4ZTkyZTk5NTQwY2MwYWI3MmEzMmQ2MDI3ZmJjMTNjMDRmOTkyYTdkZTNhMWY2MDUiXX19",
+   "repoDigests": [
+    "index.docker.io/library/notary@sha256:a5d3416ce916d9bb8adde5ba6d0d899ceec41fc72b4a6dd33e1741e3b234ccce"
+   ],
+   "architecture": "",
+   "os": ""
+  }
+ },
+ "distro": {
+  "prettyName": "Alpine Linux v3.12",
+  "name": "Alpine Linux",
+  "id": "alpine",
+  "versionID": "3.12.12",
+  "homeURL": "https://alpinelinux.org/",
+  "bugReportURL": "https://bugs.alpinelinux.org/"
+ },
+ "descriptor": {
+  "name": "syft",
+  "version": "0.48.0",
+  "configuration": {
+   "configPath": "",
+   "verbosity": 0,
+   "quiet": true,
+   "output": [
+    "json"
+   ],
+   "file": "",
+   "check-for-app-update": true,
+   "anchore": {
+    "host": "",
+    "path": "",
+    "dockerfile": "",
+    "overwrite-existing-image": false,
+    "import-timeout": 30
+   },
+   "dev": {
+    "profile-cpu": false,
+    "profile-mem": false
+   },
+   "log": {
+    "structured": false,
+    "level": "panic",
+    "file-location": ""
+   },
+   "package": {
+    "cataloger": {
+     "enabled": true,
+     "scope": "Squashed"
+    },
+    "search-unindexed-archives": false,
+    "search-indexed-archives": true
+   },
+   "file-metadata": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "digests": [
+     "sha256"
+    ]
+   },
+   "file-classification": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    }
+   },
+   "file-contents": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "skip-files-above-size": 1048576,
+    "globs": []
+   },
+   "secrets": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "AllLayers"
+    },
+    "additional-patterns": {},
+    "exclude-pattern-names": [],
+    "reveal-values": false,
+    "skip-files-above-size": 1048576
+   },
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": []
+   },
+   "exclude": [],
+   "attest": {
+    "key": "",
+    "cert": "",
+    "noUpload": false,
+    "force": false,
+    "recursive": false,
+    "replace": false,
+    "fulcioUrl": "https://fulcio.sigstore.dev",
+    "fulcio_identity_token": "",
+    "insecure_skip_verify": false,
+    "rekorUrl": "https://rekor.sigstore.dev",
+    "oidcIssuer": "https://oauth2.sigstore.dev/auth",
+    "oidcClientId": "sigstore",
+    "OIDCRedirectURL": ""
+   },
+   "platform": ""
+  }
+ },
+ "schema": {
+  "version": "3.3.0",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-3.3.0.json"
+ }
+}

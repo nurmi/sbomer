@@ -1,0 +1,478 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:a6cb465b-f306-4186-b488-f8035cde1ee8",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2022-07-14T13:54:42-07:00",
+    "tools": [
+      {
+        "vendor": "anchore",
+        "name": "syft",
+        "version": "0.46.1"
+      }
+    ],
+    "component": {
+      "bom-ref": "8d40e2eb42b2829d",
+      "type": "container",
+      "name": "docker.io/library/nats:latest",
+      "version": "sha256:796298f636925dedbbdfa537f42423dffd3a69b70c3a9bf4fd0982886a4b745d"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:golang/github.com/klauspost/compress@v1.14.4?package-id=f1750b9b1dc17e8a",
+      "type": "library",
+      "name": "github.com/klauspost/compress",
+      "version": "v1.14.4",
+      "cpe": "cpe:2.3:a:klauspost:compress:v1.14.4:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/klauspost/compress@v1.14.4",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:7e49c6f1bf904c953e323ce66c5bbc3924e7370f8792f6c0cf677687c51b9bf8"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/nats-server"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.17.10"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:eijASRJcobkVtSt81Olfh7JX43osYLwy5krOJo6YEu4="
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/minio/highwayhash@v1.0.2?package-id=b2a9583aebb4190e",
+      "type": "library",
+      "name": "github.com/minio/highwayhash",
+      "version": "v1.0.2",
+      "cpe": "cpe:2.3:a:minio:highwayhash:v1.0.2:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/minio/highwayhash@v1.0.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:7e49c6f1bf904c953e323ce66c5bbc3924e7370f8792f6c0cf677687c51b9bf8"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/nats-server"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.17.10"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:Aak5U0nElisjDCfPSG79Tgzkn2gl66NxOMspRrKnA/g="
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/nats-io/jwt/v2@v2.2.1-0.20220330180145-442af02fd36a?package-id=2f6bc2ed2a1e7ac4",
+      "type": "library",
+      "name": "github.com/nats-io/jwt/v2",
+      "version": "v2.2.1-0.20220330180145-442af02fd36a",
+      "cpe": "cpe:2.3:a:nats-io:jwt:v2.2.1-0.20220330180145-442af02fd36a:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/nats-io/jwt/v2@v2.2.1-0.20220330180145-442af02fd36a",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:nats_io:jwt:v2.2.1-0.20220330180145-442af02fd36a:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:nats:jwt:v2.2.1-0.20220330180145-442af02fd36a:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:7e49c6f1bf904c953e323ce66c5bbc3924e7370f8792f6c0cf677687c51b9bf8"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/nats-server"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.17.10"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:lem6QCvxR0Y28gth9P+wV2K/zYUUAkJ+55U8cpS0p5I="
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/nats-io/nats-server/v2@(devel)?package-id=96682b5284cd88ed",
+      "type": "library",
+      "name": "github.com/nats-io/nats-server/v2",
+      "version": "(devel)",
+      "cpe": "cpe:2.3:a:nats-io:nats-server:\\(devel\\):*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/nats-io/nats-server/v2@(devel)",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:nats-io:nats_server:\\(devel\\):*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:nats_io:nats-server:\\(devel\\):*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:nats_io:nats_server:\\(devel\\):*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:nats:nats-server:\\(devel\\):*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:nats:nats_server:\\(devel\\):*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:7e49c6f1bf904c953e323ce66c5bbc3924e7370f8792f6c0cf677687c51b9bf8"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/nats-server"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.17.10"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/nats-io/nkeys@v0.3.0?package-id=a08200eca60ac60c",
+      "type": "library",
+      "name": "github.com/nats-io/nkeys",
+      "version": "v0.3.0",
+      "cpe": "cpe:2.3:a:nats-io:nkeys:v0.3.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/nats-io/nkeys@v0.3.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:nats_io:nkeys:v0.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:nats:nkeys:v0.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:7e49c6f1bf904c953e323ce66c5bbc3924e7370f8792f6c0cf677687c51b9bf8"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/nats-server"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.17.10"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:cgM5tL53EvYRU+2YLXIK0G2mJtK12Ft9oeooSZMA2G8="
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/nats-io/nuid@v1.0.1?package-id=92e86ec5d7121ae3",
+      "type": "library",
+      "name": "github.com/nats-io/nuid",
+      "version": "v1.0.1",
+      "cpe": "cpe:2.3:a:nats-io:nuid:v1.0.1:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/nats-io/nuid@v1.0.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:nats_io:nuid:v1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:nats:nuid:v1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:7e49c6f1bf904c953e323ce66c5bbc3924e7370f8792f6c0cf677687c51b9bf8"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/nats-server"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.17.10"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:5iA8DT8V7q8WK2EScv2padNa/rTESc1KdnPw4TC2paw="
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/golang.org/x/crypto@v0.0.0-20220315160706-3147a52a75dd?package-id=c3348d4477ef9200",
+      "type": "library",
+      "name": "golang.org/x/crypto",
+      "version": "v0.0.0-20220315160706-3147a52a75dd",
+      "cpe": "cpe:2.3:a:golang:x\\/crypto:v0.0.0-20220315160706-3147a52a75dd:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/golang.org/x/crypto@v0.0.0-20220315160706-3147a52a75dd",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:7e49c6f1bf904c953e323ce66c5bbc3924e7370f8792f6c0cf677687c51b9bf8"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/nats-server"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.17.10"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:XcWmESyNjXJMLahc3mqVQJcgSTDxFxhETVlfk9uGc38="
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/golang.org/x/sys@v0.0.0-20220111092808-5a964db01320?package-id=5614531979ac8aea",
+      "type": "library",
+      "name": "golang.org/x/sys",
+      "version": "v0.0.0-20220111092808-5a964db01320",
+      "cpe": "cpe:2.3:a:golang:x\\/sys:v0.0.0-20220111092808-5a964db01320:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/golang.org/x/sys@v0.0.0-20220111092808-5a964db01320",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:7e49c6f1bf904c953e323ce66c5bbc3924e7370f8792f6c0cf677687c51b9bf8"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/nats-server"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.17.10"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:0jf+tOCoZ3LyutmCOWpVni1chK4VfFLhRsDK7MhqGRY="
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/golang.org/x/time@v0.0.0-20211116232009-f0f3c7e86c11?package-id=5375323e4f7c1a30",
+      "type": "library",
+      "name": "golang.org/x/time",
+      "version": "v0.0.0-20211116232009-f0f3c7e86c11",
+      "cpe": "cpe:2.3:a:golang:x\\/time:v0.0.0-20211116232009-f0f3c7e86c11:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/golang.org/x/time@v0.0.0-20211116232009-f0f3c7e86c11",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:7e49c6f1bf904c953e323ce66c5bbc3924e7370f8792f6c0cf677687c51b9bf8"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/nats-server"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.17.10"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:GZokNIeuVkl3aZHJchRrr13WCsols02MLUcz1U9is6M="
+        }
+      ]
+    }
+  ]
+}

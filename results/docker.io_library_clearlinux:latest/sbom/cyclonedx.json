@@ -1,0 +1,73 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:28ab1485-de3c-43fa-afa3-b4cb6c4a9150",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2022-07-14T13:36:43-07:00",
+    "tools": [
+      {
+        "vendor": "anchore",
+        "name": "syft",
+        "version": "0.46.1"
+      }
+    ],
+    "component": {
+      "bom-ref": "63982c3d77d5bc73",
+      "type": "container",
+      "name": "docker.io/library/clearlinux:latest",
+      "version": "sha256:a503b193b4fe9c0063b9947024896093150d452974e88594d14209141e022991"
+    }
+  },
+  "components": [
+    {
+      "type": "operating-system",
+      "name": "clear-linux-os",
+      "version": "36600",
+      "description": "Clear Linux OS",
+      "swid": {
+        "tagId": "clear-linux-os",
+        "name": "clear-linux-os",
+        "version": "36600"
+      },
+      "externalReferences": [
+        {
+          "url": "mailto:dev@lists.clearlinux.org",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://clearlinux.org",
+          "type": "website"
+        },
+        {
+          "url": "https://clearlinux.org",
+          "comment": "support",
+          "type": "other"
+        },
+        {
+          "url": "http://www.intel.com/privacy",
+          "comment": "privacyPolicy",
+          "type": "other"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:distro:id",
+          "value": "clear-linux-os"
+        },
+        {
+          "name": "syft:distro:idLike:0",
+          "value": "clear-linux-os"
+        },
+        {
+          "name": "syft:distro:prettyName",
+          "value": "Clear Linux OS"
+        },
+        {
+          "name": "syft:distro:versionID",
+          "value": "36600"
+        }
+      ]
+    }
+  ]
+}
