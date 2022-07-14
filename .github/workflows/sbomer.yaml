@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Re-generate SBOMs
 
 # Controls when the workflow will run
 on:
@@ -32,5 +32,6 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+          pwd
+          ./generate_dockerhub_images.py > input_images/dockerhub_officials
+	  ./make-sboms.sh
