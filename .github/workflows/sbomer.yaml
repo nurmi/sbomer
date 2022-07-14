@@ -36,6 +36,7 @@ jobs:
 #          ./scripts/make_sboms.sh
 
       - name: Commit new results
+        run: |
           git config user.email "sbomer@myorg.com"
           git config user.name "SBOM Updater"
           git add ./results/*
