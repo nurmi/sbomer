@@ -1,0 +1,2369 @@
+{
+ "SPDXID": "SPDXRef-DOCUMENT",
+ "name": "docker.io/library/notary-signer",
+ "spdxVersion": "SPDX-2.2",
+ "creationInfo": {
+  "created": "2022-07-14T21:21:35.252665Z",
+  "creators": [
+   "Organization: Anchore, Inc",
+   "Tool: syft-0.48.0"
+  ],
+  "licenseListVersion": "3.17"
+ },
+ "dataLicense": "CC0-1.0",
+ "documentNamespace": "https://anchore.com/syft/image/docker.io/library/notary-signer-e0feabf9-4de0-4e6d-a764-200cad4da21a",
+ "packages": [
+  {
+   "SPDXID": "SPDXRef-ab971b290905df2",
+   "name": "alpine-baselayout",
+   "licenseConcluded": "GPL-2.0-only",
+   "description": "Alpine base dir structure and init scripts",
+   "downloadLocation": "https://git.alpinelinux.org/cgit/aports/tree/main/alpine-baselayout",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:alpine-baselayout:alpine-baselayout:3.2.0-r7:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:alpine-baselayout:alpine_baselayout:3.2.0-r7:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:alpine_baselayout:alpine-baselayout:3.2.0-r7:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:alpine_baselayout:alpine_baselayout:3.2.0-r7:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:alpine:alpine-baselayout:3.2.0-r7:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:alpine:alpine_baselayout:3.2.0-r7:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:alpine/alpine-baselayout@3.2.0-r7?arch=x86_64&upstream=alpine-baselayout&distro=alpine-3.12.12",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "GPL-2.0-only",
+   "originator": "Person: Natanael Copa <ncopa@alpinelinux.org>",
+   "sourceInfo": "acquired package info from APK DB: /lib/apk/db/installed",
+   "versionInfo": "3.2.0-r7"
+  },
+  {
+   "SPDXID": "SPDXRef-fdfd5687263b905c",
+   "name": "alpine-keys",
+   "licenseConcluded": "MIT",
+   "description": "Public keys for Alpine Linux packages",
+   "downloadLocation": "https://alpinelinux.org",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:alpine-keys:alpine-keys:2.4-r0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:alpine-keys:alpine_keys:2.4-r0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:alpine_keys:alpine-keys:2.4-r0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:alpine_keys:alpine_keys:2.4-r0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:alpine:alpine-keys:2.4-r0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:alpine:alpine_keys:2.4-r0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:alpine/alpine-keys@2.4-r0?arch=x86_64&upstream=alpine-keys&distro=alpine-3.12.12",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "MIT",
+   "originator": "Person: Natanael Copa <ncopa@alpinelinux.org>",
+   "sourceInfo": "acquired package info from APK DB: /lib/apk/db/installed",
+   "versionInfo": "2.4-r0"
+  },
+  {
+   "SPDXID": "SPDXRef-7609c21653a53e4f",
+   "name": "apk-tools",
+   "licenseConcluded": "GPL-2.0-only",
+   "description": "Alpine Package Keeper - package manager for alpine",
+   "downloadLocation": "https://gitlab.alpinelinux.org/alpine/apk-tools",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:apk-tools:apk-tools:2.10.8-r1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:apk-tools:apk_tools:2.10.8-r1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:apk_tools:apk-tools:2.10.8-r1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:apk_tools:apk_tools:2.10.8-r1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:apk:apk-tools:2.10.8-r1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:apk:apk_tools:2.10.8-r1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:alpine/apk-tools@2.10.8-r1?arch=x86_64&upstream=apk-tools&distro=alpine-3.12.12",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "GPL-2.0-only",
+   "originator": "Person: Natanael Copa <ncopa@alpinelinux.org>",
+   "sourceInfo": "acquired package info from APK DB: /lib/apk/db/installed",
+   "versionInfo": "2.10.8-r1"
+  },
+  {
+   "SPDXID": "SPDXRef-a2df16fe1b3cca11",
+   "name": "busybox",
+   "licenseConcluded": "GPL-2.0-only",
+   "description": "Size optimized toolbox of many common UNIX utilities",
+   "downloadLocation": "https://busybox.net/",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:busybox:busybox:1.31.1-r22:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:alpine/busybox@1.31.1-r22?arch=x86_64&upstream=busybox&distro=alpine-3.12.12",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "GPL-2.0-only",
+   "originator": "Person: Natanael Copa <ncopa@alpinelinux.org>",
+   "sourceInfo": "acquired package info from APK DB: /lib/apk/db/installed",
+   "versionInfo": "1.31.1-r22"
+  },
+  {
+   "SPDXID": "SPDXRef-d44f92f020efc258",
+   "name": "ca-certificates-bundle",
+   "licenseConcluded": "MPL-2.0 AND GPL-2.0-or-later",
+   "description": "Pre generated bundle of Mozilla certificates",
+   "downloadLocation": "https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:ca-certificates-bundle:ca-certificates-bundle:20211220-r0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:ca-certificates-bundle:ca_certificates_bundle:20211220-r0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:ca_certificates_bundle:ca-certificates-bundle:20211220-r0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:ca_certificates_bundle:ca_certificates_bundle:20211220-r0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:ca-certificates:ca-certificates-bundle:20211220-r0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:ca-certificates:ca_certificates_bundle:20211220-r0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:ca_certificates:ca-certificates-bundle:20211220-r0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:ca_certificates:ca_certificates_bundle:20211220-r0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:ca:ca-certificates-bundle:20211220-r0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:ca:ca_certificates_bundle:20211220-r0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:alpine/ca-certificates-bundle@20211220-r0?arch=x86_64&upstream=ca-certificates&distro=alpine-3.12.12",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "MPL-2.0 AND GPL-2.0-or-later",
+   "originator": "Person: Natanael Copa <ncopa@alpinelinux.org>",
+   "sourceInfo": "acquired package info from APK DB: /lib/apk/db/installed",
+   "versionInfo": "20211220-r0"
+  },
+  {
+   "SPDXID": "SPDXRef-c1a4e28235fd176f",
+   "name": "github.com/BurntSushi/toml",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:BurntSushi:toml:v0.3.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/BurntSushi/toml@v0.3.1",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /notary/signer/notary-signer",
+   "versionInfo": "v0.3.1"
+  },
+  {
+   "SPDXID": "SPDXRef-f586d0579374cea7",
+   "name": "github.com/Shopify/logrus-bugsnag",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:Shopify:logrus-bugsnag:v0.0.0-20170309145241-6dbc35f2c30d:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:Shopify:logrus_bugsnag:v0.0.0-20170309145241-6dbc35f2c30d:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/Shopify/logrus-bugsnag@v0.0.0-20170309145241-6dbc35f2c30d",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /notary/signer/notary-signer",
+   "versionInfo": "v0.0.0-20170309145241-6dbc35f2c30d"
+  },
+  {
+   "SPDXID": "SPDXRef-736349f4760a2ba5",
+   "name": "github.com/bugsnag/bugsnag-go",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:bugsnag:bugsnag-go:v1.0.5-0.20150529004307-13fd6b8acda0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:bugsnag:bugsnag_go:v1.0.5-0.20150529004307-13fd6b8acda0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/bugsnag/bugsnag-go@v1.0.5-0.20150529004307-13fd6b8acda0",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /notary/signer/notary-signer",
+   "versionInfo": "v1.0.5-0.20150529004307-13fd6b8acda0"
+  },
+  {
+   "SPDXID": "SPDXRef-5c214956a9cdc8e9",
+   "name": "github.com/bugsnag/osext",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:bugsnag:osext:v0.0.0-20130617224835-0dd3f918b21b:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/bugsnag/osext@v0.0.0-20130617224835-0dd3f918b21b",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /notary/signer/notary-signer",
+   "versionInfo": "v0.0.0-20130617224835-0dd3f918b21b"
+  },
+  {
+   "SPDXID": "SPDXRef-e8916633bde4e8ff",
+   "name": "github.com/bugsnag/panicwrap",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:bugsnag:panicwrap:v0.0.0-20151223152923-e2c28503fcd0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/bugsnag/panicwrap@v0.0.0-20151223152923-e2c28503fcd0",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /notary/signer/notary-signer",
+   "versionInfo": "v0.0.0-20151223152923-e2c28503fcd0"
+  },
+  {
+   "SPDXID": "SPDXRef-1facc92c80124943",
+   "name": "github.com/docker/distribution",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:docker:distribution:v2.7.1\\+incompatible:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/docker/distribution@v2.7.1+incompatible",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /notary/signer/notary-signer",
+   "versionInfo": "v2.7.1+incompatible"
+  },
+  {
+   "SPDXID": "SPDXRef-85be83ebfdc2103e",
+   "name": "github.com/docker/go",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:docker:go:v1.5.1-1.0.20160303222718-d30aec9fd63c:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/docker/go@v1.5.1-1.0.20160303222718-d30aec9fd63c",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /notary/signer/notary-signer",
+   "versionInfo": "v1.5.1-1.0.20160303222718-d30aec9fd63c"
+  },
+  {
+   "SPDXID": "SPDXRef-4933fa6532bccda7",
+   "name": "github.com/docker/go-connections",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:docker:go-connections:v0.4.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:docker:go_connections:v0.4.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/docker/go-connections@v0.4.0",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /notary/signer/notary-signer",
+   "versionInfo": "v0.4.0"
+  },
+  {
+   "SPDXID": "SPDXRef-80e5cc61125cf82d",
+   "name": "github.com/dvsekhvalnov/jose2go",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:dvsekhvalnov:jose2go:v0.0.0-20170216131308-f21a8cedbbae:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/dvsekhvalnov/jose2go@v0.0.0-20170216131308-f21a8cedbbae",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /notary/signer/notary-signer",
+   "versionInfo": "v0.0.0-20170216131308-f21a8cedbbae"
+  },
+  {
+   "SPDXID": "SPDXRef-1bbc17a347e7af3",
+   "name": "github.com/go-sql-driver/mysql",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:go-sql-driver:mysql:v1.3.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:go_sql_driver:mysql:v1.3.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:go-sql:mysql:v1.3.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:go_sql:mysql:v1.3.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:go:mysql:v1.3.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/go-sql-driver/mysql@v1.3.0",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /notary/signer/notary-signer",
+   "versionInfo": "v1.3.0"
+  },
+  {
+   "SPDXID": "SPDXRef-d07c118a05fa98cc",
+   "name": "github.com/golang/protobuf",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:golang:protobuf:v1.3.4:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/golang/protobuf@v1.3.4",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /notary/signer/notary-signer",
+   "versionInfo": "v1.3.4"
+  },
+  {
+   "SPDXID": "SPDXRef-5db6781748ace6ab",
+   "name": "github.com/gorilla/mux",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:gorilla:mux:v1.7.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/gorilla/mux@v1.7.0",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /notary/signer/notary-signer",
+   "versionInfo": "v1.7.0"
+  },
+  {
+   "SPDXID": "SPDXRef-52890956735ca073",
+   "name": "github.com/hailocab/go-hostpool",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:hailocab:go-hostpool:v0.0.0-20160125115350-e80d13ce29ed:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:hailocab:go_hostpool:v0.0.0-20160125115350-e80d13ce29ed:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/hailocab/go-hostpool@v0.0.0-20160125115350-e80d13ce29ed",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /notary/signer/notary-signer",
+   "versionInfo": "v0.0.0-20160125115350-e80d13ce29ed"
+  },
+  {
+   "SPDXID": "SPDXRef-66add36684c2dc51",
+   "name": "github.com/jinzhu/gorm",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:jinzhu:gorm:v0.0.0-20170222002820-5409931a1bb8:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/jinzhu/gorm@v0.0.0-20170222002820-5409931a1bb8",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /notary/signer/notary-signer",
+   "versionInfo": "v0.0.0-20170222002820-5409931a1bb8"
+  },
+  {
+   "SPDXID": "SPDXRef-abffab774d01c3fd",
+   "name": "github.com/jinzhu/inflection",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:jinzhu:inflection:v0.0.0-20170102125226-1c35d901db3d:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/jinzhu/inflection@v0.0.0-20170102125226-1c35d901db3d",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /notary/signer/notary-signer",
+   "versionInfo": "v0.0.0-20170102125226-1c35d901db3d"
+  },
+  {
+   "SPDXID": "SPDXRef-85af7e41e860d57",
+   "name": "github.com/kr/pretty",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:kr:pretty:v0.1.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/kr/pretty@v0.1.0",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /notary/signer/notary-signer",
+   "versionInfo": "v0.1.0"
+  },
+  {
+   "SPDXID": "SPDXRef-14b305834e25f44",
+   "name": "github.com/kr/text",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:kr:text:v0.2.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/kr/text@v0.2.0",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /notary/signer/notary-signer",
+   "versionInfo": "v0.2.0"
+  },
+  {
+   "SPDXID": "SPDXRef-26e2c9cda4b133e2",
+   "name": "github.com/lib/pq",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:lib:pq:v0.0.0-20150723085316-0dad96c0b94f:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/lib/pq@v0.0.0-20150723085316-0dad96c0b94f",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /notary/signer/notary-signer",
+   "versionInfo": "v0.0.0-20150723085316-0dad96c0b94f"
+  },
+  {
+   "SPDXID": "SPDXRef-29e2b6b379c60ed4",
+   "name": "github.com/magiconair/properties",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:magiconair:properties:v1.5.3:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/magiconair/properties@v1.5.3",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /notary/signer/notary-signer",
+   "versionInfo": "v1.5.3"
+  },
+  {
+   "SPDXID": "SPDXRef-fafd870f9eab02e3",
+   "name": "github.com/mitchellh/mapstructure",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:mitchellh:mapstructure:v0.0.0-20150613213606-2caf8efc9366:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/mitchellh/mapstructure@v0.0.0-20150613213606-2caf8efc9366",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /notary/signer/notary-signer",
+   "versionInfo": "v0.0.0-20150613213606-2caf8efc9366"
+  },
+  {
+   "SPDXID": "SPDXRef-d349dbf229fa23c0",
+   "name": "github.com/opentracing/opentracing-go",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:opentracing:opentracing-go:v1.1.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:opentracing:opentracing_go:v1.1.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/opentracing/opentracing-go@v1.1.0",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /notary/signer/notary-signer",
+   "versionInfo": "v1.1.0"
+  },
+  {
+   "SPDXID": "SPDXRef-70ec3f559df395ea",
+   "name": "github.com/pkg/errors",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:pkg:errors:v0.8.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/pkg/errors@v0.8.1",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /notary/signer/notary-signer",
+   "versionInfo": "v0.8.1"
+  },
+  {
+   "SPDXID": "SPDXRef-f5edbab2fcef0259",
+   "name": "github.com/sirupsen/logrus",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:sirupsen:logrus:v1.4.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/sirupsen/logrus@v1.4.1",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /notary/signer/notary-signer",
+   "versionInfo": "v1.4.1"
+  },
+  {
+   "SPDXID": "SPDXRef-84f57890de1e5df1",
+   "name": "github.com/spf13/cast",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:spf13:cast:v0.0.0-20150508191742-4d07383ffe94:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/spf13/cast@v0.0.0-20150508191742-4d07383ffe94",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /notary/signer/notary-signer",
+   "versionInfo": "v0.0.0-20150508191742-4d07383ffe94"
+  },
+  {
+   "SPDXID": "SPDXRef-f25b4a237c44d802",
+   "name": "github.com/spf13/jwalterweatherman",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:spf13:jwalterweatherman:v0.0.0-20141219030609-3d60171a6431:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/spf13/jwalterweatherman@v0.0.0-20141219030609-3d60171a6431",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /notary/signer/notary-signer",
+   "versionInfo": "v0.0.0-20141219030609-3d60171a6431"
+  },
+  {
+   "SPDXID": "SPDXRef-7ee61737aad9f844",
+   "name": "github.com/spf13/pflag",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:spf13:pflag:v1.0.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/spf13/pflag@v1.0.0",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /notary/signer/notary-signer",
+   "versionInfo": "v1.0.0"
+  },
+  {
+   "SPDXID": "SPDXRef-44472b9684017698",
+   "name": "github.com/spf13/viper",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:spf13:viper:v0.0.0-20150530192845-be5ff3e4840c:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/spf13/viper@v0.0.0-20150530192845-be5ff3e4840c",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /notary/signer/notary-signer",
+   "versionInfo": "v0.0.0-20150530192845-be5ff3e4840c"
+  },
+  {
+   "SPDXID": "SPDXRef-c93e144b35f27367",
+   "name": "github.com/theupdateframework/notary",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:theupdateframework:notary:\\(devel\\):*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/theupdateframework/notary@(devel)",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /notary/signer/notary-signer",
+   "versionInfo": "(devel)"
+  },
+  {
+   "SPDXID": "SPDXRef-b7ece8218ff56fbf",
+   "name": "golang.org/x/crypto",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:golang:x\\/crypto:v0.0.0-20201117144127-c1f2f97bffc9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/golang.org/x/crypto@v0.0.0-20201117144127-c1f2f97bffc9",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /notary/signer/notary-signer",
+   "versionInfo": "v0.0.0-20201117144127-c1f2f97bffc9"
+  },
+  {
+   "SPDXID": "SPDXRef-393c0d2c94823f5f",
+   "name": "golang.org/x/net",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:golang:x\\/net:v0.0.0-20190404232315-eb5bcb51f2a3:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/golang.org/x/net@v0.0.0-20190404232315-eb5bcb51f2a3",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /notary/signer/notary-signer",
+   "versionInfo": "v0.0.0-20190404232315-eb5bcb51f2a3"
+  },
+  {
+   "SPDXID": "SPDXRef-f130053eed18d0df",
+   "name": "golang.org/x/sys",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:golang:x\\/sys:v0.0.0-20191120155948-bd437916bb0e:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/golang.org/x/sys@v0.0.0-20191120155948-bd437916bb0e",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /notary/signer/notary-signer",
+   "versionInfo": "v0.0.0-20191120155948-bd437916bb0e"
+  },
+  {
+   "SPDXID": "SPDXRef-5ceb82aebc63cf99",
+   "name": "golang.org/x/term",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:golang:x\\/term:v0.0.0-20201117132131-f5c789dd3221:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/golang.org/x/term@v0.0.0-20201117132131-f5c789dd3221",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /notary/signer/notary-signer",
+   "versionInfo": "v0.0.0-20201117132131-f5c789dd3221"
+  },
+  {
+   "SPDXID": "SPDXRef-e4a70205ad04b73",
+   "name": "golang.org/x/text",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:golang:x\\/text:v0.3.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/golang.org/x/text@v0.3.0",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /notary/signer/notary-signer",
+   "versionInfo": "v0.3.0"
+  },
+  {
+   "SPDXID": "SPDXRef-eed0d217279e0b9",
+   "name": "google.golang.org/grpc",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:google:grpc:v1.0.5:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/google.golang.org/grpc@v1.0.5",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /notary/signer/notary-signer",
+   "versionInfo": "v1.0.5"
+  },
+  {
+   "SPDXID": "SPDXRef-41f539f893f0af87",
+   "name": "gopkg.in/cenkalti/backoff.v2",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/gopkg.in/cenkalti/backoff.v2@v2.2.1",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /notary/signer/notary-signer",
+   "versionInfo": "v2.2.1"
+  },
+  {
+   "SPDXID": "SPDXRef-18a761a9b8fb91e",
+   "name": "gopkg.in/rethinkdb/rethinkdb-go.v6",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/gopkg.in/rethinkdb/rethinkdb-go.v6@v6.2.1",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /notary/signer/notary-signer",
+   "versionInfo": "v6.2.1"
+  },
+  {
+   "SPDXID": "SPDXRef-ff4740191901dc7c",
+   "name": "gopkg.in/yaml.v2",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/gopkg.in/yaml.v2@v2.2.8",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /notary/signer/notary-signer",
+   "versionInfo": "v2.2.8"
+  },
+  {
+   "SPDXID": "SPDXRef-f80d96baba263a29",
+   "name": "libc-utils",
+   "licenseConcluded": "BSD-2-Clause AND BSD-3-Clause",
+   "description": "Meta package to pull in correct libc",
+   "downloadLocation": "https://alpinelinux.org",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:libc-utils:libc-utils:0.7.2-r3:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:libc-utils:libc_utils:0.7.2-r3:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:libc_utils:libc-utils:0.7.2-r3:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:libc_utils:libc_utils:0.7.2-r3:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:libc:libc-utils:0.7.2-r3:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:libc:libc_utils:0.7.2-r3:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:alpine/libc-utils@0.7.2-r3?arch=x86_64&upstream=libc-dev&distro=alpine-3.12.12",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "BSD-2-Clause AND BSD-3-Clause",
+   "originator": "Person: Natanael Copa <ncopa@alpinelinux.org>",
+   "sourceInfo": "acquired package info from APK DB: /lib/apk/db/installed",
+   "versionInfo": "0.7.2-r3"
+  },
+  {
+   "SPDXID": "SPDXRef-29dec83807252c4d",
+   "name": "libcrypto1.1",
+   "licenseConcluded": "OpenSSL",
+   "description": "Crypto library from openssl",
+   "downloadLocation": "https://www.openssl.org/",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:libcrypto1.1:libcrypto1.1:1.1.1n-r0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:alpine/libcrypto1.1@1.1.1n-r0?arch=x86_64&upstream=openssl&distro=alpine-3.12.12",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "OpenSSL",
+   "originator": "Person: Timo Teras <timo.teras@iki.fi>",
+   "sourceInfo": "acquired package info from APK DB: /lib/apk/db/installed",
+   "versionInfo": "1.1.1n-r0"
+  },
+  {
+   "SPDXID": "SPDXRef-7aa7a3e1413a8d52",
+   "name": "libssl1.1",
+   "licenseConcluded": "OpenSSL",
+   "description": "SSL shared libraries",
+   "downloadLocation": "https://www.openssl.org/",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:libssl1.1:libssl1.1:1.1.1n-r0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:alpine/libssl1.1@1.1.1n-r0?arch=x86_64&upstream=openssl&distro=alpine-3.12.12",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "OpenSSL",
+   "originator": "Person: Timo Teras <timo.teras@iki.fi>",
+   "sourceInfo": "acquired package info from APK DB: /lib/apk/db/installed",
+   "versionInfo": "1.1.1n-r0"
+  },
+  {
+   "SPDXID": "SPDXRef-cb2f5162c15647c4",
+   "name": "libtls-standalone",
+   "licenseConcluded": "ISC",
+   "description": "libtls extricated from libressl sources",
+   "downloadLocation": "https://www.libressl.org/",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:libtls-standalone:libtls-standalone:2.9.1-r1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:libtls-standalone:libtls_standalone:2.9.1-r1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:libtls_standalone:libtls-standalone:2.9.1-r1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:libtls_standalone:libtls_standalone:2.9.1-r1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:libtls:libtls-standalone:2.9.1-r1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:libtls:libtls_standalone:2.9.1-r1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:alpine/libtls-standalone@2.9.1-r1?arch=x86_64&upstream=libtls-standalone&distro=alpine-3.12.12",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "ISC",
+   "sourceInfo": "acquired package info from APK DB: /lib/apk/db/installed",
+   "versionInfo": "2.9.1-r1"
+  },
+  {
+   "SPDXID": "SPDXRef-8838e981d6f951d5",
+   "name": "musl",
+   "licenseConcluded": "MIT",
+   "description": "the musl c library (libc) implementation",
+   "downloadLocation": "https://musl.libc.org/",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:musl:musl:1.1.24-r10:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:alpine/musl@1.1.24-r10?arch=x86_64&upstream=musl&distro=alpine-3.12.12",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "MIT",
+   "originator": "Person: Timo Teräs <timo.teras@iki.fi>",
+   "sourceInfo": "acquired package info from APK DB: /lib/apk/db/installed",
+   "versionInfo": "1.1.24-r10"
+  },
+  {
+   "SPDXID": "SPDXRef-a9ea2a9f57787a19",
+   "name": "musl-utils",
+   "licenseConcluded": "MIT",
+   "description": "the musl c library (libc) implementation",
+   "downloadLocation": "https://musl.libc.org/",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:musl-utils:musl-utils:1.1.24-r10:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:musl-utils:musl_utils:1.1.24-r10:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:musl_utils:musl-utils:1.1.24-r10:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:musl_utils:musl_utils:1.1.24-r10:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:musl:musl-utils:1.1.24-r10:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:musl:musl_utils:1.1.24-r10:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:alpine/musl-utils@1.1.24-r10?arch=x86_64&upstream=musl&distro=alpine-3.12.12",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "MIT",
+   "originator": "Person: Timo Teräs <timo.teras@iki.fi>",
+   "sourceInfo": "acquired package info from APK DB: /lib/apk/db/installed",
+   "versionInfo": "1.1.24-r10"
+  },
+  {
+   "SPDXID": "SPDXRef-9bb2292736678189",
+   "name": "scanelf",
+   "licenseConcluded": "GPL-2.0-only",
+   "description": "Scan ELF binaries for stuff",
+   "downloadLocation": "https://wiki.gentoo.org/wiki/Hardened/PaX_Utilities",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:scanelf:scanelf:1.2.6-r0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:alpine/scanelf@1.2.6-r0?arch=x86_64&upstream=pax-utils&distro=alpine-3.12.12",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "GPL-2.0-only",
+   "originator": "Person: Natanael Copa <ncopa@alpinelinux.org>",
+   "sourceInfo": "acquired package info from APK DB: /lib/apk/db/installed",
+   "versionInfo": "1.2.6-r0"
+  },
+  {
+   "SPDXID": "SPDXRef-45ae35e9af81ecdf",
+   "name": "ssl_client",
+   "licenseConcluded": "GPL-2.0-only",
+   "description": "EXternal ssl_client for busybox wget",
+   "downloadLocation": "https://busybox.net/",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:ssl-client:ssl-client:1.31.1-r22:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:ssl-client:ssl_client:1.31.1-r22:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:ssl_client:ssl-client:1.31.1-r22:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:ssl_client:ssl_client:1.31.1-r22:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:ssl:ssl-client:1.31.1-r22:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:ssl:ssl_client:1.31.1-r22:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:alpine/ssl_client@1.31.1-r22?arch=x86_64&upstream=busybox&distro=alpine-3.12.12",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "GPL-2.0-only",
+   "originator": "Person: Natanael Copa <ncopa@alpinelinux.org>",
+   "sourceInfo": "acquired package info from APK DB: /lib/apk/db/installed",
+   "versionInfo": "1.31.1-r22"
+  },
+  {
+   "SPDXID": "SPDXRef-10b3990af8d43075",
+   "name": "zlib",
+   "licenseConcluded": "Zlib",
+   "description": "A compression/decompression Library",
+   "downloadLocation": "https://zlib.net/",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:zlib:zlib:1.2.12-r0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:alpine/zlib@1.2.12-r0?arch=x86_64&upstream=zlib&distro=alpine-3.12.12",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "Zlib",
+   "originator": "Person: Natanael Copa <ncopa@alpinelinux.org>",
+   "sourceInfo": "acquired package info from APK DB: /lib/apk/db/installed",
+   "versionInfo": "1.2.12-r0"
+  }
+ ],
+ "files": [
+  {
+   "SPDXID": "SPDXRef-93cb7e72e1829439",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/bin/busybox"
+  },
+  {
+   "SPDXID": "SPDXRef-6427e5f1405a6c5a",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/apk/keys/alpine-devel@lists.alpinelinux.org-4a6a0840.rsa.pub"
+  },
+  {
+   "SPDXID": "SPDXRef-6cc8c06359bf631a",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/apk/keys/alpine-devel@lists.alpinelinux.org-5243ef4b.rsa.pub"
+  },
+  {
+   "SPDXID": "SPDXRef-a6f58a29a7532518",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/apk/keys/alpine-devel@lists.alpinelinux.org-5261cecb.rsa.pub"
+  },
+  {
+   "SPDXID": "SPDXRef-4596fdd00636bad4",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/apk/keys/alpine-devel@lists.alpinelinux.org-6165ee59.rsa.pub"
+  },
+  {
+   "SPDXID": "SPDXRef-a5885d4f40b256b0",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/apk/keys/alpine-devel@lists.alpinelinux.org-61666e3f.rsa.pub"
+  },
+  {
+   "SPDXID": "SPDXRef-e0c55db1366565e6",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/crontabs/root"
+  },
+  {
+   "SPDXID": "SPDXRef-6c6a945680115454",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/fstab"
+  },
+  {
+   "SPDXID": "SPDXRef-7bb4aaeaf0721409",
+   "comment": "layerID: sha256:8e18aa3367749bb7a02efa789f8d4b457246ee38f3752f244160ddf55d1cbded",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/group"
+  },
+  {
+   "SPDXID": "SPDXRef-24ba95f0a7931610",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/hostname"
+  },
+  {
+   "SPDXID": "SPDXRef-5387251fe0618aa8",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/hosts"
+  },
+  {
+   "SPDXID": "SPDXRef-1d147f7477369788",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/inittab"
+  },
+  {
+   "SPDXID": "SPDXRef-163a7959656c5a0d",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/logrotate.d/acpid"
+  },
+  {
+   "SPDXID": "SPDXRef-8b9bff90db6dd7e",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/modprobe.d/aliases.conf"
+  },
+  {
+   "SPDXID": "SPDXRef-6f43d88b1a7f4075",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/modprobe.d/blacklist.conf"
+  },
+  {
+   "SPDXID": "SPDXRef-a7e8b36870f42da6",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/modprobe.d/i386.conf"
+  },
+  {
+   "SPDXID": "SPDXRef-c379647b57783d0d",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/modprobe.d/kms.conf"
+  },
+  {
+   "SPDXID": "SPDXRef-fd2cf3ff487cb228",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/modules"
+  },
+  {
+   "SPDXID": "SPDXRef-be69f9d1091986a2",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/motd"
+  },
+  {
+   "SPDXID": "SPDXRef-b2ab419080b18b68",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/network/if-up.d/dad"
+  },
+  {
+   "SPDXID": "SPDXRef-f1d6a6c7c257be4c",
+   "comment": "layerID: sha256:8e18aa3367749bb7a02efa789f8d4b457246ee38f3752f244160ddf55d1cbded",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/passwd"
+  },
+  {
+   "SPDXID": "SPDXRef-61a566ae390d188a",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/profile"
+  },
+  {
+   "SPDXID": "SPDXRef-e01b1c9adc498675",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/profile.d/color_prompt"
+  },
+  {
+   "SPDXID": "SPDXRef-224d34ec6788fe45",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/profile.d/locale.sh"
+  },
+  {
+   "SPDXID": "SPDXRef-2a4fd6037d5e6a0b",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/protocols"
+  },
+  {
+   "SPDXID": "SPDXRef-769bde8c4aae1502",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/securetty"
+  },
+  {
+   "SPDXID": "SPDXRef-d9fc3f0279137264",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/services"
+  },
+  {
+   "SPDXID": "SPDXRef-17900e7694222ebb",
+   "comment": "layerID: sha256:8e18aa3367749bb7a02efa789f8d4b457246ee38f3752f244160ddf55d1cbded",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/shadow"
+  },
+  {
+   "SPDXID": "SPDXRef-582dff32a6801300",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/shells"
+  },
+  {
+   "SPDXID": "SPDXRef-1cff9761ae050685",
+   "comment": "layerID: sha256:40f3c024396d7cb150bdc1cdcf18303c93e40f5c2ac6d80e6835f8f2ac5d67a0",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/ssl/certs/ca-certificates.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-12344e0f7d9ffcf1",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/ssl/ct_log_list.cnf"
+  },
+  {
+   "SPDXID": "SPDXRef-160a2a6b81b5c71f",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/ssl/ct_log_list.cnf.dist"
+  },
+  {
+   "SPDXID": "SPDXRef-e93eb4176356e1c0",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/ssl/misc/CA.pl"
+  },
+  {
+   "SPDXID": "SPDXRef-cd70a9f7d86d85b3",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/ssl/misc/tsget.pl"
+  },
+  {
+   "SPDXID": "SPDXRef-6432484de6ce51c1",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/ssl/openssl.cnf"
+  },
+  {
+   "SPDXID": "SPDXRef-70365609df392e1f",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/ssl/openssl.cnf.dist"
+  },
+  {
+   "SPDXID": "SPDXRef-645431670db7b8df",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/sysctl.conf"
+  },
+  {
+   "SPDXID": "SPDXRef-ad5b3fa643444ef8",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/udhcpd.conf"
+  },
+  {
+   "SPDXID": "SPDXRef-c6055811e7065b6d",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/lib/ld-musl-x86_64.so.1"
+  },
+  {
+   "SPDXID": "SPDXRef-94d22c3ea3d4a090",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/lib/libcrypto.so.1.1"
+  },
+  {
+   "SPDXID": "SPDXRef-d61cfbade57ca569",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/lib/libssl.so.1.1"
+  },
+  {
+   "SPDXID": "SPDXRef-c5e52c1b446d912",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/lib/libz.so.1.2.12"
+  },
+  {
+   "SPDXID": "SPDXRef-883f195f94c7c4f4",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/lib/sysctl.d/00-alpine.conf"
+  },
+  {
+   "SPDXID": "SPDXRef-bdcc0a7b2fcf6b08",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/sbin/apk"
+  },
+  {
+   "SPDXID": "SPDXRef-a194ade95e34168f",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/sbin/ldconfig"
+  },
+  {
+   "SPDXID": "SPDXRef-895745ccbe54628b",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/sbin/mkmntdirs"
+  },
+  {
+   "SPDXID": "SPDXRef-4cc50c22c1ecc26b",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/bin/getconf"
+  },
+  {
+   "SPDXID": "SPDXRef-e55f1e47bca93760",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/bin/getent"
+  },
+  {
+   "SPDXID": "SPDXRef-b88df1b5a1c177b",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/bin/iconv"
+  },
+  {
+   "SPDXID": "SPDXRef-bebe8d39645c5167",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/bin/ldd"
+  },
+  {
+   "SPDXID": "SPDXRef-c88cf3fe63ed3e7f",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/bin/scanelf"
+  },
+  {
+   "SPDXID": "SPDXRef-bf55dfa58d25a61e",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/bin/ssl_client"
+  },
+  {
+   "SPDXID": "SPDXRef-f1433035c85d2afd",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/lib/engines-1.1/afalg.so"
+  },
+  {
+   "SPDXID": "SPDXRef-8c9748a1943093c4",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/lib/engines-1.1/capi.so"
+  },
+  {
+   "SPDXID": "SPDXRef-fbd1554781d38def",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/lib/engines-1.1/padlock.so"
+  },
+  {
+   "SPDXID": "SPDXRef-e86fd0f5baf3b2b3",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/lib/libtls-standalone.so.1.0.0"
+  },
+  {
+   "SPDXID": "SPDXRef-3cdb1ab31a2aa0dd",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-4a6a0840.rsa.pub"
+  },
+  {
+   "SPDXID": "SPDXRef-951d6c844b0caa05",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-5243ef4b.rsa.pub"
+  },
+  {
+   "SPDXID": "SPDXRef-ad3289bb4034a182",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-524d27bb.rsa.pub"
+  },
+  {
+   "SPDXID": "SPDXRef-f641d79eba33c1f",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-5261cecb.rsa.pub"
+  },
+  {
+   "SPDXID": "SPDXRef-a8b24455dacbd886",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-58199dcc.rsa.pub"
+  },
+  {
+   "SPDXID": "SPDXRef-b81e73f5fe2099d2",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-58cbb476.rsa.pub"
+  },
+  {
+   "SPDXID": "SPDXRef-dc27e17e85e7af9d",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-58e4f17d.rsa.pub"
+  },
+  {
+   "SPDXID": "SPDXRef-e33680efc9e5e928",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-5e69ca50.rsa.pub"
+  },
+  {
+   "SPDXID": "SPDXRef-a7bc6f9b7016100b",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-60ac2099.rsa.pub"
+  },
+  {
+   "SPDXID": "SPDXRef-b5eae7b7c003c53d",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-6165ee59.rsa.pub"
+  },
+  {
+   "SPDXID": "SPDXRef-1ad15a63585cd3b8",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-61666e3f.rsa.pub"
+  },
+  {
+   "SPDXID": "SPDXRef-f12fc4f3cc901b0d",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-616a9724.rsa.pub"
+  },
+  {
+   "SPDXID": "SPDXRef-42b3660726a15ade",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-616abc23.rsa.pub"
+  },
+  {
+   "SPDXID": "SPDXRef-788c68d61e059b82",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-616ac3bc.rsa.pub"
+  },
+  {
+   "SPDXID": "SPDXRef-d95c60fca31191b0",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-616adfeb.rsa.pub"
+  },
+  {
+   "SPDXID": "SPDXRef-cf892a6bdba4760a",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-616ae350.rsa.pub"
+  },
+  {
+   "SPDXID": "SPDXRef-194d09c6a4a9c6ed",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-616db30d.rsa.pub"
+  },
+  {
+   "SPDXID": "SPDXRef-619d7de3315dd70e",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/udhcpc/default.script"
+  }
+ ],
+ "relationships": [
+  {
+   "spdxElementId": "SPDXRef-8838e981d6f951d5",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-c6055811e7065b6d"
+  },
+  {
+   "spdxElementId": "SPDXRef-8838e981d6f951d5",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-c6055811e7065b6d"
+  },
+  {
+   "spdxElementId": "SPDXRef-a2df16fe1b3cca11",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-93cb7e72e1829439"
+  },
+  {
+   "spdxElementId": "SPDXRef-a2df16fe1b3cca11",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-93cb7e72e1829439"
+  },
+  {
+   "spdxElementId": "SPDXRef-a2df16fe1b3cca11",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-163a7959656c5a0d"
+  },
+  {
+   "spdxElementId": "SPDXRef-a2df16fe1b3cca11",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-b2ab419080b18b68"
+  },
+  {
+   "spdxElementId": "SPDXRef-a2df16fe1b3cca11",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-769bde8c4aae1502"
+  },
+  {
+   "spdxElementId": "SPDXRef-a2df16fe1b3cca11",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-ad5b3fa643444ef8"
+  },
+  {
+   "spdxElementId": "SPDXRef-a2df16fe1b3cca11",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-619d7de3315dd70e"
+  },
+  {
+   "spdxElementId": "SPDXRef-ab971b290905df2",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-e0c55db1366565e6"
+  },
+  {
+   "spdxElementId": "SPDXRef-ab971b290905df2",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-6c6a945680115454"
+  },
+  {
+   "spdxElementId": "SPDXRef-ab971b290905df2",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-7bb4aaeaf0721409"
+  },
+  {
+   "spdxElementId": "SPDXRef-ab971b290905df2",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-24ba95f0a7931610"
+  },
+  {
+   "spdxElementId": "SPDXRef-ab971b290905df2",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-5387251fe0618aa8"
+  },
+  {
+   "spdxElementId": "SPDXRef-ab971b290905df2",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-1d147f7477369788"
+  },
+  {
+   "spdxElementId": "SPDXRef-ab971b290905df2",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-8b9bff90db6dd7e"
+  },
+  {
+   "spdxElementId": "SPDXRef-ab971b290905df2",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-6f43d88b1a7f4075"
+  },
+  {
+   "spdxElementId": "SPDXRef-ab971b290905df2",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-a7e8b36870f42da6"
+  },
+  {
+   "spdxElementId": "SPDXRef-ab971b290905df2",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-c379647b57783d0d"
+  },
+  {
+   "spdxElementId": "SPDXRef-ab971b290905df2",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-fd2cf3ff487cb228"
+  },
+  {
+   "spdxElementId": "SPDXRef-ab971b290905df2",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-be69f9d1091986a2"
+  },
+  {
+   "spdxElementId": "SPDXRef-ab971b290905df2",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-f1d6a6c7c257be4c"
+  },
+  {
+   "spdxElementId": "SPDXRef-ab971b290905df2",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-61a566ae390d188a"
+  },
+  {
+   "spdxElementId": "SPDXRef-ab971b290905df2",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-e01b1c9adc498675"
+  },
+  {
+   "spdxElementId": "SPDXRef-ab971b290905df2",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-224d34ec6788fe45"
+  },
+  {
+   "spdxElementId": "SPDXRef-ab971b290905df2",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-2a4fd6037d5e6a0b"
+  },
+  {
+   "spdxElementId": "SPDXRef-ab971b290905df2",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-d9fc3f0279137264"
+  },
+  {
+   "spdxElementId": "SPDXRef-ab971b290905df2",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-17900e7694222ebb"
+  },
+  {
+   "spdxElementId": "SPDXRef-ab971b290905df2",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-582dff32a6801300"
+  },
+  {
+   "spdxElementId": "SPDXRef-ab971b290905df2",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-645431670db7b8df"
+  },
+  {
+   "spdxElementId": "SPDXRef-ab971b290905df2",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-883f195f94c7c4f4"
+  },
+  {
+   "spdxElementId": "SPDXRef-ab971b290905df2",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-895745ccbe54628b"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-6427e5f1405a6c5a"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-6cc8c06359bf631a"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-a6f58a29a7532518"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-4596fdd00636bad4"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-a5885d4f40b256b0"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-a8b24455dacbd886"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-cf892a6bdba4760a"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-3cdb1ab31a2aa0dd"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-951d6c844b0caa05"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-ad3289bb4034a182"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-f641d79eba33c1f"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-a8b24455dacbd886"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-b81e73f5fe2099d2"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-dc27e17e85e7af9d"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-e33680efc9e5e928"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-a7bc6f9b7016100b"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-b5eae7b7c003c53d"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-1ad15a63585cd3b8"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-f12fc4f3cc901b0d"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-42b3660726a15ade"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-788c68d61e059b82"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-d95c60fca31191b0"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-cf892a6bdba4760a"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-194d09c6a4a9c6ed"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-ad3289bb4034a182"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-f12fc4f3cc901b0d"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-ad3289bb4034a182"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-d95c60fca31191b0"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-e33680efc9e5e928"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-b81e73f5fe2099d2"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-42b3660726a15ade"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-a7bc6f9b7016100b"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-194d09c6a4a9c6ed"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-dc27e17e85e7af9d"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-788c68d61e059b82"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-3cdb1ab31a2aa0dd"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-951d6c844b0caa05"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-1ad15a63585cd3b8"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-3cdb1ab31a2aa0dd"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-f641d79eba33c1f"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-b5eae7b7c003c53d"
+  },
+  {
+   "spdxElementId": "SPDXRef-29dec83807252c4d",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-12344e0f7d9ffcf1"
+  },
+  {
+   "spdxElementId": "SPDXRef-29dec83807252c4d",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-160a2a6b81b5c71f"
+  },
+  {
+   "spdxElementId": "SPDXRef-29dec83807252c4d",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-e93eb4176356e1c0"
+  },
+  {
+   "spdxElementId": "SPDXRef-29dec83807252c4d",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-cd70a9f7d86d85b3"
+  },
+  {
+   "spdxElementId": "SPDXRef-29dec83807252c4d",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-cd70a9f7d86d85b3"
+  },
+  {
+   "spdxElementId": "SPDXRef-29dec83807252c4d",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-6432484de6ce51c1"
+  },
+  {
+   "spdxElementId": "SPDXRef-29dec83807252c4d",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-70365609df392e1f"
+  },
+  {
+   "spdxElementId": "SPDXRef-29dec83807252c4d",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-94d22c3ea3d4a090"
+  },
+  {
+   "spdxElementId": "SPDXRef-29dec83807252c4d",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-f1433035c85d2afd"
+  },
+  {
+   "spdxElementId": "SPDXRef-29dec83807252c4d",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-8c9748a1943093c4"
+  },
+  {
+   "spdxElementId": "SPDXRef-29dec83807252c4d",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-fbd1554781d38def"
+  },
+  {
+   "spdxElementId": "SPDXRef-29dec83807252c4d",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-94d22c3ea3d4a090"
+  },
+  {
+   "spdxElementId": "SPDXRef-7aa7a3e1413a8d52",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-d61cfbade57ca569"
+  },
+  {
+   "spdxElementId": "SPDXRef-7aa7a3e1413a8d52",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-d61cfbade57ca569"
+  },
+  {
+   "spdxElementId": "SPDXRef-d44f92f020efc258",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-1cff9761ae050685"
+  },
+  {
+   "spdxElementId": "SPDXRef-d44f92f020efc258",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-1cff9761ae050685"
+  },
+  {
+   "spdxElementId": "SPDXRef-cb2f5162c15647c4",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-e86fd0f5baf3b2b3"
+  },
+  {
+   "spdxElementId": "SPDXRef-cb2f5162c15647c4",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-e86fd0f5baf3b2b3"
+  },
+  {
+   "spdxElementId": "SPDXRef-45ae35e9af81ecdf",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-bf55dfa58d25a61e"
+  },
+  {
+   "spdxElementId": "SPDXRef-10b3990af8d43075",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-c5e52c1b446d912"
+  },
+  {
+   "spdxElementId": "SPDXRef-10b3990af8d43075",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-c5e52c1b446d912"
+  },
+  {
+   "spdxElementId": "SPDXRef-7609c21653a53e4f",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-bdcc0a7b2fcf6b08"
+  },
+  {
+   "spdxElementId": "SPDXRef-9bb2292736678189",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-c88cf3fe63ed3e7f"
+  },
+  {
+   "spdxElementId": "SPDXRef-a9ea2a9f57787a19",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-a194ade95e34168f"
+  },
+  {
+   "spdxElementId": "SPDXRef-a9ea2a9f57787a19",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-4cc50c22c1ecc26b"
+  },
+  {
+   "spdxElementId": "SPDXRef-a9ea2a9f57787a19",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-e55f1e47bca93760"
+  },
+  {
+   "spdxElementId": "SPDXRef-a9ea2a9f57787a19",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-b88df1b5a1c177b"
+  },
+  {
+   "spdxElementId": "SPDXRef-a9ea2a9f57787a19",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-bebe8d39645c5167"
+  }
+ ]
+}

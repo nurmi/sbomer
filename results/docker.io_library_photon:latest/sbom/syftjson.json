@@ -1,0 +1,135 @@
+{
+ "artifacts": [],
+ "artifactRelationships": [],
+ "source": {
+  "type": "image",
+  "target": {
+   "userInput": "docker.io/library/photon:latest",
+   "imageID": "sha256:102af95b85f3fd3491bca57c83c435c0563a6e4a33f6e036e5eb11ad51c732dc",
+   "manifestDigest": "sha256:c371b24a3d8a0f52c5677215307fa760d3712924f55c0e07af2869bffc32a0ed",
+   "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+   "tags": [],
+   "imageSize": 36948770,
+   "layers": [
+    {
+     "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+     "digest": "sha256:079797e2f9b79a768a91899e7f3a3da504c13abaa8e768d2cf92ed122c784445",
+     "size": 36948770
+    }
+   ],
+   "manifest": "ewogICAic2NoZW1hVmVyc2lvbiI6IDIsCiAgICJtZWRpYVR5cGUiOiAiYXBwbGljYXRpb24vdm5kLmRvY2tlci5kaXN0cmlidXRpb24ubWFuaWZlc3QudjIranNvbiIsCiAgICJjb25maWciOiB7CiAgICAgICJtZWRpYVR5cGUiOiAiYXBwbGljYXRpb24vdm5kLmRvY2tlci5jb250YWluZXIuaW1hZ2UudjEranNvbiIsCiAgICAgICJzaXplIjogMTgxNSwKICAgICAgImRpZ2VzdCI6ICJzaGEyNTY6MTAyYWY5NWI4NWYzZmQzNDkxYmNhNTdjODNjNDM1YzA1NjNhNmU0YTMzZjZlMDM2ZTVlYjExYWQ1MWM3MzJkYyIKICAgfSwKICAgImxheWVycyI6IFsKICAgICAgewogICAgICAgICAibWVkaWFUeXBlIjogImFwcGxpY2F0aW9uL3ZuZC5kb2NrZXIuaW1hZ2Uucm9vdGZzLmRpZmYudGFyLmd6aXAiLAogICAgICAgICAic2l6ZSI6IDE1OTk1NDQ0LAogICAgICAgICAiZGlnZXN0IjogInNoYTI1NjowZWQ5NjQ4N2YxNDg2ODI4Yjg3OGJkNThhN2Y3YzBlNDdmZDQ5OTI1YzcwMjgwN2IwNDA2MGY0NzcxMjUxY2ZkIgogICAgICB9CiAgIF0KfQ==",
+   "config": "eyJhcmNoaXRlY3R1cmUiOiJhbWQ2NCIsImNvbmZpZyI6eyJIb3N0bmFtZSI6IiIsIkRvbWFpbm5hbWUiOiIiLCJVc2VyIjoiIiwiQXR0YWNoU3RkaW4iOmZhbHNlLCJBdHRhY2hTdGRvdXQiOmZhbHNlLCJBdHRhY2hTdGRlcnIiOmZhbHNlLCJUdHkiOmZhbHNlLCJPcGVuU3RkaW4iOmZhbHNlLCJTdGRpbk9uY2UiOmZhbHNlLCJFbnYiOlsiUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4iXSwiQ21kIjpbIi9iaW4vYmFzaCJdLCJJbWFnZSI6InNoYTI1NjozNjM4N2IyYmJjN2UwZGNlMTZhZmFkZWFkZGFjMWY2YTE3N2Q2NGVhZDNhMWQwMGRhOTY1NzMwYjVlM2YyOTY2IiwiVm9sdW1lcyI6bnVsbCwiV29ya2luZ0RpciI6IiIsIkVudHJ5cG9pbnQiOm51bGwsIk9uQnVpbGQiOm51bGwsIkxhYmVscyI6eyJidWlsZC1kYXRlIjoiMjAyMjA3MDgiLCJuYW1lIjoiUGhvdG9uIE9TIHg4Nl82NC80LjAgQmFzZSBJbWFnZSIsInZlbmRvciI6IlZNd2FyZSJ9fSwiY29udGFpbmVyIjoiNjY1NDMwZDI4OGUwMWRmMjEwZGVjZWI4ZDcxOGE2ODNhOTlkMDk1YzExNmJlODlmN2Y2ZDFmYTg0ZDA1OGQ2OSIsImNvbnRhaW5lcl9jb25maWciOnsiSG9zdG5hbWUiOiI2NjU0MzBkMjg4ZTAiLCJEb21haW5uYW1lIjoiIiwiVXNlciI6IiIsIkF0dGFjaFN0ZGluIjpmYWxzZSwiQXR0YWNoU3Rkb3V0IjpmYWxzZSwiQXR0YWNoU3RkZXJyIjpmYWxzZSwiVHR5IjpmYWxzZSwiT3BlblN0ZGluIjpmYWxzZSwiU3RkaW5PbmNlIjpmYWxzZSwiRW52IjpbIlBBVEg9L3Vzci9sb2NhbC9zYmluOi91c3IvbG9jYWwvYmluOi91c3Ivc2JpbjovdXNyL2Jpbjovc2JpbjovYmluIl0sIkNtZCI6WyIvYmluL3NoIiwiLWMiLCIjKG5vcCkgIiwiQ01EIFtcIi9iaW4vYmFzaFwiXSJdLCJJbWFnZSI6InNoYTI1NjozNjM4N2IyYmJjN2UwZGNlMTZhZmFkZWFkZGFjMWY2YTE3N2Q2NGVhZDNhMWQwMGRhOTY1NzMwYjVlM2YyOTY2IiwiVm9sdW1lcyI6bnVsbCwiV29ya2luZ0RpciI6IiIsIkVudHJ5cG9pbnQiOm51bGwsIk9uQnVpbGQiOm51bGwsIkxhYmVscyI6eyJidWlsZC1kYXRlIjoiMjAyMjA3MDgiLCJuYW1lIjoiUGhvdG9uIE9TIHg4Nl82NC80LjAgQmFzZSBJbWFnZSIsInZlbmRvciI6IlZNd2FyZSJ9fSwiY3JlYXRlZCI6IjIwMjItMDctMTFUMjE6MjA6MzEuMTU1ODA0NDYxWiIsImRvY2tlcl92ZXJzaW9uIjoiMjAuMTAuMTIiLCJoaXN0b3J5IjpbeyJjcmVhdGVkIjoiMjAyMi0wNy0xMVQyMToyMDozMC44MDEyNDE1MDdaIiwiY3JlYXRlZF9ieSI6Ii9iaW4vc2ggLWMgIyhub3ApIEFERCBmaWxlOjI2ODQ4OTA5ZmE3MTI5MDA2Mjg5MjQ0YmQ3MTI5NDdhZGVlZmMyMWMzNDMzM2YyZjFjNjAxMDlhM2RmNzZlZGEgaW4gLyAifSx7ImNyZWF0ZWQiOiIyMDIyLTA3LTExVDIxOjIwOjMxLjA0NTU4OTk2M1oiLCJjcmVhdGVkX2J5IjoiL2Jpbi9zaCAtYyAjKG5vcCkgIExBQkVMIG5hbWU9UGhvdG9uIE9TIHg4Nl82NC80LjAgQmFzZSBJbWFnZSB2ZW5kb3I9Vk13YXJlIGJ1aWxkLWRhdGU9MjAyMjA3MDgiLCJlbXB0eV9sYXllciI6dHJ1ZX0seyJjcmVhdGVkIjoiMjAyMi0wNy0xMVQyMToyMDozMS4xNTU4MDQ0NjFaIiwiY3JlYXRlZF9ieSI6Ii9iaW4vc2ggLWMgIyhub3ApICBDTUQgW1wiL2Jpbi9iYXNoXCJdIiwiZW1wdHlfbGF5ZXIiOnRydWV9XSwib3MiOiJsaW51eCIsInJvb3RmcyI6eyJ0eXBlIjoibGF5ZXJzIiwiZGlmZl9pZHMiOlsic2hhMjU2OjA3OTc5N2UyZjliNzlhNzY4YTkxODk5ZTdmM2EzZGE1MDRjMTNhYmFhOGU3NjhkMmNmOTJlZDEyMmM3ODQ0NDUiXX19",
+   "repoDigests": [
+    "index.docker.io/library/photon@sha256:eda7701c8c132956af6cb10f06d643bb1e76f372c750422f2975688ca1f9b3d1"
+   ],
+   "architecture": "",
+   "os": ""
+  }
+ },
+ "distro": {
+  "prettyName": "VMware Photon OS/Linux",
+  "name": "VMware Photon OS",
+  "id": "photon",
+  "version": "4.0",
+  "versionID": "4.0",
+  "homeURL": "https://vmware.github.io/photon/",
+  "bugReportURL": "https://github.com/vmware/photon/issues"
+ },
+ "descriptor": {
+  "name": "syft",
+  "version": "0.46.1",
+  "configuration": {
+   "configPath": "",
+   "verbosity": 0,
+   "quiet": true,
+   "output": [
+    "json"
+   ],
+   "file": "",
+   "check-for-app-update": true,
+   "anchore": {
+    "host": "",
+    "path": "",
+    "dockerfile": "",
+    "overwrite-existing-image": false,
+    "import-timeout": 30
+   },
+   "dev": {
+    "profile-cpu": false,
+    "profile-mem": false
+   },
+   "log": {
+    "structured": false,
+    "level": "panic",
+    "file-location": ""
+   },
+   "package": {
+    "cataloger": {
+     "enabled": true,
+     "scope": "Squashed"
+    },
+    "search-unindexed-archives": false,
+    "search-indexed-archives": true
+   },
+   "file-metadata": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "digests": [
+     "sha256"
+    ]
+   },
+   "file-classification": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    }
+   },
+   "file-contents": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "skip-files-above-size": 1048576,
+    "globs": []
+   },
+   "secrets": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "AllLayers"
+    },
+    "additional-patterns": {},
+    "exclude-pattern-names": [],
+    "reveal-values": false,
+    "skip-files-above-size": 1048576
+   },
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": []
+   },
+   "exclude": [],
+   "attest": {
+    "key": "",
+    "cert": "",
+    "noUpload": false,
+    "force": false,
+    "recursive": false,
+    "replace": false,
+    "fulcioUrl": "https://fulcio.sigstore.dev",
+    "fulcio_identity_token": "",
+    "insecure_skip_verify": false,
+    "rekorUrl": "https://rekor.sigstore.dev",
+    "oidcIssuer": "https://oauth2.sigstore.dev/auth",
+    "oidcClientId": "sigstore",
+    "OIDCRedirectURL": ""
+   },
+   "platform": ""
+  }
+ },
+ "schema": {
+  "version": "3.2.3",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-3.2.3.json"
+ }
+}

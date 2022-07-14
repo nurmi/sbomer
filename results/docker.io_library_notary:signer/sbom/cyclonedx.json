@@ -1,0 +1,3077 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:151210c9-29f9-424e-ad57-8d2656470b01",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2022-07-14T14:21:35-07:00",
+    "tools": [
+      {
+        "vendor": "anchore",
+        "name": "syft",
+        "version": "0.48.0"
+      }
+    ],
+    "component": {
+      "bom-ref": "cb03a16fbc10a359",
+      "type": "container",
+      "name": "docker.io/library/notary:signer",
+      "version": "sha256:c1817ce185ca18a6c3d4862bb97defc47f26ecbbbe8f6c696780ec16db6c65a2"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:alpine/alpine-baselayout@3.2.0-r7?arch=x86_64\u0026upstream=alpine-baselayout\u0026distro=alpine-3.12.12\u0026package-id=ab971b290905df2",
+      "type": "library",
+      "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
+      "name": "alpine-baselayout",
+      "version": "3.2.0-r7",
+      "description": "Alpine base dir structure and init scripts",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:alpine-baselayout:alpine-baselayout:3.2.0-r7:*:*:*:*:*:*:*",
+      "purl": "pkg:alpine/alpine-baselayout@3.2.0-r7?arch=x86_64\u0026upstream=alpine-baselayout\u0026distro=alpine-3.12.12",
+      "externalReferences": [
+        {
+          "url": "https://git.alpinelinux.org/cgit/aports/tree/main/alpine-baselayout",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "apkdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "ApkMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "apk"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine-baselayout:alpine_baselayout:3.2.0-r7:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine_baselayout:alpine-baselayout:3.2.0-r7:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine_baselayout:alpine_baselayout:3.2.0-r7:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine:alpine-baselayout:3.2.0-r7:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine:alpine_baselayout:3.2.0-r7:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:40f3c024396d7cb150bdc1cdcf18303c93e40f5c2ac6d80e6835f8f2ac5d67a0"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/lib/apk/db/installed"
+        },
+        {
+          "name": "syft:metadata:gitCommitOfApkPort",
+          "value": "c3ce4065bd8a69d20ad392d4cf006ed652c3f1a7"
+        },
+        {
+          "name": "syft:metadata:installedSize",
+          "value": "409600"
+        },
+        {
+          "name": "syft:metadata:originPackage",
+          "value": "alpine-baselayout"
+        },
+        {
+          "name": "syft:metadata:pullChecksum",
+          "value": "Q1WGpU5dl4U99OvcQ2KILlb+d6DAk="
+        },
+        {
+          "name": "syft:metadata:pullDependencies",
+          "value": "/bin/sh so:libc.musl-x86_64.so.1"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "19912"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpine/alpine-keys@2.4-r0?arch=x86_64\u0026upstream=alpine-keys\u0026distro=alpine-3.12.12\u0026package-id=fdfd5687263b905c",
+      "type": "library",
+      "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
+      "name": "alpine-keys",
+      "version": "2.4-r0",
+      "description": "Public keys for Alpine Linux packages",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:alpine-keys:alpine-keys:2.4-r0:*:*:*:*:*:*:*",
+      "purl": "pkg:alpine/alpine-keys@2.4-r0?arch=x86_64\u0026upstream=alpine-keys\u0026distro=alpine-3.12.12",
+      "externalReferences": [
+        {
+          "url": "https://alpinelinux.org",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "apkdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "ApkMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "apk"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine-keys:alpine_keys:2.4-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine_keys:alpine-keys:2.4-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine_keys:alpine_keys:2.4-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine:alpine-keys:2.4-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:alpine:alpine_keys:2.4-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:40f3c024396d7cb150bdc1cdcf18303c93e40f5c2ac6d80e6835f8f2ac5d67a0"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/lib/apk/db/installed"
+        },
+        {
+          "name": "syft:metadata:gitCommitOfApkPort",
+          "value": "ad113d7b2c64187bba3c3e1f71c2774a3246800e"
+        },
+        {
+          "name": "syft:metadata:installedSize",
+          "value": "159744"
+        },
+        {
+          "name": "syft:metadata:originPackage",
+          "value": "alpine-keys"
+        },
+        {
+          "name": "syft:metadata:pullChecksum",
+          "value": "Q1C5NL8CplG17nGq+43IM0m8adzl8="
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "13095"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpine/apk-tools@2.10.8-r1?arch=x86_64\u0026upstream=apk-tools\u0026distro=alpine-3.12.12\u0026package-id=7609c21653a53e4f",
+      "type": "library",
+      "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
+      "name": "apk-tools",
+      "version": "2.10.8-r1",
+      "description": "Alpine Package Keeper - package manager for alpine",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:apk-tools:apk-tools:2.10.8-r1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpine/apk-tools@2.10.8-r1?arch=x86_64\u0026upstream=apk-tools\u0026distro=alpine-3.12.12",
+      "externalReferences": [
+        {
+          "url": "https://gitlab.alpinelinux.org/alpine/apk-tools",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "apkdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "ApkMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "apk"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apk-tools:apk_tools:2.10.8-r1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apk_tools:apk-tools:2.10.8-r1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apk_tools:apk_tools:2.10.8-r1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apk:apk-tools:2.10.8-r1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apk:apk_tools:2.10.8-r1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:40f3c024396d7cb150bdc1cdcf18303c93e40f5c2ac6d80e6835f8f2ac5d67a0"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/lib/apk/db/installed"
+        },
+        {
+          "name": "syft:metadata:gitCommitOfApkPort",
+          "value": "6a528d0bdbd1dc3aac4c1ec1f6c841765bc6ae75"
+        },
+        {
+          "name": "syft:metadata:installedSize",
+          "value": "266240"
+        },
+        {
+          "name": "syft:metadata:originPackage",
+          "value": "apk-tools"
+        },
+        {
+          "name": "syft:metadata:pullChecksum",
+          "value": "Q1VsIloRQDeEkvn35FqpniZaTE34s="
+        },
+        {
+          "name": "syft:metadata:pullDependencies",
+          "value": "so:libc.musl-x86_64.so.1 so:libcrypto.so.1.1 so:libssl.so.1.1 so:libz.so.1"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "104014"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpine/busybox@1.31.1-r22?arch=x86_64\u0026upstream=busybox\u0026distro=alpine-3.12.12\u0026package-id=a2df16fe1b3cca11",
+      "type": "library",
+      "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
+      "name": "busybox",
+      "version": "1.31.1-r22",
+      "description": "Size optimized toolbox of many common UNIX utilities",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:busybox:busybox:1.31.1-r22:*:*:*:*:*:*:*",
+      "purl": "pkg:alpine/busybox@1.31.1-r22?arch=x86_64\u0026upstream=busybox\u0026distro=alpine-3.12.12",
+      "externalReferences": [
+        {
+          "url": "https://busybox.net/",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "apkdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "ApkMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "apk"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:40f3c024396d7cb150bdc1cdcf18303c93e40f5c2ac6d80e6835f8f2ac5d67a0"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/lib/apk/db/installed"
+        },
+        {
+          "name": "syft:metadata:gitCommitOfApkPort",
+          "value": "41c9e389fd1ebce7fc2e723a9074fa7f2a00e11a"
+        },
+        {
+          "name": "syft:metadata:installedSize",
+          "value": "962560"
+        },
+        {
+          "name": "syft:metadata:originPackage",
+          "value": "busybox"
+        },
+        {
+          "name": "syft:metadata:pullChecksum",
+          "value": "Q1ONFY0GU7dj6i5jiZNrjWWf2Hjkw="
+        },
+        {
+          "name": "syft:metadata:pullDependencies",
+          "value": "so:libc.musl-x86_64.so.1"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "505919"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpine/ca-certificates-bundle@20211220-r0?arch=x86_64\u0026upstream=ca-certificates\u0026distro=alpine-3.12.12\u0026package-id=d44f92f020efc258",
+      "type": "library",
+      "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
+      "name": "ca-certificates-bundle",
+      "version": "20211220-r0",
+      "description": "Pre generated bundle of Mozilla certificates",
+      "licenses": [
+        {
+          "license": {
+            "id": "MPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-or-later"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:ca-certificates-bundle:ca-certificates-bundle:20211220-r0:*:*:*:*:*:*:*",
+      "purl": "pkg:alpine/ca-certificates-bundle@20211220-r0?arch=x86_64\u0026upstream=ca-certificates\u0026distro=alpine-3.12.12",
+      "externalReferences": [
+        {
+          "url": "https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "apkdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "ApkMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "apk"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ca-certificates-bundle:ca_certificates_bundle:20211220-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ca_certificates_bundle:ca-certificates-bundle:20211220-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ca_certificates_bundle:ca_certificates_bundle:20211220-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ca-certificates:ca-certificates-bundle:20211220-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ca-certificates:ca_certificates_bundle:20211220-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ca_certificates:ca-certificates-bundle:20211220-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ca_certificates:ca_certificates_bundle:20211220-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ca:ca-certificates-bundle:20211220-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ca:ca_certificates_bundle:20211220-r0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:40f3c024396d7cb150bdc1cdcf18303c93e40f5c2ac6d80e6835f8f2ac5d67a0"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/lib/apk/db/installed"
+        },
+        {
+          "name": "syft:metadata:gitCommitOfApkPort",
+          "value": "ff8801d22feefbb59c634f4e5bd3763869025a9f"
+        },
+        {
+          "name": "syft:metadata:installedSize",
+          "value": "221184"
+        },
+        {
+          "name": "syft:metadata:originPackage",
+          "value": "ca-certificates"
+        },
+        {
+          "name": "syft:metadata:pullChecksum",
+          "value": "Q1ckrgfeS+UcgVnqO8Z9vY+tB/njQ="
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "119492"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/burntsushi/toml@v0.3.1?package-id=c1a4e28235fd176f",
+      "type": "library",
+      "name": "github.com/BurntSushi/toml",
+      "version": "v0.3.1",
+      "cpe": "cpe:2.3:a:BurntSushi:toml:v0.3.1:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/BurntSushi/toml@v0.3.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:40f3c024396d7cb150bdc1cdcf18303c93e40f5c2ac6d80e6835f8f2ac5d67a0"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/notary/signer/notary-signer"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.15"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:WXkYYl6Yr3qBf1K79EBnL4mak0OimBfB0XUf9Vl28OQ="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/theupdateframework/notary"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/shopify/logrus-bugsnag@v0.0.0-20170309145241-6dbc35f2c30d?package-id=f586d0579374cea7",
+      "type": "library",
+      "name": "github.com/Shopify/logrus-bugsnag",
+      "version": "v0.0.0-20170309145241-6dbc35f2c30d",
+      "cpe": "cpe:2.3:a:Shopify:logrus-bugsnag:v0.0.0-20170309145241-6dbc35f2c30d:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/Shopify/logrus-bugsnag@v0.0.0-20170309145241-6dbc35f2c30d",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:Shopify:logrus_bugsnag:v0.0.0-20170309145241-6dbc35f2c30d:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:40f3c024396d7cb150bdc1cdcf18303c93e40f5c2ac6d80e6835f8f2ac5d67a0"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/notary/signer/notary-signer"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.15"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:hi6J4K6DKrR4/ljxn6SF6nURyu785wKMuQcjt7H3VCQ="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/theupdateframework/notary"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/bugsnag/bugsnag-go@v1.0.5-0.20150529004307-13fd6b8acda0?package-id=736349f4760a2ba5",
+      "type": "library",
+      "name": "github.com/bugsnag/bugsnag-go",
+      "version": "v1.0.5-0.20150529004307-13fd6b8acda0",
+      "cpe": "cpe:2.3:a:bugsnag:bugsnag-go:v1.0.5-0.20150529004307-13fd6b8acda0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/bugsnag/bugsnag-go@v1.0.5-0.20150529004307-13fd6b8acda0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:bugsnag:bugsnag_go:v1.0.5-0.20150529004307-13fd6b8acda0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:40f3c024396d7cb150bdc1cdcf18303c93e40f5c2ac6d80e6835f8f2ac5d67a0"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/notary/signer/notary-signer"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.15"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:s7+5BfS4WFJoVF9pnB8kBk03S7pZXRdKamnV0FOl5Sc="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/theupdateframework/notary"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/bugsnag/osext@v0.0.0-20130617224835-0dd3f918b21b?package-id=5c214956a9cdc8e9",
+      "type": "library",
+      "name": "github.com/bugsnag/osext",
+      "version": "v0.0.0-20130617224835-0dd3f918b21b",
+      "cpe": "cpe:2.3:a:bugsnag:osext:v0.0.0-20130617224835-0dd3f918b21b:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/bugsnag/osext@v0.0.0-20130617224835-0dd3f918b21b",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:40f3c024396d7cb150bdc1cdcf18303c93e40f5c2ac6d80e6835f8f2ac5d67a0"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/notary/signer/notary-signer"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.15"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:otBG+dV+YK+Soembjv71DPz3uX/V/6MMlSyD9JBQ6kQ="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/theupdateframework/notary"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/bugsnag/panicwrap@v0.0.0-20151223152923-e2c28503fcd0?package-id=e8916633bde4e8ff",
+      "type": "library",
+      "name": "github.com/bugsnag/panicwrap",
+      "version": "v0.0.0-20151223152923-e2c28503fcd0",
+      "cpe": "cpe:2.3:a:bugsnag:panicwrap:v0.0.0-20151223152923-e2c28503fcd0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/bugsnag/panicwrap@v0.0.0-20151223152923-e2c28503fcd0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:40f3c024396d7cb150bdc1cdcf18303c93e40f5c2ac6d80e6835f8f2ac5d67a0"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/notary/signer/notary-signer"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.15"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:nvj0OLI3YqYXer/kZD8Ri1aaunCxIEsOst1BVJswV0o="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/theupdateframework/notary"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/docker/distribution@v2.7.1+incompatible?package-id=1facc92c80124943",
+      "type": "library",
+      "name": "github.com/docker/distribution",
+      "version": "v2.7.1+incompatible",
+      "cpe": "cpe:2.3:a:docker:distribution:v2.7.1\\+incompatible:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/docker/distribution@v2.7.1+incompatible",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:40f3c024396d7cb150bdc1cdcf18303c93e40f5c2ac6d80e6835f8f2ac5d67a0"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/notary/signer/notary-signer"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.15"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:a5mlkVzth6W5A4fOsS3D2EO5BUmsJpcB+cRlLU7cSug="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/theupdateframework/notary"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/docker/go@v1.5.1-1.0.20160303222718-d30aec9fd63c?package-id=85be83ebfdc2103e",
+      "type": "library",
+      "name": "github.com/docker/go",
+      "version": "v1.5.1-1.0.20160303222718-d30aec9fd63c",
+      "cpe": "cpe:2.3:a:docker:go:v1.5.1-1.0.20160303222718-d30aec9fd63c:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/docker/go@v1.5.1-1.0.20160303222718-d30aec9fd63c",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:40f3c024396d7cb150bdc1cdcf18303c93e40f5c2ac6d80e6835f8f2ac5d67a0"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/notary/signer/notary-signer"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.15"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:lzqkGL9b3znc+ZUgi7FlLnqjQhcXxkNM/quxIjBVMD0="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/theupdateframework/notary"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/docker/go-connections@v0.4.0?package-id=4933fa6532bccda7",
+      "type": "library",
+      "name": "github.com/docker/go-connections",
+      "version": "v0.4.0",
+      "cpe": "cpe:2.3:a:docker:go-connections:v0.4.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/docker/go-connections@v0.4.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:docker:go_connections:v0.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:40f3c024396d7cb150bdc1cdcf18303c93e40f5c2ac6d80e6835f8f2ac5d67a0"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/notary/signer/notary-signer"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.15"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:El9xVISelRB7BuFusrZozjnkIM5YnzCViNKohAFqRJQ="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/theupdateframework/notary"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/dvsekhvalnov/jose2go@v0.0.0-20170216131308-f21a8cedbbae?package-id=80e5cc61125cf82d",
+      "type": "library",
+      "name": "github.com/dvsekhvalnov/jose2go",
+      "version": "v0.0.0-20170216131308-f21a8cedbbae",
+      "cpe": "cpe:2.3:a:dvsekhvalnov:jose2go:v0.0.0-20170216131308-f21a8cedbbae:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/dvsekhvalnov/jose2go@v0.0.0-20170216131308-f21a8cedbbae",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:40f3c024396d7cb150bdc1cdcf18303c93e40f5c2ac6d80e6835f8f2ac5d67a0"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/notary/signer/notary-signer"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.15"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:UTOyRlLeWJrZx+ynml6q6qzZ1uDkJe/0Z5CMZRbEIJg="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/theupdateframework/notary"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/go-sql-driver/mysql@v1.3.0?package-id=1bbc17a347e7af3",
+      "type": "library",
+      "name": "github.com/go-sql-driver/mysql",
+      "version": "v1.3.0",
+      "cpe": "cpe:2.3:a:go-sql-driver:mysql:v1.3.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/go-sql-driver/mysql@v1.3.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:go_sql_driver:mysql:v1.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:go-sql:mysql:v1.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:go_sql:mysql:v1.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:go:mysql:v1.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:40f3c024396d7cb150bdc1cdcf18303c93e40f5c2ac6d80e6835f8f2ac5d67a0"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/notary/signer/notary-signer"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.15"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:pgwjLi/dvffoP9aabwkT3AKpXQM93QARkjFhDDqC1UE="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/theupdateframework/notary"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/golang/protobuf@v1.3.4?package-id=d07c118a05fa98cc",
+      "type": "library",
+      "name": "github.com/golang/protobuf",
+      "version": "v1.3.4",
+      "cpe": "cpe:2.3:a:golang:protobuf:v1.3.4:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/golang/protobuf@v1.3.4",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:40f3c024396d7cb150bdc1cdcf18303c93e40f5c2ac6d80e6835f8f2ac5d67a0"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/notary/signer/notary-signer"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.15"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:87PNWwrRvUSnqS4dlcBU/ftvOIBep4sYuBLlh6rX2wk="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/theupdateframework/notary"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/gorilla/mux@v1.7.0?package-id=5db6781748ace6ab",
+      "type": "library",
+      "name": "github.com/gorilla/mux",
+      "version": "v1.7.0",
+      "cpe": "cpe:2.3:a:gorilla:mux:v1.7.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/gorilla/mux@v1.7.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:40f3c024396d7cb150bdc1cdcf18303c93e40f5c2ac6d80e6835f8f2ac5d67a0"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/notary/signer/notary-signer"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.15"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:tOSd0UKHQd6urX6ApfOn4XdBMY6Sh1MfxV3kmaazO+U="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/theupdateframework/notary"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/hailocab/go-hostpool@v0.0.0-20160125115350-e80d13ce29ed?package-id=52890956735ca073",
+      "type": "library",
+      "name": "github.com/hailocab/go-hostpool",
+      "version": "v0.0.0-20160125115350-e80d13ce29ed",
+      "cpe": "cpe:2.3:a:hailocab:go-hostpool:v0.0.0-20160125115350-e80d13ce29ed:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/hailocab/go-hostpool@v0.0.0-20160125115350-e80d13ce29ed",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hailocab:go_hostpool:v0.0.0-20160125115350-e80d13ce29ed:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:40f3c024396d7cb150bdc1cdcf18303c93e40f5c2ac6d80e6835f8f2ac5d67a0"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/notary/signer/notary-signer"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.15"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:5upAirOpQc1Q53c0bnx2ufif5kANL7bfZWcc6VJWJd8="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/theupdateframework/notary"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/jinzhu/gorm@v0.0.0-20170222002820-5409931a1bb8?package-id=66add36684c2dc51",
+      "type": "library",
+      "name": "github.com/jinzhu/gorm",
+      "version": "v0.0.0-20170222002820-5409931a1bb8",
+      "cpe": "cpe:2.3:a:jinzhu:gorm:v0.0.0-20170222002820-5409931a1bb8:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/jinzhu/gorm@v0.0.0-20170222002820-5409931a1bb8",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:40f3c024396d7cb150bdc1cdcf18303c93e40f5c2ac6d80e6835f8f2ac5d67a0"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/notary/signer/notary-signer"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.15"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:CZkYfurY6KGhVtlalI4QwQ6T0Cu6iuY3e0x5RLu96WE="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/theupdateframework/notary"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/jinzhu/inflection@v0.0.0-20170102125226-1c35d901db3d?package-id=abffab774d01c3fd",
+      "type": "library",
+      "name": "github.com/jinzhu/inflection",
+      "version": "v0.0.0-20170102125226-1c35d901db3d",
+      "cpe": "cpe:2.3:a:jinzhu:inflection:v0.0.0-20170102125226-1c35d901db3d:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/jinzhu/inflection@v0.0.0-20170102125226-1c35d901db3d",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:40f3c024396d7cb150bdc1cdcf18303c93e40f5c2ac6d80e6835f8f2ac5d67a0"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/notary/signer/notary-signer"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.15"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:jRQLvyVGL+iVtDElaEIDdKwpPqUIZJfzkNLV34htpEc="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/theupdateframework/notary"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/kr/pretty@v0.1.0?package-id=85af7e41e860d57",
+      "type": "library",
+      "name": "github.com/kr/pretty",
+      "version": "v0.1.0",
+      "cpe": "cpe:2.3:a:kr:pretty:v0.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/kr/pretty@v0.1.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:40f3c024396d7cb150bdc1cdcf18303c93e40f5c2ac6d80e6835f8f2ac5d67a0"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/notary/signer/notary-signer"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.15"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:L/CwN0zerZDmRFUapSPitk6f+Q3+0za1rQkzVuMiMFI="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/theupdateframework/notary"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/kr/text@v0.2.0?package-id=14b305834e25f44",
+      "type": "library",
+      "name": "github.com/kr/text",
+      "version": "v0.2.0",
+      "cpe": "cpe:2.3:a:kr:text:v0.2.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/kr/text@v0.2.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:40f3c024396d7cb150bdc1cdcf18303c93e40f5c2ac6d80e6835f8f2ac5d67a0"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/notary/signer/notary-signer"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.15"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:5Nx0Ya0ZqY2ygV366QzturHI13Jq95ApcVaJBhpS+AY="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/theupdateframework/notary"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/lib/pq@v0.0.0-20150723085316-0dad96c0b94f?package-id=26e2c9cda4b133e2",
+      "type": "library",
+      "name": "github.com/lib/pq",
+      "version": "v0.0.0-20150723085316-0dad96c0b94f",
+      "cpe": "cpe:2.3:a:lib:pq:v0.0.0-20150723085316-0dad96c0b94f:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/lib/pq@v0.0.0-20150723085316-0dad96c0b94f",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:40f3c024396d7cb150bdc1cdcf18303c93e40f5c2ac6d80e6835f8f2ac5d67a0"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/notary/signer/notary-signer"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.15"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:I1iYfgQavGa2tgdgKn+2Qg1yQhHEETvh/mNSxG3x5c0="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/theupdateframework/notary"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/magiconair/properties@v1.5.3?package-id=29e2b6b379c60ed4",
+      "type": "library",
+      "name": "github.com/magiconair/properties",
+      "version": "v1.5.3",
+      "cpe": "cpe:2.3:a:magiconair:properties:v1.5.3:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/magiconair/properties@v1.5.3",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:40f3c024396d7cb150bdc1cdcf18303c93e40f5c2ac6d80e6835f8f2ac5d67a0"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/notary/signer/notary-signer"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.15"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:C8fxWnhYyME3n0klPOhVM7PtYUB3eV1W3DeFmN3j53Y="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/theupdateframework/notary"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/mitchellh/mapstructure@v0.0.0-20150613213606-2caf8efc9366?package-id=fafd870f9eab02e3",
+      "type": "library",
+      "name": "github.com/mitchellh/mapstructure",
+      "version": "v0.0.0-20150613213606-2caf8efc9366",
+      "cpe": "cpe:2.3:a:mitchellh:mapstructure:v0.0.0-20150613213606-2caf8efc9366:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/mitchellh/mapstructure@v0.0.0-20150613213606-2caf8efc9366",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:40f3c024396d7cb150bdc1cdcf18303c93e40f5c2ac6d80e6835f8f2ac5d67a0"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/notary/signer/notary-signer"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.15"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:1ypTpKUfEOyX1YsJru6lLq7hrmK+QGECpJQ1PHUHuGo="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/theupdateframework/notary"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/opentracing/opentracing-go@v1.1.0?package-id=d349dbf229fa23c0",
+      "type": "library",
+      "name": "github.com/opentracing/opentracing-go",
+      "version": "v1.1.0",
+      "cpe": "cpe:2.3:a:opentracing:opentracing-go:v1.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/opentracing/opentracing-go@v1.1.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opentracing:opentracing_go:v1.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:40f3c024396d7cb150bdc1cdcf18303c93e40f5c2ac6d80e6835f8f2ac5d67a0"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/notary/signer/notary-signer"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.15"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:pWlfV3Bxv7k65HYwkikxat0+s3pV4bsqf19k25Ur8rU="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/theupdateframework/notary"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/pkg/errors@v0.8.1?package-id=70ec3f559df395ea",
+      "type": "library",
+      "name": "github.com/pkg/errors",
+      "version": "v0.8.1",
+      "cpe": "cpe:2.3:a:pkg:errors:v0.8.1:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/pkg/errors@v0.8.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:40f3c024396d7cb150bdc1cdcf18303c93e40f5c2ac6d80e6835f8f2ac5d67a0"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/notary/signer/notary-signer"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.15"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:iURUrRGxPUNPdy5/HRSm+Yj6okJ6UtLINN0Q9M4+h3I="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/theupdateframework/notary"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/sirupsen/logrus@v1.4.1?package-id=f5edbab2fcef0259",
+      "type": "library",
+      "name": "github.com/sirupsen/logrus",
+      "version": "v1.4.1",
+      "cpe": "cpe:2.3:a:sirupsen:logrus:v1.4.1:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/sirupsen/logrus@v1.4.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:40f3c024396d7cb150bdc1cdcf18303c93e40f5c2ac6d80e6835f8f2ac5d67a0"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/notary/signer/notary-signer"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.15"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:GL2rEmy6nsikmW0r8opw9JIRScdMF5hA8cOYLH7In1k="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/theupdateframework/notary"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/spf13/cast@v0.0.0-20150508191742-4d07383ffe94?package-id=84f57890de1e5df1",
+      "type": "library",
+      "name": "github.com/spf13/cast",
+      "version": "v0.0.0-20150508191742-4d07383ffe94",
+      "cpe": "cpe:2.3:a:spf13:cast:v0.0.0-20150508191742-4d07383ffe94:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/spf13/cast@v0.0.0-20150508191742-4d07383ffe94",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:40f3c024396d7cb150bdc1cdcf18303c93e40f5c2ac6d80e6835f8f2ac5d67a0"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/notary/signer/notary-signer"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.15"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:JmfC365KywYwHB946TTiQWEb8kqPY+pybPLoGE9GgVk="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/theupdateframework/notary"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/spf13/jwalterweatherman@v0.0.0-20141219030609-3d60171a6431?package-id=f25b4a237c44d802",
+      "type": "library",
+      "name": "github.com/spf13/jwalterweatherman",
+      "version": "v0.0.0-20141219030609-3d60171a6431",
+      "cpe": "cpe:2.3:a:spf13:jwalterweatherman:v0.0.0-20141219030609-3d60171a6431:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/spf13/jwalterweatherman@v0.0.0-20141219030609-3d60171a6431",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:40f3c024396d7cb150bdc1cdcf18303c93e40f5c2ac6d80e6835f8f2ac5d67a0"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/notary/signer/notary-signer"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.15"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:XTHrT015sxHyJ5FnQ0AeemSspZWaDq7DoTRW0EVsDCE="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/theupdateframework/notary"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/spf13/pflag@v1.0.0?package-id=7ee61737aad9f844",
+      "type": "library",
+      "name": "github.com/spf13/pflag",
+      "version": "v1.0.0",
+      "cpe": "cpe:2.3:a:spf13:pflag:v1.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/spf13/pflag@v1.0.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:40f3c024396d7cb150bdc1cdcf18303c93e40f5c2ac6d80e6835f8f2ac5d67a0"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/notary/signer/notary-signer"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.15"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:oaPbdDe/x0UncahuwiPxW1GYJyilRAdsPnq3e1yaPcI="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/theupdateframework/notary"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/spf13/viper@v0.0.0-20150530192845-be5ff3e4840c?package-id=44472b9684017698",
+      "type": "library",
+      "name": "github.com/spf13/viper",
+      "version": "v0.0.0-20150530192845-be5ff3e4840c",
+      "cpe": "cpe:2.3:a:spf13:viper:v0.0.0-20150530192845-be5ff3e4840c:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/spf13/viper@v0.0.0-20150530192845-be5ff3e4840c",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:40f3c024396d7cb150bdc1cdcf18303c93e40f5c2ac6d80e6835f8f2ac5d67a0"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/notary/signer/notary-signer"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.15"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:2EejZtjFjKJGk71ANb+wtFK5EjUzUkEM3R0xnp559xg="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/theupdateframework/notary"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/theupdateframework/notary@(devel)?package-id=c93e144b35f27367",
+      "type": "library",
+      "name": "github.com/theupdateframework/notary",
+      "version": "(devel)",
+      "cpe": "cpe:2.3:a:theupdateframework:notary:\\(devel\\):*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/theupdateframework/notary@(devel)",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:40f3c024396d7cb150bdc1cdcf18303c93e40f5c2ac6d80e6835f8f2ac5d67a0"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/notary/signer/notary-signer"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.15"
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/theupdateframework/notary"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/golang.org/x/crypto@v0.0.0-20201117144127-c1f2f97bffc9?package-id=b7ece8218ff56fbf",
+      "type": "library",
+      "name": "golang.org/x/crypto",
+      "version": "v0.0.0-20201117144127-c1f2f97bffc9",
+      "cpe": "cpe:2.3:a:golang:x\\/crypto:v0.0.0-20201117144127-c1f2f97bffc9:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/golang.org/x/crypto@v0.0.0-20201117144127-c1f2f97bffc9",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:40f3c024396d7cb150bdc1cdcf18303c93e40f5c2ac6d80e6835f8f2ac5d67a0"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/notary/signer/notary-signer"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.15"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:phUcVbl53swtrUN8kQEXFhUxPlIlWyBfKmidCu7P95o="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/theupdateframework/notary"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/golang.org/x/net@v0.0.0-20190404232315-eb5bcb51f2a3?package-id=393c0d2c94823f5f",
+      "type": "library",
+      "name": "golang.org/x/net",
+      "version": "v0.0.0-20190404232315-eb5bcb51f2a3",
+      "cpe": "cpe:2.3:a:golang:x\\/net:v0.0.0-20190404232315-eb5bcb51f2a3:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/golang.org/x/net@v0.0.0-20190404232315-eb5bcb51f2a3",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:40f3c024396d7cb150bdc1cdcf18303c93e40f5c2ac6d80e6835f8f2ac5d67a0"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/notary/signer/notary-signer"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.15"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:0GoQqolDA55aaLxZyTzK/Y2ePZzZTUrRacwib7cNsYQ="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/theupdateframework/notary"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/golang.org/x/sys@v0.0.0-20191120155948-bd437916bb0e?package-id=f130053eed18d0df",
+      "type": "library",
+      "name": "golang.org/x/sys",
+      "version": "v0.0.0-20191120155948-bd437916bb0e",
+      "cpe": "cpe:2.3:a:golang:x\\/sys:v0.0.0-20191120155948-bd437916bb0e:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/golang.org/x/sys@v0.0.0-20191120155948-bd437916bb0e",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:40f3c024396d7cb150bdc1cdcf18303c93e40f5c2ac6d80e6835f8f2ac5d67a0"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/notary/signer/notary-signer"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.15"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:N7DeIrjYszNmSW409R3frPPwglRwMkXSBzwVbkOjLLA="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/theupdateframework/notary"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/golang.org/x/term@v0.0.0-20201117132131-f5c789dd3221?package-id=5ceb82aebc63cf99",
+      "type": "library",
+      "name": "golang.org/x/term",
+      "version": "v0.0.0-20201117132131-f5c789dd3221",
+      "cpe": "cpe:2.3:a:golang:x\\/term:v0.0.0-20201117132131-f5c789dd3221:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/golang.org/x/term@v0.0.0-20201117132131-f5c789dd3221",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:40f3c024396d7cb150bdc1cdcf18303c93e40f5c2ac6d80e6835f8f2ac5d67a0"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/notary/signer/notary-signer"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.15"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:/ZHdbVpdR/jk3g30/d4yUL0JU9kksj8+F/bnQUVLGDM="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/theupdateframework/notary"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/golang.org/x/text@v0.3.0?package-id=e4a70205ad04b73",
+      "type": "library",
+      "name": "golang.org/x/text",
+      "version": "v0.3.0",
+      "cpe": "cpe:2.3:a:golang:x\\/text:v0.3.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/golang.org/x/text@v0.3.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:40f3c024396d7cb150bdc1cdcf18303c93e40f5c2ac6d80e6835f8f2ac5d67a0"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/notary/signer/notary-signer"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.15"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:g61tztE5qeGQ89tm6NTjjM9VPIm088od1l6aSorWRWg="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/theupdateframework/notary"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/google.golang.org/grpc@v1.0.5?package-id=eed0d217279e0b9",
+      "type": "library",
+      "name": "google.golang.org/grpc",
+      "version": "v1.0.5",
+      "cpe": "cpe:2.3:a:google:grpc:v1.0.5:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/google.golang.org/grpc@v1.0.5",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:40f3c024396d7cb150bdc1cdcf18303c93e40f5c2ac6d80e6835f8f2ac5d67a0"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/notary/signer/notary-signer"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.15"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:2cfCGAsp1sd/+bSSMzLFrEa8TeVpvAq5x4y/jI0o6rY="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/theupdateframework/notary"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/gopkg.in/cenkalti/backoff.v2@v2.2.1?package-id=41f539f893f0af87",
+      "type": "library",
+      "name": "gopkg.in/cenkalti/backoff.v2",
+      "version": "v2.2.1",
+      "purl": "pkg:golang/gopkg.in/cenkalti/backoff.v2@v2.2.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:40f3c024396d7cb150bdc1cdcf18303c93e40f5c2ac6d80e6835f8f2ac5d67a0"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/notary/signer/notary-signer"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.15"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:eJ9UAg01/HIHG987TwxvnzK2MgxXq97YY6rYDpY9aII="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/theupdateframework/notary"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/gopkg.in/rethinkdb/rethinkdb-go.v6@v6.2.1?package-id=18a761a9b8fb91e",
+      "type": "library",
+      "name": "gopkg.in/rethinkdb/rethinkdb-go.v6",
+      "version": "v6.2.1",
+      "purl": "pkg:golang/gopkg.in/rethinkdb/rethinkdb-go.v6@v6.2.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:40f3c024396d7cb150bdc1cdcf18303c93e40f5c2ac6d80e6835f8f2ac5d67a0"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/notary/signer/notary-signer"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.15"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:d4KQkxAaAiRY2h5Zqis161Pv91A37uZyJOx73duwUwM="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/theupdateframework/notary"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/gopkg.in/yaml.v2@v2.2.8?package-id=ff4740191901dc7c",
+      "type": "library",
+      "name": "gopkg.in/yaml.v2",
+      "version": "v2.2.8",
+      "purl": "pkg:golang/gopkg.in/yaml.v2@v2.2.8",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:40f3c024396d7cb150bdc1cdcf18303c93e40f5c2ac6d80e6835f8f2ac5d67a0"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/notary/signer/notary-signer"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.15"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:obN1ZagJSUGI0Ek/LBmuj4SNLPfIny3KsKFopxRdj10="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/theupdateframework/notary"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpine/libc-utils@0.7.2-r3?arch=x86_64\u0026upstream=libc-dev\u0026distro=alpine-3.12.12\u0026package-id=f80d96baba263a29",
+      "type": "library",
+      "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
+      "name": "libc-utils",
+      "version": "0.7.2-r3",
+      "description": "Meta package to pull in correct libc",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-2-Clause"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:libc-utils:libc-utils:0.7.2-r3:*:*:*:*:*:*:*",
+      "purl": "pkg:alpine/libc-utils@0.7.2-r3?arch=x86_64\u0026upstream=libc-dev\u0026distro=alpine-3.12.12",
+      "externalReferences": [
+        {
+          "url": "https://alpinelinux.org",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "apkdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "ApkMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "apk"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libc-utils:libc_utils:0.7.2-r3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libc_utils:libc-utils:0.7.2-r3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libc_utils:libc_utils:0.7.2-r3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libc:libc-utils:0.7.2-r3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libc:libc_utils:0.7.2-r3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:40f3c024396d7cb150bdc1cdcf18303c93e40f5c2ac6d80e6835f8f2ac5d67a0"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/lib/apk/db/installed"
+        },
+        {
+          "name": "syft:metadata:gitCommitOfApkPort",
+          "value": "60424133be2e79bbfeff3d58147a22886f817ce2"
+        },
+        {
+          "name": "syft:metadata:installedSize",
+          "value": "4096"
+        },
+        {
+          "name": "syft:metadata:originPackage",
+          "value": "libc-dev"
+        },
+        {
+          "name": "syft:metadata:pullChecksum",
+          "value": "Q16xP1yRei7gsfFFF2So96SPZpw0c="
+        },
+        {
+          "name": "syft:metadata:pullDependencies",
+          "value": "musl-utils"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "1226"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpine/libcrypto1.1@1.1.1n-r0?arch=x86_64\u0026upstream=openssl\u0026distro=alpine-3.12.12\u0026package-id=29dec83807252c4d",
+      "type": "library",
+      "publisher": "Timo Teras \u003ctimo.teras@iki.fi\u003e",
+      "name": "libcrypto1.1",
+      "version": "1.1.1n-r0",
+      "description": "Crypto library from openssl",
+      "licenses": [
+        {
+          "license": {
+            "id": "OpenSSL"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:libcrypto1.1:libcrypto1.1:1.1.1n-r0:*:*:*:*:*:*:*",
+      "purl": "pkg:alpine/libcrypto1.1@1.1.1n-r0?arch=x86_64\u0026upstream=openssl\u0026distro=alpine-3.12.12",
+      "externalReferences": [
+        {
+          "url": "https://www.openssl.org/",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "apkdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "ApkMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "apk"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:40f3c024396d7cb150bdc1cdcf18303c93e40f5c2ac6d80e6835f8f2ac5d67a0"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/lib/apk/db/installed"
+        },
+        {
+          "name": "syft:metadata:gitCommitOfApkPort",
+          "value": "b759455d39ebc9606b4b980416c55aa87303ba5f"
+        },
+        {
+          "name": "syft:metadata:installedSize",
+          "value": "2764800"
+        },
+        {
+          "name": "syft:metadata:originPackage",
+          "value": "openssl"
+        },
+        {
+          "name": "syft:metadata:pullChecksum",
+          "value": "Q1MC2DGhne+faPJKpms8itnmTcsqA="
+        },
+        {
+          "name": "syft:metadata:pullDependencies",
+          "value": "so:libc.musl-x86_64.so.1"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "1210690"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpine/libssl1.1@1.1.1n-r0?arch=x86_64\u0026upstream=openssl\u0026distro=alpine-3.12.12\u0026package-id=7aa7a3e1413a8d52",
+      "type": "library",
+      "publisher": "Timo Teras \u003ctimo.teras@iki.fi\u003e",
+      "name": "libssl1.1",
+      "version": "1.1.1n-r0",
+      "description": "SSL shared libraries",
+      "licenses": [
+        {
+          "license": {
+            "id": "OpenSSL"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:libssl1.1:libssl1.1:1.1.1n-r0:*:*:*:*:*:*:*",
+      "purl": "pkg:alpine/libssl1.1@1.1.1n-r0?arch=x86_64\u0026upstream=openssl\u0026distro=alpine-3.12.12",
+      "externalReferences": [
+        {
+          "url": "https://www.openssl.org/",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "apkdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "ApkMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "apk"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:40f3c024396d7cb150bdc1cdcf18303c93e40f5c2ac6d80e6835f8f2ac5d67a0"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/lib/apk/db/installed"
+        },
+        {
+          "name": "syft:metadata:gitCommitOfApkPort",
+          "value": "b759455d39ebc9606b4b980416c55aa87303ba5f"
+        },
+        {
+          "name": "syft:metadata:installedSize",
+          "value": "540672"
+        },
+        {
+          "name": "syft:metadata:originPackage",
+          "value": "openssl"
+        },
+        {
+          "name": "syft:metadata:pullChecksum",
+          "value": "Q1UX1nrMda47otMPLa7B8as33eXjk="
+        },
+        {
+          "name": "syft:metadata:pullDependencies",
+          "value": "so:libc.musl-x86_64.so.1 so:libcrypto.so.1.1"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "212737"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpine/libtls-standalone@2.9.1-r1?arch=x86_64\u0026upstream=libtls-standalone\u0026distro=alpine-3.12.12\u0026package-id=cb2f5162c15647c4",
+      "type": "library",
+      "name": "libtls-standalone",
+      "version": "2.9.1-r1",
+      "description": "libtls extricated from libressl sources",
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:libtls-standalone:libtls-standalone:2.9.1-r1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpine/libtls-standalone@2.9.1-r1?arch=x86_64\u0026upstream=libtls-standalone\u0026distro=alpine-3.12.12",
+      "externalReferences": [
+        {
+          "url": "https://www.libressl.org/",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "apkdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "ApkMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "apk"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libtls-standalone:libtls_standalone:2.9.1-r1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libtls_standalone:libtls-standalone:2.9.1-r1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libtls_standalone:libtls_standalone:2.9.1-r1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libtls:libtls-standalone:2.9.1-r1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libtls:libtls_standalone:2.9.1-r1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:40f3c024396d7cb150bdc1cdcf18303c93e40f5c2ac6d80e6835f8f2ac5d67a0"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/lib/apk/db/installed"
+        },
+        {
+          "name": "syft:metadata:gitCommitOfApkPort",
+          "value": "7ebfa23b6119a24ca9b9375bdc55373259192da1"
+        },
+        {
+          "name": "syft:metadata:installedSize",
+          "value": "110592"
+        },
+        {
+          "name": "syft:metadata:originPackage",
+          "value": "libtls-standalone"
+        },
+        {
+          "name": "syft:metadata:pullChecksum",
+          "value": "Q14BzqSsJ9wRYejKCBU++3I2VvzSs="
+        },
+        {
+          "name": "syft:metadata:pullDependencies",
+          "value": "ca-certificates-bundle so:libc.musl-x86_64.so.1 so:libcrypto.so.1.1 so:libssl.so.1.1"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "33144"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpine/musl@1.1.24-r10?arch=x86_64\u0026upstream=musl\u0026distro=alpine-3.12.12\u0026package-id=8838e981d6f951d5",
+      "type": "library",
+      "publisher": "Timo Teräs \u003ctimo.teras@iki.fi\u003e",
+      "name": "musl",
+      "version": "1.1.24-r10",
+      "description": "the musl c library (libc) implementation",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:musl:musl:1.1.24-r10:*:*:*:*:*:*:*",
+      "purl": "pkg:alpine/musl@1.1.24-r10?arch=x86_64\u0026upstream=musl\u0026distro=alpine-3.12.12",
+      "externalReferences": [
+        {
+          "url": "https://musl.libc.org/",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "apkdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "ApkMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "apk"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:40f3c024396d7cb150bdc1cdcf18303c93e40f5c2ac6d80e6835f8f2ac5d67a0"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/lib/apk/db/installed"
+        },
+        {
+          "name": "syft:metadata:gitCommitOfApkPort",
+          "value": "908046ad5f96c4c1df5541ff4b0251767e110c85"
+        },
+        {
+          "name": "syft:metadata:installedSize",
+          "value": "614400"
+        },
+        {
+          "name": "syft:metadata:originPackage",
+          "value": "musl"
+        },
+        {
+          "name": "syft:metadata:pullChecksum",
+          "value": "Q1mGDXWUFVE+6oFGyj8OMl5cZrkkU="
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "377258"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpine/musl-utils@1.1.24-r10?arch=x86_64\u0026upstream=musl\u0026distro=alpine-3.12.12\u0026package-id=a9ea2a9f57787a19",
+      "type": "library",
+      "publisher": "Timo Teräs \u003ctimo.teras@iki.fi\u003e",
+      "name": "musl-utils",
+      "version": "1.1.24-r10",
+      "description": "the musl c library (libc) implementation",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:musl-utils:musl-utils:1.1.24-r10:*:*:*:*:*:*:*",
+      "purl": "pkg:alpine/musl-utils@1.1.24-r10?arch=x86_64\u0026upstream=musl\u0026distro=alpine-3.12.12",
+      "externalReferences": [
+        {
+          "url": "https://musl.libc.org/",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "apkdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "ApkMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "apk"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:musl-utils:musl_utils:1.1.24-r10:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:musl_utils:musl-utils:1.1.24-r10:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:musl_utils:musl_utils:1.1.24-r10:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:musl:musl-utils:1.1.24-r10:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:musl:musl_utils:1.1.24-r10:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:40f3c024396d7cb150bdc1cdcf18303c93e40f5c2ac6d80e6835f8f2ac5d67a0"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/lib/apk/db/installed"
+        },
+        {
+          "name": "syft:metadata:gitCommitOfApkPort",
+          "value": "908046ad5f96c4c1df5541ff4b0251767e110c85"
+        },
+        {
+          "name": "syft:metadata:installedSize",
+          "value": "151552"
+        },
+        {
+          "name": "syft:metadata:originPackage",
+          "value": "musl"
+        },
+        {
+          "name": "syft:metadata:pullChecksum",
+          "value": "Q1MFuIRwDYNC3UF1ZCaWGJAIXPy8k="
+        },
+        {
+          "name": "syft:metadata:pullDependencies",
+          "value": "scanelf so:libc.musl-x86_64.so.1"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "37724"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpine/scanelf@1.2.6-r0?arch=x86_64\u0026upstream=pax-utils\u0026distro=alpine-3.12.12\u0026package-id=9bb2292736678189",
+      "type": "library",
+      "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
+      "name": "scanelf",
+      "version": "1.2.6-r0",
+      "description": "Scan ELF binaries for stuff",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:scanelf:scanelf:1.2.6-r0:*:*:*:*:*:*:*",
+      "purl": "pkg:alpine/scanelf@1.2.6-r0?arch=x86_64\u0026upstream=pax-utils\u0026distro=alpine-3.12.12",
+      "externalReferences": [
+        {
+          "url": "https://wiki.gentoo.org/wiki/Hardened/PaX_Utilities",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "apkdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "ApkMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "apk"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:40f3c024396d7cb150bdc1cdcf18303c93e40f5c2ac6d80e6835f8f2ac5d67a0"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/lib/apk/db/installed"
+        },
+        {
+          "name": "syft:metadata:gitCommitOfApkPort",
+          "value": "753fa8d765c7a4edb76f11b1995f84cdcb45bce5"
+        },
+        {
+          "name": "syft:metadata:installedSize",
+          "value": "94208"
+        },
+        {
+          "name": "syft:metadata:originPackage",
+          "value": "pax-utils"
+        },
+        {
+          "name": "syft:metadata:pullChecksum",
+          "value": "Q1jvYavRv99SdiT3M3Kv5gvpi8LXY="
+        },
+        {
+          "name": "syft:metadata:pullDependencies",
+          "value": "so:libc.musl-x86_64.so.1"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "36446"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpine/ssl_client@1.31.1-r22?arch=x86_64\u0026upstream=busybox\u0026distro=alpine-3.12.12\u0026package-id=45ae35e9af81ecdf",
+      "type": "library",
+      "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
+      "name": "ssl_client",
+      "version": "1.31.1-r22",
+      "description": "EXternal ssl_client for busybox wget",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:ssl-client:ssl-client:1.31.1-r22:*:*:*:*:*:*:*",
+      "purl": "pkg:alpine/ssl_client@1.31.1-r22?arch=x86_64\u0026upstream=busybox\u0026distro=alpine-3.12.12",
+      "externalReferences": [
+        {
+          "url": "https://busybox.net/",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "apkdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "ApkMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "apk"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ssl-client:ssl_client:1.31.1-r22:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ssl_client:ssl-client:1.31.1-r22:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ssl_client:ssl_client:1.31.1-r22:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ssl:ssl-client:1.31.1-r22:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ssl:ssl_client:1.31.1-r22:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:40f3c024396d7cb150bdc1cdcf18303c93e40f5c2ac6d80e6835f8f2ac5d67a0"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/lib/apk/db/installed"
+        },
+        {
+          "name": "syft:metadata:gitCommitOfApkPort",
+          "value": "41c9e389fd1ebce7fc2e723a9074fa7f2a00e11a"
+        },
+        {
+          "name": "syft:metadata:installedSize",
+          "value": "28672"
+        },
+        {
+          "name": "syft:metadata:originPackage",
+          "value": "busybox"
+        },
+        {
+          "name": "syft:metadata:pullChecksum",
+          "value": "Q1mZvJZxoqoHTRXR3t9h1kro95CU0="
+        },
+        {
+          "name": "syft:metadata:pullDependencies",
+          "value": "so:libc.musl-x86_64.so.1 so:libtls-standalone.so.1"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "4305"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpine/zlib@1.2.12-r0?arch=x86_64\u0026upstream=zlib\u0026distro=alpine-3.12.12\u0026package-id=10b3990af8d43075",
+      "type": "library",
+      "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
+      "name": "zlib",
+      "version": "1.2.12-r0",
+      "description": "A compression/decompression Library",
+      "licenses": [
+        {
+          "license": {
+            "id": "Zlib"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:zlib:zlib:1.2.12-r0:*:*:*:*:*:*:*",
+      "purl": "pkg:alpine/zlib@1.2.12-r0?arch=x86_64\u0026upstream=zlib\u0026distro=alpine-3.12.12",
+      "externalReferences": [
+        {
+          "url": "https://zlib.net/",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "apkdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "ApkMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "apk"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:40f3c024396d7cb150bdc1cdcf18303c93e40f5c2ac6d80e6835f8f2ac5d67a0"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/lib/apk/db/installed"
+        },
+        {
+          "name": "syft:metadata:gitCommitOfApkPort",
+          "value": "370acac0e4514c90d8c4e33a9740a7c92254853a"
+        },
+        {
+          "name": "syft:metadata:installedSize",
+          "value": "110592"
+        },
+        {
+          "name": "syft:metadata:originPackage",
+          "value": "zlib"
+        },
+        {
+          "name": "syft:metadata:pullChecksum",
+          "value": "Q14m+bQxS8qUChf5pcwhwDGmOBHAk="
+        },
+        {
+          "name": "syft:metadata:pullDependencies",
+          "value": "so:libc.musl-x86_64.so.1"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "52922"
+        }
+      ]
+    },
+    {
+      "type": "operating-system",
+      "name": "alpine",
+      "version": "3.12.12",
+      "description": "Alpine Linux v3.12",
+      "swid": {
+        "tagId": "alpine",
+        "name": "alpine",
+        "version": "3.12.12"
+      },
+      "externalReferences": [
+        {
+          "url": "https://bugs.alpinelinux.org/",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://alpinelinux.org/",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:distro:id",
+          "value": "alpine"
+        },
+        {
+          "name": "syft:distro:prettyName",
+          "value": "Alpine Linux v3.12"
+        },
+        {
+          "name": "syft:distro:versionID",
+          "value": "3.12.12"
+        }
+      ]
+    }
+  ]
+}

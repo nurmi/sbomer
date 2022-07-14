@@ -1,0 +1,140 @@
+{
+ "artifacts": [],
+ "artifactRelationships": [],
+ "source": {
+  "type": "image",
+  "target": {
+   "userInput": "docker.io/library/archlinux:latest",
+   "imageID": "sha256:5da5769ac0f365026d2bfdf17e689be3d2e7b98763b8f95fb431155b64b141c7",
+   "manifestDigest": "sha256:20d60c8c2ca285479ea84e214b94a1410f46a339042ab00bab84a3aa6fa70418",
+   "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+   "tags": [],
+   "imageSize": 367648978,
+   "layers": [
+    {
+     "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+     "digest": "sha256:5503549723e162ace42a26456c8d0204ba8dff88c4bb21a5187e23d221e00346",
+     "size": 367616981
+    },
+    {
+     "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+     "digest": "sha256:46db944815c8f0375de0d1e5f519935430ea67b03051dfe54d6c2c6618c8b913",
+     "size": 31997
+    }
+   ],
+   "manifest": "ewogICAic2NoZW1hVmVyc2lvbiI6IDIsCiAgICJtZWRpYVR5cGUiOiAiYXBwbGljYXRpb24vdm5kLmRvY2tlci5kaXN0cmlidXRpb24ubWFuaWZlc3QudjIranNvbiIsCiAgICJjb25maWciOiB7CiAgICAgICJtZWRpYVR5cGUiOiAiYXBwbGljYXRpb24vdm5kLmRvY2tlci5jb250YWluZXIuaW1hZ2UudjEranNvbiIsCiAgICAgICJzaXplIjogMTg3NCwKICAgICAgImRpZ2VzdCI6ICJzaGEyNTY6NWRhNTc2OWFjMGYzNjUwMjZkMmJmZGYxN2U2ODliZTNkMmU3Yjk4NzYzYjhmOTVmYjQzMTE1NWI2NGIxNDFjNyIKICAgfSwKICAgImxheWVycyI6IFsKICAgICAgewogICAgICAgICAibWVkaWFUeXBlIjogImFwcGxpY2F0aW9uL3ZuZC5kb2NrZXIuaW1hZ2Uucm9vdGZzLmRpZmYudGFyLmd6aXAiLAogICAgICAgICAic2l6ZSI6IDEyNzI4ODE2NywKICAgICAgICAgImRpZ2VzdCI6ICJzaGEyNTY6NDkxMmU0OWQyNTYzY2U5ZjM1ZjMwMDBiZjliODhlMTljOGQxNWI5YzFmNzMzYWQ3ZDg2M2U2OWYyMTIzYzUwOCIKICAgICAgfSwKICAgICAgewogICAgICAgICAibWVkaWFUeXBlIjogImFwcGxpY2F0aW9uL3ZuZC5kb2NrZXIuaW1hZ2Uucm9vdGZzLmRpZmYudGFyLmd6aXAiLAogICAgICAgICAic2l6ZSI6IDc1NzQsCiAgICAgICAgICJkaWdlc3QiOiAic2hhMjU2OjM1NGJiM2ZkMGY2YzE3N2VkMzNlMzMwZjJjZGRjOWMyMzc3YzgyZTZjNzRlZmE2M2JmOWIwNGY1MzY0ZDEyYmEiCiAgICAgIH0KICAgXQp9",
+   "config": "eyJhcmNoaXRlY3R1cmUiOiJhbWQ2NCIsImNvbmZpZyI6eyJIb3N0bmFtZSI6IiIsIkRvbWFpbm5hbWUiOiIiLCJVc2VyIjoiIiwiQXR0YWNoU3RkaW4iOmZhbHNlLCJBdHRhY2hTdGRvdXQiOmZhbHNlLCJBdHRhY2hTdGRlcnIiOmZhbHNlLCJUdHkiOmZhbHNlLCJPcGVuU3RkaW4iOmZhbHNlLCJTdGRpbk9uY2UiOmZhbHNlLCJFbnYiOlsiUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4iLCJMQU5HPUMuVVRGLTgiXSwiQ21kIjpbIi91c3IvYmluL2Jhc2giXSwiSW1hZ2UiOiJzaGEyNTY6YTdmZDRhYjMzMGMwMTBkODljZTU0ZDQ2NThjZGI3MjNiYTBhNTdkMTlmMzNmYzhhOWQ3YjhmNjZiNzg1YWVkOCIsIlZvbHVtZXMiOm51bGwsIldvcmtpbmdEaXIiOiIiLCJFbnRyeXBvaW50IjpudWxsLCJPbkJ1aWxkIjpudWxsLCJMYWJlbHMiOm51bGx9LCJjb250YWluZXIiOiJjNzRmZjE4YjMyMDI2MDIwMzdmMGRkOThhODNjNTU0ZmQ3ZjcyNDkyZTQxMzMzOWY0ZTEzNmI4YmMyMjQzZTU4IiwiY29udGFpbmVyX2NvbmZpZyI6eyJIb3N0bmFtZSI6ImM3NGZmMThiMzIwMiIsIkRvbWFpbm5hbWUiOiIiLCJVc2VyIjoiIiwiQXR0YWNoU3RkaW4iOmZhbHNlLCJBdHRhY2hTdGRvdXQiOmZhbHNlLCJBdHRhY2hTdGRlcnIiOmZhbHNlLCJUdHkiOmZhbHNlLCJPcGVuU3RkaW4iOmZhbHNlLCJTdGRpbk9uY2UiOmZhbHNlLCJFbnYiOlsiUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4iLCJMQU5HPUMuVVRGLTgiXSwiQ21kIjpbIi9iaW4vc2giLCItYyIsIiMobm9wKSAiLCJDTUQgW1wiL3Vzci9iaW4vYmFzaFwiXSJdLCJJbWFnZSI6InNoYTI1NjphN2ZkNGFiMzMwYzAxMGQ4OWNlNTRkNDY1OGNkYjcyM2JhMGE1N2QxOWYzM2ZjOGE5ZDdiOGY2NmI3ODVhZWQ4IiwiVm9sdW1lcyI6bnVsbCwiV29ya2luZ0RpciI6IiIsIkVudHJ5cG9pbnQiOm51bGwsIk9uQnVpbGQiOm51bGwsIkxhYmVscyI6e319LCJjcmVhdGVkIjoiMjAyMi0wNy0xMVQyMjoxOTo1Ny43MzMyNzA4NDdaIiwiZG9ja2VyX3ZlcnNpb24iOiIyMC4xMC4xMiIsImhpc3RvcnkiOlt7ImNyZWF0ZWQiOiIyMDIyLTA3LTExVDIyOjE5OjU1Ljk1OTUyNDQ0NloiLCJjcmVhdGVkX2J5IjoiL2Jpbi9zaCAtYyAjKG5vcCkgQ09QWSBkaXI6Yjg0NDJmMDNkZTQ1ODg5OGM5MDBjNzM2ZTY4YmQ3Nzc0NThjYzgzMmMxODRiZGViOGYyZWE1YWFiNGNiZjMxMSBpbiAvICJ9LHsiY3JlYXRlZCI6IjIwMjItMDctMTFUMjI6MTk6NTcuNTMzODE1OTUzWiIsImNyZWF0ZWRfYnkiOiIvYmluL3NoIC1jIGxkY29uZmlnIFx1MDAyNlx1MDAyNiAgICAgc2VkIC1pICcvQlVJTERfSUQvYSBWRVJTSU9OX0lEPVRFTVBMQVRFX1ZFUlNJT05fSUQnIC9ldGMvb3MtcmVsZWFzZSJ9LHsiY3JlYXRlZCI6IjIwMjItMDctMTFUMjI6MTk6NTcuNjMxOTc1NTIyWiIsImNyZWF0ZWRfYnkiOiIvYmluL3NoIC1jICMobm9wKSAgRU5WIExBTkc9Qy5VVEYtOCIsImVtcHR5X2xheWVyIjp0cnVlfSx7ImNyZWF0ZWQiOiIyMDIyLTA3LTExVDIyOjE5OjU3LjczMzI3MDg0N1oiLCJjcmVhdGVkX2J5IjoiL2Jpbi9zaCAtYyAjKG5vcCkgIENNRCBbXCIvdXNyL2Jpbi9iYXNoXCJdIiwiZW1wdHlfbGF5ZXIiOnRydWV9XSwib3MiOiJsaW51eCIsInJvb3RmcyI6eyJ0eXBlIjoibGF5ZXJzIiwiZGlmZl9pZHMiOlsic2hhMjU2OjU1MDM1NDk3MjNlMTYyYWNlNDJhMjY0NTZjOGQwMjA0YmE4ZGZmODhjNGJiMjFhNTE4N2UyM2QyMjFlMDAzNDYiLCJzaGEyNTY6NDZkYjk0NDgxNWM4ZjAzNzVkZTBkMWU1ZjUxOTkzNTQzMGVhNjdiMDMwNTFkZmU1NGQ2YzJjNjYxOGM4YjkxMyJdfX0=",
+   "repoDigests": [
+    "index.docker.io/library/archlinux@sha256:84e36a5b9b3c0b3b889200b22ff47ed55fd34a20ed39b8a4bb83faa1b25ca7a0"
+   ],
+   "architecture": "",
+   "os": ""
+  }
+ },
+ "distro": {
+  "prettyName": "Arch Linux",
+  "name": "Arch Linux",
+  "id": "arch",
+  "versionID": "TEMPLATE_VERSION_ID",
+  "homeURL": "https://archlinux.org/",
+  "supportURL": "https://bbs.archlinux.org/",
+  "bugReportURL": "https://bugs.archlinux.org/"
+ },
+ "descriptor": {
+  "name": "syft",
+  "version": "0.46.1",
+  "configuration": {
+   "configPath": "",
+   "verbosity": 0,
+   "quiet": true,
+   "output": [
+    "json"
+   ],
+   "file": "",
+   "check-for-app-update": true,
+   "anchore": {
+    "host": "",
+    "path": "",
+    "dockerfile": "",
+    "overwrite-existing-image": false,
+    "import-timeout": 30
+   },
+   "dev": {
+    "profile-cpu": false,
+    "profile-mem": false
+   },
+   "log": {
+    "structured": false,
+    "level": "panic",
+    "file-location": ""
+   },
+   "package": {
+    "cataloger": {
+     "enabled": true,
+     "scope": "Squashed"
+    },
+    "search-unindexed-archives": false,
+    "search-indexed-archives": true
+   },
+   "file-metadata": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "digests": [
+     "sha256"
+    ]
+   },
+   "file-classification": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    }
+   },
+   "file-contents": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "skip-files-above-size": 1048576,
+    "globs": []
+   },
+   "secrets": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "AllLayers"
+    },
+    "additional-patterns": {},
+    "exclude-pattern-names": [],
+    "reveal-values": false,
+    "skip-files-above-size": 1048576
+   },
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": []
+   },
+   "exclude": [],
+   "attest": {
+    "key": "",
+    "cert": "",
+    "noUpload": false,
+    "force": false,
+    "recursive": false,
+    "replace": false,
+    "fulcioUrl": "https://fulcio.sigstore.dev",
+    "fulcio_identity_token": "",
+    "insecure_skip_verify": false,
+    "rekorUrl": "https://rekor.sigstore.dev",
+    "oidcIssuer": "https://oauth2.sigstore.dev/auth",
+    "oidcClientId": "sigstore",
+    "OIDCRedirectURL": ""
+   },
+   "platform": ""
+  }
+ },
+ "schema": {
+  "version": "3.2.3",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-3.2.3.json"
+ }
+}

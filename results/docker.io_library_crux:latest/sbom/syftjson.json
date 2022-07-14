@@ -1,0 +1,127 @@
+{
+ "artifacts": [],
+ "artifactRelationships": [],
+ "source": {
+  "type": "image",
+  "target": {
+   "userInput": "docker.io/library/crux:latest",
+   "imageID": "sha256:4dbff4cf50d728c83bd7c2a0b3f966506c40dc1ed3657289eb8cc11d9d1200e0",
+   "manifestDigest": "sha256:b15570468c2dd56d4bd1bd14011b7085d7bcb2179b2d718af235676acd38ddee",
+   "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+   "tags": [],
+   "imageSize": 453971852,
+   "layers": [
+    {
+     "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+     "digest": "sha256:6ec8f30c510e2d64ed6ccc27f41abf8d6d3185f2354fff642358f336bfc4b8eb",
+     "size": 453971852
+    }
+   ],
+   "manifest": "ewogICAic2NoZW1hVmVyc2lvbiI6IDIsCiAgICJtZWRpYVR5cGUiOiAiYXBwbGljYXRpb24vdm5kLmRvY2tlci5kaXN0cmlidXRpb24ubWFuaWZlc3QudjIranNvbiIsCiAgICJjb25maWciOiB7CiAgICAgICJtZWRpYVR5cGUiOiAiYXBwbGljYXRpb24vdm5kLmRvY2tlci5jb250YWluZXIuaW1hZ2UudjEranNvbiIsCiAgICAgICJzaXplIjogMTkzMiwKICAgICAgImRpZ2VzdCI6ICJzaGEyNTY6NGRiZmY0Y2Y1MGQ3MjhjODNiZDdjMmEwYjNmOTY2NTA2YzQwZGMxZWQzNjU3Mjg5ZWI4Y2MxMWQ5ZDEyMDBlMCIKICAgfSwKICAgImxheWVycyI6IFsKICAgICAgewogICAgICAgICAibWVkaWFUeXBlIjogImFwcGxpY2F0aW9uL3ZuZC5kb2NrZXIuaW1hZ2Uucm9vdGZzLmRpZmYudGFyLmd6aXAiLAogICAgICAgICAic2l6ZSI6IDE1OTU1NDI0NywKICAgICAgICAgImRpZ2VzdCI6ICJzaGEyNTY6MTgwYTViM2JhZmMzYzk0MTMzMmMwY2EyYzQwZTAwNGFlMGFhYmZhNzE3M2EyOGQ1Y2E1Zjg1NjJmNTk2NDQyYSIKICAgICAgfQogICBdCn0=",
+   "config": "eyJhcmNoaXRlY3R1cmUiOiJhbWQ2NCIsImF1dGhvciI6IkphbWVzIE1pbGxzLCBwcm9sb2dpYyBhdCBzaG9ydGNpcmN1aXQgZG90IG5ldCBkb3QgYXUiLCJjb25maWciOnsiSG9zdG5hbWUiOiIiLCJEb21haW5uYW1lIjoiIiwiVXNlciI6IiIsIkF0dGFjaFN0ZGluIjpmYWxzZSwiQXR0YWNoU3Rkb3V0IjpmYWxzZSwiQXR0YWNoU3RkZXJyIjpmYWxzZSwiVHR5IjpmYWxzZSwiT3BlblN0ZGluIjpmYWxzZSwiU3RkaW5PbmNlIjpmYWxzZSwiRW52IjpbIlBBVEg9L3Vzci9sb2NhbC9zYmluOi91c3IvbG9jYWwvYmluOi91c3Ivc2JpbjovdXNyL2Jpbjovc2JpbjovYmluIl0sIkNtZCI6WyIvYmluL2Jhc2giXSwiQXJnc0VzY2FwZWQiOnRydWUsIkltYWdlIjoic2hhMjU2OjE4ODg0ZDgzNzFhMzMwYmFlODg5ZmU5ZWQ5NTI2M2M0YjhkNjBiNzZjZDAyNTM2MWMwMDhjZjc3NWMzYTU5NGEiLCJWb2x1bWVzIjpudWxsLCJXb3JraW5nRGlyIjoiIiwiRW50cnlwb2ludCI6bnVsbCwiT25CdWlsZCI6bnVsbCwiTGFiZWxzIjpudWxsfSwiY29udGFpbmVyIjoiN2ZmYWQ1MGU5MTJhMmNjNjhhNWQ1NTg2ODc2ODMyNjg5ZTRkODI2YTgyNTA0YjFhY2ZmNjc5MGRiM2M2ZWQ1OCIsImNvbnRhaW5lcl9jb25maWciOnsiSG9zdG5hbWUiOiI3ZmZhZDUwZTkxMmEiLCJEb21haW5uYW1lIjoiIiwiVXNlciI6IiIsIkF0dGFjaFN0ZGluIjpmYWxzZSwiQXR0YWNoU3Rkb3V0IjpmYWxzZSwiQXR0YWNoU3RkZXJyIjpmYWxzZSwiVHR5IjpmYWxzZSwiT3BlblN0ZGluIjpmYWxzZSwiU3RkaW5PbmNlIjpmYWxzZSwiRW52IjpbIlBBVEg9L3Vzci9sb2NhbC9zYmluOi91c3IvbG9jYWwvYmluOi91c3Ivc2JpbjovdXNyL2Jpbjovc2JpbjovYmluIl0sIkNtZCI6WyIvYmluL3NoIiwiLWMiLCIjKG5vcCkgIiwiQ01EIFtcIi9iaW4vYmFzaFwiXSJdLCJBcmdzRXNjYXBlZCI6dHJ1ZSwiSW1hZ2UiOiJzaGEyNTY6MTg4ODRkODM3MWEzMzBiYWU4ODlmZTllZDk1MjYzYzRiOGQ2MGI3NmNkMDI1MzYxYzAwOGNmNzc1YzNhNTk0YSIsIlZvbHVtZXMiOm51bGwsIldvcmtpbmdEaXIiOiIiLCJFbnRyeXBvaW50IjpudWxsLCJPbkJ1aWxkIjpudWxsLCJMYWJlbHMiOnt9fSwiY3JlYXRlZCI6IjIwMjAtMDktMTZUMTc6NTI6MTcuMDE1MzI0MDgxWiIsImRvY2tlcl92ZXJzaW9uIjoiMTguMDkuNyIsImhpc3RvcnkiOlt7ImNyZWF0ZWQiOiIyMDE4LTExLTIxVDE2OjUxOjM0Ljk3MzE4NzY1WiIsImF1dGhvciI6IkphbWVzIE1pbGxzLCBwcm9sb2dpYyBhdCBzaG9ydGNpcmN1aXQgZG90IG5ldCBkb3QgYXUiLCJjcmVhdGVkX2J5IjoiL2Jpbi9zaCAtYyAjKG5vcCkgIE1BSU5UQUlORVIgSmFtZXMgTWlsbHMsIHByb2xvZ2ljIGF0IHNob3J0Y2lyY3VpdCBkb3QgbmV0IGRvdCBhdSIsImVtcHR5X2xheWVyIjp0cnVlfSx7ImNyZWF0ZWQiOiIyMDIwLTA5LTE2VDE3OjUyOjE1LjkzMzk4NzgxNloiLCJhdXRob3IiOiJKYW1lcyBNaWxscywgcHJvbG9naWMgYXQgc2hvcnRjaXJjdWl0IGRvdCBuZXQgZG90IGF1IiwiY3JlYXRlZF9ieSI6Ii9iaW4vc2ggLWMgIyhub3ApIEFERCBmaWxlOjk3MDhmODg3OWM1NjE1NTYzZDAzNDYwODRkZDY3ZTliMTFlYjAxY2VhMWYxODdkYzQyZjFiM2ZlYTM0NWU4ZTMgaW4gLyAifSx7ImNyZWF0ZWQiOiIyMDIwLTA5LTE2VDE3OjUyOjE3LjAxNTMyNDA4MVoiLCJhdXRob3IiOiJKYW1lcyBNaWxscywgcHJvbG9naWMgYXQgc2hvcnRjaXJjdWl0IGRvdCBuZXQgZG90IGF1IiwiY3JlYXRlZF9ieSI6Ii9iaW4vc2ggLWMgIyhub3ApICBDTUQgW1wiL2Jpbi9iYXNoXCJdIiwiZW1wdHlfbGF5ZXIiOnRydWV9XSwib3MiOiJsaW51eCIsInJvb3RmcyI6eyJ0eXBlIjoibGF5ZXJzIiwiZGlmZl9pZHMiOlsic2hhMjU2OjZlYzhmMzBjNTEwZTJkNjRlZDZjY2MyN2Y0MWFiZjhkNmQzMTg1ZjIzNTRmZmY2NDIzNThmMzM2YmZjNGI4ZWIiXX19",
+   "repoDigests": [
+    "index.docker.io/library/crux@sha256:afcc4566ea59c522f471da72dcf236ae9d483e21fdc21cb5e02180a1e2aa790d"
+   ],
+   "architecture": "",
+   "os": ""
+  }
+ },
+ "distro": {},
+ "descriptor": {
+  "name": "syft",
+  "version": "0.46.1",
+  "configuration": {
+   "configPath": "",
+   "verbosity": 0,
+   "quiet": true,
+   "output": [
+    "json"
+   ],
+   "file": "",
+   "check-for-app-update": true,
+   "anchore": {
+    "host": "",
+    "path": "",
+    "dockerfile": "",
+    "overwrite-existing-image": false,
+    "import-timeout": 30
+   },
+   "dev": {
+    "profile-cpu": false,
+    "profile-mem": false
+   },
+   "log": {
+    "structured": false,
+    "level": "panic",
+    "file-location": ""
+   },
+   "package": {
+    "cataloger": {
+     "enabled": true,
+     "scope": "Squashed"
+    },
+    "search-unindexed-archives": false,
+    "search-indexed-archives": true
+   },
+   "file-metadata": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "digests": [
+     "sha256"
+    ]
+   },
+   "file-classification": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    }
+   },
+   "file-contents": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "skip-files-above-size": 1048576,
+    "globs": []
+   },
+   "secrets": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "AllLayers"
+    },
+    "additional-patterns": {},
+    "exclude-pattern-names": [],
+    "reveal-values": false,
+    "skip-files-above-size": 1048576
+   },
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": []
+   },
+   "exclude": [],
+   "attest": {
+    "key": "",
+    "cert": "",
+    "noUpload": false,
+    "force": false,
+    "recursive": false,
+    "replace": false,
+    "fulcioUrl": "https://fulcio.sigstore.dev",
+    "fulcio_identity_token": "",
+    "insecure_skip_verify": false,
+    "rekorUrl": "https://rekor.sigstore.dev",
+    "oidcIssuer": "https://oauth2.sigstore.dev/auth",
+    "oidcClientId": "sigstore",
+    "OIDCRedirectURL": ""
+   },
+   "platform": ""
+  }
+ },
+ "schema": {
+  "version": "3.2.3",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-3.2.3.json"
+ }
+}
