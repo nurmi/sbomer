@@ -25,10 +25,15 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
+      - name: Installl syft
+        run: |
+          curl -sSfL https://raw.githubusercontent.com/anchore/syft/main/install.sh | sh -s -- -b ./ 0.48.0
+
+      - name: Generate input images
         run: |
           ./scripts/generate_dockerhub_images.py > input_images/popular_dockerhub_images
+
+      - name: Make SBOMs
           ./scripts/make_sboms.sh
 
       - name: Commit new results
