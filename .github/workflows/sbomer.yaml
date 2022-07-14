@@ -34,6 +34,7 @@ jobs:
           ./scripts/generate_dockerhub_images.py > input_images/popular_dockerhub_images
 
       - name: Make SBOMs
+        run: |
           ./scripts/make_sboms.sh
 
       - name: Commit new results
