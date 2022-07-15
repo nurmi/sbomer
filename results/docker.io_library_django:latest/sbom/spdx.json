@@ -3,7 +3,7 @@
  "name": "docker.io/library/django-latest",
  "spdxVersion": "SPDX-2.2",
  "creationInfo": {
-  "created": "2022-07-14T23:27:08.883291736Z",
+  "created": "2022-07-15T01:11:07.69829953Z",
   "creators": [
    "Organization: Anchore, Inc",
    "Tool: syft-0.48.0"
@@ -11,7 +11,7 @@
   "licenseListVersion": "3.17"
  },
  "dataLicense": "CC0-1.0",
- "documentNamespace": "https://anchore.com/syft/image/docker.io/library/django-latest-5b97ebda-231c-430a-b4b6-9f5f830df406",
+ "documentNamespace": "https://anchore.com/syft/image/docker.io/library/django-latest-d0d1979d-8952-46c7-81ae-83aacb74a2ba",
  "packages": [
   {
    "SPDXID": "SPDXRef-f912a38cb2e119f2",
@@ -110527,15 +110527,15 @@
    "relatedSpdxElement": "SPDXRef-1a9dcc8f500ffdd8"
   },
   {
-   "spdxElementId": "SPDXRef-c72aa995edaf0ece",
-   "relationshipType": "OTHER",
-   "relatedSpdxElement": "SPDXRef-b9bba3147f3f67a8",
-   "comment": "ownership-by-file-overlap: indicates that the parent package claims ownership of a child package since the parent metadata indicates overlap with a location that a cataloger found the child package by"
-  },
-  {
    "spdxElementId": "SPDXRef-99f87a0203e633c6",
    "relationshipType": "OTHER",
    "relatedSpdxElement": "SPDXRef-779c2394425734e1",
+   "comment": "ownership-by-file-overlap: indicates that the parent package claims ownership of a child package since the parent metadata indicates overlap with a location that a cataloger found the child package by"
+  },
+  {
+   "spdxElementId": "SPDXRef-c72aa995edaf0ece",
+   "relationshipType": "OTHER",
+   "relatedSpdxElement": "SPDXRef-b9bba3147f3f67a8",
    "comment": "ownership-by-file-overlap: indicates that the parent package claims ownership of a child package since the parent metadata indicates overlap with a location that a cataloger found the child package by"
   }
  ]

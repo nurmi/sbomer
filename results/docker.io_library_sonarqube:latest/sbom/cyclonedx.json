@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:973bd1ab-e2cf-4591-9031-134854e3497e",
+  "serialNumber": "urn:uuid:7751cfdf-0d5c-4e6d-ae69-af449c17d955",
   "version": 1,
   "metadata": {
-    "timestamp": "2022-07-15T00:05:57Z",
+    "timestamp": "2022-07-15T01:41:53Z",
     "tools": [
       {
         "vendor": "anchore",
@@ -6024,75 +6024,6 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/cparse-jruby/cparse-jruby?package-id=40738949795e5fe2",
-      "type": "library",
-      "name": "cparse-jruby",
-      "cpe": "cpe:2.3:a:cparse-jruby:cparse-jruby:*:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/cparse-jruby/cparse-jruby",
-      "externalReferences": [
-        {
-          "url": "",
-          "hashes": [
-            {
-              "alg": "SHA-1",
-              "content": "dde4adfef288358dafebc1857a4dbef5b41c20d1"
-            }
-          ],
-          "type": "build-meta"
-        }
-      ],
-      "properties": [
-        {
-          "name": "syft:package:foundBy",
-          "value": "java-cataloger"
-        },
-        {
-          "name": "syft:package:language",
-          "value": "java"
-        },
-        {
-          "name": "syft:package:metadataType",
-          "value": "JavaMetadata"
-        },
-        {
-          "name": "syft:package:type",
-          "value": "java-archive"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:cparse-jruby:cparse_jruby:*:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:cparse_jruby:cparse-jruby:*:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:cparse_jruby:cparse_jruby:*:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:cparse:cparse-jruby:*:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:cparse:cparse_jruby:*:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:location:0:layerID",
-          "value": "sha256:0b000c6b229fe3c07d90a0c218d91f4faef21bf9f3ab49bbb644d4330e6d9a05"
-        },
-        {
-          "name": "syft:location:0:path",
-          "value": "/opt/sonarqube/lib/extensions/sonar-ruby-plugin-1.9.0.3429.jar"
-        },
-        {
-          "name": "syft:metadata:virtualPath",
-          "value": "/opt/sonarqube/lib/extensions/sonar-ruby-plugin-1.9.0.3429.jar:racc-1.5.2-java/lib/racc/cparse-jruby.jar"
-        }
-      ]
-    },
-    {
       "bom-ref": "pkg:maven/cparse-jruby/cparse-jruby?package-id=36116472548a9244",
       "type": "library",
       "name": "cparse-jruby",
@@ -6158,6 +6089,75 @@
         {
           "name": "syft:metadata:virtualPath",
           "value": "/opt/sonarqube/lib/extensions/sonar-ruby-plugin-1.9.0.3429.jar:META-INF/jruby.home/lib/ruby/stdlib/racc/cparse-jruby.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/cparse-jruby/cparse-jruby?package-id=40738949795e5fe2",
+      "type": "library",
+      "name": "cparse-jruby",
+      "cpe": "cpe:2.3:a:cparse-jruby:cparse-jruby:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/cparse-jruby/cparse-jruby",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "dde4adfef288358dafebc1857a4dbef5b41c20d1"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:cparse-jruby:cparse_jruby:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:cparse_jruby:cparse-jruby:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:cparse_jruby:cparse_jruby:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:cparse:cparse-jruby:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:cparse:cparse_jruby:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:0b000c6b229fe3c07d90a0c218d91f4faef21bf9f3ab49bbb644d4330e6d9a05"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/opt/sonarqube/lib/extensions/sonar-ruby-plugin-1.9.0.3429.jar"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/opt/sonarqube/lib/extensions/sonar-ruby-plugin-1.9.0.3429.jar:racc-1.5.2-java/lib/racc/cparse-jruby.jar"
         }
       ]
     },

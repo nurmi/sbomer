@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:a8ad24bc-cee3-4962-a743-597c0d27d9ba",
+  "serialNumber": "urn:uuid:36cf8472-14dd-4d30-8da6-5c5ba2581191",
   "version": 1,
   "metadata": {
-    "timestamp": "2022-07-14T23:39:44Z",
+    "timestamp": "2022-07-15T01:21:07Z",
     "tools": [
       {
         "vendor": "anchore",
@@ -191,97 +191,6 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/org.kohsuke/access-modifier-annotation@1.12?package-id=cce96094fbb8b760",
-      "type": "library",
-      "group": "org.kohsuke",
-      "name": "access-modifier-annotation",
-      "version": "1.12",
-      "cpe": "cpe:2.3:a:access-modifier-annotation:access-modifier-annotation:1.12:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/org.kohsuke/access-modifier-annotation@1.12",
-      "properties": [
-        {
-          "name": "syft:package:foundBy",
-          "value": "java-cataloger"
-        },
-        {
-          "name": "syft:package:language",
-          "value": "java"
-        },
-        {
-          "name": "syft:package:metadataType",
-          "value": "JavaMetadata"
-        },
-        {
-          "name": "syft:package:type",
-          "value": "java-archive"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:access-modifier-annotation:access_modifier_annotation:1.12:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:access_modifier_annotation:access-modifier-annotation:1.12:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:access_modifier_annotation:access_modifier_annotation:1.12:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:access-modifier:access-modifier-annotation:1.12:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:access-modifier:access_modifier_annotation:1.12:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:access_modifier:access-modifier-annotation:1.12:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:access_modifier:access_modifier_annotation:1.12:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:kohsuke:access-modifier-annotation:1.12:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:kohsuke:access_modifier_annotation:1.12:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:access:access-modifier-annotation:1.12:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:access:access_modifier_annotation:1.12:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:location:0:layerID",
-          "value": "sha256:047f9c957a2e718be97e9928f1170d25e7dadd71737ca2a1e8e3db139c905915"
-        },
-        {
-          "name": "syft:location:0:path",
-          "value": "/usr/share/jenkins/jenkins.war"
-        },
-        {
-          "name": "syft:metadata:-:artifactID",
-          "value": "access-modifier-annotation"
-        },
-        {
-          "name": "syft:metadata:-:groupID",
-          "value": "org.kohsuke"
-        },
-        {
-          "name": "syft:metadata:virtualPath",
-          "value": "/usr/share/jenkins/jenkins.war:WEB-INF/jenkins-cli.jar:access-modifier-annotation"
-        }
-      ]
-    },
-    {
       "bom-ref": "pkg:maven/org.kohsuke/access-modifier-annotation@1.12?package-id=6629abf73fcc5e9f",
       "type": "library",
       "group": "org.kohsuke",
@@ -381,6 +290,97 @@
         {
           "name": "syft:metadata:virtualPath",
           "value": "/usr/share/jenkins/jenkins.war:WEB-INF/lib/access-modifier-annotation-1.12.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.kohsuke/access-modifier-annotation@1.12?package-id=cce96094fbb8b760",
+      "type": "library",
+      "group": "org.kohsuke",
+      "name": "access-modifier-annotation",
+      "version": "1.12",
+      "cpe": "cpe:2.3:a:access-modifier-annotation:access-modifier-annotation:1.12:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.kohsuke/access-modifier-annotation@1.12",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:access-modifier-annotation:access_modifier_annotation:1.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:access_modifier_annotation:access-modifier-annotation:1.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:access_modifier_annotation:access_modifier_annotation:1.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:access-modifier:access-modifier-annotation:1.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:access-modifier:access_modifier_annotation:1.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:access_modifier:access-modifier-annotation:1.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:access_modifier:access_modifier_annotation:1.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:kohsuke:access-modifier-annotation:1.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:kohsuke:access_modifier_annotation:1.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:access:access-modifier-annotation:1.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:access:access_modifier_annotation:1.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:047f9c957a2e718be97e9928f1170d25e7dadd71737ca2a1e8e3db139c905915"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/usr/share/jenkins/jenkins.war"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "access-modifier-annotation"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.kohsuke"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/usr/share/jenkins/jenkins.war:WEB-INF/jenkins-cli.jar:access-modifier-annotation"
         }
       ]
     },
@@ -3184,53 +3184,6 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/args4j/args4j@2.0.31?package-id=f3ff2a43b7565476",
-      "type": "library",
-      "group": "args4j",
-      "name": "args4j",
-      "version": "2.0.31",
-      "cpe": "cpe:2.3:a:args4j:args4j:2.0.31:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/args4j/args4j@2.0.31",
-      "properties": [
-        {
-          "name": "syft:package:foundBy",
-          "value": "java-cataloger"
-        },
-        {
-          "name": "syft:package:language",
-          "value": "java"
-        },
-        {
-          "name": "syft:package:metadataType",
-          "value": "JavaMetadata"
-        },
-        {
-          "name": "syft:package:type",
-          "value": "java-archive"
-        },
-        {
-          "name": "syft:location:0:layerID",
-          "value": "sha256:047f9c957a2e718be97e9928f1170d25e7dadd71737ca2a1e8e3db139c905915"
-        },
-        {
-          "name": "syft:location:0:path",
-          "value": "/usr/share/jenkins/jenkins.war"
-        },
-        {
-          "name": "syft:metadata:-:artifactID",
-          "value": "args4j"
-        },
-        {
-          "name": "syft:metadata:-:groupID",
-          "value": "args4j"
-        },
-        {
-          "name": "syft:metadata:virtualPath",
-          "value": "/usr/share/jenkins/jenkins.war:WEB-INF/jenkins-cli.jar:args4j"
-        }
-      ]
-    },
-    {
       "bom-ref": "pkg:maven/args4j/args4j@2.0.31?package-id=9348149909ede323",
       "type": "library",
       "group": "args4j",
@@ -3337,6 +3290,53 @@
         {
           "name": "syft:metadata:virtualPath",
           "value": "/usr/share/jenkins/jenkins.war:WEB-INF/lib/args4j-2.0.31.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/args4j/args4j@2.0.31?package-id=f3ff2a43b7565476",
+      "type": "library",
+      "group": "args4j",
+      "name": "args4j",
+      "version": "2.0.31",
+      "cpe": "cpe:2.3:a:args4j:args4j:2.0.31:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/args4j/args4j@2.0.31",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:047f9c957a2e718be97e9928f1170d25e7dadd71737ca2a1e8e3db139c905915"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/usr/share/jenkins/jenkins.war"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "args4j"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "args4j"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/usr/share/jenkins/jenkins.war:WEB-INF/jenkins-cli.jar:args4j"
         }
       ]
     },
@@ -5733,69 +5733,6 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/org.jenkins-ci.main/cli@2.60.3?package-id=9045b44fbbd49a6b",
-      "type": "library",
-      "group": "org.jenkins-ci.main",
-      "name": "cli",
-      "version": "2.60.3",
-      "cpe": "cpe:2.3:a:jenkins-ci:cli:2.60.3:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/org.jenkins-ci.main/cli@2.60.3",
-      "properties": [
-        {
-          "name": "syft:package:foundBy",
-          "value": "java-cataloger"
-        },
-        {
-          "name": "syft:package:language",
-          "value": "java"
-        },
-        {
-          "name": "syft:package:metadataType",
-          "value": "JavaMetadata"
-        },
-        {
-          "name": "syft:package:type",
-          "value": "java-archive"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jenkins_ci:cli:2.60.3:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jenkins:cli:2.60.3:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:main:cli:2.60.3:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:cli:cli:2.60.3:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:location:0:layerID",
-          "value": "sha256:047f9c957a2e718be97e9928f1170d25e7dadd71737ca2a1e8e3db139c905915"
-        },
-        {
-          "name": "syft:location:0:path",
-          "value": "/usr/share/jenkins/jenkins.war"
-        },
-        {
-          "name": "syft:metadata:-:artifactID",
-          "value": "cli"
-        },
-        {
-          "name": "syft:metadata:-:groupID",
-          "value": "org.jenkins-ci.main"
-        },
-        {
-          "name": "syft:metadata:virtualPath",
-          "value": "/usr/share/jenkins/jenkins.war:WEB-INF/jenkins-cli.jar:cli"
-        }
-      ]
-    },
-    {
       "bom-ref": "pkg:maven/org.jenkins-ci.main/cli@2.60.3?package-id=13176606bde3c436",
       "type": "library",
       "group": "org.jenkins-ci.main",
@@ -5867,6 +5804,69 @@
         {
           "name": "syft:metadata:virtualPath",
           "value": "/usr/share/jenkins/jenkins.war:WEB-INF/lib/cli-2.60.3.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.jenkins-ci.main/cli@2.60.3?package-id=9045b44fbbd49a6b",
+      "type": "library",
+      "group": "org.jenkins-ci.main",
+      "name": "cli",
+      "version": "2.60.3",
+      "cpe": "cpe:2.3:a:jenkins-ci:cli:2.60.3:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.jenkins-ci.main/cli@2.60.3",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jenkins_ci:cli:2.60.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jenkins:cli:2.60.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:main:cli:2.60.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:cli:cli:2.60.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:047f9c957a2e718be97e9928f1170d25e7dadd71737ca2a1e8e3db139c905915"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/usr/share/jenkins/jenkins.war"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "cli"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.jenkins-ci.main"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/usr/share/jenkins/jenkins.war:WEB-INF/jenkins-cli.jar:cli"
         }
       ]
     },
@@ -7772,97 +7772,6 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/commons-io/commons-io@2.4?package-id=d216128f5d9624cd",
-      "type": "library",
-      "group": "commons-io",
-      "name": "commons-io",
-      "version": "2.4",
-      "cpe": "cpe:2.3:a:commons-io:commons-io:2.4:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/commons-io/commons-io@2.4",
-      "properties": [
-        {
-          "name": "syft:package:foundBy",
-          "value": "java-cataloger"
-        },
-        {
-          "name": "syft:package:language",
-          "value": "java"
-        },
-        {
-          "name": "syft:package:metadataType",
-          "value": "JavaMetadata"
-        },
-        {
-          "name": "syft:package:type",
-          "value": "java-archive"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:commons-io:commons_io:2.4:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:commons_io:commons-io:2.4:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:commons_io:commons_io:2.4:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:commons-io:commons:2.4:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:commons:commons-io:2.4:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:commons:commons_io:2.4:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:commons_io:commons:2.4:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache:commons-io:2.4:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache:commons_io:2.4:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:commons:commons:2.4:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache:commons:2.4:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:location:0:layerID",
-          "value": "sha256:047f9c957a2e718be97e9928f1170d25e7dadd71737ca2a1e8e3db139c905915"
-        },
-        {
-          "name": "syft:location:0:path",
-          "value": "/usr/share/jenkins/jenkins.war"
-        },
-        {
-          "name": "syft:metadata:-:artifactID",
-          "value": "commons-io"
-        },
-        {
-          "name": "syft:metadata:-:groupID",
-          "value": "commons-io"
-        },
-        {
-          "name": "syft:metadata:virtualPath",
-          "value": "/usr/share/jenkins/jenkins.war:WEB-INF/jenkins-cli.jar:commons-io"
-        }
-      ]
-    },
-    {
       "bom-ref": "pkg:maven/commons-io/commons-io@2.4?package-id=c8538ca74dd642f1",
       "type": "library",
       "group": "commons-io",
@@ -8026,6 +7935,97 @@
         {
           "name": "syft:metadata:virtualPath",
           "value": "/usr/share/jenkins/jenkins.war:WEB-INF/lib/commons-io-2.4.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/commons-io/commons-io@2.4?package-id=d216128f5d9624cd",
+      "type": "library",
+      "group": "commons-io",
+      "name": "commons-io",
+      "version": "2.4",
+      "cpe": "cpe:2.3:a:commons-io:commons-io:2.4:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/commons-io/commons-io@2.4",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons-io:commons_io:2.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons_io:commons-io:2.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons_io:commons_io:2.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons-io:commons:2.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons:commons-io:2.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons:commons_io:2.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons_io:commons:2.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:commons-io:2.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:commons_io:2.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons:commons:2.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:commons:2.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:047f9c957a2e718be97e9928f1170d25e7dadd71737ca2a1e8e3db139c905915"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/usr/share/jenkins/jenkins.war"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "commons-io"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "commons-io"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/usr/share/jenkins/jenkins.war:WEB-INF/jenkins-cli.jar:commons-io"
         }
       ]
     },
@@ -9199,173 +9199,6 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/commons-lang/commons-lang@2.6?package-id=8af543615305fd52",
-      "type": "library",
-      "group": "commons-lang",
-      "name": "commons-lang",
-      "version": "2.6",
-      "cpe": "cpe:2.3:a:apache-software-foundation:commons-lang:2.6:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/commons-lang/commons-lang@2.6",
-      "externalReferences": [
-        {
-          "url": "",
-          "hashes": [
-            {
-              "alg": "SHA-1",
-              "content": "0ce1edb914c94ebc388f086c6827e8bdeec71ac2"
-            }
-          ],
-          "type": "build-meta"
-        }
-      ],
-      "properties": [
-        {
-          "name": "syft:package:foundBy",
-          "value": "java-cataloger"
-        },
-        {
-          "name": "syft:package:language",
-          "value": "java"
-        },
-        {
-          "name": "syft:package:metadataType",
-          "value": "JavaMetadata"
-        },
-        {
-          "name": "syft:package:type",
-          "value": "java-archive"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache-software-foundation:commons_lang:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache_software_foundation:commons-lang:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache_software_foundation:commons_lang:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache-software-foundation:commons:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache_software_foundation:commons:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache-software-foundation:lang:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache_software_foundation:lang:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:commons-lang:commons-lang:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:commons-lang:commons_lang:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:commons_lang:commons-lang:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:commons_lang:commons_lang:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:commons-lang:commons:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:commons:commons-lang:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:commons:commons_lang:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:commons_lang:commons:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache:commons-lang:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache:commons_lang:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:commons-lang:lang:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:commons_lang:lang:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:lang:commons-lang:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:lang:commons_lang:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:commons:commons:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache:commons:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:commons:lang:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:lang:commons:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache:lang:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:lang:lang:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:location:0:layerID",
-          "value": "sha256:047f9c957a2e718be97e9928f1170d25e7dadd71737ca2a1e8e3db139c905915"
-        },
-        {
-          "name": "syft:location:0:path",
-          "value": "/usr/share/jenkins/jenkins.war"
-        },
-        {
-          "name": "syft:metadata:-:artifactID",
-          "value": "commons-lang"
-        },
-        {
-          "name": "syft:metadata:-:groupID",
-          "value": "commons-lang"
-        },
-        {
-          "name": "syft:metadata:virtualPath",
-          "value": "/usr/share/jenkins/jenkins.war:WEB-INF/detached-plugins/maven-plugin.hpi:WEB-INF/lib/commons-lang-2.6.jar"
-        }
-      ]
-    },
-    {
       "bom-ref": "pkg:maven/commons-lang/commons-lang@2.6?package-id=4fb44686e2830325",
       "type": "library",
       "group": "commons-lang",
@@ -9529,6 +9362,173 @@
         {
           "name": "syft:metadata:virtualPath",
           "value": "/usr/share/jenkins/jenkins.war:WEB-INF/lib/commons-lang-2.6.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/commons-lang/commons-lang@2.6?package-id=8af543615305fd52",
+      "type": "library",
+      "group": "commons-lang",
+      "name": "commons-lang",
+      "version": "2.6",
+      "cpe": "cpe:2.3:a:apache-software-foundation:commons-lang:2.6:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/commons-lang/commons-lang@2.6",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "0ce1edb914c94ebc388f086c6827e8bdeec71ac2"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache-software-foundation:commons_lang:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache_software_foundation:commons-lang:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache_software_foundation:commons_lang:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache-software-foundation:commons:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache_software_foundation:commons:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache-software-foundation:lang:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache_software_foundation:lang:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons-lang:commons-lang:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons-lang:commons_lang:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons_lang:commons-lang:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons_lang:commons_lang:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons-lang:commons:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons:commons-lang:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons:commons_lang:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons_lang:commons:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:commons-lang:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:commons_lang:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons-lang:lang:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons_lang:lang:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:lang:commons-lang:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:lang:commons_lang:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons:commons:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:commons:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons:lang:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:lang:commons:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:lang:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:lang:lang:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:047f9c957a2e718be97e9928f1170d25e7dadd71737ca2a1e8e3db139c905915"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/usr/share/jenkins/jenkins.war"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "commons-lang"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "commons-lang"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/usr/share/jenkins/jenkins.war:WEB-INF/detached-plugins/maven-plugin.hpi:WEB-INF/lib/commons-lang-2.6.jar"
         }
       ]
     },
@@ -9811,129 +9811,6 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/org.jenkins-ci/constant-pool-scanner@1.2?package-id=640ffa98d6a96c9d",
-      "type": "library",
-      "group": "org.jenkins-ci",
-      "name": "constant-pool-scanner",
-      "version": "1.2",
-      "cpe": "cpe:2.3:a:constant-pool-scanner:constant-pool-scanner:1.2:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/org.jenkins-ci/constant-pool-scanner@1.2",
-      "properties": [
-        {
-          "name": "syft:package:foundBy",
-          "value": "java-cataloger"
-        },
-        {
-          "name": "syft:package:language",
-          "value": "java"
-        },
-        {
-          "name": "syft:package:metadataType",
-          "value": "JavaMetadata"
-        },
-        {
-          "name": "syft:package:type",
-          "value": "java-archive"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:constant-pool-scanner:constant_pool_scanner:1.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:constant_pool_scanner:constant-pool-scanner:1.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:constant_pool_scanner:constant_pool_scanner:1.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:constant-pool:constant-pool-scanner:1.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:constant-pool:constant_pool_scanner:1.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:constant_pool:constant-pool-scanner:1.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:constant_pool:constant_pool_scanner:1.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jenkins-ci:constant-pool-scanner:1.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jenkins-ci:constant_pool_scanner:1.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jenkins_ci:constant-pool-scanner:1.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jenkins_ci:constant_pool_scanner:1.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:constant:constant-pool-scanner:1.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:constant:constant_pool_scanner:1.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:sonatype:constant-pool-scanner:1.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:sonatype:constant_pool_scanner:1.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jenkins:constant-pool-scanner:1.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jenkins:constant_pool_scanner:1.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:oss:constant-pool-scanner:1.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:oss:constant_pool_scanner:1.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:location:0:layerID",
-          "value": "sha256:047f9c957a2e718be97e9928f1170d25e7dadd71737ca2a1e8e3db139c905915"
-        },
-        {
-          "name": "syft:location:0:path",
-          "value": "/usr/share/jenkins/jenkins.war"
-        },
-        {
-          "name": "syft:metadata:-:artifactID",
-          "value": "constant-pool-scanner"
-        },
-        {
-          "name": "syft:metadata:-:groupID",
-          "value": "org.jenkins-ci"
-        },
-        {
-          "name": "syft:metadata:virtualPath",
-          "value": "/usr/share/jenkins/jenkins.war:WEB-INF/jenkins-cli.jar:constant-pool-scanner"
-        }
-      ]
-    },
-    {
       "bom-ref": "pkg:maven/org.jenkins-ci/constant-pool-scanner@1.2?package-id=4ca12bedcba0449e",
       "type": "library",
       "group": "org.jenkins-ci",
@@ -10053,6 +9930,129 @@
         {
           "name": "syft:metadata:virtualPath",
           "value": "/usr/share/jenkins/jenkins.war:WEB-INF/lib/remoting-3.7.jar:constant-pool-scanner"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.jenkins-ci/constant-pool-scanner@1.2?package-id=640ffa98d6a96c9d",
+      "type": "library",
+      "group": "org.jenkins-ci",
+      "name": "constant-pool-scanner",
+      "version": "1.2",
+      "cpe": "cpe:2.3:a:constant-pool-scanner:constant-pool-scanner:1.2:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.jenkins-ci/constant-pool-scanner@1.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:constant-pool-scanner:constant_pool_scanner:1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:constant_pool_scanner:constant-pool-scanner:1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:constant_pool_scanner:constant_pool_scanner:1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:constant-pool:constant-pool-scanner:1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:constant-pool:constant_pool_scanner:1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:constant_pool:constant-pool-scanner:1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:constant_pool:constant_pool_scanner:1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jenkins-ci:constant-pool-scanner:1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jenkins-ci:constant_pool_scanner:1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jenkins_ci:constant-pool-scanner:1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jenkins_ci:constant_pool_scanner:1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:constant:constant-pool-scanner:1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:constant:constant_pool_scanner:1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sonatype:constant-pool-scanner:1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sonatype:constant_pool_scanner:1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jenkins:constant-pool-scanner:1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jenkins:constant_pool_scanner:1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:oss:constant-pool-scanner:1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:oss:constant_pool_scanner:1.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:047f9c957a2e718be97e9928f1170d25e7dadd71737ca2a1e8e3db139c905915"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/usr/share/jenkins/jenkins.war"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "constant-pool-scanner"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.jenkins-ci"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/usr/share/jenkins/jenkins.war:WEB-INF/jenkins-cli.jar:constant-pool-scanner"
         }
       ]
     },
@@ -13956,6 +13956,69 @@
       ]
     },
     {
+      "bom-ref": "pkg:maven/com.google.guava/guava@11.0.1?package-id=7108dca45bc1dbc0",
+      "type": "library",
+      "group": "com.google.guava",
+      "name": "guava",
+      "version": "11.0.1",
+      "cpe": "cpe:2.3:a:google:guava:11.0.1:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/com.google.guava/guava@11.0.1",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "57b40a943725d43610c898ac0169adf1b2d55742"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:guava:guava:11.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:047f9c957a2e718be97e9928f1170d25e7dadd71737ca2a1e8e3db139c905915"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/usr/share/jenkins/jenkins.war"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "guava"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "com.google.guava"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/usr/share/jenkins/jenkins.war:WEB-INF/lib/guava-11.0.1.jar"
+        }
+      ]
+    },
+    {
       "bom-ref": "pkg:maven/com.google.guava/guava@11.0.1?package-id=1bc7b72a76a90ea3",
       "type": "library",
       "group": "com.google.guava",
@@ -14066,69 +14129,6 @@
         {
           "name": "syft:metadata:virtualPath",
           "value": "/usr/share/jenkins/jenkins.war:WEB-INF/detached-plugins/maven-plugin.hpi:WEB-INF/lib/guava-11.0.1.jar"
-        }
-      ]
-    },
-    {
-      "bom-ref": "pkg:maven/com.google.guava/guava@11.0.1?package-id=7108dca45bc1dbc0",
-      "type": "library",
-      "group": "com.google.guava",
-      "name": "guava",
-      "version": "11.0.1",
-      "cpe": "cpe:2.3:a:google:guava:11.0.1:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/com.google.guava/guava@11.0.1",
-      "externalReferences": [
-        {
-          "url": "",
-          "hashes": [
-            {
-              "alg": "SHA-1",
-              "content": "57b40a943725d43610c898ac0169adf1b2d55742"
-            }
-          ],
-          "type": "build-meta"
-        }
-      ],
-      "properties": [
-        {
-          "name": "syft:package:foundBy",
-          "value": "java-cataloger"
-        },
-        {
-          "name": "syft:package:language",
-          "value": "java"
-        },
-        {
-          "name": "syft:package:metadataType",
-          "value": "JavaMetadata"
-        },
-        {
-          "name": "syft:package:type",
-          "value": "java-archive"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:guava:guava:11.0.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:location:0:layerID",
-          "value": "sha256:047f9c957a2e718be97e9928f1170d25e7dadd71737ca2a1e8e3db139c905915"
-        },
-        {
-          "name": "syft:location:0:path",
-          "value": "/usr/share/jenkins/jenkins.war"
-        },
-        {
-          "name": "syft:metadata:-:artifactID",
-          "value": "guava"
-        },
-        {
-          "name": "syft:metadata:-:groupID",
-          "value": "com.google.guava"
-        },
-        {
-          "name": "syft:metadata:virtualPath",
-          "value": "/usr/share/jenkins/jenkins.war:WEB-INF/lib/guava-11.0.1.jar"
         }
       ]
     },
@@ -15349,101 +15349,6 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/org.kohsuke.jinterop/j-interop@2.0.6-kohsuke-1?package-id=90c1990acd5117de",
-      "type": "library",
-      "group": "org.kohsuke.jinterop",
-      "name": "j-interop",
-      "version": "2.0.6-kohsuke-1",
-      "cpe": "cpe:2.3:a:j-interop:j-interop:2.0.6-kohsuke-1:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/org.kohsuke.jinterop/j-interop@2.0.6-kohsuke-1",
-      "externalReferences": [
-        {
-          "url": "",
-          "hashes": [
-            {
-              "alg": "SHA-1",
-              "content": "b2e243227608c1424ab0084564dc71659d273007"
-            }
-          ],
-          "type": "build-meta"
-        }
-      ],
-      "properties": [
-        {
-          "name": "syft:package:foundBy",
-          "value": "java-cataloger"
-        },
-        {
-          "name": "syft:package:language",
-          "value": "java"
-        },
-        {
-          "name": "syft:package:metadataType",
-          "value": "JavaMetadata"
-        },
-        {
-          "name": "syft:package:type",
-          "value": "java-archive"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:j-interop:j_interop:2.0.6-kohsuke-1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:j_interop:j-interop:2.0.6-kohsuke-1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:j_interop:j_interop:2.0.6-kohsuke-1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jinterop:j-interop:2.0.6-kohsuke-1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jinterop:j_interop:2.0.6-kohsuke-1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:kohsuke:j-interop:2.0.6-kohsuke-1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:kohsuke:j_interop:2.0.6-kohsuke-1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:j:j-interop:2.0.6-kohsuke-1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:j:j_interop:2.0.6-kohsuke-1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:location:0:layerID",
-          "value": "sha256:047f9c957a2e718be97e9928f1170d25e7dadd71737ca2a1e8e3db139c905915"
-        },
-        {
-          "name": "syft:location:0:path",
-          "value": "/usr/share/jenkins/jenkins.war"
-        },
-        {
-          "name": "syft:metadata:-:artifactID",
-          "value": "j-interop"
-        },
-        {
-          "name": "syft:metadata:-:groupID",
-          "value": "org.kohsuke.jinterop"
-        },
-        {
-          "name": "syft:metadata:virtualPath",
-          "value": "/usr/share/jenkins/jenkins.war:WEB-INF/lib/j-interop-2.0.6-kohsuke-1.jar"
-        }
-      ]
-    },
-    {
       "bom-ref": "pkg:maven/org.kohsuke.jinterop/j-interop@2.0.6-kohsuke-1?package-id=5048e22cef9f946",
       "type": "library",
       "group": "org.kohsuke.jinterop",
@@ -15535,6 +15440,101 @@
         {
           "name": "syft:metadata:virtualPath",
           "value": "/usr/share/jenkins/jenkins.war:WEB-INF/detached-plugins/windows-slaves.hpi:WEB-INF/lib/j-interop-2.0.6-kohsuke-1.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.kohsuke.jinterop/j-interop@2.0.6-kohsuke-1?package-id=90c1990acd5117de",
+      "type": "library",
+      "group": "org.kohsuke.jinterop",
+      "name": "j-interop",
+      "version": "2.0.6-kohsuke-1",
+      "cpe": "cpe:2.3:a:j-interop:j-interop:2.0.6-kohsuke-1:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.kohsuke.jinterop/j-interop@2.0.6-kohsuke-1",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "b2e243227608c1424ab0084564dc71659d273007"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:j-interop:j_interop:2.0.6-kohsuke-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:j_interop:j-interop:2.0.6-kohsuke-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:j_interop:j_interop:2.0.6-kohsuke-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jinterop:j-interop:2.0.6-kohsuke-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jinterop:j_interop:2.0.6-kohsuke-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:kohsuke:j-interop:2.0.6-kohsuke-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:kohsuke:j_interop:2.0.6-kohsuke-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:j:j-interop:2.0.6-kohsuke-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:j:j_interop:2.0.6-kohsuke-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:047f9c957a2e718be97e9928f1170d25e7dadd71737ca2a1e8e3db139c905915"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/usr/share/jenkins/jenkins.war"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "j-interop"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.kohsuke.jinterop"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/usr/share/jenkins/jenkins.war:WEB-INF/lib/j-interop-2.0.6-kohsuke-1.jar"
         }
       ]
     },
@@ -20127,56 +20127,6 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/jsr305/jsr305@1.3.9?package-id=a3dc16f2f79c4484",
-      "type": "library",
-      "name": "jsr305",
-      "version": "1.3.9",
-      "cpe": "cpe:2.3:a:jsr305:jsr305:1.3.9:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/jsr305/jsr305@1.3.9",
-      "externalReferences": [
-        {
-          "url": "",
-          "hashes": [
-            {
-              "alg": "SHA-1",
-              "content": "40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf"
-            }
-          ],
-          "type": "build-meta"
-        }
-      ],
-      "properties": [
-        {
-          "name": "syft:package:foundBy",
-          "value": "java-cataloger"
-        },
-        {
-          "name": "syft:package:language",
-          "value": "java"
-        },
-        {
-          "name": "syft:package:metadataType",
-          "value": "JavaMetadata"
-        },
-        {
-          "name": "syft:package:type",
-          "value": "java-archive"
-        },
-        {
-          "name": "syft:location:0:layerID",
-          "value": "sha256:047f9c957a2e718be97e9928f1170d25e7dadd71737ca2a1e8e3db139c905915"
-        },
-        {
-          "name": "syft:location:0:path",
-          "value": "/usr/share/jenkins/jenkins.war"
-        },
-        {
-          "name": "syft:metadata:virtualPath",
-          "value": "/usr/share/jenkins/jenkins.war:WEB-INF/detached-plugins/maven-plugin.hpi:WEB-INF/lib/jsr305-1.3.9.jar"
-        }
-      ]
-    },
-    {
       "bom-ref": "pkg:maven/jsr305/jsr305@1.3.9?package-id=592e98c9cce18b1f",
       "type": "library",
       "name": "jsr305",
@@ -20273,6 +20223,56 @@
         {
           "name": "syft:metadata:virtualPath",
           "value": "/usr/share/jenkins/jenkins.war:WEB-INF/detached-plugins/credentials.hpi:WEB-INF/lib/jsr305-1.3.9.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/jsr305/jsr305@1.3.9?package-id=a3dc16f2f79c4484",
+      "type": "library",
+      "name": "jsr305",
+      "version": "1.3.9",
+      "cpe": "cpe:2.3:a:jsr305:jsr305:1.3.9:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/jsr305/jsr305@1.3.9",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:047f9c957a2e718be97e9928f1170d25e7dadd71737ca2a1e8e3db139c905915"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/usr/share/jenkins/jenkins.war"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/usr/share/jenkins/jenkins.war:WEB-INF/detached-plugins/maven-plugin.hpi:WEB-INF/lib/jsr305-1.3.9.jar"
         }
       ]
     },
@@ -37229,6 +37229,57 @@
       ]
     },
     {
+      "bom-ref": "pkg:maven/org.jvnet.localizer/localizer@1.24?package-id=b3e2af5750e9b772",
+      "type": "library",
+      "group": "org.jvnet.localizer",
+      "name": "localizer",
+      "version": "1.24",
+      "cpe": "cpe:2.3:a:localizer:localizer:1.24:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.jvnet.localizer/localizer@1.24",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jvnet:localizer:1.24:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:047f9c957a2e718be97e9928f1170d25e7dadd71737ca2a1e8e3db139c905915"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/usr/share/jenkins/jenkins.war"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "localizer"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.jvnet.localizer"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/usr/share/jenkins/jenkins.war:WEB-INF/jenkins-cli.jar:localizer"
+        }
+      ]
+    },
+    {
       "bom-ref": "pkg:maven/org.jvnet.localizer/localizer@1.24?package-id=d3cfe6b4f7971d24",
       "type": "library",
       "group": "org.jvnet.localizer",
@@ -37288,57 +37339,6 @@
         {
           "name": "syft:metadata:virtualPath",
           "value": "/usr/share/jenkins/jenkins.war:WEB-INF/lib/localizer-1.24.jar"
-        }
-      ]
-    },
-    {
-      "bom-ref": "pkg:maven/org.jvnet.localizer/localizer@1.24?package-id=b3e2af5750e9b772",
-      "type": "library",
-      "group": "org.jvnet.localizer",
-      "name": "localizer",
-      "version": "1.24",
-      "cpe": "cpe:2.3:a:localizer:localizer:1.24:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/org.jvnet.localizer/localizer@1.24",
-      "properties": [
-        {
-          "name": "syft:package:foundBy",
-          "value": "java-cataloger"
-        },
-        {
-          "name": "syft:package:language",
-          "value": "java"
-        },
-        {
-          "name": "syft:package:metadataType",
-          "value": "JavaMetadata"
-        },
-        {
-          "name": "syft:package:type",
-          "value": "java-archive"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jvnet:localizer:1.24:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:location:0:layerID",
-          "value": "sha256:047f9c957a2e718be97e9928f1170d25e7dadd71737ca2a1e8e3db139c905915"
-        },
-        {
-          "name": "syft:location:0:path",
-          "value": "/usr/share/jenkins/jenkins.war"
-        },
-        {
-          "name": "syft:metadata:-:artifactID",
-          "value": "localizer"
-        },
-        {
-          "name": "syft:metadata:-:groupID",
-          "value": "org.jvnet.localizer"
-        },
-        {
-          "name": "syft:metadata:virtualPath",
-          "value": "/usr/share/jenkins/jenkins.war:WEB-INF/jenkins-cli.jar:localizer"
         }
       ]
     },
@@ -45970,69 +45970,6 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/org.jenkins-ci.main/remoting@3.7?package-id=d04e20c0aa00cb05",
-      "type": "library",
-      "group": "org.jenkins-ci.main",
-      "name": "remoting",
-      "version": "3.7",
-      "cpe": "cpe:2.3:a:jenkins-ci:remoting:3.7:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/org.jenkins-ci.main/remoting@3.7",
-      "properties": [
-        {
-          "name": "syft:package:foundBy",
-          "value": "java-cataloger"
-        },
-        {
-          "name": "syft:package:language",
-          "value": "java"
-        },
-        {
-          "name": "syft:package:metadataType",
-          "value": "JavaMetadata"
-        },
-        {
-          "name": "syft:package:type",
-          "value": "java-archive"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jenkins_ci:remoting:3.7:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:remoting:remoting:3.7:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jenkins:remoting:3.7:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:main:remoting:3.7:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:location:0:layerID",
-          "value": "sha256:047f9c957a2e718be97e9928f1170d25e7dadd71737ca2a1e8e3db139c905915"
-        },
-        {
-          "name": "syft:location:0:path",
-          "value": "/usr/share/jenkins/jenkins.war"
-        },
-        {
-          "name": "syft:metadata:-:artifactID",
-          "value": "remoting"
-        },
-        {
-          "name": "syft:metadata:-:groupID",
-          "value": "org.jenkins-ci.main"
-        },
-        {
-          "name": "syft:metadata:virtualPath",
-          "value": "/usr/share/jenkins/jenkins.war:WEB-INF/jenkins-cli.jar:remoting"
-        }
-      ]
-    },
-    {
       "bom-ref": "pkg:maven/org.jenkins-ci.main/remoting@3.7?package-id=f3c043dc8ed6a9b1",
       "type": "library",
       "group": "org.jenkins-ci.main",
@@ -46104,6 +46041,69 @@
         {
           "name": "syft:metadata:virtualPath",
           "value": "/usr/share/jenkins/jenkins.war:WEB-INF/lib/remoting-3.7.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.jenkins-ci.main/remoting@3.7?package-id=d04e20c0aa00cb05",
+      "type": "library",
+      "group": "org.jenkins-ci.main",
+      "name": "remoting",
+      "version": "3.7",
+      "cpe": "cpe:2.3:a:jenkins-ci:remoting:3.7:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.jenkins-ci.main/remoting@3.7",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jenkins_ci:remoting:3.7:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:remoting:remoting:3.7:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jenkins:remoting:3.7:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:main:remoting:3.7:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:047f9c957a2e718be97e9928f1170d25e7dadd71737ca2a1e8e3db139c905915"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/usr/share/jenkins/jenkins.war"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "remoting"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.jenkins-ci.main"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/usr/share/jenkins/jenkins.war:WEB-INF/jenkins-cli.jar:remoting"
         }
       ]
     },

@@ -3,7 +3,7 @@
  "name": "docker.io/library/orientdb-latest",
  "spdxVersion": "SPDX-2.2",
  "creationInfo": {
-  "created": "2022-07-14T23:52:04.475865139Z",
+  "created": "2022-07-15T01:31:34.52091634Z",
   "creators": [
    "Organization: Anchore, Inc",
    "Tool: syft-0.48.0"
@@ -11,7 +11,7 @@
   "licenseListVersion": "3.17"
  },
  "dataLicense": "CC0-1.0",
- "documentNamespace": "https://anchore.com/syft/image/docker.io/library/orientdb-latest-d3a405da-c65c-4bc2-bf6f-e20ae5fb9949",
+ "documentNamespace": "https://anchore.com/syft/image/docker.io/library/orientdb-latest-6ce66d48-d98a-48d6-9f94-73378b444cb1",
  "packages": [
   {
    "SPDXID": "SPDXRef-842a87cc088ae16f",
@@ -2997,7 +2997,29 @@
    "versionInfo": "1.10-4+deb11u1"
   },
   {
-   "SPDXID": "SPDXRef-c07253713d0f3e06",
+   "SPDXID": "SPDXRef-772afee17784a994",
+   "name": "hazelcast",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:hazelcast:hazelcast:3.12.8:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:maven/com.hazelcast/hazelcast@3.12.8",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed java archive: /orientdb/lib/hazelcast-3.12.8.jar",
+   "versionInfo": "3.12.8"
+  },
+  {
+   "SPDXID": "SPDXRef-e13c888aac4d6444",
    "name": "hazelcast-client-protocol",
    "licenseConcluded": "NONE",
    "checksums": [
@@ -3080,22 +3102,12 @@
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:hazelcast-client-protocol:hazelcast:1.8.0:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
      "referenceLocator": "cpe:2.3:a:hazelcast:hazelcast-client-protocol:1.8.0:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceLocator": "cpe:2.3:a:hazelcast:hazelcast_client_protocol:1.8.0:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:hazelcast_client_protocol:hazelcast:1.8.0:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
@@ -3116,46 +3128,6 @@
     {
      "referenceCategory": "SECURITY",
      "referenceLocator": "cpe:2.3:a:osgi:hazelcast_client_protocol:1.8.0:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:hazelcast-client:hazelcast:1.8.0:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:hazelcast_client:hazelcast:1.8.0:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:hazelcast\\,-inc-:hazelcast:1.8.0:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:hazelcast\\,_inc_:hazelcast:1.8.0:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:Activator:hazelcast:1.8.0:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:hazelcast:hazelcast:1.8.0:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:impl:hazelcast:1.8.0:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:osgi:hazelcast:1.8.0:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {

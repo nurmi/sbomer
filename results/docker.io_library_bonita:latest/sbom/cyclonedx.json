@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:ea9731ce-ebb8-4529-b60b-335456bbfd72",
+  "serialNumber": "urn:uuid:782e6586-c87d-417e-b6a0-8b5d3c8089a6",
   "version": 1,
   "metadata": {
-    "timestamp": "2022-07-14T23:22:07Z",
+    "timestamp": "2022-07-15T01:06:50Z",
     "tools": [
       {
         "vendor": "anchore",
@@ -1767,82 +1767,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/net.bytebuddy/byte-buddy@1.10.22?package-id=632f0457bc8bf464",
-      "type": "library",
-      "group": "net.bytebuddy",
-      "name": "byte-buddy",
-      "version": "1.10.22",
-      "cpe": "cpe:2.3:a:byte-buddy:byte-buddy:1.10.22:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/net.bytebuddy/byte-buddy@1.10.22",
-      "properties": [
-        {
-          "name": "syft:package:foundBy",
-          "value": "java-cataloger"
-        },
-        {
-          "name": "syft:package:language",
-          "value": "java"
-        },
-        {
-          "name": "syft:package:metadataType",
-          "value": "JavaMetadata"
-        },
-        {
-          "name": "syft:package:type",
-          "value": "java-archive"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:byte-buddy:byte_buddy:1.10.22:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:byte_buddy:byte-buddy:1.10.22:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:byte_buddy:byte_buddy:1.10.22:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:bytebuddy:byte-buddy:1.10.22:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:bytebuddy:byte_buddy:1.10.22:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:byte:byte-buddy:1.10.22:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:byte:byte_buddy:1.10.22:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:location:0:layerID",
-          "value": "sha256:13779d2ab65d4a902ff61c77123083cb78c9a6dfbfeaaf4fb7f400b2566866ae"
-        },
-        {
-          "name": "syft:location:0:path",
-          "value": "/opt/bonita/server/webapps/bonita/WEB-INF/lib/byte-buddy-1.10.22.jar"
-        },
-        {
-          "name": "syft:metadata:-:artifactID",
-          "value": "byte-buddy"
-        },
-        {
-          "name": "syft:metadata:-:groupID",
-          "value": "net.bytebuddy"
-        },
-        {
-          "name": "syft:metadata:virtualPath",
-          "value": "/opt/bonita/server/webapps/bonita/WEB-INF/lib/byte-buddy-1.10.22.jar:byte-buddy"
-        }
-      ]
-    },
-    {
-      "bom-ref": "pkg:maven/net.bytebuddy/byte-buddy-dep@1.10.22?package-id=1890b38a6ab44975",
+      "bom-ref": "pkg:maven/net.bytebuddy/byte-buddy-dep@1.10.22?package-id=b5447af7c2ed23be",
       "type": "library",
       "group": "net.bytebuddy",
       "name": "byte-buddy-dep",
@@ -1980,7 +1905,7 @@
         },
         {
           "name": "syft:metadata:-:artifactID",
-          "value": "byte-buddy-dep"
+          "value": "byte-buddy"
         },
         {
           "name": "syft:metadata:-:groupID",
