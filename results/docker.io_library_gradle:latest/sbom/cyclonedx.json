@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:5b8f6c3c-f475-4c69-8a40-510358241ee1",
+  "serialNumber": "urn:uuid:a9dfd735-01c8-41cf-86e2-8f364b3d2779",
   "version": 1,
   "metadata": {
-    "timestamp": "2022-07-15T01:18:04Z",
+    "timestamp": "2022-07-15T02:55:38Z",
     "tools": [
       {
         "vendor": "anchore",
@@ -19549,13 +19549,25 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/org.fusesource.jansi/jansi-native@1.8?package-id=c6401bb071d56a4f",
+      "bom-ref": "pkg:maven/org.fusesource.jansi/jansi-native@1.8?package-id=f45f720e29a88fe3",
       "type": "library",
       "group": "org.fusesource.jansi",
       "name": "jansi-native",
       "version": "1.8",
-      "cpe": "cpe:2.3:a:jansi-native:jansi-native:1.8:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:fusesource\\,-corp-:jansi-native:1.8:*:*:*:*:*:*:*",
       "purl": "pkg:maven/org.fusesource.jansi/jansi-native@1.8",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "d9205bbcd4b5f9cd1effe752d18f73bd942d783f"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -19575,6 +19587,22 @@
         },
         {
           "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fusesource\\,-corp-:jansi_native:1.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fusesource\\,_corp_:jansi-native:1.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fusesource\\,_corp_:jansi_native:1.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jansi-native:jansi-native:1.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
           "value": "cpe:2.3:a:jansi-native:jansi_native:1.8:*:*:*:*:*:*:*"
         },
         {
@@ -19584,6 +19612,14 @@
         {
           "name": "syft:cpe23",
           "value": "cpe:2.3:a:jansi_native:jansi_native:1.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fusesource\\,-corp-:jansi:1.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fusesource\\,_corp_:jansi:1.8:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
@@ -19635,7 +19671,7 @@
         },
         {
           "name": "syft:metadata:virtualPath",
-          "value": "/opt/gradle/lib/jansi-1.18.jar:jansi-native"
+          "value": "/opt/gradle/lib/jansi-1.18.jar"
         }
       ]
     },
@@ -19731,25 +19767,13 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/org.fusesource.jansi/jansi-windows32@1.8?package-id=c28270d7c95d22cd",
+      "bom-ref": "pkg:maven/org.fusesource.jansi/jansi-windows32@1.8?package-id=eed87e11063c9f4",
       "type": "library",
       "group": "org.fusesource.jansi",
       "name": "jansi-windows32",
       "version": "1.8",
-      "cpe": "cpe:2.3:a:fusesource\\,-corp-:jansi-windows32:1.8:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:jansi-windows32:jansi-windows32:1.8:*:*:*:*:*:*:*",
       "purl": "pkg:maven/org.fusesource.jansi/jansi-windows32@1.8",
-      "externalReferences": [
-        {
-          "url": "",
-          "hashes": [
-            {
-              "alg": "SHA-1",
-              "content": "d9205bbcd4b5f9cd1effe752d18f73bd942d783f"
-            }
-          ],
-          "type": "build-meta"
-        }
-      ],
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -19766,22 +19790,6 @@
         {
           "name": "syft:package:type",
           "value": "java-archive"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:fusesource\\,-corp-:jansi_windows32:1.8:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:fusesource\\,_corp_:jansi-windows32:1.8:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:fusesource\\,_corp_:jansi_windows32:1.8:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jansi-windows32:jansi-windows32:1.8:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
@@ -19802,14 +19810,6 @@
         {
           "name": "syft:cpe23",
           "value": "cpe:2.3:a:fusesource:jansi_windows32:1.8:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:fusesource\\,-corp-:jansi:1.8:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:fusesource\\,_corp_:jansi:1.8:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
@@ -19853,7 +19853,7 @@
         },
         {
           "name": "syft:metadata:virtualPath",
-          "value": "/opt/gradle/lib/jansi-1.18.jar"
+          "value": "/opt/gradle/lib/jansi-1.18.jar:jansi-windows32"
         }
       ]
     },
@@ -38916,12 +38916,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/org.apache.xerces.impl.Version/xercesImpl@2.12.0?package-id=8f19a23df36d68d6",
+      "bom-ref": "pkg:maven/org.w3c.dom/xercesImpl@2.12.0?package-id=8f19a23df36d68d6",
       "type": "library",
       "name": "xercesImpl",
       "version": "2.12.0",
       "cpe": "cpe:2.3:a:apache-software-foundation:xercesImpl:2.12.0:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/org.apache.xerces.impl.Version/xercesImpl@2.12.0",
+      "purl": "pkg:maven/org.w3c.dom/xercesImpl@2.12.0",
       "externalReferences": [
         {
           "url": "",
@@ -39634,12 +39634,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/org.apache.xmlcommons.Version/xml-apis@1.4.01?package-id=dc6b77682f738dfe",
+      "bom-ref": "pkg:maven/org.xml.sax/xml-apis@1.4.01?package-id=dc6b77682f738dfe",
       "type": "library",
       "name": "xml-apis",
       "version": "1.4.01",
       "cpe": "cpe:2.3:a:apache-software-foundation:xmlcommons:1.4.01:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/org.apache.xmlcommons.Version/xml-apis@1.4.01",
+      "purl": "pkg:maven/org.xml.sax/xml-apis@1.4.01",
       "externalReferences": [
         {
           "url": "",

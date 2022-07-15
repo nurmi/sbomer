@@ -3,7 +3,7 @@
  "name": "docker.io/library/tomee-latest",
  "spdxVersion": "SPDX-2.2",
  "creationInfo": {
-  "created": "2022-07-15T01:44:06.895699275Z",
+  "created": "2022-07-15T03:24:02.353367149Z",
   "creators": [
    "Organization: Anchore, Inc",
    "Tool: syft-0.48.0"
@@ -11,7 +11,7 @@
   "licenseListVersion": "3.17"
  },
  "dataLicense": "CC0-1.0",
- "documentNamespace": "https://anchore.com/syft/image/docker.io/library/tomee-latest-c17951a3-f09d-45ff-9925-4a9f3b3bf691",
+ "documentNamespace": "https://anchore.com/syft/image/docker.io/library/tomee-latest-3c57b378-ef99-4dcb-b18d-68efd17a5f48",
  "packages": [
   {
    "SPDXID": "SPDXRef-a124711c55c5b5ec",
@@ -23825,11 +23825,52 @@
    "versionInfo": "3.2.2"
   },
   {
-   "SPDXID": "SPDXRef-f46d185c4bf35411",
+   "SPDXID": "SPDXRef-d422cb6797242fd7",
    "name": "openjpa-lib",
    "licenseConcluded": "NONE",
+   "checksums": [
+    {
+     "algorithm": "SHA1",
+     "checksumValue": "226e6f0b4379092b4fd58b018a7ddefee3b92f23"
+    }
+   ],
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:PersistenceActivator:openjpa-lib:3.2.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:PersistenceActivator:openjpa_lib:3.2.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:PersistenceActivator:openjpa:3.2.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:oracle\\,-inc-:openjpa-lib:3.2.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:oracle\\,-inc-:openjpa_lib:3.2.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:oracle\\,_inc_:openjpa-lib:3.2.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:oracle\\,_inc_:openjpa_lib:3.2.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
     {
      "referenceCategory": "SECURITY",
      "referenceLocator": "cpe:2.3:a:openjpa-lib:openjpa-lib:3.2.2:*:*:*:*:*:*:*",
@@ -23848,6 +23889,26 @@
     {
      "referenceCategory": "SECURITY",
      "referenceLocator": "cpe:2.3:a:openjpa_lib:openjpa_lib:3.2.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:persistence:openjpa-lib:3.2.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:persistence:openjpa_lib:3.2.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:oracle\\,-inc-:openjpa:3.2.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:oracle\\,_inc_:openjpa:3.2.2:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
@@ -23872,12 +23933,27 @@
     },
     {
      "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:persistence:openjpa:3.2.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
      "referenceLocator": "cpe:2.3:a:apache:openjpa-lib:3.2.2:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceLocator": "cpe:2.3:a:apache:openjpa_lib:3.2.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:osgi:openjpa-lib:3.2.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:osgi:openjpa_lib:3.2.2:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
@@ -23891,12 +23967,17 @@
      "referenceType": "cpe23Type"
     },
     {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:osgi:openjpa:3.2.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
      "referenceCategory": "PACKAGE_MANAGER",
      "referenceLocator": "pkg:maven/org.apache.openjpa/openjpa-lib@3.2.2",
      "referenceType": "purl"
     }
    ],
-   "filesAnalyzed": false,
+   "filesAnalyzed": true,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from installed java archive: /usr/local/tomee/lib/openjpa-3.2.2.jar",
    "versionInfo": "3.2.2"
@@ -24163,27 +24244,11 @@
    "versionInfo": "3.2.2"
   },
   {
-   "SPDXID": "SPDXRef-6bdd1fa493c1922a",
+   "SPDXID": "SPDXRef-5dbe4565082c5679",
    "name": "openjpa-xmlstore",
    "licenseConcluded": "NONE",
-   "checksums": [
-    {
-     "algorithm": "SHA1",
-     "checksumValue": "226e6f0b4379092b4fd58b018a7ddefee3b92f23"
-    }
-   ],
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:PersistenceActivator:openjpa-xmlstore:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:PersistenceActivator:openjpa_xmlstore:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
     {
      "referenceCategory": "SECURITY",
      "referenceLocator": "cpe:2.3:a:openjpa-xmlstore:openjpa-xmlstore:3.2.2:*:*:*:*:*:*:*",
@@ -24202,41 +24267,6 @@
     {
      "referenceCategory": "SECURITY",
      "referenceLocator": "cpe:2.3:a:openjpa_xmlstore:openjpa_xmlstore:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:oracle\\,-inc-:openjpa-xmlstore:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:oracle\\,-inc-:openjpa_xmlstore:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:oracle\\,_inc_:openjpa-xmlstore:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:oracle\\,_inc_:openjpa_xmlstore:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:PersistenceActivator:openjpa:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:persistence:openjpa-xmlstore:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:persistence:openjpa_xmlstore:3.2.2:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
@@ -24271,31 +24301,6 @@
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:osgi:openjpa-xmlstore:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:osgi:openjpa_xmlstore:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:oracle\\,-inc-:openjpa:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:oracle\\,_inc_:openjpa:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:persistence:openjpa:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
      "referenceLocator": "cpe:2.3:a:openjpa:openjpa:3.2.2:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
@@ -24305,17 +24310,12 @@
      "referenceType": "cpe23Type"
     },
     {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:osgi:openjpa:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
      "referenceCategory": "PACKAGE_MANAGER",
      "referenceLocator": "pkg:maven/org.apache.openjpa/openjpa-xmlstore@3.2.2",
      "referenceType": "purl"
     }
    ],
-   "filesAnalyzed": true,
+   "filesAnalyzed": false,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from installed java archive: /usr/local/tomee/lib/openjpa-3.2.2.jar",
    "versionInfo": "3.2.2"
