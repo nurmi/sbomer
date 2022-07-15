@@ -1,15 +1,15 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:34ee0e7e-bb84-4630-b953-95c31b62c3ba",
+  "serialNumber": "urn:uuid:6477005c-6e6b-48b1-b820-64da832049b9",
   "version": 1,
   "metadata": {
-    "timestamp": "2022-07-14T13:36:32-07:00",
+    "timestamp": "2022-07-14T23:23:14Z",
     "tools": [
       {
         "vendor": "anchore",
         "name": "syft",
-        "version": "0.46.1"
+        "version": "0.48.0"
       }
     ],
     "component": {
@@ -646,7 +646,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/cloud.google.com/go@v0.81.0?package-id=b69a3b8cb04ce9d0",
+      "bom-ref": "pkg:golang/cloud.google.com/go@v0.81.0?package-id=98327c47db3b09af",
       "type": "library",
       "name": "cloud.google.com/go",
       "version": "v0.81.0",
@@ -687,11 +687,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:at8Tk2zUz63cLPR0JPWm5vp77pEZmzxEQBEfRKn1VV8="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/cloud.google.com/go@v0.81.0?package-id=7331e7d20ab3de49",
+      "bom-ref": "pkg:golang/cloud.google.com/go@v0.81.0?package-id=15ba8d59b8df73aa",
       "type": "library",
       "name": "cloud.google.com/go",
       "version": "v0.81.0",
@@ -732,11 +736,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:at8Tk2zUz63cLPR0JPWm5vp77pEZmzxEQBEfRKn1VV8="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/cloud.google.com/go/bigtable@v1.10.0?package-id=f3108f45cfec7282",
+      "bom-ref": "pkg:golang/cloud.google.com/go/bigtable@v1.10.0?package-id=782ac6cd0746d113",
       "type": "library",
       "name": "cloud.google.com/go/bigtable",
       "version": "v1.10.0",
@@ -778,6 +786,10 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:UpIQibLNlBSeJJIkNvUUfBoE1dF9OY15Q60qnLZvEMY="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
@@ -1704,7 +1716,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/nytimes/gziphandler@v1.1.1?package-id=a4766a965ac6b68a",
+      "bom-ref": "pkg:golang/github.com/nytimes/gziphandler@v1.1.1?package-id=67b235686e833545",
       "type": "library",
       "name": "github.com/NYTimes/gziphandler",
       "version": "v1.1.1",
@@ -1746,11 +1758,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:ZUDjpQae29j0ryrS0u/B8HZfJBtBQHjqw2rQ2cqUQ3I="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/abbot/go-http-auth@v0.4.0?package-id=1f05c64ed5ba3d06",
+      "bom-ref": "pkg:golang/github.com/abbot/go-http-auth@v0.4.0?package-id=eddcc3db264a0532",
       "type": "library",
       "name": "github.com/abbot/go-http-auth",
       "version": "v0.4.0",
@@ -1796,15 +1812,19 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:QjmvZ5gSC7jm3Zg54DqWE/T5m1t2AfDu6QlXJT0EVT0="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/apache/arrow/go/arrow@v0.0.0-20200923215132-ac86123a3f01?package-id=177065f20e33225c",
+      "bom-ref": "pkg:golang/github.com/apache/arrow/go/arrow@v0.0.0-20200923215132-ac86123a3f01?package-id=9278584840599f22",
       "type": "library",
       "name": "github.com/apache/arrow/go/arrow",
       "version": "v0.0.0-20200923215132-ac86123a3f01",
-      "cpe": "cpe:2.3:a:apache:arrow:v0.0.0-20200923215132-ac86123a3f01:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:apache:arrow\\/go\\/arrow:v0.0.0-20200923215132-ac86123a3f01:*:*:*:*:*:*:*",
       "purl": "pkg:golang/github.com/apache/arrow/go/arrow@v0.0.0-20200923215132-ac86123a3f01",
       "properties": [
         {
@@ -1842,11 +1862,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:FSqtT0UCktIlSU19mxj0YE5HK3HOO4IFMU9BpOif/7A="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/aymerick/douceur@v0.2.0?package-id=127f3a2d39be8d3f",
+      "bom-ref": "pkg:golang/github.com/aymerick/douceur@v0.2.0?package-id=9250e1f1cd502351",
       "type": "library",
       "name": "github.com/aymerick/douceur",
       "version": "v0.2.0",
@@ -1888,11 +1912,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:Mv+mAeH1Q+n9Fr+oyamOlAkUNPWPlA8PPGR0QAaYuPk="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/bouk/httprouter@v0.0.0-20160817010721-ee8b3818a7f5?package-id=ac0f789274aa646d",
+      "bom-ref": "pkg:golang/github.com/bouk/httprouter@v0.0.0-20160817010721-ee8b3818a7f5?package-id=b6afa9f0a36ef644",
       "type": "library",
       "name": "github.com/bouk/httprouter",
       "version": "v0.0.0-20160817010721-ee8b3818a7f5",
@@ -1934,11 +1962,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:kS0dw4K730x7cxT+bVyTyYJZHuSoH7ofSr/Ijit56Qw="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/cespare/xxhash@v1.1.0?package-id=fe96465a66e2ec7c",
+      "bom-ref": "pkg:golang/github.com/cespare/xxhash@v1.1.0?package-id=c8ce17581a35559e",
       "type": "library",
       "name": "github.com/cespare/xxhash",
       "version": "v1.1.0",
@@ -1980,11 +2012,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:a6HrQnmkObjyL+Gs60czilIUGqrzKutQD6XZog3p+ko="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/coreos/go-semver@v0.3.0?package-id=ab9edcad8584421e",
+      "bom-ref": "pkg:golang/github.com/coreos/go-semver@v0.3.0?package-id=682b586e5ed5ae96",
       "type": "library",
       "name": "github.com/coreos/go-semver",
       "version": "v0.3.0",
@@ -2030,11 +2066,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:wkHLiw0WNATZnSG7epLsujiMCgPAc9xhjJ4tgnAxmfM="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/coreos/go-semver@v0.3.0?package-id=b6f1d60e22463ed2",
+      "bom-ref": "pkg:golang/github.com/coreos/go-semver@v0.3.0?package-id=27b1e0b6daeffbc6",
       "type": "library",
       "name": "github.com/coreos/go-semver",
       "version": "v0.3.0",
@@ -2080,15 +2120,19 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:wkHLiw0WNATZnSG7epLsujiMCgPAc9xhjJ4tgnAxmfM="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/coreos/go-systemd/v22@v22.1.0?package-id=69503b9f7ae79879",
+      "bom-ref": "pkg:golang/github.com/coreos/go-systemd/v22@v22.1.0?package-id=a386abaca5cd01ef",
       "type": "library",
       "name": "github.com/coreos/go-systemd/v22",
       "version": "v22.1.0",
-      "cpe": "cpe:2.3:a:coreos:go-systemd:v22.1.0:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:coreos:go-systemd\\/v22:v22.1.0:*:*:*:*:*:*:*",
       "purl": "pkg:golang/github.com/coreos/go-systemd/v22@v22.1.0",
       "properties": [
         {
@@ -2109,7 +2153,7 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:coreos:go_systemd:v22.1.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:coreos:go_systemd\\/v22:v22.1.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
@@ -2130,15 +2174,19 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:kq/SbG2BCKLkDKkjQf5OWwKWUKj1lgs3lFI4PxnR5lg="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/coreos/go-systemd/v22@v22.1.0?package-id=bd4655f4773ab0e9",
+      "bom-ref": "pkg:golang/github.com/coreos/go-systemd/v22@v22.1.0?package-id=b66f96266220e607",
       "type": "library",
       "name": "github.com/coreos/go-systemd/v22",
       "version": "v22.1.0",
-      "cpe": "cpe:2.3:a:coreos:go-systemd:v22.1.0:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:coreos:go-systemd\\/v22:v22.1.0:*:*:*:*:*:*:*",
       "purl": "pkg:golang/github.com/coreos/go-systemd/v22@v22.1.0",
       "properties": [
         {
@@ -2159,7 +2207,7 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:coreos:go_systemd:v22.1.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:coreos:go_systemd\\/v22:v22.1.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
@@ -2180,11 +2228,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:kq/SbG2BCKLkDKkjQf5OWwKWUKj1lgs3lFI4PxnR5lg="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/dustin/go-humanize@v1.0.0?package-id=cce13c3dd0241dad",
+      "bom-ref": "pkg:golang/github.com/dustin/go-humanize@v1.0.0?package-id=fc1d7df664d77226",
       "type": "library",
       "name": "github.com/dustin/go-humanize",
       "version": "v1.0.0",
@@ -2230,11 +2282,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:VSnTsYCnlFHaM2/igO1h6X3HA71jcobQuxemgkq4zYo="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/dustin/go-humanize@v1.0.0?package-id=7d0d8396ee7dc325",
+      "bom-ref": "pkg:golang/github.com/dustin/go-humanize@v1.0.0?package-id=6deef067ea548a3a",
       "type": "library",
       "name": "github.com/dustin/go-humanize",
       "version": "v1.0.0",
@@ -2280,11 +2336,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:VSnTsYCnlFHaM2/igO1h6X3HA71jcobQuxemgkq4zYo="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/eclipse/paho.mqtt.golang@v1.2.0?package-id=98c5b1ef8eb22641",
+      "bom-ref": "pkg:golang/github.com/eclipse/paho.mqtt.golang@v1.2.0?package-id=63158b23958fe509",
       "type": "library",
       "name": "github.com/eclipse/paho.mqtt.golang",
       "version": "v1.2.0",
@@ -2326,11 +2386,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:1F8mhG9+aO5/xpdtFkW4SxOJB67ukuDC3t2y2qayIX0="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/elazarl/go-bindata-assetfs@v1.0.0?package-id=c294a8db48e4ebee",
+      "bom-ref": "pkg:golang/github.com/elazarl/go-bindata-assetfs@v1.0.0?package-id=aa8468d1f29a3266",
       "type": "library",
       "name": "github.com/elazarl/go-bindata-assetfs",
       "version": "v1.0.0",
@@ -2376,11 +2440,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:G/bYguwHIzWq9ZoyUQqrjTmJbbYn3j3CKKpKinvZLFk="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/go-sql-driver/mysql@v1.4.1?package-id=d9c0ad8b8fb314aa",
+      "bom-ref": "pkg:golang/github.com/go-sql-driver/mysql@v1.4.1?package-id=37740f3cd608a8a0",
       "type": "library",
       "name": "github.com/go-sql-driver/mysql",
       "version": "v1.4.1",
@@ -2438,11 +2506,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:g24URVg0OFbNUTx9qqY1IRZ9D9z3iPyi5zKhQZpNwpA="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/gofrs/uuid@v3.3.0+incompatible?package-id=35ffc2cfe57ede5",
+      "bom-ref": "pkg:golang/github.com/gofrs/uuid@v3.3.0+incompatible?package-id=d7d7dc0f0122ea11",
       "type": "library",
       "name": "github.com/gofrs/uuid",
       "version": "v3.3.0+incompatible",
@@ -2484,11 +2556,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:8K4tyRfvU1CYPgJsveYFQMhpFd/wXNM7iK6rR7UHz84="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/gogo/protobuf@v1.3.2?package-id=bc735a18037f3ebc",
+      "bom-ref": "pkg:golang/github.com/gogo/protobuf@v1.3.2?package-id=3f170850439afbd1",
       "type": "library",
       "name": "github.com/gogo/protobuf",
       "version": "v1.3.2",
@@ -2530,11 +2606,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:Ov1cvc58UF3b5XjBnZv7+opcTcQFZebYjWzi34vdm4Q="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/gogo/protobuf@v1.3.2?package-id=b950bd9edfb52ba3",
+      "bom-ref": "pkg:golang/github.com/gogo/protobuf@v1.3.2?package-id=3e6ba83ea4718336",
       "type": "library",
       "name": "github.com/gogo/protobuf",
       "version": "v1.3.2",
@@ -2576,15 +2656,19 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:Ov1cvc58UF3b5XjBnZv7+opcTcQFZebYjWzi34vdm4Q="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/golang-jwt/jwt/v4@v4.0.0?package-id=9cfcfd6167987166",
+      "bom-ref": "pkg:golang/github.com/golang-jwt/jwt/v4@v4.0.0?package-id=e195570280062d3d",
       "type": "library",
       "name": "github.com/golang-jwt/jwt/v4",
       "version": "v4.0.0",
-      "cpe": "cpe:2.3:a:golang-jwt:jwt:v4.0.0:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:golang-jwt:jwt\\/v4:v4.0.0:*:*:*:*:*:*:*",
       "purl": "pkg:golang/github.com/golang-jwt/jwt/v4@v4.0.0",
       "properties": [
         {
@@ -2605,11 +2689,11 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:golang_jwt:jwt:v4.0.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:golang_jwt:jwt\\/v4:v4.0.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:golang:jwt:v4.0.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:golang:jwt\\/v4:v4.0.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
@@ -2630,15 +2714,19 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:RAqyYixv1p7uEnocuy8P1nru5wprCh/MH2BIlW5z5/o="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/golang-jwt/jwt/v4@v4.0.0?package-id=7c1bd5a1798398f6",
+      "bom-ref": "pkg:golang/github.com/golang-jwt/jwt/v4@v4.0.0?package-id=1607a57e921bfc5",
       "type": "library",
       "name": "github.com/golang-jwt/jwt/v4",
       "version": "v4.0.0",
-      "cpe": "cpe:2.3:a:golang-jwt:jwt:v4.0.0:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:golang-jwt:jwt\\/v4:v4.0.0:*:*:*:*:*:*:*",
       "purl": "pkg:golang/github.com/golang-jwt/jwt/v4@v4.0.0",
       "properties": [
         {
@@ -2659,11 +2747,11 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:golang_jwt:jwt:v4.0.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:golang_jwt:jwt\\/v4:v4.0.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:golang:jwt:v4.0.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:golang:jwt\\/v4:v4.0.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
@@ -2684,11 +2772,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:RAqyYixv1p7uEnocuy8P1nru5wprCh/MH2BIlW5z5/o="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/golang/geo@v0.0.0-20190916061304-5b978397cfec?package-id=1dc4a18e51f54997",
+      "bom-ref": "pkg:golang/github.com/golang/geo@v0.0.0-20190916061304-5b978397cfec?package-id=f4aabf0dcfdb2ad6",
       "type": "library",
       "name": "github.com/golang/geo",
       "version": "v0.0.0-20190916061304-5b978397cfec",
@@ -2730,11 +2822,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:lJwO/92dFXWeXOZdoGXgptLmNLwynMSHUmU6besqtiw="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/golang/groupcache@v0.0.0-20200121045136-8c9f03a8e57e?package-id=d7261005c93897f6",
+      "bom-ref": "pkg:golang/github.com/golang/groupcache@v0.0.0-20200121045136-8c9f03a8e57e?package-id=de6f98270e321255",
       "type": "library",
       "name": "github.com/golang/groupcache",
       "version": "v0.0.0-20200121045136-8c9f03a8e57e",
@@ -2776,11 +2872,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:1r7pUrabqp18hOBcwBwiTsbnFeTZHV9eER/QT5JVZxY="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/golang/groupcache@v0.0.0-20200121045136-8c9f03a8e57e?package-id=899e68733c80712",
+      "bom-ref": "pkg:golang/github.com/golang/groupcache@v0.0.0-20200121045136-8c9f03a8e57e?package-id=84c0733658c9a6c1",
       "type": "library",
       "name": "github.com/golang/groupcache",
       "version": "v0.0.0-20200121045136-8c9f03a8e57e",
@@ -2822,11 +2922,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:1r7pUrabqp18hOBcwBwiTsbnFeTZHV9eER/QT5JVZxY="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/golang/protobuf@v1.5.2?package-id=3b2a03b833ed8396",
+      "bom-ref": "pkg:golang/github.com/golang/protobuf@v1.5.2?package-id=63cb529bfcc6f928",
       "type": "library",
       "name": "github.com/golang/protobuf",
       "version": "v1.5.2",
@@ -2868,11 +2972,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:ROPKBNFfQgOUMifHyP+KYbvpjbdoFNs+aK7DXlji0Tw="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/golang/protobuf@v1.5.2?package-id=93940342e57165a0",
+      "bom-ref": "pkg:golang/github.com/golang/protobuf@v1.5.2?package-id=56bff3059d98c966",
       "type": "library",
       "name": "github.com/golang/protobuf",
       "version": "v1.5.2",
@@ -2914,11 +3022,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:ROPKBNFfQgOUMifHyP+KYbvpjbdoFNs+aK7DXlji0Tw="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/google/flatbuffers@v1.11.0?package-id=bea0d5f1721b8e39",
+      "bom-ref": "pkg:golang/github.com/google/flatbuffers@v1.11.0?package-id=2bd04e7d30468f58",
       "type": "library",
       "name": "github.com/google/flatbuffers",
       "version": "v1.11.0",
@@ -2960,11 +3072,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:O7CEyB8Cb3/DmtxODGtLHcEvpr81Jm5qLg/hsHnxA2A="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/google/go-cmp@v0.5.5?package-id=f36af65d6d204dd6",
+      "bom-ref": "pkg:golang/github.com/google/go-cmp@v0.5.5?package-id=d6c5caaa1cc7a526",
       "type": "library",
       "name": "github.com/google/go-cmp",
       "version": "v0.5.5",
@@ -3010,11 +3126,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:Khx7svrCpmxxtHBq5j2mp/xVjsi8hQMfNLvJFAlrGgU="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/google/go-github@v17.0.0+incompatible?package-id=cb7200356b34d01b",
+      "bom-ref": "pkg:golang/github.com/google/go-github@v17.0.0+incompatible?package-id=e68c3c50f9a6971f",
       "type": "library",
       "name": "github.com/google/go-github",
       "version": "v17.0.0+incompatible",
@@ -3060,11 +3180,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:N0LgJ1j65A7kfXrZnUDaYCs/Sf4rEjNlfyDHW9dolSY="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/google/go-github@v17.0.0+incompatible?package-id=52a190c6358846b8",
+      "bom-ref": "pkg:golang/github.com/google/go-github@v17.0.0+incompatible?package-id=a42d2fdecc980f00",
       "type": "library",
       "name": "github.com/google/go-github",
       "version": "v17.0.0+incompatible",
@@ -3110,11 +3234,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:N0LgJ1j65A7kfXrZnUDaYCs/Sf4rEjNlfyDHW9dolSY="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/google/go-querystring@v1.0.0?package-id=b29679d57a785af7",
+      "bom-ref": "pkg:golang/github.com/google/go-querystring@v1.0.0?package-id=5b365f45d926c11",
       "type": "library",
       "name": "github.com/google/go-querystring",
       "version": "v1.0.0",
@@ -3160,11 +3288,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:Xkwi/a1rcvNg1PPYe5vI8GbeBY/jrVuDX5ASuANWTrk="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/google/go-querystring@v1.0.0?package-id=68978430ff5154ea",
+      "bom-ref": "pkg:golang/github.com/google/go-querystring@v1.0.0?package-id=3957860817b96f0c",
       "type": "library",
       "name": "github.com/google/go-querystring",
       "version": "v1.0.0",
@@ -3210,11 +3342,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:Xkwi/a1rcvNg1PPYe5vI8GbeBY/jrVuDX5ASuANWTrk="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/google/uuid@v1.1.2?package-id=354ba47c5c326c7f",
+      "bom-ref": "pkg:golang/github.com/google/uuid@v1.1.2?package-id=75b74518dee2b8ad",
       "type": "library",
       "name": "github.com/google/uuid",
       "version": "v1.1.2",
@@ -3256,11 +3392,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:EVhdT+1Kseyi1/pUmXKaFxYsDNy9RQYkMWRH68J/W7Y="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/google/uuid@v1.1.2?package-id=604a61b558c4eebb",
+      "bom-ref": "pkg:golang/github.com/google/uuid@v1.1.2?package-id=d31804dc3557b475",
       "type": "library",
       "name": "github.com/google/uuid",
       "version": "v1.1.2",
@@ -3302,15 +3442,19 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:EVhdT+1Kseyi1/pUmXKaFxYsDNy9RQYkMWRH68J/W7Y="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/googleapis/gax-go/v2@v2.0.5?package-id=dd6ab3339246dd39",
+      "bom-ref": "pkg:golang/github.com/googleapis/gax-go/v2@v2.0.5?package-id=d7177f6820593af8",
       "type": "library",
       "name": "github.com/googleapis/gax-go/v2",
       "version": "v2.0.5",
-      "cpe": "cpe:2.3:a:googleapis:gax-go:v2.0.5:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:googleapis:gax-go\\/v2:v2.0.5:*:*:*:*:*:*:*",
       "purl": "pkg:golang/github.com/googleapis/gax-go/v2@v2.0.5",
       "properties": [
         {
@@ -3331,7 +3475,7 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:googleapis:gax_go:v2.0.5:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:googleapis:gax_go\\/v2:v2.0.5:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
@@ -3352,15 +3496,19 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:sjZBwGj9Jlw33ImPtvFviGYvseOtDM7hkSKB7+Tv3SM="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/googleapis/gax-go/v2@v2.0.5?package-id=6a0f145345595988",
+      "bom-ref": "pkg:golang/github.com/googleapis/gax-go/v2@v2.0.5?package-id=e7b9326e92690089",
       "type": "library",
       "name": "github.com/googleapis/gax-go/v2",
       "version": "v2.0.5",
-      "cpe": "cpe:2.3:a:googleapis:gax-go:v2.0.5:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:googleapis:gax-go\\/v2:v2.0.5:*:*:*:*:*:*:*",
       "purl": "pkg:golang/github.com/googleapis/gax-go/v2@v2.0.5",
       "properties": [
         {
@@ -3381,7 +3529,7 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:googleapis:gax_go:v2.0.5:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:googleapis:gax_go\\/v2:v2.0.5:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
@@ -3402,11 +3550,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:sjZBwGj9Jlw33ImPtvFviGYvseOtDM7hkSKB7+Tv3SM="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/gorilla/css@v1.0.0?package-id=e6a9004b15921c36",
+      "bom-ref": "pkg:golang/github.com/gorilla/css@v1.0.0?package-id=52f215f598197548",
       "type": "library",
       "name": "github.com/gorilla/css",
       "version": "v1.0.0",
@@ -3448,11 +3600,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:BQqNyPTi50JCFMTw/b67hByjMVXZRwGha6wxVGkeihY="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/influxdata/chronograf@(devel)?package-id=a4178f4f0188f408",
+      "bom-ref": "pkg:golang/github.com/influxdata/chronograf@(devel)?package-id=2eb345503222a284",
       "type": "library",
       "name": "github.com/influxdata/chronograf",
       "version": "(devel)",
@@ -3490,11 +3646,15 @@
         {
           "name": "syft:metadata:goCompiledVersion",
           "value": "go1.16.4"
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/influxdata/chronograf@(devel)?package-id=920a4b533db2bf91",
+      "bom-ref": "pkg:golang/github.com/influxdata/chronograf@(devel)?package-id=e73130662889cc5",
       "type": "library",
       "name": "github.com/influxdata/chronograf",
       "version": "(devel)",
@@ -3532,11 +3692,15 @@
         {
           "name": "syft:metadata:goCompiledVersion",
           "value": "go1.16.4"
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/influxdata/flux@v0.65.1?package-id=d3ec72b3af1738bf",
+      "bom-ref": "pkg:golang/github.com/influxdata/flux@v0.65.1?package-id=b25381c5300447ca",
       "type": "library",
       "name": "github.com/influxdata/flux",
       "version": "v0.65.1",
@@ -3578,11 +3742,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:77BcVUCzvN5HMm8+j9PRBQ4iZcu98Dl4Y9rf+J5vhnc="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/influxdata/influxdb@v1.1.5?package-id=fa159662bc737f1c",
+      "bom-ref": "pkg:golang/github.com/influxdata/influxdb@v1.1.5?package-id=3b89918c982e24d9",
       "type": "library",
       "name": "github.com/influxdata/influxdb",
       "version": "v1.1.5",
@@ -3624,11 +3792,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:mcUdmJAuYUelNpzL8sV7OKcTJK2AuawOjUOYLrjUHk0="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/influxdata/influxdb@v1.1.5?package-id=37a7387c923e2551",
+      "bom-ref": "pkg:golang/github.com/influxdata/influxdb@v1.1.5?package-id=87fc2308655d4b9c",
       "type": "library",
       "name": "github.com/influxdata/influxdb",
       "version": "v1.1.5",
@@ -3670,11 +3842,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:mcUdmJAuYUelNpzL8sV7OKcTJK2AuawOjUOYLrjUHk0="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/influxdata/kapacitor@v1.5.10-0.20210518140415-452f2b236610?package-id=21633f8375ce3bf2",
+      "bom-ref": "pkg:golang/github.com/influxdata/kapacitor@v1.5.10-0.20210518140415-452f2b236610?package-id=2d86c58c1929d0b",
       "type": "library",
       "name": "github.com/influxdata/kapacitor",
       "version": "v1.5.10-0.20210518140415-452f2b236610",
@@ -3716,11 +3892,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:X3LYZ4Ce4A/z1Ydk0JbhbFoXYhMDPidcU0XqbfoOjxE="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/influxdata/kapacitor@v1.5.10-0.20210518140415-452f2b236610?package-id=246685969b429ae3",
+      "bom-ref": "pkg:golang/github.com/influxdata/kapacitor@v1.5.10-0.20210518140415-452f2b236610?package-id=c9d5278b8bed54e6",
       "type": "library",
       "name": "github.com/influxdata/kapacitor",
       "version": "v1.5.10-0.20210518140415-452f2b236610",
@@ -3762,11 +3942,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:X3LYZ4Ce4A/z1Ydk0JbhbFoXYhMDPidcU0XqbfoOjxE="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/influxdata/line-protocol@v0.0.0-20180522152040-32c6aa80de5e?package-id=80c66873f19ef933",
+      "bom-ref": "pkg:golang/github.com/influxdata/line-protocol@v0.0.0-20180522152040-32c6aa80de5e?package-id=38b6e07fa3513f57",
       "type": "library",
       "name": "github.com/influxdata/line-protocol",
       "version": "v0.0.0-20180522152040-32c6aa80de5e",
@@ -3812,11 +3996,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:/o3vQtpWJhvnIbXley4/jwzzqNeigJK9z+LZcJZ9zfM="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/influxdata/tdigest@v0.0.0-20181121200506-bf2b5ad3c0a9?package-id=4b4cb963012a6f5a",
+      "bom-ref": "pkg:golang/github.com/influxdata/tdigest@v0.0.0-20181121200506-bf2b5ad3c0a9?package-id=2a18022316a8fa83",
       "type": "library",
       "name": "github.com/influxdata/tdigest",
       "version": "v0.0.0-20181121200506-bf2b5ad3c0a9",
@@ -3858,11 +4046,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:MHTrDWmQpHq/hkq+7cw9oYAt2PqUw52TZazRA0N7PGE="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/influxdata/usage-client@v0.0.0-20160829180054-6d3895376368?package-id=2b3a865fdfa32f1",
+      "bom-ref": "pkg:golang/github.com/influxdata/usage-client@v0.0.0-20160829180054-6d3895376368?package-id=d4b3ed5e9f8e8c77",
       "type": "library",
       "name": "github.com/influxdata/usage-client",
       "version": "v0.0.0-20160829180054-6d3895376368",
@@ -3908,11 +4100,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:+TUUmaFa4YD1Q+7bH9o5NCHQGPMqZCYJiNW6lIIS9z4="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/jessevdk/go-flags@v1.4.0?package-id=16cf2ef33a2d9cf0",
+      "bom-ref": "pkg:golang/github.com/jessevdk/go-flags@v1.4.0?package-id=1ce524efea5b74b1",
       "type": "library",
       "name": "github.com/jessevdk/go-flags",
       "version": "v1.4.0",
@@ -3958,11 +4154,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:4IU2WS7AumrZ/40jfhf4QVDMsQwqA7VEHozFRrGARJA="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/jessevdk/go-flags@v1.4.0?package-id=b980963b8015fef0",
+      "bom-ref": "pkg:golang/github.com/jessevdk/go-flags@v1.4.0?package-id=3317130d2b361da9",
       "type": "library",
       "name": "github.com/jessevdk/go-flags",
       "version": "v1.4.0",
@@ -4008,11 +4208,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:4IU2WS7AumrZ/40jfhf4QVDMsQwqA7VEHozFRrGARJA="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/lestrrat-go/jwx@v0.9.0?package-id=34a41d302644c9d",
+      "bom-ref": "pkg:golang/github.com/lestrrat-go/jwx@v0.9.0?package-id=6f58a8a9d5cfda52",
       "type": "library",
       "name": "github.com/lestrrat-go/jwx",
       "version": "v0.9.0",
@@ -4062,11 +4266,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:Fnd0EWzTm0kFrBPzE/PEPp9nzllES5buMkksPMjEKpM="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/lestrrat-go/jwx@v0.9.0?package-id=6f45b951013b7ce8",
+      "bom-ref": "pkg:golang/github.com/lestrrat-go/jwx@v0.9.0?package-id=c0c7798840426ffb",
       "type": "library",
       "name": "github.com/lestrrat-go/jwx",
       "version": "v0.9.0",
@@ -4116,11 +4324,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:Fnd0EWzTm0kFrBPzE/PEPp9nzllES5buMkksPMjEKpM="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/lib/pq@v1.2.0?package-id=d258b17950986d0",
+      "bom-ref": "pkg:golang/github.com/lib/pq@v1.2.0?package-id=e41faf3b7160fc2f",
       "type": "library",
       "name": "github.com/lib/pq",
       "version": "v1.2.0",
@@ -4162,11 +4374,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:LXpIM/LZ5xGFhOpXAQUIMM1HdyqzVYM13zNdjCEEcA0="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/matttproud/golang_protobuf_extensions@v1.0.1?package-id=bc6b39efc23a09",
+      "bom-ref": "pkg:golang/github.com/matttproud/golang_protobuf_extensions@v1.0.1?package-id=794b03edf6ca295d",
       "type": "library",
       "name": "github.com/matttproud/golang_protobuf_extensions",
       "version": "v1.0.1",
@@ -4212,11 +4428,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:4hp9jkHxhMHkqkrB3Ix0jegS5sx/RkqARlsWZ6pIwiU="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/microcosm-cc/bluemonday@v1.0.16?package-id=a14a26726293c11a",
+      "bom-ref": "pkg:golang/github.com/microcosm-cc/bluemonday@v1.0.16?package-id=d227894bc0f34530",
       "type": "library",
       "name": "github.com/microcosm-cc/bluemonday",
       "version": "v1.0.16",
@@ -4266,11 +4486,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:kHmAq2t7WPWLjiGvzKa5o3HzSfahUKiOq7fAPUiMNIc="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/opentracing/opentracing-go@v1.2.0?package-id=6d47eed29fefc13f",
+      "bom-ref": "pkg:golang/github.com/opentracing/opentracing-go@v1.2.0?package-id=9ccbd58dde8cc414",
       "type": "library",
       "name": "github.com/opentracing/opentracing-go",
       "version": "v1.2.0",
@@ -4316,11 +4540,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:uEJPy/1a5RIPAJ0Ov+OIO8OxWu77jEv+1B0VhjKrZUs="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/pkg/errors@v0.9.1?package-id=17f1ef4d131e8692",
+      "bom-ref": "pkg:golang/github.com/pkg/errors@v0.9.1?package-id=c69504491b472561",
       "type": "library",
       "name": "github.com/pkg/errors",
       "version": "v0.9.1",
@@ -4362,11 +4590,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/pkg/errors@v0.9.1?package-id=cf992c35b476cf1d",
+      "bom-ref": "pkg:golang/github.com/pkg/errors@v0.9.1?package-id=994e71b5292c2b36",
       "type": "library",
       "name": "github.com/pkg/errors",
       "version": "v0.9.1",
@@ -4408,11 +4640,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/prometheus/client_model@v0.2.0?package-id=fd46efe472ca65eb",
+      "bom-ref": "pkg:golang/github.com/prometheus/client_model@v0.2.0?package-id=778cd6184d5f41cd",
       "type": "library",
       "name": "github.com/prometheus/client_model",
       "version": "v0.2.0",
@@ -4458,11 +4694,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:uq5h0d+GuxiXLJLNABMgp2qUWDPiLvgCzz2dUR+/W/M="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/prometheus/common@v0.20.0?package-id=5bb2d04eb2631dc7",
+      "bom-ref": "pkg:golang/github.com/prometheus/common@v0.20.0?package-id=3f0d34ec672f667",
       "type": "library",
       "name": "github.com/prometheus/common",
       "version": "v0.20.0",
@@ -4504,11 +4744,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:pfeDeUdQcIxOMutNjCejsEFp7qeP+/iltHSSmLpE+hU="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/segmentio/kafka-go@v0.3.10?package-id=87ac710e277afbcc",
+      "bom-ref": "pkg:golang/github.com/segmentio/kafka-go@v0.3.10?package-id=46edb52331c49ab4",
       "type": "library",
       "name": "github.com/segmentio/kafka-go",
       "version": "v0.3.10",
@@ -4554,11 +4798,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:h/1aSu7gWp6DXLmp0csxm8wrYD6rRYyaqclu2aQ/PWo="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/sirupsen/logrus@v1.7.0?package-id=4865c34e0fcfa8b7",
+      "bom-ref": "pkg:golang/github.com/sirupsen/logrus@v1.7.0?package-id=a53ba2880a359b7d",
       "type": "library",
       "name": "github.com/sirupsen/logrus",
       "version": "v1.7.0",
@@ -4600,6 +4848,10 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:ShrD1U9pZB12TX0cVy0DtePoCH97K8EtX+mg7ZARUtM="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
@@ -4816,7 +5068,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/go.etcd.io/bbolt@v1.3.5?package-id=824a1666a4cc04b5",
+      "bom-ref": "pkg:golang/go.etcd.io/bbolt@v1.3.5?package-id=9fe1d63d602e693c",
       "type": "library",
       "name": "go.etcd.io/bbolt",
       "version": "v1.3.5",
@@ -4857,11 +5109,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:XAzx9gjCb0Rxj7EoqcClPD1d5ZBxZJk0jbuoPHenBt0="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/go.etcd.io/bbolt@v1.3.5?package-id=fe7392529df69bf7",
+      "bom-ref": "pkg:golang/go.etcd.io/bbolt@v1.3.5?package-id=2bfa7beb3ec3b912",
       "type": "library",
       "name": "go.etcd.io/bbolt",
       "version": "v1.3.5",
@@ -4902,15 +5158,19 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:XAzx9gjCb0Rxj7EoqcClPD1d5ZBxZJk0jbuoPHenBt0="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/go.etcd.io/etcd/api/v3@v3.5.0-alpha.0?package-id=a2c79baab4a3c1f8",
+      "bom-ref": "pkg:golang/go.etcd.io/etcd/api/v3@v3.5.0-alpha.0?package-id=91155508d1c55614",
       "type": "library",
       "name": "go.etcd.io/etcd/api/v3",
       "version": "v3.5.0-alpha.0",
-      "cpe": "cpe:2.3:a:etcd:api:v3.5.0-alpha.0:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:etcd:api\\/v3:v3.5.0-alpha.0:*:*:*:*:*:*:*",
       "purl": "pkg:golang/go.etcd.io/etcd/api/v3@v3.5.0-alpha.0",
       "properties": [
         {
@@ -4948,15 +5208,19 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:+e5nrluATIy3GP53znpkHMFzPTHGYyzvJGFCbuI6ZLc="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/go.etcd.io/etcd/api/v3@v3.5.0-alpha.0?package-id=2a05a76918905800",
+      "bom-ref": "pkg:golang/go.etcd.io/etcd/api/v3@v3.5.0-alpha.0?package-id=29cf9c61fd078fa8",
       "type": "library",
       "name": "go.etcd.io/etcd/api/v3",
       "version": "v3.5.0-alpha.0",
-      "cpe": "cpe:2.3:a:etcd:api:v3.5.0-alpha.0:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:etcd:api\\/v3:v3.5.0-alpha.0:*:*:*:*:*:*:*",
       "purl": "pkg:golang/go.etcd.io/etcd/api/v3@v3.5.0-alpha.0",
       "properties": [
         {
@@ -4994,15 +5258,19 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:+e5nrluATIy3GP53znpkHMFzPTHGYyzvJGFCbuI6ZLc="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/go.etcd.io/etcd/client/v3@v3.5.0-alpha.0?package-id=11df8a6f44dca20c",
+      "bom-ref": "pkg:golang/go.etcd.io/etcd/client/v3@v3.5.0-alpha.0?package-id=781e3deeab9ece8b",
       "type": "library",
       "name": "go.etcd.io/etcd/client/v3",
       "version": "v3.5.0-alpha.0",
-      "cpe": "cpe:2.3:a:etcd:client:v3.5.0-alpha.0:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:etcd:client\\/v3:v3.5.0-alpha.0:*:*:*:*:*:*:*",
       "purl": "pkg:golang/go.etcd.io/etcd/client/v3@v3.5.0-alpha.0",
       "properties": [
         {
@@ -5040,15 +5308,19 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:dr1EOILak2pu4Nf5XbRIOCNIBjcz6UmkQd7hHRXwxaM="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/go.etcd.io/etcd/client/v3@v3.5.0-alpha.0?package-id=f5e43d99a929e9ac",
+      "bom-ref": "pkg:golang/go.etcd.io/etcd/client/v3@v3.5.0-alpha.0?package-id=adc563e5886d1d67",
       "type": "library",
       "name": "go.etcd.io/etcd/client/v3",
       "version": "v3.5.0-alpha.0",
-      "cpe": "cpe:2.3:a:etcd:client:v3.5.0-alpha.0:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:etcd:client\\/v3:v3.5.0-alpha.0:*:*:*:*:*:*:*",
       "purl": "pkg:golang/go.etcd.io/etcd/client/v3@v3.5.0-alpha.0",
       "properties": [
         {
@@ -5086,15 +5358,19 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:dr1EOILak2pu4Nf5XbRIOCNIBjcz6UmkQd7hHRXwxaM="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/go.etcd.io/etcd/pkg/v3@v3.5.0-alpha.0?package-id=f8f16e46cbbbe3a0",
+      "bom-ref": "pkg:golang/go.etcd.io/etcd/pkg/v3@v3.5.0-alpha.0?package-id=dfc67ef0511cb8ad",
       "type": "library",
       "name": "go.etcd.io/etcd/pkg/v3",
       "version": "v3.5.0-alpha.0",
-      "cpe": "cpe:2.3:a:etcd:pkg:v3.5.0-alpha.0:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:etcd:pkg\\/v3:v3.5.0-alpha.0:*:*:*:*:*:*:*",
       "purl": "pkg:golang/go.etcd.io/etcd/pkg/v3@v3.5.0-alpha.0",
       "properties": [
         {
@@ -5132,15 +5408,19 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:3yLUEC0nFCxw/RArImOyRUI4OAFbg4PFpBbAhSNzKNY="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/go.etcd.io/etcd/pkg/v3@v3.5.0-alpha.0?package-id=9c6c3beecaea2778",
+      "bom-ref": "pkg:golang/go.etcd.io/etcd/pkg/v3@v3.5.0-alpha.0?package-id=1d0616a87dc605d",
       "type": "library",
       "name": "go.etcd.io/etcd/pkg/v3",
       "version": "v3.5.0-alpha.0",
-      "cpe": "cpe:2.3:a:etcd:pkg:v3.5.0-alpha.0:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:etcd:pkg\\/v3:v3.5.0-alpha.0:*:*:*:*:*:*:*",
       "purl": "pkg:golang/go.etcd.io/etcd/pkg/v3@v3.5.0-alpha.0",
       "properties": [
         {
@@ -5178,11 +5458,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:3yLUEC0nFCxw/RArImOyRUI4OAFbg4PFpBbAhSNzKNY="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/go.opencensus.io/go.opencensus.io@v0.23.0?package-id=9df86bff1c279168",
+      "bom-ref": "pkg:golang/go.opencensus.io/go.opencensus.io@v0.23.0?package-id=35a67e57637ae90e",
       "type": "library",
       "name": "go.opencensus.io",
       "version": "v0.23.0",
@@ -5223,11 +5507,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:gqCw0LfLxScz8irSi8exQc7fyQ0fKQU/qnC/X8+V/1M="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/go.opencensus.io/go.opencensus.io@v0.23.0?package-id=2e832c94c0bbe9c7",
+      "bom-ref": "pkg:golang/go.opencensus.io/go.opencensus.io@v0.23.0?package-id=381dcfb9166c2049",
       "type": "library",
       "name": "go.opencensus.io",
       "version": "v0.23.0",
@@ -5268,11 +5556,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:gqCw0LfLxScz8irSi8exQc7fyQ0fKQU/qnC/X8+V/1M="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/go.uber.org/atomic@v1.6.0?package-id=26e27441269635d8",
+      "bom-ref": "pkg:golang/go.uber.org/atomic@v1.6.0?package-id=f9d5a1fd51fb375b",
       "type": "library",
       "name": "go.uber.org/atomic",
       "version": "v1.6.0",
@@ -5313,11 +5605,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:Ezj3JGmsOnG1MoRWQkPBsKLe9DwWD9QeXzTRzzldNVk="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/go.uber.org/atomic@v1.6.0?package-id=d8acad4a63f211f",
+      "bom-ref": "pkg:golang/go.uber.org/atomic@v1.6.0?package-id=b31d7faa22b6f7e4",
       "type": "library",
       "name": "go.uber.org/atomic",
       "version": "v1.6.0",
@@ -5358,11 +5654,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:Ezj3JGmsOnG1MoRWQkPBsKLe9DwWD9QeXzTRzzldNVk="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/go.uber.org/multierr@v1.5.0?package-id=4f617bcf237fc59f",
+      "bom-ref": "pkg:golang/go.uber.org/multierr@v1.5.0?package-id=957a9bce63a30895",
       "type": "library",
       "name": "go.uber.org/multierr",
       "version": "v1.5.0",
@@ -5403,11 +5703,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:KCa4XfM8CWFCpxXRGok+Q0SS/0XBhMDbHHGABQLvD2A="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/go.uber.org/multierr@v1.5.0?package-id=a1a563d9a5c4bede",
+      "bom-ref": "pkg:golang/go.uber.org/multierr@v1.5.0?package-id=166e81cd69a277f0",
       "type": "library",
       "name": "go.uber.org/multierr",
       "version": "v1.5.0",
@@ -5448,11 +5752,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:KCa4XfM8CWFCpxXRGok+Q0SS/0XBhMDbHHGABQLvD2A="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/go.uber.org/zap@v1.16.0?package-id=d507292e5a387366",
+      "bom-ref": "pkg:golang/go.uber.org/zap@v1.16.0?package-id=22d104f4077482c0",
       "type": "library",
       "name": "go.uber.org/zap",
       "version": "v1.16.0",
@@ -5493,11 +5801,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:uFRZXykJGK9lLY4HtgSw44DnIcAM+kRBP7x5m+NpAOM="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/go.uber.org/zap@v1.16.0?package-id=d05c5316104f0e1a",
+      "bom-ref": "pkg:golang/go.uber.org/zap@v1.16.0?package-id=1036563cd50e8aa0",
       "type": "library",
       "name": "go.uber.org/zap",
       "version": "v1.16.0",
@@ -5538,11 +5850,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:uFRZXykJGK9lLY4HtgSw44DnIcAM+kRBP7x5m+NpAOM="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/golang.org/x/crypto@v0.0.0-20210220033148-5ea612d1eb83?package-id=fc86a0566529b802",
+      "bom-ref": "pkg:golang/golang.org/x/crypto@v0.0.0-20210220033148-5ea612d1eb83?package-id=b0c55d7839f1e698",
       "type": "library",
       "name": "golang.org/x/crypto",
       "version": "v0.0.0-20210220033148-5ea612d1eb83",
@@ -5584,11 +5900,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:/ZScEX8SfEmUGRHs0gxpqteO5nfNW6axyZbBdw9A12g="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/golang.org/x/net@v0.0.0-20210614182718-04defd469f4e?package-id=92c2b20bb125fc0d",
+      "bom-ref": "pkg:golang/golang.org/x/net@v0.0.0-20210614182718-04defd469f4e?package-id=876798af39094a7b",
       "type": "library",
       "name": "golang.org/x/net",
       "version": "v0.0.0-20210614182718-04defd469f4e",
@@ -5630,11 +5950,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:XpT3nA5TvE525Ne3hInMh6+GETgn27Zfm9dxsThnX2Q="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/golang.org/x/net@v0.0.0-20210614182718-04defd469f4e?package-id=5459a284ee00706f",
+      "bom-ref": "pkg:golang/golang.org/x/net@v0.0.0-20210614182718-04defd469f4e?package-id=2bb53854a08774bd",
       "type": "library",
       "name": "golang.org/x/net",
       "version": "v0.0.0-20210614182718-04defd469f4e",
@@ -5676,11 +6000,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:XpT3nA5TvE525Ne3hInMh6+GETgn27Zfm9dxsThnX2Q="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/golang.org/x/oauth2@v0.0.0-20210427180440-81ed05c6b58c?package-id=3941d36eba95ae5f",
+      "bom-ref": "pkg:golang/golang.org/x/oauth2@v0.0.0-20210427180440-81ed05c6b58c?package-id=e81859192e80d960",
       "type": "library",
       "name": "golang.org/x/oauth2",
       "version": "v0.0.0-20210427180440-81ed05c6b58c",
@@ -5722,11 +6050,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:SgVl/sCtkicsS7psKkje4H9YtjdEl3xsYh7N+5TDHqY="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/golang.org/x/oauth2@v0.0.0-20210427180440-81ed05c6b58c?package-id=85ac91cdad884dcf",
+      "bom-ref": "pkg:golang/golang.org/x/oauth2@v0.0.0-20210427180440-81ed05c6b58c?package-id=3829ea6e31a32774",
       "type": "library",
       "name": "golang.org/x/oauth2",
       "version": "v0.0.0-20210427180440-81ed05c6b58c",
@@ -5768,11 +6100,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:SgVl/sCtkicsS7psKkje4H9YtjdEl3xsYh7N+5TDHqY="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/golang.org/x/sys@v0.0.0-20210503080704-8803ae5d1324?package-id=e0d0c6af65310b8e",
+      "bom-ref": "pkg:golang/golang.org/x/sys@v0.0.0-20210503080704-8803ae5d1324?package-id=1ade300aa72b28ea",
       "type": "library",
       "name": "golang.org/x/sys",
       "version": "v0.0.0-20210503080704-8803ae5d1324",
@@ -5814,11 +6150,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:pAwJxDByZctfPwzlNGrDN2BQLsdPb9NkhoTJtUkAO28="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/golang.org/x/sys@v0.0.0-20210503080704-8803ae5d1324?package-id=77e1acd7144e5895",
+      "bom-ref": "pkg:golang/golang.org/x/sys@v0.0.0-20210503080704-8803ae5d1324?package-id=3e45eeecb9e6f7fd",
       "type": "library",
       "name": "golang.org/x/sys",
       "version": "v0.0.0-20210503080704-8803ae5d1324",
@@ -5860,11 +6200,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:pAwJxDByZctfPwzlNGrDN2BQLsdPb9NkhoTJtUkAO28="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/golang.org/x/text@v0.3.6?package-id=237505b6f8c89887",
+      "bom-ref": "pkg:golang/golang.org/x/text@v0.3.6?package-id=6d455898dbdef60c",
       "type": "library",
       "name": "golang.org/x/text",
       "version": "v0.3.6",
@@ -5906,11 +6250,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:aRYxNxv6iGQlyVaZmk6ZgYEDa+Jg18DxebPSrd6bg1M="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/golang.org/x/text@v0.3.6?package-id=6c04a214b76dfcf",
+      "bom-ref": "pkg:golang/golang.org/x/text@v0.3.6?package-id=8be9b152a4cd6d74",
       "type": "library",
       "name": "golang.org/x/text",
       "version": "v0.3.6",
@@ -5952,11 +6300,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:aRYxNxv6iGQlyVaZmk6ZgYEDa+Jg18DxebPSrd6bg1M="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/golang.org/x/xerrors@v0.0.0-20200804184101-5ec99f83aff1?package-id=ed51d4223b6e435",
+      "bom-ref": "pkg:golang/golang.org/x/xerrors@v0.0.0-20200804184101-5ec99f83aff1?package-id=4dad7d83529ae7ac",
       "type": "library",
       "name": "golang.org/x/xerrors",
       "version": "v0.0.0-20200804184101-5ec99f83aff1",
@@ -5998,11 +6350,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:go1bK/D/BFZV2I8cIQd1NKEZ+0owSTG1fDTci4IqFcE="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/google.golang.org/api@v0.46.0?package-id=4d8d205850e2dc9",
+      "bom-ref": "pkg:golang/google.golang.org/api@v0.46.0?package-id=b43f1d63b19c20cb",
       "type": "library",
       "name": "google.golang.org/api",
       "version": "v0.46.0",
@@ -6044,11 +6400,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:jkDWHOBIoNSD0OQpq4rtBVu+Rh325MPjXG1rakAp8JU="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/google.golang.org/api@v0.46.0?package-id=e81efedc49072bce",
+      "bom-ref": "pkg:golang/google.golang.org/api@v0.46.0?package-id=ccffc557b0865718",
       "type": "library",
       "name": "google.golang.org/api",
       "version": "v0.46.0",
@@ -6090,11 +6450,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:jkDWHOBIoNSD0OQpq4rtBVu+Rh325MPjXG1rakAp8JU="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/google.golang.org/genproto@v0.0.0-20210503173045-b96a97608f20?package-id=e729c489b91f37b3",
+      "bom-ref": "pkg:golang/google.golang.org/genproto@v0.0.0-20210503173045-b96a97608f20?package-id=c7ef708ee78ddb60",
       "type": "library",
       "name": "google.golang.org/genproto",
       "version": "v0.0.0-20210503173045-b96a97608f20",
@@ -6136,11 +6500,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:ov60aCaYZRD4c3+rjbtkVMhj/5CGviXVJqMCOrQSO3I="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/google.golang.org/genproto@v0.0.0-20210503173045-b96a97608f20?package-id=3b232bb7698c49ee",
+      "bom-ref": "pkg:golang/google.golang.org/genproto@v0.0.0-20210503173045-b96a97608f20?package-id=6594339eb6e84815",
       "type": "library",
       "name": "google.golang.org/genproto",
       "version": "v0.0.0-20210503173045-b96a97608f20",
@@ -6182,11 +6550,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:ov60aCaYZRD4c3+rjbtkVMhj/5CGviXVJqMCOrQSO3I="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/google.golang.org/grpc@v1.37.0?package-id=a507d9004132bbf0",
+      "bom-ref": "pkg:golang/google.golang.org/grpc@v1.37.0?package-id=1fc636a87b8a5c3",
       "type": "library",
       "name": "google.golang.org/grpc",
       "version": "v1.37.0",
@@ -6228,11 +6600,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:uSZWeQJX5j11bIQ4AJoj+McDBo29cY1MCoC1wO3ts+c="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/google.golang.org/grpc@v1.37.0?package-id=47aff0e89e418cbf",
+      "bom-ref": "pkg:golang/google.golang.org/grpc@v1.37.0?package-id=ccdb51aeec71917c",
       "type": "library",
       "name": "google.golang.org/grpc",
       "version": "v1.37.0",
@@ -6274,11 +6650,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:uSZWeQJX5j11bIQ4AJoj+McDBo29cY1MCoC1wO3ts+c="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/google.golang.org/protobuf@v1.27.1?package-id=9c405de181ea71ea",
+      "bom-ref": "pkg:golang/google.golang.org/protobuf@v1.27.1?package-id=e01f846dbe1d7025",
       "type": "library",
       "name": "google.golang.org/protobuf",
       "version": "v1.27.1",
@@ -6320,11 +6700,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:SnqbnDw1V7RiZcXPx5MEeqPv2s79L9i7BJUlG/+RurQ="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/google.golang.org/protobuf@v1.27.1?package-id=a12f923018e9d3a0",
+      "bom-ref": "pkg:golang/google.golang.org/protobuf@v1.27.1?package-id=d20b7259345fcb4f",
       "type": "library",
       "name": "google.golang.org/protobuf",
       "version": "v1.27.1",
@@ -6366,6 +6750,10 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:SnqbnDw1V7RiZcXPx5MEeqPv2s79L9i7BJUlG/+RurQ="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/chronograf"
         }
       ]
     },
@@ -13893,6 +14281,10 @@
         {
           "name": "syft:distro:prettyName",
           "value": "Debian GNU/Linux 9 (stretch)"
+        },
+        {
+          "name": "syft:distro:versionCodename",
+          "value": "stretch"
         },
         {
           "name": "syft:distro:versionID",

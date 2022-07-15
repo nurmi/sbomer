@@ -3,15 +3,15 @@
  "name": "docker.io/library/rakudo-star-latest",
  "spdxVersion": "SPDX-2.2",
  "creationInfo": {
-  "created": "2022-07-14T21:03:45.080339Z",
+  "created": "2022-07-14T23:58:08.731373354Z",
   "creators": [
    "Organization: Anchore, Inc",
-   "Tool: syft-0.46.1"
+   "Tool: syft-0.48.0"
   ],
   "licenseListVersion": "3.17"
  },
  "dataLicense": "CC0-1.0",
- "documentNamespace": "https://anchore.com/syft/image/docker.io/library/rakudo-star-latest-0eefc512-5b03-4f90-9d27-3e8bccf08117",
+ "documentNamespace": "https://anchore.com/syft/image/docker.io/library/rakudo-star-latest-30a69c7c-38f7-4a64-b3c7-28ecd5c79724",
  "packages": [
   {
    "SPDXID": "SPDXRef-a124711c55c5b5ec",
@@ -107972,12 +107972,6 @@
    "relatedSpdxElement": "SPDXRef-e0432ba40becd8d4"
   },
   {
-   "spdxElementId": "SPDXRef-b073e299092fed97",
-   "relationshipType": "OTHER",
-   "relatedSpdxElement": "SPDXRef-560801cd0b8167b1",
-   "comment": "ownership-by-file-overlap: indicates that the parent package claims ownership of a child package since the parent metadata indicates overlap with a location that a cataloger found the child package by"
-  },
-  {
    "spdxElementId": "SPDXRef-41d665371a87684c",
    "relationshipType": "OTHER",
    "relatedSpdxElement": "SPDXRef-b6b23f70bf6edea0",
@@ -107987,6 +107981,12 @@
    "spdxElementId": "SPDXRef-41d665371a87684c",
    "relationshipType": "OTHER",
    "relatedSpdxElement": "SPDXRef-e00084c0506eafea",
+   "comment": "ownership-by-file-overlap: indicates that the parent package claims ownership of a child package since the parent metadata indicates overlap with a location that a cataloger found the child package by"
+  },
+  {
+   "spdxElementId": "SPDXRef-b073e299092fed97",
+   "relationshipType": "OTHER",
+   "relatedSpdxElement": "SPDXRef-560801cd0b8167b1",
    "comment": "ownership-by-file-overlap: indicates that the parent package claims ownership of a child package since the parent metadata indicates overlap with a location that a cataloger found the child package by"
   }
  ]

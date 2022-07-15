@@ -1,15 +1,15 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:e70e9258-0f2f-49a7-ac26-fe6325b33a27",
+  "serialNumber": "urn:uuid:1d8e41c3-3454-4395-a3a3-d8de19e631eb",
   "version": 1,
   "metadata": {
-    "timestamp": "2022-07-14T14:01:45-07:00",
+    "timestamp": "2022-07-14T23:55:46Z",
     "tools": [
       {
         "vendor": "anchore",
         "name": "syft",
-        "version": "0.46.1"
+        "version": "0.48.0"
       }
     ],
     "component": {
@@ -1454,7 +1454,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/opencontainers/runc@v1.0.1?package-id=d42a3cce9bf9c108",
+      "bom-ref": "pkg:golang/github.com/opencontainers/runc@v1.0.1?package-id=17dc51edf99661a6",
       "type": "library",
       "name": "github.com/opencontainers/runc",
       "version": "v1.0.1",
@@ -1496,11 +1496,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:G18PGckGdAm3yVQRWDVQ1rLSLntiniKJ0cNRT2Tm5gs="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/tianon/gosu"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/tianon/gosu@(devel)?package-id=b2951a4647814a8d",
+      "bom-ref": "pkg:golang/github.com/tianon/gosu@(devel)?package-id=b9a096b0c3cc8cfb",
       "type": "library",
       "name": "github.com/tianon/gosu",
       "version": "(devel)",
@@ -1538,6 +1542,10 @@
         {
           "name": "syft:metadata:goCompiledVersion",
           "value": "go1.16.7"
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/tianon/gosu"
         }
       ]
     },
@@ -1873,7 +1881,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/golang.org/x/sys@v0.0.0-20210817142637-7d9622a276b7?package-id=1f91fee3c1e459e3",
+      "bom-ref": "pkg:golang/golang.org/x/sys@v0.0.0-20210817142637-7d9622a276b7?package-id=bfb88cc7b0ef04b8",
       "type": "library",
       "name": "golang.org/x/sys",
       "version": "v0.0.0-20210817142637-7d9622a276b7",
@@ -1915,6 +1923,10 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:lQ8Btl/sJr2+f4ql7ffKUKfnV0BsgsICvm0oEeINAQY="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/tianon/gosu"
         }
       ]
     },
@@ -12443,6 +12455,10 @@
         {
           "name": "syft:distro:prettyName",
           "value": "Debian GNU/Linux 11 (bullseye)"
+        },
+        {
+          "name": "syft:distro:versionCodename",
+          "value": "bullseye"
         },
         {
           "name": "syft:distro:versionID",

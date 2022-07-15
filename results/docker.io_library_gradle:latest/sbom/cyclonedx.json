@@ -1,15 +1,15 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:49aaf4c6-5365-40ed-8623-577f78ccc90c",
+  "serialNumber": "urn:uuid:2db4fa96-c985-4fd1-b98c-e6055b828645",
   "version": 1,
   "metadata": {
-    "timestamp": "2022-07-14T13:46:30-07:00",
+    "timestamp": "2022-07-14T23:35:58Z",
     "tools": [
       {
         "vendor": "anchore",
         "name": "syft",
-        "version": "0.46.1"
+        "version": "0.48.0"
       }
     ],
     "component": {
@@ -38865,12 +38865,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/org.apache.xerces.impl.Version/xercesImpl@2.12.0?package-id=8f19a23df36d68d6",
+      "bom-ref": "pkg:maven/org.w3c.dom/xercesImpl@2.12.0?package-id=8f19a23df36d68d6",
       "type": "library",
       "name": "xercesImpl",
       "version": "2.12.0",
       "cpe": "cpe:2.3:a:apache-software-foundation:xercesImpl:2.12.0:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/org.apache.xerces.impl.Version/xercesImpl@2.12.0",
+      "purl": "pkg:maven/org.w3c.dom/xercesImpl@2.12.0",
       "externalReferences": [
         {
           "url": "",
@@ -39583,12 +39583,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/org.w3c.dom/xml-apis@1.4.01?package-id=dc6b77682f738dfe",
+      "bom-ref": "pkg:maven/org.xml.sax/xml-apis@1.4.01?package-id=dc6b77682f738dfe",
       "type": "library",
       "name": "xml-apis",
       "version": "1.4.01",
       "cpe": "cpe:2.3:a:apache-software-foundation:xmlcommons:1.4.01:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/org.w3c.dom/xml-apis@1.4.01",
+      "purl": "pkg:maven/org.xml.sax/xml-apis@1.4.01",
       "externalReferences": [
         {
           "url": "",
@@ -40292,6 +40292,10 @@
         {
           "name": "syft:distro:prettyName",
           "value": "Ubuntu 22.04 LTS"
+        },
+        {
+          "name": "syft:distro:versionCodename",
+          "value": "jammy"
         },
         {
           "name": "syft:distro:versionID",

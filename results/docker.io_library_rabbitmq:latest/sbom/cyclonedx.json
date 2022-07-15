@@ -1,15 +1,15 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:7f641224-3f0c-4e36-b347-281491c2c06d",
+  "serialNumber": "urn:uuid:52ea7f66-0b60-4e4e-9287-40267e094034",
   "version": 1,
   "metadata": {
-    "timestamp": "2022-07-14T14:03:07-07:00",
+    "timestamp": "2022-07-14T23:57:15Z",
     "tools": [
       {
         "vendor": "anchore",
         "name": "syft",
-        "version": "0.46.1"
+        "version": "0.48.0"
       }
     ],
     "component": {
@@ -7640,6 +7640,10 @@
         {
           "name": "syft:distro:prettyName",
           "value": "Ubuntu 20.04.4 LTS"
+        },
+        {
+          "name": "syft:distro:versionCodename",
+          "value": "focal"
         },
         {
           "name": "syft:distro:versionID",

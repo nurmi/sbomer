@@ -1,15 +1,15 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:28ab1485-de3c-43fa-afa3-b4cb6c4a9150",
+  "serialNumber": "urn:uuid:ff804456-4622-4bc5-9c58-d50351d9301a",
   "version": 1,
   "metadata": {
-    "timestamp": "2022-07-14T13:36:43-07:00",
+    "timestamp": "2022-07-14T23:23:24Z",
     "tools": [
       {
         "vendor": "anchore",
         "name": "syft",
-        "version": "0.46.1"
+        "version": "0.48.0"
       }
     ],
     "component": {
@@ -51,6 +51,10 @@
         }
       ],
       "properties": [
+        {
+          "name": "syft:distro:buildID",
+          "value": "36600"
+        },
         {
           "name": "syft:distro:id",
           "value": "clear-linux-os"

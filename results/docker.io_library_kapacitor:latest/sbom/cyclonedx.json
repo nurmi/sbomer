@@ -1,15 +1,15 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:d5407585-4d6c-49fc-8c3c-0c623c809ccf",
+  "serialNumber": "urn:uuid:2ea56b7c-7516-4a90-9a19-cabc967233a3",
   "version": 1,
   "metadata": {
-    "timestamp": "2022-07-14T13:51:12-07:00",
+    "timestamp": "2022-07-14T23:41:25Z",
     "tools": [
       {
         "vendor": "anchore",
         "name": "syft",
-        "version": "0.46.1"
+        "version": "0.48.0"
       }
     ],
     "component": {
@@ -784,7 +784,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/cloud.google.com/go@v0.82.0?package-id=57358ab7b9bf42d4",
+      "bom-ref": "pkg:golang/cloud.google.com/go@v0.82.0?package-id=8b16c240a8c0b25d",
       "type": "library",
       "name": "cloud.google.com/go",
       "version": "v0.82.0",
@@ -825,11 +825,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:FZ4B2YAzCzkwzGEOp1dqG8sAa3zNIvro1fHRTrB81RU="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/cloud.google.com/go/bigquery@v1.8.0?package-id=8adcf1307a5572e5",
+      "bom-ref": "pkg:golang/cloud.google.com/go/bigquery@v1.8.0?package-id=54b359c47a752251",
       "type": "library",
       "name": "cloud.google.com/go/bigquery",
       "version": "v1.8.0",
@@ -871,11 +875,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:PQcPefKFdaIzjQFbiyOgAqyx8q5djaE7x9Sqe712DPA="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/cloud.google.com/go/bigtable@v1.10.1?package-id=8415bef3a585dfec",
+      "bom-ref": "pkg:golang/cloud.google.com/go/bigtable@v1.10.1?package-id=d722b3d2f5b42a1b",
       "type": "library",
       "name": "cloud.google.com/go/bigtable",
       "version": "v1.10.1",
@@ -917,6 +925,10 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:QKcRHeAsraxIlrdCZ3LLobXKBvITqcOEnSbHG2rzL9g="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
@@ -1843,11 +1855,11 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/alecaivazis/survey/v2@v2.2.9?package-id=65eb16d374ebc301",
+      "bom-ref": "pkg:golang/github.com/alecaivazis/survey/v2@v2.2.9?package-id=939528f8e40e0fa2",
       "type": "library",
       "name": "github.com/AlecAivazis/survey/v2",
       "version": "v2.2.9",
-      "cpe": "cpe:2.3:a:AlecAivazis:survey:v2.2.9:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:AlecAivazis:survey\\/v2:v2.2.9:*:*:*:*:*:*:*",
       "purl": "pkg:golang/github.com/AlecAivazis/survey/v2@v2.2.9",
       "properties": [
         {
@@ -1885,11 +1897,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:LWvJtUswz/W9/zVVXELrmlvdwWcKE60ZAw0FWV9vssk="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/azure/azure-pipeline-go@v0.2.3?package-id=257bd267f5d0087b",
+      "bom-ref": "pkg:golang/github.com/azure/azure-pipeline-go@v0.2.3?package-id=5e028447b31b04d",
       "type": "library",
       "name": "github.com/Azure/azure-pipeline-go",
       "version": "v0.2.3",
@@ -1935,11 +1951,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:7U9HBg1JFK3jHl5qmo4CTZKFTVgMwdFHMVtCdfBE21U="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/azure/azure-sdk-for-go@v52.5.0+incompatible?package-id=88859418e9dae481",
+      "bom-ref": "pkg:golang/github.com/azure/azure-sdk-for-go@v52.5.0+incompatible?package-id=e561bddd47b4b178",
       "type": "library",
       "name": "github.com/Azure/azure-sdk-for-go",
       "version": "v52.5.0+incompatible",
@@ -1985,11 +2005,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:/NLBWHCnIHtZyLPc1P7WIqi4Te4CC23kIQyK3Ep/7lA="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/azure/azure-storage-blob-go@v0.13.0?package-id=66fb38d1914f7db9",
+      "bom-ref": "pkg:golang/github.com/azure/azure-storage-blob-go@v0.13.0?package-id=456afbf1916db5af",
       "type": "library",
       "name": "github.com/Azure/azure-storage-blob-go",
       "version": "v0.13.0",
@@ -2035,15 +2059,19 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:lgWHvFh+UYBNVQLFHXkvul2f6yOPA9PIH82RTG2cSwc="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/azure/go-autorest/autorest@v0.11.18?package-id=75cc22dd78478144",
+      "bom-ref": "pkg:golang/github.com/azure/go-autorest/autorest@v0.11.18?package-id=bb44f9159a3568f3",
       "type": "library",
       "name": "github.com/Azure/go-autorest/autorest",
       "version": "v0.11.18",
-      "cpe": "cpe:2.3:a:Azure:go-autorest:v0.11.18:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:Azure:go-autorest\\/autorest:v0.11.18:*:*:*:*:*:*:*",
       "purl": "pkg:golang/github.com/Azure/go-autorest/autorest@v0.11.18",
       "properties": [
         {
@@ -2064,7 +2092,7 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:Azure:go_autorest:v0.11.18:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:Azure:go_autorest\\/autorest:v0.11.18:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
@@ -2085,15 +2113,19 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:90Y4srNYrwOtAgVo3ndrQkTYn6kf1Eg/AjTFJ8Is2aM="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/azure/go-autorest/autorest/adal@v0.9.13?package-id=263bd03c03b8236b",
+      "bom-ref": "pkg:golang/github.com/azure/go-autorest/autorest/adal@v0.9.13?package-id=9fb36b7d9a12ef3",
       "type": "library",
       "name": "github.com/Azure/go-autorest/autorest/adal",
       "version": "v0.9.13",
-      "cpe": "cpe:2.3:a:Azure:go-autorest:v0.9.13:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:Azure:go-autorest\\/autorest\\/adal:v0.9.13:*:*:*:*:*:*:*",
       "purl": "pkg:golang/github.com/Azure/go-autorest/autorest/adal@v0.9.13",
       "properties": [
         {
@@ -2114,7 +2146,7 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:Azure:go_autorest:v0.9.13:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:Azure:go_autorest\\/autorest\\/adal:v0.9.13:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
@@ -2135,15 +2167,19 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:Mp5hbtOePIzM8pJVRa3YLrWWmZtoxRXqUEzCfJt3+/Q="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/azure/go-autorest/autorest/azure/auth@v0.5.3?package-id=ddfe56624c7278c7",
+      "bom-ref": "pkg:golang/github.com/azure/go-autorest/autorest/azure/auth@v0.5.3?package-id=9b3ac6418ab85f8a",
       "type": "library",
       "name": "github.com/Azure/go-autorest/autorest/azure/auth",
       "version": "v0.5.3",
-      "cpe": "cpe:2.3:a:Azure:go-autorest:v0.5.3:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:Azure:go-autorest\\/autorest\\/azure\\/auth:v0.5.3:*:*:*:*:*:*:*",
       "purl": "pkg:golang/github.com/Azure/go-autorest/autorest/azure/auth@v0.5.3",
       "properties": [
         {
@@ -2164,7 +2200,7 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:Azure:go_autorest:v0.5.3:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:Azure:go_autorest\\/autorest\\/azure\\/auth:v0.5.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
@@ -2185,15 +2221,19 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:lZifaPRAk1bqg5vGqreL6F8uLC5V0fDpY8nFvc3boFc="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/azure/go-autorest/autorest/azure/cli@v0.4.2?package-id=466ea5ef4682aadd",
+      "bom-ref": "pkg:golang/github.com/azure/go-autorest/autorest/azure/cli@v0.4.2?package-id=39f815dbd97ff7d",
       "type": "library",
       "name": "github.com/Azure/go-autorest/autorest/azure/cli",
       "version": "v0.4.2",
-      "cpe": "cpe:2.3:a:Azure:go-autorest:v0.4.2:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:Azure:go-autorest\\/autorest\\/azure\\/cli:v0.4.2:*:*:*:*:*:*:*",
       "purl": "pkg:golang/github.com/Azure/go-autorest/autorest/azure/cli@v0.4.2",
       "properties": [
         {
@@ -2214,7 +2254,7 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:Azure:go_autorest:v0.4.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:Azure:go_autorest\\/autorest\\/azure\\/cli:v0.4.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
@@ -2235,15 +2275,19 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:dMOmEJfkLKW/7JsokJqkyoYSgmR08hi9KrhjZb+JALY="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/azure/go-autorest/autorest/date@v0.3.0?package-id=edb7109bdfdd8ab3",
+      "bom-ref": "pkg:golang/github.com/azure/go-autorest/autorest/date@v0.3.0?package-id=e393b64b648459b6",
       "type": "library",
       "name": "github.com/Azure/go-autorest/autorest/date",
       "version": "v0.3.0",
-      "cpe": "cpe:2.3:a:Azure:go-autorest:v0.3.0:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:Azure:go-autorest\\/autorest\\/date:v0.3.0:*:*:*:*:*:*:*",
       "purl": "pkg:golang/github.com/Azure/go-autorest/autorest/date@v0.3.0",
       "properties": [
         {
@@ -2264,7 +2308,7 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:Azure:go_autorest:v0.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:Azure:go_autorest\\/autorest\\/date:v0.3.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
@@ -2285,15 +2329,19 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:7gUk1U5M/CQbp9WoqinNzJar+8KY+LPI6wiWrP/myHw="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/azure/go-autorest/autorest/to@v0.4.0?package-id=387e9a47974c4d06",
+      "bom-ref": "pkg:golang/github.com/azure/go-autorest/autorest/to@v0.4.0?package-id=8c7b44f4ab0a818a",
       "type": "library",
       "name": "github.com/Azure/go-autorest/autorest/to",
       "version": "v0.4.0",
-      "cpe": "cpe:2.3:a:Azure:go-autorest:v0.4.0:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:Azure:go-autorest\\/autorest\\/to:v0.4.0:*:*:*:*:*:*:*",
       "purl": "pkg:golang/github.com/Azure/go-autorest/autorest/to@v0.4.0",
       "properties": [
         {
@@ -2314,7 +2362,7 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:Azure:go_autorest:v0.4.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:Azure:go_autorest\\/autorest\\/to:v0.4.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
@@ -2335,15 +2383,19 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:oXVqrxakqqV1UZdSazDOPOLvOIz+XA683u8EctwboHk="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/azure/go-autorest/autorest/validation@v0.3.1?package-id=37cb226d66ead34b",
+      "bom-ref": "pkg:golang/github.com/azure/go-autorest/autorest/validation@v0.3.1?package-id=60bf4d34f28037e4",
       "type": "library",
       "name": "github.com/Azure/go-autorest/autorest/validation",
       "version": "v0.3.1",
-      "cpe": "cpe:2.3:a:Azure:go-autorest:v0.3.1:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:Azure:go-autorest\\/autorest\\/validation:v0.3.1:*:*:*:*:*:*:*",
       "purl": "pkg:golang/github.com/Azure/go-autorest/autorest/validation@v0.3.1",
       "properties": [
         {
@@ -2364,7 +2416,7 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:Azure:go_autorest:v0.3.1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:Azure:go_autorest\\/autorest\\/validation:v0.3.1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
@@ -2385,15 +2437,19 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:AgyqjAd94fwNAoTjl/WQXg4VvFeRFpO+UhNyRXqF1ac="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/azure/go-autorest/logger@v0.2.1?package-id=97e50fc0b8902e14",
+      "bom-ref": "pkg:golang/github.com/azure/go-autorest/logger@v0.2.1?package-id=87dd6560c70d1fcb",
       "type": "library",
       "name": "github.com/Azure/go-autorest/logger",
       "version": "v0.2.1",
-      "cpe": "cpe:2.3:a:Azure:go-autorest:v0.2.1:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:Azure:go-autorest\\/logger:v0.2.1:*:*:*:*:*:*:*",
       "purl": "pkg:golang/github.com/Azure/go-autorest/logger@v0.2.1",
       "properties": [
         {
@@ -2414,7 +2470,7 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:Azure:go_autorest:v0.2.1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:Azure:go_autorest\\/logger:v0.2.1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
@@ -2435,15 +2491,19 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:IG7i4p/mDa2Ce4TRyAO8IHnVhAVF3RFU+ZtXWSmf4Tg="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/azure/go-autorest/tracing@v0.6.0?package-id=b36035743f90646d",
+      "bom-ref": "pkg:golang/github.com/azure/go-autorest/tracing@v0.6.0?package-id=e053db8505e804c5",
       "type": "library",
       "name": "github.com/Azure/go-autorest/tracing",
       "version": "v0.6.0",
-      "cpe": "cpe:2.3:a:Azure:go-autorest:v0.6.0:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:Azure:go-autorest\\/tracing:v0.6.0:*:*:*:*:*:*:*",
       "purl": "pkg:golang/github.com/Azure/go-autorest/tracing@v0.6.0",
       "properties": [
         {
@@ -2464,7 +2524,7 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:Azure:go_autorest:v0.6.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:Azure:go_autorest\\/tracing:v0.6.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
@@ -2485,11 +2545,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:TYi4+3m5t6K48TGI9AUdb+IzbnSxvnvUMfuitfgcfuo="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/burntsushi/toml@v0.3.1?package-id=95bfaf2318817236",
+      "bom-ref": "pkg:golang/github.com/burntsushi/toml@v0.3.1?package-id=2a4198c10478a3ae",
       "type": "library",
       "name": "github.com/BurntSushi/toml",
       "version": "v0.3.1",
@@ -2531,11 +2595,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:WXkYYl6Yr3qBf1K79EBnL4mak0OimBfB0XUf9Vl28OQ="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/burntsushi/toml@v0.3.1?package-id=f46d07df5f10e4ca",
+      "bom-ref": "pkg:golang/github.com/burntsushi/toml@v0.3.1?package-id=e0c9ce05cf462726",
       "type": "library",
       "name": "github.com/BurntSushi/toml",
       "version": "v0.3.1",
@@ -2577,11 +2645,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:WXkYYl6Yr3qBf1K79EBnL4mak0OimBfB0XUf9Vl28OQ="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/data-dog/go-sqlmock@v1.4.1?package-id=83ea2e6ffc053f99",
+      "bom-ref": "pkg:golang/github.com/data-dog/go-sqlmock@v1.4.1?package-id=867074feccc9396a",
       "type": "library",
       "name": "github.com/DATA-DOG/go-sqlmock",
       "version": "v1.4.1",
@@ -2643,11 +2715,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:ThlnYciV1iM/V0OSF/dtkqWb6xo5qITT1TJBG1MRDJM="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/sap/go-hdb@v0.14.1?package-id=dfc2aa34dab0e34e",
+      "bom-ref": "pkg:golang/github.com/sap/go-hdb@v0.14.1?package-id=e697468eb280c08",
       "type": "library",
       "name": "github.com/SAP/go-hdb",
       "version": "v0.14.1",
@@ -2693,11 +2769,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:hkw4ozGZ/i4eak7ZuGkY5e0hxiXFdNUBNhr4AvZVNFE="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/shopify/sarama@v1.32.0?package-id=ea2fbd2acb8c754c",
+      "bom-ref": "pkg:golang/github.com/shopify/sarama@v1.32.0?package-id=59549c924fc4f980",
       "type": "library",
       "name": "github.com/Shopify/sarama",
       "version": "v1.32.0",
@@ -2739,11 +2819,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:P+RUjEaRU0GMMbYexGMDyrMkLhbbBVUVISDywi+IlFU="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/alecthomas/template@v0.0.0-20190718012654-fb15b899a751?package-id=973b9bcfc1a8b100",
+      "bom-ref": "pkg:golang/github.com/alecthomas/template@v0.0.0-20190718012654-fb15b899a751?package-id=2b31c77bbebf7517",
       "type": "library",
       "name": "github.com/alecthomas/template",
       "version": "v0.0.0-20190718012654-fb15b899a751",
@@ -2785,11 +2869,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:JYp7IbQjafoB+tBA3gMyHYHrpOtNuDiK/uB5uXxq5wM="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/alecthomas/units@v0.0.0-20210208195552-ff826a37aa15?package-id=172536a288dcc3e4",
+      "bom-ref": "pkg:golang/github.com/alecthomas/units@v0.0.0-20210208195552-ff826a37aa15?package-id=2ffa759c638e9214",
       "type": "library",
       "name": "github.com/alecthomas/units",
       "version": "v0.0.0-20210208195552-ff826a37aa15",
@@ -2831,11 +2919,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:AUNCr9CiJuwrRYS3XieqF+Z9B9gNxo/eANAJCF2eiN4="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/andreyvit/diff@v0.0.0-20170406064948-c7f18ee00883?package-id=d164090a5159f234",
+      "bom-ref": "pkg:golang/github.com/andreyvit/diff@v0.0.0-20170406064948-c7f18ee00883?package-id=4473d40a7c8d0d7a",
       "type": "library",
       "name": "github.com/andreyvit/diff",
       "version": "v0.0.0-20170406064948-c7f18ee00883",
@@ -2877,15 +2969,19 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:bvNMNQO63//z+xNgfBlViaCIJKLlCJ6/fmUseuG0wVQ="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/apache/arrow/go/arrow@v0.0.0-20210722123801-4591d76fce28?package-id=d6400ee3d73e5bee",
+      "bom-ref": "pkg:golang/github.com/apache/arrow/go/arrow@v0.0.0-20210722123801-4591d76fce28?package-id=934603234a01217a",
       "type": "library",
       "name": "github.com/apache/arrow/go/arrow",
       "version": "v0.0.0-20210722123801-4591d76fce28",
-      "cpe": "cpe:2.3:a:apache:arrow:v0.0.0-20210722123801-4591d76fce28:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:apache:arrow\\/go\\/arrow:v0.0.0-20210722123801-4591d76fce28:*:*:*:*:*:*:*",
       "purl": "pkg:golang/github.com/apache/arrow/go/arrow@v0.0.0-20210722123801-4591d76fce28",
       "properties": [
         {
@@ -2923,11 +3019,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:6ZRbTsAQWpML1HK8xOpZEAH9JQ/0X6VcjUjmovKcOQA="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/armon/go-metrics@v0.3.6?package-id=114733a18d6b91f9",
+      "bom-ref": "pkg:golang/github.com/armon/go-metrics@v0.3.6?package-id=7dfd185a2aa0fcf7",
       "type": "library",
       "name": "github.com/armon/go-metrics",
       "version": "v0.3.6",
@@ -2973,11 +3073,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:x/tmtOF9cDBoXH7XoAGOz2qqm1DknFD1590XmD/DUJ8="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/aws/aws-sdk-go@v1.38.3?package-id=f689081bf29675db",
+      "bom-ref": "pkg:golang/github.com/aws/aws-sdk-go@v1.38.3?package-id=6e7c7b96388338a1",
       "type": "library",
       "name": "github.com/aws/aws-sdk-go",
       "version": "v1.38.3",
@@ -3023,11 +3127,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:QCL/le04oAz2jELMRSuJVjGT7H+4hhoQc66eMPCfU/k="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/aws/aws-sdk-go-v2@v1.3.2?package-id=6bdc7e6d3496779a",
+      "bom-ref": "pkg:golang/github.com/aws/aws-sdk-go-v2@v1.3.2?package-id=e57edef39a280651",
       "type": "library",
       "name": "github.com/aws/aws-sdk-go-v2",
       "version": "v1.3.2",
@@ -3073,15 +3181,19 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:RQj8l98yKUm0UV2Wd3w/Ms+TXV9Rs1E6Kr5tRRMfyU4="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/aws/aws-sdk-go-v2/credentials@v1.1.5?package-id=f4bb88f61e6dc8b2",
+      "bom-ref": "pkg:golang/github.com/aws/aws-sdk-go-v2/credentials@v1.1.5?package-id=173be630fbcdd508",
       "type": "library",
       "name": "github.com/aws/aws-sdk-go-v2/credentials",
       "version": "v1.1.5",
-      "cpe": "cpe:2.3:a:aws:aws-sdk-go-v2:v1.1.5:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:aws:aws-sdk-go-v2\\/credentials:v1.1.5:*:*:*:*:*:*:*",
       "purl": "pkg:golang/github.com/aws/aws-sdk-go-v2/credentials@v1.1.5",
       "properties": [
         {
@@ -3102,7 +3214,7 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:aws:aws_sdk_go_v2:v1.1.5:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:aws:aws_sdk_go_v2\\/credentials:v1.1.5:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
@@ -3123,15 +3235,19 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:R9v/eN5cXv5yMLC619xRYl5PgCSuy5SarizmM7+qqSA="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/aws/aws-sdk-go-v2/feature/s3/manager@v1.1.2?package-id=768b962c73cdfdc5",
+      "bom-ref": "pkg:golang/github.com/aws/aws-sdk-go-v2/feature/s3/manager@v1.1.2?package-id=71e49b172b122807",
       "type": "library",
       "name": "github.com/aws/aws-sdk-go-v2/feature/s3/manager",
       "version": "v1.1.2",
-      "cpe": "cpe:2.3:a:aws:aws-sdk-go-v2:v1.1.2:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:aws:aws-sdk-go-v2\\/feature\\/s3\\/manager:v1.1.2:*:*:*:*:*:*:*",
       "purl": "pkg:golang/github.com/aws/aws-sdk-go-v2/feature/s3/manager@v1.1.2",
       "properties": [
         {
@@ -3152,7 +3268,7 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:aws:aws_sdk_go_v2:v1.1.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:aws:aws_sdk_go_v2\\/feature\\/s3\\/manager:v1.1.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
@@ -3173,15 +3289,19 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:Doa5wabOIDA0XZzBX5yCTAPGwDCVZ8Ux0wh29AUDmN4="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding@v1.0.4?package-id=870b6ec308ccc341",
+      "bom-ref": "pkg:golang/github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding@v1.0.4?package-id=1003ec8fb4bd64ce",
       "type": "library",
       "name": "github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding",
       "version": "v1.0.4",
-      "cpe": "cpe:2.3:a:aws:aws-sdk-go-v2:v1.0.4:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:aws:aws-sdk-go-v2\\/service\\/internal\\/accept-encoding:v1.0.4:*:*:*:*:*:*:*",
       "purl": "pkg:golang/github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding@v1.0.4",
       "properties": [
         {
@@ -3202,7 +3322,7 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:aws:aws_sdk_go_v2:v1.0.4:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:aws:aws_sdk_go_v2\\/service\\/internal\\/accept_encoding:v1.0.4:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
@@ -3223,15 +3343,19 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:8yeByqOL6UWBsOOXsHnW93/ukwL66O008tRfxXxnTwA="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/aws/aws-sdk-go-v2/service/internal/presigned-url@v1.0.6?package-id=c037acc0c4b1408c",
+      "bom-ref": "pkg:golang/github.com/aws/aws-sdk-go-v2/service/internal/presigned-url@v1.0.6?package-id=c366778507416b7e",
       "type": "library",
       "name": "github.com/aws/aws-sdk-go-v2/service/internal/presigned-url",
       "version": "v1.0.6",
-      "cpe": "cpe:2.3:a:aws:aws-sdk-go-v2:v1.0.6:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:aws:aws-sdk-go-v2\\/service\\/internal\\/presigned-url:v1.0.6:*:*:*:*:*:*:*",
       "purl": "pkg:golang/github.com/aws/aws-sdk-go-v2/service/internal/presigned-url@v1.0.6",
       "properties": [
         {
@@ -3252,7 +3376,7 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:aws:aws_sdk_go_v2:v1.0.6:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:aws:aws_sdk_go_v2\\/service\\/internal\\/presigned_url:v1.0.6:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
@@ -3273,15 +3397,19 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:ldYIsOP4WyjdzW8t6RC/aSieajrlx+3UN3UCZy1KM5Y="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/aws/aws-sdk-go-v2/service/internal/s3shared@v1.2.2?package-id=c5dd3b22ad31f05c",
+      "bom-ref": "pkg:golang/github.com/aws/aws-sdk-go-v2/service/internal/s3shared@v1.2.2?package-id=79ad8c84d81bef6e",
       "type": "library",
       "name": "github.com/aws/aws-sdk-go-v2/service/internal/s3shared",
       "version": "v1.2.2",
-      "cpe": "cpe:2.3:a:aws:aws-sdk-go-v2:v1.2.2:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:aws:aws-sdk-go-v2\\/service\\/internal\\/s3shared:v1.2.2:*:*:*:*:*:*:*",
       "purl": "pkg:golang/github.com/aws/aws-sdk-go-v2/service/internal/s3shared@v1.2.2",
       "properties": [
         {
@@ -3302,7 +3430,7 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:aws:aws_sdk_go_v2:v1.2.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:aws:aws_sdk_go_v2\\/service\\/internal\\/s3shared:v1.2.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
@@ -3323,15 +3451,19 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:aU8H58DoYxNo8R1TaSPTofkuxfQNnoqZmWL+G3+k/vA="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/aws/aws-sdk-go-v2/service/s3@v1.5.0?package-id=21026f421f44657b",
+      "bom-ref": "pkg:golang/github.com/aws/aws-sdk-go-v2/service/s3@v1.5.0?package-id=d6c54bcdad4c62c",
       "type": "library",
       "name": "github.com/aws/aws-sdk-go-v2/service/s3",
       "version": "v1.5.0",
-      "cpe": "cpe:2.3:a:aws:aws-sdk-go-v2:v1.5.0:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:aws:aws-sdk-go-v2\\/service\\/s3:v1.5.0:*:*:*:*:*:*:*",
       "purl": "pkg:golang/github.com/aws/aws-sdk-go-v2/service/s3@v1.5.0",
       "properties": [
         {
@@ -3352,7 +3484,7 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:aws:aws_sdk_go_v2:v1.5.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:aws:aws_sdk_go_v2\\/service\\/s3:v1.5.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
@@ -3373,11 +3505,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:VbwXUI3L0hyhVmrFxbDxrs6cBX8TNFX0YxCpooMNjvY="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/aws/smithy-go@v1.3.1?package-id=dfc57d37159706c5",
+      "bom-ref": "pkg:golang/github.com/aws/smithy-go@v1.3.1?package-id=1fc15fd90368d0cd",
       "type": "library",
       "name": "github.com/aws/smithy-go",
       "version": "v1.3.1",
@@ -3423,11 +3559,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:xJFO4pK0y9J8fCl34uGsSJX5KNnGbdARDlA5BPhXnwE="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/benbjohnson/clock@v1.1.0?package-id=9c339f03fc67392",
+      "bom-ref": "pkg:golang/github.com/benbjohnson/clock@v1.1.0?package-id=f587945e17c63174",
       "type": "library",
       "name": "github.com/benbjohnson/clock",
       "version": "v1.1.0",
@@ -3469,11 +3609,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:Q92kusRqC1XV2MjkWETPvjJVqKetz1OzxZB7mHJLju8="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/benbjohnson/immutable@v0.3.0?package-id=651f4ea81b0d1e04",
+      "bom-ref": "pkg:golang/github.com/benbjohnson/immutable@v0.3.0?package-id=434b16876864806f",
       "type": "library",
       "name": "github.com/benbjohnson/immutable",
       "version": "v0.3.0",
@@ -3515,11 +3659,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:TVRhuZx2wG9SZ0LRdqlbs9S5BZ6Y24hJEHTCgWHZEIw="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/beorn7/perks@v1.0.1?package-id=58ac72bef6863300",
+      "bom-ref": "pkg:golang/github.com/beorn7/perks@v1.0.1?package-id=963e18241196e896",
       "type": "library",
       "name": "github.com/beorn7/perks",
       "version": "v1.0.1",
@@ -3561,11 +3709,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:VlbKKnNfV8bJzeqoa4cOKqO6bYr3WgKZxO8Z16+hsOM="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/bonitoo-io/go-sql-bigquery@v0.3.4-1.4.0?package-id=9dee7bd16d2a1885",
+      "bom-ref": "pkg:golang/github.com/bonitoo-io/go-sql-bigquery@v0.3.4-1.4.0?package-id=d4106697ecbdd217",
       "type": "library",
       "name": "github.com/bonitoo-io/go-sql-bigquery",
       "version": "v0.3.4-1.4.0",
@@ -3627,11 +3779,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:MaVh0h9+KaMnJcoDvvIGp+O3fefdWm+8MBUX6ELTJTM="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/cenkalti/backoff@v2.2.1+incompatible?package-id=4a3b64db2bcdf210",
+      "bom-ref": "pkg:golang/github.com/cenkalti/backoff@v2.2.1+incompatible?package-id=ff0738b30a462ea8",
       "type": "library",
       "name": "github.com/cenkalti/backoff",
       "version": "v2.2.1+incompatible",
@@ -3673,11 +3829,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:tNowT99t7UNflLxfYYSlKYsBpXdEet03Pg2g16Swow4="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/cespare/xxhash@v1.1.0?package-id=aaca6471ea352add",
+      "bom-ref": "pkg:golang/github.com/cespare/xxhash@v1.1.0?package-id=29ea8f181d21eb10",
       "type": "library",
       "name": "github.com/cespare/xxhash",
       "version": "v1.1.0",
@@ -3719,15 +3879,19 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:a6HrQnmkObjyL+Gs60czilIUGqrzKutQD6XZog3p+ko="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/cespare/xxhash/v2@v2.1.1?package-id=ebb571f4ceff442f",
+      "bom-ref": "pkg:golang/github.com/cespare/xxhash/v2@v2.1.1?package-id=44244852924d26f7",
       "type": "library",
       "name": "github.com/cespare/xxhash/v2",
       "version": "v2.1.1",
-      "cpe": "cpe:2.3:a:cespare:xxhash:v2.1.1:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:cespare:xxhash\\/v2:v2.1.1:*:*:*:*:*:*:*",
       "purl": "pkg:golang/github.com/cespare/xxhash/v2@v2.1.1",
       "properties": [
         {
@@ -3765,15 +3929,19 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:6MnRN8NT7+YBpUIWxHtefFZOKTAPgGjpQSxqLNn0+qY="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/cpuguy83/go-md2man/v2@v2.0.0?package-id=89187264cc0d91c3",
+      "bom-ref": "pkg:golang/github.com/cpuguy83/go-md2man/v2@v2.0.0?package-id=ad96b11bb7dd32d1",
       "type": "library",
       "name": "github.com/cpuguy83/go-md2man/v2",
       "version": "v2.0.0",
-      "cpe": "cpe:2.3:a:cpuguy83:go-md2man:v2.0.0:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:cpuguy83:go-md2man\\/v2:v2.0.0:*:*:*:*:*:*:*",
       "purl": "pkg:golang/github.com/cpuguy83/go-md2man/v2@v2.0.0",
       "properties": [
         {
@@ -3794,7 +3962,7 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:cpuguy83:go_md2man:v2.0.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:cpuguy83:go_md2man\\/v2:v2.0.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
@@ -3815,11 +3983,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:EoUDS0afbrsXAZ9YQ9jdu/mZ2sXgT1/2yyNng4PGlyM="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/davecgh/go-spew@v1.1.1?package-id=5d8b83b245ba6224",
+      "bom-ref": "pkg:golang/github.com/davecgh/go-spew@v1.1.1?package-id=c6efb4a77a5892df",
       "type": "library",
       "name": "github.com/davecgh/go-spew",
       "version": "v1.1.1",
@@ -3865,11 +4037,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/deepmap/oapi-codegen@v1.6.0?package-id=272716785a79d64b",
+      "bom-ref": "pkg:golang/github.com/deepmap/oapi-codegen@v1.6.0?package-id=bfd67958591b275",
       "type": "library",
       "name": "github.com/deepmap/oapi-codegen",
       "version": "v1.6.0",
@@ -3915,11 +4091,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:w/d1ntwh91XI0b/8ja7+u5SvA4IFfM0UNNLmiDR1gg0="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/denisenkom/go-mssqldb@v0.10.0?package-id=4dea9451065ef1fd",
+      "bom-ref": "pkg:golang/github.com/denisenkom/go-mssqldb@v0.10.0?package-id=9913a156a6688873",
       "type": "library",
       "name": "github.com/denisenkom/go-mssqldb",
       "version": "v0.10.0",
@@ -3965,11 +4145,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:QykgLZBorFE95+gO3u9esLd0BmbvpWp0/waNNZfHBM8="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/dimchansky/utfbom@v1.1.0?package-id=587e6f17fb8c83e4",
+      "bom-ref": "pkg:golang/github.com/dimchansky/utfbom@v1.1.0?package-id=16ed96f39d9aba1a",
       "type": "library",
       "name": "github.com/dimchansky/utfbom",
       "version": "v1.1.0",
@@ -4011,11 +4195,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:FcM3g+nofKgUteL8dm/UpdRXNC9KmADgTpLKsu0TRo4="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/docker/docker@v20.10.5+incompatible?package-id=8b8cebc725512b46",
+      "bom-ref": "pkg:golang/github.com/docker/docker@v20.10.5+incompatible?package-id=aa4973dbef3b2914",
       "type": "library",
       "name": "github.com/docker/docker",
       "version": "v20.10.5+incompatible",
@@ -4057,11 +4245,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:o5WL5onN4awYGwrW7+oTn5x9AF2prw7V0Ox8ZEkoCdg="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/docker/go-connections@v0.4.0?package-id=61deade8bb91dc5c",
+      "bom-ref": "pkg:golang/github.com/docker/go-connections@v0.4.0?package-id=62bb5787baf0d610",
       "type": "library",
       "name": "github.com/docker/go-connections",
       "version": "v0.4.0",
@@ -4107,11 +4299,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:El9xVISelRB7BuFusrZozjnkIM5YnzCViNKohAFqRJQ="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/docker/go-units@v0.4.0?package-id=3d85effd35ed6371",
+      "bom-ref": "pkg:golang/github.com/docker/go-units@v0.4.0?package-id=ace9af21b96e045f",
       "type": "library",
       "name": "github.com/docker/go-units",
       "version": "v0.4.0",
@@ -4157,11 +4353,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:3uh0PgVws3nIA0Q+MwDC8yjEPf9zjRfZZWXZYDct3Tw="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/dustin/go-humanize@v1.0.0?package-id=3a2b0c0f46258350",
+      "bom-ref": "pkg:golang/github.com/dustin/go-humanize@v1.0.0?package-id=cc8ab48586401a19",
       "type": "library",
       "name": "github.com/dustin/go-humanize",
       "version": "v1.0.0",
@@ -4207,11 +4407,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:VSnTsYCnlFHaM2/igO1h6X3HA71jcobQuxemgkq4zYo="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/dustin/go-humanize@v1.0.0?package-id=79f507f1e2cf452b",
+      "bom-ref": "pkg:golang/github.com/dustin/go-humanize@v1.0.0?package-id=9717b5707aaf1ada",
       "type": "library",
       "name": "github.com/dustin/go-humanize",
       "version": "v1.0.0",
@@ -4257,11 +4461,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:VSnTsYCnlFHaM2/igO1h6X3HA71jcobQuxemgkq4zYo="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/dustin/go-humanize@v1.0.0?package-id=d65b613e6d67f877",
+      "bom-ref": "pkg:golang/github.com/dustin/go-humanize@v1.0.0?package-id=3d5ebc2a1d71cdba",
       "type": "library",
       "name": "github.com/dustin/go-humanize",
       "version": "v1.0.0",
@@ -4307,11 +4515,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:VSnTsYCnlFHaM2/igO1h6X3HA71jcobQuxemgkq4zYo="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/eapache/go-resiliency@v1.2.0?package-id=2220afedae5d114d",
+      "bom-ref": "pkg:golang/github.com/eapache/go-resiliency@v1.2.0?package-id=3dcc1bbfc4df89a4",
       "type": "library",
       "name": "github.com/eapache/go-resiliency",
       "version": "v1.2.0",
@@ -4357,11 +4569,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:v7g92e/KSN71Rq7vSThKaWIq68fL4YHvWyiUKorFR1Q="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/eapache/go-xerial-snappy@v0.0.0-20180814174437-776d5712da21?package-id=5a5b6fcbc27a5482",
+      "bom-ref": "pkg:golang/github.com/eapache/go-xerial-snappy@v0.0.0-20180814174437-776d5712da21?package-id=db95c8d10c0e7140",
       "type": "library",
       "name": "github.com/eapache/go-xerial-snappy",
       "version": "v0.0.0-20180814174437-776d5712da21",
@@ -4407,11 +4623,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:YEetp8/yCZMuEPMUDHG0CW/brkkEp8mzqk2+ODEitlw="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/eapache/queue@v1.1.0?package-id=3b90263ee32ac440",
+      "bom-ref": "pkg:golang/github.com/eapache/queue@v1.1.0?package-id=b942f4916dc162ad",
       "type": "library",
       "name": "github.com/eapache/queue",
       "version": "v1.1.0",
@@ -4453,11 +4673,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:YOEu7KNc61ntiQlcEeUIoDTJ2o8mQznoNvUhiigpIqc="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/eclipse/paho.mqtt.golang@v1.2.0?package-id=a2584e93e7471f02",
+      "bom-ref": "pkg:golang/github.com/eclipse/paho.mqtt.golang@v1.2.0?package-id=88d8c6ee9a280639",
       "type": "library",
       "name": "github.com/eclipse/paho.mqtt.golang",
       "version": "v1.2.0",
@@ -4499,11 +4723,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:1F8mhG9+aO5/xpdtFkW4SxOJB67ukuDC3t2y2qayIX0="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/evanphx/json-patch@v4.9.0+incompatible?package-id=22f699731a9a6663",
+      "bom-ref": "pkg:golang/github.com/evanphx/json-patch@v4.9.0+incompatible?package-id=91d42b2f1da020bc",
       "type": "library",
       "name": "github.com/evanphx/json-patch",
       "version": "v4.9.0+incompatible",
@@ -4549,11 +4777,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:kLcOMZeuLAJvL2BPWLMIj5oaZQobrkAqrL+WFZwQses="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/fatih/color@v1.9.0?package-id=c18163d108255f72",
+      "bom-ref": "pkg:golang/github.com/fatih/color@v1.9.0?package-id=d5fc06b6c87dc9eb",
       "type": "library",
       "name": "github.com/fatih/color",
       "version": "v1.9.0",
@@ -4595,11 +4827,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:8xPHl4/q1VyqGIPif1F+1V3Y3lSmrq01EabUW3CoW5s="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/form3tech-oss/jwt-go@v3.2.2+incompatible?package-id=c5d77168e651650d",
+      "bom-ref": "pkg:golang/github.com/form3tech-oss/jwt-go@v3.2.2+incompatible?package-id=6c670322c700b91a",
       "type": "library",
       "name": "github.com/form3tech-oss/jwt-go",
       "version": "v3.2.2+incompatible",
@@ -4661,11 +4897,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:TcekIExNqud5crz4xD2pavyTgWiPvpYe4Xau31I0PRk="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/geoffgarside/ber@v0.0.0-20170306085127-854377f11dfb?package-id=bae844342dacc84c",
+      "bom-ref": "pkg:golang/github.com/geoffgarside/ber@v0.0.0-20170306085127-854377f11dfb?package-id=4cc690ec7a7a4c6b",
       "type": "library",
       "name": "github.com/geoffgarside/ber",
       "version": "v0.0.0-20170306085127-854377f11dfb",
@@ -4707,11 +4947,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:iPZjQyOswR6paObEw+1XFfTV6isPKm3vWenA+6NF4AM="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/ghodss/yaml@v1.0.0?package-id=bc0f6b23abb2e1e0",
+      "bom-ref": "pkg:golang/github.com/ghodss/yaml@v1.0.0?package-id=85015a6d4b6318f5",
       "type": "library",
       "name": "github.com/ghodss/yaml",
       "version": "v1.0.0",
@@ -4753,11 +4997,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:wQHKEahhL6wmXdzwWG11gIVCkOv05bNOh+Rxn0yngAk="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/ghodss/yaml@v1.0.0?package-id=86aeec038804dee7",
+      "bom-ref": "pkg:golang/github.com/ghodss/yaml@v1.0.0?package-id=85d2dd2a0899fbb2",
       "type": "library",
       "name": "github.com/ghodss/yaml",
       "version": "v1.0.0",
@@ -4799,11 +5047,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:wQHKEahhL6wmXdzwWG11gIVCkOv05bNOh+Rxn0yngAk="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/go-chi/chi@v4.1.0+incompatible?package-id=fef54fcf824691e7",
+      "bom-ref": "pkg:golang/github.com/go-chi/chi@v4.1.0+incompatible?package-id=ff541f8795fdc254",
       "type": "library",
       "name": "github.com/go-chi/chi",
       "version": "v4.1.0+incompatible",
@@ -4853,11 +5105,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:ETj3cggsVIY2Xao5ExCu6YhEh5MD6JTfcBzS37R260w="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/go-kit/kit@v0.10.0?package-id=d9eaaa4fd0dcce8d",
+      "bom-ref": "pkg:golang/github.com/go-kit/kit@v0.10.0?package-id=a5e86f400b5d621b",
       "type": "library",
       "name": "github.com/go-kit/kit",
       "version": "v0.10.0",
@@ -4907,11 +5163,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:dXFJfIHVvUcpSgDOV+Ne6t7jXri8Tfv2uOLHUZ2XNuo="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/go-logfmt/logfmt@v0.5.0?package-id=a277c422550c8e30",
+      "bom-ref": "pkg:golang/github.com/go-logfmt/logfmt@v0.5.0?package-id=5c960944f65419cf",
       "type": "library",
       "name": "github.com/go-logfmt/logfmt",
       "version": "v0.5.0",
@@ -4961,11 +5221,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:TrB8swr/68K7m9CcGut2g3UOihhbcbiMAYiuTXdEih4="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/go-logr/logr@v0.4.0?package-id=2a289ff0c3c6ae1",
+      "bom-ref": "pkg:golang/github.com/go-logr/logr@v0.4.0?package-id=c28d8da7b9ba08d9",
       "type": "library",
       "name": "github.com/go-logr/logr",
       "version": "v0.4.0",
@@ -5015,11 +5279,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:K7/B1jt6fIBQVd4Owv2MqGQClcgf0R266+7C/QjRcLc="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/go-sql-driver/mysql@v1.5.0?package-id=d740a6dad99030de",
+      "bom-ref": "pkg:golang/github.com/go-sql-driver/mysql@v1.5.0?package-id=d0a7baa297b8dee4",
       "type": "library",
       "name": "github.com/go-sql-driver/mysql",
       "version": "v1.5.0",
@@ -5077,11 +5345,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:ozyZYNQW3x3HtqT1jira07DN2PArx2v7/mN66gGcHOs="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/go-zookeeper/zk@v1.0.2?package-id=6b473929859a34cf",
+      "bom-ref": "pkg:golang/github.com/go-zookeeper/zk@v1.0.2?package-id=c6baee8caffa0619",
       "type": "library",
       "name": "github.com/go-zookeeper/zk",
       "version": "v1.0.2",
@@ -5131,11 +5403,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:4mx0EYENAdX/B/rbunjlt5+4RTA/a9SMHBRuSKdGxPM="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/gofrs/uuid@v3.3.0+incompatible?package-id=d195a50ef794f5ca",
+      "bom-ref": "pkg:golang/github.com/gofrs/uuid@v3.3.0+incompatible?package-id=a527eb6af156b98a",
       "type": "library",
       "name": "github.com/gofrs/uuid",
       "version": "v3.3.0+incompatible",
@@ -5177,11 +5453,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:8K4tyRfvU1CYPgJsveYFQMhpFd/wXNM7iK6rR7UHz84="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/gogo/protobuf@v1.3.2?package-id=91a311e4a81b4f63",
+      "bom-ref": "pkg:golang/github.com/gogo/protobuf@v1.3.2?package-id=2aec8437a77ad1f7",
       "type": "library",
       "name": "github.com/gogo/protobuf",
       "version": "v1.3.2",
@@ -5223,11 +5503,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:Ov1cvc58UF3b5XjBnZv7+opcTcQFZebYjWzi34vdm4Q="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/gogo/protobuf@v1.3.2?package-id=4c971bc531863bf9",
+      "bom-ref": "pkg:golang/github.com/gogo/protobuf@v1.3.2?package-id=37439ded2d1a807d",
       "type": "library",
       "name": "github.com/gogo/protobuf",
       "version": "v1.3.2",
@@ -5269,11 +5553,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:Ov1cvc58UF3b5XjBnZv7+opcTcQFZebYjWzi34vdm4Q="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/gogo/protobuf@v1.3.2?package-id=bc15211d873e1ebb",
+      "bom-ref": "pkg:golang/github.com/gogo/protobuf@v1.3.2?package-id=a17cf0d29d69038b",
       "type": "library",
       "name": "github.com/gogo/protobuf",
       "version": "v1.3.2",
@@ -5315,11 +5603,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:Ov1cvc58UF3b5XjBnZv7+opcTcQFZebYjWzi34vdm4Q="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/golang-jwt/jwt@v3.2.2+incompatible?package-id=55599976f0189895",
+      "bom-ref": "pkg:golang/github.com/golang-jwt/jwt@v3.2.2+incompatible?package-id=31b2eed972e04f6e",
       "type": "library",
       "name": "github.com/golang-jwt/jwt",
       "version": "v3.2.2+incompatible",
@@ -5369,11 +5661,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:IfV12K8xAKAnZqdXVzCZ+TOjboZ2keLg81eXfW3O+oY="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/golang-sql/civil@v0.0.0-20190719163853-cb61b32ac6fe?package-id=775f8e48310d671",
+      "bom-ref": "pkg:golang/github.com/golang-sql/civil@v0.0.0-20190719163853-cb61b32ac6fe?package-id=101d8d0366159245",
       "type": "library",
       "name": "github.com/golang-sql/civil",
       "version": "v0.0.0-20190719163853-cb61b32ac6fe",
@@ -5423,11 +5719,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:lXe2qZdvpiX5WZkZR4hgp4KJVfY3nMkvmwbVkpv1rVY="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/golang/geo@v0.0.0-20190916061304-5b978397cfec?package-id=c5e4966f50df322b",
+      "bom-ref": "pkg:golang/github.com/golang/geo@v0.0.0-20190916061304-5b978397cfec?package-id=1a707ac6c23c64c5",
       "type": "library",
       "name": "github.com/golang/geo",
       "version": "v0.0.0-20190916061304-5b978397cfec",
@@ -5469,11 +5769,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:lJwO/92dFXWeXOZdoGXgptLmNLwynMSHUmU6besqtiw="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/golang/groupcache@v0.0.0-20200121045136-8c9f03a8e57e?package-id=8a36fb45a1c04ef9",
+      "bom-ref": "pkg:golang/github.com/golang/groupcache@v0.0.0-20200121045136-8c9f03a8e57e?package-id=4f06eeb46f195a0d",
       "type": "library",
       "name": "github.com/golang/groupcache",
       "version": "v0.0.0-20200121045136-8c9f03a8e57e",
@@ -5515,11 +5819,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:1r7pUrabqp18hOBcwBwiTsbnFeTZHV9eER/QT5JVZxY="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/golang/protobuf@v1.5.2?package-id=6466781759d6844b",
+      "bom-ref": "pkg:golang/github.com/golang/protobuf@v1.5.2?package-id=9f7c34b6463df32f",
       "type": "library",
       "name": "github.com/golang/protobuf",
       "version": "v1.5.2",
@@ -5561,11 +5869,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:ROPKBNFfQgOUMifHyP+KYbvpjbdoFNs+aK7DXlji0Tw="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/golang/snappy@v0.0.4?package-id=d2e22079404cf4dc",
+      "bom-ref": "pkg:golang/github.com/golang/snappy@v0.0.4?package-id=4a72e788ddac92a7",
       "type": "library",
       "name": "github.com/golang/snappy",
       "version": "v0.0.4",
@@ -5607,11 +5919,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:yAGX7huGHXlcLOEtBnF4w7FQwA26wojNCwOYAEhLjQM="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/google/btree@v1.0.1?package-id=26d200d714e7af73",
+      "bom-ref": "pkg:golang/github.com/google/btree@v1.0.1?package-id=a00cec35e1e7ae17",
       "type": "library",
       "name": "github.com/google/btree",
       "version": "v1.0.1",
@@ -5653,11 +5969,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:gK4Kx5IaGY9CD5sPJ36FHiBJ6ZXl0kilRiiCj+jdYp4="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/google/flatbuffers@v2.0.0+incompatible?package-id=2341f954d4401663",
+      "bom-ref": "pkg:golang/github.com/google/flatbuffers@v2.0.0+incompatible?package-id=4e738606275b3a1d",
       "type": "library",
       "name": "github.com/google/flatbuffers",
       "version": "v2.0.0+incompatible",
@@ -5699,11 +6019,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:dicJ2oXwypfwUGnB2/TYWYEKiuk9eYQlQO/AnOHl5mI="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/google/go-cmp@v0.5.7?package-id=d5aef0ece0ed66b1",
+      "bom-ref": "pkg:golang/github.com/google/go-cmp@v0.5.7?package-id=a0ca0383df067e46",
       "type": "library",
       "name": "github.com/google/go-cmp",
       "version": "v0.5.7",
@@ -5749,11 +6073,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:81/ik6ipDQS2aGcBfIN5dHDB36BwrStyeAQquSYCV4o="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/google/gofuzz@v1.2.0?package-id=1aabfef8874cf2d1",
+      "bom-ref": "pkg:golang/github.com/google/gofuzz@v1.2.0?package-id=cd8cc8429b7e8b0d",
       "type": "library",
       "name": "github.com/google/gofuzz",
       "version": "v1.2.0",
@@ -5795,11 +6123,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:xRy4A+RhZaiKjJ1bPfwQ8sedCA+YS2YcCHW6ec7JMi0="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/google/uuid@v1.1.2?package-id=a11230e4d9bb183b",
+      "bom-ref": "pkg:golang/github.com/google/uuid@v1.1.2?package-id=37a539f74b2dd4a",
       "type": "library",
       "name": "github.com/google/uuid",
       "version": "v1.1.2",
@@ -5841,15 +6173,19 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:EVhdT+1Kseyi1/pUmXKaFxYsDNy9RQYkMWRH68J/W7Y="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/googleapis/gax-go/v2@v2.0.5?package-id=7e81175ee8c033f3",
+      "bom-ref": "pkg:golang/github.com/googleapis/gax-go/v2@v2.0.5?package-id=83ab4533a65b362f",
       "type": "library",
       "name": "github.com/googleapis/gax-go/v2",
       "version": "v2.0.5",
-      "cpe": "cpe:2.3:a:googleapis:gax-go:v2.0.5:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:googleapis:gax-go\\/v2:v2.0.5:*:*:*:*:*:*:*",
       "purl": "pkg:golang/github.com/googleapis/gax-go/v2@v2.0.5",
       "properties": [
         {
@@ -5870,7 +6206,7 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:googleapis:gax_go:v2.0.5:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:googleapis:gax_go\\/v2:v2.0.5:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
@@ -5891,11 +6227,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:sjZBwGj9Jlw33ImPtvFviGYvseOtDM7hkSKB7+Tv3SM="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/googleapis/gnostic@v0.4.1?package-id=461f593dc97183d9",
+      "bom-ref": "pkg:golang/github.com/googleapis/gnostic@v0.4.1?package-id=140793fc42a8158b",
       "type": "library",
       "name": "github.com/googleapis/gnostic",
       "version": "v0.4.1",
@@ -5937,11 +6277,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:DLJCy1n/vrD4HPjOvYcT8aYQXpPIzoRZONaYwyycI+I="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/gorhill/cronexpr@v0.0.0-20180427100037-88b0669f7d75?package-id=4665bb5a18e1e61",
+      "bom-ref": "pkg:golang/github.com/gorhill/cronexpr@v0.0.0-20180427100037-88b0669f7d75?package-id=9a103dad7afd5bc6",
       "type": "library",
       "name": "github.com/gorhill/cronexpr",
       "version": "v0.0.0-20180427100037-88b0669f7d75",
@@ -5983,15 +6327,19 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:f0n1xnMSmBLzVfsMMvriDyA75NB/oBgILX2GcHXIQzY="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/hashicorp/consul/api@v1.8.1?package-id=975ec757419b021a",
+      "bom-ref": "pkg:golang/github.com/hashicorp/consul/api@v1.8.1?package-id=514f2915f469131a",
       "type": "library",
       "name": "github.com/hashicorp/consul/api",
       "version": "v1.8.1",
-      "cpe": "cpe:2.3:a:hashicorp:consul:v1.8.1:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:hashicorp:consul\\/api:v1.8.1:*:*:*:*:*:*:*",
       "purl": "pkg:golang/github.com/hashicorp/consul/api@v1.8.1",
       "properties": [
         {
@@ -6029,11 +6377,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:BOEQaMWoGMhmQ29fC26bi0qb7/rId9JzZP2V0Xmx7m8="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/hashicorp/go-cleanhttp@v0.5.1?package-id=8474e791bee36003",
+      "bom-ref": "pkg:golang/github.com/hashicorp/go-cleanhttp@v0.5.1?package-id=983de05100234d0f",
       "type": "library",
       "name": "github.com/hashicorp/go-cleanhttp",
       "version": "v0.5.1",
@@ -6079,11 +6431,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:dH3aiDG9Jvb5r5+bYHsikaOUIpcM0xvgMXVoDkXMzJM="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/hashicorp/go-hclog@v0.14.1?package-id=7e989630137d7b4e",
+      "bom-ref": "pkg:golang/github.com/hashicorp/go-hclog@v0.14.1?package-id=b0138c5496adf26",
       "type": "library",
       "name": "github.com/hashicorp/go-hclog",
       "version": "v0.14.1",
@@ -6129,11 +6485,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:nQcJDQwIAGnmoUWp8ubocEX40cCml/17YkF6csQLReU="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/hashicorp/go-immutable-radix@v1.3.0?package-id=565320f34fff866f",
+      "bom-ref": "pkg:golang/github.com/hashicorp/go-immutable-radix@v1.3.0?package-id=62cc2c3056dd1499",
       "type": "library",
       "name": "github.com/hashicorp/go-immutable-radix",
       "version": "v1.3.0",
@@ -6179,11 +6539,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:8exGP7ego3OmkfksihtSouGMZ+hQrhxx+FVELeXpVPE="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/hashicorp/go-rootcerts@v1.0.2?package-id=3be1a17e67bda0cc",
+      "bom-ref": "pkg:golang/github.com/hashicorp/go-rootcerts@v1.0.2?package-id=8fcd9d6358bb2148",
       "type": "library",
       "name": "github.com/hashicorp/go-rootcerts",
       "version": "v1.0.2",
@@ -6229,11 +6593,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:jzhAVGtqPKbwpyCPELlgNWhE1znq+qwJtW5Oi2viEzc="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/hashicorp/go-uuid@v1.0.2?package-id=f13fadcdd01e22b4",
+      "bom-ref": "pkg:golang/github.com/hashicorp/go-uuid@v1.0.2?package-id=a14f966b7d1969cb",
       "type": "library",
       "name": "github.com/hashicorp/go-uuid",
       "version": "v1.0.2",
@@ -6279,11 +6647,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:cfejS+Tpcp13yd5nYHWDI6qVCny6wyX2Mt5SGur2IGE="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/hashicorp/golang-lru@v0.5.4?package-id=619bc586265903a3",
+      "bom-ref": "pkg:golang/github.com/hashicorp/golang-lru@v0.5.4?package-id=afb9b31b7b2a8067",
       "type": "library",
       "name": "github.com/hashicorp/golang-lru",
       "version": "v0.5.4",
@@ -6329,11 +6701,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:YDjusn29QI/Das2iO9M0BHnIbxPeyuCHsjMW+lJfyTc="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/hashicorp/serf@v0.9.5?package-id=9427ce7b129f6214",
+      "bom-ref": "pkg:golang/github.com/hashicorp/serf@v0.9.5?package-id=d6f6d36363c78e76",
       "type": "library",
       "name": "github.com/hashicorp/serf",
       "version": "v0.9.5",
@@ -6375,11 +6751,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:EBWvyu9tcRszt3Bxp3KNssBMP1KuHWyO51lz9+786iM="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/influxdata/cron@v0.0.0-20201006132531-4bb0a200dcbe?package-id=c14e23017c53704f",
+      "bom-ref": "pkg:golang/github.com/influxdata/cron@v0.0.0-20201006132531-4bb0a200dcbe?package-id=9b0b4d3c04112525",
       "type": "library",
       "name": "github.com/influxdata/cron",
       "version": "v0.0.0-20201006132531-4bb0a200dcbe",
@@ -6421,11 +6801,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:7j4SdN/BvQwN6WoUq7mv0kg5U9NhnFBxPGMafYRKym0="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/influxdata/flux@v0.151.1?package-id=52c6476297f41d41",
+      "bom-ref": "pkg:golang/github.com/influxdata/flux@v0.151.1?package-id=882352263c749e26",
       "type": "library",
       "name": "github.com/influxdata/flux",
       "version": "v0.151.1",
@@ -6467,11 +6851,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:T/T87Q75+I0QM5/xzEYleebwLKNyAUL9sjetnOwV1eE="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/influxdata/flux@v0.151.1?package-id=6e0589bf2260b70c",
+      "bom-ref": "pkg:golang/github.com/influxdata/flux@v0.151.1?package-id=a3eb1bd2c69b035f",
       "type": "library",
       "name": "github.com/influxdata/flux",
       "version": "v0.151.1",
@@ -6513,11 +6901,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:T/T87Q75+I0QM5/xzEYleebwLKNyAUL9sjetnOwV1eE="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/influxdata/httprouter@v1.3.1-0.20191122104820-ee83e2772f69?package-id=52533e5bed8b22cd",
+      "bom-ref": "pkg:golang/github.com/influxdata/httprouter@v1.3.1-0.20191122104820-ee83e2772f69?package-id=66ebc5b2ffd543dc",
       "type": "library",
       "name": "github.com/influxdata/httprouter",
       "version": "v1.3.1-0.20191122104820-ee83e2772f69",
@@ -6559,15 +6951,19 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:WQsmW0fXO4ZE/lFGIE84G6rIV5SJN3P3sjIXAP1a8eU="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/influxdata/influx-cli/v2@v2.0.0-20210526124422-63da8eccbdb7?package-id=65626e20c8a83811",
+      "bom-ref": "pkg:golang/github.com/influxdata/influx-cli/v2@v2.0.0-20210526124422-63da8eccbdb7?package-id=b00ce4a6dcb38e05",
       "type": "library",
       "name": "github.com/influxdata/influx-cli/v2",
       "version": "v2.0.0-20210526124422-63da8eccbdb7",
-      "cpe": "cpe:2.3:a:influxdata:influx-cli:v2.0.0-20210526124422-63da8eccbdb7:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:influxdata:influx-cli\\/v2:v2.0.0-20210526124422-63da8eccbdb7:*:*:*:*:*:*:*",
       "purl": "pkg:golang/github.com/influxdata/influx-cli/v2@v2.0.0-20210526124422-63da8eccbdb7",
       "properties": [
         {
@@ -6588,7 +6984,7 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:influxdata:influx_cli:v2.0.0-20210526124422-63da8eccbdb7:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:influxdata:influx_cli\\/v2:v2.0.0-20210526124422-63da8eccbdb7:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
@@ -6609,11 +7005,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:9ibK8LdGVXx90F31gUpHYzCCwgjR9/WnZz5l/EK2gq0="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/influxdata/influxdb@v1.1.4?package-id=4e3015fad947403a",
+      "bom-ref": "pkg:golang/github.com/influxdata/influxdb@v1.1.4?package-id=55e1a4bd1d259258",
       "type": "library",
       "name": "github.com/influxdata/influxdb",
       "version": "v1.1.4",
@@ -6655,11 +7055,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:VLf6ewC579GzI+JQCCZdU2Ijeb/bnf6L8u+ptZhKXVM="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/influxdata/influxdb@v1.1.4?package-id=a440a424a9ef52d9",
+      "bom-ref": "pkg:golang/github.com/influxdata/influxdb@v1.1.4?package-id=6ffde34316438693",
       "type": "library",
       "name": "github.com/influxdata/influxdb",
       "version": "v1.1.4",
@@ -6701,11 +7105,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:VLf6ewC579GzI+JQCCZdU2Ijeb/bnf6L8u+ptZhKXVM="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/influxdata/influxdb@v1.1.4?package-id=28a15113791891e8",
+      "bom-ref": "pkg:golang/github.com/influxdata/influxdb@v1.1.4?package-id=a9221a8912bc1ebe",
       "type": "library",
       "name": "github.com/influxdata/influxdb",
       "version": "v1.1.4",
@@ -6747,15 +7155,19 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:VLf6ewC579GzI+JQCCZdU2Ijeb/bnf6L8u+ptZhKXVM="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/influxdata/influxdb-client-go/v2@v2.3.1-0.20210518120617-5d1fff431040?package-id=c031600164002668",
+      "bom-ref": "pkg:golang/github.com/influxdata/influxdb-client-go/v2@v2.3.1-0.20210518120617-5d1fff431040?package-id=fc271f4d23f03ed9",
       "type": "library",
       "name": "github.com/influxdata/influxdb-client-go/v2",
       "version": "v2.3.1-0.20210518120617-5d1fff431040",
-      "cpe": "cpe:2.3:a:influxdata:influxdb-client-go:v2.3.1-0.20210518120617-5d1fff431040:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:influxdata:influxdb-client-go\\/v2:v2.3.1-0.20210518120617-5d1fff431040:*:*:*:*:*:*:*",
       "purl": "pkg:golang/github.com/influxdata/influxdb-client-go/v2@v2.3.1-0.20210518120617-5d1fff431040",
       "properties": [
         {
@@ -6776,7 +7188,7 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:influxdata:influxdb_client_go:v2.3.1-0.20210518120617-5d1fff431040:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:influxdata:influxdb_client_go\\/v2:v2.3.1-0.20210518120617-5d1fff431040:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
@@ -6797,15 +7209,19 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:MBLCfcSsUyFPDJp6T7EoHp/Ph3Jkrm4EuUKLD2rUWHg="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/influxdata/influxdb/v2@v2.0.1-alpha.10.0.20210507184756-dc72dc3f0c07?package-id=f494c0956420d458",
+      "bom-ref": "pkg:golang/github.com/influxdata/influxdb/v2@v2.0.1-alpha.10.0.20210507184756-dc72dc3f0c07?package-id=45ce7c94a3773aac",
       "type": "library",
       "name": "github.com/influxdata/influxdb/v2",
       "version": "v2.0.1-alpha.10.0.20210507184756-dc72dc3f0c07",
-      "cpe": "cpe:2.3:a:influxdata:influxdb:v2.0.1-alpha.10.0.20210507184756-dc72dc3f0c07:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:influxdata:influxdb\\/v2:v2.0.1-alpha.10.0.20210507184756-dc72dc3f0c07:*:*:*:*:*:*:*",
       "purl": "pkg:golang/github.com/influxdata/influxdb/v2@v2.0.1-alpha.10.0.20210507184756-dc72dc3f0c07",
       "properties": [
         {
@@ -6843,11 +7259,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:ERHPVZofgMpPCS+vfWLOZk7UETeV/iVzsDhkEqkE8tY="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/influxdata/kapacitor@(devel)?package-id=76cb5b3f9cf10ddd",
+      "bom-ref": "pkg:golang/github.com/influxdata/kapacitor@(devel)?package-id=b9d2db7a4d51a5dc",
       "type": "library",
       "name": "github.com/influxdata/kapacitor",
       "version": "(devel)",
@@ -6885,11 +7305,15 @@
         {
           "name": "syft:metadata:goCompiledVersion",
           "value": "go1.17.2"
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/influxdata/kapacitor@(devel)?package-id=7413102f9f7ebee1",
+      "bom-ref": "pkg:golang/github.com/influxdata/kapacitor@(devel)?package-id=53e8fc2441696530",
       "type": "library",
       "name": "github.com/influxdata/kapacitor",
       "version": "(devel)",
@@ -6927,11 +7351,15 @@
         {
           "name": "syft:metadata:goCompiledVersion",
           "value": "go1.17.2"
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/influxdata/kapacitor@(devel)?package-id=d33a895a5b053b6d",
+      "bom-ref": "pkg:golang/github.com/influxdata/kapacitor@(devel)?package-id=ba2c08de932d9e18",
       "type": "library",
       "name": "github.com/influxdata/kapacitor",
       "version": "(devel)",
@@ -6969,11 +7397,15 @@
         {
           "name": "syft:metadata:goCompiledVersion",
           "value": "go1.17.2"
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/influxdata/line-protocol@v0.0.0-20200327222509-2487e7298839?package-id=1d939be98477a92e",
+      "bom-ref": "pkg:golang/github.com/influxdata/line-protocol@v0.0.0-20200327222509-2487e7298839?package-id=d41afb569c21b2ce",
       "type": "library",
       "name": "github.com/influxdata/line-protocol",
       "version": "v0.0.0-20200327222509-2487e7298839",
@@ -7019,11 +7451,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:W9WBk7wlPfJLvMCdtV4zPulc4uCPrlywQOmbFOhgQNU="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/influxdata/tdigest@v0.0.2-0.20210216194612-fc98d27c9e8b?package-id=4840d77da16c9eb9",
+      "bom-ref": "pkg:golang/github.com/influxdata/tdigest@v0.0.2-0.20210216194612-fc98d27c9e8b?package-id=23a9993b99befda6",
       "type": "library",
       "name": "github.com/influxdata/tdigest",
       "version": "v0.0.2-0.20210216194612-fc98d27c9e8b",
@@ -7065,11 +7501,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:i44CesU68ZBRvtCjBi3QSosCIKrjmMbYlQMFAwVLds4="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/influxdata/usage-client@v0.0.0-20160829180054-6d3895376368?package-id=9b47ac22eebbb4b7",
+      "bom-ref": "pkg:golang/github.com/influxdata/usage-client@v0.0.0-20160829180054-6d3895376368?package-id=eb04f3801e618b06",
       "type": "library",
       "name": "github.com/influxdata/usage-client",
       "version": "v0.0.0-20160829180054-6d3895376368",
@@ -7115,15 +7555,19 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:+TUUmaFa4YD1Q+7bH9o5NCHQGPMqZCYJiNW6lIIS9z4="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/jcmturner/aescts/v2@v2.0.0?package-id=2cd6df9914460a41",
+      "bom-ref": "pkg:golang/github.com/jcmturner/aescts/v2@v2.0.0?package-id=a3c7524e3f95b92",
       "type": "library",
       "name": "github.com/jcmturner/aescts/v2",
       "version": "v2.0.0",
-      "cpe": "cpe:2.3:a:jcmturner:aescts:v2.0.0:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:jcmturner:aescts\\/v2:v2.0.0:*:*:*:*:*:*:*",
       "purl": "pkg:golang/github.com/jcmturner/aescts/v2@v2.0.0",
       "properties": [
         {
@@ -7161,15 +7605,19 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:9YKLH6ey7H4eDBXW8khjYslgyqG2xZikXP0EQFKrle8="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/jcmturner/dnsutils/v2@v2.0.0?package-id=4fb171f1716674d2",
+      "bom-ref": "pkg:golang/github.com/jcmturner/dnsutils/v2@v2.0.0?package-id=677d388ee7971b43",
       "type": "library",
       "name": "github.com/jcmturner/dnsutils/v2",
       "version": "v2.0.0",
-      "cpe": "cpe:2.3:a:jcmturner:dnsutils:v2.0.0:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:jcmturner:dnsutils\\/v2:v2.0.0:*:*:*:*:*:*:*",
       "purl": "pkg:golang/github.com/jcmturner/dnsutils/v2@v2.0.0",
       "properties": [
         {
@@ -7207,11 +7655,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:lltnkeZGL0wILNvrNiVCR6Ro5PGU/SeBvVO/8c/iPbo="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/jcmturner/gofork@v1.0.0?package-id=93a7fcb303eac4f6",
+      "bom-ref": "pkg:golang/github.com/jcmturner/gofork@v1.0.0?package-id=e5698c982b8c01f5",
       "type": "library",
       "name": "github.com/jcmturner/gofork",
       "version": "v1.0.0",
@@ -7253,15 +7705,19 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:J7uCkflzTEhUZ64xqKnkDxq3kzc96ajM1Gli5ktUem8="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/jcmturner/gokrb5/v8@v8.4.2?package-id=54433ca20946aacd",
+      "bom-ref": "pkg:golang/github.com/jcmturner/gokrb5/v8@v8.4.2?package-id=c38a23cb2718c287",
       "type": "library",
       "name": "github.com/jcmturner/gokrb5/v8",
       "version": "v8.4.2",
-      "cpe": "cpe:2.3:a:jcmturner:gokrb5:v8.4.2:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:jcmturner:gokrb5\\/v8:v8.4.2:*:*:*:*:*:*:*",
       "purl": "pkg:golang/github.com/jcmturner/gokrb5/v8@v8.4.2",
       "properties": [
         {
@@ -7299,15 +7755,19 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:6ZIM6b/JJN0X8UM43ZOM6Z4SJzla+a/u7scXFJzodkA="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/jcmturner/rpc/v2@v2.0.3?package-id=773df6f819805bab",
+      "bom-ref": "pkg:golang/github.com/jcmturner/rpc/v2@v2.0.3?package-id=54b761185921f78b",
       "type": "library",
       "name": "github.com/jcmturner/rpc/v2",
       "version": "v2.0.3",
-      "cpe": "cpe:2.3:a:jcmturner:rpc:v2.0.3:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:jcmturner:rpc\\/v2:v2.0.3:*:*:*:*:*:*:*",
       "purl": "pkg:golang/github.com/jcmturner/rpc/v2@v2.0.3",
       "properties": [
         {
@@ -7345,11 +7805,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:7FXXj8Ti1IaVFpSAziCZWNzbNuZmnvw/i6CqLNdWfZY="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/jmespath/go-jmespath@v0.4.0?package-id=167c766568f8f263",
+      "bom-ref": "pkg:golang/github.com/jmespath/go-jmespath@v0.4.0?package-id=f05e65457ee079b3",
       "type": "library",
       "name": "github.com/jmespath/go-jmespath",
       "version": "v0.4.0",
@@ -7395,11 +7859,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:BEgLn5cpjn8UN1mAw4NjwDrS35OdebyEtFe+9YPoQUg="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/josharian/intern@v1.0.0?package-id=de8cacabcaf48ade",
+      "bom-ref": "pkg:golang/github.com/josharian/intern@v1.0.0?package-id=50adbb577905d581",
       "type": "library",
       "name": "github.com/josharian/intern",
       "version": "v1.0.0",
@@ -7441,11 +7909,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:vlS4z54oSdjm0bgjRigI+G1HpF+tI+9rE5LLzOg8HmY="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/jpillora/backoff@v1.0.0?package-id=fbf08ae2d2ebfb94",
+      "bom-ref": "pkg:golang/github.com/jpillora/backoff@v1.0.0?package-id=81a0edf5669fea94",
       "type": "library",
       "name": "github.com/jpillora/backoff",
       "version": "v1.0.0",
@@ -7487,11 +7959,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:uvFg412JmmHBHw7iwprIxkPMI+sGQ4kzOWsMeHnm2EA="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/json-iterator/go@v1.1.10?package-id=7eab1d5a9e0b101b",
+      "bom-ref": "pkg:golang/github.com/json-iterator/go@v1.1.10?package-id=6bbc49e51a7b0c92",
       "type": "library",
       "name": "github.com/json-iterator/go",
       "version": "v1.1.10",
@@ -7541,11 +8017,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:Kz6Cvnvv2wGdaG/V8yMvfkmNiXq9Ya2KUv4rouJJr68="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/k-sone/snmpgo@v3.2.0+incompatible?package-id=5cbdc4cf0d3b0889",
+      "bom-ref": "pkg:golang/github.com/k-sone/snmpgo@v3.2.0+incompatible?package-id=100fb2a758f5019e",
       "type": "library",
       "name": "github.com/k-sone/snmpgo",
       "version": "v3.2.0+incompatible",
@@ -7595,11 +8075,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:2NogYilKYSia0f+seO9P7aRa6MKG6RcnNc1L74L8WOw="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/kballard/go-shellquote@v0.0.0-20180428030007-95032a82bc51?package-id=fae2b5ae2b90b5c8",
+      "bom-ref": "pkg:golang/github.com/kballard/go-shellquote@v0.0.0-20180428030007-95032a82bc51?package-id=69c0d151c50abb7b",
       "type": "library",
       "name": "github.com/kballard/go-shellquote",
       "version": "v0.0.0-20180428030007-95032a82bc51",
@@ -7645,11 +8129,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:Z9n2FFNUXsshfwJMBgNA0RU6/i7WVaAegv3PtuIHPMs="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/kimor79/gollectd@v1.0.0?package-id=211013bcbb6a008d",
+      "bom-ref": "pkg:golang/github.com/kimor79/gollectd@v1.0.0?package-id=3dceb5551599b50d",
       "type": "library",
       "name": "github.com/kimor79/gollectd",
       "version": "v1.0.0",
@@ -7691,11 +8179,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:6APoEersLJ2W0iwWj8C7COlienQ8XTWh8np4w0ggI8k="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/klauspost/compress@v1.14.4?package-id=f535f57b8d393126",
+      "bom-ref": "pkg:golang/github.com/klauspost/compress@v1.14.4?package-id=4ef5e0316bebe40f",
       "type": "library",
       "name": "github.com/klauspost/compress",
       "version": "v1.14.4",
@@ -7737,11 +8229,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:eijASRJcobkVtSt81Olfh7JX43osYLwy5krOJo6YEu4="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/lib/pq@v1.2.0?package-id=b61d6b5cf3237cf6",
+      "bom-ref": "pkg:golang/github.com/lib/pq@v1.2.0?package-id=11d72927d3989352",
       "type": "library",
       "name": "github.com/lib/pq",
       "version": "v1.2.0",
@@ -7783,11 +8279,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:LXpIM/LZ5xGFhOpXAQUIMM1HdyqzVYM13zNdjCEEcA0="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/mailru/easyjson@v0.7.7?package-id=3c44324847995a3e",
+      "bom-ref": "pkg:golang/github.com/mailru/easyjson@v0.7.7?package-id=5063e7ad6971719c",
       "type": "library",
       "name": "github.com/mailru/easyjson",
       "version": "v0.7.7",
@@ -7829,11 +8329,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:UGYAvKxe3sBsEDzO8ZeWOSlIQfWFlxbzLZe7hwFURr0="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/mattn/go-colorable@v0.1.8?package-id=83520f7eb16387e0",
+      "bom-ref": "pkg:golang/github.com/mattn/go-colorable@v0.1.8?package-id=c9bab00df516053c",
       "type": "library",
       "name": "github.com/mattn/go-colorable",
       "version": "v0.1.8",
@@ -7879,11 +8383,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:c1ghPdyEDarC70ftn0y+A/Ee++9zz8ljHG1b13eJ0s8="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/mattn/go-colorable@v0.1.8?package-id=30e734a9d9039f7e",
+      "bom-ref": "pkg:golang/github.com/mattn/go-colorable@v0.1.8?package-id=6e8280b2ebe427d6",
       "type": "library",
       "name": "github.com/mattn/go-colorable",
       "version": "v0.1.8",
@@ -7929,11 +8437,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:c1ghPdyEDarC70ftn0y+A/Ee++9zz8ljHG1b13eJ0s8="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/mattn/go-ieproxy@v0.0.1?package-id=1ecf0ec4d45c6730",
+      "bom-ref": "pkg:golang/github.com/mattn/go-ieproxy@v0.0.1?package-id=f48cd8da525de597",
       "type": "library",
       "name": "github.com/mattn/go-ieproxy",
       "version": "v0.0.1",
@@ -7979,11 +8491,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:qiyop7gCflfhwCzGyeT0gro3sF9AIg9HU98JORTkqfI="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/mattn/go-isatty@v0.0.12?package-id=d08556d09192e88c",
+      "bom-ref": "pkg:golang/github.com/mattn/go-isatty@v0.0.12?package-id=2ab87664c3c9e6d4",
       "type": "library",
       "name": "github.com/mattn/go-isatty",
       "version": "v0.0.12",
@@ -8029,11 +8545,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:wuysRhFDzyxgEmMf5xjvJ2M9dZoWAXNNr5LSBS7uHXY="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/mattn/go-isatty@v0.0.12?package-id=6b604eb273c35453",
+      "bom-ref": "pkg:golang/github.com/mattn/go-isatty@v0.0.12?package-id=3927ef3131c99057",
       "type": "library",
       "name": "github.com/mattn/go-isatty",
       "version": "v0.0.12",
@@ -8079,11 +8599,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:wuysRhFDzyxgEmMf5xjvJ2M9dZoWAXNNr5LSBS7uHXY="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/matttproud/golang_protobuf_extensions@v1.0.1?package-id=e90090e8170f9c73",
+      "bom-ref": "pkg:golang/github.com/matttproud/golang_protobuf_extensions@v1.0.1?package-id=ad1b8a0377fd6e41",
       "type": "library",
       "name": "github.com/matttproud/golang_protobuf_extensions",
       "version": "v1.0.1",
@@ -8129,11 +8653,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:4hp9jkHxhMHkqkrB3Ix0jegS5sx/RkqARlsWZ6pIwiU="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/mgutz/ansi@v0.0.0-20170206155736-9520e82c474b?package-id=a7e00b84953477f4",
+      "bom-ref": "pkg:golang/github.com/mgutz/ansi@v0.0.0-20170206155736-9520e82c474b?package-id=94dd5b38198f0853",
       "type": "library",
       "name": "github.com/mgutz/ansi",
       "version": "v0.0.0-20170206155736-9520e82c474b",
@@ -8175,11 +8703,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:j7+1HpAFS1zy5+Q4qx1fWh90gTKwiN4QCGoY9TWyyO4="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/miekg/dns@v1.1.41?package-id=80117620ec5885d6",
+      "bom-ref": "pkg:golang/github.com/miekg/dns@v1.1.41?package-id=efe1de9ecb30252b",
       "type": "library",
       "name": "github.com/miekg/dns",
       "version": "v1.1.41",
@@ -8221,11 +8753,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:WMszZWJG0XmzbK9FEmzH2TVcqYzFesusSIB41b8KHxY="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/mileusna/useragent@v0.0.0-20190129205925-3e331f0949a5?package-id=38c4df3c11257b2f",
+      "bom-ref": "pkg:golang/github.com/mileusna/useragent@v0.0.0-20190129205925-3e331f0949a5?package-id=74d483d3b7fbf1d0",
       "type": "library",
       "name": "github.com/mileusna/useragent",
       "version": "v0.0.0-20190129205925-3e331f0949a5",
@@ -8267,11 +8803,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:pXqZHmHOz6LN+zbbUgqyGgAWRnnZEI40IzG3tMsXcSI="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/mitchellh/copystructure@v1.0.0?package-id=5b101ceb6dec944d",
+      "bom-ref": "pkg:golang/github.com/mitchellh/copystructure@v1.0.0?package-id=a446801a733afedf",
       "type": "library",
       "name": "github.com/mitchellh/copystructure",
       "version": "v1.0.0",
@@ -8313,11 +8853,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:Laisrj+bAB6b/yJwB5Bt3ITZhGJdqmxquMKeZ+mmkFQ="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/mitchellh/go-homedir@v1.1.0?package-id=78aa2ae4ed2f6b29",
+      "bom-ref": "pkg:golang/github.com/mitchellh/go-homedir@v1.1.0?package-id=dac601596bf04934",
       "type": "library",
       "name": "github.com/mitchellh/go-homedir",
       "version": "v1.1.0",
@@ -8363,11 +8907,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:lukF9ziXFxDFPkA1vsr5zpc1XuPDn/wFntq5mG+4E0Y="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/mitchellh/mapstructure@v1.4.1?package-id=2fff6a3a5e79391d",
+      "bom-ref": "pkg:golang/github.com/mitchellh/mapstructure@v1.4.1?package-id=ccb7d46338d3ceb5",
       "type": "library",
       "name": "github.com/mitchellh/mapstructure",
       "version": "v1.4.1",
@@ -8409,11 +8957,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:CpVNEelQCZBooIPDn+AR3NpivK/TIKU8bDxdASFVQag="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/mitchellh/reflectwalk@v1.0.1?package-id=2a39f63fb5133d1e",
+      "bom-ref": "pkg:golang/github.com/mitchellh/reflectwalk@v1.0.1?package-id=baf395ad20cbb128",
       "type": "library",
       "name": "github.com/mitchellh/reflectwalk",
       "version": "v1.0.1",
@@ -8455,11 +9007,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:FVzMWA5RllMAKIdUSC8mdWo3XtwoecrH79BY70sEEpE="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd?package-id=910a8e385c4b3a2",
+      "bom-ref": "pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd?package-id=f3715c16866e2d0e",
       "type": "library",
       "name": "github.com/modern-go/concurrent",
       "version": "v0.0.0-20180306012644-bacd9c7ef1dd",
@@ -8509,11 +9065,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:TRLaZ9cD/w8PVh93nsPXa1VrQ6jlwL5oN8l14QlcNfg="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/modern-go/reflect2@v1.0.1?package-id=e2b019564d2b21c3",
+      "bom-ref": "pkg:golang/github.com/modern-go/reflect2@v1.0.1?package-id=51a61b7d95c866eb",
       "type": "library",
       "name": "github.com/modern-go/reflect2",
       "version": "v1.0.1",
@@ -8563,11 +9123,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:9f412s+6RmYXLWZSEzVVgPGK7C2PphHj5RJrvfx9AWI="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/mwitkow/go-conntrack@v0.0.0-20190716064945-2f068394615f?package-id=fddb73f1e3537042",
+      "bom-ref": "pkg:golang/github.com/mwitkow/go-conntrack@v0.0.0-20190716064945-2f068394615f?package-id=a472e20e5632611e",
       "type": "library",
       "name": "github.com/mwitkow/go-conntrack",
       "version": "v0.0.0-20190716064945-2f068394615f",
@@ -8613,11 +9177,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:KUppIJq7/+SVif2QVs3tOP0zanoHgBEVAwHxUSIzRqU="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/opencontainers/go-digest@v1.0.0?package-id=b34a6686db177b7c",
+      "bom-ref": "pkg:golang/github.com/opencontainers/go-digest@v1.0.0?package-id=86e749faedd584be",
       "type": "library",
       "name": "github.com/opencontainers/go-digest",
       "version": "v1.0.0",
@@ -8663,11 +9231,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:apOUWs51W5PlhuyGyz9FCeeBIOUDA/6nW8Oi/yOhh5U="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/opencontainers/image-spec@v1.0.1?package-id=d37f0ec023f7166e",
+      "bom-ref": "pkg:golang/github.com/opencontainers/image-spec@v1.0.1?package-id=8c6bca6e65f25b9f",
       "type": "library",
       "name": "github.com/opencontainers/image-spec",
       "version": "v1.0.1",
@@ -8713,11 +9285,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:JMemWkRwHx4Zj+fVxWoMCFm/8sYGGrUVojFA6h/TRcI="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/opentracing/opentracing-go@v1.2.0?package-id=8fa3a5e18c08d0cf",
+      "bom-ref": "pkg:golang/github.com/opentracing/opentracing-go@v1.2.0?package-id=8a571831c481fd74",
       "type": "library",
       "name": "github.com/opentracing/opentracing-go",
       "version": "v1.2.0",
@@ -8763,11 +9339,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:uEJPy/1a5RIPAJ0Ov+OIO8OxWu77jEv+1B0VhjKrZUs="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/pierrec/lz4@v2.6.1+incompatible?package-id=6591fb2a253a420a",
+      "bom-ref": "pkg:golang/github.com/pierrec/lz4@v2.6.1+incompatible?package-id=33664328660f9a7b",
       "type": "library",
       "name": "github.com/pierrec/lz4",
       "version": "v2.6.1+incompatible",
@@ -8809,15 +9389,19 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:9UY3+iC23yxF0UfGaYrGplQ+79Rg+h/q9FV9ix19jjM="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/pierrec/lz4/v4@v4.1.8?package-id=d0016ec9de5b5e70",
+      "bom-ref": "pkg:golang/github.com/pierrec/lz4/v4@v4.1.8?package-id=2bac057a70d8eb16",
       "type": "library",
       "name": "github.com/pierrec/lz4/v4",
       "version": "v4.1.8",
-      "cpe": "cpe:2.3:a:pierrec:lz4:v4.1.8:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:pierrec:lz4\\/v4:v4.1.8:*:*:*:*:*:*:*",
       "purl": "pkg:golang/github.com/pierrec/lz4/v4@v4.1.8",
       "properties": [
         {
@@ -8855,11 +9439,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:ieHkV+i2BRzngO4Wd/3HGowuZStgq6QkPsD1eolNAO4="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/pkg/browser@v0.0.0-20180916011732-0a3d74bf9ce4?package-id=ed197ed80d0af745",
+      "bom-ref": "pkg:golang/github.com/pkg/browser@v0.0.0-20180916011732-0a3d74bf9ce4?package-id=c98628c30245b896",
       "type": "library",
       "name": "github.com/pkg/browser",
       "version": "v0.0.0-20180916011732-0a3d74bf9ce4",
@@ -8901,11 +9489,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:49lOXmGaUpV9Fz3gd7TFZY106KVlPVa5jcYD1gaQf98="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/pkg/errors@v0.9.1?package-id=5328aaf874869c5d",
+      "bom-ref": "pkg:golang/github.com/pkg/errors@v0.9.1?package-id=152da8b936efe1f8",
       "type": "library",
       "name": "github.com/pkg/errors",
       "version": "v0.9.1",
@@ -8947,11 +9539,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/pkg/errors@v0.9.1?package-id=5d570de9390822c4",
+      "bom-ref": "pkg:golang/github.com/pkg/errors@v0.9.1?package-id=968ae8eb863b44f9",
       "type": "library",
       "name": "github.com/pkg/errors",
       "version": "v0.9.1",
@@ -8993,11 +9589,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/pkg/errors@v0.9.1?package-id=4130fc412a00ac93",
+      "bom-ref": "pkg:golang/github.com/pkg/errors@v0.9.1?package-id=a84586493d6324d2",
       "type": "library",
       "name": "github.com/pkg/errors",
       "version": "v0.9.1",
@@ -9039,11 +9639,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/prometheus/client_golang@v1.10.0?package-id=72b37f0dbfaee469",
+      "bom-ref": "pkg:golang/github.com/prometheus/client_golang@v1.10.0?package-id=d779091905b7fefa",
       "type": "library",
       "name": "github.com/prometheus/client_golang",
       "version": "v1.10.0",
@@ -9089,11 +9693,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:/o0BDeWzLWXNZ+4q5gXltUvaMpJqckTa+jTNoB+z4cg="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/prometheus/client_model@v0.2.0?package-id=d129f102961c6bb9",
+      "bom-ref": "pkg:golang/github.com/prometheus/client_model@v0.2.0?package-id=ce06897a19767d76",
       "type": "library",
       "name": "github.com/prometheus/client_model",
       "version": "v0.2.0",
@@ -9139,11 +9747,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:uq5h0d+GuxiXLJLNABMgp2qUWDPiLvgCzz2dUR+/W/M="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/prometheus/common@v0.20.0?package-id=ed38d5266c9aaa64",
+      "bom-ref": "pkg:golang/github.com/prometheus/common@v0.20.0?package-id=a2d656643b7767bc",
       "type": "library",
       "name": "github.com/prometheus/common",
       "version": "v0.20.0",
@@ -9185,11 +9797,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:pfeDeUdQcIxOMutNjCejsEFp7qeP+/iltHSSmLpE+hU="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/prometheus/procfs@v0.6.0?package-id=e77fd4af4e8f3b80",
+      "bom-ref": "pkg:golang/github.com/prometheus/procfs@v0.6.0?package-id=f487418a5f2143bc",
       "type": "library",
       "name": "github.com/prometheus/procfs",
       "version": "v0.6.0",
@@ -9231,11 +9847,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:mxy4L2jP6qMonqmq+aTtOx1ifVWUgG/TAmntgbh3xv4="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/prometheus/prometheus@v1.8.2-0.20210331101223-3cafc58827d1?package-id=70d3f495d1000024",
+      "bom-ref": "pkg:golang/github.com/prometheus/prometheus@v1.8.2-0.20210331101223-3cafc58827d1?package-id=adae1076607211b3",
       "type": "library",
       "name": "github.com/prometheus/prometheus",
       "version": "v1.8.2-0.20210331101223-3cafc58827d1",
@@ -9277,11 +9897,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:qHnjnMuVa8egkjH3KhD5PZxFKKtDchh/T6ygHSv14Fw="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/rcrowley/go-metrics@v0.0.0-20201227073835-cf1acfcdf475?package-id=648ef67f014565e0",
+      "bom-ref": "pkg:golang/github.com/rcrowley/go-metrics@v0.0.0-20201227073835-cf1acfcdf475?package-id=c68df8ea93ea0180",
       "type": "library",
       "name": "github.com/rcrowley/go-metrics",
       "version": "v0.0.0-20201227073835-cf1acfcdf475",
@@ -9327,15 +9951,19 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:N/ElC8H3+5XpJzTSTfLsJV/mx9Q9g7kxmchpfZyxgzM="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/russross/blackfriday/v2@v2.0.1?package-id=1929899cc21fac89",
+      "bom-ref": "pkg:golang/github.com/russross/blackfriday/v2@v2.0.1?package-id=f0ee90932bede1f1",
       "type": "library",
       "name": "github.com/russross/blackfriday/v2",
       "version": "v2.0.1",
-      "cpe": "cpe:2.3:a:russross:blackfriday:v2.0.1:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:russross:blackfriday\\/v2:v2.0.1:*:*:*:*:*:*:*",
       "purl": "pkg:golang/github.com/russross/blackfriday/v2@v2.0.1",
       "properties": [
         {
@@ -9373,11 +10001,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:lPqVAte+HuHNfhJ/0LC98ESWRz8afy9tM/0RK8m9o+Q="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/segmentio/kafka-go@v0.3.10?package-id=55eb0159d55a74bd",
+      "bom-ref": "pkg:golang/github.com/segmentio/kafka-go@v0.3.10?package-id=47e134ac11589d33",
       "type": "library",
       "name": "github.com/segmentio/kafka-go",
       "version": "v0.3.10",
@@ -9423,11 +10055,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:h/1aSu7gWp6DXLmp0csxm8wrYD6rRYyaqclu2aQ/PWo="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/sergi/go-diff@v1.0.0?package-id=e3b51bb63492604b",
+      "bom-ref": "pkg:golang/github.com/sergi/go-diff@v1.0.0?package-id=e669ee300d554e25",
       "type": "library",
       "name": "github.com/sergi/go-diff",
       "version": "v1.0.0",
@@ -9473,11 +10109,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:Kpca3qRNrduNnOQeazBd0ysaKrUJiIuISHxogkT9RPQ="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/shurcool/sanitized_anchor_name@v1.0.0?package-id=71d9d5c361d38426",
+      "bom-ref": "pkg:golang/github.com/shurcool/sanitized_anchor_name@v1.0.0?package-id=57742a627382dbc",
       "type": "library",
       "name": "github.com/shurcooL/sanitized_anchor_name",
       "version": "v1.0.0",
@@ -9523,11 +10163,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:PdmoCO6wvbs+7yrJyMORt4/BmY5IYyJwS/kOiWx8mHo="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/sirupsen/logrus@v1.8.1?package-id=81c43d9f5d81ce9a",
+      "bom-ref": "pkg:golang/github.com/sirupsen/logrus@v1.8.1?package-id=77b6ae310c7725b0",
       "type": "library",
       "name": "github.com/sirupsen/logrus",
       "version": "v1.8.1",
@@ -9569,11 +10213,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:dJKuHgqk1NNQlqoA6BTlM1Wf9DOH3NBjQyu0h9+AZZE="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/snowflakedb/gosnowflake@v1.6.1?package-id=880e4b26d3f843e1",
+      "bom-ref": "pkg:golang/github.com/snowflakedb/gosnowflake@v1.6.1?package-id=cd554ea2361c71bf",
       "type": "library",
       "name": "github.com/snowflakedb/gosnowflake",
       "version": "v1.6.1",
@@ -9615,11 +10263,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:gaRt3oK7ATFmLgAg6Gw7aKvWhWts3WV33d0YE4Ofh2U="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/spaolacci/murmur3@v0.0.0-20180118202830-f09979ecbc72?package-id=74608097d1c3dbf",
+      "bom-ref": "pkg:golang/github.com/spaolacci/murmur3@v0.0.0-20180118202830-f09979ecbc72?package-id=efed7618f117a28b",
       "type": "library",
       "name": "github.com/spaolacci/murmur3",
       "version": "v0.0.0-20180118202830-f09979ecbc72",
@@ -9661,11 +10313,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:qLC7fQah7D6K1B0ujays3HV9gkFtllcxhzImRR7ArPQ="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/uber-go/tally@v3.3.15+incompatible?package-id=aa9315a24c1523fd",
+      "bom-ref": "pkg:golang/github.com/uber-go/tally@v3.3.15+incompatible?package-id=6dfdedee7107e99",
       "type": "library",
       "name": "github.com/uber-go/tally",
       "version": "v3.3.15+incompatible",
@@ -9715,11 +10371,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:9hLSgNBP28CjIaDmAuRTq9qV+UZY+9PcvAkXO4nNMwg="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/uber/athenadriver@v1.1.4?package-id=f9836459d29a1e6b",
+      "bom-ref": "pkg:golang/github.com/uber/athenadriver@v1.1.4?package-id=e486f3d1380c7ce3",
       "type": "library",
       "name": "github.com/uber/athenadriver",
       "version": "v1.1.4",
@@ -9761,11 +10421,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:k6k0RBeXjR7oZ8NO557MsRw3eX1cc/9B0GNx+W9eHiQ="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/uber/jaeger-client-go@v2.28.0+incompatible?package-id=9d081325cd545709",
+      "bom-ref": "pkg:golang/github.com/uber/jaeger-client-go@v2.28.0+incompatible?package-id=cbab3f69caee27d6",
       "type": "library",
       "name": "github.com/uber/jaeger-client-go",
       "version": "v2.28.0+incompatible",
@@ -9811,11 +10475,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:G4QSBfvPKvg5ZM2j9MrJFdfI5iSljY/WnJqOGFao6HI="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/uber/jaeger-lib@v2.4.1+incompatible?package-id=b88abb06ef03c54",
+      "bom-ref": "pkg:golang/github.com/uber/jaeger-lib@v2.4.1+incompatible?package-id=d229f1b146bf0f77",
       "type": "library",
       "name": "github.com/uber/jaeger-lib",
       "version": "v2.4.1+incompatible",
@@ -9861,15 +10529,19 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:td4jdvLcExb4cBISKIpHuGoVXh+dVKhn2Um6rjCsSsg="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/urfave/cli/v2@v2.3.0?package-id=cd96133bfc4a7c46",
+      "bom-ref": "pkg:golang/github.com/urfave/cli/v2@v2.3.0?package-id=843aa5ff9ea65397",
       "type": "library",
       "name": "github.com/urfave/cli/v2",
       "version": "v2.3.0",
-      "cpe": "cpe:2.3:a:urfave:cli:v2.3.0:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:urfave:cli\\/v2:v2.3.0:*:*:*:*:*:*:*",
       "purl": "pkg:golang/github.com/urfave/cli/v2@v2.3.0",
       "properties": [
         {
@@ -9907,11 +10579,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:qph92Y649prgesehzOrQjdWyxFOp/QVM+6imKHad91M="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/vertica/vertica-sql-go@v1.1.1?package-id=e655e2d096f5d27f",
+      "bom-ref": "pkg:golang/github.com/vertica/vertica-sql-go@v1.1.1?package-id=bec730191641693f",
       "type": "library",
       "name": "github.com/vertica/vertica-sql-go",
       "version": "v1.1.1",
@@ -9957,11 +10633,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:sZYijzBbvdAbJcl4cYlKjR+Eh/X1hGKzukWuhh8PjvI="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/xdg/scram@v0.0.0-20180814205039-7eeb5667e42c?package-id=da31ff19223c38f9",
+      "bom-ref": "pkg:golang/github.com/xdg/scram@v0.0.0-20180814205039-7eeb5667e42c?package-id=e4fd45aebc47dcad",
       "type": "library",
       "name": "github.com/xdg/scram",
       "version": "v0.0.0-20180814205039-7eeb5667e42c",
@@ -10003,11 +10683,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:u40Z8hqBAAQyv+vATcGgV0YCnDjqSL7/q/JyPhhJSPk="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/xdg/stringprep@v1.0.0?package-id=b65829dbcb18bcb3",
+      "bom-ref": "pkg:golang/github.com/xdg/stringprep@v1.0.0?package-id=a99a71338e8c1661",
       "type": "library",
       "name": "github.com/xdg/stringprep",
       "version": "v1.0.0",
@@ -10049,6 +10733,10 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:d9X0esnoa3dFsV0FG35rAT0RIhYFlPq7MiP+DW89La0="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
@@ -10265,7 +10953,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/go.etcd.io/bbolt@v1.3.5?package-id=54141ab0de9c9685",
+      "bom-ref": "pkg:golang/go.etcd.io/bbolt@v1.3.5?package-id=8d0c1d531c2ff69d",
       "type": "library",
       "name": "go.etcd.io/bbolt",
       "version": "v1.3.5",
@@ -10306,11 +10994,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:XAzx9gjCb0Rxj7EoqcClPD1d5ZBxZJk0jbuoPHenBt0="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/go.opencensus.io/go.opencensus.io@v0.23.0?package-id=317d0e4f1cc77270",
+      "bom-ref": "pkg:golang/go.opencensus.io/go.opencensus.io@v0.23.0?package-id=25b7c1e7eb73bddb",
       "type": "library",
       "name": "go.opencensus.io",
       "version": "v0.23.0",
@@ -10351,11 +11043,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:gqCw0LfLxScz8irSi8exQc7fyQ0fKQU/qnC/X8+V/1M="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/go.uber.org/atomic@v1.7.0?package-id=1783bdda983e4c5d",
+      "bom-ref": "pkg:golang/go.uber.org/atomic@v1.7.0?package-id=b308c1fe7b40e8eb",
       "type": "library",
       "name": "go.uber.org/atomic",
       "version": "v1.7.0",
@@ -10396,11 +11092,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:ADUqmZGgLDDfbSL9ZmPxKTybcoEYHgpYfELNoN+7hsw="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/go.uber.org/multierr@v1.5.0?package-id=79b58a1efce28f6a",
+      "bom-ref": "pkg:golang/go.uber.org/multierr@v1.5.0?package-id=96023e5522855918",
       "type": "library",
       "name": "go.uber.org/multierr",
       "version": "v1.5.0",
@@ -10441,11 +11141,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:KCa4XfM8CWFCpxXRGok+Q0SS/0XBhMDbHHGABQLvD2A="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/go.uber.org/zap@v1.14.1?package-id=4ffb37319abe8a81",
+      "bom-ref": "pkg:golang/go.uber.org/zap@v1.14.1?package-id=be46179b4ab5d9f7",
       "type": "library",
       "name": "go.uber.org/zap",
       "version": "v1.14.1",
@@ -10486,11 +11190,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:nYDKopTbvAPq/NrUVZwT15y2lpROBiLLyoRTbXOYWOo="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/golang.org/x/crypto@v0.0.0-20220214200702-86341886e292?package-id=6159609672f1feb4",
+      "bom-ref": "pkg:golang/golang.org/x/crypto@v0.0.0-20220214200702-86341886e292?package-id=276fff904bc6f183",
       "type": "library",
       "name": "golang.org/x/crypto",
       "version": "v0.0.0-20220214200702-86341886e292",
@@ -10532,11 +11240,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:f+lwQ+GtmgoY+A2YaQxlSOnDjXcQ7ZRLWOHbC6HtRqE="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/golang.org/x/crypto@v0.0.0-20220214200702-86341886e292?package-id=7bdbcb336651bda2",
+      "bom-ref": "pkg:golang/golang.org/x/crypto@v0.0.0-20220214200702-86341886e292?package-id=7c98ca80e8ccafa5",
       "type": "library",
       "name": "golang.org/x/crypto",
       "version": "v0.0.0-20220214200702-86341886e292",
@@ -10578,11 +11290,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:f+lwQ+GtmgoY+A2YaQxlSOnDjXcQ7ZRLWOHbC6HtRqE="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/golang.org/x/net@v0.0.0-20220127200216-cd36cc0744dd?package-id=8362fe7f711d1077",
+      "bom-ref": "pkg:golang/golang.org/x/net@v0.0.0-20220127200216-cd36cc0744dd?package-id=15b9ca205acd3888",
       "type": "library",
       "name": "golang.org/x/net",
       "version": "v0.0.0-20220127200216-cd36cc0744dd",
@@ -10624,11 +11340,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:O7DYs+zxREGLKzKoMQrtrEacpb0ZVXA5rIwylE2Xchk="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/golang.org/x/oauth2@v0.0.0-20210514164344-f6687ab2804c?package-id=9f2ca703233bc87a",
+      "bom-ref": "pkg:golang/golang.org/x/oauth2@v0.0.0-20210514164344-f6687ab2804c?package-id=261f24fe64ae3f83",
       "type": "library",
       "name": "golang.org/x/oauth2",
       "version": "v0.0.0-20210514164344-f6687ab2804c",
@@ -10670,11 +11390,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:pkQiBZBvdos9qq4wBAHqlzuZHEXo07pqV06ef90u1WI="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/golang.org/x/sys@v0.0.0-20211216021012-1d35b9e2eb4e?package-id=e3556f53c183a179",
+      "bom-ref": "pkg:golang/golang.org/x/sys@v0.0.0-20211216021012-1d35b9e2eb4e?package-id=4c8c51894be6ab9",
       "type": "library",
       "name": "golang.org/x/sys",
       "version": "v0.0.0-20211216021012-1d35b9e2eb4e",
@@ -10716,11 +11440,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:fLOSk5Q00efkSvAm+4xcoXD+RRmLmmulPn5I3Y9F2EM="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/golang.org/x/sys@v0.0.0-20211216021012-1d35b9e2eb4e?package-id=d2f91091c09e9b3b",
+      "bom-ref": "pkg:golang/golang.org/x/sys@v0.0.0-20211216021012-1d35b9e2eb4e?package-id=154bb33cf18f8407",
       "type": "library",
       "name": "golang.org/x/sys",
       "version": "v0.0.0-20211216021012-1d35b9e2eb4e",
@@ -10762,11 +11490,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:fLOSk5Q00efkSvAm+4xcoXD+RRmLmmulPn5I3Y9F2EM="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/golang.org/x/term@v0.0.0-20210927222741-03fcf44c2211?package-id=78e536258f5441e3",
+      "bom-ref": "pkg:golang/golang.org/x/term@v0.0.0-20210927222741-03fcf44c2211?package-id=341d2ecfe9e2694",
       "type": "library",
       "name": "golang.org/x/term",
       "version": "v0.0.0-20210927222741-03fcf44c2211",
@@ -10808,11 +11540,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:JGgROgKl9N8DuW20oFS5gxc+lE67/N3FcwmBPMe7ArY="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/golang.org/x/term@v0.0.0-20210927222741-03fcf44c2211?package-id=dfc36dc120e47740",
+      "bom-ref": "pkg:golang/golang.org/x/term@v0.0.0-20210927222741-03fcf44c2211?package-id=a79af4e537878977",
       "type": "library",
       "name": "golang.org/x/term",
       "version": "v0.0.0-20210927222741-03fcf44c2211",
@@ -10854,11 +11590,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:JGgROgKl9N8DuW20oFS5gxc+lE67/N3FcwmBPMe7ArY="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/golang.org/x/text@v0.3.7?package-id=5294567043b4a25b",
+      "bom-ref": "pkg:golang/golang.org/x/text@v0.3.7?package-id=80d067d7fb495763",
       "type": "library",
       "name": "golang.org/x/text",
       "version": "v0.3.7",
@@ -10900,11 +11640,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:olpwvP2KacW1ZWvsR7uQhoyTYvKAupfQrRGBFM352Gk="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/golang.org/x/text@v0.3.7?package-id=702996ad5d0d299b",
+      "bom-ref": "pkg:golang/golang.org/x/text@v0.3.7?package-id=3dd3575b4b214653",
       "type": "library",
       "name": "golang.org/x/text",
       "version": "v0.3.7",
@@ -10946,11 +11690,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:olpwvP2KacW1ZWvsR7uQhoyTYvKAupfQrRGBFM352Gk="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/golang.org/x/time@v0.0.0-20210220033141-f8bda1e9f3ba?package-id=1050a550feb32d4f",
+      "bom-ref": "pkg:golang/golang.org/x/time@v0.0.0-20210220033141-f8bda1e9f3ba?package-id=b68ddfacc19c8cb3",
       "type": "library",
       "name": "golang.org/x/time",
       "version": "v0.0.0-20210220033141-f8bda1e9f3ba",
@@ -10992,11 +11740,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:O8mE0/t419eoIwhTFpKVkHiTs/Igowgfkj25AcZrtiE="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/golang.org/x/xerrors@v0.0.0-20200804184101-5ec99f83aff1?package-id=315ef39bf11c5030",
+      "bom-ref": "pkg:golang/golang.org/x/xerrors@v0.0.0-20200804184101-5ec99f83aff1?package-id=cb6ea8f0ff5a0a1b",
       "type": "library",
       "name": "golang.org/x/xerrors",
       "version": "v0.0.0-20200804184101-5ec99f83aff1",
@@ -11038,11 +11790,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:go1bK/D/BFZV2I8cIQd1NKEZ+0owSTG1fDTci4IqFcE="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/google.golang.org/api@v0.47.0?package-id=d4a88f52c39cecb8",
+      "bom-ref": "pkg:golang/google.golang.org/api@v0.47.0?package-id=1e2ed794f8a4003a",
       "type": "library",
       "name": "google.golang.org/api",
       "version": "v0.47.0",
@@ -11084,11 +11840,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:sQLWZQvP6jPGIP4JGPkJu4zHswrv81iobiyszr3b/0I="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/google.golang.org/genproto@v0.0.0-20210630183607-d20f26d13c79?package-id=6d195c71ae4c8552",
+      "bom-ref": "pkg:golang/google.golang.org/genproto@v0.0.0-20210630183607-d20f26d13c79?package-id=81ef2db1857c2d14",
       "type": "library",
       "name": "google.golang.org/genproto",
       "version": "v0.0.0-20210630183607-d20f26d13c79",
@@ -11130,11 +11890,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:s1jFTXJryg4a1mew7xv03VZD8N9XjxFhk1o4Js4WvPQ="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/google.golang.org/grpc@v1.39.0?package-id=20ef0ff8bdef9c35",
+      "bom-ref": "pkg:golang/google.golang.org/grpc@v1.39.0?package-id=cf2f846c658c3e10",
       "type": "library",
       "name": "google.golang.org/grpc",
       "version": "v1.39.0",
@@ -11176,11 +11940,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:Klz8I9kdtkIN6EpHHUOMLCYhTn/2WAe5a0s1hcBkdTI="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/google.golang.org/protobuf@v1.27.1?package-id=7a72c94d4c5471a0",
+      "bom-ref": "pkg:golang/google.golang.org/protobuf@v1.27.1?package-id=be2bbaf0bdb5b393",
       "type": "library",
       "name": "google.golang.org/protobuf",
       "version": "v1.27.1",
@@ -11222,11 +11990,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:SnqbnDw1V7RiZcXPx5MEeqPv2s79L9i7BJUlG/+RurQ="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/gopkg.in/alecthomas/kingpin.v2@v2.2.6?package-id=d282a8ec246e9477",
+      "bom-ref": "pkg:golang/gopkg.in/alecthomas/kingpin.v2@v2.2.6?package-id=708e60c884e8a5a7",
       "type": "library",
       "name": "gopkg.in/alecthomas/kingpin.v2",
       "version": "v2.2.6",
@@ -11267,11 +12039,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:jMFz6MfLP0/4fUyZle81rXUoxOBFi19VUFKVDOQfozc="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/gopkg.in/fsnotify/fsnotify.v1@v1.4.7?package-id=d2e8f33e67ca7540",
+      "bom-ref": "pkg:golang/gopkg.in/fsnotify/fsnotify.v1@v1.4.7?package-id=919ed5051e9a4cc0",
       "type": "library",
       "name": "gopkg.in/fsnotify/fsnotify.v1",
       "version": "v1.4.7",
@@ -11312,11 +12088,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:XNNYLJHt73EyYiCZi6+xjupS9CpvmiDgjPTAjrBlQbo="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/gopkg.in/gomail.v2@v2.0.0-20160411212932-81ebce5c23df?package-id=3ec113f30c706411",
+      "bom-ref": "pkg:golang/gopkg.in/gomail.v2@v2.0.0-20160411212932-81ebce5c23df?package-id=bcd89ffe8faf712c",
       "type": "library",
       "name": "gopkg.in/gomail.v2",
       "version": "v2.0.0-20160411212932-81ebce5c23df",
@@ -11357,11 +12137,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:n7WqCuqOuCbNr617RXOY0AWRXxgwEyPp2z+p0+hgMuE="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/gopkg.in/inf.v0@v0.9.1?package-id=ce5d252ae4336b9",
+      "bom-ref": "pkg:golang/gopkg.in/inf.v0@v0.9.1?package-id=47ef81f721fee284",
       "type": "library",
       "name": "gopkg.in/inf.v0",
       "version": "v0.9.1",
@@ -11402,11 +12186,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:73M5CoZyi3ZLMOyDlQh031Cx6N9NDJ2Vvfl76EDAgDc="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/gopkg.in/yaml.v2@v2.4.0?package-id=1a6a228f7b29e1e",
+      "bom-ref": "pkg:golang/gopkg.in/yaml.v2@v2.4.0?package-id=5327f357701a5a64",
       "type": "library",
       "name": "gopkg.in/yaml.v2",
       "version": "v2.4.0",
@@ -11447,11 +12235,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:D8xgwECY7CYvx+Y2n4sBz93Jn9JRvxdiyyo8CTfuKaY="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/gopkg.in/yaml.v2@v2.4.0?package-id=c0781148bc511662",
+      "bom-ref": "pkg:golang/gopkg.in/yaml.v2@v2.4.0?package-id=6956dfbca2f4d710",
       "type": "library",
       "name": "gopkg.in/yaml.v2",
       "version": "v2.4.0",
@@ -11492,6 +12284,10 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:D8xgwECY7CYvx+Y2n4sBz93Jn9JRvxdiyyo8CTfuKaY="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
@@ -12013,7 +12809,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/k8s.io/api@v0.20.5?package-id=798256b9f79100b9",
+      "bom-ref": "pkg:golang/k8s.io/api@v0.20.5?package-id=2ee9c186100b78e6",
       "type": "library",
       "name": "k8s.io/api",
       "version": "v0.20.5",
@@ -12054,11 +12850,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:zsMTffV0Le2EiI0aKvlTHEnXGxk1HiqGRhJcCPiI7JI="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/k8s.io/apimachinery@v0.21.0?package-id=5e2a0a4d7b5729d8",
+      "bom-ref": "pkg:golang/k8s.io/apimachinery@v0.21.0?package-id=48d7c594fc5e03ba",
       "type": "library",
       "name": "k8s.io/apimachinery",
       "version": "v0.21.0",
@@ -12099,11 +12899,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:3Fx+41if+IRavNcKOz09FwEXDBG6ORh6iMsTSelhkMA="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/k8s.io/client-go@v0.20.5?package-id=f16359d9996383b",
+      "bom-ref": "pkg:golang/k8s.io/client-go@v0.20.5?package-id=e3597398f56f6758",
       "type": "library",
       "name": "k8s.io/client-go",
       "version": "v0.20.5",
@@ -12144,11 +12948,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:dJGtYUvFrFGjQ+GjXEIby0gZWdlAOc0xJBJqY3VyDxA="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/k8s.io/klog/v2@v2.8.0?package-id=af9c4d244bf5975f",
+      "bom-ref": "pkg:golang/k8s.io/klog/v2@v2.8.0?package-id=ec4a10e14b3273fb",
       "type": "library",
       "name": "k8s.io/klog/v2",
       "version": "v2.8.0",
@@ -12190,11 +12998,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:Q3gmuM9hKEjefWFFYF0Mat+YyFJvsUyYuwyNNJ5C9Ts="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/k8s.io/utils@v0.0.0-20201110183641-67b214c5f920?package-id=f743405890b68234",
+      "bom-ref": "pkg:golang/k8s.io/utils@v0.0.0-20201110183641-67b214c5f920?package-id=b71bf0ae738a4ae",
       "type": "library",
       "name": "k8s.io/utils",
       "version": "v0.0.0-20201110183641-67b214c5f920",
@@ -12235,6 +13047,10 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:CbnUZsM497iRC5QMVkHwyl8s2tB3g7yaSHkYPkpgelw="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
@@ -19365,7 +20181,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/sigs.k8s.io/structured-merge-diff/v4@v4.1.0?package-id=b687d1c561f5bdce",
+      "bom-ref": "pkg:golang/sigs.k8s.io/structured-merge-diff/v4@v4.1.0?package-id=128634dec410d323",
       "type": "library",
       "name": "sigs.k8s.io/structured-merge-diff/v4",
       "version": "v4.1.0",
@@ -19423,11 +20239,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:C4r9BgJ98vrKnnVCjwCSXcWjWe0NKcUQkmzDXZXGwH8="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/sigs.k8s.io/yaml@v1.2.0?package-id=4a3a2dba0f200ab3",
+      "bom-ref": "pkg:golang/sigs.k8s.io/yaml@v1.2.0?package-id=14aef49f01c42c0",
       "type": "library",
       "name": "sigs.k8s.io/yaml",
       "version": "v1.2.0",
@@ -19468,6 +20288,10 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:kr/MCeFWJWTwyaHoR9c8EjH9OumOmoF9YGiZd7lFm/Q="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/influxdata/kapacitor"
         }
       ]
     },
@@ -19985,6 +20809,10 @@
         {
           "name": "syft:distro:prettyName",
           "value": "Debian GNU/Linux 9 (stretch)"
+        },
+        {
+          "name": "syft:distro:versionCodename",
+          "value": "stretch"
         },
         {
           "name": "syft:distro:versionID",

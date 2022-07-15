@@ -1,15 +1,15 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:0be74627-e1bf-49ae-aee1-4c97e727c6c7",
+  "serialNumber": "urn:uuid:1ce5bab0-e582-4afb-975f-21bfac9f27b4",
   "version": 1,
   "metadata": {
-    "timestamp": "2022-07-14T13:54:39-07:00",
+    "timestamp": "2022-07-14T23:46:51Z",
     "tools": [
       {
         "vendor": "anchore",
         "name": "syft",
-        "version": "0.46.1"
+        "version": "0.48.0"
       }
     ],
     "component": {
@@ -21,7 +21,7 @@
   },
   "components": [
     {
-      "bom-ref": "pkg:golang/github.com/armon/go-metrics@v0.0.0-20190430140413-ec5e00d3c878?package-id=d1e73eae4c55e35a",
+      "bom-ref": "pkg:golang/github.com/armon/go-metrics@v0.0.0-20190430140413-ec5e00d3c878?package-id=2e6cfd86b2602e4",
       "type": "library",
       "name": "github.com/armon/go-metrics",
       "version": "v0.0.0-20190430140413-ec5e00d3c878",
@@ -67,11 +67,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:EFSB7Zo9Eg91v7MJPVsifUysc/wPdN+NOnVe6bWbdBM="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/nats-io/nats-streaming-server"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/fatih/color@v1.7.0?package-id=67b051a52e21bc0e",
+      "bom-ref": "pkg:golang/github.com/fatih/color@v1.7.0?package-id=4e64e95c3c5e88d3",
       "type": "library",
       "name": "github.com/fatih/color",
       "version": "v1.7.0",
@@ -113,11 +117,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:DkWD4oS2D8LGGgTQ6IvwJJXSL5Vp2ffcQg58nFV38Ys="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/nats-io/nats-streaming-server"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/go-sql-driver/mysql@v1.6.0?package-id=6184421bececf05b",
+      "bom-ref": "pkg:golang/github.com/go-sql-driver/mysql@v1.6.0?package-id=30fc8ef9a0a6adf5",
       "type": "library",
       "name": "github.com/go-sql-driver/mysql",
       "version": "v1.6.0",
@@ -175,11 +183,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:BCTh4TKNUYmOmMUcQ3IipzF5prigylS7XXjEkfCHuOE="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/nats-io/nats-streaming-server"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/gogo/protobuf@v1.3.2?package-id=c8e666b1d2e2402c",
+      "bom-ref": "pkg:golang/github.com/gogo/protobuf@v1.3.2?package-id=2cc65d0839ffb9fb",
       "type": "library",
       "name": "github.com/gogo/protobuf",
       "version": "v1.3.2",
@@ -221,11 +233,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:Ov1cvc58UF3b5XjBnZv7+opcTcQFZebYjWzi34vdm4Q="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/nats-io/nats-streaming-server"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/hashicorp/go-hclog@v1.1.0?package-id=4b6ef205fd3820f2",
+      "bom-ref": "pkg:golang/github.com/hashicorp/go-hclog@v1.1.0?package-id=15c25bb06d3c6d43",
       "type": "library",
       "name": "github.com/hashicorp/go-hclog",
       "version": "v1.1.0",
@@ -271,11 +287,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:QsGcniKx5/LuX2eYoeL+Np3UKYPNaN7YKpTh29h8rbw="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/nats-io/nats-streaming-server"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/hashicorp/go-immutable-radix@v1.0.0?package-id=1b2c2f7f8785fc22",
+      "bom-ref": "pkg:golang/github.com/hashicorp/go-immutable-radix@v1.0.0?package-id=b322f232f312a0b4",
       "type": "library",
       "name": "github.com/hashicorp/go-immutable-radix",
       "version": "v1.0.0",
@@ -321,11 +341,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:AKDB1HM5PWEA7i4nhcpwOrO2byshxBjXVn/J/3+z5/0="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/nats-io/nats-streaming-server"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/hashicorp/go-msgpack@v1.1.5?package-id=dbb067fedc66d0b",
+      "bom-ref": "pkg:golang/github.com/hashicorp/go-msgpack@v1.1.5?package-id=58ceab67295a28f2",
       "type": "library",
       "name": "github.com/hashicorp/go-msgpack",
       "version": "v1.1.5",
@@ -371,11 +395,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:9byZdVjKTe5mce63pRVNP1L7UAmdHOTEMGehn6KvJWs="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/nats-io/nats-streaming-server"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/hashicorp/golang-lru@v0.5.0?package-id=d81694e66d3a43a1",
+      "bom-ref": "pkg:golang/github.com/hashicorp/golang-lru@v0.5.0?package-id=5d350727d014f78e",
       "type": "library",
       "name": "github.com/hashicorp/golang-lru",
       "version": "v0.5.0",
@@ -421,11 +449,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:CL2msUPvZTLb5O648aiLNJw3hnBxN2+1Jq8rCOH9wdo="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/nats-io/nats-streaming-server"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/hashicorp/raft@v1.3.9?package-id=f699495325bfa178",
+      "bom-ref": "pkg:golang/github.com/hashicorp/raft@v1.3.9?package-id=ea1de3011d8226c8",
       "type": "library",
       "name": "github.com/hashicorp/raft",
       "version": "v1.3.9",
@@ -467,11 +499,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:9yuo1aR0bFTr1cw7pj3S2Bk6MhJCsnr2NAxvIBrP2x4="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/nats-io/nats-streaming-server"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/klauspost/compress@v1.14.4?package-id=a55e4291c825e53b",
+      "bom-ref": "pkg:golang/github.com/klauspost/compress@v1.14.4?package-id=d5f5be6f0ed8ce7",
       "type": "library",
       "name": "github.com/klauspost/compress",
       "version": "v1.14.4",
@@ -513,11 +549,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:eijASRJcobkVtSt81Olfh7JX43osYLwy5krOJo6YEu4="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/nats-io/nats-streaming-server"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/lib/pq@v1.10.4?package-id=357eeec00e569cdf",
+      "bom-ref": "pkg:golang/github.com/lib/pq@v1.10.4?package-id=a322c67204892ab3",
       "type": "library",
       "name": "github.com/lib/pq",
       "version": "v1.10.4",
@@ -559,11 +599,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:SO9z7FRPzA03QhHKJrH5BXA6HU1rS4V2nIVrrNC1iYk="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/nats-io/nats-streaming-server"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/mattn/go-colorable@v0.1.4?package-id=eacc0fa690317895",
+      "bom-ref": "pkg:golang/github.com/mattn/go-colorable@v0.1.4?package-id=cd71fbfd2d9c3167",
       "type": "library",
       "name": "github.com/mattn/go-colorable",
       "version": "v0.1.4",
@@ -609,11 +653,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:snbPLB8fVfU9iwbbo30TPtbLRzwWu6aJS6Xh4eaaviA="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/nats-io/nats-streaming-server"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/mattn/go-isatty@v0.0.10?package-id=5f883d0f51dcf100",
+      "bom-ref": "pkg:golang/github.com/mattn/go-isatty@v0.0.10?package-id=33d9646a71831f2b",
       "type": "library",
       "name": "github.com/mattn/go-isatty",
       "version": "v0.0.10",
@@ -659,11 +707,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:qxFzApOv4WsAL965uUPIsXzAKCZxN2p9UqdhFS4ZW10="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/nats-io/nats-streaming-server"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/minio/highwayhash@v1.0.2?package-id=65b1c4a573c8f4db",
+      "bom-ref": "pkg:golang/github.com/minio/highwayhash@v1.0.2?package-id=4d8a8a52e325a543",
       "type": "library",
       "name": "github.com/minio/highwayhash",
       "version": "v1.0.2",
@@ -705,15 +757,19 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:Aak5U0nElisjDCfPSG79Tgzkn2gl66NxOMspRrKnA/g="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/nats-io/nats-streaming-server"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/nats-io/jwt/v2@v2.2.1-0.20220330180145-442af02fd36a?package-id=c646f9e68902d137",
+      "bom-ref": "pkg:golang/github.com/nats-io/jwt/v2@v2.2.1-0.20220330180145-442af02fd36a?package-id=aae5d58de56b886e",
       "type": "library",
       "name": "github.com/nats-io/jwt/v2",
       "version": "v2.2.1-0.20220330180145-442af02fd36a",
-      "cpe": "cpe:2.3:a:nats-io:jwt:v2.2.1-0.20220330180145-442af02fd36a:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:nats-io:jwt\\/v2:v2.2.1-0.20220330180145-442af02fd36a:*:*:*:*:*:*:*",
       "purl": "pkg:golang/github.com/nats-io/jwt/v2@v2.2.1-0.20220330180145-442af02fd36a",
       "properties": [
         {
@@ -734,11 +790,11 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:nats_io:jwt:v2.2.1-0.20220330180145-442af02fd36a:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:nats_io:jwt\\/v2:v2.2.1-0.20220330180145-442af02fd36a:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:nats:jwt:v2.2.1-0.20220330180145-442af02fd36a:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:nats:jwt\\/v2:v2.2.1-0.20220330180145-442af02fd36a:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
@@ -759,15 +815,19 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:lem6QCvxR0Y28gth9P+wV2K/zYUUAkJ+55U8cpS0p5I="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/nats-io/nats-streaming-server"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/nats-io/nats-server/v2@v2.8.2?package-id=a7633dfbf187edd8",
+      "bom-ref": "pkg:golang/github.com/nats-io/nats-server/v2@v2.8.2?package-id=48d10e8e9cbab703",
       "type": "library",
       "name": "github.com/nats-io/nats-server/v2",
       "version": "v2.8.2",
-      "cpe": "cpe:2.3:a:nats-io:nats-server:v2.8.2:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:nats-io:nats-server\\/v2:v2.8.2:*:*:*:*:*:*:*",
       "purl": "pkg:golang/github.com/nats-io/nats-server/v2@v2.8.2",
       "properties": [
         {
@@ -788,23 +848,23 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:nats-io:nats_server:v2.8.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:nats-io:nats_server\\/v2:v2.8.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:nats_io:nats-server:v2.8.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:nats_io:nats-server\\/v2:v2.8.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:nats_io:nats_server:v2.8.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:nats_io:nats_server\\/v2:v2.8.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:nats:nats-server:v2.8.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:nats:nats-server\\/v2:v2.8.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:nats:nats_server:v2.8.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:nats:nats_server\\/v2:v2.8.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
@@ -825,11 +885,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:5m1VytMEbZx0YINvKY+X2gXdLNwP43uLXnFRwz8j8KE="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/nats-io/nats-streaming-server"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/nats-io/nats-streaming-server@(devel)?package-id=be479a5106123347",
+      "bom-ref": "pkg:golang/github.com/nats-io/nats-streaming-server@(devel)?package-id=7e68114c891057ff",
       "type": "library",
       "name": "github.com/nats-io/nats-streaming-server",
       "version": "(devel)",
@@ -887,11 +951,15 @@
         {
           "name": "syft:metadata:goCompiledVersion",
           "value": "go1.17.9"
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/nats-io/nats-streaming-server"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/nats-io/nats.go@v1.15.0?package-id=b3f8220c26d9ccd8",
+      "bom-ref": "pkg:golang/github.com/nats-io/nats.go@v1.15.0?package-id=cbfa06b459540a46",
       "type": "library",
       "name": "github.com/nats-io/nats.go",
       "version": "v1.15.0",
@@ -941,11 +1009,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:3IXNBolWrwIUf2soxh6Rla8gPzYWEZQBUBK6RV21s+o="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/nats-io/nats-streaming-server"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/nats-io/nkeys@v0.3.0?package-id=a811578cc46a2e10",
+      "bom-ref": "pkg:golang/github.com/nats-io/nkeys@v0.3.0?package-id=d6370ff49910392b",
       "type": "library",
       "name": "github.com/nats-io/nkeys",
       "version": "v0.3.0",
@@ -995,11 +1067,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:cgM5tL53EvYRU+2YLXIK0G2mJtK12Ft9oeooSZMA2G8="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/nats-io/nats-streaming-server"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/nats-io/nuid@v1.0.1?package-id=c9680a273c4ceff5",
+      "bom-ref": "pkg:golang/github.com/nats-io/nuid@v1.0.1?package-id=ab4f497411456821",
       "type": "library",
       "name": "github.com/nats-io/nuid",
       "version": "v1.0.1",
@@ -1049,11 +1125,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:5iA8DT8V7q8WK2EScv2padNa/rTESc1KdnPw4TC2paw="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/nats-io/nats-streaming-server"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/nats-io/stan.go@v0.10.2?package-id=37c051232825bdab",
+      "bom-ref": "pkg:golang/github.com/nats-io/stan.go@v0.10.2?package-id=b76eb21fa1481414",
       "type": "library",
       "name": "github.com/nats-io/stan.go",
       "version": "v0.10.2",
@@ -1103,11 +1183,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:gQLd05LhzmhFkHm3/qP/klYHfM/hys45GyHa1Uly/kI="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/nats-io/nats-streaming-server"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/prometheus/procfs@v0.7.3?package-id=b0c84daf6916f3ff",
+      "bom-ref": "pkg:golang/github.com/prometheus/procfs@v0.7.3?package-id=47788c48958d121f",
       "type": "library",
       "name": "github.com/prometheus/procfs",
       "version": "v0.7.3",
@@ -1149,11 +1233,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:4jVXhlkAyzOScmCkXBTOLRLTz8EeU+eyjrwB/EPq0VU="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/nats-io/nats-streaming-server"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/go.etcd.io/bbolt@v1.3.6?package-id=de60e3f567ff8456",
+      "bom-ref": "pkg:golang/go.etcd.io/bbolt@v1.3.6?package-id=b754bef16f2a62ed",
       "type": "library",
       "name": "go.etcd.io/bbolt",
       "version": "v1.3.6",
@@ -1194,11 +1282,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:/ecaJf0sk1l4l6V4awd65v2C3ILy7MSj+s/x1ADCIMU="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/nats-io/nats-streaming-server"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/golang.org/x/crypto@v0.0.0-20220315160706-3147a52a75dd?package-id=675a27b74e376d82",
+      "bom-ref": "pkg:golang/golang.org/x/crypto@v0.0.0-20220315160706-3147a52a75dd?package-id=df601a039abcf12e",
       "type": "library",
       "name": "golang.org/x/crypto",
       "version": "v0.0.0-20220315160706-3147a52a75dd",
@@ -1240,11 +1332,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:XcWmESyNjXJMLahc3mqVQJcgSTDxFxhETVlfk9uGc38="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/nats-io/nats-streaming-server"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/golang.org/x/sys@v0.0.0-20220412211240-33da011f77ad?package-id=c19825e5d4272404",
+      "bom-ref": "pkg:golang/golang.org/x/sys@v0.0.0-20220412211240-33da011f77ad?package-id=24a0b814fa07ae0",
       "type": "library",
       "name": "golang.org/x/sys",
       "version": "v0.0.0-20220412211240-33da011f77ad",
@@ -1286,11 +1382,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:ntjMns5wyP/fN65tdBD4g8J5w8n015+iIIs9rtjXkY0="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/nats-io/nats-streaming-server"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/golang.org/x/time@v0.0.0-20211116232009-f0f3c7e86c11?package-id=67c5c3d99dd669a8",
+      "bom-ref": "pkg:golang/golang.org/x/time@v0.0.0-20211116232009-f0f3c7e86c11?package-id=9364a4f0dcacd1ea",
       "type": "library",
       "name": "golang.org/x/time",
       "version": "v0.0.0-20211116232009-f0f3c7e86c11",
@@ -1332,6 +1432,10 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:GZokNIeuVkl3aZHJchRrr13WCsols02MLUcz1U9is6M="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/nats-io/nats-streaming-server"
         }
       ]
     }

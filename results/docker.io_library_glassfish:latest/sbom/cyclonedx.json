@@ -1,15 +1,15 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:8e4a1f08-9fc8-4b4d-bc8b-14ffb5f2e68a",
+  "serialNumber": "urn:uuid:eb97e911-f2d0-4002-899e-6775068a1baa",
   "version": 1,
   "metadata": {
-    "timestamp": "2022-07-14T13:45:50-07:00",
+    "timestamp": "2022-07-14T23:35:08Z",
     "tools": [
       {
         "vendor": "anchore",
         "name": "syft",
-        "version": "0.46.1"
+        "version": "0.48.0"
       }
     ],
     "component": {
@@ -20,198 +20,6 @@
     }
   },
   "components": [
-    {
-      "bom-ref": "bbce4d4bac61c802",
-      "type": "library",
-      "name": "",
-      "purl": "pkg:maven/",
-      "externalReferences": [
-        {
-          "url": "",
-          "hashes": [
-            {
-              "alg": "SHA-1",
-              "content": "ef0258ea8d46160bbc9d9fb12105c6338da4c0d8"
-            }
-          ],
-          "type": "build-meta"
-        }
-      ],
-      "properties": [
-        {
-          "name": "syft:package:foundBy",
-          "value": "java-cataloger"
-        },
-        {
-          "name": "syft:package:language",
-          "value": "java"
-        },
-        {
-          "name": "syft:package:metadataType",
-          "value": "JavaMetadata"
-        },
-        {
-          "name": "syft:package:type",
-          "value": "java-archive"
-        },
-        {
-          "name": "syft:location:0:layerID",
-          "value": "sha256:dffdc41054f3ec2e7b642498a715921080de19aca3c8095c4054aa20621c7b3f"
-        },
-        {
-          "name": "syft:location:0:path",
-          "value": "/usr/local/glassfish4/glassfish/lib/install/applications/__cp_jdbc_ra/__cp_jdbc_ra.jar"
-        },
-        {
-          "name": "syft:metadata:virtualPath",
-          "value": "/usr/local/glassfish4/glassfish/lib/install/applications/__cp_jdbc_ra/__cp_jdbc_ra.jar"
-        }
-      ]
-    },
-    {
-      "bom-ref": "7a4daad9f2d83dcc",
-      "type": "library",
-      "name": "",
-      "purl": "pkg:maven/",
-      "externalReferences": [
-        {
-          "url": "",
-          "hashes": [
-            {
-              "alg": "SHA-1",
-              "content": "da1ebfee8473ba0293db22070743e276eed5483f"
-            }
-          ],
-          "type": "build-meta"
-        }
-      ],
-      "properties": [
-        {
-          "name": "syft:package:foundBy",
-          "value": "java-cataloger"
-        },
-        {
-          "name": "syft:package:language",
-          "value": "java"
-        },
-        {
-          "name": "syft:package:metadataType",
-          "value": "JavaMetadata"
-        },
-        {
-          "name": "syft:package:type",
-          "value": "java-archive"
-        },
-        {
-          "name": "syft:location:0:layerID",
-          "value": "sha256:dffdc41054f3ec2e7b642498a715921080de19aca3c8095c4054aa20621c7b3f"
-        },
-        {
-          "name": "syft:location:0:path",
-          "value": "/usr/local/glassfish4/glassfish/lib/install/applications/__dm_jdbc_ra/__dm_jdbc_ra.jar"
-        },
-        {
-          "name": "syft:metadata:virtualPath",
-          "value": "/usr/local/glassfish4/glassfish/lib/install/applications/__dm_jdbc_ra/__dm_jdbc_ra.jar"
-        }
-      ]
-    },
-    {
-      "bom-ref": "fdcb97c2b00df157",
-      "type": "library",
-      "name": "",
-      "purl": "pkg:maven/",
-      "externalReferences": [
-        {
-          "url": "",
-          "hashes": [
-            {
-              "alg": "SHA-1",
-              "content": "9292747fd57919446a5a3cbc00c4be9c7e4a34b7"
-            }
-          ],
-          "type": "build-meta"
-        }
-      ],
-      "properties": [
-        {
-          "name": "syft:package:foundBy",
-          "value": "java-cataloger"
-        },
-        {
-          "name": "syft:package:language",
-          "value": "java"
-        },
-        {
-          "name": "syft:package:metadataType",
-          "value": "JavaMetadata"
-        },
-        {
-          "name": "syft:package:type",
-          "value": "java-archive"
-        },
-        {
-          "name": "syft:location:0:layerID",
-          "value": "sha256:dffdc41054f3ec2e7b642498a715921080de19aca3c8095c4054aa20621c7b3f"
-        },
-        {
-          "name": "syft:location:0:path",
-          "value": "/usr/local/glassfish4/glassfish/lib/install/applications/__ds_jdbc_ra/__ds_jdbc_ra.jar"
-        },
-        {
-          "name": "syft:metadata:virtualPath",
-          "value": "/usr/local/glassfish4/glassfish/lib/install/applications/__ds_jdbc_ra/__ds_jdbc_ra.jar"
-        }
-      ]
-    },
-    {
-      "bom-ref": "2a8ae595df920bbe",
-      "type": "library",
-      "name": "",
-      "purl": "pkg:maven/",
-      "externalReferences": [
-        {
-          "url": "",
-          "hashes": [
-            {
-              "alg": "SHA-1",
-              "content": "d3dedbca4cc0d406a0c2c2a09fa464e1bd10b1f1"
-            }
-          ],
-          "type": "build-meta"
-        }
-      ],
-      "properties": [
-        {
-          "name": "syft:package:foundBy",
-          "value": "java-cataloger"
-        },
-        {
-          "name": "syft:package:language",
-          "value": "java"
-        },
-        {
-          "name": "syft:package:metadataType",
-          "value": "JavaMetadata"
-        },
-        {
-          "name": "syft:package:type",
-          "value": "java-archive"
-        },
-        {
-          "name": "syft:location:0:layerID",
-          "value": "sha256:dffdc41054f3ec2e7b642498a715921080de19aca3c8095c4054aa20621c7b3f"
-        },
-        {
-          "name": "syft:location:0:path",
-          "value": "/usr/local/glassfish4/glassfish/lib/install/applications/__xa_jdbc_ra/__xa_jdbc_ra.jar"
-        },
-        {
-          "name": "syft:metadata:virtualPath",
-          "value": "/usr/local/glassfish4/glassfish/lib/install/applications/__xa_jdbc_ra/__xa_jdbc_ra.jar"
-        }
-      ]
-    },
     {
       "bom-ref": "pkg:maven/com.sun.xml.fastinfoset/FastInfoset@1.2.13?package-id=3955e15853b19bba",
       "type": "library",
@@ -36834,97 +36642,6 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/com.sun.xml.bind/jaxb-core@2.2.10-b140802.1033?package-id=7b696fed10c46adb",
-      "type": "library",
-      "group": "com.sun.xml.bind",
-      "name": "jaxb-core",
-      "version": "2.2.10-b140802.1033",
-      "cpe": "cpe:2.3:a:jaxb-core:jaxb-core:2.2.10-b140802.1033:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/com.sun.xml.bind/jaxb-core@2.2.10-b140802.1033",
-      "properties": [
-        {
-          "name": "syft:package:foundBy",
-          "value": "java-cataloger"
-        },
-        {
-          "name": "syft:package:language",
-          "value": "java"
-        },
-        {
-          "name": "syft:package:metadataType",
-          "value": "JavaMetadata"
-        },
-        {
-          "name": "syft:package:type",
-          "value": "java-archive"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jaxb-core:jaxb_core:2.2.10-b140802.1033:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jaxb_core:jaxb-core:2.2.10-b140802.1033:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jaxb_core:jaxb_core:2.2.10-b140802.1033:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:bind:jaxb-core:2.2.10-b140802.1033:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:bind:jaxb_core:2.2.10-b140802.1033:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jaxb:jaxb-core:2.2.10-b140802.1033:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jaxb:jaxb_core:2.2.10-b140802.1033:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:sun:jaxb-core:2.2.10-b140802.1033:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:sun:jaxb_core:2.2.10-b140802.1033:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:xml:jaxb-core:2.2.10-b140802.1033:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:xml:jaxb_core:2.2.10-b140802.1033:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:location:0:layerID",
-          "value": "sha256:dffdc41054f3ec2e7b642498a715921080de19aca3c8095c4054aa20621c7b3f"
-        },
-        {
-          "name": "syft:location:0:path",
-          "value": "/usr/local/glassfish4/glassfish/modules/jaxb-osgi.jar"
-        },
-        {
-          "name": "syft:metadata:-:artifactID",
-          "value": "jaxb-core"
-        },
-        {
-          "name": "syft:metadata:-:groupID",
-          "value": "com.sun.xml.bind"
-        },
-        {
-          "name": "syft:metadata:virtualPath",
-          "value": "/usr/local/glassfish4/glassfish/modules/jaxb-osgi.jar:jaxb-core"
-        }
-      ]
-    },
-    {
       "bom-ref": "pkg:maven/org.glassfish.jaxb/jaxb-core@2.2.10-b140802.1033?package-id=d6c218d079b94b18",
       "type": "library",
       "group": "org.glassfish.jaxb",
@@ -37008,6 +36725,97 @@
         {
           "name": "syft:metadata:-:groupID",
           "value": "org.glassfish.jaxb"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/usr/local/glassfish4/glassfish/modules/jaxb-osgi.jar:jaxb-core"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.sun.xml.bind/jaxb-core@2.2.10-b140802.1033?package-id=7b696fed10c46adb",
+      "type": "library",
+      "group": "com.sun.xml.bind",
+      "name": "jaxb-core",
+      "version": "2.2.10-b140802.1033",
+      "cpe": "cpe:2.3:a:jaxb-core:jaxb-core:2.2.10-b140802.1033:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/com.sun.xml.bind/jaxb-core@2.2.10-b140802.1033",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jaxb-core:jaxb_core:2.2.10-b140802.1033:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jaxb_core:jaxb-core:2.2.10-b140802.1033:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jaxb_core:jaxb_core:2.2.10-b140802.1033:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:bind:jaxb-core:2.2.10-b140802.1033:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:bind:jaxb_core:2.2.10-b140802.1033:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jaxb:jaxb-core:2.2.10-b140802.1033:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jaxb:jaxb_core:2.2.10-b140802.1033:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sun:jaxb-core:2.2.10-b140802.1033:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sun:jaxb_core:2.2.10-b140802.1033:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:xml:jaxb-core:2.2.10-b140802.1033:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:xml:jaxb_core:2.2.10-b140802.1033:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:dffdc41054f3ec2e7b642498a715921080de19aca3c8095c4054aa20621c7b3f"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/usr/local/glassfish4/glassfish/modules/jaxb-osgi.jar"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "jaxb-core"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "com.sun.xml.bind"
         },
         {
           "name": "syft:metadata:virtualPath",

@@ -2369,7 +2369,7 @@
    }
   },
   {
-   "id": "c3b4c62337181c6b",
+   "id": "26cfe72e2e914930",
    "name": "cloud.google.com/go",
    "version": "v0.81.0",
    "type": "go-module",
@@ -2387,11 +2387,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "8b32867083d95ad3",
+   "id": "634bdaa5092920c3",
    "name": "github.com/AlecAivazis/survey/v2",
    "version": "v2.3.5",
    "type": "go-module",
@@ -2405,18 +2406,19 @@
    "licenses": [],
    "language": "go",
    "cpes": [
-    "cpe:2.3:a:AlecAivazis:survey:v2.3.5:*:*:*:*:*:*:*"
+    "cpe:2.3:a:AlecAivazis:survey\\/v2:v2.3.5:*:*:*:*:*:*:*"
    ],
    "purl": "pkg:golang/github.com/AlecAivazis/survey/v2@v2.3.5",
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:A8cYupsAZkjaUmhtTYv3sSqc7LO5mp1XDfqe5E/9wRQ="
+    "h1Digest": "h1:A8cYupsAZkjaUmhtTYv3sSqc7LO5mp1XDfqe5E/9wRQ=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "e6ef6cff4144b987",
+   "id": "9555e75b3d8fa2d0",
    "name": "github.com/Masterminds/semver",
    "version": "v1.5.0",
    "type": "go-module",
@@ -2437,11 +2439,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:H65muMkzWKEuNDnfl9d70GUjFniHKHRbFPGBuZ3QEww="
+    "h1Digest": "h1:H65muMkzWKEuNDnfl9d70GUjFniHKHRbFPGBuZ3QEww=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "694c21ae5893762c",
+   "id": "eae5d23cb76404f7",
    "name": "github.com/agext/levenshtein",
    "version": "v1.2.3",
    "type": "go-module",
@@ -2461,11 +2464,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "35b66344f255eeb3",
+   "id": "48cfc7302f7cdad4",
    "name": "github.com/agl/ed25519",
    "version": "v0.0.0-20170116200512-5312a6153412",
    "type": "go-module",
@@ -2485,11 +2489,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "8c29cf0fed143ea5",
+   "id": "657fdc41ea9166d2",
    "name": "github.com/apparentlymart/go-cidr",
    "version": "v1.0.1",
    "type": "go-module",
@@ -2510,11 +2515,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "91d4ef97524a38ea",
+   "id": "ea0ed6c1353d0471",
    "name": "github.com/apparentlymart/go-textseg/v12",
    "version": "v12.0.0",
    "type": "go-module",
@@ -2528,18 +2534,19 @@
    "licenses": [],
    "language": "go",
    "cpes": [
-    "cpe:2.3:a:apparentlymart:go-textseg:v12.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:apparentlymart:go_textseg:v12.0.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:apparentlymart:go-textseg\\/v12:v12.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apparentlymart:go_textseg\\/v12:v12.0.0:*:*:*:*:*:*:*"
    ],
    "purl": "pkg:golang/github.com/apparentlymart/go-textseg/v12@v12.0.0",
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "99696455e18d33d9",
+   "id": "39b5f5b19a54fdce",
    "name": "github.com/apparentlymart/go-textseg/v13",
    "version": "v13.0.0",
    "type": "go-module",
@@ -2553,18 +2560,19 @@
    "licenses": [],
    "language": "go",
    "cpes": [
-    "cpe:2.3:a:apparentlymart:go-textseg:v13.0.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:apparentlymart:go_textseg:v13.0.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:apparentlymart:go-textseg\\/v13:v13.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:apparentlymart:go_textseg\\/v13:v13.0.0:*:*:*:*:*:*:*"
    ],
    "purl": "pkg:golang/github.com/apparentlymart/go-textseg/v13@v13.0.0",
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "3acec7cff75a8859",
+   "id": "6eba10ec5e5f631e",
    "name": "github.com/beorn7/perks",
    "version": "v1.0.1",
    "type": "go-module",
@@ -2584,11 +2592,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "ecbd56297394a55b",
+   "id": "f3b67661ab3b1b13",
    "name": "github.com/beorn7/perks",
    "version": "v1.0.1",
    "type": "go-module",
@@ -2609,11 +2618,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:VlbKKnNfV8bJzeqoa4cOKqO6bYr3WgKZxO8Z16+hsOM="
+    "h1Digest": "h1:VlbKKnNfV8bJzeqoa4cOKqO6bYr3WgKZxO8Z16+hsOM=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "d949df71debd69a4",
+   "id": "e7c6ef41fcfe8dcf",
    "name": "github.com/buger/goterm",
    "version": "v1.0.4",
    "type": "go-module",
@@ -2634,11 +2644,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:Z9YvGmOih81P0FbVtEYTFF6YsSgxSUKEhf/f9bTMXbY="
+    "h1Digest": "h1:Z9YvGmOih81P0FbVtEYTFF6YsSgxSUKEhf/f9bTMXbY=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "79495407475442e6",
+   "id": "7d176a5fd8da929d",
    "name": "github.com/cenkalti/backoff/v4",
    "version": "v4.1.2",
    "type": "go-module",
@@ -2652,17 +2663,18 @@
    "licenses": [],
    "language": "go",
    "cpes": [
-    "cpe:2.3:a:cenkalti:backoff:v4.1.2:*:*:*:*:*:*:*"
+    "cpe:2.3:a:cenkalti:backoff\\/v4:v4.1.2:*:*:*:*:*:*:*"
    ],
    "purl": "pkg:golang/github.com/cenkalti/backoff/v4@v4.1.2",
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "353f1abbc7062ec5",
+   "id": "de3414bb6b0940a",
    "name": "github.com/cespare/xxhash/v2",
    "version": "v2.1.2",
    "type": "go-module",
@@ -2676,17 +2688,18 @@
    "licenses": [],
    "language": "go",
    "cpes": [
-    "cpe:2.3:a:cespare:xxhash:v2.1.2:*:*:*:*:*:*:*"
+    "cpe:2.3:a:cespare:xxhash\\/v2:v2.1.2:*:*:*:*:*:*:*"
    ],
    "purl": "pkg:golang/github.com/cespare/xxhash/v2@v2.1.2",
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "693d41f86653e45a",
+   "id": "52200da1f885bdc7",
    "name": "github.com/cespare/xxhash/v2",
    "version": "v2.1.2",
    "type": "go-module",
@@ -2700,18 +2713,19 @@
    "licenses": [],
    "language": "go",
    "cpes": [
-    "cpe:2.3:a:cespare:xxhash:v2.1.2:*:*:*:*:*:*:*"
+    "cpe:2.3:a:cespare:xxhash\\/v2:v2.1.2:*:*:*:*:*:*:*"
    ],
    "purl": "pkg:golang/github.com/cespare/xxhash/v2@v2.1.2",
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:YRXhKfTDauu4ajMg1TPgFO5jnlC2HCbmLXMcTG5cbYE="
+    "h1Digest": "h1:YRXhKfTDauu4ajMg1TPgFO5jnlC2HCbmLXMcTG5cbYE=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "96026e9267b9852c",
+   "id": "38caa7fd9fa7e155",
    "name": "github.com/cnabio/cnab-go",
    "version": "v0.23.1",
    "type": "go-module",
@@ -2733,11 +2747,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:rxXP7sqG8qixg9gs50OIplcxDA13oeIO6qbxpFVXj7s="
+    "h1Digest": "h1:rxXP7sqG8qixg9gs50OIplcxDA13oeIO6qbxpFVXj7s=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "da0ab3c2896911ee",
+   "id": "f798af04dcbf6c3c",
    "name": "github.com/cnabio/cnab-to-oci",
    "version": "v0.3.3",
    "type": "go-module",
@@ -2759,11 +2774,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:92sJJoOGWp4Dg9AErXPMHTFI6qYZuPMdL1PXU1WVyB4="
+    "h1Digest": "h1:92sJJoOGWp4Dg9AErXPMHTFI6qYZuPMdL1PXU1WVyB4=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "65b4d3bba4a69277",
+   "id": "dc9a8b2a77cba7f4",
    "name": "github.com/compose-spec/compose-go",
    "version": "v1.2.1",
    "type": "go-module",
@@ -2788,11 +2804,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "d3145e0743db3b85",
+   "id": "2d5cc592c65409a",
    "name": "github.com/compose-spec/compose-go",
    "version": "v1.2.8",
    "type": "go-module",
@@ -2818,11 +2835,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:ImPy82xn+rJKL5xmgEyesZEfqJmrzJ1WuZSHEhxMEFI="
+    "h1Digest": "h1:ImPy82xn+rJKL5xmgEyesZEfqJmrzJ1WuZSHEhxMEFI=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "e8e2ed98e1595c4a",
+   "id": "e05855ac969b8099",
    "name": "github.com/containerd/console",
    "version": "v1.0.3",
    "type": "go-module",
@@ -2842,11 +2860,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "2cc09c8e8500dd65",
+   "id": "6639cdd39c34f72d",
    "name": "github.com/containerd/console",
    "version": "v1.0.3",
    "type": "go-module",
@@ -2867,11 +2886,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:lIr7SlA5PxZyMV30bDW0MGbiOPXwc63yRuCP0ARubLw="
+    "h1Digest": "h1:lIr7SlA5PxZyMV30bDW0MGbiOPXwc63yRuCP0ARubLw=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "3a7ceed230325fc",
+   "id": "16e3627bf8f4f1b",
    "name": "github.com/containerd/containerd",
    "version": "v1.6.1",
    "type": "go-module",
@@ -2891,11 +2911,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "236078bbe99a97e1",
+   "id": "7f857f4264486fd5",
    "name": "github.com/containerd/containerd",
    "version": "v1.6.6",
    "type": "go-module",
@@ -2916,11 +2937,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:xJNPhbrmz8xAMDNoVjHy9YHtWwEQNS+CDkcIRh7t8Y0="
+    "h1Digest": "h1:xJNPhbrmz8xAMDNoVjHy9YHtWwEQNS+CDkcIRh7t8Y0=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "b9f1aa16b0ac5948",
+   "id": "e550821dc8b4864f",
    "name": "github.com/containerd/continuity",
    "version": "v0.2.2",
    "type": "go-module",
@@ -2940,11 +2962,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "4da570f4ccf1627",
+   "id": "4b23852746441689",
    "name": "github.com/containerd/continuity",
    "version": "v0.2.2",
    "type": "go-module",
@@ -2965,11 +2988,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:QSqfxcn8c+12slxwu00AtzXrsami0MJb/MQs9lOLHLA="
+    "h1Digest": "h1:QSqfxcn8c+12slxwu00AtzXrsami0MJb/MQs9lOLHLA=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "5485e7bf2f0fecf1",
+   "id": "fc14b7653b28262e",
    "name": "github.com/containerd/ttrpc",
    "version": "v1.1.0",
    "type": "go-module",
@@ -2989,11 +3013,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "aabad039645bc749",
+   "id": "4a11913262ed853",
    "name": "github.com/containerd/ttrpc",
    "version": "v1.1.0",
    "type": "go-module",
@@ -3014,11 +3039,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:GbtyLRxb0gOLR0TYQWt3O6B0NvT8tMdorEHqIQo/lWI="
+    "h1Digest": "h1:GbtyLRxb0gOLR0TYQWt3O6B0NvT8tMdorEHqIQo/lWI=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "4a2bb40e27c9cdf3",
+   "id": "c633bab4c4e2fb00",
    "name": "github.com/containerd/typeurl",
    "version": "v1.0.2",
    "type": "go-module",
@@ -3038,11 +3064,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "392241424fe2ea9",
+   "id": "15ecf1310fe5ccdb",
    "name": "github.com/containerd/typeurl",
    "version": "v1.0.2",
    "type": "go-module",
@@ -3063,11 +3090,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:Chlt8zIieDbzQFzXzAeBEF92KhExuE4p9p92/QmY7aY="
+    "h1Digest": "h1:Chlt8zIieDbzQFzXzAeBEF92KhExuE4p9p92/QmY7aY=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "23b9e94bcc6e71f2",
+   "id": "2e0760b924ea642d",
    "name": "github.com/cyberphone/json-canonicalization",
    "version": "v0.0.0-20210303052042-6bc126869bf4",
    "type": "go-module",
@@ -3089,11 +3117,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:7AjYfmq7AmviXsuZjV5DcE7PuhJ4dWMi8gLllpLVDQY="
+    "h1Digest": "h1:7AjYfmq7AmviXsuZjV5DcE7PuhJ4dWMi8gLllpLVDQY=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "e6f514712b3a1929",
+   "id": "9e9d2bb3144169ea",
    "name": "github.com/davecgh/go-spew",
    "version": "v1.1.1",
    "type": "go-module",
@@ -3114,11 +3143,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "2c29d4102671f3bf",
+   "id": "7a63659343f9625c",
    "name": "github.com/davecgh/go-spew",
    "version": "v1.1.1",
    "type": "go-module",
@@ -3140,11 +3170,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c="
+    "h1Digest": "h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "84cce23c08c2b421",
+   "id": "d2215b982f533d86",
    "name": "github.com/distribution/distribution/v3",
    "version": "v3.0.0-20210316161203-a01c71e2477e",
    "type": "go-module",
@@ -3158,17 +3189,18 @@
    "licenses": [],
    "language": "go",
    "cpes": [
-    "cpe:2.3:a:distribution:distribution:v3.0.0-20210316161203-a01c71e2477e:*:*:*:*:*:*:*"
+    "cpe:2.3:a:distribution:distribution\\/v3:v3.0.0-20210316161203-a01c71e2477e:*:*:*:*:*:*:*"
    ],
    "purl": "pkg:golang/github.com/distribution/distribution/v3@v3.0.0-20210316161203-a01c71e2477e",
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "8956e1111de84eef",
+   "id": "31230988cbd08df0",
    "name": "github.com/distribution/distribution/v3",
    "version": "v3.0.0-20210316161203-a01c71e2477e",
    "type": "go-module",
@@ -3182,18 +3214,19 @@
    "licenses": [],
    "language": "go",
    "cpes": [
-    "cpe:2.3:a:distribution:distribution:v3.0.0-20210316161203-a01c71e2477e:*:*:*:*:*:*:*"
+    "cpe:2.3:a:distribution:distribution\\/v3:v3.0.0-20210316161203-a01c71e2477e:*:*:*:*:*:*:*"
    ],
    "purl": "pkg:golang/github.com/distribution/distribution/v3@v3.0.0-20210316161203-a01c71e2477e",
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:n81KvOMrLZa+VWHwST7dun9f0G98X3zREHS1ztYzZKU="
+    "h1Digest": "h1:n81KvOMrLZa+VWHwST7dun9f0G98X3zREHS1ztYzZKU=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "fe0bddc2e2bfe0a0",
+   "id": "7565bde5a823b2ef",
    "name": "github.com/docker/buildx",
    "version": "(devel)",
    "type": "go-module",
@@ -3213,11 +3246,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "55d142c65fd85de6",
+   "id": "448364234f018306",
    "name": "github.com/docker/buildx",
    "version": "v0.8.2",
    "type": "go-module",
@@ -3238,11 +3272,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:dsd3F0hhmUydFX/KFrvbK81JvlTA4T3Iy0lwDJt4PsU="
+    "h1Digest": "h1:dsd3F0hhmUydFX/KFrvbK81JvlTA4T3Iy0lwDJt4PsU=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "f3b143c85ff03e6d",
+   "id": "131d90129b024a3e",
    "name": "github.com/docker/cli",
    "version": "v20.10.3-0.20220226190722-8667ccd1124c+incompatible",
    "type": "go-module",
@@ -3262,11 +3297,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "aab3017eb9b9257a",
+   "id": "ddd8aebe8bfc60fc",
    "name": "github.com/docker/cli",
    "version": "v20.10.3-0.20220309205733-2b52f62e9627+incompatible",
    "type": "go-module",
@@ -3287,11 +3323,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:RWXvuBczWuSIMjI69AnkNklNNVX2gmS0X+15AttGDVk="
+    "h1Digest": "h1:RWXvuBczWuSIMjI69AnkNklNNVX2gmS0X+15AttGDVk=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "384e9794b6059a7c",
+   "id": "8e56dc36dea47773",
    "name": "github.com/docker/cli-docs-tool",
    "version": "v0.4.0",
    "type": "go-module",
@@ -3312,11 +3349,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "1510699e4fbfb3a3",
+   "id": "d30dcb0b7c2f4713",
    "name": "github.com/docker/compose/v2",
    "version": "68cf8d5ca0d4852e17aca6fb2d9d08cf2baa3b73",
    "type": "go-module",
@@ -3330,7 +3368,7 @@
    "licenses": [],
    "language": "go",
    "cpes": [
-    "cpe:2.3:a:docker:compose:68cf8d5ca0d4852e17aca6fb2d9d08cf2baa3b73:*:*:*:*:*:*:*"
+    "cpe:2.3:a:docker:compose\\/v2:68cf8d5ca0d4852e17aca6fb2d9d08cf2baa3b73:*:*:*:*:*:*:*"
    ],
    "purl": "pkg:golang/github.com/docker/compose/v2@68cf8d5ca0d4852e17aca6fb2d9d08cf2baa3b73",
    "metadataType": "GolangBinMetadata",
@@ -3348,11 +3386,12 @@
      "vcs.time": "2022-06-23T14:53:26Z"
     },
     "goCompiledVersion": "go1.18.3",
-    "architecture": "amd64"
+    "architecture": "amd64",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "391dc0b05dc364aa",
+   "id": "b170bb3294ac654d",
    "name": "github.com/docker/distribution",
    "version": "v2.8.0+incompatible",
    "type": "go-module",
@@ -3372,11 +3411,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "29b85f369a34561b",
+   "id": "7c8956d5861c199f",
    "name": "github.com/docker/distribution",
    "version": "v2.8.1+incompatible",
    "type": "go-module",
@@ -3397,11 +3437,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:Q50tZOPR6T/hjNsyc9g8/syEs6bk8XXApsHjKukMl68="
+    "h1Digest": "h1:Q50tZOPR6T/hjNsyc9g8/syEs6bk8XXApsHjKukMl68=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "8683bdd6a89f2b8f",
+   "id": "3b7acaa0ea52e480",
    "name": "github.com/docker/docker",
    "version": "v20.10.3-0.20220121014307-40bb9831756f+incompatible",
    "type": "go-module",
@@ -3421,11 +3462,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "640340c77b9d68b",
+   "id": "5fa93c88b4c339e6",
    "name": "github.com/docker/docker",
    "version": "v20.10.3-0.20220309172631-83b51522df43+incompatible",
    "type": "go-module",
@@ -3446,11 +3488,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:bL4hLpxukr5Ls3bzYrn3LCYIwML+XXCktZHaGBIN3og="
+    "h1Digest": "h1:bL4hLpxukr5Ls3bzYrn3LCYIwML+XXCktZHaGBIN3og=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "a5208c432aa8bb96",
+   "id": "5e4c5f2446d345dd",
    "name": "github.com/docker/docker-credential-helpers",
    "version": "v0.6.4",
    "type": "go-module",
@@ -3471,11 +3514,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "5340f90407911479",
+   "id": "b618e2d80d7ca525",
    "name": "github.com/docker/docker-credential-helpers",
    "version": "v0.6.4",
    "type": "go-module",
@@ -3497,11 +3541,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:axCks+yV+2MR3/kZhAmy07yC56WZ2Pwu/fKWtKuZB0o="
+    "h1Digest": "h1:axCks+yV+2MR3/kZhAmy07yC56WZ2Pwu/fKWtKuZB0o=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "1bf6b957685decf",
+   "id": "510b879a6616ad30",
    "name": "github.com/docker/go",
    "version": "v1.5.1-1.0.20160303222718-d30aec9fd63c",
    "type": "go-module",
@@ -3521,11 +3566,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "bc7aa9f3ab0eb115",
+   "id": "62f9bbd5353fbc5a",
    "name": "github.com/docker/go",
    "version": "v1.5.1-1.0.20160303222718-d30aec9fd63c",
    "type": "go-module",
@@ -3546,11 +3592,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:lzqkGL9b3znc+ZUgi7FlLnqjQhcXxkNM/quxIjBVMD0="
+    "h1Digest": "h1:lzqkGL9b3znc+ZUgi7FlLnqjQhcXxkNM/quxIjBVMD0=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "d8e36dc79bfac686",
+   "id": "d9081483512c8061",
    "name": "github.com/docker/go-connections",
    "version": "v0.4.0",
    "type": "go-module",
@@ -3571,11 +3618,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "a9b5803a1bf45132",
+   "id": "fc95bd2899752fe7",
    "name": "github.com/docker/go-connections",
    "version": "v0.4.0",
    "type": "go-module",
@@ -3597,11 +3645,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:El9xVISelRB7BuFusrZozjnkIM5YnzCViNKohAFqRJQ="
+    "h1Digest": "h1:El9xVISelRB7BuFusrZozjnkIM5YnzCViNKohAFqRJQ=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "2cb8e6400df07ade",
+   "id": "3f1fbb1796aea58d",
    "name": "github.com/docker/go-metrics",
    "version": "v0.0.1",
    "type": "go-module",
@@ -3622,11 +3671,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "404bd29baa81a40d",
+   "id": "88f5064426d80fe6",
    "name": "github.com/docker/go-metrics",
    "version": "v0.0.1",
    "type": "go-module",
@@ -3648,11 +3698,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:AgB/0SvBxihN0X8OR4SjsblXkbMvalQ8cjmtKQ2rQV8="
+    "h1Digest": "h1:AgB/0SvBxihN0X8OR4SjsblXkbMvalQ8cjmtKQ2rQV8=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "4872c5214e710c3",
+   "id": "7d896fd5c5244af4",
    "name": "github.com/docker/go-units",
    "version": "v0.4.0",
    "type": "go-module",
@@ -3673,11 +3724,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "1e6871ab196844b",
+   "id": "379175686050e33a",
    "name": "github.com/docker/go-units",
    "version": "v0.4.0",
    "type": "go-module",
@@ -3699,11 +3751,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:3uh0PgVws3nIA0Q+MwDC8yjEPf9zjRfZZWXZYDct3Tw="
+    "h1Digest": "h1:3uh0PgVws3nIA0Q+MwDC8yjEPf9zjRfZZWXZYDct3Tw=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "9d2e3e22a8ad7866",
+   "id": "609cbaa0ffb5783d",
    "name": "github.com/felixge/httpsnoop",
    "version": "v1.0.2",
    "type": "go-module",
@@ -3723,11 +3776,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "8c30e2efc1e853cd",
+   "id": "8d405f73d6373ead",
    "name": "github.com/felixge/httpsnoop",
    "version": "v1.0.2",
    "type": "go-module",
@@ -3748,11 +3802,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:+nS9g82KMXccJ/wp0zyRW9ZBHFETmMGtkk+2CTTrW4o="
+    "h1Digest": "h1:+nS9g82KMXccJ/wp0zyRW9ZBHFETmMGtkk+2CTTrW4o=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "648bc0aeeed0a856",
+   "id": "c6c6677906329d45",
    "name": "github.com/fvbommel/sortorder",
    "version": "v1.0.1",
    "type": "go-module",
@@ -3772,11 +3827,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "fc6b2bc81663eaa",
+   "id": "5545beff5f5c48bb",
    "name": "github.com/fvbommel/sortorder",
    "version": "v1.0.2",
    "type": "go-module",
@@ -3797,11 +3853,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:mV4o8B2hKboCdkJm+a7uX/SIpZob4JzUpc5GGnM45eo="
+    "h1Digest": "h1:mV4o8B2hKboCdkJm+a7uX/SIpZob4JzUpc5GGnM45eo=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "6049bc4826cc3137",
+   "id": "c35fe4a0c2f4f1d8",
    "name": "github.com/go-logr/logr",
    "version": "v1.2.2",
    "type": "go-module",
@@ -3823,11 +3880,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "a2c926e628598794",
+   "id": "c31b011d22e78c0e",
    "name": "github.com/go-logr/logr",
    "version": "v1.2.2",
    "type": "go-module",
@@ -3850,11 +3908,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:ahHml/yUpnlb96Rp8HCvtYVPY8ZYpxq3g7UYchIYwbs="
+    "h1Digest": "h1:ahHml/yUpnlb96Rp8HCvtYVPY8ZYpxq3g7UYchIYwbs=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "68297dbcf1a8be3",
+   "id": "ae53e18b57969e50",
    "name": "github.com/go-logr/stdr",
    "version": "v1.2.2",
    "type": "go-module",
@@ -3876,11 +3935,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "fabbbf7a3a4ec69a",
+   "id": "f5d2a6707e35b446",
    "name": "github.com/go-logr/stdr",
    "version": "v1.2.2",
    "type": "go-module",
@@ -3903,11 +3963,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:hSWxHoqTgW2S2qGc0LTAI563KZ5YKYRhT3MFKZMbjag="
+    "h1Digest": "h1:hSWxHoqTgW2S2qGc0LTAI563KZ5YKYRhT3MFKZMbjag=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "49d1ab95334342da",
+   "id": "454c8a8a3f545b8d",
    "name": "github.com/gofrs/flock",
    "version": "v0.7.3",
    "type": "go-module",
@@ -3927,11 +3988,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "644c456b8bbe3601",
+   "id": "d30ed8b599033026",
    "name": "github.com/gofrs/flock",
    "version": "v0.8.0",
    "type": "go-module",
@@ -3952,11 +4014,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:MSdYClljsF3PbENUUEx85nkWfJSGfzYI9yEBZOJz6CY="
+    "h1Digest": "h1:MSdYClljsF3PbENUUEx85nkWfJSGfzYI9yEBZOJz6CY=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "5391a97c0aadc236",
+   "id": "6024dbb895baeb1",
    "name": "github.com/gogo/googleapis",
    "version": "v1.4.1",
    "type": "go-module",
@@ -3976,11 +4039,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "34805e21cccb2337",
+   "id": "b562099bef73ed",
    "name": "github.com/gogo/googleapis",
    "version": "v1.4.1",
    "type": "go-module",
@@ -4001,11 +4065,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:1Yx4Myt7BxzvUr5ldGSbwYiZG6t9wGBZ+8/fX3Wvtq0="
+    "h1Digest": "h1:1Yx4Myt7BxzvUr5ldGSbwYiZG6t9wGBZ+8/fX3Wvtq0=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "d911fb0c3e63b8e5",
+   "id": "6c502641dbd7de4a",
    "name": "github.com/gogo/protobuf",
    "version": "v1.3.2",
    "type": "go-module",
@@ -4025,11 +4090,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "9034db67d253b367",
+   "id": "f4ad70333f1ef34c",
    "name": "github.com/gogo/protobuf",
    "version": "v1.3.2",
    "type": "go-module",
@@ -4050,11 +4116,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:Ov1cvc58UF3b5XjBnZv7+opcTcQFZebYjWzi34vdm4Q="
+    "h1Digest": "h1:Ov1cvc58UF3b5XjBnZv7+opcTcQFZebYjWzi34vdm4Q=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "b3dd0c48099bcda0",
+   "id": "5c6c5e4fcb558aa7",
    "name": "github.com/golang/mock",
    "version": "v1.6.0",
    "type": "go-module",
@@ -4075,11 +4142,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:ErTB+efbowRARo13NNdxyJji2egdxLGQhRaY+DUumQc="
+    "h1Digest": "h1:ErTB+efbowRARo13NNdxyJji2egdxLGQhRaY+DUumQc=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "9499ee024e4d3a59",
+   "id": "c01d5ce00595b97a",
    "name": "github.com/golang/protobuf",
    "version": "v1.5.2",
    "type": "go-module",
@@ -4099,11 +4167,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "c20d4a4a52a7255c",
+   "id": "bb5439c524839859",
    "name": "github.com/golang/protobuf",
    "version": "v1.5.2",
    "type": "go-module",
@@ -4124,11 +4193,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:ROPKBNFfQgOUMifHyP+KYbvpjbdoFNs+aK7DXlji0Tw="
+    "h1Digest": "h1:ROPKBNFfQgOUMifHyP+KYbvpjbdoFNs+aK7DXlji0Tw=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "7516f03f5278d799",
+   "id": "cfa1de59999cbcda",
    "name": "github.com/google/go-cmp",
    "version": "v0.5.7",
    "type": "go-module",
@@ -4149,11 +4219,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "e5cf6c4fbce0404c",
+   "id": "cc0348208fa7ba8a",
    "name": "github.com/google/go-cmp",
    "version": "v0.5.7",
    "type": "go-module",
@@ -4175,11 +4246,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:81/ik6ipDQS2aGcBfIN5dHDB36BwrStyeAQquSYCV4o="
+    "h1Digest": "h1:81/ik6ipDQS2aGcBfIN5dHDB36BwrStyeAQquSYCV4o=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "47393fff9f9b2c54",
+   "id": "e1b1cffd79a969db",
    "name": "github.com/google/gofuzz",
    "version": "v1.2.0",
    "type": "go-module",
@@ -4199,11 +4271,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "9be018d9559aa6da",
+   "id": "fc347b8895e4bb34",
    "name": "github.com/google/gofuzz",
    "version": "v1.2.0",
    "type": "go-module",
@@ -4224,11 +4297,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:xRy4A+RhZaiKjJ1bPfwQ8sedCA+YS2YcCHW6ec7JMi0="
+    "h1Digest": "h1:xRy4A+RhZaiKjJ1bPfwQ8sedCA+YS2YcCHW6ec7JMi0=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "9cbabd5ae1afbbc0",
+   "id": "ecfbac31211f17bb",
    "name": "github.com/google/shlex",
    "version": "v0.0.0-20191202100458-e7afc7fbc510",
    "type": "go-module",
@@ -4248,11 +4322,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "973dcca92379d00e",
+   "id": "553c341bc260b7d1",
    "name": "github.com/google/shlex",
    "version": "v0.0.0-20191202100458-e7afc7fbc510",
    "type": "go-module",
@@ -4273,11 +4348,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:El6M4kTTCOh6aBiKaUGG7oYTSPP8MxqL4YI3kZKwcP4="
+    "h1Digest": "h1:El6M4kTTCOh6aBiKaUGG7oYTSPP8MxqL4YI3kZKwcP4=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "d60103a08e723d73",
+   "id": "726f811de3731130",
    "name": "github.com/google/uuid",
    "version": "v1.3.0",
    "type": "go-module",
@@ -4297,11 +4373,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "31875840960924e5",
+   "id": "a107755c481540c6",
    "name": "github.com/googleapis/gnostic",
    "version": "v0.5.5",
    "type": "go-module",
@@ -4321,11 +4398,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "315fc7a73710c970",
+   "id": "5a6d515b742239ff",
    "name": "github.com/gorilla/mux",
    "version": "v1.8.0",
    "type": "go-module",
@@ -4345,11 +4423,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "753eb9f2af36de44",
+   "id": "6457b138c0cbcd6a",
    "name": "github.com/gorilla/mux",
    "version": "v1.8.0",
    "type": "go-module",
@@ -4370,11 +4449,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:i40aqfkR1h2SlN9hojwV5ZA91wcXFOvkdNIeFDP5koI="
+    "h1Digest": "h1:i40aqfkR1h2SlN9hojwV5ZA91wcXFOvkdNIeFDP5koI=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "83c39e92d8ca5ecb",
+   "id": "61bd9134e0cc42b8",
    "name": "github.com/grpc-ecosystem/go-grpc-middleware",
    "version": "v1.3.0",
    "type": "go-module",
@@ -4399,11 +4479,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "3674125e9730debf",
+   "id": "44debe14a7e76014",
    "name": "github.com/grpc-ecosystem/go-grpc-middleware",
    "version": "v1.3.0",
    "type": "go-module",
@@ -4429,11 +4510,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:+9834+KizmvFV7pXQGSXQTsaWhq2GjuNUt0aUU0YBYw="
+    "h1Digest": "h1:+9834+KizmvFV7pXQGSXQTsaWhq2GjuNUt0aUU0YBYw=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "bacae0a050cb148c",
+   "id": "6d5a33a3176e3c43",
    "name": "github.com/grpc-ecosystem/grpc-gateway",
    "version": "v1.16.0",
    "type": "go-module",
@@ -4458,11 +4540,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "fba5e8e569c4d9d5",
+   "id": "cb5d17c8e1d8a1e9",
    "name": "github.com/grpc-ecosystem/grpc-gateway",
    "version": "v1.16.0",
    "type": "go-module",
@@ -4488,11 +4571,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:gmcG1KaJ57LophUzW0Hy8NmPhnMZb4M0+kPpLofRdBo="
+    "h1Digest": "h1:gmcG1KaJ57LophUzW0Hy8NmPhnMZb4M0+kPpLofRdBo=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "46d1bb14c90a2734",
+   "id": "89ec7fd67f62cc79",
    "name": "github.com/hashicorp/errwrap",
    "version": "v1.1.0",
    "type": "go-module",
@@ -4513,11 +4597,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:OxrOeh75EUXMY8TBjag2fzXGZ40LB6IKw45YeGUDY2I="
+    "h1Digest": "h1:OxrOeh75EUXMY8TBjag2fzXGZ40LB6IKw45YeGUDY2I=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "5de56155ee80fa99",
+   "id": "c4e4a0d88c349526",
    "name": "github.com/hashicorp/go-cty-funcs",
    "version": "v0.0.0-20200930094925-2721b1e36840",
    "type": "go-module",
@@ -4538,11 +4623,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "c274094bb13a2cb4",
+   "id": "a052d72879bec609",
    "name": "github.com/hashicorp/go-multierror",
    "version": "v1.1.1",
    "type": "go-module",
@@ -4564,11 +4650,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:H5DkEtf6CXdFp0N0Em5UCwQpXMWke8IA0+lD48awMYo="
+    "h1Digest": "h1:H5DkEtf6CXdFp0N0Em5UCwQpXMWke8IA0+lD48awMYo=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "514a68989df2e031",
+   "id": "abe5b516849318e8",
    "name": "github.com/hashicorp/go-version",
    "version": "v1.5.0",
    "type": "go-module",
@@ -4590,11 +4677,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:O293SZ2Eg+AAYijkVK3jR786Am1bhDEh2GHT0tIVE5E="
+    "h1Digest": "h1:O293SZ2Eg+AAYijkVK3jR786Am1bhDEh2GHT0tIVE5E=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "12fe4fc47db6aec4",
+   "id": "567273ac9df2b59b",
    "name": "github.com/hashicorp/hcl/v2",
    "version": "v2.8.2",
    "type": "go-module",
@@ -4608,17 +4696,18 @@
    "licenses": [],
    "language": "go",
    "cpes": [
-    "cpe:2.3:a:hashicorp:hcl:v2.8.2:*:*:*:*:*:*:*"
+    "cpe:2.3:a:hashicorp:hcl\\/v2:v2.8.2:*:*:*:*:*:*:*"
    ],
    "purl": "pkg:golang/github.com/hashicorp/hcl/v2@v2.8.2",
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "d4fcf54799cc96",
+   "id": "b16f1d4ee547d10d",
    "name": "github.com/imdario/mergo",
    "version": "v0.3.12",
    "type": "go-module",
@@ -4638,11 +4727,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "53fd380048c47ff3",
+   "id": "a8b8b0539d878fc3",
    "name": "github.com/imdario/mergo",
    "version": "v0.3.13",
    "type": "go-module",
@@ -4663,11 +4753,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:lFzP57bqS/wsqKssCGmtLAb8A0wKjLGrve2q3PPVcBk="
+    "h1Digest": "h1:lFzP57bqS/wsqKssCGmtLAb8A0wKjLGrve2q3PPVcBk=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "3b179a63c9155dd7",
+   "id": "c4e3cd070ef34d6c",
    "name": "github.com/json-iterator/go",
    "version": "v1.1.12",
    "type": "go-module",
@@ -4689,11 +4780,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "ef65cdcb96c16908",
+   "id": "ab0cf8dc5e9e6d31",
    "name": "github.com/json-iterator/go",
    "version": "v1.1.12",
    "type": "go-module",
@@ -4716,11 +4808,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:PV8peI4a0ysnczrg+LtxykD8LfKY9ML6u2jnxaEnrnM="
+    "h1Digest": "h1:PV8peI4a0ysnczrg+LtxykD8LfKY9ML6u2jnxaEnrnM=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "f3c18dd026c8e44",
+   "id": "157310d1b3d4e950",
    "name": "github.com/kballard/go-shellquote",
    "version": "v0.0.0-20180428030007-95032a82bc51",
    "type": "go-module",
@@ -4742,11 +4835,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:Z9n2FFNUXsshfwJMBgNA0RU6/i7WVaAegv3PtuIHPMs="
+    "h1Digest": "h1:Z9n2FFNUXsshfwJMBgNA0RU6/i7WVaAegv3PtuIHPMs=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "b2df85d4c6c87b41",
+   "id": "b873d94244e1b46",
    "name": "github.com/klauspost/compress",
    "version": "v1.15.0",
    "type": "go-module",
@@ -4766,11 +4860,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "9ae3fcb160f75b48",
+   "id": "a3c19271387c97d4",
    "name": "github.com/klauspost/compress",
    "version": "v1.15.1",
    "type": "go-module",
@@ -4791,11 +4886,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:y9FcTHGyrebwfP0ZZqFiaxTaiDnUrGkJkI+f583BL1A="
+    "h1Digest": "h1:y9FcTHGyrebwfP0ZZqFiaxTaiDnUrGkJkI+f583BL1A=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "440553dc090f7244",
+   "id": "3b937ec47908c4e7",
    "name": "github.com/mattn/go-colorable",
    "version": "v0.1.12",
    "type": "go-module",
@@ -4817,11 +4913,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:jF+Du6AlPIjs2BiUiQlKOX0rt3SujHxPnksPKZbaA40="
+    "h1Digest": "h1:jF+Du6AlPIjs2BiUiQlKOX0rt3SujHxPnksPKZbaA40=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "69e3c60879e49c33",
+   "id": "83dc61338211a152",
    "name": "github.com/mattn/go-isatty",
    "version": "v0.0.14",
    "type": "go-module",
@@ -4843,11 +4940,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:yVuAays6BHfxijgZPzw+3Zlu5yQgKGP2/hcQbHb7S9Y="
+    "h1Digest": "h1:yVuAays6BHfxijgZPzw+3Zlu5yQgKGP2/hcQbHb7S9Y=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "89bc6445d834ca5d",
+   "id": "d1b2df115769d342",
    "name": "github.com/mattn/go-shellwords",
    "version": "v1.0.12",
    "type": "go-module",
@@ -4868,11 +4966,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "72726d656ca781ee",
+   "id": "7c3dbda56ed5d384",
    "name": "github.com/mattn/go-shellwords",
    "version": "v1.0.12",
    "type": "go-module",
@@ -4894,11 +4993,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:M2zGm7EW6UQJvDeQxo4T51eKPurbeFbe8WtebGE2xrk="
+    "h1Digest": "h1:M2zGm7EW6UQJvDeQxo4T51eKPurbeFbe8WtebGE2xrk=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "cd030998408b6b33",
+   "id": "c09e2c2723bbdaa8",
    "name": "github.com/matttproud/golang_protobuf_extensions",
    "version": "v1.0.2-0.20181231171920-c182affec369",
    "type": "go-module",
@@ -4919,11 +5019,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "f227f2c52ca1642d",
+   "id": "fffeb59a39ecbfcb",
    "name": "github.com/matttproud/golang_protobuf_extensions",
    "version": "v1.0.2-0.20181231171920-c182affec369",
    "type": "go-module",
@@ -4945,11 +5046,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:I0XW9+e1XWDxdcEniV4rQAIOPUGDq67JSCiRCgGCZLI="
+    "h1Digest": "h1:I0XW9+e1XWDxdcEniV4rQAIOPUGDq67JSCiRCgGCZLI=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "66983a79ec796cff",
+   "id": "79f4d588b017bb75",
    "name": "github.com/mgutz/ansi",
    "version": "v0.0.0-20170206155736-9520e82c474b",
    "type": "go-module",
@@ -4970,11 +5072,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:j7+1HpAFS1zy5+Q4qx1fWh90gTKwiN4QCGoY9TWyyO4="
+    "h1Digest": "h1:j7+1HpAFS1zy5+Q4qx1fWh90gTKwiN4QCGoY9TWyyO4=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "f8f6291ec4c07ac4",
+   "id": "b495350561cd73ab",
    "name": "github.com/mitchellh/go-wordwrap",
    "version": "v0.0.0-20150314170334-ad45545899c7",
    "type": "go-module",
@@ -4995,11 +5098,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "73780d28e7620c9c",
+   "id": "81afc4acc54599ff",
    "name": "github.com/mitchellh/mapstructure",
    "version": "v1.4.3",
    "type": "go-module",
@@ -5019,11 +5123,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "594b939a4ca8e710",
+   "id": "4aa646479483a7fc",
    "name": "github.com/mitchellh/mapstructure",
    "version": "v1.5.0",
    "type": "go-module",
@@ -5044,11 +5149,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:jeMsZIYE/09sWLaz43PL7Gy6RuMjD2eJVyuac5Z2hdY="
+    "h1Digest": "h1:jeMsZIYE/09sWLaz43PL7Gy6RuMjD2eJVyuac5Z2hdY=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "9b8783c0f4f612c3",
+   "id": "d9dd374752fe2b44",
    "name": "github.com/moby/buildkit",
    "version": "v0.10.1-0.20220403220257-10e6f94bf90d",
    "type": "go-module",
@@ -5068,11 +5174,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "c5a16c80d64435a7",
+   "id": "ee94e7452994ca57",
    "name": "github.com/moby/buildkit",
    "version": "v0.10.1-0.20220403220257-10e6f94bf90d",
    "type": "go-module",
@@ -5093,11 +5200,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:6pLVBJO3V/lMegbVD5kh2QrpZwqS4ZrxEm/MyifCPaY="
+    "h1Digest": "h1:6pLVBJO3V/lMegbVD5kh2QrpZwqS4ZrxEm/MyifCPaY=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "3f8bd76cf826a694",
+   "id": "2e4eca8ed1bce627",
    "name": "github.com/moby/locker",
    "version": "v1.0.1",
    "type": "go-module",
@@ -5117,11 +5225,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "e3485cbc914de02a",
+   "id": "d92322f8daea6dc0",
    "name": "github.com/moby/locker",
    "version": "v1.0.1",
    "type": "go-module",
@@ -5142,11 +5251,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:fOXqR41zeveg4fFODix+1Ch4mj/gT0NE1XJbp/epuBg="
+    "h1Digest": "h1:fOXqR41zeveg4fFODix+1Ch4mj/gT0NE1XJbp/epuBg=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "8d4204764d4a0e0c",
+   "id": "b59bb2e8dbcfcd47",
    "name": "github.com/moby/spdystream",
    "version": "v0.2.0",
    "type": "go-module",
@@ -5166,11 +5276,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "e8a0a0c228988f03",
+   "id": "52796bee43f69b94",
    "name": "github.com/moby/sys/mount",
    "version": "v0.3.0",
    "type": "go-module",
@@ -5184,17 +5295,18 @@
    "licenses": [],
    "language": "go",
    "cpes": [
-    "cpe:2.3:a:moby:sys:v0.3.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:moby:sys\\/mount:v0.3.0:*:*:*:*:*:*:*"
    ],
    "purl": "pkg:golang/github.com/moby/sys/mount@v0.3.0",
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "417df07a1968df39",
+   "id": "75f5d59a402434de",
    "name": "github.com/moby/sys/mountinfo",
    "version": "v0.6.0",
    "type": "go-module",
@@ -5208,17 +5320,18 @@
    "licenses": [],
    "language": "go",
    "cpes": [
-    "cpe:2.3:a:moby:sys:v0.6.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:moby:sys\\/mountinfo:v0.6.0:*:*:*:*:*:*:*"
    ],
    "purl": "pkg:golang/github.com/moby/sys/mountinfo@v0.6.0",
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "45bc004a22240926",
+   "id": "bb3206e4073371fd",
    "name": "github.com/moby/sys/signal",
    "version": "v0.6.0",
    "type": "go-module",
@@ -5232,17 +5345,18 @@
    "licenses": [],
    "language": "go",
    "cpes": [
-    "cpe:2.3:a:moby:sys:v0.6.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:moby:sys\\/signal:v0.6.0:*:*:*:*:*:*:*"
    ],
    "purl": "pkg:golang/github.com/moby/sys/signal@v0.6.0",
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "23902d8a15ae27e3",
+   "id": "f4e842b0096cd56d",
    "name": "github.com/moby/sys/signal",
    "version": "v0.6.0",
    "type": "go-module",
@@ -5256,18 +5370,19 @@
    "licenses": [],
    "language": "go",
    "cpes": [
-    "cpe:2.3:a:moby:sys:v0.6.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:moby:sys\\/signal:v0.6.0:*:*:*:*:*:*:*"
    ],
    "purl": "pkg:golang/github.com/moby/sys/signal@v0.6.0",
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:aDpY94H8VlhTGa9sNYUFCFsMZIUh5wm0B6XkIoJj/iY="
+    "h1Digest": "h1:aDpY94H8VlhTGa9sNYUFCFsMZIUh5wm0B6XkIoJj/iY=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "6d55ba7689976625",
+   "id": "6d7e356d1cd57264",
    "name": "github.com/moby/sys/symlink",
    "version": "v0.2.0",
    "type": "go-module",
@@ -5281,18 +5396,19 @@
    "licenses": [],
    "language": "go",
    "cpes": [
-    "cpe:2.3:a:moby:sys:v0.2.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:moby:sys\\/symlink:v0.2.0:*:*:*:*:*:*:*"
    ],
    "purl": "pkg:golang/github.com/moby/sys/symlink@v0.2.0",
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:tk1rOM+Ljp0nFmfOIBtlV3rTDlWOwFRhjEeAhZB0nZc="
+    "h1Digest": "h1:tk1rOM+Ljp0nFmfOIBtlV3rTDlWOwFRhjEeAhZB0nZc=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "cb74fce59543124a",
+   "id": "54f0e1a92f59e061",
    "name": "github.com/moby/term",
    "version": "v0.0.0-20210619224110-3f7ff695adc6",
    "type": "go-module",
@@ -5312,11 +5428,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "67d86e863c3f0e60",
+   "id": "db7f49768e3cbd02",
    "name": "github.com/moby/term",
    "version": "v0.0.0-20210619224110-3f7ff695adc6",
    "type": "go-module",
@@ -5337,11 +5454,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:dcztxKSvZ4Id8iPpHERQBbIJfabdt4wUm5qy3wOL2Zc="
+    "h1Digest": "h1:dcztxKSvZ4Id8iPpHERQBbIJfabdt4wUm5qy3wOL2Zc=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "871de5a0ccdea7be",
+   "id": "884ed77338f36705",
    "name": "github.com/modern-go/concurrent",
    "version": "v0.0.0-20180306012644-bacd9c7ef1dd",
    "type": "go-module",
@@ -5363,11 +5481,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "c52b28b5befcc44a",
+   "id": "38cef19e8349fabe",
    "name": "github.com/modern-go/concurrent",
    "version": "v0.0.0-20180306012644-bacd9c7ef1dd",
    "type": "go-module",
@@ -5390,11 +5509,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:TRLaZ9cD/w8PVh93nsPXa1VrQ6jlwL5oN8l14QlcNfg="
+    "h1Digest": "h1:TRLaZ9cD/w8PVh93nsPXa1VrQ6jlwL5oN8l14QlcNfg=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "2f31728ef7c835ce",
+   "id": "6b991e2a2b9730ed",
    "name": "github.com/modern-go/reflect2",
    "version": "v1.0.2",
    "type": "go-module",
@@ -5416,11 +5536,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "ec9dbd1dd5087145",
+   "id": "7db5c2387df5dbaa",
    "name": "github.com/modern-go/reflect2",
    "version": "v1.0.2",
    "type": "go-module",
@@ -5443,11 +5564,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:xBagoLtFs94CBntxluKeaWgTMpvLxC4ur3nMaC9Gz0M="
+    "h1Digest": "h1:xBagoLtFs94CBntxluKeaWgTMpvLxC4ur3nMaC9Gz0M=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "924c289a274259cb",
+   "id": "e0d156b8d49e3b74",
    "name": "github.com/morikuni/aec",
    "version": "v1.0.0",
    "type": "go-module",
@@ -5467,11 +5589,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "b9e7c67236a1c415",
+   "id": "c08ac2b405c3cc7",
    "name": "github.com/morikuni/aec",
    "version": "v1.0.0",
    "type": "go-module",
@@ -5492,11 +5615,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:nP9CBfwrvYnBRgY6qfDQkygYDmYwOilePFkwzv4dU8A="
+    "h1Digest": "h1:nP9CBfwrvYnBRgY6qfDQkygYDmYwOilePFkwzv4dU8A=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "597b58fcc8e15356",
+   "id": "bd1de1af75c862f9",
    "name": "github.com/opencontainers/go-digest",
    "version": "v1.0.0",
    "type": "go-module",
@@ -5517,11 +5641,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "fd1cd213daf39652",
+   "id": "22adb6cae4f32c19",
    "name": "github.com/opencontainers/go-digest",
    "version": "v1.0.0",
    "type": "go-module",
@@ -5543,11 +5668,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:apOUWs51W5PlhuyGyz9FCeeBIOUDA/6nW8Oi/yOhh5U="
+    "h1Digest": "h1:apOUWs51W5PlhuyGyz9FCeeBIOUDA/6nW8Oi/yOhh5U=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "8e51700d3d473623",
+   "id": "57667f586f322d44",
    "name": "github.com/opencontainers/image-spec",
    "version": "v1.0.2-0.20211117181255-693428a734f5",
    "type": "go-module",
@@ -5568,11 +5694,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "c60b4fc64127d913",
+   "id": "654ab91449147f6f",
    "name": "github.com/opencontainers/image-spec",
    "version": "v1.0.3-0.20211202183452-c5a74bcca799",
    "type": "go-module",
@@ -5594,11 +5721,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:rc3tiVYb5z54aKaDfakKn0dDjIyPpTtszkjuMzyt7ec="
+    "h1Digest": "h1:rc3tiVYb5z54aKaDfakKn0dDjIyPpTtszkjuMzyt7ec=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "3e645cdee6ab825e",
+   "id": "e67ec4737934f18d",
    "name": "github.com/opencontainers/runc",
    "version": "v1.1.0",
    "type": "go-module",
@@ -5618,11 +5746,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "3ae45b858b236e7b",
+   "id": "54a3bc49f74031a6",
    "name": "github.com/opencontainers/runc",
    "version": "v1.1.2",
    "type": "go-module",
@@ -5643,11 +5772,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:2VSZwLx5k/BfsBxMMipG/LYUnmqOD/BPkIVgQUcTlLw="
+    "h1Digest": "h1:2VSZwLx5k/BfsBxMMipG/LYUnmqOD/BPkIVgQUcTlLw=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "9a7d83cd51d0199a",
+   "id": "d355047adb5b3205",
    "name": "github.com/pelletier/go-toml",
    "version": "v1.9.4",
    "type": "go-module",
@@ -5668,11 +5798,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "9839b649ea4f8aec",
+   "id": "c15e17a7ec6f88d5",
    "name": "github.com/pelletier/go-toml",
    "version": "v1.9.4",
    "type": "go-module",
@@ -5694,11 +5825,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:tjENF6MfZAg8e4ZmZTeWaWiT2vXtsoO6+iuOjFhECwM="
+    "h1Digest": "h1:tjENF6MfZAg8e4ZmZTeWaWiT2vXtsoO6+iuOjFhECwM=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "68dcdba9d373d7b7",
+   "id": "5c8fad8141f2b80c",
    "name": "github.com/pkg/errors",
    "version": "v0.9.1",
    "type": "go-module",
@@ -5718,11 +5850,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "f8868466521d35ef",
+   "id": "e35c3684130c3a9d",
    "name": "github.com/pkg/errors",
    "version": "v0.9.1",
    "type": "go-module",
@@ -5743,11 +5876,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4="
+    "h1Digest": "h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "632da496584ebe39",
+   "id": "8df83e0d60fb36f6",
    "name": "github.com/prometheus/client_golang",
    "version": "v1.12.1",
    "type": "go-module",
@@ -5768,11 +5902,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "65b070b908feea8d",
+   "id": "f7535362d021552f",
    "name": "github.com/prometheus/client_golang",
    "version": "v1.12.1",
    "type": "go-module",
@@ -5794,11 +5929,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:ZiaPsmm9uiBeaSMRznKsCDNtPCS0T3JVDGF+06gjBzk="
+    "h1Digest": "h1:ZiaPsmm9uiBeaSMRznKsCDNtPCS0T3JVDGF+06gjBzk=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "4d33783901e2295f",
+   "id": "de3a36b9c872497c",
    "name": "github.com/prometheus/client_model",
    "version": "v0.2.0",
    "type": "go-module",
@@ -5819,11 +5955,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "2052a9a20a44edf2",
+   "id": "a4fae9945310e961",
    "name": "github.com/prometheus/client_model",
    "version": "v0.2.0",
    "type": "go-module",
@@ -5845,11 +5982,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:uq5h0d+GuxiXLJLNABMgp2qUWDPiLvgCzz2dUR+/W/M="
+    "h1Digest": "h1:uq5h0d+GuxiXLJLNABMgp2qUWDPiLvgCzz2dUR+/W/M=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "6251281ba59083b0",
+   "id": "5e6bcd69b3270e17",
    "name": "github.com/prometheus/common",
    "version": "v0.32.1",
    "type": "go-module",
@@ -5869,11 +6007,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "7d6805e112f55c37",
+   "id": "4f6de36440bd607e",
    "name": "github.com/prometheus/common",
    "version": "v0.32.1",
    "type": "go-module",
@@ -5894,11 +6033,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:hWIdL3N2HoUx3B8j3YN9mWor0qhY/NlEKZEaXxuIRh4="
+    "h1Digest": "h1:hWIdL3N2HoUx3B8j3YN9mWor0qhY/NlEKZEaXxuIRh4=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "faa1df9b54c33f83",
+   "id": "24762d5f3d5519c8",
    "name": "github.com/prometheus/procfs",
    "version": "v0.7.3",
    "type": "go-module",
@@ -5918,11 +6058,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "587f97c0768137b9",
+   "id": "864907e4fc9cb825",
    "name": "github.com/prometheus/procfs",
    "version": "v0.7.3",
    "type": "go-module",
@@ -5943,11 +6084,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:4jVXhlkAyzOScmCkXBTOLRLTz8EeU+eyjrwB/EPq0VU="
+    "h1Digest": "h1:4jVXhlkAyzOScmCkXBTOLRLTz8EeU+eyjrwB/EPq0VU=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "24a090e5bba034ab",
+   "id": "b568d2d4fa191743",
    "name": "github.com/qri-io/jsonpointer",
    "version": "v0.1.1",
    "type": "go-module",
@@ -5970,11 +6112,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:prVZBZLL6TW5vsSB9fFHFAMBLI4b0ri5vribQlTJiBA="
+    "h1Digest": "h1:prVZBZLL6TW5vsSB9fFHFAMBLI4b0ri5vribQlTJiBA=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "8ffa71c6891387ef",
+   "id": "8e9dc37014aa10b0",
    "name": "github.com/qri-io/jsonschema",
    "version": "v0.2.2-0.20210831022256-780655b2ba0e",
    "type": "go-module",
@@ -5997,11 +6140,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:gqHzseevuZPr3oOLES1nrPO3exQfeTKUiPcJub5axVs="
+    "h1Digest": "h1:gqHzseevuZPr3oOLES1nrPO3exQfeTKUiPcJub5axVs=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "138c33608c693168",
+   "id": "43234bf42d8d1a4b",
    "name": "github.com/sanathkr/go-yaml",
    "version": "v0.0.0-20170819195128-ed9d249f429b",
    "type": "go-module",
@@ -6023,11 +6167,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:jUK33OXuZP/l6babJtnLo1qsGvq6G9so9KMflGAm4YA="
+    "h1Digest": "h1:jUK33OXuZP/l6babJtnLo1qsGvq6G9so9KMflGAm4YA=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "96225294d1349c21",
+   "id": "28844371d17feb4e",
    "name": "github.com/serialx/hashring",
    "version": "v0.0.0-20190422032157-8b2912629002",
    "type": "go-module",
@@ -6047,11 +6192,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "76dae5f72ffd33b2",
+   "id": "79987074f58d5245",
    "name": "github.com/sirupsen/logrus",
    "version": "v1.8.1",
    "type": "go-module",
@@ -6071,11 +6217,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "48eaa04a86ffd761",
+   "id": "3ca775d8bf76d903",
    "name": "github.com/sirupsen/logrus",
    "version": "v1.8.1",
    "type": "go-module",
@@ -6096,11 +6243,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:dJKuHgqk1NNQlqoA6BTlM1Wf9DOH3NBjQyu0h9+AZZE="
+    "h1Digest": "h1:dJKuHgqk1NNQlqoA6BTlM1Wf9DOH3NBjQyu0h9+AZZE=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "c41ea88f8c8282a7",
+   "id": "2533bc616844ebcc",
    "name": "github.com/spf13/cobra",
    "version": "v1.2.1",
    "type": "go-module",
@@ -6120,11 +6268,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "7d3ed1a2c0b0db35",
+   "id": "62b203c37858ac79",
    "name": "github.com/spf13/cobra",
    "version": "v1.4.0",
    "type": "go-module",
@@ -6145,11 +6294,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:y+wJpx64xcgO1V+RcnwW0LEHxTKRi2ZDPSBjWnrg88Q="
+    "h1Digest": "h1:y+wJpx64xcgO1V+RcnwW0LEHxTKRi2ZDPSBjWnrg88Q=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "d4b7717d99532fe",
+   "id": "c2d19a70e6bc023d",
    "name": "github.com/spf13/pflag",
    "version": "v1.0.5",
    "type": "go-module",
@@ -6169,11 +6319,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "cd5a754a8dc890d0",
+   "id": "907f9b77c3001b2f",
    "name": "github.com/spf13/pflag",
    "version": "v1.0.5",
    "type": "go-module",
@@ -6194,11 +6345,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:iy+VFUOCP1a+8yFto/drg2CJ5u0yRoB7fZw3DKv/JXA="
+    "h1Digest": "h1:iy+VFUOCP1a+8yFto/drg2CJ5u0yRoB7fZw3DKv/JXA=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "4db9775d5d487262",
+   "id": "bdf281045d0beb4d",
    "name": "github.com/theupdateframework/notary",
    "version": "v0.6.1",
    "type": "go-module",
@@ -6218,11 +6370,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "16fa5ecb83249b62",
+   "id": "1f7676f66521d96d",
    "name": "github.com/theupdateframework/notary",
    "version": "v0.7.0",
    "type": "go-module",
@@ -6243,11 +6396,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:QyagRZ7wlSpjT5N2qQAh/pN+DVqgekv4DzbAiAiEL3c="
+    "h1Digest": "h1:QyagRZ7wlSpjT5N2qQAh/pN+DVqgekv4DzbAiAiEL3c=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "ed43e5c6337aa441",
+   "id": "f1ff9767fe8dc6fa",
    "name": "github.com/tonistiigi/fsutil",
    "version": "v0.0.0-20220315205639-9ed612626da3",
    "type": "go-module",
@@ -6267,11 +6421,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "165ddf06c2b85fb",
+   "id": "4d57f9ea634e49d7",
    "name": "github.com/tonistiigi/fsutil",
    "version": "v0.0.0-20220315205639-9ed612626da3",
    "type": "go-module",
@@ -6292,11 +6447,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:T1pEe+WB3SCPVAfVquvfPfagKZU2Z8c1OP3SuGB+id0="
+    "h1Digest": "h1:T1pEe+WB3SCPVAfVquvfPfagKZU2Z8c1OP3SuGB+id0=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "d9be156b680f6321",
+   "id": "268c4cbcedc8bf2",
    "name": "github.com/tonistiigi/units",
    "version": "v0.0.0-20180711220420-6950e57a87ea",
    "type": "go-module",
@@ -6316,11 +6472,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "fee023afdf5f4016",
+   "id": "4523fead0552d1b4",
    "name": "github.com/tonistiigi/units",
    "version": "v0.0.0-20180711220420-6950e57a87ea",
    "type": "go-module",
@@ -6341,11 +6498,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:SXhTLE6pb6eld/v/cCndK0AMpt1wiVFb/YYmqB3/QG0="
+    "h1Digest": "h1:SXhTLE6pb6eld/v/cCndK0AMpt1wiVFb/YYmqB3/QG0=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "e2ab4bf882d73580",
+   "id": "28f6183795b19c77",
    "name": "github.com/tonistiigi/vt100",
    "version": "v0.0.0-20210615222946-8066bb97264f",
    "type": "go-module",
@@ -6365,11 +6523,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "334273360cf4eb4a",
+   "id": "6f8117b00c203426",
    "name": "github.com/tonistiigi/vt100",
    "version": "v0.0.0-20210615222946-8066bb97264f",
    "type": "go-module",
@@ -6390,11 +6549,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:DLpt6B5oaaS8jyXHa9VA4rrZloBVPVXeCtrOsrFauxc="
+    "h1Digest": "h1:DLpt6B5oaaS8jyXHa9VA4rrZloBVPVXeCtrOsrFauxc=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "e0de43ace2263c2a",
+   "id": "b105712a37f09729",
    "name": "github.com/xeipuuv/gojsonpointer",
    "version": "v0.0.0-20180127040702-4e3ac2762d5f",
    "type": "go-module",
@@ -6414,11 +6574,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "5d7156328cc6104f",
+   "id": "86a8a3eb2d10b06d",
    "name": "github.com/xeipuuv/gojsonpointer",
    "version": "v0.0.0-20190905194746-02993c407bfb",
    "type": "go-module",
@@ -6439,11 +6600,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:zGWFAtiMcyryUHoUjUJX0/lt1H2+i2Ka2n+D3DImSNo="
+    "h1Digest": "h1:zGWFAtiMcyryUHoUjUJX0/lt1H2+i2Ka2n+D3DImSNo=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "6cb6bf1c6bf25afa",
+   "id": "4c84fd0ddd9e8cd1",
    "name": "github.com/xeipuuv/gojsonreference",
    "version": "v0.0.0-20180127040603-bd5ef7bd5415",
    "type": "go-module",
@@ -6463,11 +6625,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "8bd92e001f94ca4a",
+   "id": "b482e6ceca35a41d",
    "name": "github.com/xeipuuv/gojsonreference",
    "version": "v0.0.0-20180127040603-bd5ef7bd5415",
    "type": "go-module",
@@ -6488,11 +6651,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:EzJWgHovont7NscjpAxXsDA8S8BMYve8Y5+7cuRE7R0="
+    "h1Digest": "h1:EzJWgHovont7NscjpAxXsDA8S8BMYve8Y5+7cuRE7R0=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "79e4de5d0b2ae084",
+   "id": "53f6b3e2a3f618c3",
    "name": "github.com/xeipuuv/gojsonschema",
    "version": "v1.2.0",
    "type": "go-module",
@@ -6512,11 +6676,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "e2a6e3d706a01611",
+   "id": "aa5a68edc4bf4a73",
    "name": "github.com/xeipuuv/gojsonschema",
    "version": "v1.2.0",
    "type": "go-module",
@@ -6537,11 +6702,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:LhYJRs+L4fBtjZUfuSZIKGeVu0QRy8e5Xi7D17UxZ74="
+    "h1Digest": "h1:LhYJRs+L4fBtjZUfuSZIKGeVu0QRy8e5Xi7D17UxZ74=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "854c6e92814ae8b7",
+   "id": "8fef1cdae7ec7384",
    "name": "github.com/zclconf/go-cty",
    "version": "v1.10.0",
    "type": "go-module",
@@ -6562,11 +6728,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "cf42eb8110ba2cb0",
+   "id": "6a4fbfcfcd00dadb",
    "name": "go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc",
    "version": "v0.29.0",
    "type": "go-module",
@@ -6580,17 +6747,18 @@
    "licenses": [],
    "language": "go",
    "cpes": [
-    "cpe:2.3:a:contrib:instrumentation:v0.29.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:contrib:instrumentation\\/google.golang.org\\/grpc\\/otelgrpc:v0.29.0:*:*:*:*:*:*:*"
    ],
    "purl": "pkg:golang/go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc@v0.29.0",
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "eb5b92aa4cf772f4",
+   "id": "336025d786ea8df5",
    "name": "go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc",
    "version": "v0.29.0",
    "type": "go-module",
@@ -6604,18 +6772,19 @@
    "licenses": [],
    "language": "go",
    "cpes": [
-    "cpe:2.3:a:contrib:instrumentation:v0.29.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:contrib:instrumentation\\/google.golang.org\\/grpc\\/otelgrpc:v0.29.0:*:*:*:*:*:*:*"
    ],
    "purl": "pkg:golang/go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc@v0.29.0",
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:n9b7AAdbQtQ0k9dm0Dm2/KUcUqtG8i2O15KzNaDze8c="
+    "h1Digest": "h1:n9b7AAdbQtQ0k9dm0Dm2/KUcUqtG8i2O15KzNaDze8c=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "f3bbcbd06f1044a0",
+   "id": "c9d711054b9162b3",
    "name": "go.opentelemetry.io/contrib/instrumentation/net/http/httptrace/otelhttptrace",
    "version": "v0.29.0",
    "type": "go-module",
@@ -6629,17 +6798,18 @@
    "licenses": [],
    "language": "go",
    "cpes": [
-    "cpe:2.3:a:contrib:instrumentation:v0.29.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:contrib:instrumentation\\/net\\/http\\/httptrace\\/otelhttptrace:v0.29.0:*:*:*:*:*:*:*"
    ],
    "purl": "pkg:golang/go.opentelemetry.io/contrib/instrumentation/net/http/httptrace/otelhttptrace@v0.29.0",
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "6896a84dd4394745",
+   "id": "e0305466c875b9c3",
    "name": "go.opentelemetry.io/contrib/instrumentation/net/http/httptrace/otelhttptrace",
    "version": "v0.29.0",
    "type": "go-module",
@@ -6653,18 +6823,19 @@
    "licenses": [],
    "language": "go",
    "cpes": [
-    "cpe:2.3:a:contrib:instrumentation:v0.29.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:contrib:instrumentation\\/net\\/http\\/httptrace\\/otelhttptrace:v0.29.0:*:*:*:*:*:*:*"
    ],
    "purl": "pkg:golang/go.opentelemetry.io/contrib/instrumentation/net/http/httptrace/otelhttptrace@v0.29.0",
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:Wjp9vsVSIEyvdiaECfqxY9xBqQ7JaSCGtvHgR4doXZk="
+    "h1Digest": "h1:Wjp9vsVSIEyvdiaECfqxY9xBqQ7JaSCGtvHgR4doXZk=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "8754553d9a6d99b8",
+   "id": "70623bc0fa1ed137",
    "name": "go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp",
    "version": "v0.29.0",
    "type": "go-module",
@@ -6678,17 +6849,18 @@
    "licenses": [],
    "language": "go",
    "cpes": [
-    "cpe:2.3:a:contrib:instrumentation:v0.29.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:contrib:instrumentation\\/net\\/http\\/otelhttp:v0.29.0:*:*:*:*:*:*:*"
    ],
    "purl": "pkg:golang/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp@v0.29.0",
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "747c3eae3899ae03",
+   "id": "dc07c62b83a0a515",
    "name": "go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp",
    "version": "v0.29.0",
    "type": "go-module",
@@ -6702,18 +6874,19 @@
    "licenses": [],
    "language": "go",
    "cpes": [
-    "cpe:2.3:a:contrib:instrumentation:v0.29.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:contrib:instrumentation\\/net\\/http\\/otelhttp:v0.29.0:*:*:*:*:*:*:*"
    ],
    "purl": "pkg:golang/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp@v0.29.0",
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:SLme4Porm+UwX0DdHMxlwRt7FzPSE0sys81bet2o0pU="
+    "h1Digest": "h1:SLme4Porm+UwX0DdHMxlwRt7FzPSE0sys81bet2o0pU=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "3b136c34700e5238",
+   "id": "a89d334b4121c6ab",
    "name": "go.opentelemetry.io/otel",
    "version": "v1.4.1",
    "type": "go-module",
@@ -6731,11 +6904,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "e9dd6750624033c3",
+   "id": "25e87995a3916985",
    "name": "go.opentelemetry.io/otel",
    "version": "v1.4.1",
    "type": "go-module",
@@ -6754,11 +6928,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:QbINgGDDcoQUoMJa2mMaWno49lja9sHwp6aoa2n3a4g="
+    "h1Digest": "h1:QbINgGDDcoQUoMJa2mMaWno49lja9sHwp6aoa2n3a4g=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "c34912fc865f0f77",
+   "id": "5d27a1c822a023f0",
    "name": "go.opentelemetry.io/otel/exporters/otlp/internal/retry",
    "version": "v1.4.1",
    "type": "go-module",
@@ -6772,17 +6947,18 @@
    "licenses": [],
    "language": "go",
    "cpes": [
-    "cpe:2.3:a:otel:exporters:v1.4.1:*:*:*:*:*:*:*"
+    "cpe:2.3:a:otel:exporters\\/otlp\\/internal\\/retry:v1.4.1:*:*:*:*:*:*:*"
    ],
    "purl": "pkg:golang/go.opentelemetry.io/otel/exporters/otlp/internal/retry@v1.4.1",
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "7605692893673ea4",
+   "id": "cddec6fde9b4217f",
    "name": "go.opentelemetry.io/otel/exporters/otlp/otlptrace",
    "version": "v1.4.1",
    "type": "go-module",
@@ -6796,17 +6972,18 @@
    "licenses": [],
    "language": "go",
    "cpes": [
-    "cpe:2.3:a:otel:exporters:v1.4.1:*:*:*:*:*:*:*"
+    "cpe:2.3:a:otel:exporters\\/otlp\\/otlptrace:v1.4.1:*:*:*:*:*:*:*"
    ],
    "purl": "pkg:golang/go.opentelemetry.io/otel/exporters/otlp/otlptrace@v1.4.1",
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "c23b0203dde72f28",
+   "id": "39aacc5cc39e36f0",
    "name": "go.opentelemetry.io/otel/exporters/otlp/otlptrace",
    "version": "v1.4.1",
    "type": "go-module",
@@ -6820,18 +6997,19 @@
    "licenses": [],
    "language": "go",
    "cpes": [
-    "cpe:2.3:a:otel:exporters:v1.4.1:*:*:*:*:*:*:*"
+    "cpe:2.3:a:otel:exporters\\/otlp\\/otlptrace:v1.4.1:*:*:*:*:*:*:*"
    ],
    "purl": "pkg:golang/go.opentelemetry.io/otel/exporters/otlp/otlptrace@v1.4.1",
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:WPpPsAAs8I2rA47v5u0558meKmmwm1Dj99ZbqCV8sZ8="
+    "h1Digest": "h1:WPpPsAAs8I2rA47v5u0558meKmmwm1Dj99ZbqCV8sZ8=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "c22f25d39cb5cdfd",
+   "id": "a50cd9813b505fd2",
    "name": "go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc",
    "version": "v1.4.1",
    "type": "go-module",
@@ -6845,17 +7023,18 @@
    "licenses": [],
    "language": "go",
    "cpes": [
-    "cpe:2.3:a:otel:exporters:v1.4.1:*:*:*:*:*:*:*"
+    "cpe:2.3:a:otel:exporters\\/otlp\\/otlptrace\\/otlptracegrpc:v1.4.1:*:*:*:*:*:*:*"
    ],
    "purl": "pkg:golang/go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc@v1.4.1",
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "ae097ae7df58376d",
+   "id": "f671168f04bad42a",
    "name": "go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp",
    "version": "v1.4.1",
    "type": "go-module",
@@ -6869,17 +7048,18 @@
    "licenses": [],
    "language": "go",
    "cpes": [
-    "cpe:2.3:a:otel:exporters:v1.4.1:*:*:*:*:*:*:*"
+    "cpe:2.3:a:otel:exporters\\/otlp\\/otlptrace\\/otlptracehttp:v1.4.1:*:*:*:*:*:*:*"
    ],
    "purl": "pkg:golang/go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp@v1.4.1",
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "b64f0441865efbe4",
+   "id": "21d907cb1e83437b",
    "name": "go.opentelemetry.io/otel/internal/metric",
    "version": "v0.27.0",
    "type": "go-module",
@@ -6893,17 +7073,18 @@
    "licenses": [],
    "language": "go",
    "cpes": [
-    "cpe:2.3:a:otel:internal:v0.27.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:otel:internal\\/metric:v0.27.0:*:*:*:*:*:*:*"
    ],
    "purl": "pkg:golang/go.opentelemetry.io/otel/internal/metric@v0.27.0",
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "973cea7012adf8ad",
+   "id": "d6cdd4ec1e605726",
    "name": "go.opentelemetry.io/otel/internal/metric",
    "version": "v0.27.0",
    "type": "go-module",
@@ -6917,18 +7098,19 @@
    "licenses": [],
    "language": "go",
    "cpes": [
-    "cpe:2.3:a:otel:internal:v0.27.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:otel:internal\\/metric:v0.27.0:*:*:*:*:*:*:*"
    ],
    "purl": "pkg:golang/go.opentelemetry.io/otel/internal/metric@v0.27.0",
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:9dAVGAfFiiEq5NVB9FUJ5et+btbDQAUIJehJ+ikyryk="
+    "h1Digest": "h1:9dAVGAfFiiEq5NVB9FUJ5et+btbDQAUIJehJ+ikyryk=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "c85b19049219e470",
+   "id": "4ec78917dace02c3",
    "name": "go.opentelemetry.io/otel/metric",
    "version": "v0.27.0",
    "type": "go-module",
@@ -6948,11 +7130,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "f5be9c9b21072366",
+   "id": "a2476a9d27bd7ed7",
    "name": "go.opentelemetry.io/otel/metric",
    "version": "v0.27.0",
    "type": "go-module",
@@ -6973,11 +7156,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:HhJPsGhJoKRSegPQILFbODU56NS/L1UE4fS1sC5kIwQ="
+    "h1Digest": "h1:HhJPsGhJoKRSegPQILFbODU56NS/L1UE4fS1sC5kIwQ=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "4fc6b3637131942e",
+   "id": "2294c3c29d74f235",
    "name": "go.opentelemetry.io/otel/sdk",
    "version": "v1.4.1",
    "type": "go-module",
@@ -6997,11 +7181,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "39f64a71b79cd36b",
+   "id": "406a67e3d85d7a23",
    "name": "go.opentelemetry.io/otel/sdk",
    "version": "v1.4.1",
    "type": "go-module",
@@ -7022,11 +7207,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:J7EaW71E0v87qflB4cDolaqq3AcujGrtyIPGQoZOB0Y="
+    "h1Digest": "h1:J7EaW71E0v87qflB4cDolaqq3AcujGrtyIPGQoZOB0Y=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "6b220602088fe2e6",
+   "id": "fe4aac45d5fbbb8d",
    "name": "go.opentelemetry.io/otel/trace",
    "version": "v1.4.1",
    "type": "go-module",
@@ -7046,11 +7232,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "b2ce095b0d4e41a",
+   "id": "d0ed8af0c4dc5235",
    "name": "go.opentelemetry.io/otel/trace",
    "version": "v1.4.1",
    "type": "go-module",
@@ -7071,11 +7258,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:O+16qcdTrT7zxv2J6GejTPFinSwA++cYerC5iSiF8EQ="
+    "h1Digest": "h1:O+16qcdTrT7zxv2J6GejTPFinSwA++cYerC5iSiF8EQ=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "c5ebac063fe0f64c",
+   "id": "31b61256630d2aa3",
    "name": "go.opentelemetry.io/proto/otlp",
    "version": "v0.12.0",
    "type": "go-module",
@@ -7095,11 +7283,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "c90078d4d64633fa",
+   "id": "a6d3d489481e874",
    "name": "go.opentelemetry.io/proto/otlp",
    "version": "v0.12.0",
    "type": "go-module",
@@ -7120,11 +7309,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:CMJ/3Wp7iOWES+CYLfnBv+DVmPbB+kmy9PJ92XvlR6c="
+    "h1Digest": "h1:CMJ/3Wp7iOWES+CYLfnBv+DVmPbB+kmy9PJ92XvlR6c=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "8fdafbcd2667a854",
+   "id": "d07fc9b0296ff463",
    "name": "golang.org/x/crypto",
    "version": "v0.0.0-20211202192323-5770296d904e",
    "type": "go-module",
@@ -7144,11 +7334,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "52636db83d3b9611",
+   "id": "2159bad2dd8544e7",
    "name": "golang.org/x/crypto",
    "version": "v0.0.0-20211202192323-5770296d904e",
    "type": "go-module",
@@ -7169,11 +7360,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:MUP6MR3rJ7Gk9LEia0LP2ytiH6MuCfs7qYz+47jGdD8="
+    "h1Digest": "h1:MUP6MR3rJ7Gk9LEia0LP2ytiH6MuCfs7qYz+47jGdD8=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "43e2f8263753a8c3",
+   "id": "ae149b79ea5083d0",
    "name": "golang.org/x/net",
    "version": "v0.0.0-20211216030914-fe4d6282115f",
    "type": "go-module",
@@ -7193,11 +7385,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "f85f4eb220ce2eba",
+   "id": "8f941bcacf9627f1",
    "name": "golang.org/x/net",
    "version": "v0.0.0-20220225172249-27dd8689420f",
    "type": "go-module",
@@ -7218,11 +7411,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:oA4XRj0qtSt8Yo1Zms0CUlsT3KG69V2UGQWPBxujDmc="
+    "h1Digest": "h1:oA4XRj0qtSt8Yo1Zms0CUlsT3KG69V2UGQWPBxujDmc=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "a1465be00d38192d",
+   "id": "6a6a8c6acc98f9a6",
    "name": "golang.org/x/oauth2",
    "version": "v0.0.0-20210819190943-2bc19b11175f",
    "type": "go-module",
@@ -7242,11 +7436,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "7019d1bde6711943",
+   "id": "471f40b91d3e596a",
    "name": "golang.org/x/oauth2",
    "version": "v0.0.0-20211104180415-d3ed0bb246c8",
    "type": "go-module",
@@ -7267,11 +7462,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:RerP+noqYHUQ8CMRcPlC2nvTa4dcBIjegkuWdcUDuqg="
+    "h1Digest": "h1:RerP+noqYHUQ8CMRcPlC2nvTa4dcBIjegkuWdcUDuqg=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "f7e2d1562aeee7d6",
+   "id": "d865a175fe2e5a35",
    "name": "golang.org/x/sync",
    "version": "v0.0.0-20210220032951-036812b2e83c",
    "type": "go-module",
@@ -7291,11 +7487,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "25e4ea6d3e8c33ef",
+   "id": "7ac9ca9f0d54559",
    "name": "golang.org/x/sync",
    "version": "v0.0.0-20210220032951-036812b2e83c",
    "type": "go-module",
@@ -7316,11 +7513,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:5KslGYwFpkhGh+Q16bwMP3cOontH8FOep7tGV86Y7SQ="
+    "h1Digest": "h1:5KslGYwFpkhGh+Q16bwMP3cOontH8FOep7tGV86Y7SQ=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "dc4339b7eebf1e24",
+   "id": "ed8f890bf5db8733",
    "name": "golang.org/x/sys",
    "version": "v0.0.0-20220114195835-da31bd327af9",
    "type": "go-module",
@@ -7340,11 +7538,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "d8f149a2197e125b",
+   "id": "bbb461a2ea833ba4",
    "name": "golang.org/x/sys",
    "version": "v0.0.0-20220422013727-9388b58f7150",
    "type": "go-module",
@@ -7365,11 +7564,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:xHms4gcpe1YE7A3yIllJXP16CMAGuqwO2lX1mTyyRRc="
+    "h1Digest": "h1:xHms4gcpe1YE7A3yIllJXP16CMAGuqwO2lX1mTyyRRc=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "6e620f02fac2d635",
+   "id": "bbaf6068b1e739f6",
    "name": "golang.org/x/term",
    "version": "v0.0.0-20210615171337-6886f2dfbf5b",
    "type": "go-module",
@@ -7389,11 +7589,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "c2b1df0eaf9948d3",
+   "id": "868828f038a342f8",
    "name": "golang.org/x/term",
    "version": "v0.0.0-20210927222741-03fcf44c2211",
    "type": "go-module",
@@ -7414,11 +7615,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:JGgROgKl9N8DuW20oFS5gxc+lE67/N3FcwmBPMe7ArY="
+    "h1Digest": "h1:JGgROgKl9N8DuW20oFS5gxc+lE67/N3FcwmBPMe7ArY=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "d287fb19515edc7d",
+   "id": "c653f27471fa04da",
    "name": "golang.org/x/text",
    "version": "v0.3.7",
    "type": "go-module",
@@ -7438,11 +7640,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "4de3c2641cbf5934",
+   "id": "18241677ff5b8897",
    "name": "golang.org/x/text",
    "version": "v0.3.7",
    "type": "go-module",
@@ -7463,11 +7666,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:olpwvP2KacW1ZWvsR7uQhoyTYvKAupfQrRGBFM352Gk="
+    "h1Digest": "h1:olpwvP2KacW1ZWvsR7uQhoyTYvKAupfQrRGBFM352Gk=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "f9fcd916e192ddfa",
+   "id": "f03cef0781d285d5",
    "name": "golang.org/x/time",
    "version": "v0.0.0-20210723032227-1f47c861a9ac",
    "type": "go-module",
@@ -7487,11 +7691,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "6d858f33d4350e80",
+   "id": "6515bc945b736123",
    "name": "golang.org/x/time",
    "version": "v0.0.0-20210723032227-1f47c861a9ac",
    "type": "go-module",
@@ -7512,11 +7717,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:7zkz7BUtwNFFqcowJ+RIgu2MaV/MapERkDIy+mwPyjs="
+    "h1Digest": "h1:7zkz7BUtwNFFqcowJ+RIgu2MaV/MapERkDIy+mwPyjs=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "90694fc496267728",
+   "id": "d1494c01bf2ce7b",
    "name": "google.golang.org/genproto",
    "version": "v0.0.0-20211208223120-3a66f561d7aa",
    "type": "go-module",
@@ -7536,11 +7742,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "d57d144a47d53e6f",
+   "id": "87302d380b09a25a",
    "name": "google.golang.org/genproto",
    "version": "v0.0.0-20220314164441-57ef72a4c106",
    "type": "go-module",
@@ -7561,11 +7768,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:ErU+UA6wxadoU8nWrsy5MZUVBs75K17zUCsUCIfrXCE="
+    "h1Digest": "h1:ErU+UA6wxadoU8nWrsy5MZUVBs75K17zUCsUCIfrXCE=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "6be0f7eab92f88fc",
+   "id": "e3fa77cc7050ba07",
    "name": "google.golang.org/grpc",
    "version": "v1.44.0",
    "type": "go-module",
@@ -7585,11 +7793,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "ed60536218614066",
+   "id": "818b662bc31bfcd0",
    "name": "google.golang.org/grpc",
    "version": "v1.45.0",
    "type": "go-module",
@@ -7610,11 +7819,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:NEpgUqV3Z+ZjkqMsxMg11IaDrXY4RY6CQukSGK0uI1M="
+    "h1Digest": "h1:NEpgUqV3Z+ZjkqMsxMg11IaDrXY4RY6CQukSGK0uI1M=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "b2edc876237fe0e5",
+   "id": "6f96a58f44abaf4a",
    "name": "google.golang.org/protobuf",
    "version": "v1.27.1",
    "type": "go-module",
@@ -7634,11 +7844,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "1946cfbce4275e01",
+   "id": "e5556677515b4214",
    "name": "google.golang.org/protobuf",
    "version": "v1.27.1",
    "type": "go-module",
@@ -7659,11 +7870,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:SnqbnDw1V7RiZcXPx5MEeqPv2s79L9i7BJUlG/+RurQ="
+    "h1Digest": "h1:SnqbnDw1V7RiZcXPx5MEeqPv2s79L9i7BJUlG/+RurQ=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "dc52ce4bb16af4c1",
+   "id": "fc3f5665cc1aae9e",
    "name": "gopkg.in/inf.v0",
    "version": "v0.9.1",
    "type": "go-module",
@@ -7681,11 +7893,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "921be378c4af487d",
+   "id": "e10bf9b4ac1bcf2e",
    "name": "gopkg.in/inf.v0",
    "version": "v0.9.1",
    "type": "go-module",
@@ -7704,11 +7917,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:73M5CoZyi3ZLMOyDlQh031Cx6N9NDJ2Vvfl76EDAgDc="
+    "h1Digest": "h1:73M5CoZyi3ZLMOyDlQh031Cx6N9NDJ2Vvfl76EDAgDc=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "6e8a109736e57fdb",
+   "id": "1b8a381a03e187e0",
    "name": "gopkg.in/yaml.v2",
    "version": "v2.4.0",
    "type": "go-module",
@@ -7726,11 +7940,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "57fb0185a2493d26",
+   "id": "b4784abd1321a81a",
    "name": "gopkg.in/yaml.v2",
    "version": "v2.4.0",
    "type": "go-module",
@@ -7749,11 +7964,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:D8xgwECY7CYvx+Y2n4sBz93Jn9JRvxdiyyo8CTfuKaY="
+    "h1Digest": "h1:D8xgwECY7CYvx+Y2n4sBz93Jn9JRvxdiyyo8CTfuKaY=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "c62b3574137ca403",
+   "id": "fff871513727a2c",
    "name": "gopkg.in/yaml.v3",
    "version": "v3.0.0-20210107192922-496545a6307b",
    "type": "go-module",
@@ -7771,11 +7987,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "b26e8784096f6016",
+   "id": "391a8678bf168f39",
    "name": "k8s.io/api",
    "version": "v0.22.4",
    "type": "go-module",
@@ -7793,11 +8010,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "19d7629cc1887268",
+   "id": "cbad68e5e28f0fb3",
    "name": "k8s.io/apimachinery",
    "version": "v0.22.4",
    "type": "go-module",
@@ -7815,11 +8033,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "77eb78f1e3e3c619",
+   "id": "553090504e8bc244",
    "name": "k8s.io/apimachinery",
    "version": "v0.22.4",
    "type": "go-module",
@@ -7838,11 +8057,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:9uwcvPpukBw/Ri0EUmWz+49cnFtaoiyEhQTK+xOe7Ck="
+    "h1Digest": "h1:9uwcvPpukBw/Ri0EUmWz+49cnFtaoiyEhQTK+xOe7Ck=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "73862575e223afd1",
+   "id": "448b84c6c4d6e242",
    "name": "k8s.io/client-go",
    "version": "v0.22.4",
    "type": "go-module",
@@ -7860,11 +8080,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "c94d65fab607ba32",
+   "id": "7a02c16bdb7be70e",
    "name": "k8s.io/client-go",
    "version": "v0.22.4",
    "type": "go-module",
@@ -7883,11 +8104,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:aAQ1Wk+I3bjCNk35YWUqbaueqrIonkfDPJSPDDe8Kfg="
+    "h1Digest": "h1:aAQ1Wk+I3bjCNk35YWUqbaueqrIonkfDPJSPDDe8Kfg=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "6a2da1c83373a38f",
+   "id": "20617d2285ed9c9c",
    "name": "k8s.io/klog/v2",
    "version": "v2.30.0",
    "type": "go-module",
@@ -7907,11 +8129,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "51e746f490950d59",
+   "id": "2c3d461457b6d331",
    "name": "k8s.io/klog/v2",
    "version": "v2.30.0",
    "type": "go-module",
@@ -7932,11 +8155,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:bUO6drIvCIsvZ/XFgfxoGFQU/a4Qkh0iAlvUR7vlHJw="
+    "h1Digest": "h1:bUO6drIvCIsvZ/XFgfxoGFQU/a4Qkh0iAlvUR7vlHJw=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "4e0a89a6482a4d16",
+   "id": "a063af91c8fb3551",
    "name": "k8s.io/utils",
    "version": "v0.0.0-20210930125809-cb0fa318a74b",
    "type": "go-module",
@@ -7954,11 +8178,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "63a67d29f52a13f9",
+   "id": "7eb5f198321e4d85",
    "name": "k8s.io/utils",
    "version": "v0.0.0-20211116205334-6203023598ed",
    "type": "go-module",
@@ -7977,7 +8202,8 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:ck1fRPWPJWsMd8ZRFsWc6mh/zHp5fZ/shhbrgPUxDAE="
+    "h1Digest": "h1:ck1fRPWPJWsMd8ZRFsWc6mh/zHp5fZ/shhbrgPUxDAE=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
@@ -9469,7 +9695,7 @@
    }
   },
   {
-   "id": "9dca4f515483ecab",
+   "id": "f35a134a66c17810",
    "name": "sigs.k8s.io/structured-merge-diff/v4",
    "version": "v4.1.2",
    "type": "go-module",
@@ -9493,11 +9719,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "c03e8c1112a1d6ac",
+   "id": "c689c9a22812fab1",
    "name": "sigs.k8s.io/structured-merge-diff/v4",
    "version": "v4.2.1",
    "type": "go-module",
@@ -9522,11 +9749,12 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:bKCqE9GvQ5tiVHn5rfn1r+yao3aLQEaLzkkmAkf+A6Y="
+    "h1Digest": "h1:bKCqE9GvQ5tiVHn5rfn1r+yao3aLQEaLzkkmAkf+A6Y=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
-   "id": "b27fa5d117246b87",
+   "id": "79b7ae01298431c8",
    "name": "sigs.k8s.io/yaml",
    "version": "v1.2.0",
    "type": "go-module",
@@ -9544,11 +9772,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.8",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/docker/buildx"
    }
   },
   {
-   "id": "e3cb17f6da955d55",
+   "id": "5239dae8852d4494",
    "name": "sigs.k8s.io/yaml",
    "version": "v1.2.0",
    "type": "go-module",
@@ -9567,7 +9796,8 @@
    "metadata": {
     "goCompiledVersion": "go1.18.3",
     "architecture": "amd64",
-    "h1Digest": "h1:kr/MCeFWJWTwyaHoR9c8EjH9OumOmoF9YGiZd7lFm/Q="
+    "h1Digest": "h1:kr/MCeFWJWTwyaHoR9c8EjH9OumOmoF9YGiZd7lFm/Q=",
+    "mainModule": "github.com/docker/compose/v2"
    }
   },
   {
@@ -13195,7 +13425,7 @@
  },
  "descriptor": {
   "name": "syft",
-  "version": "0.46.1",
+  "version": "0.48.0",
   "configuration": {
    "configPath": "",
    "verbosity": 0,
@@ -13287,7 +13517,7 @@
   }
  },
  "schema": {
-  "version": "3.2.3",
-  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-3.2.3.json"
+  "version": "3.3.0",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-3.3.0.json"
  }
 }

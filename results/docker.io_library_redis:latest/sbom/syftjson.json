@@ -10809,7 +10809,7 @@
    }
   },
   {
-   "id": "d42a3cce9bf9c108",
+   "id": "17dc51edf99661a6",
    "name": "github.com/opencontainers/runc",
    "version": "v1.0.1",
    "type": "go-module",
@@ -10830,11 +10830,12 @@
    "metadata": {
     "goCompiledVersion": "go1.16.7",
     "architecture": "x86_64",
-    "h1Digest": "h1:G18PGckGdAm3yVQRWDVQ1rLSLntiniKJ0cNRT2Tm5gs="
+    "h1Digest": "h1:G18PGckGdAm3yVQRWDVQ1rLSLntiniKJ0cNRT2Tm5gs=",
+    "mainModule": "github.com/tianon/gosu"
    }
   },
   {
-   "id": "b2951a4647814a8d",
+   "id": "b9a096b0c3cc8cfb",
    "name": "github.com/tianon/gosu",
    "version": "(devel)",
    "type": "go-module",
@@ -10854,11 +10855,12 @@
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.16.7",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/tianon/gosu"
    }
   },
   {
-   "id": "1f91fee3c1e459e3",
+   "id": "bfb88cc7b0ef04b8",
    "name": "golang.org/x/sys",
    "version": "v0.0.0-20210817142637-7d9622a276b7",
    "type": "go-module",
@@ -10879,7 +10881,8 @@
    "metadata": {
     "goCompiledVersion": "go1.16.7",
     "architecture": "x86_64",
-    "h1Digest": "h1:lQ8Btl/sJr2+f4ql7ffKUKfnV0BsgsICvm0oEeINAQY="
+    "h1Digest": "h1:lQ8Btl/sJr2+f4ql7ffKUKfnV0BsgsICvm0oEeINAQY=",
+    "mainModule": "github.com/tianon/gosu"
    }
   },
   {
@@ -81020,13 +81023,14 @@
   "id": "debian",
   "version": "11 (bullseye)",
   "versionID": "11",
+  "versionCodename": "bullseye",
   "homeURL": "https://www.debian.org/",
   "supportURL": "https://www.debian.org/support",
   "bugReportURL": "https://bugs.debian.org/"
  },
  "descriptor": {
   "name": "syft",
-  "version": "0.46.1",
+  "version": "0.48.0",
   "configuration": {
    "configPath": "",
    "verbosity": 0,
@@ -81118,7 +81122,7 @@
   }
  },
  "schema": {
-  "version": "3.2.3",
-  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-3.2.3.json"
+  "version": "3.3.0",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-3.3.0.json"
  }
 }

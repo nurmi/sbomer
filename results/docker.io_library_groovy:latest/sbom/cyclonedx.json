@@ -1,15 +1,15 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:73005a0c-860f-42a5-a47f-772948762768",
+  "serialNumber": "urn:uuid:abbae1f7-c673-4bcf-a80b-57908a977530",
   "version": 1,
   "metadata": {
-    "timestamp": "2022-07-14T13:46:45-07:00",
+    "timestamp": "2022-07-14T23:36:12Z",
     "tools": [
       {
         "vendor": "anchore",
         "name": "syft",
-        "version": "0.46.1"
+        "version": "0.48.0"
       }
     ],
     "component": {
@@ -25497,6 +25497,10 @@
         {
           "name": "syft:distro:prettyName",
           "value": "Ubuntu 22.04 LTS"
+        },
+        {
+          "name": "syft:distro:versionCodename",
+          "value": "jammy"
         },
         {
           "name": "syft:distro:versionID",
