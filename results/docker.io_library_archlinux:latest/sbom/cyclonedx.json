@@ -1,15 +1,15 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:69b883ca-ea2d-4fe8-ab95-12b7e4bfe0db",
+  "serialNumber": "urn:uuid:5df10663-919e-4bc5-93da-b35c8908f31a",
   "version": 1,
   "metadata": {
-    "timestamp": "2022-07-14T13:34:59-07:00",
+    "timestamp": "2022-07-14T23:21:35Z",
     "tools": [
       {
         "vendor": "anchore",
         "name": "syft",
-        "version": "0.46.1"
+        "version": "0.48.0"
       }
     ],
     "component": {
@@ -20,6 +20,3544 @@
     }
   },
   "components": [
+    {
+      "bom-ref": "pkg:alpm/arch/acl@2.3.1-2?arch=x86_64\u0026upstream=acl\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=b2b1a61a45d9c1a4",
+      "type": "library",
+      "name": "acl",
+      "version": "2.3.1-2",
+      "cpe": "cpe:2.3:a:acl:acl:2.3.1-2:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/acl@2.3.1-2?arch=x86_64\u0026upstream=acl\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "325349"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/archlinux-keyring@20220424-1?arch=any\u0026upstream=archlinux-keyring\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=f335c19b10794f7e",
+      "type": "library",
+      "name": "archlinux-keyring",
+      "version": "20220424-1",
+      "cpe": "cpe:2.3:a:archlinux-keyring:archlinux-keyring:20220424-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/archlinux-keyring@20220424-1?arch=any\u0026upstream=archlinux-keyring\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:archlinux-keyring:archlinux_keyring:20220424-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:archlinux_keyring:archlinux-keyring:20220424-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:archlinux_keyring:archlinux_keyring:20220424-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:archlinux:archlinux-keyring:20220424-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:archlinux:archlinux_keyring:20220424-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "1526586"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/argon2@20190702-4?arch=x86_64\u0026upstream=argon2\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=df51a6f0d9f7140e",
+      "type": "library",
+      "name": "argon2",
+      "version": "20190702-4",
+      "cpe": "cpe:2.3:a:argon2:argon2:20190702-4:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/argon2@20190702-4?arch=x86_64\u0026upstream=argon2\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "112300"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/attr@2.5.1-2?arch=x86_64\u0026upstream=attr\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=65d43dc5d1c3faa0",
+      "type": "library",
+      "name": "attr",
+      "version": "2.5.1-2",
+      "cpe": "cpe:2.3:a:attr:attr:2.5.1-2:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/attr@2.5.1-2?arch=x86_64\u0026upstream=attr\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "212967"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/audit@3.0.8-1?arch=x86_64\u0026upstream=audit\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=4150ce31b63e1638",
+      "type": "library",
+      "name": "audit",
+      "version": "3.0.8-1",
+      "cpe": "cpe:2.3:a:audit:audit:3.0.8-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/audit@3.0.8-1?arch=x86_64\u0026upstream=audit\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "1039502"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/base@2-2?arch=any\u0026upstream=base\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=dd4a0c30094f3b3e",
+      "type": "library",
+      "name": "base",
+      "version": "2-2",
+      "cpe": "cpe:2.3:a:base:base:2-2:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/base@2-2?arch=any\u0026upstream=base\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/bash@5.1.016-1?arch=x86_64\u0026upstream=bash\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=affece040431750d",
+      "type": "library",
+      "name": "bash",
+      "version": "5.1.016-1",
+      "cpe": "cpe:2.3:a:bash:bash:5.1.016-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/bash@5.1.016-1?arch=x86_64\u0026upstream=bash\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "8592907"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/brotli@1.0.9-8?arch=x86_64\u0026upstream=brotli\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=6646a54dd37ec91c",
+      "type": "library",
+      "name": "brotli",
+      "version": "1.0.9-8",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:brotli:brotli:1.0.9-8:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/brotli@1.0.9-8?arch=x86_64\u0026upstream=brotli\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "2709450"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/bzip2@1.0.8-4?arch=x86_64\u0026upstream=bzip2\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=54b56fcc1e2c541c",
+      "type": "library",
+      "name": "bzip2",
+      "version": "1.0.8-4",
+      "cpe": "cpe:2.3:a:bzip2:bzip2:1.0.8-4:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/bzip2@1.0.8-4?arch=x86_64\u0026upstream=bzip2\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "147687"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/ca-certificates@20210603-1?arch=any\u0026upstream=ca-certificates\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=57e7f4f0558bb3c0",
+      "type": "library",
+      "name": "ca-certificates",
+      "version": "20210603-1",
+      "cpe": "cpe:2.3:a:ca-certificates:ca-certificates:20210603-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/ca-certificates@20210603-1?arch=any\u0026upstream=ca-certificates\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ca-certificates:ca_certificates:20210603-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ca_certificates:ca-certificates:20210603-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ca_certificates:ca_certificates:20210603-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ca:ca-certificates:20210603-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ca:ca_certificates:20210603-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/ca-certificates-mozilla@3.80-1?arch=x86_64\u0026upstream=nss\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=92e02aca74201072",
+      "type": "library",
+      "name": "ca-certificates-mozilla",
+      "version": "3.80-1",
+      "cpe": "cpe:2.3:a:ca-certificates-mozilla:ca-certificates-mozilla:3.80-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/ca-certificates-mozilla@3.80-1?arch=x86_64\u0026upstream=nss\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ca-certificates-mozilla:ca_certificates_mozilla:3.80-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ca_certificates_mozilla:ca-certificates-mozilla:3.80-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ca_certificates_mozilla:ca_certificates_mozilla:3.80-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ca-certificates:ca-certificates-mozilla:3.80-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ca-certificates:ca_certificates_mozilla:3.80-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ca_certificates:ca-certificates-mozilla:3.80-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ca_certificates:ca_certificates_mozilla:3.80-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ca:ca-certificates-mozilla:3.80-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ca:ca_certificates_mozilla:3.80-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "1017767"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/ca-certificates-utils@20210603-1?arch=any\u0026upstream=ca-certificates\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=69bb672e5d0f6e5a",
+      "type": "library",
+      "name": "ca-certificates-utils",
+      "version": "20210603-1",
+      "cpe": "cpe:2.3:a:ca-certificates-utils:ca-certificates-utils:20210603-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/ca-certificates-utils@20210603-1?arch=any\u0026upstream=ca-certificates\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ca-certificates-utils:ca_certificates_utils:20210603-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ca_certificates_utils:ca-certificates-utils:20210603-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ca_certificates_utils:ca_certificates_utils:20210603-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ca-certificates:ca-certificates-utils:20210603-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ca-certificates:ca_certificates_utils:20210603-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ca_certificates:ca-certificates-utils:20210603-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ca_certificates:ca_certificates_utils:20210603-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ca:ca-certificates-utils:20210603-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ca:ca_certificates_utils:20210603-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "6186"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/coreutils@9.1-1?arch=x86_64\u0026upstream=coreutils\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=ce4ad131761d088a",
+      "type": "library",
+      "name": "coreutils",
+      "version": "9.1-1",
+      "cpe": "cpe:2.3:a:coreutils:coreutils:9.1-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/coreutils@9.1-1?arch=x86_64\u0026upstream=coreutils\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "15984115"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/cryptsetup@2.4.3-2?arch=x86_64\u0026upstream=cryptsetup\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=3a33b4204279cae8",
+      "type": "library",
+      "name": "cryptsetup",
+      "version": "2.4.3-2",
+      "cpe": "cpe:2.3:a:cryptsetup:cryptsetup:2.4.3-2:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/cryptsetup@2.4.3-2?arch=x86_64\u0026upstream=cryptsetup\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "2496612"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/curl@7.84.0-2?arch=x86_64\u0026upstream=curl\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=234ec83ae843c554",
+      "type": "library",
+      "name": "curl",
+      "version": "7.84.0-2",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:curl:curl:7.84.0-2:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/curl@7.84.0-2?arch=x86_64\u0026upstream=curl\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "1912534"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/dbus@1.14.0-1?arch=x86_64\u0026upstream=dbus\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=8583152d817f0ef6",
+      "type": "library",
+      "name": "dbus",
+      "version": "1.14.0-1",
+      "cpe": "cpe:2.3:a:dbus:dbus:1.14.0-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/dbus@1.14.0-1?arch=x86_64\u0026upstream=dbus\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "935793"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/device-mapper@2.03.16-1?arch=x86_64\u0026upstream=lvm2\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=a56093c4b8b7c7b9",
+      "type": "library",
+      "name": "device-mapper",
+      "version": "2.03.16-1",
+      "cpe": "cpe:2.3:a:device-mapper:device-mapper:2.03.16-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/device-mapper@2.03.16-1?arch=x86_64\u0026upstream=lvm2\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:device-mapper:device_mapper:2.03.16-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:device_mapper:device-mapper:2.03.16-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:device_mapper:device_mapper:2.03.16-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:device:device-mapper:2.03.16-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:device:device_mapper:2.03.16-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "873105"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/e2fsprogs@1.46.5-4?arch=x86_64\u0026upstream=e2fsprogs\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=f46c596875217e08",
+      "type": "library",
+      "name": "e2fsprogs",
+      "version": "1.46.5-4",
+      "cpe": "cpe:2.3:a:e2fsprogs:e2fsprogs:1.46.5-4:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/e2fsprogs@1.46.5-4?arch=x86_64\u0026upstream=e2fsprogs\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "5161598"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/expat@2.4.8-1?arch=x86_64\u0026upstream=expat\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=5689aacaa01f6ae1",
+      "type": "library",
+      "name": "expat",
+      "version": "2.4.8-1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:expat:expat:2.4.8-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/expat@2.4.8-1?arch=x86_64\u0026upstream=expat\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "423774"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/file@5.42-1?arch=x86_64\u0026upstream=file\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=1becfab505f6df0d",
+      "type": "library",
+      "name": "file",
+      "version": "5.42-1",
+      "cpe": "cpe:2.3:a:file:file:5.42-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/file@5.42-1?arch=x86_64\u0026upstream=file\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "7964380"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/filesystem@2021.12.07-1?arch=x86_64\u0026upstream=filesystem\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=7487a1c987da2c87",
+      "type": "library",
+      "name": "filesystem",
+      "version": "2021.12.07-1",
+      "cpe": "cpe:2.3:a:filesystem:filesystem:2021.12.07-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/filesystem@2021.12.07-1?arch=x86_64\u0026upstream=filesystem\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "21695"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/findutils@4.9.0-1?arch=x86_64\u0026upstream=findutils\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=7afd045f2149e94a",
+      "type": "library",
+      "name": "findutils",
+      "version": "4.9.0-1",
+      "cpe": "cpe:2.3:a:findutils:findutils:4.9.0-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/findutils@4.9.0-1?arch=x86_64\u0026upstream=findutils\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "1450297"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/gawk@5.1.1-1?arch=x86_64\u0026upstream=gawk\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=8a114833951326ae",
+      "type": "library",
+      "name": "gawk",
+      "version": "5.1.1-1",
+      "cpe": "cpe:2.3:a:gawk:gawk:5.1.1-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/gawk@5.1.1-1?arch=x86_64\u0026upstream=gawk\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "2997721"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/gcc-libs@12.1.0-2?arch=x86_64\u0026upstream=gcc\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=419e16d11fb4c8e9",
+      "type": "library",
+      "name": "gcc-libs",
+      "version": "12.1.0-2",
+      "cpe": "cpe:2.3:a:gcc-libs:gcc-libs:12.1.0-2:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/gcc-libs@12.1.0-2?arch=x86_64\u0026upstream=gcc\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gcc-libs:gcc_libs:12.1.0-2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gcc_libs:gcc-libs:12.1.0-2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gcc_libs:gcc_libs:12.1.0-2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gcc:gcc-libs:12.1.0-2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gcc:gcc_libs:12.1.0-2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "115227440"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/gdbm@1.23-1?arch=x86_64\u0026upstream=gdbm\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=9ad97abdf13824f7",
+      "type": "library",
+      "name": "gdbm",
+      "version": "1.23-1",
+      "cpe": "cpe:2.3:a:gdbm:gdbm:1.23-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/gdbm@1.23-1?arch=x86_64\u0026upstream=gdbm\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "802243"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/gettext@0.21-2?arch=x86_64\u0026upstream=gettext\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=b914fb88a5c6227a",
+      "type": "library",
+      "name": "gettext",
+      "version": "0.21-2",
+      "cpe": "cpe:2.3:a:gettext:gettext:0.21-2:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/gettext@0.21-2?arch=x86_64\u0026upstream=gettext\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "7158392"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/glib2@2.72.3-1?arch=x86_64\u0026upstream=glib2\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=a0a6a8b938eacb",
+      "type": "library",
+      "name": "glib2",
+      "version": "2.72.3-1",
+      "cpe": "cpe:2.3:a:glib2:glib2:2.72.3-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/glib2@2.72.3-1?arch=x86_64\u0026upstream=glib2\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "16224129"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/glibc@2.35-6?arch=x86_64\u0026upstream=glibc\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=b4c704407560709a",
+      "type": "library",
+      "name": "glibc",
+      "version": "2.35-6",
+      "cpe": "cpe:2.3:a:glibc:glibc:2.35-6:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/glibc@2.35-6?arch=x86_64\u0026upstream=glibc\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "50181057"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/gmp@6.2.1-2?arch=x86_64\u0026upstream=gmp\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=8114da1b6b1dad1c",
+      "type": "library",
+      "name": "gmp",
+      "version": "6.2.1-2",
+      "cpe": "cpe:2.3:a:gmp:gmp:6.2.1-2:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/gmp@6.2.1-2?arch=x86_64\u0026upstream=gmp\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "1044438"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/gnupg@2.2.36-1?arch=x86_64\u0026upstream=gnupg\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=555adae44631396f",
+      "type": "library",
+      "name": "gnupg",
+      "version": "2.2.36-1",
+      "cpe": "cpe:2.3:a:gnupg:gnupg:2.2.36-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/gnupg@2.2.36-1?arch=x86_64\u0026upstream=gnupg\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "8942619"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/gnutls@3.7.6-1?arch=x86_64\u0026upstream=gnutls\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=2aee5473e81d5b5e",
+      "type": "library",
+      "name": "gnutls",
+      "version": "3.7.6-1",
+      "cpe": "cpe:2.3:a:gnutls:gnutls:3.7.6-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/gnutls@3.7.6-1?arch=x86_64\u0026upstream=gnutls\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "5866863"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/gpgme@1.17.1-1?arch=x86_64\u0026upstream=gpgme\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=52840be7530d4b92",
+      "type": "library",
+      "name": "gpgme",
+      "version": "1.17.1-1",
+      "cpe": "cpe:2.3:a:gpgme:gpgme:1.17.1-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/gpgme@1.17.1-1?arch=x86_64\u0026upstream=gpgme\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "1316606"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/grep@3.7-1?arch=x86_64\u0026upstream=grep\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=f663317b1fa105b1",
+      "type": "library",
+      "name": "grep",
+      "version": "3.7-1",
+      "cpe": "cpe:2.3:a:grep:grep:3.7-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/grep@3.7-1?arch=x86_64\u0026upstream=grep\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "846791"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/gzip@1.12-1?arch=x86_64\u0026upstream=gzip\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=e045fb07b734d5a1",
+      "type": "library",
+      "name": "gzip",
+      "version": "1.12-1",
+      "cpe": "cpe:2.3:a:gzip:gzip:1.12-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/gzip@1.12-1?arch=x86_64\u0026upstream=gzip\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "150448"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/hwdata@0.361-1?arch=any\u0026upstream=hwdata\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=66afc94754986f8f",
+      "type": "library",
+      "name": "hwdata",
+      "version": "0.361-1",
+      "cpe": "cpe:2.3:a:hwdata:hwdata:0.361-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/hwdata@0.361-1?arch=any\u0026upstream=hwdata\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "2102195"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/iana-etc@20220603-1?arch=any\u0026upstream=iana-etc\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=24f1179afd13901e",
+      "type": "library",
+      "name": "iana-etc",
+      "version": "20220603-1",
+      "cpe": "cpe:2.3:a:iana-etc:iana-etc:20220603-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/iana-etc@20220603-1?arch=any\u0026upstream=iana-etc\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:iana-etc:iana_etc:20220603-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:iana_etc:iana-etc:20220603-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:iana_etc:iana_etc:20220603-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:iana:iana-etc:20220603-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:iana:iana_etc:20220603-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "4130045"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/icu@71.1-1?arch=x86_64\u0026upstream=icu\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=1d55c891b09815ee",
+      "type": "library",
+      "name": "icu",
+      "version": "71.1-1",
+      "cpe": "cpe:2.3:a:icu:icu:71.1-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/icu@71.1-1?arch=x86_64\u0026upstream=icu\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "41660803"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/iproute2@5.18.0-1?arch=x86_64\u0026upstream=iproute2\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=707ef3b9b7da42f6",
+      "type": "library",
+      "name": "iproute2",
+      "version": "5.18.0-1",
+      "cpe": "cpe:2.3:a:iproute2:iproute2:5.18.0-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/iproute2@5.18.0-1?arch=x86_64\u0026upstream=iproute2\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "2904253"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/iptables@1:1.8.8-1?arch=x86_64\u0026upstream=iptables\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=421c36e571734d5d",
+      "type": "library",
+      "name": "iptables",
+      "version": "1:1.8.8-1",
+      "cpe": "cpe:2.3:a:iptables:iptables:1\\:1.8.8-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/iptables@1:1.8.8-1?arch=x86_64\u0026upstream=iptables\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "2508038"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/iputils@20211215-1?arch=x86_64\u0026upstream=iputils\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=f49ef7693278a80c",
+      "type": "library",
+      "name": "iputils",
+      "version": "20211215-1",
+      "cpe": "cpe:2.3:a:iputils:iputils:20211215-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/iputils@20211215-1?arch=x86_64\u0026upstream=iputils\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "481228"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/json-c@0.16-1?arch=x86_64\u0026upstream=json-c\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=3e5914e5a08147cd",
+      "type": "library",
+      "name": "json-c",
+      "version": "0.16-1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:json-c:json-c:0.16-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/json-c@0.16-1?arch=x86_64\u0026upstream=json-c\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:json-c:json_c:0.16-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:json_c:json-c:0.16-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:json_c:json_c:0.16-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:json:json-c:0.16-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:json:json_c:0.16-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "179706"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/kbd@2.5.1-1?arch=x86_64\u0026upstream=kbd\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=ff3378303884d14e",
+      "type": "library",
+      "name": "kbd",
+      "version": "2.5.1-1",
+      "cpe": "cpe:2.3:a:kbd:kbd:2.5.1-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/kbd@2.5.1-1?arch=x86_64\u0026upstream=kbd\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "3138172"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/keyutils@1.6.3-1?arch=x86_64\u0026upstream=keyutils\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=74502493bc89ac40",
+      "type": "library",
+      "name": "keyutils",
+      "version": "1.6.3-1",
+      "cpe": "cpe:2.3:a:keyutils:keyutils:1.6.3-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/keyutils@1.6.3-1?arch=x86_64\u0026upstream=keyutils\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "202137"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/kmod@30-1?arch=x86_64\u0026upstream=kmod\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=1b0b6b485883e0c0",
+      "type": "library",
+      "name": "kmod",
+      "version": "30-1",
+      "cpe": "cpe:2.3:a:kmod:kmod:30-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/kmod@30-1?arch=x86_64\u0026upstream=kmod\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "298043"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/krb5@1.19.3-3?arch=x86_64\u0026upstream=krb5\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=bda07afe315eeaca",
+      "type": "library",
+      "name": "krb5",
+      "version": "1.19.3-3",
+      "cpe": "cpe:2.3:a:krb5:krb5:1.19.3-3:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/krb5@1.19.3-3?arch=x86_64\u0026upstream=krb5\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "4531399"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/less@1:590-1?arch=x86_64\u0026upstream=less\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=d44b2a44dfefe40f",
+      "type": "library",
+      "name": "less",
+      "version": "1:590-1",
+      "cpe": "cpe:2.3:a:less:less:1\\:590-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/less@1:590-1?arch=x86_64\u0026upstream=less\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "267937"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/libarchive@3.6.1-1?arch=x86_64\u0026upstream=libarchive\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=e7a2878bcaddd451",
+      "type": "library",
+      "name": "libarchive",
+      "version": "3.6.1-1",
+      "cpe": "cpe:2.3:a:libarchive:libarchive:3.6.1-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/libarchive@3.6.1-1?arch=x86_64\u0026upstream=libarchive\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "1156853"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/libassuan@2.5.5-1?arch=x86_64\u0026upstream=libassuan\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=d7261b9d12f9db91",
+      "type": "library",
+      "name": "libassuan",
+      "version": "2.5.5-1",
+      "cpe": "cpe:2.3:a:libassuan:libassuan:2.5.5-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/libassuan@2.5.5-1?arch=x86_64\u0026upstream=libassuan\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "218138"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/libbpf@0.8.0-1?arch=x86_64\u0026upstream=libbpf\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=d19047aa2a28f8d3",
+      "type": "library",
+      "name": "libbpf",
+      "version": "0.8.0-1",
+      "cpe": "cpe:2.3:a:libbpf:libbpf:0.8.0-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/libbpf@0.8.0-1?arch=x86_64\u0026upstream=libbpf\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "782268"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/libcap@2.64-1?arch=x86_64\u0026upstream=libcap\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=2c1083d68c9ce4df",
+      "type": "library",
+      "name": "libcap",
+      "version": "2.64-1",
+      "cpe": "cpe:2.3:a:libcap:libcap:2.64-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/libcap@2.64-1?arch=x86_64\u0026upstream=libcap\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "224214"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/libcap-ng@0.8.3-1?arch=x86_64\u0026upstream=libcap-ng\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=6596732c156b9e38",
+      "type": "library",
+      "name": "libcap-ng",
+      "version": "0.8.3-1",
+      "cpe": "cpe:2.3:a:libcap-ng:libcap-ng:0.8.3-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/libcap-ng@0.8.3-1?arch=x86_64\u0026upstream=libcap-ng\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libcap-ng:libcap_ng:0.8.3-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libcap_ng:libcap-ng:0.8.3-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libcap_ng:libcap_ng:0.8.3-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libcap:libcap-ng:0.8.3-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libcap:libcap_ng:0.8.3-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "121818"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/libelf@0.187-1?arch=x86_64\u0026upstream=elfutils\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=f04585913b32cfbe",
+      "type": "library",
+      "name": "libelf",
+      "version": "0.187-1",
+      "cpe": "cpe:2.3:a:libelf:libelf:0.187-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/libelf@0.187-1?arch=x86_64\u0026upstream=elfutils\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "2984170"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/libevent@2.1.12-1?arch=x86_64\u0026upstream=libevent\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=a6b8f1085ca8540",
+      "type": "library",
+      "name": "libevent",
+      "version": "2.1.12-1",
+      "cpe": "cpe:2.3:a:libevent:libevent:2.1.12-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/libevent@2.1.12-1?arch=x86_64\u0026upstream=libevent\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "1229532"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/libffi@3.4.2-5?arch=x86_64\u0026upstream=libffi\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=f98cc1532b618071",
+      "type": "library",
+      "name": "libffi",
+      "version": "3.4.2-5",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:libffi:libffi:3.4.2-5:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/libffi@3.4.2-5?arch=x86_64\u0026upstream=libffi\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "96753"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/libgcrypt@1.10.1-1?arch=x86_64\u0026upstream=libgcrypt\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=f4647fd3f23d9f42",
+      "type": "library",
+      "name": "libgcrypt",
+      "version": "1.10.1-1",
+      "cpe": "cpe:2.3:a:libgcrypt:libgcrypt:1.10.1-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/libgcrypt@1.10.1-1?arch=x86_64\u0026upstream=libgcrypt\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "1569143"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/libgpg-error@1.45-2?arch=x86_64\u0026upstream=libgpg-error\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=cff0040f6bb8378d",
+      "type": "library",
+      "name": "libgpg-error",
+      "version": "1.45-2",
+      "cpe": "cpe:2.3:a:libgpg-error:libgpg-error:1.45-2:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/libgpg-error@1.45-2?arch=x86_64\u0026upstream=libgpg-error\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libgpg-error:libgpg_error:1.45-2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libgpg_error:libgpg-error:1.45-2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libgpg_error:libgpg_error:1.45-2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libgpg:libgpg-error:1.45-2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libgpg:libgpg_error:1.45-2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "1053974"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/libidn2@2.3.2-1?arch=x86_64\u0026upstream=libidn2\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=f215127b49506d9e",
+      "type": "library",
+      "name": "libidn2",
+      "version": "2.3.2-1",
+      "cpe": "cpe:2.3:a:libidn2:libidn2:2.3.2-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/libidn2@2.3.2-1?arch=x86_64\u0026upstream=libidn2\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "462867"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/libksba@1.6.0-1?arch=x86_64\u0026upstream=libksba\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=73f227f12beb2d34",
+      "type": "library",
+      "name": "libksba",
+      "version": "1.6.0-1",
+      "cpe": "cpe:2.3:a:libksba:libksba:1.6.0-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/libksba@1.6.0-1?arch=x86_64\u0026upstream=libksba\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "333834"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/libldap@2.6.2-2?arch=x86_64\u0026upstream=openldap\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=31ec4d1fecd8a349",
+      "type": "library",
+      "name": "libldap",
+      "version": "2.6.2-2",
+      "cpe": "cpe:2.3:a:libldap:libldap:2.6.2-2:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/libldap@2.6.2-2?arch=x86_64\u0026upstream=openldap\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "690100"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/libmnl@1.0.5-1?arch=x86_64\u0026upstream=libmnl\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=d99d39d8a5c1b25a",
+      "type": "library",
+      "name": "libmnl",
+      "version": "1.0.5-1",
+      "cpe": "cpe:2.3:a:libmnl:libmnl:1.0.5-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/libmnl@1.0.5-1?arch=x86_64\u0026upstream=libmnl\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "34820"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/libnetfilter_conntrack@1.0.9-1?arch=x86_64\u0026upstream=libnetfilter_conntrack\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=7a1f490dd7c8a66",
+      "type": "library",
+      "name": "libnetfilter_conntrack",
+      "version": "1.0.9-1",
+      "cpe": "cpe:2.3:a:libnetfilter-conntrack:libnetfilter-conntrack:1.0.9-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/libnetfilter_conntrack@1.0.9-1?arch=x86_64\u0026upstream=libnetfilter_conntrack\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libnetfilter-conntrack:libnetfilter_conntrack:1.0.9-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libnetfilter_conntrack:libnetfilter-conntrack:1.0.9-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libnetfilter_conntrack:libnetfilter_conntrack:1.0.9-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libnetfilter:libnetfilter-conntrack:1.0.9-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libnetfilter:libnetfilter_conntrack:1.0.9-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "158774"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/libnfnetlink@1.0.2-1?arch=x86_64\u0026upstream=libnfnetlink\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=927de9f21762bc76",
+      "type": "library",
+      "name": "libnfnetlink",
+      "version": "1.0.2-1",
+      "cpe": "cpe:2.3:a:libnfnetlink:libnfnetlink:1.0.2-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/libnfnetlink@1.0.2-1?arch=x86_64\u0026upstream=libnfnetlink\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "47084"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/libnftnl@1.2.2-1?arch=x86_64\u0026upstream=libnftnl\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=c4ec3da09bd2e17",
+      "type": "library",
+      "name": "libnftnl",
+      "version": "1.2.2-1",
+      "cpe": "cpe:2.3:a:libnftnl:libnftnl:1.2.2-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/libnftnl@1.2.2-1?arch=x86_64\u0026upstream=libnftnl\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "249524"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/libnghttp2@1.48.0-1?arch=x86_64\u0026upstream=libnghttp2\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=3542de16b6219e9d",
+      "type": "library",
+      "name": "libnghttp2",
+      "version": "1.48.0-1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:libnghttp2:libnghttp2:1.48.0-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/libnghttp2@1.48.0-1?arch=x86_64\u0026upstream=libnghttp2\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "377652"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/libnl@3.7.0-1?arch=x86_64\u0026upstream=libnl\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=b3e6d9a6074f18de",
+      "type": "library",
+      "name": "libnl",
+      "version": "3.7.0-1",
+      "cpe": "cpe:2.3:a:libnl:libnl:3.7.0-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/libnl@3.7.0-1?arch=x86_64\u0026upstream=libnl\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "2176722"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/libp11-kit@0.24.1-1?arch=x86_64\u0026upstream=p11-kit\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=2c4c347c8ee39de6",
+      "type": "library",
+      "name": "libp11-kit",
+      "version": "0.24.1-1",
+      "cpe": "cpe:2.3:a:libp11-kit:libp11-kit:0.24.1-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/libp11-kit@0.24.1-1?arch=x86_64\u0026upstream=p11-kit\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libp11-kit:libp11_kit:0.24.1-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libp11_kit:libp11-kit:0.24.1-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libp11_kit:libp11_kit:0.24.1-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libp11:libp11-kit:0.24.1-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libp11:libp11_kit:0.24.1-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "2830068"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/libpcap@1.10.1-2?arch=x86_64\u0026upstream=libpcap\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=9f1015cc8182057e",
+      "type": "library",
+      "name": "libpcap",
+      "version": "1.10.1-2",
+      "cpe": "cpe:2.3:a:libpcap:libpcap:1.10.1-2:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/libpcap@1.10.1-2?arch=x86_64\u0026upstream=libpcap\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "633736"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/libpsl@0.21.1-1?arch=x86_64\u0026upstream=libpsl\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=1f52e70b60a92a47",
+      "type": "library",
+      "name": "libpsl",
+      "version": "0.21.1-1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:libpsl:libpsl:0.21.1-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/libpsl@0.21.1-1?arch=x86_64\u0026upstream=libpsl\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "193026"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/libsasl@2.1.28-1?arch=x86_64\u0026upstream=libsasl\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=b9dd122025c008e9",
+      "type": "library",
+      "name": "libsasl",
+      "version": "2.1.28-1",
+      "cpe": "cpe:2.3:a:libsasl:libsasl:2.1.28-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/libsasl@2.1.28-1?arch=x86_64\u0026upstream=libsasl\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "527267"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/libseccomp@2.5.4-1?arch=x86_64\u0026upstream=libseccomp\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=7cf0649fc103b9e9",
+      "type": "library",
+      "name": "libseccomp",
+      "version": "2.5.4-1",
+      "cpe": "cpe:2.3:a:libseccomp:libseccomp:2.5.4-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/libseccomp@2.5.4-1?arch=x86_64\u0026upstream=libseccomp\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "254994"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/libsecret@0.20.5-2?arch=x86_64\u0026upstream=libsecret\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=c86e3b706759e368",
+      "type": "library",
+      "name": "libsecret",
+      "version": "0.20.5-2",
+      "cpe": "cpe:2.3:a:libsecret:libsecret:0.20.5-2:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/libsecret@0.20.5-2?arch=x86_64\u0026upstream=libsecret\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "1219952"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/libssh2@1.10.0-1?arch=x86_64\u0026upstream=libssh2\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=e8eb8f5017c2340f",
+      "type": "library",
+      "name": "libssh2",
+      "version": "1.10.0-1",
+      "cpe": "cpe:2.3:a:libssh2:libssh2:1.10.0-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/libssh2@1.10.0-1?arch=x86_64\u0026upstream=libssh2\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "425097"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/libsysprof-capture@3.44.0-1?arch=x86_64\u0026upstream=sysprof\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=175d8d5cb7f5410b",
+      "type": "library",
+      "name": "libsysprof-capture",
+      "version": "3.44.0-1",
+      "cpe": "cpe:2.3:a:libsysprof-capture:libsysprof-capture:3.44.0-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/libsysprof-capture@3.44.0-1?arch=x86_64\u0026upstream=sysprof\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libsysprof-capture:libsysprof_capture:3.44.0-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libsysprof_capture:libsysprof-capture:3.44.0-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libsysprof_capture:libsysprof_capture:3.44.0-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libsysprof:libsysprof-capture:3.44.0-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:libsysprof:libsysprof_capture:3.44.0-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "242708"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/libtasn1@4.18.0-1?arch=x86_64\u0026upstream=libtasn1\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=c167733eab198202",
+      "type": "library",
+      "name": "libtasn1",
+      "version": "4.18.0-1",
+      "cpe": "cpe:2.3:a:libtasn1:libtasn1:4.18.0-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/libtasn1@4.18.0-1?arch=x86_64\u0026upstream=libtasn1\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "323532"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/libtirpc@1.3.2-1?arch=x86_64\u0026upstream=libtirpc\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=605e9d1aabedf49f",
+      "type": "library",
+      "name": "libtirpc",
+      "version": "1.3.2-1",
+      "cpe": "cpe:2.3:a:libtirpc:libtirpc:1.3.2-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/libtirpc@1.3.2-1?arch=x86_64\u0026upstream=libtirpc\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "445287"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/libunistring@1.0-1?arch=x86_64\u0026upstream=libunistring\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=f22b403469484035",
+      "type": "library",
+      "name": "libunistring",
+      "version": "1.0-1",
+      "cpe": "cpe:2.3:a:libunistring:libunistring:1.0-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/libunistring@1.0-1?arch=x86_64\u0026upstream=libunistring\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "2568393"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/libverto@0.3.2-4?arch=x86_64\u0026upstream=libverto\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=b11958fb11743764",
+      "type": "library",
+      "name": "libverto",
+      "version": "0.3.2-4",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:libverto:libverto:0.3.2-4:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/libverto@0.3.2-4?arch=x86_64\u0026upstream=libverto\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "69630"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/libxcrypt@4.4.28-2?arch=x86_64\u0026upstream=libxcrypt\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=9a87dd2b8bea40bc",
+      "type": "library",
+      "name": "libxcrypt",
+      "version": "4.4.28-2",
+      "cpe": "cpe:2.3:a:libxcrypt:libxcrypt:4.4.28-2:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/libxcrypt@4.4.28-2?arch=x86_64\u0026upstream=libxcrypt\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "190583"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/libxml2@2.9.14-1?arch=x86_64\u0026upstream=libxml2\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=4367b39d0fa08b4d",
+      "type": "library",
+      "name": "libxml2",
+      "version": "2.9.14-1",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:libxml2:libxml2:2.9.14-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/libxml2@2.9.14-1?arch=x86_64\u0026upstream=libxml2\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "9754160"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/licenses@20220125-1?arch=any\u0026upstream=licenses\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=67d08c50fb8f4f51",
+      "type": "library",
+      "name": "licenses",
+      "version": "20220125-1",
+      "cpe": "cpe:2.3:a:licenses:licenses:20220125-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/licenses@20220125-1?arch=any\u0026upstream=licenses\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "425852"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/linux-api-headers@5.17.5-2?arch=any\u0026upstream=linux-api-headers\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=8e327649e5525512",
+      "type": "library",
+      "name": "linux-api-headers",
+      "version": "5.17.5-2",
+      "cpe": "cpe:2.3:a:linux-api-headers:linux-api-headers:5.17.5-2:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/linux-api-headers@5.17.5-2?arch=any\u0026upstream=linux-api-headers\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:linux-api-headers:linux_api_headers:5.17.5-2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:linux_api_headers:linux-api-headers:5.17.5-2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:linux_api_headers:linux_api_headers:5.17.5-2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:linux-api:linux-api-headers:5.17.5-2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:linux-api:linux_api_headers:5.17.5-2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:linux_api:linux-api-headers:5.17.5-2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:linux_api:linux_api_headers:5.17.5-2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:linux:linux-api-headers:5.17.5-2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:linux:linux_api_headers:5.17.5-2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "5390217"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/lz4@1:1.9.3-2?arch=x86_64\u0026upstream=lz4\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=814d166559e816a1",
+      "type": "library",
+      "name": "lz4",
+      "version": "1:1.9.3-2",
+      "cpe": "cpe:2.3:a:lz4:lz4:1\\:1.9.3-2:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/lz4@1:1.9.3-2?arch=x86_64\u0026upstream=lz4\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "431304"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/mpfr@4.1.0.p13-2?arch=x86_64\u0026upstream=mpfr\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=efa99973055ae743",
+      "type": "library",
+      "name": "mpfr",
+      "version": "4.1.0.p13-2",
+      "cpe": "cpe:2.3:a:mpfr:mpfr:4.1.0.p13-2:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/mpfr@4.1.0.p13-2?arch=x86_64\u0026upstream=mpfr\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "989086"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/ncurses@6.3-3?arch=x86_64\u0026upstream=ncurses\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=2e97c20ad8bc64e2",
+      "type": "library",
+      "name": "ncurses",
+      "version": "6.3-3",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:ncurses:ncurses:6.3-3:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/ncurses@6.3-3?arch=x86_64\u0026upstream=ncurses\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "4101046"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/nettle@3.8-1?arch=x86_64\u0026upstream=nettle\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=ab5e9e9a31201b75",
+      "type": "library",
+      "name": "nettle",
+      "version": "3.8-1",
+      "cpe": "cpe:2.3:a:nettle:nettle:3.8-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/nettle@3.8-1?arch=x86_64\u0026upstream=nettle\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "1042154"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/npth@1.6-3?arch=x86_64\u0026upstream=npth\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=357f09ae33429c86",
+      "type": "library",
+      "name": "npth",
+      "version": "1.6-3",
+      "cpe": "cpe:2.3:a:npth:npth:1.6-3:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/npth@1.6-3?arch=x86_64\u0026upstream=npth\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "70707"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/openssl@1.1.1.q-1?arch=x86_64\u0026upstream=openssl\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=aaf8f6494c326e1b",
+      "type": "library",
+      "name": "openssl",
+      "version": "1.1.1.q-1",
+      "cpe": "cpe:2.3:a:openssl:openssl:1.1.1.q-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/openssl@1.1.1.q-1?arch=x86_64\u0026upstream=openssl\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "7708440"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/p11-kit@0.24.1-1?arch=x86_64\u0026upstream=p11-kit\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=e69dee8a9b1c8264",
+      "type": "library",
+      "name": "p11-kit",
+      "version": "0.24.1-1",
+      "cpe": "cpe:2.3:a:p11-kit:p11-kit:0.24.1-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/p11-kit@0.24.1-1?arch=x86_64\u0026upstream=p11-kit\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:p11-kit:p11_kit:0.24.1-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:p11_kit:p11-kit:0.24.1-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:p11_kit:p11_kit:0.24.1-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:p11:p11-kit:0.24.1-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:p11:p11_kit:0.24.1-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "733827"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/pacman@6.0.1-5?arch=x86_64\u0026upstream=pacman\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=1763e1de1facdfa7",
+      "type": "library",
+      "name": "pacman",
+      "version": "6.0.1-5",
+      "cpe": "cpe:2.3:a:pacman:pacman:6.0.1-5:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/pacman@6.0.1-5?arch=x86_64\u0026upstream=pacman\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "4925474"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/pacman-mirrorlist@20220605-1?arch=any\u0026upstream=pacman-mirrorlist\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=4898668f8d4e60c2",
+      "type": "library",
+      "name": "pacman-mirrorlist",
+      "version": "20220605-1",
+      "cpe": "cpe:2.3:a:pacman-mirrorlist:pacman-mirrorlist:20220605-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/pacman-mirrorlist@20220605-1?arch=any\u0026upstream=pacman-mirrorlist\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pacman-mirrorlist:pacman_mirrorlist:20220605-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pacman_mirrorlist:pacman-mirrorlist:20220605-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pacman_mirrorlist:pacman_mirrorlist:20220605-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pacman:pacman-mirrorlist:20220605-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pacman:pacman_mirrorlist:20220605-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "46032"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/pam@1.5.2-1?arch=x86_64\u0026upstream=pam\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=d7bce1b2a690dfe4",
+      "type": "library",
+      "name": "pam",
+      "version": "1.5.2-1",
+      "cpe": "cpe:2.3:a:pam:pam:1.5.2-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/pam@1.5.2-1?arch=x86_64\u0026upstream=pam\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "2818978"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/pambase@20211210-1?arch=any\u0026upstream=pambase\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=ca66104cc406e139",
+      "type": "library",
+      "name": "pambase",
+      "version": "20211210-1",
+      "cpe": "cpe:2.3:a:pambase:pambase:20211210-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/pambase@20211210-1?arch=any\u0026upstream=pambase\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "2741"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/pciutils@3.8.0-2?arch=x86_64\u0026upstream=pciutils\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=9c6e8219b8745207",
+      "type": "library",
+      "name": "pciutils",
+      "version": "3.8.0-2",
+      "cpe": "cpe:2.3:a:pciutils:pciutils:3.8.0-2:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/pciutils@3.8.0-2?arch=x86_64\u0026upstream=pciutils\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "287911"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/pcre@8.45-1?arch=x86_64\u0026upstream=pcre\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=d195ade33d4ebc26",
+      "type": "library",
+      "name": "pcre",
+      "version": "8.45-1",
+      "cpe": "cpe:2.3:a:pcre:pcre:8.45-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/pcre@8.45-1?arch=x86_64\u0026upstream=pcre\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "3633437"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/pcre2@10.40-1?arch=x86_64\u0026upstream=pcre2\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=3aad04b7c6c6c0c0",
+      "type": "library",
+      "name": "pcre2",
+      "version": "10.40-1",
+      "cpe": "cpe:2.3:a:pcre2:pcre2:10.40-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/pcre2@10.40-1?arch=x86_64\u0026upstream=pcre2\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "4218278"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/pinentry@1.2.0-1?arch=x86_64\u0026upstream=pinentry\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=160ddc90939efb78",
+      "type": "library",
+      "name": "pinentry",
+      "version": "1.2.0-1",
+      "cpe": "cpe:2.3:a:pinentry:pinentry:1.2.0-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/pinentry@1.2.0-1?arch=x86_64\u0026upstream=pinentry\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "576985"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/popt@1.18-3?arch=x86_64\u0026upstream=popt\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=4fbaaff005f42c93",
+      "type": "library",
+      "name": "popt",
+      "version": "1.18-3",
+      "cpe": "cpe:2.3:a:popt:popt:1.18-3:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/popt@1.18-3?arch=x86_64\u0026upstream=popt\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "220788"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/procps-ng@3.3.17-1?arch=x86_64\u0026upstream=procps-ng\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=720d417ab78ea3eb",
+      "type": "library",
+      "name": "procps-ng",
+      "version": "3.3.17-1",
+      "cpe": "cpe:2.3:a:procps-ng:procps-ng:3.3.17-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/procps-ng@3.3.17-1?arch=x86_64\u0026upstream=procps-ng\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:procps-ng:procps_ng:3.3.17-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:procps_ng:procps-ng:3.3.17-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:procps_ng:procps_ng:3.3.17-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:procps:procps-ng:3.3.17-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:procps:procps_ng:3.3.17-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "1604282"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/psmisc@23.5-1?arch=x86_64\u0026upstream=psmisc\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=ae2c9c84b94e4db4",
+      "type": "library",
+      "name": "psmisc",
+      "version": "23.5-1",
+      "cpe": "cpe:2.3:a:psmisc:psmisc:23.5-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/psmisc@23.5-1?arch=x86_64\u0026upstream=psmisc\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "683600"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/readline@8.1.002-1?arch=x86_64\u0026upstream=readline\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=8890c06a5eec5932",
+      "type": "library",
+      "name": "readline",
+      "version": "8.1.002-1",
+      "cpe": "cpe:2.3:a:readline:readline:8.1.002-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/readline@8.1.002-1?arch=x86_64\u0026upstream=readline\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "748962"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/sed@4.8-1?arch=x86_64\u0026upstream=sed\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=52c47b3d1d32ee5c",
+      "type": "library",
+      "name": "sed",
+      "version": "4.8-1",
+      "cpe": "cpe:2.3:a:sed:sed:4.8-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/sed@4.8-1?arch=x86_64\u0026upstream=sed\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "753464"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/shadow@4.11.1-1?arch=x86_64\u0026upstream=shadow\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=9787f07511d3cae5",
+      "type": "library",
+      "name": "shadow",
+      "version": "4.11.1-1",
+      "cpe": "cpe:2.3:a:shadow:shadow:4.11.1-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/shadow@4.11.1-1?arch=x86_64\u0026upstream=shadow\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "3772363"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/sqlite@3.39.0-2?arch=x86_64\u0026upstream=sqlite\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=ddc4b468456e3571",
+      "type": "library",
+      "name": "sqlite",
+      "version": "3.39.0-2",
+      "cpe": "cpe:2.3:a:sqlite:sqlite:3.39.0-2:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/sqlite@3.39.0-2?arch=x86_64\u0026upstream=sqlite\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "7905504"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/systemd@251.2-1?arch=x86_64\u0026upstream=systemd\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=64a55dde79b97e65",
+      "type": "library",
+      "name": "systemd",
+      "version": "251.2-1",
+      "cpe": "cpe:2.3:a:systemd:systemd:251.2-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/systemd@251.2-1?arch=x86_64\u0026upstream=systemd\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "28824129"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/systemd-libs@251.2-1?arch=x86_64\u0026upstream=systemd\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=80230d5dd75f204a",
+      "type": "library",
+      "name": "systemd-libs",
+      "version": "251.2-1",
+      "cpe": "cpe:2.3:a:systemd-libs:systemd-libs:251.2-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/systemd-libs@251.2-1?arch=x86_64\u0026upstream=systemd\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:systemd-libs:systemd_libs:251.2-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:systemd_libs:systemd-libs:251.2-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:systemd_libs:systemd_libs:251.2-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:systemd:systemd-libs:251.2-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:systemd:systemd_libs:251.2-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "2054728"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/systemd-sysvcompat@251.2-1?arch=x86_64\u0026upstream=systemd\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=6480c71acb773bbd",
+      "type": "library",
+      "name": "systemd-sysvcompat",
+      "version": "251.2-1",
+      "cpe": "cpe:2.3:a:systemd-sysvcompat:systemd-sysvcompat:251.2-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/systemd-sysvcompat@251.2-1?arch=x86_64\u0026upstream=systemd\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:systemd-sysvcompat:systemd_sysvcompat:251.2-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:systemd_sysvcompat:systemd-sysvcompat:251.2-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:systemd_sysvcompat:systemd_sysvcompat:251.2-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:systemd:systemd-sysvcompat:251.2-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:systemd:systemd_sysvcompat:251.2-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "2418"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/tar@1.34-1?arch=x86_64\u0026upstream=tar\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=4b29168741885e44",
+      "type": "library",
+      "name": "tar",
+      "version": "1.34-1",
+      "cpe": "cpe:2.3:a:tar:tar:1.34-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/tar@1.34-1?arch=x86_64\u0026upstream=tar\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "3020748"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/tpm2-tss@3.2.0-1?arch=x86_64\u0026upstream=tpm2-tss\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=c904028e4add4425",
+      "type": "library",
+      "name": "tpm2-tss",
+      "version": "3.2.0-1",
+      "cpe": "cpe:2.3:a:tpm2-tss:tpm2-tss:3.2.0-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/tpm2-tss@3.2.0-1?arch=x86_64\u0026upstream=tpm2-tss\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:tpm2-tss:tpm2_tss:3.2.0-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:tpm2_tss:tpm2-tss:3.2.0-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:tpm2_tss:tpm2_tss:3.2.0-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:tpm2:tpm2-tss:3.2.0-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:tpm2:tpm2_tss:3.2.0-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "3012500"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/tzdata@2022a-1?arch=x86_64\u0026upstream=tzdata\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=8b7053e526754817",
+      "type": "library",
+      "name": "tzdata",
+      "version": "2022a-1",
+      "cpe": "cpe:2.3:a:tzdata:tzdata:2022a-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/tzdata@2022a-1?arch=x86_64\u0026upstream=tzdata\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "2280072"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/util-linux@2.38-1?arch=x86_64\u0026upstream=util-linux\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=3a77693203062310",
+      "type": "library",
+      "name": "util-linux",
+      "version": "2.38-1",
+      "cpe": "cpe:2.3:a:util-linux:util-linux:2.38-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/util-linux@2.38-1?arch=x86_64\u0026upstream=util-linux\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:util-linux:util_linux:2.38-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:util_linux:util-linux:2.38-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:util_linux:util_linux:2.38-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:util:util-linux:2.38-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:util:util_linux:2.38-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "12570439"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/util-linux-libs@2.38-1?arch=x86_64\u0026upstream=util-linux\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=6f209607c8c9c3b0",
+      "type": "library",
+      "name": "util-linux-libs",
+      "version": "2.38-1",
+      "cpe": "cpe:2.3:a:util-linux-libs:util-linux-libs:2.38-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/util-linux-libs@2.38-1?arch=x86_64\u0026upstream=util-linux\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:util-linux-libs:util_linux_libs:2.38-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:util_linux_libs:util-linux-libs:2.38-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:util_linux_libs:util_linux_libs:2.38-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:util-linux:util-linux-libs:2.38-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:util-linux:util_linux_libs:2.38-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:util_linux:util-linux-libs:2.38-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:util_linux:util_linux_libs:2.38-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:util:util-linux-libs:2.38-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:util:util_linux_libs:2.38-1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "989592"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/xz@5.2.5-3?arch=x86_64\u0026upstream=xz\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=3461014b4ca692aa",
+      "type": "library",
+      "name": "xz",
+      "version": "5.2.5-3",
+      "cpe": "cpe:2.3:a:xz:xz:5.2.5-3:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/xz@5.2.5-3?arch=x86_64\u0026upstream=xz\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "977437"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/zlib@1:1.2.12-2?arch=x86_64\u0026upstream=zlib\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=8f720436b77d54cd",
+      "type": "library",
+      "name": "zlib",
+      "version": "1:1.2.12-2",
+      "cpe": "cpe:2.3:a:zlib:zlib:1\\:1.2.12-2:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/zlib@1:1.2.12-2?arch=x86_64\u0026upstream=zlib\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "345689"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:alpm/arch/zstd@1.5.2-7?arch=x86_64\u0026upstream=zstd\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=d040e03e82b9baf6",
+      "type": "library",
+      "name": "zstd",
+      "version": "1.5.2-7",
+      "cpe": "cpe:2.3:a:zstd:zstd:1.5.2-7:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/zstd@1.5.2-7?arch=x86_64\u0026upstream=zstd\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "alpmdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "AlpmMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "alpm"
+        },
+        {
+          "name": "syft:metadata:size",
+          "value": "1238511"
+        }
+      ]
+    },
     {
       "type": "operating-system",
       "name": "arch",
@@ -46,6 +3584,10 @@
         }
       ],
       "properties": [
+        {
+          "name": "syft:distro:buildID",
+          "value": "rolling"
+        },
         {
           "name": "syft:distro:id",
           "value": "arch"

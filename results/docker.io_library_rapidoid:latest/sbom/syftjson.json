@@ -39361,7 +39361,7 @@
    }
   },
   {
-   "id": "c2ef4a89cf1106c4",
+   "id": "1a24e098d56dbb62",
    "name": "rapidoid-benchmark",
    "version": "5.4.6",
    "type": "java-archive",
@@ -39379,13 +39379,26 @@
     "cpe:2.3:a:rapidoid-benchmark:rapidoid_benchmark:5.4.6:*:*:*:*:*:*:*",
     "cpe:2.3:a:rapidoid_benchmark:rapidoid-benchmark:5.4.6:*:*:*:*:*:*:*",
     "cpe:2.3:a:rapidoid_benchmark:rapidoid_benchmark:5.4.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:platform:rapidoid-benchmark:5.4.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:platform:rapidoid_benchmark:5.4.6:*:*:*:*:*:*:*",
     "cpe:2.3:a:rapidoid:rapidoid-benchmark:5.4.6:*:*:*:*:*:*:*",
-    "cpe:2.3:a:rapidoid:rapidoid_benchmark:5.4.6:*:*:*:*:*:*:*"
+    "cpe:2.3:a:rapidoid:rapidoid_benchmark:5.4.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:Main:rapidoid-benchmark:5.4.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:Main:rapidoid_benchmark:5.4.6:*:*:*:*:*:*:*"
    ],
    "purl": "pkg:maven/org.rapidoid/rapidoid-benchmark@5.4.6",
    "metadataType": "JavaMetadata",
    "metadata": {
-    "virtualPath": "/opt/rapidoid.jar:rapidoid-benchmark",
+    "virtualPath": "/opt/rapidoid.jar",
+    "manifest": {
+     "main": {
+      "Build-Jdk": "1.8.0_131",
+      "Built-By": "nmihajlovski",
+      "Created-By": "Apache Maven 3.3.9",
+      "Main-Class": "org.rapidoid.platform.Main",
+      "Manifest-Version": "1.0"
+     }
+    },
     "pomProperties": {
      "path": "META-INF/maven/org.rapidoid/rapidoid-benchmark/pom.properties",
      "name": "",
@@ -39393,7 +39406,13 @@
      "artifactId": "rapidoid-benchmark",
      "version": "5.4.6",
      "extraFields": {}
-    }
+    },
+    "digest": [
+     {
+      "algorithm": "sha1",
+      "value": "08159e21e3dcc475b62256817200bb1931f25e0d"
+     }
+    ]
    }
   },
   {
@@ -39469,7 +39488,7 @@
    }
   },
   {
-   "id": "b3997d92a4c38cc",
+   "id": "c17a75737f61f709",
    "name": "rapidoid-essentials",
    "version": "5.4.6",
    "type": "java-archive",
@@ -39487,26 +39506,13 @@
     "cpe:2.3:a:rapidoid-essentials:rapidoid_essentials:5.4.6:*:*:*:*:*:*:*",
     "cpe:2.3:a:rapidoid_essentials:rapidoid-essentials:5.4.6:*:*:*:*:*:*:*",
     "cpe:2.3:a:rapidoid_essentials:rapidoid_essentials:5.4.6:*:*:*:*:*:*:*",
-    "cpe:2.3:a:platform:rapidoid-essentials:5.4.6:*:*:*:*:*:*:*",
-    "cpe:2.3:a:platform:rapidoid_essentials:5.4.6:*:*:*:*:*:*:*",
     "cpe:2.3:a:rapidoid:rapidoid-essentials:5.4.6:*:*:*:*:*:*:*",
-    "cpe:2.3:a:rapidoid:rapidoid_essentials:5.4.6:*:*:*:*:*:*:*",
-    "cpe:2.3:a:Main:rapidoid-essentials:5.4.6:*:*:*:*:*:*:*",
-    "cpe:2.3:a:Main:rapidoid_essentials:5.4.6:*:*:*:*:*:*:*"
+    "cpe:2.3:a:rapidoid:rapidoid_essentials:5.4.6:*:*:*:*:*:*:*"
    ],
    "purl": "pkg:maven/org.rapidoid/rapidoid-essentials@5.4.6",
    "metadataType": "JavaMetadata",
    "metadata": {
-    "virtualPath": "/opt/rapidoid.jar",
-    "manifest": {
-     "main": {
-      "Build-Jdk": "1.8.0_131",
-      "Built-By": "nmihajlovski",
-      "Created-By": "Apache Maven 3.3.9",
-      "Main-Class": "org.rapidoid.platform.Main",
-      "Manifest-Version": "1.0"
-     }
-    },
+    "virtualPath": "/opt/rapidoid.jar:rapidoid-essentials",
     "pomProperties": {
      "path": "META-INF/maven/org.rapidoid/rapidoid-essentials/pom.properties",
      "name": "",
@@ -39514,13 +39520,7 @@
      "artifactId": "rapidoid-essentials",
      "version": "5.4.6",
      "extraFields": {}
-    },
-    "digest": [
-     {
-      "algorithm": "sha1",
-      "value": "08159e21e3dcc475b62256817200bb1931f25e0d"
-     }
-    ]
+    }
    }
   },
   {
@@ -93325,13 +93325,14 @@
   "id": "debian",
   "version": "11 (bullseye)",
   "versionID": "11",
+  "versionCodename": "bullseye",
   "homeURL": "https://www.debian.org/",
   "supportURL": "https://www.debian.org/support",
   "bugReportURL": "https://bugs.debian.org/"
  },
  "descriptor": {
   "name": "syft",
-  "version": "0.46.1",
+  "version": "0.48.0",
   "configuration": {
    "configPath": "",
    "verbosity": 0,
@@ -93423,7 +93424,7 @@
   }
  },
  "schema": {
-  "version": "3.2.3",
-  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-3.2.3.json"
+  "version": "3.3.0",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-3.3.0.json"
  }
 }

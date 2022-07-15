@@ -1,15 +1,15 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:6e2280c2-efd4-4cc1-b8c0-f24b927e47fa",
+  "serialNumber": "urn:uuid:e65aae19-6635-40f6-94fb-c176fb8eaa98",
   "version": 1,
   "metadata": {
-    "timestamp": "2022-07-14T13:50:05-07:00",
+    "timestamp": "2022-07-14T23:40:02Z",
     "tools": [
       {
         "vendor": "anchore",
         "name": "syft",
-        "version": "0.46.1"
+        "version": "0.48.0"
       }
     ],
     "component": {
@@ -452,7 +452,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/alexflint/go-arg@v1.3.0?package-id=65a4b391ab0d561a",
+      "bom-ref": "pkg:golang/github.com/alexflint/go-arg@v1.3.0?package-id=9656740eb5dcb5df",
       "type": "library",
       "name": "github.com/alexflint/go-arg",
       "version": "v1.3.0",
@@ -494,11 +494,15 @@
         {
           "name": "syft:metadata:goCompiledVersion",
           "value": "go1.13.11"
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/dshearer/jobber"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/alexflint/go-arg@v1.3.0?package-id=149b808a08ea88a3",
+      "bom-ref": "pkg:golang/github.com/alexflint/go-arg@v1.3.0?package-id=93c52858d5199f56",
       "type": "library",
       "name": "github.com/alexflint/go-arg",
       "version": "v1.3.0",
@@ -540,11 +544,15 @@
         {
           "name": "syft:metadata:goCompiledVersion",
           "value": "go1.13.11"
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/dshearer/jobber"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/alexflint/go-scalar@v1.0.0?package-id=a95ee64dabb34420",
+      "bom-ref": "pkg:golang/github.com/alexflint/go-scalar@v1.0.0?package-id=584d310eee17a889",
       "type": "library",
       "name": "github.com/alexflint/go-scalar",
       "version": "v1.0.0",
@@ -586,11 +594,15 @@
         {
           "name": "syft:metadata:goCompiledVersion",
           "value": "go1.13.11"
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/dshearer/jobber"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/alexflint/go-scalar@v1.0.0?package-id=6e0ce1e762309679",
+      "bom-ref": "pkg:golang/github.com/alexflint/go-scalar@v1.0.0?package-id=c44edc8b7ec825d4",
       "type": "library",
       "name": "github.com/alexflint/go-scalar",
       "version": "v1.0.0",
@@ -632,11 +644,15 @@
         {
           "name": "syft:metadata:goCompiledVersion",
           "value": "go1.13.11"
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/dshearer/jobber"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/dshearer/jobber@(devel)?package-id=ff97fa468a1261d7",
+      "bom-ref": "pkg:golang/github.com/dshearer/jobber@(devel)?package-id=16a6de4bea1145ca",
       "type": "library",
       "name": "github.com/dshearer/jobber",
       "version": "(devel)",
@@ -674,11 +690,15 @@
         {
           "name": "syft:metadata:goCompiledVersion",
           "value": "go1.13.11"
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/dshearer/jobber"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/dshearer/jobber@(devel)?package-id=e775a12073661ae5",
+      "bom-ref": "pkg:golang/github.com/dshearer/jobber@(devel)?package-id=d0446a4750bc878c",
       "type": "library",
       "name": "github.com/dshearer/jobber",
       "version": "(devel)",
@@ -716,11 +736,15 @@
         {
           "name": "syft:metadata:goCompiledVersion",
           "value": "go1.13.11"
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/dshearer/jobber"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/dshearer/jobber@(devel)?package-id=5f8e1dde3e7d05b1",
+      "bom-ref": "pkg:golang/github.com/dshearer/jobber@(devel)?package-id=526f80aa80654d5c",
       "type": "library",
       "name": "github.com/dshearer/jobber",
       "version": "(devel)",
@@ -758,11 +782,15 @@
         {
           "name": "syft:metadata:goCompiledVersion",
           "value": "go1.13.11"
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/dshearer/jobber"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/gopkg.in/yaml.v2@v2.2.2?package-id=bf840445785cfb1",
+      "bom-ref": "pkg:golang/gopkg.in/yaml.v2@v2.2.2?package-id=43fd6cc4f810df60",
       "type": "library",
       "name": "gopkg.in/yaml.v2",
       "version": "v2.2.2",
@@ -799,11 +827,15 @@
         {
           "name": "syft:metadata:goCompiledVersion",
           "value": "go1.13.11"
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/dshearer/jobber"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/gopkg.in/yaml.v2@v2.2.2?package-id=27f1f4fdb7092f48",
+      "bom-ref": "pkg:golang/gopkg.in/yaml.v2@v2.2.2?package-id=26ddec6eb604ea59",
       "type": "library",
       "name": "gopkg.in/yaml.v2",
       "version": "v2.2.2",
@@ -840,11 +872,15 @@
         {
           "name": "syft:metadata:goCompiledVersion",
           "value": "go1.13.11"
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/dshearer/jobber"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/gopkg.in/yaml.v2@v2.2.2?package-id=1b64f9e74f48104",
+      "bom-ref": "pkg:golang/gopkg.in/yaml.v2@v2.2.2?package-id=fec35c18dd697fcd",
       "type": "library",
       "name": "gopkg.in/yaml.v2",
       "version": "v2.2.2",
@@ -881,6 +917,10 @@
         {
           "name": "syft:metadata:goCompiledVersion",
           "value": "go1.13.11"
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/dshearer/jobber"
         }
       ]
     },

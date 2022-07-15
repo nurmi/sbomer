@@ -1,15 +1,15 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:0c84f969-cdef-4f22-a789-9af4d77fa180",
+  "serialNumber": "urn:uuid:44784ed6-662d-4164-b062-47e30afa34c9",
   "version": 1,
   "metadata": {
-    "timestamp": "2022-07-14T13:34:33-07:00",
+    "timestamp": "2022-07-14T23:21:00Z",
     "tools": [
       {
         "vendor": "anchore",
         "name": "syft",
-        "version": "0.46.1"
+        "version": "0.48.0"
       }
     ],
     "component": {
@@ -459,7 +459,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/andybalholm/brotli@v1.0.2?package-id=7a89e690ac55b537",
+      "bom-ref": "pkg:golang/github.com/andybalholm/brotli@v1.0.2?package-id=ce72449910dd6e24",
       "type": "library",
       "name": "github.com/andybalholm/brotli",
       "version": "v1.0.2",
@@ -501,11 +501,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:JKnhI/XQ75uFBTiuzXpzFrUriDPiZjlOSzh6wXogP0E="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/wallarm/api-firewall"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/ardanlabs/conf@v1.5.0?package-id=e815073834b6ad76",
+      "bom-ref": "pkg:golang/github.com/ardanlabs/conf@v1.5.0?package-id=8ade7da97e353ed9",
       "type": "library",
       "name": "github.com/ardanlabs/conf",
       "version": "v1.5.0",
@@ -547,15 +551,19 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:5TwP6Wu9Xi07eLFEpiCUF3oQXh9UzHMDVnD3u/I5d5c="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/wallarm/api-firewall"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/cespare/xxhash/v2@v2.1.1?package-id=b275f6951244608c",
+      "bom-ref": "pkg:golang/github.com/cespare/xxhash/v2@v2.1.1?package-id=4f2b8eb6ec963c49",
       "type": "library",
       "name": "github.com/cespare/xxhash/v2",
       "version": "v2.1.1",
-      "cpe": "cpe:2.3:a:cespare:xxhash:v2.1.1:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:cespare:xxhash\\/v2:v2.1.1:*:*:*:*:*:*:*",
       "purl": "pkg:golang/github.com/cespare/xxhash/v2@v2.1.1",
       "properties": [
         {
@@ -593,11 +601,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:6MnRN8NT7+YBpUIWxHtefFZOKTAPgGjpQSxqLNn0+qY="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/wallarm/api-firewall"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/dgraph-io/ristretto@v0.1.0?package-id=7320e0010652ca86",
+      "bom-ref": "pkg:golang/github.com/dgraph-io/ristretto@v0.1.0?package-id=df57fd785fee3d43",
       "type": "library",
       "name": "github.com/dgraph-io/ristretto",
       "version": "v0.1.0",
@@ -647,11 +659,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:Jv3CGQHp9OjuMBSne1485aDpUkTKEcUqF+jm/LuerPI="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/wallarm/api-firewall"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/dustin/go-humanize@v1.0.0?package-id=8df2046afe2733ed",
+      "bom-ref": "pkg:golang/github.com/dustin/go-humanize@v1.0.0?package-id=2bea2222d4418cc9",
       "type": "library",
       "name": "github.com/dustin/go-humanize",
       "version": "v1.0.0",
@@ -697,11 +713,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:VSnTsYCnlFHaM2/igO1h6X3HA71jcobQuxemgkq4zYo="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/wallarm/api-firewall"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/fasthttp/router@v1.4.5?package-id=c680956363259f43",
+      "bom-ref": "pkg:golang/github.com/fasthttp/router@v1.4.5?package-id=daa364c92e18e7d",
       "type": "library",
       "name": "github.com/fasthttp/router",
       "version": "v1.4.5",
@@ -743,11 +763,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:YZonsKCssEwEi3veDMhL6okIx550qegAiuXAK8NnM3Y="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/wallarm/api-firewall"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/getkin/kin-openapi@v0.88.0?package-id=df92cba3e8a6b83",
+      "bom-ref": "pkg:golang/github.com/getkin/kin-openapi@v0.88.0?package-id=dd1017fd08ed1b52",
       "type": "library",
       "name": "github.com/getkin/kin-openapi",
       "version": "v0.88.0",
@@ -793,11 +817,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:BjJ2JERWJbYE1o1RGEj/5LmR5qw7ecfl3O3su4ImR+0="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/wallarm/api-firewall"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/ghodss/yaml@v1.0.0?package-id=a329f9fe0cb03ae5",
+      "bom-ref": "pkg:golang/github.com/ghodss/yaml@v1.0.0?package-id=99818f15f64b7893",
       "type": "library",
       "name": "github.com/ghodss/yaml",
       "version": "v1.0.0",
@@ -839,11 +867,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:wQHKEahhL6wmXdzwWG11gIVCkOv05bNOh+Rxn0yngAk="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/wallarm/api-firewall"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/go-openapi/jsonpointer@v0.19.5?package-id=3bb646e0c69180d3",
+      "bom-ref": "pkg:golang/github.com/go-openapi/jsonpointer@v0.19.5?package-id=ebabe7d01d91dc63",
       "type": "library",
       "name": "github.com/go-openapi/jsonpointer",
       "version": "v0.19.5",
@@ -893,11 +925,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:gZr+CIYByUqjcgeLXnQu2gHYQC9o73G2XUeOFYEICuY="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/wallarm/api-firewall"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/go-openapi/swag@v0.19.5?package-id=99b5757a6d6897bc",
+      "bom-ref": "pkg:golang/github.com/go-openapi/swag@v0.19.5?package-id=e66100233e718292",
       "type": "library",
       "name": "github.com/go-openapi/swag",
       "version": "v0.19.5",
@@ -947,11 +983,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:lTz6Ys4CmqqCQmZPBlbQENR1/GucA2bzYTE12Pw4tFY="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/wallarm/api-firewall"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/go-playground/locales@v0.14.0?package-id=bdd4f089e23d7d26",
+      "bom-ref": "pkg:golang/github.com/go-playground/locales@v0.14.0?package-id=70c93dfeb9044f72",
       "type": "library",
       "name": "github.com/go-playground/locales",
       "version": "v0.14.0",
@@ -1001,11 +1041,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:u50s323jtVGugKlcYeyzC0etD1HifMjqmJqb8WugfUU="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/wallarm/api-firewall"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/go-playground/universal-translator@v0.18.0?package-id=89940426911e4acc",
+      "bom-ref": "pkg:golang/github.com/go-playground/universal-translator@v0.18.0?package-id=8537247d9c12923",
       "type": "library",
       "name": "github.com/go-playground/universal-translator",
       "version": "v0.18.0",
@@ -1067,11 +1111,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:82dyy6p4OuJq4/CByFNOn/jYrnRPArHwAcmLoJZxyho="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/wallarm/api-firewall"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/go-playground/validator@v9.31.0+incompatible?package-id=85415ff5091d7d3a",
+      "bom-ref": "pkg:golang/github.com/go-playground/validator@v9.31.0+incompatible?package-id=b7b382eaa6f13955",
       "type": "library",
       "name": "github.com/go-playground/validator",
       "version": "v9.31.0+incompatible",
@@ -1121,11 +1169,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:UA72EPEogEnq76ehGdEDp4Mit+3FDh548oRqwVgNsHA="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/wallarm/api-firewall"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/golang-jwt/jwt@v3.2.2+incompatible?package-id=e7d69e1852ed42fb",
+      "bom-ref": "pkg:golang/github.com/golang-jwt/jwt@v3.2.2+incompatible?package-id=606b4a3729d26b87",
       "type": "library",
       "name": "github.com/golang-jwt/jwt",
       "version": "v3.2.2+incompatible",
@@ -1175,11 +1227,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:IfV12K8xAKAnZqdXVzCZ+TOjboZ2keLg81eXfW3O+oY="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/wallarm/api-firewall"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/golang/glog@v0.0.0-20160126235308-23def4e6c14b?package-id=ee4326e6fa6a45e",
+      "bom-ref": "pkg:golang/github.com/golang/glog@v0.0.0-20160126235308-23def4e6c14b?package-id=a5d04aab79ea5ad8",
       "type": "library",
       "name": "github.com/golang/glog",
       "version": "v0.0.0-20160126235308-23def4e6c14b",
@@ -1221,15 +1277,19 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:VKtxabqXZkF25pY9ekfRL6a582T4P37/31XEstQ5p58="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/wallarm/api-firewall"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/karlseguin/ccache/v2@v2.0.8?package-id=4eb7bc2eb5d40ac6",
+      "bom-ref": "pkg:golang/github.com/karlseguin/ccache/v2@v2.0.8?package-id=abadb6665a5a8241",
       "type": "library",
       "name": "github.com/karlseguin/ccache/v2",
       "version": "v2.0.8",
-      "cpe": "cpe:2.3:a:karlseguin:ccache:v2.0.8:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:karlseguin:ccache\\/v2:v2.0.8:*:*:*:*:*:*:*",
       "purl": "pkg:golang/github.com/karlseguin/ccache/v2@v2.0.8",
       "properties": [
         {
@@ -1267,11 +1327,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:lT38cE//uyf6KcFok0rlgXtGFBWxkI6h/qg4tbFyDnA="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/wallarm/api-firewall"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/klauspost/compress@v1.13.4?package-id=59077afea83edbc6",
+      "bom-ref": "pkg:golang/github.com/klauspost/compress@v1.13.4?package-id=a3558aa42f032dd3",
       "type": "library",
       "name": "github.com/klauspost/compress",
       "version": "v1.13.4",
@@ -1313,11 +1377,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:0zhec2I8zGnjWcKyLl6i3gPqKANCCn5e9xmviEEeX6s="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/wallarm/api-firewall"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/leodido/go-urn@v1.2.1?package-id=53e991e0f4badd51",
+      "bom-ref": "pkg:golang/github.com/leodido/go-urn@v1.2.1?package-id=bf0936d59fe373e4",
       "type": "library",
       "name": "github.com/leodido/go-urn",
       "version": "v1.2.1",
@@ -1363,11 +1431,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:BqpAaACuzVSgi/VLzGZIobT2z4v53pjosyNd9Yv6n/w="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/wallarm/api-firewall"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/mailru/easyjson@v0.0.0-20190626092158-b2ccc519800e?package-id=da6d95988053dfe9",
+      "bom-ref": "pkg:golang/github.com/mailru/easyjson@v0.0.0-20190626092158-b2ccc519800e?package-id=5eacdc6aee799dbc",
       "type": "library",
       "name": "github.com/mailru/easyjson",
       "version": "v0.0.0-20190626092158-b2ccc519800e",
@@ -1409,11 +1481,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:hB2xlXdHp/pmPZq0y3QnmWAArdw9PqbmotexnWx/FU8="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/wallarm/api-firewall"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/pkg/errors@v0.9.1?package-id=629dd3caccdac64e",
+      "bom-ref": "pkg:golang/github.com/pkg/errors@v0.9.1?package-id=5997c68173a142e4",
       "type": "library",
       "name": "github.com/pkg/errors",
       "version": "v0.9.1",
@@ -1455,11 +1531,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/wallarm/api-firewall"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/savsgio/gotils@v0.0.0-20211223103454-d0aaa54c5899?package-id=9ac2ac48666b0263",
+      "bom-ref": "pkg:golang/github.com/savsgio/gotils@v0.0.0-20211223103454-d0aaa54c5899?package-id=ec793532fa14a799",
       "type": "library",
       "name": "github.com/savsgio/gotils",
       "version": "v0.0.0-20211223103454-d0aaa54c5899",
@@ -1501,11 +1581,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:Orn7s+r1raRTBKLSc9DmbktTT04sL+vkzsbRD2Q8rOI="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/wallarm/api-firewall"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/sirupsen/logrus@v1.8.1?package-id=b9bb1fd2cfa95af3",
+      "bom-ref": "pkg:golang/github.com/sirupsen/logrus@v1.8.1?package-id=f6112c2d3de08000",
       "type": "library",
       "name": "github.com/sirupsen/logrus",
       "version": "v1.8.1",
@@ -1547,11 +1631,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:dJKuHgqk1NNQlqoA6BTlM1Wf9DOH3NBjQyu0h9+AZZE="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/wallarm/api-firewall"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/valyala/bytebufferpool@v1.0.0?package-id=1dbbfd9bfb4a7fc9",
+      "bom-ref": "pkg:golang/github.com/valyala/bytebufferpool@v1.0.0?package-id=764365984cc5912c",
       "type": "library",
       "name": "github.com/valyala/bytebufferpool",
       "version": "v1.0.0",
@@ -1593,11 +1681,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:GqA5TC/0021Y/b9FG4Oi9Mr3q7XYx6KllzawFIhcdPw="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/wallarm/api-firewall"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/valyala/fasthttp@v1.32.0?package-id=52bd22e1d426a641",
+      "bom-ref": "pkg:golang/github.com/valyala/fasthttp@v1.32.0?package-id=c0f8bb62e204568d",
       "type": "library",
       "name": "github.com/valyala/fasthttp",
       "version": "v1.32.0",
@@ -1639,11 +1731,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:keswgWzyKyNIIjz2a7JmCYHOOIkRp6HMx9oTV6QrZWY="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/wallarm/api-firewall"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/valyala/fastjson@v1.6.3?package-id=1c3975b450247e1d",
+      "bom-ref": "pkg:golang/github.com/valyala/fastjson@v1.6.3?package-id=d3cb25ee02a9d996",
       "type": "library",
       "name": "github.com/valyala/fastjson",
       "version": "v1.6.3",
@@ -1685,11 +1781,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:tAKFnnwmeMGPbwJ7IwxcTPCNr3uIzoIj3/Fh90ra4xc="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/wallarm/api-firewall"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/wallarm/api-firewall@(devel)?package-id=9f61c3473acdd9bb",
+      "bom-ref": "pkg:golang/github.com/wallarm/api-firewall@(devel)?package-id=78ef7dfcdcec34e0",
       "type": "library",
       "name": "github.com/wallarm/api-firewall",
       "version": "(devel)",
@@ -1731,11 +1831,15 @@
         {
           "name": "syft:metadata:goCompiledVersion",
           "value": "go1.17.4"
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/wallarm/api-firewall"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/golang.org/x/sys@v0.0.0-20210514084401-e8d321eab015?package-id=f2ae753715d2d4d1",
+      "bom-ref": "pkg:golang/golang.org/x/sys@v0.0.0-20210514084401-e8d321eab015?package-id=3e8544814838ea20",
       "type": "library",
       "name": "golang.org/x/sys",
       "version": "v0.0.0-20210514084401-e8d321eab015",
@@ -1777,11 +1881,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:hZR0X1kPW+nwyJ9xRxqZk1vx5RUObAPBdKVvXPDUH/E="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/wallarm/api-firewall"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/gopkg.in/yaml.v2@v2.3.0?package-id=3f63295baf0566da",
+      "bom-ref": "pkg:golang/gopkg.in/yaml.v2@v2.3.0?package-id=f1e2847d4a2608ac",
       "type": "library",
       "name": "gopkg.in/yaml.v2",
       "version": "v2.3.0",
@@ -1822,6 +1930,10 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:clyUAQHOM3G0M3f5vQj7LuJrETvjVot3Z5el9nffUtU="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/wallarm/api-firewall"
         }
       ]
     },

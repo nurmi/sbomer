@@ -1,7 +1,7 @@
 {
  "artifacts": [
   {
-   "id": "f1750b9b1dc17e8a",
+   "id": "bb8b1b52bdd7e3a1",
    "name": "github.com/klauspost/compress",
    "version": "v1.14.4",
    "type": "go-module",
@@ -22,11 +22,12 @@
    "metadata": {
     "goCompiledVersion": "go1.17.10",
     "architecture": "x86_64",
-    "h1Digest": "h1:eijASRJcobkVtSt81Olfh7JX43osYLwy5krOJo6YEu4="
+    "h1Digest": "h1:eijASRJcobkVtSt81Olfh7JX43osYLwy5krOJo6YEu4=",
+    "mainModule": "github.com/nats-io/nats-server/v2"
    }
   },
   {
-   "id": "b2a9583aebb4190e",
+   "id": "c0be53781026dd5d",
    "name": "github.com/minio/highwayhash",
    "version": "v1.0.2",
    "type": "go-module",
@@ -47,11 +48,12 @@
    "metadata": {
     "goCompiledVersion": "go1.17.10",
     "architecture": "x86_64",
-    "h1Digest": "h1:Aak5U0nElisjDCfPSG79Tgzkn2gl66NxOMspRrKnA/g="
+    "h1Digest": "h1:Aak5U0nElisjDCfPSG79Tgzkn2gl66NxOMspRrKnA/g=",
+    "mainModule": "github.com/nats-io/nats-server/v2"
    }
   },
   {
-   "id": "2f6bc2ed2a1e7ac4",
+   "id": "7b6f44eb6d0b5b06",
    "name": "github.com/nats-io/jwt/v2",
    "version": "v2.2.1-0.20220330180145-442af02fd36a",
    "type": "go-module",
@@ -65,20 +67,21 @@
    "licenses": [],
    "language": "go",
    "cpes": [
-    "cpe:2.3:a:nats-io:jwt:v2.2.1-0.20220330180145-442af02fd36a:*:*:*:*:*:*:*",
-    "cpe:2.3:a:nats_io:jwt:v2.2.1-0.20220330180145-442af02fd36a:*:*:*:*:*:*:*",
-    "cpe:2.3:a:nats:jwt:v2.2.1-0.20220330180145-442af02fd36a:*:*:*:*:*:*:*"
+    "cpe:2.3:a:nats-io:jwt\\/v2:v2.2.1-0.20220330180145-442af02fd36a:*:*:*:*:*:*:*",
+    "cpe:2.3:a:nats_io:jwt\\/v2:v2.2.1-0.20220330180145-442af02fd36a:*:*:*:*:*:*:*",
+    "cpe:2.3:a:nats:jwt\\/v2:v2.2.1-0.20220330180145-442af02fd36a:*:*:*:*:*:*:*"
    ],
    "purl": "pkg:golang/github.com/nats-io/jwt/v2@v2.2.1-0.20220330180145-442af02fd36a",
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.10",
     "architecture": "x86_64",
-    "h1Digest": "h1:lem6QCvxR0Y28gth9P+wV2K/zYUUAkJ+55U8cpS0p5I="
+    "h1Digest": "h1:lem6QCvxR0Y28gth9P+wV2K/zYUUAkJ+55U8cpS0p5I=",
+    "mainModule": "github.com/nats-io/nats-server/v2"
    }
   },
   {
-   "id": "96682b5284cd88ed",
+   "id": "1d7660b58d858514",
    "name": "github.com/nats-io/nats-server/v2",
    "version": "(devel)",
    "type": "go-module",
@@ -92,22 +95,23 @@
    "licenses": [],
    "language": "go",
    "cpes": [
-    "cpe:2.3:a:nats-io:nats-server:\\(devel\\):*:*:*:*:*:*:*",
-    "cpe:2.3:a:nats-io:nats_server:\\(devel\\):*:*:*:*:*:*:*",
-    "cpe:2.3:a:nats_io:nats-server:\\(devel\\):*:*:*:*:*:*:*",
-    "cpe:2.3:a:nats_io:nats_server:\\(devel\\):*:*:*:*:*:*:*",
-    "cpe:2.3:a:nats:nats-server:\\(devel\\):*:*:*:*:*:*:*",
-    "cpe:2.3:a:nats:nats_server:\\(devel\\):*:*:*:*:*:*:*"
+    "cpe:2.3:a:nats-io:nats-server\\/v2:\\(devel\\):*:*:*:*:*:*:*",
+    "cpe:2.3:a:nats-io:nats_server\\/v2:\\(devel\\):*:*:*:*:*:*:*",
+    "cpe:2.3:a:nats_io:nats-server\\/v2:\\(devel\\):*:*:*:*:*:*:*",
+    "cpe:2.3:a:nats_io:nats_server\\/v2:\\(devel\\):*:*:*:*:*:*:*",
+    "cpe:2.3:a:nats:nats-server\\/v2:\\(devel\\):*:*:*:*:*:*:*",
+    "cpe:2.3:a:nats:nats_server\\/v2:\\(devel\\):*:*:*:*:*:*:*"
    ],
    "purl": "pkg:golang/github.com/nats-io/nats-server/v2@(devel)",
    "metadataType": "GolangBinMetadata",
    "metadata": {
     "goCompiledVersion": "go1.17.10",
-    "architecture": "x86_64"
+    "architecture": "x86_64",
+    "mainModule": "github.com/nats-io/nats-server/v2"
    }
   },
   {
-   "id": "a08200eca60ac60c",
+   "id": "15e85f39dc4eb4e",
    "name": "github.com/nats-io/nkeys",
    "version": "v0.3.0",
    "type": "go-module",
@@ -130,11 +134,12 @@
    "metadata": {
     "goCompiledVersion": "go1.17.10",
     "architecture": "x86_64",
-    "h1Digest": "h1:cgM5tL53EvYRU+2YLXIK0G2mJtK12Ft9oeooSZMA2G8="
+    "h1Digest": "h1:cgM5tL53EvYRU+2YLXIK0G2mJtK12Ft9oeooSZMA2G8=",
+    "mainModule": "github.com/nats-io/nats-server/v2"
    }
   },
   {
-   "id": "92e86ec5d7121ae3",
+   "id": "d22cb5dedff6502f",
    "name": "github.com/nats-io/nuid",
    "version": "v1.0.1",
    "type": "go-module",
@@ -157,11 +162,12 @@
    "metadata": {
     "goCompiledVersion": "go1.17.10",
     "architecture": "x86_64",
-    "h1Digest": "h1:5iA8DT8V7q8WK2EScv2padNa/rTESc1KdnPw4TC2paw="
+    "h1Digest": "h1:5iA8DT8V7q8WK2EScv2padNa/rTESc1KdnPw4TC2paw=",
+    "mainModule": "github.com/nats-io/nats-server/v2"
    }
   },
   {
-   "id": "c3348d4477ef9200",
+   "id": "9beecd7b0353dbae",
    "name": "golang.org/x/crypto",
    "version": "v0.0.0-20220315160706-3147a52a75dd",
    "type": "go-module",
@@ -182,11 +188,12 @@
    "metadata": {
     "goCompiledVersion": "go1.17.10",
     "architecture": "x86_64",
-    "h1Digest": "h1:XcWmESyNjXJMLahc3mqVQJcgSTDxFxhETVlfk9uGc38="
+    "h1Digest": "h1:XcWmESyNjXJMLahc3mqVQJcgSTDxFxhETVlfk9uGc38=",
+    "mainModule": "github.com/nats-io/nats-server/v2"
    }
   },
   {
-   "id": "5614531979ac8aea",
+   "id": "973d79e38ef85654",
    "name": "golang.org/x/sys",
    "version": "v0.0.0-20220111092808-5a964db01320",
    "type": "go-module",
@@ -207,11 +214,12 @@
    "metadata": {
     "goCompiledVersion": "go1.17.10",
     "architecture": "x86_64",
-    "h1Digest": "h1:0jf+tOCoZ3LyutmCOWpVni1chK4VfFLhRsDK7MhqGRY="
+    "h1Digest": "h1:0jf+tOCoZ3LyutmCOWpVni1chK4VfFLhRsDK7MhqGRY=",
+    "mainModule": "github.com/nats-io/nats-server/v2"
    }
   },
   {
-   "id": "5375323e4f7c1a30",
+   "id": "204d09567c83d4fc",
    "name": "golang.org/x/time",
    "version": "v0.0.0-20211116232009-f0f3c7e86c11",
    "type": "go-module",
@@ -232,7 +240,8 @@
    "metadata": {
     "goCompiledVersion": "go1.17.10",
     "architecture": "x86_64",
-    "h1Digest": "h1:GZokNIeuVkl3aZHJchRrr13WCsols02MLUcz1U9is6M="
+    "h1Digest": "h1:GZokNIeuVkl3aZHJchRrr13WCsols02MLUcz1U9is6M=",
+    "mainModule": "github.com/nats-io/nats-server/v2"
    }
   }
  ],
@@ -270,7 +279,7 @@
  "distro": {},
  "descriptor": {
   "name": "syft",
-  "version": "0.46.1",
+  "version": "0.48.0",
   "configuration": {
    "configPath": "",
    "verbosity": 0,
@@ -362,7 +371,7 @@
   }
  },
  "schema": {
-  "version": "3.2.3",
-  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-3.2.3.json"
+  "version": "3.3.0",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-3.3.0.json"
  }
 }

@@ -1,15 +1,15 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:db9aa76f-eb0d-46b2-8cc2-648c2804a31a",
+  "serialNumber": "urn:uuid:a18126e7-46f6-4ec3-a3c4-d808fcc8cd0e",
   "version": 1,
   "metadata": {
-    "timestamp": "2022-07-14T13:57:34-07:00",
+    "timestamp": "2022-07-14T23:50:55Z",
     "tools": [
       {
         "vendor": "anchore",
         "name": "syft",
-        "version": "0.46.1"
+        "version": "0.48.0"
       }
     ],
     "component": {
@@ -70778,6 +70778,55 @@
       ]
     },
     {
+      "bom-ref": "pkg:npm/wcwidth.js@1.0.0?package-id=5b7e5c893b609b3b",
+      "type": "library",
+      "author": "Woong Jun \u003cwoong.jun@gmail.com\u003e (http://code.woong.org/)",
+      "name": "wcwidth.js",
+      "version": "1.0.0",
+      "cpe": "cpe:2.3:a:wcwidth.js:wcwidth.js:1.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/wcwidth.js@1.0.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/mycoboco/wcwidth.js.git",
+          "type": "distribution"
+        },
+        {
+          "url": "http://code.woong.org/wcwidth.js",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "javascript-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageJsonMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "npm"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:*:wcwidth.js:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:4843bf704b60d5f9ea10200aa1f651d0942129d09aa46653e4b0985754a3235a"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/usr/lib/nodejs/wcwidth.js/package.json"
+        }
+      ]
+    },
+    {
       "bom-ref": "pkg:pypi/wheel@0.34.2?package-id=f298f8772671fd94",
       "type": "library",
       "author": "Daniel Holth \u003cdholth@fastmail.fm\u003e",
@@ -72650,6 +72699,10 @@
         {
           "name": "syft:distro:prettyName",
           "value": "Debian GNU/Linux 11 (bullseye)"
+        },
+        {
+          "name": "syft:distro:versionCodename",
+          "value": "bullseye"
         },
         {
           "name": "syft:distro:versionID",

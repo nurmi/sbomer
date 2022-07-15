@@ -28,7 +28,7 @@ jobs:
 
       - name: Generate input images
         run: |
-          ./scripts/generate_dockerhub_images.py > input_images/popular_dockerhub_images
+          ./scripts/generate_dockerhub_images.py ./input_images/popular_dockerhub_images
 
       - name: Make SBOMs
         run: |

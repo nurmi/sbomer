@@ -1,15 +1,15 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:2ac3993d-ccbf-42c7-8a9e-f3ff294de4a0",
+  "serialNumber": "urn:uuid:ced5cef8-d24f-4eb9-9269-f5703ae2a54e",
   "version": 1,
   "metadata": {
-    "timestamp": "2022-07-14T14:04:03-07:00",
+    "timestamp": "2022-07-14T23:58:22Z",
     "tools": [
       {
         "vendor": "anchore",
         "name": "syft",
-        "version": "0.46.1"
+        "version": "0.48.0"
       }
     ],
     "component": {
@@ -12469,13 +12469,25 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/org.rapidoid/rapidoid-benchmark@5.4.6?package-id=c2ef4a89cf1106c4",
+      "bom-ref": "pkg:maven/org.rapidoid/rapidoid-benchmark@5.4.6?package-id=1a24e098d56dbb62",
       "type": "library",
       "group": "org.rapidoid",
       "name": "rapidoid-benchmark",
       "version": "5.4.6",
       "cpe": "cpe:2.3:a:rapidoid-benchmark:rapidoid-benchmark:5.4.6:*:*:*:*:*:*:*",
       "purl": "pkg:maven/org.rapidoid/rapidoid-benchmark@5.4.6",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "08159e21e3dcc475b62256817200bb1931f25e0d"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -12507,11 +12519,27 @@
         },
         {
           "name": "syft:cpe23",
+          "value": "cpe:2.3:a:platform:rapidoid-benchmark:5.4.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:platform:rapidoid_benchmark:5.4.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
           "value": "cpe:2.3:a:rapidoid:rapidoid-benchmark:5.4.6:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
           "value": "cpe:2.3:a:rapidoid:rapidoid_benchmark:5.4.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:Main:rapidoid-benchmark:5.4.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:Main:rapidoid_benchmark:5.4.6:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
@@ -12531,7 +12559,7 @@
         },
         {
           "name": "syft:metadata:virtualPath",
-          "value": "/opt/rapidoid.jar:rapidoid-benchmark"
+          "value": "/opt/rapidoid.jar"
         }
       ]
     },
@@ -12670,25 +12698,13 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/org.rapidoid/rapidoid-essentials@5.4.6?package-id=b3997d92a4c38cc",
+      "bom-ref": "pkg:maven/org.rapidoid/rapidoid-essentials@5.4.6?package-id=c17a75737f61f709",
       "type": "library",
       "group": "org.rapidoid",
       "name": "rapidoid-essentials",
       "version": "5.4.6",
       "cpe": "cpe:2.3:a:rapidoid-essentials:rapidoid-essentials:5.4.6:*:*:*:*:*:*:*",
       "purl": "pkg:maven/org.rapidoid/rapidoid-essentials@5.4.6",
-      "externalReferences": [
-        {
-          "url": "",
-          "hashes": [
-            {
-              "alg": "SHA-1",
-              "content": "08159e21e3dcc475b62256817200bb1931f25e0d"
-            }
-          ],
-          "type": "build-meta"
-        }
-      ],
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -12720,27 +12736,11 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:platform:rapidoid-essentials:5.4.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:platform:rapidoid_essentials:5.4.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
           "value": "cpe:2.3:a:rapidoid:rapidoid-essentials:5.4.6:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
           "value": "cpe:2.3:a:rapidoid:rapidoid_essentials:5.4.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:Main:rapidoid-essentials:5.4.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:Main:rapidoid_essentials:5.4.6:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
@@ -12760,7 +12760,7 @@
         },
         {
           "name": "syft:metadata:virtualPath",
-          "value": "/opt/rapidoid.jar"
+          "value": "/opt/rapidoid.jar:rapidoid-essentials"
         }
       ]
     },
@@ -15009,6 +15009,10 @@
         {
           "name": "syft:distro:prettyName",
           "value": "Debian GNU/Linux 11 (bullseye)"
+        },
+        {
+          "name": "syft:distro:versionCodename",
+          "value": "bullseye"
         },
         {
           "name": "syft:distro:versionID",

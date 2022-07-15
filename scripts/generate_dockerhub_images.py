@@ -31,6 +31,20 @@ skip_map = {
     "library/scratch:latest": True,
 }
 
+
+input_images = []
+try:
+    input_file = sys.argv[1]
+    with open(input_file, 'r') as FH:
+        for line in FH.readlines():
+            line = line.strip()
+            if line:
+                input_images.append(line)
+except:
+    print ("USAGE: {} <file_with_images>".format(sys.argv[0]))
+    sys.exit(1)
+    
+
 while True:
     response = requests.get(url)
 
@@ -48,11 +62,13 @@ while True:
 
         for i in images:
             istring = "docker.io/{}".format(i)
-            output["containers"].append(istring)
+            if istring not in input_images:
+                input_images.append(istring)
 
     if container_data['next'] is None:
-        for i in output["containers"]:
-            print (i)
+        with open(input_file, 'w') as OFH:
+            for i in input_images:
+                OFH.write("{}\n".format(i))
         sys.exit(0)
 
     url = container_data['next']

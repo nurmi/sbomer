@@ -1,15 +1,15 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:64b39657-0c46-427d-93c5-373bb72f0d02",
+  "serialNumber": "urn:uuid:0daa27a6-761a-47d9-8c22-af68aa39ee9a",
   "version": 1,
   "metadata": {
-    "timestamp": "2022-07-14T13:50:59-07:00",
+    "timestamp": "2022-07-14T23:41:15Z",
     "tools": [
       {
         "vendor": "anchore",
         "name": "syft",
-        "version": "0.46.1"
+        "version": "0.48.0"
       }
     ],
     "component": {
@@ -7267,12 +7267,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/org.jdom.output/jdom@1.1?package-id=a6dbcfef3add8154",
+      "bom-ref": "pkg:maven/org.jdom/jdom@1.1?package-id=a6dbcfef3add8154",
       "type": "library",
       "name": "jdom",
       "version": "1.1",
       "cpe": "cpe:2.3:a:transform:transform:1.1:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/org.jdom.output/jdom@1.1",
+      "purl": "pkg:maven/org.jdom/jdom@1.1",
       "externalReferences": [
         {
           "url": "",
@@ -18238,6 +18238,10 @@
         {
           "name": "syft:distro:prettyName",
           "value": "Debian GNU/Linux 11 (bullseye)"
+        },
+        {
+          "name": "syft:distro:versionCodename",
+          "value": "bullseye"
         },
         {
           "name": "syft:distro:versionID",

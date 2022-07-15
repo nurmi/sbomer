@@ -1,15 +1,15 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:a6cb465b-f306-4186-b488-f8035cde1ee8",
+  "serialNumber": "urn:uuid:fa0a37de-cc09-4225-941f-a643a95eb38f",
   "version": 1,
   "metadata": {
-    "timestamp": "2022-07-14T13:54:42-07:00",
+    "timestamp": "2022-07-14T23:46:53Z",
     "tools": [
       {
         "vendor": "anchore",
         "name": "syft",
-        "version": "0.46.1"
+        "version": "0.48.0"
       }
     ],
     "component": {
@@ -21,7 +21,7 @@
   },
   "components": [
     {
-      "bom-ref": "pkg:golang/github.com/klauspost/compress@v1.14.4?package-id=f1750b9b1dc17e8a",
+      "bom-ref": "pkg:golang/github.com/klauspost/compress@v1.14.4?package-id=bb8b1b52bdd7e3a1",
       "type": "library",
       "name": "github.com/klauspost/compress",
       "version": "v1.14.4",
@@ -63,11 +63,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:eijASRJcobkVtSt81Olfh7JX43osYLwy5krOJo6YEu4="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/nats-io/nats-server/v2"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/minio/highwayhash@v1.0.2?package-id=b2a9583aebb4190e",
+      "bom-ref": "pkg:golang/github.com/minio/highwayhash@v1.0.2?package-id=c0be53781026dd5d",
       "type": "library",
       "name": "github.com/minio/highwayhash",
       "version": "v1.0.2",
@@ -109,15 +113,19 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:Aak5U0nElisjDCfPSG79Tgzkn2gl66NxOMspRrKnA/g="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/nats-io/nats-server/v2"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/nats-io/jwt/v2@v2.2.1-0.20220330180145-442af02fd36a?package-id=2f6bc2ed2a1e7ac4",
+      "bom-ref": "pkg:golang/github.com/nats-io/jwt/v2@v2.2.1-0.20220330180145-442af02fd36a?package-id=7b6f44eb6d0b5b06",
       "type": "library",
       "name": "github.com/nats-io/jwt/v2",
       "version": "v2.2.1-0.20220330180145-442af02fd36a",
-      "cpe": "cpe:2.3:a:nats-io:jwt:v2.2.1-0.20220330180145-442af02fd36a:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:nats-io:jwt\\/v2:v2.2.1-0.20220330180145-442af02fd36a:*:*:*:*:*:*:*",
       "purl": "pkg:golang/github.com/nats-io/jwt/v2@v2.2.1-0.20220330180145-442af02fd36a",
       "properties": [
         {
@@ -138,11 +146,11 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:nats_io:jwt:v2.2.1-0.20220330180145-442af02fd36a:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:nats_io:jwt\\/v2:v2.2.1-0.20220330180145-442af02fd36a:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:nats:jwt:v2.2.1-0.20220330180145-442af02fd36a:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:nats:jwt\\/v2:v2.2.1-0.20220330180145-442af02fd36a:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
@@ -163,15 +171,19 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:lem6QCvxR0Y28gth9P+wV2K/zYUUAkJ+55U8cpS0p5I="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/nats-io/nats-server/v2"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/nats-io/nats-server/v2@(devel)?package-id=96682b5284cd88ed",
+      "bom-ref": "pkg:golang/github.com/nats-io/nats-server/v2@(devel)?package-id=1d7660b58d858514",
       "type": "library",
       "name": "github.com/nats-io/nats-server/v2",
       "version": "(devel)",
-      "cpe": "cpe:2.3:a:nats-io:nats-server:\\(devel\\):*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:nats-io:nats-server\\/v2:\\(devel\\):*:*:*:*:*:*:*",
       "purl": "pkg:golang/github.com/nats-io/nats-server/v2@(devel)",
       "properties": [
         {
@@ -192,23 +204,23 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:nats-io:nats_server:\\(devel\\):*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:nats-io:nats_server\\/v2:\\(devel\\):*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:nats_io:nats-server:\\(devel\\):*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:nats_io:nats-server\\/v2:\\(devel\\):*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:nats_io:nats_server:\\(devel\\):*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:nats_io:nats_server\\/v2:\\(devel\\):*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:nats:nats-server:\\(devel\\):*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:nats:nats-server\\/v2:\\(devel\\):*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:nats:nats_server:\\(devel\\):*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:nats:nats_server\\/v2:\\(devel\\):*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
@@ -225,11 +237,15 @@
         {
           "name": "syft:metadata:goCompiledVersion",
           "value": "go1.17.10"
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/nats-io/nats-server/v2"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/nats-io/nkeys@v0.3.0?package-id=a08200eca60ac60c",
+      "bom-ref": "pkg:golang/github.com/nats-io/nkeys@v0.3.0?package-id=15e85f39dc4eb4e",
       "type": "library",
       "name": "github.com/nats-io/nkeys",
       "version": "v0.3.0",
@@ -279,11 +295,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:cgM5tL53EvYRU+2YLXIK0G2mJtK12Ft9oeooSZMA2G8="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/nats-io/nats-server/v2"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/nats-io/nuid@v1.0.1?package-id=92e86ec5d7121ae3",
+      "bom-ref": "pkg:golang/github.com/nats-io/nuid@v1.0.1?package-id=d22cb5dedff6502f",
       "type": "library",
       "name": "github.com/nats-io/nuid",
       "version": "v1.0.1",
@@ -333,11 +353,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:5iA8DT8V7q8WK2EScv2padNa/rTESc1KdnPw4TC2paw="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/nats-io/nats-server/v2"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/golang.org/x/crypto@v0.0.0-20220315160706-3147a52a75dd?package-id=c3348d4477ef9200",
+      "bom-ref": "pkg:golang/golang.org/x/crypto@v0.0.0-20220315160706-3147a52a75dd?package-id=9beecd7b0353dbae",
       "type": "library",
       "name": "golang.org/x/crypto",
       "version": "v0.0.0-20220315160706-3147a52a75dd",
@@ -379,11 +403,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:XcWmESyNjXJMLahc3mqVQJcgSTDxFxhETVlfk9uGc38="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/nats-io/nats-server/v2"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/golang.org/x/sys@v0.0.0-20220111092808-5a964db01320?package-id=5614531979ac8aea",
+      "bom-ref": "pkg:golang/golang.org/x/sys@v0.0.0-20220111092808-5a964db01320?package-id=973d79e38ef85654",
       "type": "library",
       "name": "golang.org/x/sys",
       "version": "v0.0.0-20220111092808-5a964db01320",
@@ -425,11 +453,15 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:0jf+tOCoZ3LyutmCOWpVni1chK4VfFLhRsDK7MhqGRY="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/nats-io/nats-server/v2"
         }
       ]
     },
     {
-      "bom-ref": "pkg:golang/golang.org/x/time@v0.0.0-20211116232009-f0f3c7e86c11?package-id=5375323e4f7c1a30",
+      "bom-ref": "pkg:golang/golang.org/x/time@v0.0.0-20211116232009-f0f3c7e86c11?package-id=204d09567c83d4fc",
       "type": "library",
       "name": "golang.org/x/time",
       "version": "v0.0.0-20211116232009-f0f3c7e86c11",
@@ -471,6 +503,10 @@
         {
           "name": "syft:metadata:h1Digest",
           "value": "h1:GZokNIeuVkl3aZHJchRrr13WCsols02MLUcz1U9is6M="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/nats-io/nats-server/v2"
         }
       ]
     }

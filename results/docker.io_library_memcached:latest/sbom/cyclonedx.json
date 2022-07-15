@@ -1,15 +1,15 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:6720550d-4e36-4eb2-8517-902cee7c0fec",
+  "serialNumber": "urn:uuid:3d5f53a6-e7d6-45a7-8885-772a6625ebdc",
   "version": 1,
   "metadata": {
-    "timestamp": "2022-07-14T13:53:29-07:00",
+    "timestamp": "2022-07-14T23:45:24Z",
     "tools": [
       {
         "vendor": "anchore",
         "name": "syft",
-        "version": "0.46.1"
+        "version": "0.48.0"
       }
     ],
     "component": {
@@ -8215,6 +8215,10 @@
         {
           "name": "syft:distro:prettyName",
           "value": "Debian GNU/Linux 11 (bullseye)"
+        },
+        {
+          "name": "syft:distro:versionCodename",
+          "value": "bullseye"
         },
         {
           "name": "syft:distro:versionID",
