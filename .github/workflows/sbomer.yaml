@@ -36,6 +36,7 @@ jobs:
 
       - name: Commit new results
         run: |
+          git pull --no-edit
           git config user.email "sbomer@myorg.com"
           git config user.name "SBOM Updater"
           git add ./results/*
