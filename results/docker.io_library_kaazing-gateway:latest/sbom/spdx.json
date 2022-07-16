@@ -3,7 +3,7 @@
  "name": "docker.io/library/kaazing-gateway-latest",
  "spdxVersion": "SPDX-2.2",
  "creationInfo": {
-  "created": "2022-07-15T03:00:17.513179015Z",
+  "created": "2022-07-16T01:44:47.139003463Z",
   "creators": [
    "Organization: Anchore, Inc",
    "Tool: syft-0.48.0"
@@ -11,7 +11,7 @@
   "licenseListVersion": "3.17"
  },
  "dataLicense": "CC0-1.0",
- "documentNamespace": "https://anchore.com/syft/image/docker.io/library/kaazing-gateway-latest-9aa8f831-82c8-481a-858c-b8a1ffa32058",
+ "documentNamespace": "https://anchore.com/syft/image/docker.io/library/kaazing-gateway-latest-ad0a5f36-7663-4856-b925-9c980f598ead",
  "packages": [
   {
    "SPDXID": "SPDXRef-6df5cf60348bcba5",
@@ -3226,6 +3226,28 @@
    "versionInfo": "1.10-4"
   },
   {
+   "SPDXID": "SPDXRef-deacf452bd4f6706",
+   "name": "hazelcast",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:hazelcast:hazelcast:3.7.4:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:maven/com.hazelcast/hazelcast@3.7.4",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed java archive: /kaazing-gateway/lib/hazelcast-3.7.4.jar",
+   "versionInfo": "3.7.4"
+  },
+  {
    "SPDXID": "SPDXRef-a763dd16068e5081",
    "name": "hazelcast-aws",
    "licenseConcluded": "NONE",
@@ -3392,7 +3414,7 @@
    "versionInfo": "3.7.4"
   },
   {
-   "SPDXID": "SPDXRef-9283f318efc18753",
+   "SPDXID": "SPDXRef-4dd3da4a8b252856",
    "name": "hazelcast-client-protocol",
    "licenseConcluded": "NONE",
    "checksums": [
@@ -3475,22 +3497,12 @@
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:hazelcast-client-protocol:hazelcast:1.3.3:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
      "referenceLocator": "cpe:2.3:a:hazelcast:hazelcast-client-protocol:1.3.3:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceLocator": "cpe:2.3:a:hazelcast:hazelcast_client_protocol:1.3.3:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:hazelcast_client_protocol:hazelcast:1.3.3:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
@@ -3511,46 +3523,6 @@
     {
      "referenceCategory": "SECURITY",
      "referenceLocator": "cpe:2.3:a:osgi:hazelcast_client_protocol:1.3.3:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:hazelcast-client:hazelcast:1.3.3:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:hazelcast_client:hazelcast:1.3.3:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:hazelcast\\,-inc-:hazelcast:1.3.3:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:hazelcast\\,_inc_:hazelcast:1.3.3:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:Activator:hazelcast:1.3.3:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:hazelcast:hazelcast:1.3.3:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:impl:hazelcast:1.3.3:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:osgi:hazelcast:1.3.3:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
@@ -4059,7 +4031,7 @@
     },
     {
      "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:maven/org.jdom/jdom@1.1",
+     "referenceLocator": "pkg:maven/org.jdom.output/jdom@1.1",
      "referenceType": "purl"
     }
    ],

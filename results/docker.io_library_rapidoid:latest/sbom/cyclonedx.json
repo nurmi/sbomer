@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:def8956a-d276-494a-820d-09c21a89fe54",
+  "serialNumber": "urn:uuid:12ce85c6-7616-4b6d-8949-7bb3670fd3a5",
   "version": 1,
   "metadata": {
-    "timestamp": "2022-07-15T03:15:17Z",
+    "timestamp": "2022-07-16T01:59:08Z",
     "tools": [
       {
         "vendor": "anchore",
@@ -12536,13 +12536,25 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/org.rapidoid/rapidoid-buffer@5.4.6?package-id=f03e996df47fd1d6",
+      "bom-ref": "pkg:maven/org.rapidoid/rapidoid-buffer@5.4.6?package-id=1be20a900cb42fa8",
       "type": "library",
       "group": "org.rapidoid",
       "name": "rapidoid-buffer",
       "version": "5.4.6",
       "cpe": "cpe:2.3:a:rapidoid-buffer:rapidoid-buffer:5.4.6:*:*:*:*:*:*:*",
       "purl": "pkg:maven/org.rapidoid/rapidoid-buffer@5.4.6",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "08159e21e3dcc475b62256817200bb1931f25e0d"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -12574,11 +12586,27 @@
         },
         {
           "name": "syft:cpe23",
+          "value": "cpe:2.3:a:platform:rapidoid-buffer:5.4.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:platform:rapidoid_buffer:5.4.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
           "value": "cpe:2.3:a:rapidoid:rapidoid-buffer:5.4.6:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
           "value": "cpe:2.3:a:rapidoid:rapidoid_buffer:5.4.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:Main:rapidoid-buffer:5.4.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:Main:rapidoid_buffer:5.4.6:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
@@ -12598,7 +12626,7 @@
         },
         {
           "name": "syft:metadata:virtualPath",
-          "value": "/opt/rapidoid.jar:rapidoid-buffer"
+          "value": "/opt/rapidoid.jar"
         }
       ]
     },
@@ -13388,25 +13416,13 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/org.rapidoid/rapidoid-net@5.4.6?package-id=155cfda80f8933a1",
+      "bom-ref": "pkg:maven/org.rapidoid/rapidoid-net@5.4.6?package-id=c5c65ef1b7b39edd",
       "type": "library",
       "group": "org.rapidoid",
       "name": "rapidoid-net",
       "version": "5.4.6",
       "cpe": "cpe:2.3:a:rapidoid-net:rapidoid-net:5.4.6:*:*:*:*:*:*:*",
       "purl": "pkg:maven/org.rapidoid/rapidoid-net@5.4.6",
-      "externalReferences": [
-        {
-          "url": "",
-          "hashes": [
-            {
-              "alg": "SHA-1",
-              "content": "08159e21e3dcc475b62256817200bb1931f25e0d"
-            }
-          ],
-          "type": "build-meta"
-        }
-      ],
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -13438,27 +13454,11 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:platform:rapidoid-net:5.4.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:platform:rapidoid_net:5.4.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
           "value": "cpe:2.3:a:rapidoid:rapidoid-net:5.4.6:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
           "value": "cpe:2.3:a:rapidoid:rapidoid_net:5.4.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:Main:rapidoid-net:5.4.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:Main:rapidoid_net:5.4.6:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
@@ -13478,7 +13478,7 @@
         },
         {
           "name": "syft:metadata:virtualPath",
-          "value": "/opt/rapidoid.jar"
+          "value": "/opt/rapidoid.jar:rapidoid-net"
         }
       ]
     },

@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:39a5f273-ffef-4b23-aacb-f0cdf3fe8504",
+  "serialNumber": "urn:uuid:7cc7a27b-ca15-49ee-a80b-05ac06d322a4",
   "version": 1,
   "metadata": {
-    "timestamp": "2022-07-15T03:03:35Z",
+    "timestamp": "2022-07-16T01:47:52Z",
     "tools": [
       {
         "vendor": "anchore",
@@ -18178,13 +18178,25 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/org.apache.maven.wagon/wagon-http@3.5.1?package-id=7a397a184c88fdc8",
+      "bom-ref": "pkg:maven/org.apache.maven.wagon/wagon-http-shared@3.5.1?package-id=82aa2c3c7584ec84",
       "type": "library",
       "group": "org.apache.maven.wagon",
-      "name": "wagon-http",
+      "name": "wagon-http-shared",
       "version": "3.5.1",
-      "cpe": "cpe:2.3:a:wagon-http:wagon-http:3.5.1:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/org.apache.maven.wagon/wagon-http@3.5.1",
+      "cpe": "cpe:2.3:a:apache-software-foundation:wagon-http-shared:3.5.1:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.maven.wagon/wagon-http-shared@3.5.1",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "c7504d054c4d909d0c1c8ce8883b70dd337971fe"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -18201,6 +18213,126 @@
         {
           "name": "syft:package:type",
           "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache-software-foundation:wagon_http_shared:3.5.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache_software_foundation:wagon-http-shared:3.5.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache_software_foundation:wagon_http_shared:3.5.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache-software-foundation:wagon-http:3.5.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache-software-foundation:wagon_http:3.5.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache_software_foundation:wagon-http:3.5.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache_software_foundation:wagon_http:3.5.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:wagon-http-shared:wagon-http-shared:3.5.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:wagon-http-shared:wagon_http_shared:3.5.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:wagon_http_shared:wagon-http-shared:3.5.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:wagon_http_shared:wagon_http_shared:3.5.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache-software-foundation:wagon:3.5.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache_software_foundation:wagon:3.5.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:wagon-http-shared:wagon-http:3.5.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:wagon-http-shared:wagon_http:3.5.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:wagon-http:wagon-http-shared:3.5.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:wagon-http:wagon_http_shared:3.5.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:wagon_http:wagon-http-shared:3.5.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:wagon_http:wagon_http_shared:3.5.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:wagon_http_shared:wagon-http:3.5.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:wagon_http_shared:wagon_http:3.5.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:wagon-http-shared:3.5.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:wagon_http_shared:3.5.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:maven:wagon-http-shared:3.5.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:maven:wagon_http_shared:3.5.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:wagon-http-shared:wagon:3.5.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:wagon:wagon-http-shared:3.5.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:wagon:wagon_http_shared:3.5.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:wagon_http_shared:wagon:3.5.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:wagon-http:wagon-http:3.5.1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
@@ -18269,169 +18401,6 @@
         {
           "name": "syft:metadata:-:artifactID",
           "value": "wagon-http"
-        },
-        {
-          "name": "syft:metadata:-:groupID",
-          "value": "org.apache.maven.wagon"
-        },
-        {
-          "name": "syft:metadata:virtualPath",
-          "value": "/usr/share/maven/lib/wagon-http-3.5.1-shaded.jar:wagon-http"
-        }
-      ]
-    },
-    {
-      "bom-ref": "pkg:maven/org.apache.maven.wagon/wagon-http-shared@3.5.1?package-id=afc6f8d29b7bc2ba",
-      "type": "library",
-      "group": "org.apache.maven.wagon",
-      "name": "wagon-http-shared",
-      "version": "3.5.1",
-      "cpe": "cpe:2.3:a:apache-software-foundation:wagon-http-shared:3.5.1:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/org.apache.maven.wagon/wagon-http-shared@3.5.1",
-      "externalReferences": [
-        {
-          "url": "",
-          "hashes": [
-            {
-              "alg": "SHA-1",
-              "content": "c7504d054c4d909d0c1c8ce8883b70dd337971fe"
-            }
-          ],
-          "type": "build-meta"
-        }
-      ],
-      "properties": [
-        {
-          "name": "syft:package:foundBy",
-          "value": "java-cataloger"
-        },
-        {
-          "name": "syft:package:language",
-          "value": "java"
-        },
-        {
-          "name": "syft:package:metadataType",
-          "value": "JavaMetadata"
-        },
-        {
-          "name": "syft:package:type",
-          "value": "java-archive"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache-software-foundation:wagon_http_shared:3.5.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache_software_foundation:wagon-http-shared:3.5.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache_software_foundation:wagon_http_shared:3.5.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:wagon-http-shared:wagon-http-shared:3.5.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:wagon-http-shared:wagon_http_shared:3.5.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:wagon_http_shared:wagon-http-shared:3.5.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:wagon_http_shared:wagon_http_shared:3.5.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache-software-foundation:wagon:3.5.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache_software_foundation:wagon:3.5.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:wagon-http:wagon-http-shared:3.5.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:wagon-http:wagon_http_shared:3.5.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:wagon_http:wagon-http-shared:3.5.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:wagon_http:wagon_http_shared:3.5.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache:wagon-http-shared:3.5.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache:wagon_http_shared:3.5.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:maven:wagon-http-shared:3.5.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:maven:wagon_http_shared:3.5.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:wagon-http-shared:wagon:3.5.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:wagon:wagon-http-shared:3.5.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:wagon:wagon_http_shared:3.5.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:wagon_http_shared:wagon:3.5.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:wagon-http:wagon:3.5.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:wagon_http:wagon:3.5.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache:wagon:3.5.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:maven:wagon:3.5.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:wagon:wagon:3.5.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:location:0:layerID",
-          "value": "sha256:4766f8e0c8b35b56949e47651722bb8c58cd1e5627b8cd55b9879d88085467c8"
-        },
-        {
-          "name": "syft:location:0:path",
-          "value": "/usr/share/maven/lib/wagon-http-3.5.1-shaded.jar"
-        },
-        {
-          "name": "syft:metadata:-:artifactID",
-          "value": "wagon-http-shared"
         },
         {
           "name": "syft:metadata:-:groupID",

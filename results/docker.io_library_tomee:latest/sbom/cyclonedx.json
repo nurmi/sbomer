@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:5b6c18e5-d303-440e-800e-f9d9f06a495f",
+  "serialNumber": "urn:uuid:cb927785-2d0a-4a06-8ddc-1c18c22756ae",
   "version": 1,
   "metadata": {
-    "timestamp": "2022-07-15T03:24:03Z",
+    "timestamp": "2022-07-16T02:07:05Z",
     "tools": [
       {
         "vendor": "anchore",
@@ -26902,116 +26902,13 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/org.apache.myfaces.core/myfaces-impl@2.3.9?package-id=133b276d7bf7cfb",
+      "bom-ref": "pkg:maven/org.apache.myfaces.core/myfaces-impl-shared@2.3.9?package-id=7018d6ea2129d22c",
       "type": "library",
       "group": "org.apache.myfaces.core",
-      "name": "myfaces-impl",
-      "version": "2.3.9",
-      "cpe": "cpe:2.3:a:myfaces-impl:myfaces-impl:2.3.9:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/org.apache.myfaces.core/myfaces-impl@2.3.9",
-      "properties": [
-        {
-          "name": "syft:package:foundBy",
-          "value": "java-cataloger"
-        },
-        {
-          "name": "syft:package:language",
-          "value": "java"
-        },
-        {
-          "name": "syft:package:metadataType",
-          "value": "JavaMetadata"
-        },
-        {
-          "name": "syft:package:type",
-          "value": "java-archive"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:myfaces-impl:myfaces_impl:2.3.9:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:myfaces_impl:myfaces-impl:2.3.9:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:myfaces_impl:myfaces_impl:2.3.9:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:myfaces-impl:myfaces:2.3.9:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:myfaces:myfaces-impl:2.3.9:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:myfaces:myfaces_impl:2.3.9:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:myfaces_impl:myfaces:2.3.9:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache:myfaces-impl:2.3.9:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache:myfaces_impl:2.3.9:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:core:myfaces-impl:2.3.9:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:core:myfaces_impl:2.3.9:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:myfaces:myfaces:2.3.9:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache:myfaces:2.3.9:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:core:myfaces:2.3.9:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:location:0:layerID",
-          "value": "sha256:996e969db6d404c31f8520cc4269354bfd4bfb9abea54853b6093ba74ca493d5"
-        },
-        {
-          "name": "syft:location:0:path",
-          "value": "/usr/local/tomee/lib/myfaces-impl-2.3.9.jar"
-        },
-        {
-          "name": "syft:metadata:-:artifactID",
-          "value": "myfaces-impl"
-        },
-        {
-          "name": "syft:metadata:-:groupID",
-          "value": "org.apache.myfaces.core"
-        },
-        {
-          "name": "syft:metadata:virtualPath",
-          "value": "/usr/local/tomee/lib/myfaces-impl-2.3.9.jar:myfaces-impl"
-        }
-      ]
-    },
-    {
-      "bom-ref": "pkg:maven/org.apache.myfaces.core.internal/myfaces-impl-shared@2.3.9?package-id=99da04fc956dc9",
-      "type": "library",
-      "group": "org.apache.myfaces.core.internal",
       "name": "myfaces-impl-shared",
       "version": "2.3.9",
       "cpe": "cpe:2.3:a:apache-software-foundation:myfaces-impl-shared:2.3.9:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/org.apache.myfaces.core.internal/myfaces-impl-shared@2.3.9",
+      "purl": "pkg:maven/org.apache.myfaces.core/myfaces-impl-shared@2.3.9",
       "externalReferences": [
         {
           "url": "",
@@ -27055,6 +26952,22 @@
         },
         {
           "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache-software-foundation:myfaces-impl:2.3.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache-software-foundation:myfaces_impl:2.3.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache_software_foundation:myfaces-impl:2.3.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache_software_foundation:myfaces_impl:2.3.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
           "value": "cpe:2.3:a:myfaces-impl-shared:myfaces-impl-shared:2.3.9:*:*:*:*:*:*:*"
         },
         {
@@ -27079,6 +26992,14 @@
         },
         {
           "name": "syft:cpe23",
+          "value": "cpe:2.3:a:myfaces-impl-shared:myfaces-impl:2.3.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:myfaces-impl-shared:myfaces_impl:2.3.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
           "value": "cpe:2.3:a:myfaces-impl:myfaces-impl-shared:2.3.9:*:*:*:*:*:*:*"
         },
         {
@@ -27095,11 +27016,19 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:internal:myfaces-impl-shared:2.3.9:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:myfaces_impl_shared:myfaces-impl:2.3.9:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:internal:myfaces_impl_shared:2.3.9:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:myfaces_impl_shared:myfaces_impl:2.3.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache-software-foundation:impl:2.3.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache_software_foundation:impl:2.3.9:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
@@ -27127,6 +27056,22 @@
         },
         {
           "name": "syft:cpe23",
+          "value": "cpe:2.3:a:myfaces-impl:myfaces-impl:2.3.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:myfaces-impl:myfaces_impl:2.3.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:myfaces_impl:myfaces-impl:2.3.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:myfaces_impl:myfaces_impl:2.3.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
           "value": "cpe:2.3:a:core:myfaces-impl-shared:2.3.9:*:*:*:*:*:*:*"
         },
         {
@@ -27143,7 +27088,23 @@
         },
         {
           "name": "syft:cpe23",
+          "value": "cpe:2.3:a:myfaces-impl-shared:impl:2.3.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:myfaces_impl_shared:impl:2.3.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
           "value": "cpe:2.3:a:myfaces-impl:myfaces:2.3.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:myfaces:myfaces-impl:2.3.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:myfaces:myfaces_impl:2.3.9:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
@@ -27151,7 +27112,35 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:internal:myfaces:2.3.9:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:apache:myfaces-impl:2.3.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:myfaces_impl:2.3.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:core:myfaces-impl:2.3.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:core:myfaces_impl:2.3.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:impl:myfaces-impl:2.3.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:impl:myfaces_impl:2.3.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:myfaces-impl:impl:2.3.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:myfaces_impl:impl:2.3.9:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
@@ -27170,6 +27159,22 @@
           "value": "cpe:2.3:a:impl:myfaces:2.3.9:*:*:*:*:*:*:*"
         },
         {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:myfaces:impl:2.3.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:impl:2.3.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:core:impl:2.3.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:impl:impl:2.3.9:*:*:*:*:*:*:*"
+        },
+        {
           "name": "syft:location:0:layerID",
           "value": "sha256:996e969db6d404c31f8520cc4269354bfd4bfb9abea54853b6093ba74ca493d5"
         },
@@ -27179,11 +27184,11 @@
         },
         {
           "name": "syft:metadata:-:artifactID",
-          "value": "myfaces-impl-shared"
+          "value": "myfaces-impl"
         },
         {
           "name": "syft:metadata:-:groupID",
-          "value": "org.apache.myfaces.core.internal"
+          "value": "org.apache.myfaces.core"
         },
         {
           "name": "syft:metadata:virtualPath",

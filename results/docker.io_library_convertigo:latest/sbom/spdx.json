@@ -3,7 +3,7 @@
  "name": "docker.io/library/convertigo-latest",
  "spdxVersion": "SPDX-2.2",
  "creationInfo": {
-  "created": "2022-07-15T02:44:37.659805446Z",
+  "created": "2022-07-16T01:30:58.434157196Z",
   "creators": [
    "Organization: Anchore, Inc",
    "Tool: syft-0.48.0"
@@ -11,7 +11,7 @@
   "licenseListVersion": "3.17"
  },
  "dataLicense": "CC0-1.0",
- "documentNamespace": "https://anchore.com/syft/image/docker.io/library/convertigo-latest-e17d3378-6394-4d75-8c10-8a81c2c2d452",
+ "documentNamespace": "https://anchore.com/syft/image/docker.io/library/convertigo-latest-e0d2176c-5b7b-408c-b499-1d3f1b9e35bf",
  "packages": [
   {
    "SPDXID": "SPDXRef-f439d1e634baccf0",
@@ -9817,83 +9817,6 @@
    "versionInfo": "2.3.0"
   },
   {
-   "SPDXID": "SPDXRef-b3c0bf8fd338cfbf",
-   "name": "jaxb-xjc",
-   "licenseConcluded": "NONE",
-   "downloadLocation": "NOASSERTION",
-   "externalRefs": [
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:jaxb-xjc:jaxb-xjc:2.2.11:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:jaxb-xjc:jaxb_xjc:2.2.11:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:jaxb_xjc:jaxb-xjc:2.2.11:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:jaxb_xjc:jaxb_xjc:2.2.11:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:bind:jaxb-xjc:2.2.11:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:bind:jaxb_xjc:2.2.11:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:jaxb:jaxb-xjc:2.2.11:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:jaxb:jaxb_xjc:2.2.11:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:sun:jaxb-xjc:2.2.11:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:sun:jaxb_xjc:2.2.11:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:xml:jaxb-xjc:2.2.11:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:xml:jaxb_xjc:2.2.11:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:maven/com.sun.xml.bind/jaxb-xjc@2.2.11",
-     "referenceType": "purl"
-    }
-   ],
-   "filesAnalyzed": false,
-   "licenseDeclared": "NONE",
-   "sourceInfo": "acquired package info from installed java archive: /usr/local/tomcat/webapps/convertigo/WEB-INF/lib/dependencies-8.0.1.jar",
-   "versionInfo": "2.2.11"
-  },
-  {
    "SPDXID": "SPDXRef-60fc5257216fa098",
    "name": "jaxb-xjc",
    "licenseConcluded": "NONE",
@@ -9962,6 +9885,83 @@
     {
      "referenceCategory": "PACKAGE_MANAGER",
      "referenceLocator": "pkg:maven/org.glassfish.jaxb/jaxb-xjc@2.2.11",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed java archive: /usr/local/tomcat/webapps/convertigo/WEB-INF/lib/dependencies-8.0.1.jar",
+   "versionInfo": "2.2.11"
+  },
+  {
+   "SPDXID": "SPDXRef-b3c0bf8fd338cfbf",
+   "name": "jaxb-xjc",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:jaxb-xjc:jaxb-xjc:2.2.11:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:jaxb-xjc:jaxb_xjc:2.2.11:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:jaxb_xjc:jaxb-xjc:2.2.11:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:jaxb_xjc:jaxb_xjc:2.2.11:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:bind:jaxb-xjc:2.2.11:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:bind:jaxb_xjc:2.2.11:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:jaxb:jaxb-xjc:2.2.11:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:jaxb:jaxb_xjc:2.2.11:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:sun:jaxb-xjc:2.2.11:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:sun:jaxb_xjc:2.2.11:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:xml:jaxb-xjc:2.2.11:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:xml:jaxb_xjc:2.2.11:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:maven/com.sun.xml.bind/jaxb-xjc@2.2.11",
      "referenceType": "purl"
     }
    ],

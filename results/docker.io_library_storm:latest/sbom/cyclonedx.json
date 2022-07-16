@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:a75a2bb9-712d-461d-9340-1843dfa2a9e0",
+  "serialNumber": "urn:uuid:6d294f00-63fe-4900-834b-8801a7b3270b",
   "version": 1,
   "metadata": {
-    "timestamp": "2022-07-15T03:22:30Z",
+    "timestamp": "2022-07-16T02:05:42Z",
     "tools": [
       {
         "vendor": "anchore",
@@ -3911,6 +3911,61 @@
       ]
     },
     {
+      "bom-ref": "pkg:maven/org.apache.calcite.avatica/avatica@1.8.0?package-id=70c26463b4db2635",
+      "type": "library",
+      "group": "org.apache.calcite.avatica",
+      "name": "avatica",
+      "version": "1.8.0",
+      "cpe": "cpe:2.3:a:avatica:avatica:1.8.0:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.calcite.avatica/avatica@1.8.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:calcite:avatica:1.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:avatica:1.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:b26ea800f03f7984cf60e036abae3dde34b4dc2f135d07812ecf1c0e3a65c8cf"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/apache-storm-2.4.0/external/storm-autocreds/avatica-1.8.0.jar"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "avatica"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.calcite.avatica"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/apache-storm-2.4.0/external/storm-autocreds/avatica-1.8.0.jar:avatica"
+        }
+      ]
+    },
+    {
       "bom-ref": "pkg:maven/org.apache.calcite.avatica/avatica-core@1.10.0?package-id=6ac46e87321fcce2",
       "type": "library",
       "group": "org.apache.calcite.avatica",
@@ -4189,7 +4244,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/org.apache.calcite.avatica/avatica-metrics@1.8.0?package-id=2ba75e71ef17a698",
+      "bom-ref": "pkg:maven/org.apache.calcite.avatica/avatica-metrics@1.8.0?package-id=182906edad3738c3",
       "type": "library",
       "group": "org.apache.calcite.avatica",
       "name": "avatica-metrics",
@@ -4315,7 +4370,7 @@
         },
         {
           "name": "syft:metadata:-:artifactID",
-          "value": "avatica"
+          "value": "avatica-metrics"
         },
         {
           "name": "syft:metadata:-:groupID",

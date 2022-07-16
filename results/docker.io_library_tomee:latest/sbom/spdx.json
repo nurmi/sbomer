@@ -3,7 +3,7 @@
  "name": "docker.io/library/tomee-latest",
  "spdxVersion": "SPDX-2.2",
  "creationInfo": {
-  "created": "2022-07-15T03:24:02.353367149Z",
+  "created": "2022-07-16T02:07:05.372569915Z",
   "creators": [
    "Organization: Anchore, Inc",
    "Tool: syft-0.48.0"
@@ -11,7 +11,7 @@
   "licenseListVersion": "3.17"
  },
  "dataLicense": "CC0-1.0",
- "documentNamespace": "https://anchore.com/syft/image/docker.io/library/tomee-latest-3c57b378-ef99-4dcb-b18d-68efd17a5f48",
+ "documentNamespace": "https://anchore.com/syft/image/docker.io/library/tomee-latest-64fb24de-8c3b-4389-824c-aed33ec42ad9",
  "packages": [
   {
    "SPDXID": "SPDXRef-a124711c55c5b5ec",
@@ -21680,11 +21680,167 @@
    "versionInfo": "2.3.9"
   },
   {
-   "SPDXID": "SPDXRef-133b276d7bf7cfb",
-   "name": "myfaces-impl",
+   "SPDXID": "SPDXRef-7018d6ea2129d22c",
+   "name": "myfaces-impl-shared",
    "licenseConcluded": "NONE",
+   "checksums": [
+    {
+     "algorithm": "SHA1",
+     "checksumValue": "baa17bd539688884f143469db5dc006651e0465a"
+    }
+   ],
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:apache-software-foundation:myfaces-impl-shared:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:apache-software-foundation:myfaces_impl_shared:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:apache_software_foundation:myfaces-impl-shared:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:apache_software_foundation:myfaces_impl_shared:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:apache-software-foundation:myfaces-impl:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:apache-software-foundation:myfaces_impl:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:apache_software_foundation:myfaces-impl:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:apache_software_foundation:myfaces_impl:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:myfaces-impl-shared:myfaces-impl-shared:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:myfaces-impl-shared:myfaces_impl_shared:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:myfaces_impl_shared:myfaces-impl-shared:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:myfaces_impl_shared:myfaces_impl_shared:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:apache-software-foundation:myfaces:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:apache_software_foundation:myfaces:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:myfaces-impl-shared:myfaces-impl:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:myfaces-impl-shared:myfaces_impl:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:myfaces-impl:myfaces-impl-shared:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:myfaces-impl:myfaces_impl_shared:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:myfaces_impl:myfaces-impl-shared:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:myfaces_impl:myfaces_impl_shared:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:myfaces_impl_shared:myfaces-impl:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:myfaces_impl_shared:myfaces_impl:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:apache-software-foundation:impl:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:apache_software_foundation:impl:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:myfaces-impl-shared:myfaces:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:myfaces:myfaces-impl-shared:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:myfaces:myfaces_impl_shared:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:myfaces_impl_shared:myfaces:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:apache:myfaces-impl-shared:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:apache:myfaces_impl_shared:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
     {
      "referenceCategory": "SECURITY",
      "referenceLocator": "cpe:2.3:a:myfaces-impl:myfaces-impl:2.3.9:*:*:*:*:*:*:*",
@@ -21703,6 +21859,36 @@
     {
      "referenceCategory": "SECURITY",
      "referenceLocator": "cpe:2.3:a:myfaces_impl:myfaces_impl:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:core:myfaces-impl-shared:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:core:myfaces_impl_shared:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:impl:myfaces-impl-shared:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:impl:myfaces_impl_shared:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:myfaces-impl-shared:impl:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:myfaces_impl_shared:impl:2.3.9:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
@@ -21747,185 +21933,22 @@
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:myfaces:myfaces:2.3.9:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:impl:myfaces-impl:2.3.9:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:apache:myfaces:2.3.9:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:impl:myfaces_impl:2.3.9:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:core:myfaces:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:maven/org.apache.myfaces.core/myfaces-impl@2.3.9",
-     "referenceType": "purl"
-    }
-   ],
-   "filesAnalyzed": false,
-   "licenseDeclared": "NONE",
-   "sourceInfo": "acquired package info from installed java archive: /usr/local/tomee/lib/myfaces-impl-2.3.9.jar",
-   "versionInfo": "2.3.9"
-  },
-  {
-   "SPDXID": "SPDXRef-99da04fc956dc9",
-   "name": "myfaces-impl-shared",
-   "licenseConcluded": "NONE",
-   "checksums": [
-    {
-     "algorithm": "SHA1",
-     "checksumValue": "baa17bd539688884f143469db5dc006651e0465a"
-    }
-   ],
-   "downloadLocation": "NOASSERTION",
-   "externalRefs": [
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:apache-software-foundation:myfaces-impl-shared:2.3.9:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:myfaces-impl:impl:2.3.9:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:apache-software-foundation:myfaces_impl_shared:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:apache_software_foundation:myfaces-impl-shared:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:apache_software_foundation:myfaces_impl_shared:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:myfaces-impl-shared:myfaces-impl-shared:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:myfaces-impl-shared:myfaces_impl_shared:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:myfaces_impl_shared:myfaces-impl-shared:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:myfaces_impl_shared:myfaces_impl_shared:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:apache-software-foundation:myfaces:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:apache_software_foundation:myfaces:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:myfaces-impl:myfaces-impl-shared:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:myfaces-impl:myfaces_impl_shared:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:myfaces_impl:myfaces-impl-shared:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:myfaces_impl:myfaces_impl_shared:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:internal:myfaces-impl-shared:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:internal:myfaces_impl_shared:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:myfaces-impl-shared:myfaces:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:myfaces:myfaces-impl-shared:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:myfaces:myfaces_impl_shared:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:myfaces_impl_shared:myfaces:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:apache:myfaces-impl-shared:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:apache:myfaces_impl_shared:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:core:myfaces-impl-shared:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:core:myfaces_impl_shared:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:impl:myfaces-impl-shared:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:impl:myfaces_impl_shared:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:myfaces-impl:myfaces:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:myfaces_impl:myfaces:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:internal:myfaces:2.3.9:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:myfaces_impl:impl:2.3.9:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
@@ -21949,8 +21972,28 @@
      "referenceType": "cpe23Type"
     },
     {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:myfaces:impl:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:apache:impl:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:core:impl:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:impl:impl:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
      "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:maven/org.apache.myfaces.core.internal/myfaces-impl-shared@2.3.9",
+     "referenceLocator": "pkg:maven/org.apache.myfaces.core/myfaces-impl-shared@2.3.9",
      "referenceType": "purl"
     }
    ],

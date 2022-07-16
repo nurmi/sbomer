@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:4a5fd557-4fca-46fb-acad-ea5ffbe3ee46",
+  "serialNumber": "urn:uuid:0f433a3b-fc44-4cc0-8dec-9fa052cedd1e",
   "version": 1,
   "metadata": {
-    "timestamp": "2022-07-15T02:55:51Z",
+    "timestamp": "2022-07-16T01:40:23Z",
     "tools": [
       {
         "vendor": "anchore",
@@ -14662,13 +14662,13 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/com.sun.xml.bind/jaxb-core@2.3.0.1?package-id=2ecfc72748371506",
+      "bom-ref": "pkg:maven/org.glassfish.jaxb/jaxb-core@2.3.0.1?package-id=421415d39912cbf8",
       "type": "library",
-      "group": "com.sun.xml.bind",
+      "group": "org.glassfish.jaxb",
       "name": "jaxb-core",
       "version": "2.3.0.1",
-      "cpe": "cpe:2.3:a:jaxb-core:jaxb-core:2.3.0.1:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/com.sun.xml.bind/jaxb-core@2.3.0.1",
+      "cpe": "cpe:2.3:a:glassfish:jaxb-core:2.3.0.1:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.glassfish.jaxb/jaxb-core@2.3.0.1",
       "externalReferences": [
         {
           "url": "",
@@ -14700,6 +14700,14 @@
         },
         {
           "name": "syft:cpe23",
+          "value": "cpe:2.3:a:glassfish:jaxb_core:2.3.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jaxb-core:jaxb-core:2.3.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
           "value": "cpe:2.3:a:jaxb-core:jaxb_core:2.3.0.1:*:*:*:*:*:*:*"
         },
         {
@@ -14728,11 +14736,23 @@
         },
         {
           "name": "syft:cpe23",
+          "value": "cpe:2.3:a:glassfish:jaxb:2.3.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jaxb-core:jaxb:2.3.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
           "value": "cpe:2.3:a:jaxb:jaxb-core:2.3.0.1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
           "value": "cpe:2.3:a:jaxb:jaxb_core:2.3.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jaxb_core:jaxb:2.3.0.1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
@@ -14751,6 +14771,26 @@
           "value": "cpe:2.3:a:xml:jaxb_core:2.3.0.1:*:*:*:*:*:*:*"
         },
         {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:oracle:jaxb:2.3.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:bind:jaxb:2.3.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jaxb:jaxb:2.3.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sun:jaxb:2.3.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:xml:jaxb:2.3.0.1:*:*:*:*:*:*:*"
+        },
+        {
           "name": "syft:location:0:layerID",
           "value": "sha256:679ceb2cba31d0e63868fb5f7110adbf16025f7fe1b28cc5ece1618f8cb337a6"
         },
@@ -14764,7 +14804,7 @@
         },
         {
           "name": "syft:metadata:-:groupID",
-          "value": "com.sun.xml.bind"
+          "value": "org.glassfish.jaxb"
         },
         {
           "name": "syft:metadata:virtualPath",

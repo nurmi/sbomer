@@ -3,7 +3,7 @@
  "name": "docker.io/library/centos-latest",
  "spdxVersion": "SPDX-2.2",
  "creationInfo": {
-  "created": "2022-07-15T02:43:31.593775108Z",
+  "created": "2022-07-16T01:29:56.20210925Z",
   "creators": [
    "Organization: Anchore, Inc",
    "Tool: syft-0.48.0"
@@ -11,7 +11,7 @@
   "licenseListVersion": "3.17"
  },
  "dataLicense": "CC0-1.0",
- "documentNamespace": "https://anchore.com/syft/image/docker.io/library/centos-latest-8256f06b-bc5c-4894-a6ca-828f3c6e29a5",
+ "documentNamespace": "https://anchore.com/syft/image/docker.io/library/centos-latest-154c77a2-989f-4b89-b76e-bb8d025dbf2e",
  "packages": [
   {
    "SPDXID": "SPDXRef-53970f1313a0f906",
@@ -99509,12 +99509,6 @@
    "relatedSpdxElement": "SPDXRef-c6fdf2a471e3f9a3"
   },
   {
-   "spdxElementId": "SPDXRef-c6f6d26569a1cca0",
-   "relationshipType": "OTHER",
-   "relatedSpdxElement": "SPDXRef-972141defad33118",
-   "comment": "ownership-by-file-overlap: indicates that the parent package claims ownership of a child package since the parent metadata indicates overlap with a location that a cataloger found the child package by"
-  },
-  {
    "spdxElementId": "SPDXRef-89b1164aab418075",
    "relationshipType": "OTHER",
    "relatedSpdxElement": "SPDXRef-c447ea89c9fade48",
@@ -99524,6 +99518,12 @@
    "spdxElementId": "SPDXRef-eb777a43e0c97196",
    "relationshipType": "OTHER",
    "relatedSpdxElement": "SPDXRef-e2622ae2864e1f19",
+   "comment": "ownership-by-file-overlap: indicates that the parent package claims ownership of a child package since the parent metadata indicates overlap with a location that a cataloger found the child package by"
+  },
+  {
+   "spdxElementId": "SPDXRef-c6f6d26569a1cca0",
+   "relationshipType": "OTHER",
+   "relatedSpdxElement": "SPDXRef-972141defad33118",
    "comment": "ownership-by-file-overlap: indicates that the parent package claims ownership of a child package since the parent metadata indicates overlap with a location that a cataloger found the child package by"
   }
  ]

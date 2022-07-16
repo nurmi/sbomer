@@ -10921,7 +10921,39 @@
    }
   },
   {
-   "id": "725f51ce164d4058",
+   "id": "fb3e517534e70727",
+   "name": "ehcache",
+   "version": "2.10.9.2",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "/opt/bonita/server/webapps/bonita/WEB-INF/lib/ehcache-2.10.9.2.jar",
+     "layerID": "sha256:13779d2ab65d4a902ff61c77123083cb78c9a6dfbfeaaf4fb7f400b2566866ae"
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:ehcache:ehcache:2.10.9.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:sf:ehcache:2.10.9.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/net.sf.ehcache/ehcache@2.10.9.2",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "/opt/bonita/server/webapps/bonita/WEB-INF/lib/ehcache-2.10.9.2.jar:ehcache",
+    "pomProperties": {
+     "path": "META-INF/maven/net.sf.ehcache/ehcache/pom.properties",
+     "name": "",
+     "groupId": "net.sf.ehcache",
+     "artifactId": "ehcache",
+     "version": "2.10.9.2",
+     "extraFields": {}
+    }
+   }
+  },
+  {
+   "id": "80bec0f745993b40",
    "name": "ehcache-rest-agent",
    "version": "2.10.9.2",
    "type": "java-archive",
@@ -10947,6 +10979,8 @@
     "cpe:2.3:a:ehcache-rest:ehcache_rest_agent:2.10.9.2:*:*:*:*:*:*:*",
     "cpe:2.3:a:ehcache_rest:ehcache-rest-agent:2.10.9.2:*:*:*:*:*:*:*",
     "cpe:2.3:a:ehcache_rest:ehcache_rest_agent:2.10.9.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:internal:ehcache-rest-agent:2.10.9.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:internal:ehcache_rest_agent:2.10.9.2:*:*:*:*:*:*:*",
     "cpe:2.3:a:ehcache-rest-agent:ehcache:2.10.9.2:*:*:*:*:*:*:*",
     "cpe:2.3:a:ehcache:ehcache-rest-agent:2.10.9.2:*:*:*:*:*:*:*",
     "cpe:2.3:a:ehcache:ehcache_rest_agent:2.10.9.2:*:*:*:*:*:*:*",
@@ -10957,10 +10991,11 @@
     "cpe:2.3:a:sf:ehcache_rest_agent:2.10.9.2:*:*:*:*:*:*:*",
     "cpe:2.3:a:ehcache-rest:ehcache:2.10.9.2:*:*:*:*:*:*:*",
     "cpe:2.3:a:ehcache_rest:ehcache:2.10.9.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:internal:ehcache:2.10.9.2:*:*:*:*:*:*:*",
     "cpe:2.3:a:ehcache:ehcache:2.10.9.2:*:*:*:*:*:*:*",
     "cpe:2.3:a:sf:ehcache:2.10.9.2:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:maven/net.sf.ehcache/ehcache-rest-agent@2.10.9.2",
+   "purl": "pkg:maven/net.sf.ehcache.internal/ehcache-rest-agent@2.10.9.2",
    "metadataType": "JavaMetadata",
    "metadata": {
     "virtualPath": "/opt/bonita/server/webapps/bonita/WEB-INF/lib/ehcache-2.10.9.2.jar",
@@ -11000,10 +11035,10 @@
      }
     },
     "pomProperties": {
-     "path": "META-INF/maven/net.sf.ehcache/ehcache/pom.properties",
+     "path": "rest-management-private-classpath/META-INF/maven/net.sf.ehcache.internal/ehcache-rest-agent/pom.properties",
      "name": "",
-     "groupId": "net.sf.ehcache",
-     "artifactId": "ehcache",
+     "groupId": "net.sf.ehcache.internal",
+     "artifactId": "ehcache-rest-agent",
      "version": "2.10.9.2",
      "extraFields": {}
     },
