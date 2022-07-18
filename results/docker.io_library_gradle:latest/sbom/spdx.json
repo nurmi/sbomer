@@ -3,7 +3,7 @@
  "name": "docker.io/library/gradle-latest",
  "spdxVersion": "SPDX-2.2",
  "creationInfo": {
-  "created": "2022-07-17T01:53:35.899861221Z",
+  "created": "2022-07-18T01:36:12.399451852Z",
   "creators": [
    "Organization: Anchore, Inc",
    "Tool: syft-0.48.0"
@@ -11,7 +11,7 @@
   "licenseListVersion": "3.17"
  },
  "dataLicense": "CC0-1.0",
- "documentNamespace": "https://anchore.com/syft/image/docker.io/library/gradle-latest-223f8827-b30e-430e-9a48-6b6baae82d3b",
+ "documentNamespace": "https://anchore.com/syft/image/docker.io/library/gradle-latest-ba345f22-0113-41e0-a709-173dfe00306d",
  "packages": [
   {
    "SPDXID": "SPDXRef-78ce150ba8cd5542",
@@ -16058,11 +16058,37 @@
    "versionInfo": "1.8"
   },
   {
-   "SPDXID": "SPDXRef-f754d9decfb37815",
+   "SPDXID": "SPDXRef-964e1b4ab5d537fb",
    "name": "jansi-linux32",
    "licenseConcluded": "NONE",
+   "checksums": [
+    {
+     "algorithm": "SHA1",
+     "checksumValue": "d9205bbcd4b5f9cd1effe752d18f73bd942d783f"
+    }
+   ],
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:fusesource\\,-corp-:jansi-linux32:1.8:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:fusesource\\,-corp-:jansi_linux32:1.8:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:fusesource\\,_corp_:jansi-linux32:1.8:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:fusesource\\,_corp_:jansi_linux32:1.8:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
     {
      "referenceCategory": "SECURITY",
      "referenceLocator": "cpe:2.3:a:jansi-linux32:jansi-linux32:1.8:*:*:*:*:*:*:*",
@@ -16091,6 +16117,16 @@
     {
      "referenceCategory": "SECURITY",
      "referenceLocator": "cpe:2.3:a:fusesource:jansi_linux32:1.8:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:fusesource\\,-corp-:jansi:1.8:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:fusesource\\,_corp_:jansi:1.8:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
@@ -16129,7 +16165,7 @@
      "referenceType": "purl"
     }
    ],
-   "filesAnalyzed": false,
+   "filesAnalyzed": true,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from installed java archive: /opt/gradle/lib/jansi-1.18.jar",
    "versionInfo": "1.8"
@@ -16289,47 +16325,11 @@
    "versionInfo": "1.8"
   },
   {
-   "SPDXID": "SPDXRef-da6fbcbf597816bd",
+   "SPDXID": "SPDXRef-a84b8cb64852214c",
    "name": "jansi-osx",
    "licenseConcluded": "NONE",
-   "checksums": [
-    {
-     "algorithm": "SHA1",
-     "checksumValue": "d9205bbcd4b5f9cd1effe752d18f73bd942d783f"
-    }
-   ],
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:fusesource\\,-corp-:jansi-osx:1.8:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:fusesource\\,-corp-:jansi_osx:1.8:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:fusesource\\,_corp_:jansi-osx:1.8:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:fusesource\\,_corp_:jansi_osx:1.8:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:fusesource\\,-corp-:jansi:1.8:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:fusesource\\,_corp_:jansi:1.8:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
     {
      "referenceCategory": "SECURITY",
      "referenceLocator": "cpe:2.3:a:fusesource:jansi-osx:1.8:*:*:*:*:*:*:*",
@@ -16396,7 +16396,7 @@
      "referenceType": "purl"
     }
    ],
-   "filesAnalyzed": true,
+   "filesAnalyzed": false,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from installed java archive: /opt/gradle/lib/jansi-1.18.jar",
    "versionInfo": "1.8"
@@ -28410,7 +28410,7 @@
     },
     {
      "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:maven/org.xml.sax/xml-apis@1.4.01",
+     "referenceLocator": "pkg:maven/org.apache.xmlcommons.Version/xml-apis@1.4.01",
      "referenceType": "purl"
     }
    ],
@@ -117688,9 +117688,15 @@
    "relatedSpdxElement": "SPDXRef-159b48f2c6671538"
   },
   {
-   "spdxElementId": "SPDXRef-cfef1d967b2c2eb",
+   "spdxElementId": "SPDXRef-ba1b34d459a4e247",
    "relationshipType": "OTHER",
-   "relatedSpdxElement": "SPDXRef-214cf06c80e85f10",
+   "relatedSpdxElement": "SPDXRef-cea34fd8ed5463ec",
+   "comment": "ownership-by-file-overlap: indicates that the parent package claims ownership of a child package since the parent metadata indicates overlap with a location that a cataloger found the child package by"
+  },
+  {
+   "spdxElementId": "SPDXRef-b6497fd565873b0b",
+   "relationshipType": "OTHER",
+   "relatedSpdxElement": "SPDXRef-4171c7185f04f099",
    "comment": "ownership-by-file-overlap: indicates that the parent package claims ownership of a child package since the parent metadata indicates overlap with a location that a cataloger found the child package by"
   },
   {
@@ -117712,15 +117718,9 @@
    "comment": "ownership-by-file-overlap: indicates that the parent package claims ownership of a child package since the parent metadata indicates overlap with a location that a cataloger found the child package by"
   },
   {
-   "spdxElementId": "SPDXRef-ba1b34d459a4e247",
+   "spdxElementId": "SPDXRef-e6c3c12f67f696b4",
    "relationshipType": "OTHER",
-   "relatedSpdxElement": "SPDXRef-cea34fd8ed5463ec",
-   "comment": "ownership-by-file-overlap: indicates that the parent package claims ownership of a child package since the parent metadata indicates overlap with a location that a cataloger found the child package by"
-  },
-  {
-   "spdxElementId": "SPDXRef-b6497fd565873b0b",
-   "relationshipType": "OTHER",
-   "relatedSpdxElement": "SPDXRef-4171c7185f04f099",
+   "relatedSpdxElement": "SPDXRef-16b9cc33381ab8bc",
    "comment": "ownership-by-file-overlap: indicates that the parent package claims ownership of a child package since the parent metadata indicates overlap with a location that a cataloger found the child package by"
   },
   {
@@ -117730,15 +117730,15 @@
    "comment": "ownership-by-file-overlap: indicates that the parent package claims ownership of a child package since the parent metadata indicates overlap with a location that a cataloger found the child package by"
   },
   {
-   "spdxElementId": "SPDXRef-e6c3c12f67f696b4",
-   "relationshipType": "OTHER",
-   "relatedSpdxElement": "SPDXRef-16b9cc33381ab8bc",
-   "comment": "ownership-by-file-overlap: indicates that the parent package claims ownership of a child package since the parent metadata indicates overlap with a location that a cataloger found the child package by"
-  },
-  {
    "spdxElementId": "SPDXRef-533ec5cc80a7ef30",
    "relationshipType": "OTHER",
    "relatedSpdxElement": "SPDXRef-e08c1ced239d4024",
+   "comment": "ownership-by-file-overlap: indicates that the parent package claims ownership of a child package since the parent metadata indicates overlap with a location that a cataloger found the child package by"
+  },
+  {
+   "spdxElementId": "SPDXRef-cfef1d967b2c2eb",
+   "relationshipType": "OTHER",
+   "relatedSpdxElement": "SPDXRef-214cf06c80e85f10",
    "comment": "ownership-by-file-overlap: indicates that the parent package claims ownership of a child package since the parent metadata indicates overlap with a location that a cataloger found the child package by"
   }
  ]

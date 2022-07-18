@@ -22516,48 +22516,6 @@
    }
   },
   {
-   "id": "60fc5257216fa098",
-   "name": "jaxb-xjc",
-   "version": "2.2.11",
-   "type": "java-archive",
-   "foundBy": "java-cataloger",
-   "locations": [
-    {
-     "path": "/usr/local/tomcat/webapps/convertigo/WEB-INF/lib/dependencies-8.0.1.jar",
-     "layerID": "sha256:5f4737e65fb802a36b95242e20be7f1b03849b35bd75efbc085a47901a295f3d"
-    }
-   ],
-   "licenses": [],
-   "language": "java",
-   "cpes": [
-    "cpe:2.3:a:glassfish:jaxb-xjc:2.2.11:*:*:*:*:*:*:*",
-    "cpe:2.3:a:glassfish:jaxb_xjc:2.2.11:*:*:*:*:*:*:*",
-    "cpe:2.3:a:jaxb-xjc:jaxb-xjc:2.2.11:*:*:*:*:*:*:*",
-    "cpe:2.3:a:jaxb-xjc:jaxb_xjc:2.2.11:*:*:*:*:*:*:*",
-    "cpe:2.3:a:jaxb_xjc:jaxb-xjc:2.2.11:*:*:*:*:*:*:*",
-    "cpe:2.3:a:jaxb_xjc:jaxb_xjc:2.2.11:*:*:*:*:*:*:*",
-    "cpe:2.3:a:glassfish:jaxb:2.2.11:*:*:*:*:*:*:*",
-    "cpe:2.3:a:jaxb-xjc:jaxb:2.2.11:*:*:*:*:*:*:*",
-    "cpe:2.3:a:jaxb:jaxb-xjc:2.2.11:*:*:*:*:*:*:*",
-    "cpe:2.3:a:jaxb:jaxb_xjc:2.2.11:*:*:*:*:*:*:*",
-    "cpe:2.3:a:jaxb_xjc:jaxb:2.2.11:*:*:*:*:*:*:*",
-    "cpe:2.3:a:jaxb:jaxb:2.2.11:*:*:*:*:*:*:*"
-   ],
-   "purl": "pkg:maven/org.glassfish.jaxb/jaxb-xjc@2.2.11",
-   "metadataType": "JavaMetadata",
-   "metadata": {
-    "virtualPath": "/usr/local/tomcat/webapps/convertigo/WEB-INF/lib/dependencies-8.0.1.jar:jaxb-xjc",
-    "pomProperties": {
-     "path": "META-INF/maven/org.glassfish.jaxb/jaxb-xjc/pom.properties",
-     "name": "",
-     "groupId": "org.glassfish.jaxb",
-     "artifactId": "jaxb-xjc",
-     "version": "2.2.11",
-     "extraFields": {}
-    }
-   }
-  },
-  {
    "id": "b3c0bf8fd338cfbf",
    "name": "jaxb-xjc",
    "version": "2.2.11",
@@ -22593,6 +22551,48 @@
      "path": "META-INF/maven/com.sun.xml.bind/jaxb-xjc/pom.properties",
      "name": "",
      "groupId": "com.sun.xml.bind",
+     "artifactId": "jaxb-xjc",
+     "version": "2.2.11",
+     "extraFields": {}
+    }
+   }
+  },
+  {
+   "id": "60fc5257216fa098",
+   "name": "jaxb-xjc",
+   "version": "2.2.11",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "/usr/local/tomcat/webapps/convertigo/WEB-INF/lib/dependencies-8.0.1.jar",
+     "layerID": "sha256:5f4737e65fb802a36b95242e20be7f1b03849b35bd75efbc085a47901a295f3d"
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:glassfish:jaxb-xjc:2.2.11:*:*:*:*:*:*:*",
+    "cpe:2.3:a:glassfish:jaxb_xjc:2.2.11:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jaxb-xjc:jaxb-xjc:2.2.11:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jaxb-xjc:jaxb_xjc:2.2.11:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jaxb_xjc:jaxb-xjc:2.2.11:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jaxb_xjc:jaxb_xjc:2.2.11:*:*:*:*:*:*:*",
+    "cpe:2.3:a:glassfish:jaxb:2.2.11:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jaxb-xjc:jaxb:2.2.11:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jaxb:jaxb-xjc:2.2.11:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jaxb:jaxb_xjc:2.2.11:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jaxb_xjc:jaxb:2.2.11:*:*:*:*:*:*:*",
+    "cpe:2.3:a:jaxb:jaxb:2.2.11:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/org.glassfish.jaxb/jaxb-xjc@2.2.11",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "/usr/local/tomcat/webapps/convertigo/WEB-INF/lib/dependencies-8.0.1.jar:jaxb-xjc",
+    "pomProperties": {
+     "path": "META-INF/maven/org.glassfish.jaxb/jaxb-xjc/pom.properties",
+     "name": "",
+     "groupId": "org.glassfish.jaxb",
      "artifactId": "jaxb-xjc",
      "version": "2.2.11",
      "extraFields": {}
