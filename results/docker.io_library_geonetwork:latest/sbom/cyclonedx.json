@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:56fba68b-e63f-4222-a317-47f4c7e3ff76",
+  "serialNumber": "urn:uuid:cf002762-f7fd-4702-a9ad-4f6264027831",
   "version": 1,
   "metadata": {
-    "timestamp": "2022-07-16T01:38:18Z",
+    "timestamp": "2022-07-17T01:51:50Z",
     "tools": [
       {
         "vendor": "anchore",
@@ -19619,13 +19619,64 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/net.sf.ehcache/ehcache-rest-agent@2.10.6?package-id=800d7d07d78a74f3",
+      "bom-ref": "pkg:maven/net.sf.ehcache/ehcache@2.10.6?package-id=8df1a255a0e795b3",
       "type": "library",
       "group": "net.sf.ehcache",
+      "name": "ehcache",
+      "version": "2.10.6",
+      "cpe": "cpe:2.3:a:ehcache:ehcache:2.10.6:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/net.sf.ehcache/ehcache@2.10.6",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sf:ehcache:2.10.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:93b0ffb7038097ce9d7665529383a5e7c038ec7823c34331f3956b4221974a75"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/var/lib/jetty/webapps/geonetwork/WEB-INF/lib/ehcache-2.10.6.jar"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "ehcache"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "net.sf.ehcache"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/var/lib/jetty/webapps/geonetwork/WEB-INF/lib/ehcache-2.10.6.jar:ehcache"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/net.sf.ehcache.internal/ehcache-rest-agent@2.10.6?package-id=dedc4c119277e609",
+      "type": "library",
+      "group": "net.sf.ehcache.internal",
       "name": "ehcache-rest-agent",
       "version": "2.10.6",
       "cpe": "cpe:2.3:a:ehcache-rest-agent:ehcache-rest-agent:2.10.6:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/net.sf.ehcache/ehcache-rest-agent@2.10.6",
+      "purl": "pkg:maven/net.sf.ehcache.internal/ehcache-rest-agent@2.10.6",
       "externalReferences": [
         {
           "url": "",
@@ -19701,6 +19752,14 @@
         },
         {
           "name": "syft:cpe23",
+          "value": "cpe:2.3:a:internal:ehcache-rest-agent:2.10.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:internal:ehcache_rest_agent:2.10.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
           "value": "cpe:2.3:a:ehcache-rest-agent:ehcache:2.10.6:*:*:*:*:*:*:*"
         },
         {
@@ -19741,6 +19800,10 @@
         },
         {
           "name": "syft:cpe23",
+          "value": "cpe:2.3:a:internal:ehcache:2.10.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
           "value": "cpe:2.3:a:ehcache:ehcache:2.10.6:*:*:*:*:*:*:*"
         },
         {
@@ -19757,11 +19820,11 @@
         },
         {
           "name": "syft:metadata:-:artifactID",
-          "value": "ehcache"
+          "value": "ehcache-rest-agent"
         },
         {
           "name": "syft:metadata:-:groupID",
-          "value": "net.sf.ehcache"
+          "value": "net.sf.ehcache.internal"
         },
         {
           "name": "syft:metadata:virtualPath",
@@ -45422,13 +45485,13 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/org.glassfish.jaxb/jaxb-core@2.3.0?package-id=b144c08b685f7c45",
+      "bom-ref": "pkg:maven/com.sun.xml.bind/jaxb-core@2.3.0?package-id=fe4eee8f2b48d998",
       "type": "library",
-      "group": "org.glassfish.jaxb",
+      "group": "com.sun.xml.bind",
       "name": "jaxb-core",
       "version": "2.3.0",
-      "cpe": "cpe:2.3:a:glassfish:jaxb-core:2.3.0:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/org.glassfish.jaxb/jaxb-core@2.3.0",
+      "cpe": "cpe:2.3:a:jaxb-core:jaxb-core:2.3.0:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/com.sun.xml.bind/jaxb-core@2.3.0",
       "externalReferences": [
         {
           "url": "",
@@ -45460,14 +45523,6 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:glassfish:jaxb_core:2.3.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jaxb-core:jaxb-core:2.3.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
           "value": "cpe:2.3:a:jaxb-core:jaxb_core:2.3.0:*:*:*:*:*:*:*"
         },
         {
@@ -45496,23 +45551,11 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:glassfish:jaxb:2.3.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jaxb-core:jaxb:2.3.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
           "value": "cpe:2.3:a:jaxb:jaxb-core:2.3.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
           "value": "cpe:2.3:a:jaxb:jaxb_core:2.3.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jaxb_core:jaxb:2.3.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
@@ -45531,26 +45574,6 @@
           "value": "cpe:2.3:a:xml:jaxb_core:2.3.0:*:*:*:*:*:*:*"
         },
         {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:oracle:jaxb:2.3.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:bind:jaxb:2.3.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jaxb:jaxb:2.3.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:sun:jaxb:2.3.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:xml:jaxb:2.3.0:*:*:*:*:*:*:*"
-        },
-        {
           "name": "syft:location:0:layerID",
           "value": "sha256:93b0ffb7038097ce9d7665529383a5e7c038ec7823c34331f3956b4221974a75"
         },
@@ -45564,7 +45587,7 @@
         },
         {
           "name": "syft:metadata:-:groupID",
-          "value": "org.glassfish.jaxb"
+          "value": "com.sun.xml.bind"
         },
         {
           "name": "syft:metadata:virtualPath",
@@ -48948,12 +48971,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/org.jdom.output/jdom@1.1.2?package-id=3c2d0f636554004b",
+      "bom-ref": "pkg:maven/org.jdom.transform/jdom@1.1.2?package-id=3c2d0f636554004b",
       "type": "library",
       "name": "jdom",
       "version": "1.1.2",
       "cpe": "cpe:2.3:a:transform:transform:1.1.2:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/org.jdom.output/jdom@1.1.2",
+      "purl": "pkg:maven/org.jdom.transform/jdom@1.1.2",
       "externalReferences": [
         {
           "url": "",
@@ -102904,12 +102927,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/org.apache.xalan.xsltc/xalan@2.7.1?package-id=216dbd39815e3197",
+      "bom-ref": "pkg:maven/org.apache.xalan/xalan@2.7.1?package-id=216dbd39815e3197",
       "type": "library",
       "name": "xalan",
       "version": "2.7.1",
       "cpe": "cpe:2.3:a:apache-software-foundation:regexp:2.7.1:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/org.apache.xalan.xsltc/xalan@2.7.1",
+      "purl": "pkg:maven/org.apache.xalan/xalan@2.7.1",
       "externalReferences": [
         {
           "url": "",
@@ -103445,12 +103468,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/org.apache.xerces.impl.Version/xercesImpl@2.12.2?package-id=e7f7530f686714e8",
+      "bom-ref": "pkg:maven/org.w3c.dom/xercesImpl@2.12.2?package-id=e7f7530f686714e8",
       "type": "library",
       "name": "xercesImpl",
       "version": "2.12.2",
       "cpe": "cpe:2.3:a:apache-software-foundation:xercesImpl:2.12.2:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/org.apache.xerces.impl.Version/xercesImpl@2.12.2",
+      "purl": "pkg:maven/org.w3c.dom/xercesImpl@2.12.2",
       "externalReferences": [
         {
           "url": "",
@@ -104163,12 +104186,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/org.w3c.dom/xml-apis@1.4.01?package-id=825890d25d8eff1e",
+      "bom-ref": "pkg:maven/org.w3c.dom.ls/xml-apis@1.4.01?package-id=825890d25d8eff1e",
       "type": "library",
       "name": "xml-apis",
       "version": "1.4.01",
       "cpe": "cpe:2.3:a:apache-software-foundation:xmlcommons:1.4.01:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/org.w3c.dom/xml-apis@1.4.01",
+      "purl": "pkg:maven/org.w3c.dom.ls/xml-apis@1.4.01",
       "externalReferences": [
         {
           "url": "",
@@ -104769,12 +104792,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/org.w3c.css.sac/xml-apis-ext@1.3.04?package-id=40f8835eedf48b59",
+      "bom-ref": "pkg:maven/org.w3c.dom.svg/xml-apis-ext@1.3.04?package-id=40f8835eedf48b59",
       "type": "library",
       "name": "xml-apis-ext",
       "version": "1.3.04",
       "cpe": "cpe:2.3:a:world-wide-web-consortium:xml-apis-ext:1.3.04:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/org.w3c.css.sac/xml-apis-ext@1.3.04",
+      "purl": "pkg:maven/org.w3c.dom.svg/xml-apis-ext@1.3.04",
       "externalReferences": [
         {
           "url": "",
@@ -105425,12 +105448,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/org.w3c.dom/xmlParserAPIs@2.6.2?package-id=ef679c9ed3a0ec41",
+      "bom-ref": "pkg:maven/org.apache.xmlcommons.Version/xmlParserAPIs@2.6.2?package-id=ef679c9ed3a0ec41",
       "type": "library",
       "name": "xmlParserAPIs",
       "version": "2.6.2",
       "cpe": "cpe:2.3:a:apache-software-foundation:xmlParserAPIs:2.6.2:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/org.w3c.dom/xmlParserAPIs@2.6.2",
+      "purl": "pkg:maven/org.apache.xmlcommons.Version/xmlParserAPIs@2.6.2",
       "externalReferences": [
         {
           "url": "",

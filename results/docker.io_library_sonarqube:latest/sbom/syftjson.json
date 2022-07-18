@@ -6691,46 +6691,6 @@
    }
   },
   {
-   "id": "36116472548a9244",
-   "name": "cparse-jruby",
-   "version": "",
-   "type": "java-archive",
-   "foundBy": "java-cataloger",
-   "locations": [
-    {
-     "path": "/opt/sonarqube/lib/extensions/sonar-ruby-plugin-1.9.0.3429.jar",
-     "layerID": "sha256:0b000c6b229fe3c07d90a0c218d91f4faef21bf9f3ab49bbb644d4330e6d9a05"
-    }
-   ],
-   "licenses": [],
-   "language": "java",
-   "cpes": [
-    "cpe:2.3:a:cparse-jruby:cparse-jruby:*:*:*:*:*:*:*:*",
-    "cpe:2.3:a:cparse-jruby:cparse_jruby:*:*:*:*:*:*:*:*",
-    "cpe:2.3:a:cparse_jruby:cparse-jruby:*:*:*:*:*:*:*:*",
-    "cpe:2.3:a:cparse_jruby:cparse_jruby:*:*:*:*:*:*:*:*",
-    "cpe:2.3:a:cparse:cparse-jruby:*:*:*:*:*:*:*:*",
-    "cpe:2.3:a:cparse:cparse_jruby:*:*:*:*:*:*:*:*"
-   ],
-   "purl": "pkg:maven/cparse-jruby/cparse-jruby",
-   "metadataType": "JavaMetadata",
-   "metadata": {
-    "virtualPath": "/opt/sonarqube/lib/extensions/sonar-ruby-plugin-1.9.0.3429.jar:META-INF/jruby.home/lib/ruby/stdlib/racc/cparse-jruby.jar",
-    "manifest": {
-     "main": {
-      "Created-By": "11.0.2 (Oracle Corporation)",
-      "Manifest-Version": "1.0"
-     }
-    },
-    "digest": [
-     {
-      "algorithm": "sha1",
-      "value": "dde4adfef288358dafebc1857a4dbef5b41c20d1"
-     }
-    ]
-   }
-  },
-  {
    "id": "40738949795e5fe2",
    "name": "cparse-jruby",
    "version": "",
@@ -6756,6 +6716,46 @@
    "metadataType": "JavaMetadata",
    "metadata": {
     "virtualPath": "/opt/sonarqube/lib/extensions/sonar-ruby-plugin-1.9.0.3429.jar:racc-1.5.2-java/lib/racc/cparse-jruby.jar",
+    "manifest": {
+     "main": {
+      "Created-By": "11.0.2 (Oracle Corporation)",
+      "Manifest-Version": "1.0"
+     }
+    },
+    "digest": [
+     {
+      "algorithm": "sha1",
+      "value": "dde4adfef288358dafebc1857a4dbef5b41c20d1"
+     }
+    ]
+   }
+  },
+  {
+   "id": "36116472548a9244",
+   "name": "cparse-jruby",
+   "version": "",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "/opt/sonarqube/lib/extensions/sonar-ruby-plugin-1.9.0.3429.jar",
+     "layerID": "sha256:0b000c6b229fe3c07d90a0c218d91f4faef21bf9f3ab49bbb644d4330e6d9a05"
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:cparse-jruby:cparse-jruby:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:cparse-jruby:cparse_jruby:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:cparse_jruby:cparse-jruby:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:cparse_jruby:cparse_jruby:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:cparse:cparse-jruby:*:*:*:*:*:*:*:*",
+    "cpe:2.3:a:cparse:cparse_jruby:*:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/cparse-jruby/cparse-jruby",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "/opt/sonarqube/lib/extensions/sonar-ruby-plugin-1.9.0.3429.jar:META-INF/jruby.home/lib/ruby/stdlib/racc/cparse-jruby.jar",
     "manifest": {
      "main": {
       "Created-By": "11.0.2 (Oracle Corporation)",

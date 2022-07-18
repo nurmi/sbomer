@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:94ccd5ca-7b69-4963-aa9f-384f0c2a14be",
+  "serialNumber": "urn:uuid:3b97bea3-fba2-4c90-9d96-1785459ea01a",
   "version": 1,
   "metadata": {
-    "timestamp": "2022-07-16T01:44:23Z",
+    "timestamp": "2022-07-17T01:57:33Z",
     "tools": [
       {
         "vendor": "anchore",
@@ -5838,25 +5838,13 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/org.jruby/jruby-base@9.3.6.0?package-id=15b753555431f84b",
+      "bom-ref": "pkg:maven/org.jruby/jruby-base@9.3.6.0?package-id=947abf169f7269d0",
       "type": "library",
       "group": "org.jruby",
       "name": "jruby-base",
       "version": "9.3.6.0",
       "cpe": "cpe:2.3:a:jruby-base:jruby-base:9.3.6.0:*:*:*:*:*:*:*",
       "purl": "pkg:maven/org.jruby/jruby-base@9.3.6.0",
-      "externalReferences": [
-        {
-          "url": "",
-          "hashes": [
-            {
-              "alg": "SHA-1",
-              "content": "b88881f0a881c2fb63cd74c610a4c8ee3cf5e800"
-            }
-          ],
-          "type": "build-meta"
-        }
-      ],
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -5895,22 +5883,6 @@
           "value": "cpe:2.3:a:jruby:jruby_base:9.3.6.0:*:*:*:*:*:*:*"
         },
         {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:Main:jruby-base:9.3.6.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:Main:jruby_base:9.3.6.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:dist:jruby-base:9.3.6.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:dist:jruby_base:9.3.6.0:*:*:*:*:*:*:*"
-        },
-        {
           "name": "syft:location:0:layerID",
           "value": "sha256:9c1ef184d950f14736c8f653369732672d91e20d9622f73eb06b71f02b6c5a88"
         },
@@ -5928,18 +5900,30 @@
         },
         {
           "name": "syft:metadata:virtualPath",
-          "value": "/opt/jruby/lib/jruby.jar"
+          "value": "/opt/jruby/lib/jruby.jar:jruby-base"
         }
       ]
     },
     {
-      "bom-ref": "pkg:maven/org.jruby/jruby-core@9.3.6.0?package-id=a44d634b1b58fe6",
+      "bom-ref": "pkg:maven/org.jruby/jruby-core@9.3.6.0?package-id=8e64ec71167dd3fe",
       "type": "library",
       "group": "org.jruby",
       "name": "jruby-core",
       "version": "9.3.6.0",
       "cpe": "cpe:2.3:a:jruby-core:jruby-core:9.3.6.0:*:*:*:*:*:*:*",
       "purl": "pkg:maven/org.jruby/jruby-core@9.3.6.0",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "b88881f0a881c2fb63cd74c610a4c8ee3cf5e800"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -5978,6 +5962,22 @@
           "value": "cpe:2.3:a:jruby:jruby_core:9.3.6.0:*:*:*:*:*:*:*"
         },
         {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:Main:jruby-core:9.3.6.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:Main:jruby_core:9.3.6.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dist:jruby-core:9.3.6.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dist:jruby_core:9.3.6.0:*:*:*:*:*:*:*"
+        },
+        {
           "name": "syft:location:0:layerID",
           "value": "sha256:9c1ef184d950f14736c8f653369732672d91e20d9622f73eb06b71f02b6c5a88"
         },
@@ -5995,7 +5995,7 @@
         },
         {
           "name": "syft:metadata:virtualPath",
-          "value": "/opt/jruby/lib/jruby.jar:jruby-core"
+          "value": "/opt/jruby/lib/jruby.jar"
         }
       ]
     },
