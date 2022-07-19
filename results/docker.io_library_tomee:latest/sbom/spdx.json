@@ -3,7 +3,7 @@
  "name": "docker.io/library/tomee-latest",
  "spdxVersion": "SPDX-2.2",
  "creationInfo": {
-  "created": "2022-07-18T02:02:37.132910481Z",
+  "created": "2022-07-19T02:24:42.930000334Z",
   "creators": [
    "Organization: Anchore, Inc",
    "Tool: syft-0.48.0"
@@ -11,7 +11,7 @@
   "licenseListVersion": "3.17"
  },
  "dataLicense": "CC0-1.0",
- "documentNamespace": "https://anchore.com/syft/image/docker.io/library/tomee-latest-1b3c52e7-a1f7-4823-b0fd-6560a4d0b60a",
+ "documentNamespace": "https://anchore.com/syft/image/docker.io/library/tomee-latest-977ba2cd-f545-44cd-908b-54c3bfc17fad",
  "packages": [
   {
    "SPDXID": "SPDXRef-a124711c55c5b5ec",
@@ -21680,167 +21680,11 @@
    "versionInfo": "2.3.9"
   },
   {
-   "SPDXID": "SPDXRef-7018d6ea2129d22c",
-   "name": "myfaces-impl-shared",
+   "SPDXID": "SPDXRef-133b276d7bf7cfb",
+   "name": "myfaces-impl",
    "licenseConcluded": "NONE",
-   "checksums": [
-    {
-     "algorithm": "SHA1",
-     "checksumValue": "baa17bd539688884f143469db5dc006651e0465a"
-    }
-   ],
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:apache-software-foundation:myfaces-impl-shared:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:apache-software-foundation:myfaces_impl_shared:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:apache_software_foundation:myfaces-impl-shared:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:apache_software_foundation:myfaces_impl_shared:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:apache-software-foundation:myfaces-impl:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:apache-software-foundation:myfaces_impl:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:apache_software_foundation:myfaces-impl:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:apache_software_foundation:myfaces_impl:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:myfaces-impl-shared:myfaces-impl-shared:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:myfaces-impl-shared:myfaces_impl_shared:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:myfaces_impl_shared:myfaces-impl-shared:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:myfaces_impl_shared:myfaces_impl_shared:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:apache-software-foundation:myfaces:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:apache_software_foundation:myfaces:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:myfaces-impl-shared:myfaces-impl:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:myfaces-impl-shared:myfaces_impl:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:myfaces-impl:myfaces-impl-shared:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:myfaces-impl:myfaces_impl_shared:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:myfaces_impl:myfaces-impl-shared:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:myfaces_impl:myfaces_impl_shared:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:myfaces_impl_shared:myfaces-impl:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:myfaces_impl_shared:myfaces_impl:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:apache-software-foundation:impl:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:apache_software_foundation:impl:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:myfaces-impl-shared:myfaces:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:myfaces:myfaces-impl-shared:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:myfaces:myfaces_impl_shared:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:myfaces_impl_shared:myfaces:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:apache:myfaces-impl-shared:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:apache:myfaces_impl_shared:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
     {
      "referenceCategory": "SECURITY",
      "referenceLocator": "cpe:2.3:a:myfaces-impl:myfaces-impl:2.3.9:*:*:*:*:*:*:*",
@@ -21859,36 +21703,6 @@
     {
      "referenceCategory": "SECURITY",
      "referenceLocator": "cpe:2.3:a:myfaces_impl:myfaces_impl:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:core:myfaces-impl-shared:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:core:myfaces_impl_shared:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:impl:myfaces-impl-shared:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:impl:myfaces_impl_shared:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:myfaces-impl-shared:impl:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:myfaces_impl_shared:impl:2.3.9:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
@@ -21933,22 +21747,185 @@
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:impl:myfaces-impl:2.3.9:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:myfaces:myfaces:2.3.9:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:impl:myfaces_impl:2.3.9:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:apache:myfaces:2.3.9:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:myfaces-impl:impl:2.3.9:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:core:myfaces:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:maven/org.apache.myfaces.core/myfaces-impl@2.3.9",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed java archive: /usr/local/tomee/lib/myfaces-impl-2.3.9.jar",
+   "versionInfo": "2.3.9"
+  },
+  {
+   "SPDXID": "SPDXRef-99da04fc956dc9",
+   "name": "myfaces-impl-shared",
+   "licenseConcluded": "NONE",
+   "checksums": [
+    {
+     "algorithm": "SHA1",
+     "checksumValue": "baa17bd539688884f143469db5dc006651e0465a"
+    }
+   ],
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:apache-software-foundation:myfaces-impl-shared:2.3.9:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:myfaces_impl:impl:2.3.9:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:apache-software-foundation:myfaces_impl_shared:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:apache_software_foundation:myfaces-impl-shared:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:apache_software_foundation:myfaces_impl_shared:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:myfaces-impl-shared:myfaces-impl-shared:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:myfaces-impl-shared:myfaces_impl_shared:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:myfaces_impl_shared:myfaces-impl-shared:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:myfaces_impl_shared:myfaces_impl_shared:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:apache-software-foundation:myfaces:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:apache_software_foundation:myfaces:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:myfaces-impl:myfaces-impl-shared:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:myfaces-impl:myfaces_impl_shared:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:myfaces_impl:myfaces-impl-shared:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:myfaces_impl:myfaces_impl_shared:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:internal:myfaces-impl-shared:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:internal:myfaces_impl_shared:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:myfaces-impl-shared:myfaces:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:myfaces:myfaces-impl-shared:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:myfaces:myfaces_impl_shared:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:myfaces_impl_shared:myfaces:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:apache:myfaces-impl-shared:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:apache:myfaces_impl_shared:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:core:myfaces-impl-shared:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:core:myfaces_impl_shared:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:impl:myfaces-impl-shared:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:impl:myfaces_impl_shared:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:myfaces-impl:myfaces:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:myfaces_impl:myfaces:2.3.9:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:internal:myfaces:2.3.9:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
@@ -21972,28 +21949,8 @@
      "referenceType": "cpe23Type"
     },
     {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:myfaces:impl:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:apache:impl:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:core:impl:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:impl:impl:2.3.9:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
      "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:maven/org.apache.myfaces.core/myfaces-impl-shared@2.3.9",
+     "referenceLocator": "pkg:maven/org.apache.myfaces.core.internal/myfaces-impl-shared@2.3.9",
      "referenceType": "purl"
     }
    ],
@@ -23868,11 +23825,52 @@
    "versionInfo": "3.2.2"
   },
   {
-   "SPDXID": "SPDXRef-f46d185c4bf35411",
+   "SPDXID": "SPDXRef-d422cb6797242fd7",
    "name": "openjpa-lib",
    "licenseConcluded": "NONE",
+   "checksums": [
+    {
+     "algorithm": "SHA1",
+     "checksumValue": "226e6f0b4379092b4fd58b018a7ddefee3b92f23"
+    }
+   ],
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:PersistenceActivator:openjpa-lib:3.2.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:PersistenceActivator:openjpa_lib:3.2.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:PersistenceActivator:openjpa:3.2.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:oracle\\,-inc-:openjpa-lib:3.2.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:oracle\\,-inc-:openjpa_lib:3.2.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:oracle\\,_inc_:openjpa-lib:3.2.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:oracle\\,_inc_:openjpa_lib:3.2.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
     {
      "referenceCategory": "SECURITY",
      "referenceLocator": "cpe:2.3:a:openjpa-lib:openjpa-lib:3.2.2:*:*:*:*:*:*:*",
@@ -23891,6 +23889,26 @@
     {
      "referenceCategory": "SECURITY",
      "referenceLocator": "cpe:2.3:a:openjpa_lib:openjpa_lib:3.2.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:persistence:openjpa-lib:3.2.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:persistence:openjpa_lib:3.2.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:oracle\\,-inc-:openjpa:3.2.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:oracle\\,_inc_:openjpa:3.2.2:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
@@ -23915,12 +23933,27 @@
     },
     {
      "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:persistence:openjpa:3.2.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
      "referenceLocator": "cpe:2.3:a:apache:openjpa-lib:3.2.2:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceLocator": "cpe:2.3:a:apache:openjpa_lib:3.2.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:osgi:openjpa-lib:3.2.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:osgi:openjpa_lib:3.2.2:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
@@ -23934,108 +23967,27 @@
      "referenceType": "cpe23Type"
     },
     {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:osgi:openjpa:3.2.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
      "referenceCategory": "PACKAGE_MANAGER",
      "referenceLocator": "pkg:maven/org.apache.openjpa/openjpa-lib@3.2.2",
      "referenceType": "purl"
     }
    ],
-   "filesAnalyzed": false,
+   "filesAnalyzed": true,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from installed java archive: /usr/local/tomee/lib/openjpa-3.2.2.jar",
    "versionInfo": "3.2.2"
   },
   {
-   "SPDXID": "SPDXRef-a31661f4a520cd51",
-   "name": "openjpa-persistence-jdbc",
+   "SPDXID": "SPDXRef-7cdf293e45be34db",
+   "name": "openjpa-persistence",
    "licenseConcluded": "NONE",
-   "checksums": [
-    {
-     "algorithm": "SHA1",
-     "checksumValue": "226e6f0b4379092b4fd58b018a7ddefee3b92f23"
-    }
-   ],
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:openjpa-persistence-jdbc:openjpa-persistence-jdbc:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:openjpa-persistence-jdbc:openjpa_persistence_jdbc:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:openjpa_persistence_jdbc:openjpa-persistence-jdbc:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:openjpa_persistence_jdbc:openjpa_persistence_jdbc:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:PersistenceActivator:openjpa-persistence-jdbc:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:PersistenceActivator:openjpa_persistence_jdbc:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:openjpa-persistence-jdbc:openjpa-persistence:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:openjpa-persistence-jdbc:openjpa_persistence:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:openjpa-persistence:openjpa-persistence-jdbc:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:openjpa-persistence:openjpa_persistence_jdbc:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:openjpa_persistence:openjpa-persistence-jdbc:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:openjpa_persistence:openjpa_persistence_jdbc:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:openjpa_persistence_jdbc:openjpa-persistence:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:openjpa_persistence_jdbc:openjpa_persistence:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:PersistenceActivator:openjpa-persistence:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:PersistenceActivator:openjpa_persistence:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
     {
      "referenceCategory": "SECURITY",
      "referenceLocator": "cpe:2.3:a:openjpa-persistence:openjpa-persistence:3.2.2:*:*:*:*:*:*:*",
@@ -24054,136 +24006,6 @@
     {
      "referenceCategory": "SECURITY",
      "referenceLocator": "cpe:2.3:a:openjpa_persistence:openjpa_persistence:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:oracle\\,-inc-:openjpa-persistence-jdbc:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:oracle\\,-inc-:openjpa_persistence_jdbc:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:oracle\\,_inc_:openjpa-persistence-jdbc:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:oracle\\,_inc_:openjpa_persistence_jdbc:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:openjpa-persistence-jdbc:persistence:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:openjpa_persistence_jdbc:persistence:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:persistence:openjpa-persistence-jdbc:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:persistence:openjpa_persistence_jdbc:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:PersistenceActivator:persistence:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:openjpa-persistence-jdbc:openjpa:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:openjpa:openjpa-persistence-jdbc:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:openjpa:openjpa_persistence_jdbc:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:openjpa_persistence_jdbc:openjpa:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:oracle\\,-inc-:openjpa-persistence:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:oracle\\,-inc-:openjpa_persistence:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:oracle\\,_inc_:openjpa-persistence:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:oracle\\,_inc_:openjpa_persistence:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:apache:openjpa-persistence-jdbc:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:apache:openjpa_persistence_jdbc:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:openjpa-persistence:persistence:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:openjpa_persistence:persistence:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:persistence:openjpa-persistence:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:persistence:openjpa_persistence:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:osgi:openjpa-persistence-jdbc:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:osgi:openjpa_persistence_jdbc:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:PersistenceActivator:openjpa:3.2.2:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
@@ -24218,57 +24040,109 @@
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:oracle\\,-inc-:persistence:3.2.2:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:openjpa:openjpa:3.2.2:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:oracle\\,_inc_:persistence:3.2.2:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:apache:openjpa:3.2.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:maven/org.apache.openjpa/openjpa-persistence@3.2.2",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed java archive: /usr/local/tomee/lib/openjpa-3.2.2.jar",
+   "versionInfo": "3.2.2"
+  },
+  {
+   "SPDXID": "SPDXRef-aafcbef268b01b5",
+   "name": "openjpa-persistence-jdbc",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:openjpa-persistence-jdbc:openjpa-persistence-jdbc:3.2.2:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:osgi:openjpa-persistence:3.2.2:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:openjpa-persistence-jdbc:openjpa_persistence_jdbc:3.2.2:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:osgi:openjpa_persistence:3.2.2:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:openjpa_persistence_jdbc:openjpa-persistence-jdbc:3.2.2:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:persistence:persistence:3.2.2:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:openjpa_persistence_jdbc:openjpa_persistence_jdbc:3.2.2:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:oracle\\,-inc-:openjpa:3.2.2:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:openjpa-persistence:openjpa-persistence-jdbc:3.2.2:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:oracle\\,_inc_:openjpa:3.2.2:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:openjpa-persistence:openjpa_persistence_jdbc:3.2.2:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:openjpa:persistence:3.2.2:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:openjpa_persistence:openjpa-persistence-jdbc:3.2.2:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:persistence:openjpa:3.2.2:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:openjpa_persistence:openjpa_persistence_jdbc:3.2.2:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:apache:persistence:3.2.2:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:openjpa-persistence-jdbc:openjpa:3.2.2:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:osgi:persistence:3.2.2:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:openjpa:openjpa-persistence-jdbc:3.2.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:openjpa:openjpa_persistence_jdbc:3.2.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:openjpa_persistence_jdbc:openjpa:3.2.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:apache:openjpa-persistence-jdbc:3.2.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:apache:openjpa_persistence_jdbc:3.2.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:openjpa-persistence:openjpa:3.2.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:openjpa_persistence:openjpa:3.2.2:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
@@ -24282,17 +24156,12 @@
      "referenceType": "cpe23Type"
     },
     {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:osgi:openjpa:3.2.2:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
      "referenceCategory": "PACKAGE_MANAGER",
      "referenceLocator": "pkg:maven/org.apache.openjpa/openjpa-persistence-jdbc@3.2.2",
      "referenceType": "purl"
     }
    ],
-   "filesAnalyzed": true,
+   "filesAnalyzed": false,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from installed java archive: /usr/local/tomee/lib/openjpa-3.2.2.jar",
    "versionInfo": "3.2.2"

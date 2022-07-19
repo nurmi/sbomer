@@ -21415,7 +21415,7 @@
    }
   },
   {
-   "id": "421415d39912cbf8",
+   "id": "2ecfc72748371506",
    "name": "jaxb-core",
    "version": "2.3.0.1",
    "type": "java-archive",
@@ -21429,8 +21429,6 @@
    "licenses": [],
    "language": "java",
    "cpes": [
-    "cpe:2.3:a:glassfish:jaxb-core:2.3.0.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:glassfish:jaxb_core:2.3.0.1:*:*:*:*:*:*:*",
     "cpe:2.3:a:jaxb-core:jaxb-core:2.3.0.1:*:*:*:*:*:*:*",
     "cpe:2.3:a:jaxb-core:jaxb_core:2.3.0.1:*:*:*:*:*:*:*",
     "cpe:2.3:a:jaxb_core:jaxb-core:2.3.0.1:*:*:*:*:*:*:*",
@@ -21439,22 +21437,14 @@
     "cpe:2.3:a:oracle:jaxb_core:2.3.0.1:*:*:*:*:*:*:*",
     "cpe:2.3:a:bind:jaxb-core:2.3.0.1:*:*:*:*:*:*:*",
     "cpe:2.3:a:bind:jaxb_core:2.3.0.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:glassfish:jaxb:2.3.0.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:jaxb-core:jaxb:2.3.0.1:*:*:*:*:*:*:*",
     "cpe:2.3:a:jaxb:jaxb-core:2.3.0.1:*:*:*:*:*:*:*",
     "cpe:2.3:a:jaxb:jaxb_core:2.3.0.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:jaxb_core:jaxb:2.3.0.1:*:*:*:*:*:*:*",
     "cpe:2.3:a:sun:jaxb-core:2.3.0.1:*:*:*:*:*:*:*",
     "cpe:2.3:a:sun:jaxb_core:2.3.0.1:*:*:*:*:*:*:*",
     "cpe:2.3:a:xml:jaxb-core:2.3.0.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:xml:jaxb_core:2.3.0.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:oracle:jaxb:2.3.0.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:bind:jaxb:2.3.0.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:jaxb:jaxb:2.3.0.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:sun:jaxb:2.3.0.1:*:*:*:*:*:*:*",
-    "cpe:2.3:a:xml:jaxb:2.3.0.1:*:*:*:*:*:*:*"
+    "cpe:2.3:a:xml:jaxb_core:2.3.0.1:*:*:*:*:*:*:*"
    ],
-   "purl": "pkg:maven/org.glassfish.jaxb/jaxb-core@2.3.0.1",
+   "purl": "pkg:maven/com.sun.xml.bind/jaxb-core@2.3.0.1",
    "metadataType": "JavaMetadata",
    "metadata": {
     "virtualPath": "/opt/groovy/lib/extras-jaxb/jaxb-core-2.3.0.1.jar",
@@ -21492,9 +21482,9 @@
      }
     },
     "pomProperties": {
-     "path": "META-INF/maven/org.glassfish.jaxb/jaxb-core/pom.properties",
+     "path": "META-INF/maven/com.sun.xml.bind/jaxb-core/pom.properties",
      "name": "",
-     "groupId": "org.glassfish.jaxb",
+     "groupId": "com.sun.xml.bind",
      "artifactId": "jaxb-core",
      "version": "2.3.0.1",
      "extraFields": {}

@@ -3,7 +3,7 @@
  "name": "docker.io/library/jobber-latest",
  "spdxVersion": "SPDX-2.2",
  "creationInfo": {
-  "created": "2022-07-18T01:39:43.623672939Z",
+  "created": "2022-07-19T02:01:57.228195073Z",
   "creators": [
    "Organization: Anchore, Inc",
    "Tool: syft-0.48.0"
@@ -11,7 +11,7 @@
   "licenseListVersion": "3.17"
  },
  "dataLicense": "CC0-1.0",
- "documentNamespace": "https://anchore.com/syft/image/docker.io/library/jobber-latest-ae572bf4-c5cd-4ecf-8e77-2f2ec2d258a3",
+ "documentNamespace": "https://anchore.com/syft/image/docker.io/library/jobber-latest-6cd9905a-dec7-475e-8d0b-4fd56a1c5238",
  "packages": [
   {
    "SPDXID": "SPDXRef-edbdc71c217140cd",
@@ -1636,13 +1636,19 @@
   {
    "spdxElementId": "SPDXRef-341a9bc91ea3e49f",
    "relationshipType": "OTHER",
+   "relatedSpdxElement": "SPDXRef-9656740eb5dcb5df",
+   "comment": "ownership-by-file-overlap: indicates that the parent package claims ownership of a child package since the parent metadata indicates overlap with a location that a cataloger found the child package by"
+  },
+  {
+   "spdxElementId": "SPDXRef-341a9bc91ea3e49f",
+   "relationshipType": "OTHER",
    "relatedSpdxElement": "SPDXRef-584d310eee17a889",
    "comment": "ownership-by-file-overlap: indicates that the parent package claims ownership of a child package since the parent metadata indicates overlap with a location that a cataloger found the child package by"
   },
   {
    "spdxElementId": "SPDXRef-341a9bc91ea3e49f",
    "relationshipType": "OTHER",
-   "relatedSpdxElement": "SPDXRef-fec35c18dd697fcd",
+   "relatedSpdxElement": "SPDXRef-93c52858d5199f56",
    "comment": "ownership-by-file-overlap: indicates that the parent package claims ownership of a child package since the parent metadata indicates overlap with a location that a cataloger found the child package by"
   },
   {
@@ -1654,7 +1660,7 @@
   {
    "spdxElementId": "SPDXRef-341a9bc91ea3e49f",
    "relationshipType": "OTHER",
-   "relatedSpdxElement": "SPDXRef-9656740eb5dcb5df",
+   "relatedSpdxElement": "SPDXRef-43fd6cc4f810df60",
    "comment": "ownership-by-file-overlap: indicates that the parent package claims ownership of a child package since the parent metadata indicates overlap with a location that a cataloger found the child package by"
   },
   {
@@ -1678,19 +1684,13 @@
   {
    "spdxElementId": "SPDXRef-341a9bc91ea3e49f",
    "relationshipType": "OTHER",
-   "relatedSpdxElement": "SPDXRef-93c52858d5199f56",
-   "comment": "ownership-by-file-overlap: indicates that the parent package claims ownership of a child package since the parent metadata indicates overlap with a location that a cataloger found the child package by"
-  },
-  {
-   "spdxElementId": "SPDXRef-341a9bc91ea3e49f",
-   "relationshipType": "OTHER",
    "relatedSpdxElement": "SPDXRef-c44edc8b7ec825d4",
    "comment": "ownership-by-file-overlap: indicates that the parent package claims ownership of a child package since the parent metadata indicates overlap with a location that a cataloger found the child package by"
   },
   {
    "spdxElementId": "SPDXRef-341a9bc91ea3e49f",
    "relationshipType": "OTHER",
-   "relatedSpdxElement": "SPDXRef-43fd6cc4f810df60",
+   "relatedSpdxElement": "SPDXRef-fec35c18dd697fcd",
    "comment": "ownership-by-file-overlap: indicates that the parent package claims ownership of a child package since the parent metadata indicates overlap with a location that a cataloger found the child package by"
   }
  ]

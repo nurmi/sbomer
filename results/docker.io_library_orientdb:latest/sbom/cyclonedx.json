@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:b1ed3d4e-102f-4e8d-89c5-7c4e4cf7390c",
+  "serialNumber": "urn:uuid:d2fc1337-4d15-4343-bfbe-482b6c564e72",
   "version": 1,
   "metadata": {
-    "timestamp": "2022-07-18T01:49:32Z",
+    "timestamp": "2022-07-19T02:11:13Z",
     "tools": [
       {
         "vendor": "anchore",
@@ -4511,7 +4511,54 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/com.hazelcast/hazelcast-client-protocol@1.8.0?package-id=c07253713d0f3e06",
+      "bom-ref": "pkg:maven/com.hazelcast/hazelcast@3.12.8?package-id=772afee17784a994",
+      "type": "library",
+      "group": "com.hazelcast",
+      "name": "hazelcast",
+      "version": "3.12.8",
+      "cpe": "cpe:2.3:a:hazelcast:hazelcast:3.12.8:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/com.hazelcast/hazelcast@3.12.8",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:2e2ec9987809af83c1b9c3b14c2df44da1bc6694a5020a65db29c010cc63b0c7"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/orientdb/lib/hazelcast-3.12.8.jar"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "hazelcast"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "com.hazelcast"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/orientdb/lib/hazelcast-3.12.8.jar:hazelcast"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.hazelcast/hazelcast-client-protocol@1.8.0?package-id=e13c888aac4d6444",
       "type": "library",
       "group": "com.hazelcast",
       "name": "hazelcast-client-protocol",
@@ -4601,19 +4648,11 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:hazelcast-client-protocol:hazelcast:1.8.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
           "value": "cpe:2.3:a:hazelcast:hazelcast-client-protocol:1.8.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
           "value": "cpe:2.3:a:hazelcast:hazelcast_client_protocol:1.8.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:hazelcast_client_protocol:hazelcast:1.8.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
@@ -4632,38 +4671,6 @@
           "value": "cpe:2.3:a:osgi:hazelcast_client_protocol:1.8.0:*:*:*:*:*:*:*"
         },
         {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:hazelcast-client:hazelcast:1.8.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:hazelcast_client:hazelcast:1.8.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:hazelcast\\,-inc-:hazelcast:1.8.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:hazelcast\\,_inc_:hazelcast:1.8.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:Activator:hazelcast:1.8.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:hazelcast:hazelcast:1.8.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:impl:hazelcast:1.8.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:osgi:hazelcast:1.8.0:*:*:*:*:*:*:*"
-        },
-        {
           "name": "syft:location:0:layerID",
           "value": "sha256:2e2ec9987809af83c1b9c3b14c2df44da1bc6694a5020a65db29c010cc63b0c7"
         },
@@ -4673,7 +4680,7 @@
         },
         {
           "name": "syft:metadata:-:artifactID",
-          "value": "hazelcast"
+          "value": "hazelcast-client-protocol"
         },
         {
           "name": "syft:metadata:-:groupID",

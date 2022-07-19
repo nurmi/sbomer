@@ -30612,7 +30612,38 @@
    }
   },
   {
-   "id": "c07253713d0f3e06",
+   "id": "772afee17784a994",
+   "name": "hazelcast",
+   "version": "3.12.8",
+   "type": "java-archive",
+   "foundBy": "java-cataloger",
+   "locations": [
+    {
+     "path": "/orientdb/lib/hazelcast-3.12.8.jar",
+     "layerID": "sha256:2e2ec9987809af83c1b9c3b14c2df44da1bc6694a5020a65db29c010cc63b0c7"
+    }
+   ],
+   "licenses": [],
+   "language": "java",
+   "cpes": [
+    "cpe:2.3:a:hazelcast:hazelcast:3.12.8:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:maven/com.hazelcast/hazelcast@3.12.8",
+   "metadataType": "JavaMetadata",
+   "metadata": {
+    "virtualPath": "/orientdb/lib/hazelcast-3.12.8.jar:hazelcast",
+    "pomProperties": {
+     "path": "META-INF/maven/com.hazelcast/hazelcast/pom.properties",
+     "name": "",
+     "groupId": "com.hazelcast",
+     "artifactId": "hazelcast",
+     "version": "3.12.8",
+     "extraFields": {}
+    }
+   }
+  },
+  {
+   "id": "e13c888aac4d6444",
    "name": "hazelcast-client-protocol",
    "version": "1.8.0",
    "type": "java-archive",
@@ -30640,22 +30671,12 @@
     "cpe:2.3:a:hazelcast\\,_inc_:hazelcast_client_protocol:1.8.0:*:*:*:*:*:*:*",
     "cpe:2.3:a:Activator:hazelcast-client-protocol:1.8.0:*:*:*:*:*:*:*",
     "cpe:2.3:a:Activator:hazelcast_client_protocol:1.8.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:hazelcast-client-protocol:hazelcast:1.8.0:*:*:*:*:*:*:*",
     "cpe:2.3:a:hazelcast:hazelcast-client-protocol:1.8.0:*:*:*:*:*:*:*",
     "cpe:2.3:a:hazelcast:hazelcast_client_protocol:1.8.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:hazelcast_client_protocol:hazelcast:1.8.0:*:*:*:*:*:*:*",
     "cpe:2.3:a:impl:hazelcast-client-protocol:1.8.0:*:*:*:*:*:*:*",
     "cpe:2.3:a:impl:hazelcast_client_protocol:1.8.0:*:*:*:*:*:*:*",
     "cpe:2.3:a:osgi:hazelcast-client-protocol:1.8.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:osgi:hazelcast_client_protocol:1.8.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:hazelcast-client:hazelcast:1.8.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:hazelcast_client:hazelcast:1.8.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:hazelcast\\,-inc-:hazelcast:1.8.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:hazelcast\\,_inc_:hazelcast:1.8.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:Activator:hazelcast:1.8.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:hazelcast:hazelcast:1.8.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:impl:hazelcast:1.8.0:*:*:*:*:*:*:*",
-    "cpe:2.3:a:osgi:hazelcast:1.8.0:*:*:*:*:*:*:*"
+    "cpe:2.3:a:osgi:hazelcast_client_protocol:1.8.0:*:*:*:*:*:*:*"
    ],
    "purl": "pkg:maven/com.hazelcast/hazelcast-client-protocol@1.8.0",
    "metadataType": "JavaMetadata",
@@ -30693,11 +30714,11 @@
      }
     },
     "pomProperties": {
-     "path": "META-INF/maven/com.hazelcast/hazelcast/pom.properties",
+     "path": "META-INF/maven/com.hazelcast/hazelcast-client-protocol/pom.properties",
      "name": "",
      "groupId": "com.hazelcast",
-     "artifactId": "hazelcast",
-     "version": "3.12.8",
+     "artifactId": "hazelcast-client-protocol",
+     "version": "1.8.0",
      "extraFields": {}
     },
     "digest": [

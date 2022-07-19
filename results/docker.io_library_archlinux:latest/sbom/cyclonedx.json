@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:3c731d6c-6d31-4ece-82fc-fdcd6e5cd62b",
+  "serialNumber": "urn:uuid:30e9cc06-9164-4bfc-b7f3-e2e8bc93c17b",
   "version": 1,
   "metadata": {
-    "timestamp": "2022-07-18T01:24:32Z",
+    "timestamp": "2022-07-19T01:46:10Z",
     "tools": [
       {
         "vendor": "anchore",
@@ -13,10 +13,10 @@
       }
     ],
     "component": {
-      "bom-ref": "a045cbc8be8c90fb",
+      "bom-ref": "ec2d199e9844fd6a",
       "type": "container",
       "name": "docker.io/library/archlinux:latest",
-      "version": "sha256:20d60c8c2ca285479ea84e214b94a1410f46a339042ab00bab84a3aa6fa70418"
+      "version": "sha256:c40bbb2c68ce6128f762d0cce87c80fcd5be40048c1df0cc5cf4c662300766ff"
     }
   },
   "components": [
@@ -47,12 +47,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpm/arch/archlinux-keyring@20220424-1?arch=any\u0026upstream=archlinux-keyring\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=f335c19b10794f7e",
+      "bom-ref": "pkg:alpm/arch/archlinux-keyring@20220713-1?arch=any\u0026upstream=archlinux-keyring\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=ab0641cf1821f157",
       "type": "library",
       "name": "archlinux-keyring",
-      "version": "20220424-1",
-      "cpe": "cpe:2.3:a:archlinux-keyring:archlinux-keyring:20220424-1:*:*:*:*:*:*:*",
-      "purl": "pkg:alpm/arch/archlinux-keyring@20220424-1?arch=any\u0026upstream=archlinux-keyring\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "version": "20220713-1",
+      "cpe": "cpe:2.3:a:archlinux-keyring:archlinux-keyring:20220713-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/archlinux-keyring@20220713-1?arch=any\u0026upstream=archlinux-keyring\u0026distro=arch-TEMPLATE_VERSION_ID",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -68,27 +68,27 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:archlinux-keyring:archlinux_keyring:20220424-1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:archlinux-keyring:archlinux_keyring:20220713-1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:archlinux_keyring:archlinux-keyring:20220424-1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:archlinux_keyring:archlinux-keyring:20220713-1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:archlinux_keyring:archlinux_keyring:20220424-1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:archlinux_keyring:archlinux_keyring:20220713-1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:archlinux:archlinux-keyring:20220424-1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:archlinux:archlinux-keyring:20220713-1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:archlinux:archlinux_keyring:20220424-1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:archlinux:archlinux_keyring:20220713-1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:metadata:size",
-          "value": "1526586"
+          "value": "1599306"
         }
       ]
     },
@@ -1744,12 +1744,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpm/arch/libidn2@2.3.2-1?arch=x86_64\u0026upstream=libidn2\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=f215127b49506d9e",
+      "bom-ref": "pkg:alpm/arch/libidn2@2.3.3-1?arch=x86_64\u0026upstream=libidn2\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=891123c797c59b80",
       "type": "library",
       "name": "libidn2",
-      "version": "2.3.2-1",
-      "cpe": "cpe:2.3:a:libidn2:libidn2:2.3.2-1:*:*:*:*:*:*:*",
-      "purl": "pkg:alpm/arch/libidn2@2.3.2-1?arch=x86_64\u0026upstream=libidn2\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "version": "2.3.3-1",
+      "cpe": "cpe:2.3:a:libidn2:libidn2:2.3.3-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/libidn2@2.3.3-1?arch=x86_64\u0026upstream=libidn2\u0026distro=arch-TEMPLATE_VERSION_ID",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -1765,7 +1765,7 @@
         },
         {
           "name": "syft:metadata:size",
-          "value": "462867"
+          "value": "461637"
         }
       ]
     },
@@ -3131,12 +3131,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpm/arch/sqlite@3.39.0-2?arch=x86_64\u0026upstream=sqlite\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=ddc4b468456e3571",
+      "bom-ref": "pkg:alpm/arch/sqlite@3.39.1-1?arch=x86_64\u0026upstream=sqlite\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=ac845b01420a106e",
       "type": "library",
       "name": "sqlite",
-      "version": "3.39.0-2",
-      "cpe": "cpe:2.3:a:sqlite:sqlite:3.39.0-2:*:*:*:*:*:*:*",
-      "purl": "pkg:alpm/arch/sqlite@3.39.0-2?arch=x86_64\u0026upstream=sqlite\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "version": "3.39.1-1",
+      "cpe": "cpe:2.3:a:sqlite:sqlite:3.39.1-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/sqlite@3.39.1-1?arch=x86_64\u0026upstream=sqlite\u0026distro=arch-TEMPLATE_VERSION_ID",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -3152,17 +3152,17 @@
         },
         {
           "name": "syft:metadata:size",
-          "value": "7905504"
+          "value": "7905505"
         }
       ]
     },
     {
-      "bom-ref": "pkg:alpm/arch/systemd@251.2-1?arch=x86_64\u0026upstream=systemd\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=64a55dde79b97e65",
+      "bom-ref": "pkg:alpm/arch/systemd@251.3-1?arch=x86_64\u0026upstream=systemd\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=534ce7c14076bbaf",
       "type": "library",
       "name": "systemd",
-      "version": "251.2-1",
-      "cpe": "cpe:2.3:a:systemd:systemd:251.2-1:*:*:*:*:*:*:*",
-      "purl": "pkg:alpm/arch/systemd@251.2-1?arch=x86_64\u0026upstream=systemd\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "version": "251.3-1",
+      "cpe": "cpe:2.3:a:systemd:systemd:251.3-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/systemd@251.3-1?arch=x86_64\u0026upstream=systemd\u0026distro=arch-TEMPLATE_VERSION_ID",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -3178,17 +3178,17 @@
         },
         {
           "name": "syft:metadata:size",
-          "value": "28824129"
+          "value": "28824258"
         }
       ]
     },
     {
-      "bom-ref": "pkg:alpm/arch/systemd-libs@251.2-1?arch=x86_64\u0026upstream=systemd\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=80230d5dd75f204a",
+      "bom-ref": "pkg:alpm/arch/systemd-libs@251.3-1?arch=x86_64\u0026upstream=systemd\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=e8ec98d6cf1148ce",
       "type": "library",
       "name": "systemd-libs",
-      "version": "251.2-1",
-      "cpe": "cpe:2.3:a:systemd-libs:systemd-libs:251.2-1:*:*:*:*:*:*:*",
-      "purl": "pkg:alpm/arch/systemd-libs@251.2-1?arch=x86_64\u0026upstream=systemd\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "version": "251.3-1",
+      "cpe": "cpe:2.3:a:systemd-libs:systemd-libs:251.3-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/systemd-libs@251.3-1?arch=x86_64\u0026upstream=systemd\u0026distro=arch-TEMPLATE_VERSION_ID",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -3204,23 +3204,23 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:systemd-libs:systemd_libs:251.2-1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:systemd-libs:systemd_libs:251.3-1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:systemd_libs:systemd-libs:251.2-1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:systemd_libs:systemd-libs:251.3-1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:systemd_libs:systemd_libs:251.2-1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:systemd_libs:systemd_libs:251.3-1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:systemd:systemd-libs:251.2-1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:systemd:systemd-libs:251.3-1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:systemd:systemd_libs:251.2-1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:systemd:systemd_libs:251.3-1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:metadata:size",
@@ -3229,12 +3229,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpm/arch/systemd-sysvcompat@251.2-1?arch=x86_64\u0026upstream=systemd\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=6480c71acb773bbd",
+      "bom-ref": "pkg:alpm/arch/systemd-sysvcompat@251.3-1?arch=x86_64\u0026upstream=systemd\u0026distro=arch-TEMPLATE_VERSION_ID\u0026package-id=5091a15c38233fbf",
       "type": "library",
       "name": "systemd-sysvcompat",
-      "version": "251.2-1",
-      "cpe": "cpe:2.3:a:systemd-sysvcompat:systemd-sysvcompat:251.2-1:*:*:*:*:*:*:*",
-      "purl": "pkg:alpm/arch/systemd-sysvcompat@251.2-1?arch=x86_64\u0026upstream=systemd\u0026distro=arch-TEMPLATE_VERSION_ID",
+      "version": "251.3-1",
+      "cpe": "cpe:2.3:a:systemd-sysvcompat:systemd-sysvcompat:251.3-1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpm/arch/systemd-sysvcompat@251.3-1?arch=x86_64\u0026upstream=systemd\u0026distro=arch-TEMPLATE_VERSION_ID",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -3250,23 +3250,23 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:systemd-sysvcompat:systemd_sysvcompat:251.2-1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:systemd-sysvcompat:systemd_sysvcompat:251.3-1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:systemd_sysvcompat:systemd-sysvcompat:251.2-1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:systemd_sysvcompat:systemd-sysvcompat:251.3-1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:systemd_sysvcompat:systemd_sysvcompat:251.2-1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:systemd_sysvcompat:systemd_sysvcompat:251.3-1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:systemd:systemd-sysvcompat:251.2-1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:systemd:systemd-sysvcompat:251.3-1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:systemd:systemd_sysvcompat:251.2-1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:systemd:systemd_sysvcompat:251.3-1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:metadata:size",

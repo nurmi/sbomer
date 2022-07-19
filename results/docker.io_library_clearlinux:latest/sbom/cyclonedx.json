@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:11e78ea1-ebb3-4a05-9432-144727f91ce0",
+  "serialNumber": "urn:uuid:c3b8d49e-a8b7-49df-b929-9ee04fb84b7d",
   "version": 1,
   "metadata": {
-    "timestamp": "2022-07-18T01:26:10Z",
+    "timestamp": "2022-07-19T01:48:01Z",
     "tools": [
       {
         "vendor": "anchore",
@@ -13,22 +13,22 @@
       }
     ],
     "component": {
-      "bom-ref": "63982c3d77d5bc73",
+      "bom-ref": "1b9af2cea0121fdc",
       "type": "container",
       "name": "docker.io/library/clearlinux:latest",
-      "version": "sha256:a503b193b4fe9c0063b9947024896093150d452974e88594d14209141e022991"
+      "version": "sha256:0469e5f71aab6713dd86be7b32b66ffc20aade33e553d07cdf729abc1a60d9c1"
     }
   },
   "components": [
     {
       "type": "operating-system",
       "name": "clear-linux-os",
-      "version": "36600",
+      "version": "36620",
       "description": "Clear Linux OS",
       "swid": {
         "tagId": "clear-linux-os",
         "name": "clear-linux-os",
-        "version": "36600"
+        "version": "36620"
       },
       "externalReferences": [
         {
@@ -53,7 +53,7 @@
       "properties": [
         {
           "name": "syft:distro:buildID",
-          "value": "36600"
+          "value": "36620"
         },
         {
           "name": "syft:distro:id",
@@ -69,7 +69,7 @@
         },
         {
           "name": "syft:distro:versionID",
-          "value": "36600"
+          "value": "36620"
         }
       ]
     }

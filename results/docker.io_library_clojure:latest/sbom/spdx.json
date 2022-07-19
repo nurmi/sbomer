@@ -3,7 +3,7 @@
  "name": "docker.io/library/clojure-latest",
  "spdxVersion": "SPDX-2.2",
  "creationInfo": {
-  "created": "2022-07-18T01:26:29.883211148Z",
+  "created": "2022-07-19T01:48:19.625291872Z",
   "creators": [
    "Organization: Anchore, Inc",
    "Tool: syft-0.48.0"
@@ -11,7 +11,7 @@
   "licenseListVersion": "3.17"
  },
  "dataLicense": "CC0-1.0",
- "documentNamespace": "https://anchore.com/syft/image/docker.io/library/clojure-latest-40cb5169-6278-49ea-aa8e-4f0db3ff0aa2",
+ "documentNamespace": "https://anchore.com/syft/image/docker.io/library/clojure-latest-425b0c18-ecd4-4cec-9378-b491b30bebfb",
  "packages": [
   {
    "SPDXID": "SPDXRef-d789f71959364885",
@@ -8752,7 +8752,29 @@
    "versionInfo": "3.0.2"
   },
   {
-   "SPDXID": "SPDXRef-31726d46a0af575d",
+   "SPDXID": "SPDXRef-570b866176ebbcf5",
+   "name": "leiningen",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:leiningen:leiningen:2.9.8:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:maven/leiningen/leiningen@2.9.8",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed java archive: /usr/share/java/leiningen-2.9.8-standalone.jar",
+   "versionInfo": "2.9.8"
+  },
+  {
+   "SPDXID": "SPDXRef-be46d0146d1b6be9",
    "name": "leiningen-core",
    "licenseConcluded": "NONE",
    "checksums": [
@@ -8785,27 +8807,12 @@
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:leiningen-core:leiningen:2.9.8:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
      "referenceLocator": "cpe:2.3:a:leiningen:leiningen-core:2.9.8:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
      "referenceLocator": "cpe:2.3:a:leiningen:leiningen_core:2.9.8:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:leiningen_core:leiningen:2.9.8:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:leiningen:leiningen:2.9.8:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {

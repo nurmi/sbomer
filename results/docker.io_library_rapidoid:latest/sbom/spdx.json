@@ -3,7 +3,7 @@
  "name": "docker.io/library/rapidoid-latest",
  "spdxVersion": "SPDX-2.2",
  "creationInfo": {
-  "created": "2022-07-18T01:54:49.734894097Z",
+  "created": "2022-07-19T02:16:30.598407414Z",
   "creators": [
    "Organization: Anchore, Inc",
    "Tool: syft-0.48.0"
@@ -11,7 +11,7 @@
   "licenseListVersion": "3.17"
  },
  "dataLicense": "CC0-1.0",
- "documentNamespace": "https://anchore.com/syft/image/docker.io/library/rapidoid-latest-f95c00c9-dc88-429f-bda8-35c684780567",
+ "documentNamespace": "https://anchore.com/syft/image/docker.io/library/rapidoid-latest-ca606cdf-86b7-4f9a-a23a-0711ab3599e6",
  "packages": [
   {
    "SPDXID": "SPDXRef-fd4e19993567ff21",
@@ -6079,15 +6079,9 @@
    "versionInfo": "5.4.6"
   },
   {
-   "SPDXID": "SPDXRef-e2f8ccc1b0f27df7",
+   "SPDXID": "SPDXRef-b416b6ed6abcca96",
    "name": "rapidoid-commons",
    "licenseConcluded": "NONE",
-   "checksums": [
-    {
-     "algorithm": "SHA1",
-     "checksumValue": "08159e21e3dcc475b62256817200bb1931f25e0d"
-    }
-   ],
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
     {
@@ -6112,16 +6106,6 @@
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:platform:rapidoid-commons:5.4.6:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:platform:rapidoid_commons:5.4.6:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
      "referenceLocator": "cpe:2.3:a:rapidoid:rapidoid-commons:5.4.6:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
@@ -6131,22 +6115,12 @@
      "referenceType": "cpe23Type"
     },
     {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:Main:rapidoid-commons:5.4.6:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:Main:rapidoid_commons:5.4.6:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
      "referenceCategory": "PACKAGE_MANAGER",
      "referenceLocator": "pkg:maven/org.rapidoid/rapidoid-commons@5.4.6",
      "referenceType": "purl"
     }
    ],
-   "filesAnalyzed": true,
+   "filesAnalyzed": false,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from installed java archive: /opt/rapidoid.jar",
    "versionInfo": "5.4.6"
@@ -6823,9 +6797,15 @@
    "versionInfo": "5.4.6"
   },
   {
-   "SPDXID": "SPDXRef-2866c91f72951da4",
+   "SPDXID": "SPDXRef-8ae13c60b51d03db",
    "name": "rapidoid-render",
    "licenseConcluded": "NONE",
+   "checksums": [
+    {
+     "algorithm": "SHA1",
+     "checksumValue": "08159e21e3dcc475b62256817200bb1931f25e0d"
+    }
+   ],
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
     {
@@ -6850,6 +6830,16 @@
     },
     {
      "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:platform:rapidoid-render:5.4.6:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:platform:rapidoid_render:5.4.6:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
      "referenceLocator": "cpe:2.3:a:rapidoid:rapidoid-render:5.4.6:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
@@ -6859,12 +6849,22 @@
      "referenceType": "cpe23Type"
     },
     {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:Main:rapidoid-render:5.4.6:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:Main:rapidoid_render:5.4.6:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
      "referenceCategory": "PACKAGE_MANAGER",
      "referenceLocator": "pkg:maven/org.rapidoid/rapidoid-render@5.4.6",
      "referenceType": "purl"
     }
    ],
-   "filesAnalyzed": false,
+   "filesAnalyzed": true,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from installed java archive: /opt/rapidoid.jar",
    "versionInfo": "5.4.6"

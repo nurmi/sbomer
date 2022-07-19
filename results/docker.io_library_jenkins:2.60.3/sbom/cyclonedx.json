@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:0cc0a351-ab21-41cd-82ce-e47daedac78a",
+  "serialNumber": "urn:uuid:b1e35ad5-9111-45c6-822d-9b972e66aa0f",
   "version": 1,
   "metadata": {
-    "timestamp": "2022-07-18T01:39:30Z",
+    "timestamp": "2022-07-19T02:01:36Z",
     "tools": [
       {
         "vendor": "anchore",
@@ -2915,56 +2915,6 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/aopalliance/aopalliance@1.0?package-id=5856f58108711f0e",
-      "type": "library",
-      "name": "aopalliance",
-      "version": "1.0",
-      "cpe": "cpe:2.3:a:aopalliance:aopalliance:1.0:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/aopalliance/aopalliance@1.0",
-      "externalReferences": [
-        {
-          "url": "",
-          "hashes": [
-            {
-              "alg": "SHA-1",
-              "content": "0235ba8b489512805ac13a8f9ea77a1ca5ebe3e8"
-            }
-          ],
-          "type": "build-meta"
-        }
-      ],
-      "properties": [
-        {
-          "name": "syft:package:foundBy",
-          "value": "java-cataloger"
-        },
-        {
-          "name": "syft:package:language",
-          "value": "java"
-        },
-        {
-          "name": "syft:package:metadataType",
-          "value": "JavaMetadata"
-        },
-        {
-          "name": "syft:package:type",
-          "value": "java-archive"
-        },
-        {
-          "name": "syft:location:0:layerID",
-          "value": "sha256:047f9c957a2e718be97e9928f1170d25e7dadd71737ca2a1e8e3db139c905915"
-        },
-        {
-          "name": "syft:location:0:path",
-          "value": "/usr/share/jenkins/jenkins.war"
-        },
-        {
-          "name": "syft:metadata:virtualPath",
-          "value": "/usr/share/jenkins/jenkins.war:WEB-INF/detached-plugins/maven-plugin.hpi:WEB-INF/lib/aopalliance-1.0.jar"
-        }
-      ]
-    },
-    {
       "bom-ref": "pkg:maven/aopalliance/aopalliance@1.0?package-id=ce6cebc06990ffb8",
       "type": "library",
       "name": "aopalliance",
@@ -3011,6 +2961,56 @@
         {
           "name": "syft:metadata:virtualPath",
           "value": "/usr/share/jenkins/jenkins.war:WEB-INF/lib/aopalliance-1.0.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/aopalliance/aopalliance@1.0?package-id=5856f58108711f0e",
+      "type": "library",
+      "name": "aopalliance",
+      "version": "1.0",
+      "cpe": "cpe:2.3:a:aopalliance:aopalliance:1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/aopalliance/aopalliance@1.0",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "0235ba8b489512805ac13a8f9ea77a1ca5ebe3e8"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:047f9c957a2e718be97e9928f1170d25e7dadd71737ca2a1e8e3db139c905915"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/usr/share/jenkins/jenkins.war"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/usr/share/jenkins/jenkins.war:WEB-INF/detached-plugins/maven-plugin.hpi:WEB-INF/lib/aopalliance-1.0.jar"
         }
       ]
     },
@@ -7456,164 +7456,6 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/org.apache/commons-httpclient@3.1?package-id=80ef19848b244f52",
-      "type": "library",
-      "name": "commons-httpclient",
-      "version": "3.1",
-      "cpe": "cpe:2.3:a:apache-software-foundation:commons-httpclient:3.1:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/org.apache/commons-httpclient@3.1",
-      "externalReferences": [
-        {
-          "url": "",
-          "hashes": [
-            {
-              "alg": "SHA-1",
-              "content": "964cd74171f427720480efdec40a7c7f6e58426a"
-            }
-          ],
-          "type": "build-meta"
-        }
-      ],
-      "properties": [
-        {
-          "name": "syft:package:foundBy",
-          "value": "java-cataloger"
-        },
-        {
-          "name": "syft:package:language",
-          "value": "java"
-        },
-        {
-          "name": "syft:package:metadataType",
-          "value": "JavaMetadata"
-        },
-        {
-          "name": "syft:package:type",
-          "value": "java-archive"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache-software-foundation:commons_httpclient:3.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache_software_foundation:commons-httpclient:3.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache_software_foundation:commons_httpclient:3.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache-software-foundation:httpclient:3.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache_software_foundation:httpclient:3.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:commons-httpclient:commons-httpclient:3.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:commons-httpclient:commons_httpclient:3.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:commons_httpclient:commons-httpclient:3.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:commons_httpclient:commons_httpclient:3.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache-software-foundation:commons:3.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache_software_foundation:commons:3.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:commons-httpclient:httpclient:3.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:commons_httpclient:httpclient:3.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:httpclient:commons-httpclient:3.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:httpclient:commons_httpclient:3.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:commons-httpclient:commons:3.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:commons:commons-httpclient:3.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:commons:commons_httpclient:3.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:commons_httpclient:commons:3.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache:commons-httpclient:3.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache:commons_httpclient:3.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:httpclient:httpclient:3.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:commons:httpclient:3.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:httpclient:commons:3.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache:httpclient:3.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:commons:commons:3.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache:commons:3.1:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:location:0:layerID",
-          "value": "sha256:047f9c957a2e718be97e9928f1170d25e7dadd71737ca2a1e8e3db139c905915"
-        },
-        {
-          "name": "syft:location:0:path",
-          "value": "/usr/share/jenkins/jenkins.war"
-        },
-        {
-          "name": "syft:metadata:virtualPath",
-          "value": "/usr/share/jenkins/jenkins.war:WEB-INF/detached-plugins/maven-plugin.hpi:WEB-INF/lib/commons-httpclient-3.1.jar"
-        }
-      ]
-    },
-    {
       "bom-ref": "pkg:maven/org.apache/commons-httpclient@3.1?package-id=61c517934abc1500",
       "type": "library",
       "name": "commons-httpclient",
@@ -7768,6 +7610,164 @@
         {
           "name": "syft:metadata:virtualPath",
           "value": "/usr/share/jenkins/jenkins.war:WEB-INF/lib/commons-httpclient-3.1.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache/commons-httpclient@3.1?package-id=80ef19848b244f52",
+      "type": "library",
+      "name": "commons-httpclient",
+      "version": "3.1",
+      "cpe": "cpe:2.3:a:apache-software-foundation:commons-httpclient:3.1:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache/commons-httpclient@3.1",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "964cd74171f427720480efdec40a7c7f6e58426a"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache-software-foundation:commons_httpclient:3.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache_software_foundation:commons-httpclient:3.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache_software_foundation:commons_httpclient:3.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache-software-foundation:httpclient:3.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache_software_foundation:httpclient:3.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons-httpclient:commons-httpclient:3.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons-httpclient:commons_httpclient:3.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons_httpclient:commons-httpclient:3.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons_httpclient:commons_httpclient:3.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache-software-foundation:commons:3.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache_software_foundation:commons:3.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons-httpclient:httpclient:3.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons_httpclient:httpclient:3.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:httpclient:commons-httpclient:3.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:httpclient:commons_httpclient:3.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons-httpclient:commons:3.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons:commons-httpclient:3.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons:commons_httpclient:3.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons_httpclient:commons:3.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:commons-httpclient:3.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:commons_httpclient:3.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:httpclient:httpclient:3.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons:httpclient:3.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:httpclient:commons:3.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:httpclient:3.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons:commons:3.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:commons:3.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:047f9c957a2e718be97e9928f1170d25e7dadd71737ca2a1e8e3db139c905915"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/usr/share/jenkins/jenkins.war"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/usr/share/jenkins/jenkins.war:WEB-INF/detached-plugins/maven-plugin.hpi:WEB-INF/lib/commons-httpclient-3.1.jar"
         }
       ]
     },
@@ -9199,173 +9199,6 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/commons-lang/commons-lang@2.6?package-id=8af543615305fd52",
-      "type": "library",
-      "group": "commons-lang",
-      "name": "commons-lang",
-      "version": "2.6",
-      "cpe": "cpe:2.3:a:apache-software-foundation:commons-lang:2.6:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/commons-lang/commons-lang@2.6",
-      "externalReferences": [
-        {
-          "url": "",
-          "hashes": [
-            {
-              "alg": "SHA-1",
-              "content": "0ce1edb914c94ebc388f086c6827e8bdeec71ac2"
-            }
-          ],
-          "type": "build-meta"
-        }
-      ],
-      "properties": [
-        {
-          "name": "syft:package:foundBy",
-          "value": "java-cataloger"
-        },
-        {
-          "name": "syft:package:language",
-          "value": "java"
-        },
-        {
-          "name": "syft:package:metadataType",
-          "value": "JavaMetadata"
-        },
-        {
-          "name": "syft:package:type",
-          "value": "java-archive"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache-software-foundation:commons_lang:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache_software_foundation:commons-lang:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache_software_foundation:commons_lang:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache-software-foundation:commons:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache_software_foundation:commons:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache-software-foundation:lang:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache_software_foundation:lang:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:commons-lang:commons-lang:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:commons-lang:commons_lang:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:commons_lang:commons-lang:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:commons_lang:commons_lang:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:commons-lang:commons:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:commons:commons-lang:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:commons:commons_lang:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:commons_lang:commons:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache:commons-lang:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache:commons_lang:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:commons-lang:lang:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:commons_lang:lang:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:lang:commons-lang:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:lang:commons_lang:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:commons:commons:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache:commons:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:commons:lang:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:lang:commons:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache:lang:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:lang:lang:2.6:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:location:0:layerID",
-          "value": "sha256:047f9c957a2e718be97e9928f1170d25e7dadd71737ca2a1e8e3db139c905915"
-        },
-        {
-          "name": "syft:location:0:path",
-          "value": "/usr/share/jenkins/jenkins.war"
-        },
-        {
-          "name": "syft:metadata:-:artifactID",
-          "value": "commons-lang"
-        },
-        {
-          "name": "syft:metadata:-:groupID",
-          "value": "commons-lang"
-        },
-        {
-          "name": "syft:metadata:virtualPath",
-          "value": "/usr/share/jenkins/jenkins.war:WEB-INF/detached-plugins/maven-plugin.hpi:WEB-INF/lib/commons-lang-2.6.jar"
-        }
-      ]
-    },
-    {
       "bom-ref": "pkg:maven/commons-lang/commons-lang@2.6?package-id=4fb44686e2830325",
       "type": "library",
       "group": "commons-lang",
@@ -9529,6 +9362,173 @@
         {
           "name": "syft:metadata:virtualPath",
           "value": "/usr/share/jenkins/jenkins.war:WEB-INF/lib/commons-lang-2.6.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/commons-lang/commons-lang@2.6?package-id=8af543615305fd52",
+      "type": "library",
+      "group": "commons-lang",
+      "name": "commons-lang",
+      "version": "2.6",
+      "cpe": "cpe:2.3:a:apache-software-foundation:commons-lang:2.6:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/commons-lang/commons-lang@2.6",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "0ce1edb914c94ebc388f086c6827e8bdeec71ac2"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache-software-foundation:commons_lang:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache_software_foundation:commons-lang:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache_software_foundation:commons_lang:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache-software-foundation:commons:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache_software_foundation:commons:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache-software-foundation:lang:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache_software_foundation:lang:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons-lang:commons-lang:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons-lang:commons_lang:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons_lang:commons-lang:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons_lang:commons_lang:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons-lang:commons:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons:commons-lang:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons:commons_lang:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons_lang:commons:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:commons-lang:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:commons_lang:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons-lang:lang:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons_lang:lang:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:lang:commons-lang:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:lang:commons_lang:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons:commons:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:commons:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons:lang:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:lang:commons:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:lang:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:lang:lang:2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:047f9c957a2e718be97e9928f1170d25e7dadd71737ca2a1e8e3db139c905915"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/usr/share/jenkins/jenkins.war"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "commons-lang"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "commons-lang"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/usr/share/jenkins/jenkins.war:WEB-INF/detached-plugins/maven-plugin.hpi:WEB-INF/lib/commons-lang-2.6.jar"
         }
       ]
     },
@@ -13956,13 +13956,25 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/com.google.guava/guava@11.0.1?package-id=1bc7b72a76a90ea3",
+      "bom-ref": "pkg:maven/com.google.guava/guava@11.0.1?package-id=7108dca45bc1dbc0",
       "type": "library",
       "group": "com.google.guava",
       "name": "guava",
       "version": "11.0.1",
       "cpe": "cpe:2.3:a:google:guava:11.0.1:*:*:*:*:*:*:*",
       "purl": "pkg:maven/com.google.guava/guava@11.0.1",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "57b40a943725d43610c898ac0169adf1b2d55742"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -14002,7 +14014,7 @@
         },
         {
           "name": "syft:metadata:virtualPath",
-          "value": "/usr/share/jenkins/jenkins.war:WEB-INF/detached-plugins/maven-plugin.hpi:WEB-INF/lib/guice-4.0-beta.jar:guava"
+          "value": "/usr/share/jenkins/jenkins.war:WEB-INF/lib/guava-11.0.1.jar"
         }
       ]
     },
@@ -14070,25 +14082,13 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/com.google.guava/guava@11.0.1?package-id=7108dca45bc1dbc0",
+      "bom-ref": "pkg:maven/com.google.guava/guava@11.0.1?package-id=1bc7b72a76a90ea3",
       "type": "library",
       "group": "com.google.guava",
       "name": "guava",
       "version": "11.0.1",
       "cpe": "cpe:2.3:a:google:guava:11.0.1:*:*:*:*:*:*:*",
       "purl": "pkg:maven/com.google.guava/guava@11.0.1",
-      "externalReferences": [
-        {
-          "url": "",
-          "hashes": [
-            {
-              "alg": "SHA-1",
-              "content": "57b40a943725d43610c898ac0169adf1b2d55742"
-            }
-          ],
-          "type": "build-meta"
-        }
-      ],
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -14128,7 +14128,7 @@
         },
         {
           "name": "syft:metadata:virtualPath",
-          "value": "/usr/share/jenkins/jenkins.war:WEB-INF/lib/guava-11.0.1.jar"
+          "value": "/usr/share/jenkins/jenkins.war:WEB-INF/detached-plugins/maven-plugin.hpi:WEB-INF/lib/guice-4.0-beta.jar:guava"
         }
       ]
     },
@@ -20127,56 +20127,6 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/jsr305/jsr305@1.3.9?package-id=a3dc16f2f79c4484",
-      "type": "library",
-      "name": "jsr305",
-      "version": "1.3.9",
-      "cpe": "cpe:2.3:a:jsr305:jsr305:1.3.9:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/jsr305/jsr305@1.3.9",
-      "externalReferences": [
-        {
-          "url": "",
-          "hashes": [
-            {
-              "alg": "SHA-1",
-              "content": "40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf"
-            }
-          ],
-          "type": "build-meta"
-        }
-      ],
-      "properties": [
-        {
-          "name": "syft:package:foundBy",
-          "value": "java-cataloger"
-        },
-        {
-          "name": "syft:package:language",
-          "value": "java"
-        },
-        {
-          "name": "syft:package:metadataType",
-          "value": "JavaMetadata"
-        },
-        {
-          "name": "syft:package:type",
-          "value": "java-archive"
-        },
-        {
-          "name": "syft:location:0:layerID",
-          "value": "sha256:047f9c957a2e718be97e9928f1170d25e7dadd71737ca2a1e8e3db139c905915"
-        },
-        {
-          "name": "syft:location:0:path",
-          "value": "/usr/share/jenkins/jenkins.war"
-        },
-        {
-          "name": "syft:metadata:virtualPath",
-          "value": "/usr/share/jenkins/jenkins.war:WEB-INF/detached-plugins/maven-plugin.hpi:WEB-INF/lib/jsr305-1.3.9.jar"
-        }
-      ]
-    },
-    {
       "bom-ref": "pkg:maven/jsr305/jsr305@1.3.9?package-id=106a5b2ba5860d7d",
       "type": "library",
       "name": "jsr305",
@@ -20273,6 +20223,56 @@
         {
           "name": "syft:metadata:virtualPath",
           "value": "/usr/share/jenkins/jenkins.war:WEB-INF/lib/jsr305-1.3.9.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/jsr305/jsr305@1.3.9?package-id=a3dc16f2f79c4484",
+      "type": "library",
+      "name": "jsr305",
+      "version": "1.3.9",
+      "cpe": "cpe:2.3:a:jsr305:jsr305:1.3.9:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/jsr305/jsr305@1.3.9",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:047f9c957a2e718be97e9928f1170d25e7dadd71737ca2a1e8e3db139c905915"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/usr/share/jenkins/jenkins.war"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/usr/share/jenkins/jenkins.war:WEB-INF/detached-plugins/maven-plugin.hpi:WEB-INF/lib/jsr305-1.3.9.jar"
         }
       ]
     },

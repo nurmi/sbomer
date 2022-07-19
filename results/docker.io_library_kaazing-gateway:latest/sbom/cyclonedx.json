@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:a3d17f0e-1741-4d8e-ad52-bddf2f3d3f16",
+  "serialNumber": "urn:uuid:f839ff8b-cae0-4de3-9c08-1a2af400687b",
   "version": 1,
   "metadata": {
-    "timestamp": "2022-07-18T01:40:38Z",
+    "timestamp": "2022-07-19T02:02:55Z",
     "tools": [
       {
         "vendor": "anchore",
@@ -6602,6 +6602,53 @@
       ]
     },
     {
+      "bom-ref": "pkg:maven/com.hazelcast/hazelcast@3.7.4?package-id=deacf452bd4f6706",
+      "type": "library",
+      "group": "com.hazelcast",
+      "name": "hazelcast",
+      "version": "3.7.4",
+      "cpe": "cpe:2.3:a:hazelcast:hazelcast:3.7.4:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/com.hazelcast/hazelcast@3.7.4",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:169cb136abe7042fc80663b3cb8ded57d772bde17e1d0ca7bd66e71fc0f25a49"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/kaazing-gateway/lib/hazelcast-3.7.4.jar"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "hazelcast"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "com.hazelcast"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/kaazing-gateway/lib/hazelcast-3.7.4.jar:hazelcast"
+        }
+      ]
+    },
+    {
       "bom-ref": "pkg:maven/com.hazelcast/hazelcast-aws@1.1.1?package-id=a763dd16068e5081",
       "type": "library",
       "group": "com.hazelcast",
@@ -6808,7 +6855,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/com.hazelcast/hazelcast-client-protocol@1.3.3?package-id=9283f318efc18753",
+      "bom-ref": "pkg:maven/com.hazelcast/hazelcast-client-protocol@1.3.3?package-id=4dd3da4a8b252856",
       "type": "library",
       "group": "com.hazelcast",
       "name": "hazelcast-client-protocol",
@@ -6898,19 +6945,11 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:hazelcast-client-protocol:hazelcast:1.3.3:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
           "value": "cpe:2.3:a:hazelcast:hazelcast-client-protocol:1.3.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
           "value": "cpe:2.3:a:hazelcast:hazelcast_client_protocol:1.3.3:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:hazelcast_client_protocol:hazelcast:1.3.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
@@ -6929,38 +6968,6 @@
           "value": "cpe:2.3:a:osgi:hazelcast_client_protocol:1.3.3:*:*:*:*:*:*:*"
         },
         {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:hazelcast-client:hazelcast:1.3.3:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:hazelcast_client:hazelcast:1.3.3:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:hazelcast\\,-inc-:hazelcast:1.3.3:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:hazelcast\\,_inc_:hazelcast:1.3.3:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:Activator:hazelcast:1.3.3:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:hazelcast:hazelcast:1.3.3:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:impl:hazelcast:1.3.3:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:osgi:hazelcast:1.3.3:*:*:*:*:*:*:*"
-        },
-        {
           "name": "syft:location:0:layerID",
           "value": "sha256:169cb136abe7042fc80663b3cb8ded57d772bde17e1d0ca7bd66e71fc0f25a49"
         },
@@ -6970,7 +6977,7 @@
         },
         {
           "name": "syft:metadata:-:artifactID",
-          "value": "hazelcast"
+          "value": "hazelcast-client-protocol"
         },
         {
           "name": "syft:metadata:-:groupID",
@@ -7260,12 +7267,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/org.jdom.xpath/jdom@1.1?package-id=a6dbcfef3add8154",
+      "bom-ref": "pkg:maven/org.jdom/jdom@1.1?package-id=a6dbcfef3add8154",
       "type": "library",
       "name": "jdom",
       "version": "1.1",
       "cpe": "cpe:2.3:a:transform:transform:1.1:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/org.jdom.xpath/jdom@1.1",
+      "purl": "pkg:maven/org.jdom/jdom@1.1",
       "externalReferences": [
         {
           "url": "",
