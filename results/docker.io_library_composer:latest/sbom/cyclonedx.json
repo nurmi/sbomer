@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:757980cd-9899-4cf8-931d-eb897b3fd924",
+  "serialNumber": "urn:uuid:3d944c2b-4723-462a-8b7a-4e64fab0dc9e",
   "version": 1,
   "metadata": {
-    "timestamp": "2022-07-19T01:48:28Z",
+    "timestamp": "2022-07-20T01:27:00Z",
     "tools": [
       {
         "vendor": "anchore",
@@ -13,21 +13,21 @@
       }
     ],
     "component": {
-      "bom-ref": "921956f4ac4c3924",
+      "bom-ref": "d87b55e5cc34dc06",
       "type": "container",
       "name": "docker.io/library/composer:latest",
-      "version": "sha256:bf89870969553aa84dc68496362a38bde9dd6394e2a370f477c51a0e73a1f528"
+      "version": "sha256:5a1922ef889221abc75db2c332c1e52464cd54fef6e5c708be78262244e6e315"
     }
   },
   "components": [
     {
-      "bom-ref": "pkg:alpine/.composer-rundeps@20220708.014549?arch=noarch\u0026distro=alpine-3.16.0\u0026package-id=54587940660a01c2",
+      "bom-ref": "pkg:alpine/.composer-rundeps@20220719.052504?arch=noarch\u0026distro=alpine-3.16.1\u0026package-id=c86f392b9c1916b5",
       "type": "library",
       "name": ".composer-rundeps",
-      "version": "20220708.014549",
+      "version": "20220719.052504",
       "description": "virtual meta package",
-      "cpe": "cpe:2.3:a:.composer-rundeps:.composer-rundeps:20220708.014549:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/.composer-rundeps@20220708.014549?arch=noarch\u0026distro=alpine-3.16.0",
+      "cpe": "cpe:2.3:a:.composer-rundeps:.composer-rundeps:20220719.052504:*:*:*:*:*:*:*",
+      "purl": "pkg:alpine/.composer-rundeps@20220719.052504?arch=noarch\u0026distro=alpine-3.16.1",
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -43,27 +43,27 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:.composer-rundeps:.composer_rundeps:20220708.014549:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:.composer-rundeps:.composer_rundeps:20220719.052504:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:.composer_rundeps:.composer-rundeps:20220708.014549:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:.composer_rundeps:.composer-rundeps:20220719.052504:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:.composer_rundeps:.composer_rundeps:20220708.014549:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:.composer_rundeps:.composer_rundeps:20220719.052504:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:.composer:.composer-rundeps:20220708.014549:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:.composer:.composer-rundeps:20220719.052504:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:.composer:.composer_rundeps:20220708.014549:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:.composer:.composer_rundeps:20220719.052504:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -71,7 +71,7 @@
         },
         {
           "name": "syft:metadata:gitCommitOfApkPort",
-          "value": "Q16v4MdeAhBTuYoDhYxEW5LZPFsx0="
+          "value": "Q1tGlb9CmIaE0t6Mrwi50UKe/g1OM="
         },
         {
           "name": "syft:metadata:installedSize",
@@ -79,7 +79,7 @@
         },
         {
           "name": "syft:metadata:pullChecksum",
-          "value": "Q16v4MdeAhBTuYoDhYxEW5LZPFsx0="
+          "value": "Q1tGlb9CmIaE0t6Mrwi50UKe/g1OM="
         },
         {
           "name": "syft:metadata:pullDependencies",
@@ -92,7 +92,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/alpine-baselayout@3.2.0-r22?arch=x86_64\u0026upstream=alpine-baselayout\u0026distro=alpine-3.16.0\u0026package-id=35085779bdf473bb",
+      "bom-ref": "pkg:alpine/alpine-baselayout@3.2.0-r22?arch=x86_64\u0026upstream=alpine-baselayout\u0026distro=alpine-3.16.1\u0026package-id=35085779bdf473bb",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "alpine-baselayout",
@@ -106,7 +106,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:alpine-baselayout:alpine-baselayout:3.2.0-r22:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/alpine-baselayout@3.2.0-r22?arch=x86_64\u0026upstream=alpine-baselayout\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/alpine-baselayout@3.2.0-r22?arch=x86_64\u0026upstream=alpine-baselayout\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://git.alpinelinux.org/cgit/aports/tree/main/alpine-baselayout",
@@ -148,7 +148,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -181,7 +181,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/alpine-baselayout-data@3.2.0-r22?arch=x86_64\u0026upstream=alpine-baselayout\u0026distro=alpine-3.16.0\u0026package-id=33b5ab4a81e975bd",
+      "bom-ref": "pkg:alpine/alpine-baselayout-data@3.2.0-r22?arch=x86_64\u0026upstream=alpine-baselayout\u0026distro=alpine-3.16.1\u0026package-id=33b5ab4a81e975bd",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "alpine-baselayout-data",
@@ -195,7 +195,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:alpine-baselayout-data:alpine-baselayout-data:3.2.0-r22:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/alpine-baselayout-data@3.2.0-r22?arch=x86_64\u0026upstream=alpine-baselayout\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/alpine-baselayout-data@3.2.0-r22?arch=x86_64\u0026upstream=alpine-baselayout\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://git.alpinelinux.org/cgit/aports/tree/main/alpine-baselayout",
@@ -253,7 +253,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -282,7 +282,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/alpine-keys@2.4-r1?arch=x86_64\u0026upstream=alpine-keys\u0026distro=alpine-3.16.0\u0026package-id=3f53edc3b14056c3",
+      "bom-ref": "pkg:alpine/alpine-keys@2.4-r1?arch=x86_64\u0026upstream=alpine-keys\u0026distro=alpine-3.16.1\u0026package-id=3f53edc3b14056c3",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "alpine-keys",
@@ -296,7 +296,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:alpine-keys:alpine-keys:2.4-r1:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/alpine-keys@2.4-r1?arch=x86_64\u0026upstream=alpine-keys\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/alpine-keys@2.4-r1?arch=x86_64\u0026upstream=alpine-keys\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://alpinelinux.org",
@@ -338,7 +338,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -367,7 +367,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/apk-tools@2.12.9-r3?arch=x86_64\u0026upstream=apk-tools\u0026distro=alpine-3.16.0\u0026package-id=9bb9cb82a4ce72b1",
+      "bom-ref": "pkg:alpine/apk-tools@2.12.9-r3?arch=x86_64\u0026upstream=apk-tools\u0026distro=alpine-3.16.1\u0026package-id=9bb9cb82a4ce72b1",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "apk-tools",
@@ -381,7 +381,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:apk-tools:apk-tools:2.12.9-r3:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/apk-tools@2.12.9-r3?arch=x86_64\u0026upstream=apk-tools\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/apk-tools@2.12.9-r3?arch=x86_64\u0026upstream=apk-tools\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://gitlab.alpinelinux.org/alpine/apk-tools",
@@ -423,7 +423,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -456,7 +456,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/apr@1.7.0-r2?arch=x86_64\u0026upstream=apr\u0026distro=alpine-3.16.0\u0026package-id=3893350165fd28f7",
+      "bom-ref": "pkg:alpine/apr@1.7.0-r2?arch=x86_64\u0026upstream=apr\u0026distro=alpine-3.16.1\u0026package-id=3893350165fd28f7",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "apr",
@@ -470,7 +470,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:apr:apr:1.7.0-r2:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/apr@1.7.0-r2?arch=x86_64\u0026upstream=apr\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/apr@1.7.0-r2?arch=x86_64\u0026upstream=apr\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://apr.apache.org/",
@@ -492,7 +492,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -525,7 +525,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/apr-util@1.6.1-r12?arch=x86_64\u0026upstream=apr-util\u0026distro=alpine-3.16.0\u0026package-id=b0a359176659d46b",
+      "bom-ref": "pkg:alpine/apr-util@1.6.1-r12?arch=x86_64\u0026upstream=apr-util\u0026distro=alpine-3.16.1\u0026package-id=b0a359176659d46b",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "apr-util",
@@ -539,7 +539,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:apr-util:apr-util:1.6.1-r12:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/apr-util@1.6.1-r12?arch=x86_64\u0026upstream=apr-util\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/apr-util@1.6.1-r12?arch=x86_64\u0026upstream=apr-util\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://apr.apache.org/",
@@ -581,7 +581,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -614,7 +614,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/argon2-libs@20190702-r1?arch=x86_64\u0026upstream=argon2\u0026distro=alpine-3.16.0\u0026package-id=33e04c4480c5b5ac",
+      "bom-ref": "pkg:alpine/argon2-libs@20190702-r1?arch=x86_64\u0026upstream=argon2\u0026distro=alpine-3.16.1\u0026package-id=33e04c4480c5b5ac",
       "type": "library",
       "publisher": "Corey Oliver \u003ccoreyjonoliver@gmail.com\u003e",
       "name": "argon2-libs",
@@ -633,7 +633,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:argon2-libs:argon2-libs:20190702-r1:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/argon2-libs@20190702-r1?arch=x86_64\u0026upstream=argon2\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/argon2-libs@20190702-r1?arch=x86_64\u0026upstream=argon2\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://github.com/P-H-C/phc-winner-argon2",
@@ -675,7 +675,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -708,7 +708,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/bash@5.1.16-r2?arch=x86_64\u0026upstream=bash\u0026distro=alpine-3.16.0\u0026package-id=39a7d9039697eed2",
+      "bom-ref": "pkg:alpine/bash@5.1.16-r2?arch=x86_64\u0026upstream=bash\u0026distro=alpine-3.16.1\u0026package-id=39a7d9039697eed2",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "bash",
@@ -722,7 +722,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:bash:bash:5.1.16-r2:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/bash@5.1.16-r2?arch=x86_64\u0026upstream=bash\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/bash@5.1.16-r2?arch=x86_64\u0026upstream=bash\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://www.gnu.org/software/bash/bash.html",
@@ -744,7 +744,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -777,7 +777,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/brotli-libs@1.0.9-r6?arch=x86_64\u0026upstream=brotli\u0026distro=alpine-3.16.0\u0026package-id=d87674d114b4dc7f",
+      "bom-ref": "pkg:alpine/brotli-libs@1.0.9-r6?arch=x86_64\u0026upstream=brotli\u0026distro=alpine-3.16.1\u0026package-id=d87674d114b4dc7f",
       "type": "library",
       "publisher": "prspkt \u003cprspkt@protonmail.com\u003e",
       "name": "brotli-libs",
@@ -791,7 +791,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:brotli-libs:brotli-libs:1.0.9-r6:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/brotli-libs@1.0.9-r6?arch=x86_64\u0026upstream=brotli\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/brotli-libs@1.0.9-r6?arch=x86_64\u0026upstream=brotli\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://github.com/google/brotli",
@@ -833,7 +833,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -866,11 +866,11 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/busybox@1.35.0-r14?arch=x86_64\u0026upstream=busybox\u0026distro=alpine-3.16.0\u0026package-id=7135a56db4e9fcd9",
+      "bom-ref": "pkg:alpine/busybox@1.35.0-r15?arch=x86_64\u0026upstream=busybox\u0026distro=alpine-3.16.1\u0026package-id=33a981c93d46a3ab",
       "type": "library",
       "publisher": "Sören Tempel \u003csoeren+alpine@soeren-tempel.net\u003e",
       "name": "busybox",
-      "version": "1.35.0-r14",
+      "version": "1.35.0-r15",
       "description": "Size optimized toolbox of many common UNIX utilities",
       "licenses": [
         {
@@ -879,8 +879,8 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:busybox:busybox:1.35.0-r14:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/busybox@1.35.0-r14?arch=x86_64\u0026upstream=busybox\u0026distro=alpine-3.16.0",
+      "cpe": "cpe:2.3:a:busybox:busybox:1.35.0-r15:*:*:*:*:*:*:*",
+      "purl": "pkg:alpine/busybox@1.35.0-r15?arch=x86_64\u0026upstream=busybox\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://busybox.net/",
@@ -902,7 +902,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -910,7 +910,7 @@
         },
         {
           "name": "syft:metadata:gitCommitOfApkPort",
-          "value": "d16b7061ff050fa80d88ef65d4fd1e1334072f85"
+          "value": "e58f0e341603e9facc1e675722367174b45e0d0c"
         },
         {
           "name": "syft:metadata:installedSize",
@@ -922,7 +922,7 @@
         },
         {
           "name": "syft:metadata:pullChecksum",
-          "value": "Q1Lw3LjDKRjGVnuQrgAfcBArcKUP8="
+          "value": "Q1Re7Y5ZR8TefqtbuN/mzQvBvuT2Y="
         },
         {
           "name": "syft:metadata:pullDependencies",
@@ -930,12 +930,12 @@
         },
         {
           "name": "syft:metadata:size",
-          "value": "506037"
+          "value": "506021"
         }
       ]
     },
     {
-      "bom-ref": "pkg:alpine/ca-certificates@20211220-r0?arch=x86_64\u0026upstream=ca-certificates\u0026distro=alpine-3.16.0\u0026package-id=e54d0b20c16b4132",
+      "bom-ref": "pkg:alpine/ca-certificates@20211220-r0?arch=x86_64\u0026upstream=ca-certificates\u0026distro=alpine-3.16.1\u0026package-id=e54d0b20c16b4132",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "ca-certificates",
@@ -954,7 +954,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:ca-certificates:ca-certificates:20211220-r0:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/ca-certificates@20211220-r0?arch=x86_64\u0026upstream=ca-certificates\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/ca-certificates@20211220-r0?arch=x86_64\u0026upstream=ca-certificates\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/",
@@ -996,7 +996,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -1029,7 +1029,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/ca-certificates-bundle@20211220-r0?arch=x86_64\u0026upstream=ca-certificates\u0026distro=alpine-3.16.0\u0026package-id=461d8f29b121da62",
+      "bom-ref": "pkg:alpine/ca-certificates-bundle@20211220-r0?arch=x86_64\u0026upstream=ca-certificates\u0026distro=alpine-3.16.1\u0026package-id=461d8f29b121da62",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "ca-certificates-bundle",
@@ -1048,7 +1048,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:ca-certificates-bundle:ca-certificates-bundle:20211220-r0:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/ca-certificates-bundle@20211220-r0?arch=x86_64\u0026upstream=ca-certificates\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/ca-certificates-bundle@20211220-r0?arch=x86_64\u0026upstream=ca-certificates\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/",
@@ -1106,7 +1106,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -1135,7 +1135,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/coreutils@9.1-r0?arch=x86_64\u0026upstream=coreutils\u0026distro=alpine-3.16.0\u0026package-id=4008835f6ee1d166",
+      "bom-ref": "pkg:alpine/coreutils@9.1-r0?arch=x86_64\u0026upstream=coreutils\u0026distro=alpine-3.16.1\u0026package-id=4008835f6ee1d166",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "coreutils",
@@ -1149,7 +1149,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:coreutils:coreutils:9.1-r0:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/coreutils@9.1-r0?arch=x86_64\u0026upstream=coreutils\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/coreutils@9.1-r0?arch=x86_64\u0026upstream=coreutils\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://www.gnu.org/software/coreutils/",
@@ -1171,7 +1171,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -1204,7 +1204,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/curl@7.83.1-r2?arch=x86_64\u0026upstream=curl\u0026distro=alpine-3.16.0\u0026package-id=f11ec00bb1d043de",
+      "bom-ref": "pkg:alpine/curl@7.83.1-r2?arch=x86_64\u0026upstream=curl\u0026distro=alpine-3.16.1\u0026package-id=f11ec00bb1d043de",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "curl",
@@ -1218,7 +1218,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:curl:curl:7.83.1-r2:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/curl@7.83.1-r2?arch=x86_64\u0026upstream=curl\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/curl@7.83.1-r2?arch=x86_64\u0026upstream=curl\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://curl.se/",
@@ -1240,7 +1240,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -1273,7 +1273,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/expat@2.4.8-r0?arch=x86_64\u0026upstream=expat\u0026distro=alpine-3.16.0\u0026package-id=ac25856e3537ee1b",
+      "bom-ref": "pkg:alpine/expat@2.4.8-r0?arch=x86_64\u0026upstream=expat\u0026distro=alpine-3.16.1\u0026package-id=ac25856e3537ee1b",
       "type": "library",
       "publisher": "Carlo Landmeter \u003cclandmeter@alpinelinux.org\u003e",
       "name": "expat",
@@ -1287,7 +1287,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:expat:expat:2.4.8-r0:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/expat@2.4.8-r0?arch=x86_64\u0026upstream=expat\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/expat@2.4.8-r0?arch=x86_64\u0026upstream=expat\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://libexpat.github.io/",
@@ -1309,7 +1309,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -1342,7 +1342,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/gdbm@1.23-r0?arch=x86_64\u0026upstream=gdbm\u0026distro=alpine-3.16.0\u0026package-id=4b4e90390840d4ba",
+      "bom-ref": "pkg:alpine/gdbm@1.23-r0?arch=x86_64\u0026upstream=gdbm\u0026distro=alpine-3.16.1\u0026package-id=4b4e90390840d4ba",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "gdbm",
@@ -1356,7 +1356,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:gdbm:gdbm:1.23-r0:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/gdbm@1.23-r0?arch=x86_64\u0026upstream=gdbm\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/gdbm@1.23-r0?arch=x86_64\u0026upstream=gdbm\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://www.gnu.org/software/gdbm/",
@@ -1378,7 +1378,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -1411,11 +1411,11 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/git@2.36.1-r0?arch=x86_64\u0026upstream=git\u0026distro=alpine-3.16.0\u0026package-id=daf9addbd641695f",
+      "bom-ref": "pkg:alpine/git@2.36.2-r0?arch=x86_64\u0026upstream=git\u0026distro=alpine-3.16.1\u0026package-id=831ff236395ee387",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "git",
-      "version": "2.36.1-r0",
+      "version": "2.36.2-r0",
       "description": "Distributed version control system",
       "licenses": [
         {
@@ -1424,8 +1424,8 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:git:git:2.36.1-r0:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/git@2.36.1-r0?arch=x86_64\u0026upstream=git\u0026distro=alpine-3.16.0",
+      "cpe": "cpe:2.3:a:git:git:2.36.2-r0:*:*:*:*:*:*:*",
+      "purl": "pkg:alpine/git@2.36.2-r0?arch=x86_64\u0026upstream=git\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://www.git-scm.com/",
@@ -1447,7 +1447,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -1455,7 +1455,7 @@
         },
         {
           "name": "syft:metadata:gitCommitOfApkPort",
-          "value": "350dafad091b87ddb93cd41d236524836a5d3f27"
+          "value": "f8000cd06477744ba9b3573b762710c4d8874fc6"
         },
         {
           "name": "syft:metadata:installedSize",
@@ -1467,7 +1467,7 @@
         },
         {
           "name": "syft:metadata:pullChecksum",
-          "value": "Q1v/PeQSsZk0jvY7efTxcGZrsB5uA="
+          "value": "Q1B3ybdqdIIRXpAQuErMaiqPYRqiU="
         },
         {
           "name": "syft:metadata:pullDependencies",
@@ -1475,12 +1475,12 @@
         },
         {
           "name": "syft:metadata:size",
-          "value": "5686539"
+          "value": "5688661"
         }
       ]
     },
     {
-      "bom-ref": "pkg:alpine/gmp@6.2.1-r2?arch=x86_64\u0026upstream=gmp\u0026distro=alpine-3.16.0\u0026package-id=9700c588d404a883",
+      "bom-ref": "pkg:alpine/gmp@6.2.1-r2?arch=x86_64\u0026upstream=gmp\u0026distro=alpine-3.16.1\u0026package-id=9700c588d404a883",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "gmp",
@@ -1499,7 +1499,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:gmp:gmp:6.2.1-r2:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/gmp@6.2.1-r2?arch=x86_64\u0026upstream=gmp\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/gmp@6.2.1-r2?arch=x86_64\u0026upstream=gmp\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://gmplib.org/",
@@ -1521,7 +1521,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -1554,7 +1554,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/gnu-libiconv@1.16-r0?arch=x86_64\u0026upstream=gnu-libiconv\u0026distro=alpine-3.16.0\u0026package-id=f7f95c36054c86d4",
+      "bom-ref": "pkg:alpine/gnu-libiconv@1.16-r0?arch=x86_64\u0026upstream=gnu-libiconv\u0026distro=alpine-3.16.1\u0026package-id=f7f95c36054c86d4",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "gnu-libiconv",
@@ -1568,7 +1568,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:gnu-libiconv:gnu-libiconv:1.16-r0:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/gnu-libiconv@1.16-r0?arch=x86_64\u0026upstream=gnu-libiconv\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/gnu-libiconv@1.16-r0?arch=x86_64\u0026upstream=gnu-libiconv\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://www.gnu.org/software/libiconv",
@@ -1610,7 +1610,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -1643,7 +1643,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/libacl@2.3.1-r0?arch=x86_64\u0026upstream=acl\u0026distro=alpine-3.16.0\u0026package-id=3ae22f89c0ef582",
+      "bom-ref": "pkg:alpine/libacl@2.3.1-r0?arch=x86_64\u0026upstream=acl\u0026distro=alpine-3.16.1\u0026package-id=3ae22f89c0ef582",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "libacl",
@@ -1662,7 +1662,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:libacl:libacl:2.3.1-r0:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/libacl@2.3.1-r0?arch=x86_64\u0026upstream=acl\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/libacl@2.3.1-r0?arch=x86_64\u0026upstream=acl\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://savannah.nongnu.org/projects/acl",
@@ -1684,7 +1684,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -1717,7 +1717,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/libattr@2.5.1-r1?arch=x86_64\u0026upstream=attr\u0026distro=alpine-3.16.0\u0026package-id=9202aed9d1cb6704",
+      "bom-ref": "pkg:alpine/libattr@2.5.1-r1?arch=x86_64\u0026upstream=attr\u0026distro=alpine-3.16.1\u0026package-id=9202aed9d1cb6704",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "libattr",
@@ -1731,7 +1731,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:libattr:libattr:2.5.1-r1:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/libattr@2.5.1-r1?arch=x86_64\u0026upstream=attr\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/libattr@2.5.1-r1?arch=x86_64\u0026upstream=attr\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://savannah.nongnu.org/projects/attr",
@@ -1753,7 +1753,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -1786,7 +1786,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/libbz2@1.0.8-r1?arch=x86_64\u0026upstream=bzip2\u0026distro=alpine-3.16.0\u0026package-id=f74757b6b603e969",
+      "bom-ref": "pkg:alpine/libbz2@1.0.8-r1?arch=x86_64\u0026upstream=bzip2\u0026distro=alpine-3.16.1\u0026package-id=f74757b6b603e969",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "libbz2",
@@ -1800,7 +1800,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:libbz2:libbz2:1.0.8-r1:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/libbz2@1.0.8-r1?arch=x86_64\u0026upstream=bzip2\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/libbz2@1.0.8-r1?arch=x86_64\u0026upstream=bzip2\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "http://sources.redhat.com/bzip2",
@@ -1822,7 +1822,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -1855,7 +1855,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/libc-utils@0.7.2-r3?arch=x86_64\u0026upstream=libc-dev\u0026distro=alpine-3.16.0\u0026package-id=ededb9e6ff708347",
+      "bom-ref": "pkg:alpine/libc-utils@0.7.2-r3?arch=x86_64\u0026upstream=libc-dev\u0026distro=alpine-3.16.1\u0026package-id=ededb9e6ff708347",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "libc-utils",
@@ -1874,7 +1874,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:libc-utils:libc-utils:0.7.2-r3:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/libc-utils@0.7.2-r3?arch=x86_64\u0026upstream=libc-dev\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/libc-utils@0.7.2-r3?arch=x86_64\u0026upstream=libc-dev\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://alpinelinux.org",
@@ -1916,7 +1916,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -1949,7 +1949,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/libcrypto1.1@1.1.1q-r0?arch=x86_64\u0026upstream=openssl\u0026distro=alpine-3.16.0\u0026package-id=cce075f4f19baaee",
+      "bom-ref": "pkg:alpine/libcrypto1.1@1.1.1q-r0?arch=x86_64\u0026upstream=openssl\u0026distro=alpine-3.16.1\u0026package-id=cce075f4f19baaee",
       "type": "library",
       "publisher": "Timo Teras \u003ctimo.teras@iki.fi\u003e",
       "name": "libcrypto1.1",
@@ -1963,7 +1963,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:libcrypto1.1:libcrypto1.1:1.1.1q-r0:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/libcrypto1.1@1.1.1q-r0?arch=x86_64\u0026upstream=openssl\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/libcrypto1.1@1.1.1q-r0?arch=x86_64\u0026upstream=openssl\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://www.openssl.org/",
@@ -1985,7 +1985,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -2018,7 +2018,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/libcurl@7.83.1-r2?arch=x86_64\u0026upstream=curl\u0026distro=alpine-3.16.0\u0026package-id=f2f07f073a1e9119",
+      "bom-ref": "pkg:alpine/libcurl@7.83.1-r2?arch=x86_64\u0026upstream=curl\u0026distro=alpine-3.16.1\u0026package-id=f2f07f073a1e9119",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "libcurl",
@@ -2032,7 +2032,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:libcurl:libcurl:7.83.1-r2:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/libcurl@7.83.1-r2?arch=x86_64\u0026upstream=curl\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/libcurl@7.83.1-r2?arch=x86_64\u0026upstream=curl\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://curl.se/",
@@ -2054,7 +2054,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -2087,7 +2087,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/libedit@20210910.3.1-r0?arch=x86_64\u0026upstream=libedit\u0026distro=alpine-3.16.0\u0026package-id=54d2f5adf51f7744",
+      "bom-ref": "pkg:alpine/libedit@20210910.3.1-r0?arch=x86_64\u0026upstream=libedit\u0026distro=alpine-3.16.1\u0026package-id=54d2f5adf51f7744",
       "type": "library",
       "publisher": "Drew DeVault \u003csir@cmpwn.com\u003e",
       "name": "libedit",
@@ -2101,7 +2101,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:libedit:libedit:20210910.3.1-r0:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/libedit@20210910.3.1-r0?arch=x86_64\u0026upstream=libedit\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/libedit@20210910.3.1-r0?arch=x86_64\u0026upstream=libedit\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://www.thrysoee.dk/editline",
@@ -2123,7 +2123,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -2156,7 +2156,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/libffi@3.4.2-r1?arch=x86_64\u0026upstream=libffi\u0026distro=alpine-3.16.0\u0026package-id=e1b839361c4bd434",
+      "bom-ref": "pkg:alpine/libffi@3.4.2-r1?arch=x86_64\u0026upstream=libffi\u0026distro=alpine-3.16.1\u0026package-id=e1b839361c4bd434",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "libffi",
@@ -2170,7 +2170,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:libffi:libffi:3.4.2-r1:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/libffi@3.4.2-r1?arch=x86_64\u0026upstream=libffi\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/libffi@3.4.2-r1?arch=x86_64\u0026upstream=libffi\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://sourceware.org/libffi/",
@@ -2192,7 +2192,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -2225,7 +2225,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/libgcc@11.2.1_git20220219-r2?arch=x86_64\u0026upstream=gcc\u0026distro=alpine-3.16.0\u0026package-id=6da7ea98329cb566",
+      "bom-ref": "pkg:alpine/libgcc@11.2.1_git20220219-r2?arch=x86_64\u0026upstream=gcc\u0026distro=alpine-3.16.1\u0026package-id=6da7ea98329cb566",
       "type": "library",
       "publisher": "Ariadne Conill \u003cariadne@dereferenced.org\u003e",
       "name": "libgcc",
@@ -2244,7 +2244,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:libgcc:libgcc:11.2.1_git20220219-r2:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/libgcc@11.2.1_git20220219-r2?arch=x86_64\u0026upstream=gcc\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/libgcc@11.2.1_git20220219-r2?arch=x86_64\u0026upstream=gcc\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://gcc.gnu.org",
@@ -2266,7 +2266,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -2299,14 +2299,14 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/libsasl@2.1.28-r0?arch=x86_64\u0026upstream=cyrus-sasl\u0026distro=alpine-3.16.0\u0026package-id=d4eb14c4e9954c35",
+      "bom-ref": "pkg:alpine/libsasl@2.1.28-r0?arch=x86_64\u0026upstream=cyrus-sasl\u0026distro=alpine-3.16.1\u0026package-id=d4eb14c4e9954c35",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "libsasl",
       "version": "2.1.28-r0",
       "description": "Cyrus Simple Authentication and Security Layer (SASL) library",
       "cpe": "cpe:2.3:a:libsasl:libsasl:2.1.28-r0:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/libsasl@2.1.28-r0?arch=x86_64\u0026upstream=cyrus-sasl\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/libsasl@2.1.28-r0?arch=x86_64\u0026upstream=cyrus-sasl\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://www.cyrusimap.org/sasl/",
@@ -2328,7 +2328,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -2361,7 +2361,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/libsodium@1.0.18-r0?arch=x86_64\u0026upstream=libsodium\u0026distro=alpine-3.16.0\u0026package-id=1ee676c906289918",
+      "bom-ref": "pkg:alpine/libsodium@1.0.18-r0?arch=x86_64\u0026upstream=libsodium\u0026distro=alpine-3.16.1\u0026package-id=1ee676c906289918",
       "type": "library",
       "publisher": "Stuart Cardall \u003cdeveloper@it-offshore.co.uk\u003e",
       "name": "libsodium",
@@ -2375,7 +2375,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:libsodium:libsodium:1.0.18-r0:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/libsodium@1.0.18-r0?arch=x86_64\u0026upstream=libsodium\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/libsodium@1.0.18-r0?arch=x86_64\u0026upstream=libsodium\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://github.com/jedisct1/libsodium",
@@ -2397,7 +2397,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -2430,7 +2430,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/libssl1.1@1.1.1q-r0?arch=x86_64\u0026upstream=openssl\u0026distro=alpine-3.16.0\u0026package-id=bebc881007d932d",
+      "bom-ref": "pkg:alpine/libssl1.1@1.1.1q-r0?arch=x86_64\u0026upstream=openssl\u0026distro=alpine-3.16.1\u0026package-id=bebc881007d932d",
       "type": "library",
       "publisher": "Timo Teras \u003ctimo.teras@iki.fi\u003e",
       "name": "libssl1.1",
@@ -2444,7 +2444,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:libssl1.1:libssl1.1:1.1.1q-r0:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/libssl1.1@1.1.1q-r0?arch=x86_64\u0026upstream=openssl\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/libssl1.1@1.1.1q-r0?arch=x86_64\u0026upstream=openssl\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://www.openssl.org/",
@@ -2466,7 +2466,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -2499,7 +2499,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/libstdc++@11.2.1_git20220219-r2?arch=x86_64\u0026upstream=gcc\u0026distro=alpine-3.16.0\u0026package-id=2ec8f33808a02b93",
+      "bom-ref": "pkg:alpine/libstdc++@11.2.1_git20220219-r2?arch=x86_64\u0026upstream=gcc\u0026distro=alpine-3.16.1\u0026package-id=2ec8f33808a02b93",
       "type": "library",
       "publisher": "Ariadne Conill \u003cariadne@dereferenced.org\u003e",
       "name": "libstdc++",
@@ -2518,7 +2518,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:libstdc\\+\\+:libstdc\\+\\+:11.2.1_git20220219-r2:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/libstdc++@11.2.1_git20220219-r2?arch=x86_64\u0026upstream=gcc\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/libstdc++@11.2.1_git20220219-r2?arch=x86_64\u0026upstream=gcc\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://gcc.gnu.org",
@@ -2540,7 +2540,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -2573,7 +2573,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/libuuid@2.38-r1?arch=x86_64\u0026upstream=util-linux\u0026distro=alpine-3.16.0\u0026package-id=afc1426c1ea4fa0e",
+      "bom-ref": "pkg:alpine/libuuid@2.38-r1?arch=x86_64\u0026upstream=util-linux\u0026distro=alpine-3.16.1\u0026package-id=afc1426c1ea4fa0e",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "libuuid",
@@ -2597,7 +2597,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:libuuid:libuuid:2.38-r1:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/libuuid@2.38-r1?arch=x86_64\u0026upstream=util-linux\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/libuuid@2.38-r1?arch=x86_64\u0026upstream=util-linux\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://git.kernel.org/cgit/utils/util-linux/util-linux.git",
@@ -2619,7 +2619,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -2652,7 +2652,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/libxml2@2.9.14-r0?arch=x86_64\u0026upstream=libxml2\u0026distro=alpine-3.16.0\u0026package-id=98ba04b0522e56dc",
+      "bom-ref": "pkg:alpine/libxml2@2.9.14-r0?arch=x86_64\u0026upstream=libxml2\u0026distro=alpine-3.16.1\u0026package-id=98ba04b0522e56dc",
       "type": "library",
       "publisher": "Carlo Landmeter \u003cclandmeter@alpinelinux.org\u003e",
       "name": "libxml2",
@@ -2666,7 +2666,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:libxml2:libxml2:2.9.14-r0:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/libxml2@2.9.14-r0?arch=x86_64\u0026upstream=libxml2\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/libxml2@2.9.14-r0?arch=x86_64\u0026upstream=libxml2\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "http://www.xmlsoft.org/",
@@ -2688,7 +2688,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -2721,7 +2721,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/libzip@1.8.0-r1?arch=x86_64\u0026upstream=libzip\u0026distro=alpine-3.16.0\u0026package-id=fc1a9a77078bcf35",
+      "bom-ref": "pkg:alpine/libzip@1.8.0-r1?arch=x86_64\u0026upstream=libzip\u0026distro=alpine-3.16.1\u0026package-id=fc1a9a77078bcf35",
       "type": "library",
       "publisher": "Carlo Landmeter \u003cclandmeter@alpinelinux.org\u003e",
       "name": "libzip",
@@ -2735,7 +2735,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:libzip:libzip:1.8.0-r1:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/libzip@1.8.0-r1?arch=x86_64\u0026upstream=libzip\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/libzip@1.8.0-r1?arch=x86_64\u0026upstream=libzip\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://libzip.org/",
@@ -2757,7 +2757,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -2790,7 +2790,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/lz4-libs@1.9.3-r1?arch=x86_64\u0026upstream=lz4\u0026distro=alpine-3.16.0\u0026package-id=48d9d6adaf368c30",
+      "bom-ref": "pkg:alpine/lz4-libs@1.9.3-r1?arch=x86_64\u0026upstream=lz4\u0026distro=alpine-3.16.1\u0026package-id=48d9d6adaf368c30",
       "type": "library",
       "publisher": "Stuart Cardall \u003cdeveloper@it-offshore.co.uk\u003e",
       "name": "lz4-libs",
@@ -2809,7 +2809,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:lz4-libs:lz4-libs:1.9.3-r1:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/lz4-libs@1.9.3-r1?arch=x86_64\u0026upstream=lz4\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/lz4-libs@1.9.3-r1?arch=x86_64\u0026upstream=lz4\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://github.com/lz4/lz4",
@@ -2851,7 +2851,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -2884,7 +2884,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/make@4.3-r0?arch=x86_64\u0026upstream=make\u0026distro=alpine-3.16.0\u0026package-id=845fbf3a4e67c182",
+      "bom-ref": "pkg:alpine/make@4.3-r0?arch=x86_64\u0026upstream=make\u0026distro=alpine-3.16.1\u0026package-id=845fbf3a4e67c182",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "make",
@@ -2898,7 +2898,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:make:make:4.3-r0:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/make@4.3-r0?arch=x86_64\u0026upstream=make\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/make@4.3-r0?arch=x86_64\u0026upstream=make\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://www.gnu.org/software/make",
@@ -2920,7 +2920,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -3035,7 +3035,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:62b1c50113b14cc381dfff58733ba44b6b3668dda31072faae8cbb438734a82e"
+          "value": "sha256:bbd4977c182858b9e1e40ed771c315761c6ddb7bc51425ee12c79f1e2b99ee2c"
         },
         {
           "name": "syft:location:0:path",
@@ -3044,7 +3044,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/mercurial@6.1.1-r0?arch=x86_64\u0026upstream=mercurial\u0026distro=alpine-3.16.0\u0026package-id=996edec9ca355507",
+      "bom-ref": "pkg:alpine/mercurial@6.1.1-r0?arch=x86_64\u0026upstream=mercurial\u0026distro=alpine-3.16.1\u0026package-id=996edec9ca355507",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "mercurial",
@@ -3058,7 +3058,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:mercurial:mercurial:6.1.1-r0:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/mercurial@6.1.1-r0?arch=x86_64\u0026upstream=mercurial\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/mercurial@6.1.1-r0?arch=x86_64\u0026upstream=mercurial\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://www.mercurial-scm.org/",
@@ -3080,7 +3080,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -3113,7 +3113,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/mpdecimal@2.5.1-r1?arch=x86_64\u0026upstream=mpdecimal\u0026distro=alpine-3.16.0\u0026package-id=1a95c2d7ba25cbac",
+      "bom-ref": "pkg:alpine/mpdecimal@2.5.1-r1?arch=x86_64\u0026upstream=mpdecimal\u0026distro=alpine-3.16.1\u0026package-id=1a95c2d7ba25cbac",
       "type": "library",
       "publisher": "Stefan Stutz \u003cstutz@pm.me\u003e",
       "name": "mpdecimal",
@@ -3127,7 +3127,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:mpdecimal:mpdecimal:2.5.1-r1:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/mpdecimal@2.5.1-r1?arch=x86_64\u0026upstream=mpdecimal\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/mpdecimal@2.5.1-r1?arch=x86_64\u0026upstream=mpdecimal\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://www.bytereef.org/mpdecimal/index.html",
@@ -3149,7 +3149,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -3182,7 +3182,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/musl@1.2.3-r0?arch=x86_64\u0026upstream=musl\u0026distro=alpine-3.16.0\u0026package-id=ec1d619a28263eb0",
+      "bom-ref": "pkg:alpine/musl@1.2.3-r0?arch=x86_64\u0026upstream=musl\u0026distro=alpine-3.16.1\u0026package-id=ec1d619a28263eb0",
       "type": "library",
       "publisher": "Timo Teräs \u003ctimo.teras@iki.fi\u003e",
       "name": "musl",
@@ -3196,7 +3196,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:musl:musl:1.2.3-r0:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/musl@1.2.3-r0?arch=x86_64\u0026upstream=musl\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/musl@1.2.3-r0?arch=x86_64\u0026upstream=musl\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://musl.libc.org/",
@@ -3218,7 +3218,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -3247,7 +3247,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/musl-utils@1.2.3-r0?arch=x86_64\u0026upstream=musl\u0026distro=alpine-3.16.0\u0026package-id=b703a8e4e90dd6dc",
+      "bom-ref": "pkg:alpine/musl-utils@1.2.3-r0?arch=x86_64\u0026upstream=musl\u0026distro=alpine-3.16.1\u0026package-id=b703a8e4e90dd6dc",
       "type": "library",
       "publisher": "Timo Teräs \u003ctimo.teras@iki.fi\u003e",
       "name": "musl-utils",
@@ -3261,7 +3261,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:musl-utils:musl-utils:1.2.3-r0:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/musl-utils@1.2.3-r0?arch=x86_64\u0026upstream=musl\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/musl-utils@1.2.3-r0?arch=x86_64\u0026upstream=musl\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://musl.libc.org/",
@@ -3303,7 +3303,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -3336,7 +3336,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/ncurses-libs@6.3_p20220521-r0?arch=x86_64\u0026upstream=ncurses\u0026distro=alpine-3.16.0\u0026package-id=63d0b1634a663369",
+      "bom-ref": "pkg:alpine/ncurses-libs@6.3_p20220521-r0?arch=x86_64\u0026upstream=ncurses\u0026distro=alpine-3.16.1\u0026package-id=63d0b1634a663369",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "ncurses-libs",
@@ -3350,7 +3350,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:ncurses-libs:ncurses-libs:6.3_p20220521-r0:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/ncurses-libs@6.3_p20220521-r0?arch=x86_64\u0026upstream=ncurses\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/ncurses-libs@6.3_p20220521-r0?arch=x86_64\u0026upstream=ncurses\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://invisible-island.net/ncurses/",
@@ -3392,7 +3392,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -3425,7 +3425,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/ncurses-terminfo-base@6.3_p20220521-r0?arch=x86_64\u0026upstream=ncurses\u0026distro=alpine-3.16.0\u0026package-id=42012080cb234fe9",
+      "bom-ref": "pkg:alpine/ncurses-terminfo-base@6.3_p20220521-r0?arch=x86_64\u0026upstream=ncurses\u0026distro=alpine-3.16.1\u0026package-id=42012080cb234fe9",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "ncurses-terminfo-base",
@@ -3439,7 +3439,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:ncurses-terminfo-base:ncurses-terminfo-base:6.3_p20220521-r0:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/ncurses-terminfo-base@6.3_p20220521-r0?arch=x86_64\u0026upstream=ncurses\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/ncurses-terminfo-base@6.3_p20220521-r0?arch=x86_64\u0026upstream=ncurses\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://invisible-island.net/ncurses/",
@@ -3497,7 +3497,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -3526,7 +3526,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/nghttp2-libs@1.47.0-r0?arch=x86_64\u0026upstream=nghttp2\u0026distro=alpine-3.16.0\u0026package-id=1a003910317da56a",
+      "bom-ref": "pkg:alpine/nghttp2-libs@1.47.0-r0?arch=x86_64\u0026upstream=nghttp2\u0026distro=alpine-3.16.1\u0026package-id=1a003910317da56a",
       "type": "library",
       "publisher": "Francesco Colista \u003cfcolista@alpinelinux.org\u003e",
       "name": "nghttp2-libs",
@@ -3540,7 +3540,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:nghttp2-libs:nghttp2-libs:1.47.0-r0:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/nghttp2-libs@1.47.0-r0?arch=x86_64\u0026upstream=nghttp2\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/nghttp2-libs@1.47.0-r0?arch=x86_64\u0026upstream=nghttp2\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://nghttp2.org",
@@ -3582,7 +3582,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -3615,7 +3615,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/oniguruma@6.9.8-r0?arch=x86_64\u0026upstream=oniguruma\u0026distro=alpine-3.16.0\u0026package-id=cf35314aa4d0fb44",
+      "bom-ref": "pkg:alpine/oniguruma@6.9.8-r0?arch=x86_64\u0026upstream=oniguruma\u0026distro=alpine-3.16.1\u0026package-id=cf35314aa4d0fb44",
       "type": "library",
       "publisher": "Francesco Colista \u003cfcolista@alpinelinux.org\u003e",
       "name": "oniguruma",
@@ -3629,7 +3629,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:oniguruma:oniguruma:6.9.8-r0:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/oniguruma@6.9.8-r0?arch=x86_64\u0026upstream=oniguruma\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/oniguruma@6.9.8-r0?arch=x86_64\u0026upstream=oniguruma\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://github.com/kkos/oniguruma",
@@ -3651,7 +3651,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -3684,14 +3684,14 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/openssh-client-common@9.0_p1-r1?arch=x86_64\u0026upstream=openssh\u0026distro=alpine-3.16.0\u0026package-id=9d822d8041eac88f",
+      "bom-ref": "pkg:alpine/openssh-client-common@9.0_p1-r1?arch=x86_64\u0026upstream=openssh\u0026distro=alpine-3.16.1\u0026package-id=9d822d8041eac88f",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "openssh-client-common",
       "version": "9.0_p1-r1",
       "description": "OpenBSD's SSH client common files",
       "cpe": "cpe:2.3:a:openssh-client-common:openssh-client-common:9.0_p1-r1:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/openssh-client-common@9.0_p1-r1?arch=x86_64\u0026upstream=openssh\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/openssh-client-common@9.0_p1-r1?arch=x86_64\u0026upstream=openssh\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://www.openssh.com/portable.html",
@@ -3749,7 +3749,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -3782,14 +3782,14 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/openssh-client-default@9.0_p1-r1?arch=x86_64\u0026upstream=openssh\u0026distro=alpine-3.16.0\u0026package-id=c7ba143c83c877e",
+      "bom-ref": "pkg:alpine/openssh-client-default@9.0_p1-r1?arch=x86_64\u0026upstream=openssh\u0026distro=alpine-3.16.1\u0026package-id=c7ba143c83c877e",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "openssh-client-default",
       "version": "9.0_p1-r1",
       "description": "OpenBSD's SSH client",
       "cpe": "cpe:2.3:a:openssh-client-default:openssh-client-default:9.0_p1-r1:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/openssh-client-default@9.0_p1-r1?arch=x86_64\u0026upstream=openssh\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/openssh-client-default@9.0_p1-r1?arch=x86_64\u0026upstream=openssh\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://www.openssh.com/portable.html",
@@ -3847,7 +3847,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -3880,14 +3880,14 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/openssh-keygen@9.0_p1-r1?arch=x86_64\u0026upstream=openssh\u0026distro=alpine-3.16.0\u0026package-id=478f07dc2698f7ab",
+      "bom-ref": "pkg:alpine/openssh-keygen@9.0_p1-r1?arch=x86_64\u0026upstream=openssh\u0026distro=alpine-3.16.1\u0026package-id=478f07dc2698f7ab",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "openssh-keygen",
       "version": "9.0_p1-r1",
       "description": "ssh helper program for generating keys",
       "cpe": "cpe:2.3:a:openssh-keygen:openssh-keygen:9.0_p1-r1:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/openssh-keygen@9.0_p1-r1?arch=x86_64\u0026upstream=openssh\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/openssh-keygen@9.0_p1-r1?arch=x86_64\u0026upstream=openssh\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://www.openssh.com/portable.html",
@@ -3929,7 +3929,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -3962,7 +3962,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/openssl@1.1.1q-r0?arch=x86_64\u0026upstream=openssl\u0026distro=alpine-3.16.0\u0026package-id=bfb67fe723005a18",
+      "bom-ref": "pkg:alpine/openssl@1.1.1q-r0?arch=x86_64\u0026upstream=openssl\u0026distro=alpine-3.16.1\u0026package-id=bfb67fe723005a18",
       "type": "library",
       "publisher": "Timo Teras \u003ctimo.teras@iki.fi\u003e",
       "name": "openssl",
@@ -3976,7 +3976,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:openssl:openssl:1.1.1q-r0:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/openssl@1.1.1q-r0?arch=x86_64\u0026upstream=openssl\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/openssl@1.1.1q-r0?arch=x86_64\u0026upstream=openssl\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://www.openssl.org/",
@@ -3998,7 +3998,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -4031,7 +4031,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/p7zip@17.04-r2?arch=x86_64\u0026upstream=p7zip\u0026distro=alpine-3.16.0\u0026package-id=9e00de170342b09b",
+      "bom-ref": "pkg:alpine/p7zip@17.04-r2?arch=x86_64\u0026upstream=p7zip\u0026distro=alpine-3.16.1\u0026package-id=9e00de170342b09b",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "p7zip",
@@ -4045,7 +4045,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:p7zip:p7zip:17.04-r2:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/p7zip@17.04-r2?arch=x86_64\u0026upstream=p7zip\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/p7zip@17.04-r2?arch=x86_64\u0026upstream=p7zip\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://github.com/jinfeihan57/p7zip",
@@ -4067,7 +4067,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -4100,7 +4100,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/patch@2.7.6-r7?arch=x86_64\u0026upstream=patch\u0026distro=alpine-3.16.0\u0026package-id=6b5df4960dbcd55f",
+      "bom-ref": "pkg:alpine/patch@2.7.6-r7?arch=x86_64\u0026upstream=patch\u0026distro=alpine-3.16.1\u0026package-id=6b5df4960dbcd55f",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "patch",
@@ -4114,7 +4114,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:patch:patch:2.7.6-r7:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/patch@2.7.6-r7?arch=x86_64\u0026upstream=patch\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/patch@2.7.6-r7?arch=x86_64\u0026upstream=patch\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://www.gnu.org/software/patch/patch.html",
@@ -4136,7 +4136,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -4169,7 +4169,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/pcre2@10.40-r0?arch=x86_64\u0026upstream=pcre2\u0026distro=alpine-3.16.0\u0026package-id=91d1271df57d71d9",
+      "bom-ref": "pkg:alpine/pcre2@10.40-r0?arch=x86_64\u0026upstream=pcre2\u0026distro=alpine-3.16.1\u0026package-id=91d1271df57d71d9",
       "type": "library",
       "publisher": "Jakub Jirutka \u003cjakub@jirutka.cz\u003e",
       "name": "pcre2",
@@ -4183,7 +4183,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:pcre2:pcre2:10.40-r0:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/pcre2@10.40-r0?arch=x86_64\u0026upstream=pcre2\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/pcre2@10.40-r0?arch=x86_64\u0026upstream=pcre2\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://pcre.org/",
@@ -4205,7 +4205,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -4238,7 +4238,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/python3@3.10.4-r0?arch=x86_64\u0026upstream=python3\u0026distro=alpine-3.16.0\u0026package-id=c1e2549389a03908",
+      "bom-ref": "pkg:alpine/python3@3.10.4-r0?arch=x86_64\u0026upstream=python3\u0026distro=alpine-3.16.1\u0026package-id=c1e2549389a03908",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "python3",
@@ -4252,7 +4252,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:python3:python3:3.10.4-r0:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/python3@3.10.4-r0?arch=x86_64\u0026upstream=python3\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/python3@3.10.4-r0?arch=x86_64\u0026upstream=python3\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://www.python.org/",
@@ -4274,7 +4274,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -4307,7 +4307,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/readline@8.1.2-r0?arch=x86_64\u0026upstream=readline\u0026distro=alpine-3.16.0\u0026package-id=2d2a2a459ffd46b",
+      "bom-ref": "pkg:alpine/readline@8.1.2-r0?arch=x86_64\u0026upstream=readline\u0026distro=alpine-3.16.1\u0026package-id=2d2a2a459ffd46b",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "readline",
@@ -4321,7 +4321,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:readline:readline:8.1.2-r0:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/readline@8.1.2-r0?arch=x86_64\u0026upstream=readline\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/readline@8.1.2-r0?arch=x86_64\u0026upstream=readline\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://tiswww.cwru.edu/php/chet/readline/rltop.html",
@@ -4343,7 +4343,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -4376,7 +4376,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/scanelf@1.3.4-r0?arch=x86_64\u0026upstream=pax-utils\u0026distro=alpine-3.16.0\u0026package-id=7514a98b23f9928c",
+      "bom-ref": "pkg:alpine/scanelf@1.3.4-r0?arch=x86_64\u0026upstream=pax-utils\u0026distro=alpine-3.16.1\u0026package-id=7514a98b23f9928c",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "scanelf",
@@ -4390,7 +4390,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:scanelf:scanelf:1.3.4-r0:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/scanelf@1.3.4-r0?arch=x86_64\u0026upstream=pax-utils\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/scanelf@1.3.4-r0?arch=x86_64\u0026upstream=pax-utils\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://wiki.gentoo.org/wiki/Hardened/PaX_Utilities",
@@ -4412,7 +4412,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -4445,7 +4445,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/serf@1.3.9-r7?arch=x86_64\u0026upstream=serf\u0026distro=alpine-3.16.0\u0026package-id=2df663f8747256d2",
+      "bom-ref": "pkg:alpine/serf@1.3.9-r7?arch=x86_64\u0026upstream=serf\u0026distro=alpine-3.16.1\u0026package-id=2df663f8747256d2",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "serf",
@@ -4459,7 +4459,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:serf:serf:1.3.9-r7:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/serf@1.3.9-r7?arch=x86_64\u0026upstream=serf\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/serf@1.3.9-r7?arch=x86_64\u0026upstream=serf\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "http://serf.apache.org/",
@@ -4481,7 +4481,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -4514,7 +4514,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/skalibs@2.11.2.0-r0?arch=x86_64\u0026upstream=skalibs\u0026distro=alpine-3.16.0\u0026package-id=7c906106a1905e2d",
+      "bom-ref": "pkg:alpine/skalibs@2.11.2.0-r0?arch=x86_64\u0026upstream=skalibs\u0026distro=alpine-3.16.1\u0026package-id=7c906106a1905e2d",
       "type": "library",
       "publisher": "Laurent Bercot \u003cska-devel@skarnet.org\u003e",
       "name": "skalibs",
@@ -4528,7 +4528,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:skalibs:skalibs:2.11.2.0-r0:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/skalibs@2.11.2.0-r0?arch=x86_64\u0026upstream=skalibs\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/skalibs@2.11.2.0-r0?arch=x86_64\u0026upstream=skalibs\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://skarnet.org/software/skalibs/",
@@ -4550,7 +4550,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -4583,7 +4583,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/sqlite-libs@3.38.5-r0?arch=x86_64\u0026upstream=sqlite\u0026distro=alpine-3.16.0\u0026package-id=e999d3fd9687dc27",
+      "bom-ref": "pkg:alpine/sqlite-libs@3.38.5-r0?arch=x86_64\u0026upstream=sqlite\u0026distro=alpine-3.16.1\u0026package-id=e999d3fd9687dc27",
       "type": "library",
       "publisher": "Carlo Landmeter \u003cclandmeter@alpinelinux.org\u003e",
       "name": "sqlite-libs",
@@ -4597,7 +4597,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:sqlite-libs:sqlite-libs:3.38.5-r0:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/sqlite-libs@3.38.5-r0?arch=x86_64\u0026upstream=sqlite\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/sqlite-libs@3.38.5-r0?arch=x86_64\u0026upstream=sqlite\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://www.sqlite.org/",
@@ -4639,7 +4639,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -4672,11 +4672,11 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/ssl_client@1.35.0-r14?arch=x86_64\u0026upstream=busybox\u0026distro=alpine-3.16.0\u0026package-id=3d7049c94344e039",
+      "bom-ref": "pkg:alpine/ssl_client@1.35.0-r15?arch=x86_64\u0026upstream=busybox\u0026distro=alpine-3.16.1\u0026package-id=21fdb3bf82eacb27",
       "type": "library",
       "publisher": "Sören Tempel \u003csoeren+alpine@soeren-tempel.net\u003e",
       "name": "ssl_client",
-      "version": "1.35.0-r14",
+      "version": "1.35.0-r15",
       "description": "EXternal ssl_client for busybox wget",
       "licenses": [
         {
@@ -4685,8 +4685,8 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:ssl-client:ssl-client:1.35.0-r14:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/ssl_client@1.35.0-r14?arch=x86_64\u0026upstream=busybox\u0026distro=alpine-3.16.0",
+      "cpe": "cpe:2.3:a:ssl-client:ssl-client:1.35.0-r15:*:*:*:*:*:*:*",
+      "purl": "pkg:alpine/ssl_client@1.35.0-r15?arch=x86_64\u0026upstream=busybox\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://busybox.net/",
@@ -4708,27 +4708,27 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ssl-client:ssl_client:1.35.0-r14:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ssl-client:ssl_client:1.35.0-r15:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ssl_client:ssl-client:1.35.0-r14:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ssl_client:ssl-client:1.35.0-r15:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ssl_client:ssl_client:1.35.0-r14:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ssl_client:ssl_client:1.35.0-r15:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ssl:ssl-client:1.35.0-r14:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ssl:ssl-client:1.35.0-r15:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ssl:ssl_client:1.35.0-r14:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ssl:ssl_client:1.35.0-r15:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -4736,7 +4736,7 @@
         },
         {
           "name": "syft:metadata:gitCommitOfApkPort",
-          "value": "d16b7061ff050fa80d88ef65d4fd1e1334072f85"
+          "value": "e58f0e341603e9facc1e675722367174b45e0d0c"
         },
         {
           "name": "syft:metadata:installedSize",
@@ -4748,7 +4748,7 @@
         },
         {
           "name": "syft:metadata:pullChecksum",
-          "value": "Q1JEFfZHLhUk6aJWCDIg469wNPIcU="
+          "value": "Q1aPN51W6bprY7yQMpDXoQiKSGJNA="
         },
         {
           "name": "syft:metadata:pullDependencies",
@@ -4761,7 +4761,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/subversion@1.14.2-r1?arch=x86_64\u0026upstream=subversion\u0026distro=alpine-3.16.0\u0026package-id=94834fafe12d56e4",
+      "bom-ref": "pkg:alpine/subversion@1.14.2-r1?arch=x86_64\u0026upstream=subversion\u0026distro=alpine-3.16.1\u0026package-id=94834fafe12d56e4",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "subversion",
@@ -4775,7 +4775,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:subversion:subversion:1.14.2-r1:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/subversion@1.14.2-r1?arch=x86_64\u0026upstream=subversion\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/subversion@1.14.2-r1?arch=x86_64\u0026upstream=subversion\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://subversion.apache.org/",
@@ -4797,7 +4797,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -4830,7 +4830,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/subversion-libs@1.14.2-r1?arch=x86_64\u0026upstream=subversion\u0026distro=alpine-3.16.0\u0026package-id=5f435de70636242e",
+      "bom-ref": "pkg:alpine/subversion-libs@1.14.2-r1?arch=x86_64\u0026upstream=subversion\u0026distro=alpine-3.16.1\u0026package-id=5f435de70636242e",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "subversion-libs",
@@ -4844,7 +4844,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:subversion-libs:subversion-libs:1.14.2-r1:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/subversion-libs@1.14.2-r1?arch=x86_64\u0026upstream=subversion\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/subversion-libs@1.14.2-r1?arch=x86_64\u0026upstream=subversion\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://subversion.apache.org/",
@@ -4886,7 +4886,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -4919,7 +4919,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/tar@1.34-r0?arch=x86_64\u0026upstream=tar\u0026distro=alpine-3.16.0\u0026package-id=b30aef00177e878b",
+      "bom-ref": "pkg:alpine/tar@1.34-r0?arch=x86_64\u0026upstream=tar\u0026distro=alpine-3.16.1\u0026package-id=b30aef00177e878b",
       "type": "library",
       "publisher": "Carlo Landmeter \u003cclandmeter@alpinelinux.org\u003e",
       "name": "tar",
@@ -4933,7 +4933,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:tar:tar:1.34-r0:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/tar@1.34-r0?arch=x86_64\u0026upstream=tar\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/tar@1.34-r0?arch=x86_64\u0026upstream=tar\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://www.gnu.org/software/tar/",
@@ -4955,7 +4955,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -4988,7 +4988,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/tini@0.19.0-r0?arch=x86_64\u0026upstream=tini\u0026distro=alpine-3.16.0\u0026package-id=be7037289da9ee08",
+      "bom-ref": "pkg:alpine/tini@0.19.0-r0?arch=x86_64\u0026upstream=tini\u0026distro=alpine-3.16.1\u0026package-id=be7037289da9ee08",
       "type": "library",
       "publisher": "Danilo Bürger \u003cdanilo@feastr.de\u003e",
       "name": "tini",
@@ -5002,7 +5002,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:tini:tini:0.19.0-r0:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/tini@0.19.0-r0?arch=x86_64\u0026upstream=tini\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/tini@0.19.0-r0?arch=x86_64\u0026upstream=tini\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://github.com/krallin/tini",
@@ -5024,7 +5024,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -5057,14 +5057,14 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/unzip@6.0-r9?arch=x86_64\u0026upstream=unzip\u0026distro=alpine-3.16.0\u0026package-id=d439f8adc420d146",
+      "bom-ref": "pkg:alpine/unzip@6.0-r9?arch=x86_64\u0026upstream=unzip\u0026distro=alpine-3.16.1\u0026package-id=d439f8adc420d146",
       "type": "library",
       "publisher": "Timo Teräs \u003ctimo.teras@iki.fi\u003e",
       "name": "unzip",
       "version": "6.0-r9",
       "description": "Extract PKZIP-compatible .zip files",
       "cpe": "cpe:2.3:a:unzip:unzip:6.0-r9:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/unzip@6.0-r9?arch=x86_64\u0026upstream=unzip\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/unzip@6.0-r9?arch=x86_64\u0026upstream=unzip\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "http://www.info-zip.org/UnZip.html",
@@ -5086,7 +5086,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -5119,7 +5119,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/utmps-libs@0.1.2.0-r0?arch=x86_64\u0026upstream=utmps\u0026distro=alpine-3.16.0\u0026package-id=5940fb13e6636a4",
+      "bom-ref": "pkg:alpine/utmps-libs@0.1.2.0-r0?arch=x86_64\u0026upstream=utmps\u0026distro=alpine-3.16.1\u0026package-id=5940fb13e6636a4",
       "type": "library",
       "publisher": "Laurent Bercot \u003cska-devel@skarnet.org\u003e",
       "name": "utmps-libs",
@@ -5133,7 +5133,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:utmps-libs:utmps-libs:0.1.2.0-r0:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/utmps-libs@0.1.2.0-r0?arch=x86_64\u0026upstream=utmps\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/utmps-libs@0.1.2.0-r0?arch=x86_64\u0026upstream=utmps\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://skarnet.org/software/utmps/",
@@ -5175,7 +5175,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -5208,7 +5208,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/xz@5.2.5-r1?arch=x86_64\u0026upstream=xz\u0026distro=alpine-3.16.0\u0026package-id=7510c653040d66e3",
+      "bom-ref": "pkg:alpine/xz@5.2.5-r1?arch=x86_64\u0026upstream=xz\u0026distro=alpine-3.16.1\u0026package-id=7510c653040d66e3",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "xz",
@@ -5227,7 +5227,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:xz:xz:5.2.5-r1:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/xz@5.2.5-r1?arch=x86_64\u0026upstream=xz\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/xz@5.2.5-r1?arch=x86_64\u0026upstream=xz\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://tukaani.org/xz",
@@ -5249,7 +5249,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -5282,7 +5282,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/xz-libs@5.2.5-r1?arch=x86_64\u0026upstream=xz\u0026distro=alpine-3.16.0\u0026package-id=9f15cd1be74f305",
+      "bom-ref": "pkg:alpine/xz-libs@5.2.5-r1?arch=x86_64\u0026upstream=xz\u0026distro=alpine-3.16.1\u0026package-id=9f15cd1be74f305",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "xz-libs",
@@ -5301,7 +5301,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:xz-libs:xz-libs:5.2.5-r1:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/xz-libs@5.2.5-r1?arch=x86_64\u0026upstream=xz\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/xz-libs@5.2.5-r1?arch=x86_64\u0026upstream=xz\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://tukaani.org/xz",
@@ -5343,7 +5343,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -5376,7 +5376,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/zip@3.0-r9?arch=x86_64\u0026upstream=zip\u0026distro=alpine-3.16.0\u0026package-id=80662e2dc06896cd",
+      "bom-ref": "pkg:alpine/zip@3.0-r9?arch=x86_64\u0026upstream=zip\u0026distro=alpine-3.16.1\u0026package-id=80662e2dc06896cd",
       "type": "library",
       "publisher": "Carlo Landmeter \u003cclandmeter@alpinelinux.org\u003e",
       "name": "zip",
@@ -5390,7 +5390,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:zip:zip:3.0-r9:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/zip@3.0-r9?arch=x86_64\u0026upstream=zip\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/zip@3.0-r9?arch=x86_64\u0026upstream=zip\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "http://www.info-zip.org/pub/infozip/Zip.html",
@@ -5412,7 +5412,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -5445,7 +5445,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/zlib@1.2.12-r1?arch=x86_64\u0026upstream=zlib\u0026distro=alpine-3.16.0\u0026package-id=5d594c861402c5a6",
+      "bom-ref": "pkg:alpine/zlib@1.2.12-r1?arch=x86_64\u0026upstream=zlib\u0026distro=alpine-3.16.1\u0026package-id=5d594c861402c5a6",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "zlib",
@@ -5459,7 +5459,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:zlib:zlib:1.2.12-r1:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/zlib@1.2.12-r1?arch=x86_64\u0026upstream=zlib\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/zlib@1.2.12-r1?arch=x86_64\u0026upstream=zlib\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://zlib.net/",
@@ -5481,7 +5481,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -5514,7 +5514,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/zstd-libs@1.5.2-r1?arch=x86_64\u0026upstream=zstd\u0026distro=alpine-3.16.0\u0026package-id=828ef31f5b7cdd63",
+      "bom-ref": "pkg:alpine/zstd-libs@1.5.2-r1?arch=x86_64\u0026upstream=zstd\u0026distro=alpine-3.16.1\u0026package-id=828ef31f5b7cdd63",
       "type": "library",
       "publisher": "psykose \u003calice@ayaya.dev\u003e",
       "name": "zstd-libs",
@@ -5533,7 +5533,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:zstd-libs:zstd-libs:1.5.2-r1:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/zstd-libs@1.5.2-r1?arch=x86_64\u0026upstream=zstd\u0026distro=alpine-3.16.0",
+      "purl": "pkg:alpine/zstd-libs@1.5.2-r1?arch=x86_64\u0026upstream=zstd\u0026distro=alpine-3.16.1",
       "externalReferences": [
         {
           "url": "https://www.zstd.net/",
@@ -5575,7 +5575,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:27043b27e031e4a0fbe3c670feb02f2ea8096567584ede862b6c7aec1dd15e24"
+          "value": "sha256:e700efdc3cb8d084cbbf8c9794ec4e7657ecc93547b1f07851aae059cc7f5a09"
         },
         {
           "name": "syft:location:0:path",
@@ -5610,12 +5610,12 @@
     {
       "type": "operating-system",
       "name": "alpine",
-      "version": "3.16.0",
+      "version": "3.16.1",
       "description": "Alpine Linux v3.16",
       "swid": {
         "tagId": "alpine",
         "name": "alpine",
-        "version": "3.16.0"
+        "version": "3.16.1"
       },
       "externalReferences": [
         {
@@ -5638,7 +5638,7 @@
         },
         {
           "name": "syft:distro:versionID",
-          "value": "3.16.0"
+          "value": "3.16.1"
         }
       ]
     }

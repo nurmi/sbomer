@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:c6c6dc29-70a5-4a12-a1bc-ec6c823c4a45",
+  "serialNumber": "urn:uuid:038e018d-eaea-4ac0-b868-8fcd5b3ef5e5",
   "version": 1,
   "metadata": {
-    "timestamp": "2022-07-19T01:53:45Z",
+    "timestamp": "2022-07-20T01:32:46Z",
     "tools": [
       {
         "vendor": "anchore",
@@ -13,15 +13,15 @@
       }
     ],
     "component": {
-      "bom-ref": "4c61b787dde8029b",
+      "bom-ref": "ff87eda7625f26bf",
       "type": "container",
       "name": "docker.io/library/fluentd:latest",
-      "version": "sha256:9624d5acdaf03449120293a1f5332154dc9c2796fddf4b1f998aeee5aaca7027"
+      "version": "sha256:0041aa53f7ec368a40a5b01b3019dc3f975d7f07c7381d0dca0f2de0c7078db6"
     }
   },
   "components": [
     {
-      "bom-ref": "pkg:alpine/alpine-baselayout@3.2.0-r8?arch=x86_64\u0026upstream=alpine-baselayout\u0026distro=alpine-3.13.10\u0026package-id=28dc9cc99d2aa77d",
+      "bom-ref": "pkg:alpine/alpine-baselayout@3.2.0-r8?arch=x86_64\u0026upstream=alpine-baselayout\u0026distro=alpine-3.13.11\u0026package-id=28dc9cc99d2aa77d",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "alpine-baselayout",
@@ -35,7 +35,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:alpine-baselayout:alpine-baselayout:3.2.0-r8:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/alpine-baselayout@3.2.0-r8?arch=x86_64\u0026upstream=alpine-baselayout\u0026distro=alpine-3.13.10",
+      "purl": "pkg:alpine/alpine-baselayout@3.2.0-r8?arch=x86_64\u0026upstream=alpine-baselayout\u0026distro=alpine-3.13.11",
       "externalReferences": [
         {
           "url": "https://git.alpinelinux.org/cgit/aports/tree/main/alpine-baselayout",
@@ -77,7 +77,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -110,7 +110,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/alpine-keys@2.4-r0?arch=x86_64\u0026upstream=alpine-keys\u0026distro=alpine-3.13.10\u0026package-id=d09cc7d1132a9650",
+      "bom-ref": "pkg:alpine/alpine-keys@2.4-r0?arch=x86_64\u0026upstream=alpine-keys\u0026distro=alpine-3.13.11\u0026package-id=d09cc7d1132a9650",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "alpine-keys",
@@ -124,7 +124,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:alpine-keys:alpine-keys:2.4-r0:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/alpine-keys@2.4-r0?arch=x86_64\u0026upstream=alpine-keys\u0026distro=alpine-3.13.10",
+      "purl": "pkg:alpine/alpine-keys@2.4-r0?arch=x86_64\u0026upstream=alpine-keys\u0026distro=alpine-3.13.11",
       "externalReferences": [
         {
           "url": "https://alpinelinux.org",
@@ -166,7 +166,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -195,7 +195,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/apk-tools@2.12.7-r0?arch=x86_64\u0026upstream=apk-tools\u0026distro=alpine-3.13.10\u0026package-id=db6fb44b17abf31a",
+      "bom-ref": "pkg:alpine/apk-tools@2.12.7-r0?arch=x86_64\u0026upstream=apk-tools\u0026distro=alpine-3.13.11\u0026package-id=db6fb44b17abf31a",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "apk-tools",
@@ -209,7 +209,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:apk-tools:apk-tools:2.12.7-r0:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/apk-tools@2.12.7-r0?arch=x86_64\u0026upstream=apk-tools\u0026distro=alpine-3.13.10",
+      "purl": "pkg:alpine/apk-tools@2.12.7-r0?arch=x86_64\u0026upstream=apk-tools\u0026distro=alpine-3.13.11",
       "externalReferences": [
         {
           "url": "https://gitlab.alpinelinux.org/alpine/apk-tools",
@@ -251,7 +251,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -284,11 +284,11 @@
       ]
     },
     {
-      "bom-ref": "pkg:gem/async@1.30.1?package-id=5519ed0936502911",
+      "bom-ref": "pkg:gem/async@1.30.3?package-id=d5521e741370bfec",
       "type": "library",
       "author": "Samuel Williams",
       "name": "async",
-      "version": "1.30.1",
+      "version": "1.30.3",
       "licenses": [
         {
           "license": {
@@ -296,8 +296,8 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:samuel-williams:async:1.30.1:*:*:*:*:*:*:*",
-      "purl": "pkg:gem/async@1.30.1",
+      "cpe": "cpe:2.3:a:samuel-williams:async:1.30.3:*:*:*:*:*:*:*",
+      "purl": "pkg:gem/async@1.30.3",
       "externalReferences": [
         {
           "url": "https://github.com/socketry/async",
@@ -323,35 +323,35 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:samuel_williams:async:1.30.1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:samuel_williams:async:1.30.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby-lang:async:1.30.1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ruby-lang:async:1.30.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby_lang:async:1.30.1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ruby_lang:async:1.30.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:async:async:1.30.1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:async:async:1.30.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby:async:1.30.1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ruby:async:1.30.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:*:async:1.30.1:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:*:async:1.30.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/usr/lib/ruby/gems/2.7.0/specifications/async-1.30.1.gemspec"
+          "value": "/usr/lib/ruby/gems/2.7.0/specifications/async-1.30.3.gemspec"
         }
       ]
     },
@@ -463,7 +463,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -683,7 +683,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -692,11 +692,11 @@
       ]
     },
     {
-      "bom-ref": "pkg:gem/async-pool@0.3.9?package-id=bad1cd4db9626580",
+      "bom-ref": "pkg:gem/async-pool@0.3.10?package-id=212b7d8381aaeb80",
       "type": "library",
-      "author": "Samuel Williams",
+      "author": "Samuel Williams,Olle Jonsson,Simon Perepelitsa",
       "name": "async-pool",
-      "version": "0.3.9",
+      "version": "0.3.10",
       "licenses": [
         {
           "license": {
@@ -704,8 +704,8 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:samuel-williams:async-pool:0.3.9:*:*:*:*:*:*:*",
-      "purl": "pkg:gem/async-pool@0.3.9",
+      "cpe": "cpe:2.3:a:simon-perepelitsa:async-pool:0.3.10:*:*:*:*:*:*:*",
+      "purl": "pkg:gem/async-pool@0.3.10",
       "externalReferences": [
         {
           "url": "https://github.com/socketry/async-pool",
@@ -731,79 +731,111 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:samuel-williams:async_pool:0.3.9:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:simon-perepelitsa:async_pool:0.3.10:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:samuel_williams:async-pool:0.3.9:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:simon_perepelitsa:async-pool:0.3.10:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:samuel_williams:async_pool:0.3.9:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:simon_perepelitsa:async_pool:0.3.10:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:async-pool:async-pool:0.3.9:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:samuel-williams:async-pool:0.3.10:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:async-pool:async_pool:0.3.9:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:samuel-williams:async_pool:0.3.10:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:async_pool:async-pool:0.3.9:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:samuel_williams:async-pool:0.3.10:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:async_pool:async_pool:0.3.9:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:samuel_williams:async_pool:0.3.10:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby-lang:async-pool:0.3.9:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:olle-jonsson:async-pool:0.3.10:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby-lang:async_pool:0.3.9:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:olle-jonsson:async_pool:0.3.10:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby_lang:async-pool:0.3.9:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:olle_jonsson:async-pool:0.3.10:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby_lang:async_pool:0.3.9:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:olle_jonsson:async_pool:0.3.10:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:async:async-pool:0.3.9:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:async-pool:async-pool:0.3.10:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:async:async_pool:0.3.9:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:async-pool:async_pool:0.3.10:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby:async-pool:0.3.9:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:async_pool:async-pool:0.3.10:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby:async_pool:0.3.9:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:async_pool:async_pool:0.3.10:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:*:async-pool:0.3.9:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ruby-lang:async-pool:0.3.10:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:*:async_pool:0.3.9:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ruby-lang:async_pool:0.3.10:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ruby_lang:async-pool:0.3.10:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ruby_lang:async_pool:0.3.10:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:async:async-pool:0.3.10:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:async:async_pool:0.3.10:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ruby:async-pool:0.3.10:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ruby:async_pool:0.3.10:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:*:async-pool:0.3.10:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:*:async_pool:0.3.10:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/usr/lib/ruby/gems/2.7.0/specifications/async-pool-0.3.9.gemspec"
+          "value": "/usr/lib/ruby/gems/2.7.0/specifications/async-pool-0.3.10.gemspec"
         }
       ]
     },
@@ -871,7 +903,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -959,7 +991,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -968,11 +1000,11 @@
       ]
     },
     {
-      "bom-ref": "pkg:gem/bundler@2.3.10?package-id=b291ea7b8b632887",
+      "bom-ref": "pkg:gem/bundler@2.3.18?package-id=5ee2806767f3bc",
       "type": "library",
       "author": "André Arko,Samuel Giddins,Colby Swandale,Hiroshi Shibata,David Rodríguez,Grey Baker,Stephanie Morillo,Chris Morris,James Wen,Tim Moore,André Medeiros,Jessica Lynn Suttles,Terence Lee,Carl Lerche,Yehuda Katz",
       "name": "bundler",
-      "version": "2.3.10",
+      "version": "2.3.18",
       "licenses": [
         {
           "license": {
@@ -980,8 +1012,8 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:jessica-lynn-suttles:bundler:2.3.10:*:*:*:*:*:*:*",
-      "purl": "pkg:gem/bundler@2.3.10",
+      "cpe": "cpe:2.3:a:jessica-lynn-suttles:bundler:2.3.18:*:*:*:*:*:*:*",
+      "purl": "pkg:gem/bundler@2.3.18",
       "externalReferences": [
         {
           "url": "https://bundler.io",
@@ -1007,132 +1039,132 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jessica_lynn_suttles:bundler:2.3.10:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:jessica_lynn_suttles:bundler:2.3.18:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:stephanie-morillo:bundler:2.3.10:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:stephanie-morillo:bundler:2.3.18:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:stephanie_morillo:bundler:2.3.10:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:stephanie_morillo:bundler:2.3.18:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:hiroshi-shibata:bundler:2.3.10:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:hiroshi-shibata:bundler:2.3.18:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:hiroshi_shibata:bundler:2.3.10:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:hiroshi_shibata:bundler:2.3.18:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:colby-swandale:bundler:2.3.10:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:colby-swandale:bundler:2.3.18:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:colby_swandale:bundler:2.3.10:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:colby_swandale:bundler:2.3.18:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:samuel-giddins:bundler:2.3.10:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:samuel-giddins:bundler:2.3.18:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:samuel_giddins:bundler:2.3.10:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:samuel_giddins:bundler:2.3.18:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:chris-morris:bundler:2.3.10:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:chris-morris:bundler:2.3.18:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:chris_morris:bundler:2.3.10:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:chris_morris:bundler:2.3.18:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:carl-lerche:bundler:2.3.10:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:carl-lerche:bundler:2.3.18:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:carl_lerche:bundler:2.3.10:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:carl_lerche:bundler:2.3.18:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:terence-lee:bundler:2.3.10:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:terence-lee:bundler:2.3.18:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:terence_lee:bundler:2.3.10:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:terence_lee:bundler:2.3.18:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:yehuda-katz:bundler:2.3.10:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:yehuda-katz:bundler:2.3.18:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:yehuda_katz:bundler:2.3.10:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:yehuda_katz:bundler:2.3.18:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:grey-baker:bundler:2.3.10:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:grey-baker:bundler:2.3.18:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:grey_baker:bundler:2.3.10:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:grey_baker:bundler:2.3.18:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:james-wen:bundler:2.3.10:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:james-wen:bundler:2.3.18:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:james_wen:bundler:2.3.10:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:james_wen:bundler:2.3.18:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby-lang:bundler:2.3.10:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ruby-lang:bundler:2.3.18:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby_lang:bundler:2.3.10:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ruby_lang:bundler:2.3.18:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:tim-moore:bundler:2.3.10:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:tim-moore:bundler:2.3.18:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:tim_moore:bundler:2.3.10:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:tim_moore:bundler:2.3.18:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:bundler:bundler:2.3.10:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:bundler:bundler:2.3.18:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby:bundler:2.3.10:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ruby:bundler:2.3.18:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:*:bundler:2.3.10:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:*:bundler:2.3.18:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/usr/lib/ruby/gems/2.7.0/specifications/bundler-2.3.10.gemspec"
+          "value": "/usr/lib/ruby/gems/2.7.0/specifications/bundler-2.3.18.gemspec"
         }
       ]
     },
     {
-      "bom-ref": "pkg:alpine/busybox@1.32.1-r8?arch=x86_64\u0026upstream=busybox\u0026distro=alpine-3.13.10\u0026package-id=5bb8228c3d3f19c4",
+      "bom-ref": "pkg:alpine/busybox@1.32.1-r9?arch=x86_64\u0026upstream=busybox\u0026distro=alpine-3.13.11\u0026package-id=2d48fa158b25e49",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "busybox",
-      "version": "1.32.1-r8",
+      "version": "1.32.1-r9",
       "description": "Size optimized toolbox of many common UNIX utilities",
       "licenses": [
         {
@@ -1141,8 +1173,8 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:busybox:busybox:1.32.1-r8:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/busybox@1.32.1-r8?arch=x86_64\u0026upstream=busybox\u0026distro=alpine-3.13.10",
+      "cpe": "cpe:2.3:a:busybox:busybox:1.32.1-r9:*:*:*:*:*:*:*",
+      "purl": "pkg:alpine/busybox@1.32.1-r9?arch=x86_64\u0026upstream=busybox\u0026distro=alpine-3.13.11",
       "externalReferences": [
         {
           "url": "https://busybox.net/",
@@ -1164,7 +1196,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -1172,7 +1204,7 @@
         },
         {
           "name": "syft:metadata:gitCommitOfApkPort",
-          "value": "652623d1b7c8bfda429b8971973727aca902bd36"
+          "value": "ccc91ed0231f552e529a853e75839c38c1f3c218"
         },
         {
           "name": "syft:metadata:installedSize",
@@ -1184,7 +1216,7 @@
         },
         {
           "name": "syft:metadata:pullChecksum",
-          "value": "Q1gS+7A3XeFrYnhiRE8IXtGYEKRRQ="
+          "value": "Q1DXPnC3c7Lp+P+x8gSXjE63UxPr0="
         },
         {
           "name": "syft:metadata:pullDependencies",
@@ -1192,12 +1224,12 @@
         },
         {
           "name": "syft:metadata:size",
-          "value": "497972"
+          "value": "497953"
         }
       ]
     },
     {
-      "bom-ref": "pkg:alpine/ca-certificates@20211220-r0?arch=x86_64\u0026upstream=ca-certificates\u0026distro=alpine-3.13.10\u0026package-id=32495857e9a667be",
+      "bom-ref": "pkg:alpine/ca-certificates@20211220-r0?arch=x86_64\u0026upstream=ca-certificates\u0026distro=alpine-3.13.11\u0026package-id=32495857e9a667be",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "ca-certificates",
@@ -1216,7 +1248,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:ca-certificates:ca-certificates:20211220-r0:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/ca-certificates@20211220-r0?arch=x86_64\u0026upstream=ca-certificates\u0026distro=alpine-3.13.10",
+      "purl": "pkg:alpine/ca-certificates@20211220-r0?arch=x86_64\u0026upstream=ca-certificates\u0026distro=alpine-3.13.11",
       "externalReferences": [
         {
           "url": "https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/",
@@ -1258,7 +1290,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -1291,7 +1323,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/ca-certificates-bundle@20211220-r0?arch=x86_64\u0026upstream=ca-certificates\u0026distro=alpine-3.13.10\u0026package-id=1a363e9f6e9d4ca4",
+      "bom-ref": "pkg:alpine/ca-certificates-bundle@20211220-r0?arch=x86_64\u0026upstream=ca-certificates\u0026distro=alpine-3.13.11\u0026package-id=1a363e9f6e9d4ca4",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "ca-certificates-bundle",
@@ -1310,7 +1342,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:ca-certificates-bundle:ca-certificates-bundle:20211220-r0:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/ca-certificates-bundle@20211220-r0?arch=x86_64\u0026upstream=ca-certificates\u0026distro=alpine-3.13.10",
+      "purl": "pkg:alpine/ca-certificates-bundle@20211220-r0?arch=x86_64\u0026upstream=ca-certificates\u0026distro=alpine-3.13.11",
       "externalReferences": [
         {
           "url": "https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/",
@@ -1368,7 +1400,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -1460,7 +1492,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -1608,7 +1640,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -1673,7 +1705,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -1686,11 +1718,11 @@
       ]
     },
     {
-      "bom-ref": "pkg:gem/console@1.15.0?package-id=e59cbef79bedf1cf",
+      "bom-ref": "pkg:gem/console@1.15.3?package-id=b28f674f193924e1",
       "type": "library",
       "author": "Samuel Williams,Robert Schulze,Bryan Powell,Michael Adams,Cyril Roelandt,Cédric Boutillier,Olle Jonsson",
       "name": "console",
-      "version": "1.15.0",
+      "version": "1.15.3",
       "licenses": [
         {
           "license": {
@@ -1698,8 +1730,8 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:samuel-williams:console:1.15.0:*:*:*:*:*:*:*",
-      "purl": "pkg:gem/console@1.15.0",
+      "cpe": "cpe:2.3:a:samuel-williams:console:1.15.3:*:*:*:*:*:*:*",
+      "purl": "pkg:gem/console@1.15.3",
       "externalReferences": [
         {
           "url": "https://github.com/socketry/console",
@@ -1725,75 +1757,75 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:samuel_williams:console:1.15.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:samuel_williams:console:1.15.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:cyril-roelandt:console:1.15.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:cyril-roelandt:console:1.15.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:cyril_roelandt:console:1.15.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:cyril_roelandt:console:1.15.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:robert-schulze:console:1.15.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:robert-schulze:console:1.15.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:robert_schulze:console:1.15.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:robert_schulze:console:1.15.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:michael-adams:console:1.15.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:michael-adams:console:1.15.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:michael_adams:console:1.15.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:michael_adams:console:1.15.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:bryan-powell:console:1.15.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:bryan-powell:console:1.15.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:bryan_powell:console:1.15.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:bryan_powell:console:1.15.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:olle-jonsson:console:1.15.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:olle-jonsson:console:1.15.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:olle_jonsson:console:1.15.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:olle_jonsson:console:1.15.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby-lang:console:1.15.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ruby-lang:console:1.15.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby_lang:console:1.15.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ruby_lang:console:1.15.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:console:console:1.15.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:console:console:1.15.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby:console:1.15.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ruby:console:1.15.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:*:console:1.15.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:*:console:1.15.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/usr/lib/ruby/gems/2.7.0/specifications/console-1.15.0.gemspec"
+          "value": "/usr/lib/ruby/gems/2.7.0/specifications/console-1.15.3.gemspec"
         }
       ]
     },
@@ -1869,7 +1901,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -1949,7 +1981,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -2021,7 +2053,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -2093,7 +2125,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -2165,7 +2197,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -2297,7 +2329,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -2369,7 +2401,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -2478,7 +2510,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -2550,7 +2582,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -2666,7 +2698,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -2738,7 +2770,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -2810,7 +2842,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -2882,7 +2914,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -2891,7 +2923,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/gdbm@1.19-r0?arch=x86_64\u0026upstream=gdbm\u0026distro=alpine-3.13.10\u0026package-id=773e87ca34cbcf6f",
+      "bom-ref": "pkg:alpine/gdbm@1.19-r0?arch=x86_64\u0026upstream=gdbm\u0026distro=alpine-3.13.11\u0026package-id=773e87ca34cbcf6f",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "gdbm",
@@ -2905,7 +2937,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:gdbm:gdbm:1.19-r0:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/gdbm@1.19-r0?arch=x86_64\u0026upstream=gdbm\u0026distro=alpine-3.13.10",
+      "purl": "pkg:alpine/gdbm@1.19-r0?arch=x86_64\u0026upstream=gdbm\u0026distro=alpine-3.13.11",
       "externalReferences": [
         {
           "url": "https://www.gnu.org/software/gdbm/",
@@ -2927,7 +2959,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -3023,7 +3055,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -3032,7 +3064,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/gmp@6.2.1-r1?arch=x86_64\u0026upstream=gmp\u0026distro=alpine-3.13.10\u0026package-id=f52abd7a276858b6",
+      "bom-ref": "pkg:alpine/gmp@6.2.1-r1?arch=x86_64\u0026upstream=gmp\u0026distro=alpine-3.13.11\u0026package-id=f52abd7a276858b6",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "gmp",
@@ -3051,7 +3083,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:gmp:gmp:6.2.1-r1:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/gmp@6.2.1-r1?arch=x86_64\u0026upstream=gmp\u0026distro=alpine-3.13.10",
+      "purl": "pkg:alpine/gmp@6.2.1-r1?arch=x86_64\u0026upstream=gmp\u0026distro=alpine-3.13.11",
       "externalReferences": [
         {
           "url": "https://gmplib.org/",
@@ -3073,7 +3105,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -3229,7 +3261,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -3309,7 +3341,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -3386,7 +3418,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -3458,7 +3490,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -3467,7 +3499,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/libc-utils@0.7.2-r3?arch=x86_64\u0026upstream=libc-dev\u0026distro=alpine-3.13.10\u0026package-id=ef897343da6a80f7",
+      "bom-ref": "pkg:alpine/libc-utils@0.7.2-r3?arch=x86_64\u0026upstream=libc-dev\u0026distro=alpine-3.13.11\u0026package-id=ef897343da6a80f7",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "libc-utils",
@@ -3486,7 +3518,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:libc-utils:libc-utils:0.7.2-r3:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/libc-utils@0.7.2-r3?arch=x86_64\u0026upstream=libc-dev\u0026distro=alpine-3.13.10",
+      "purl": "pkg:alpine/libc-utils@0.7.2-r3?arch=x86_64\u0026upstream=libc-dev\u0026distro=alpine-3.13.11",
       "externalReferences": [
         {
           "url": "https://alpinelinux.org",
@@ -3528,7 +3560,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -3561,11 +3593,11 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/libcrypto1.1@1.1.1n-r0?arch=x86_64\u0026upstream=openssl\u0026distro=alpine-3.13.10\u0026package-id=3e34c3f007ee2f42",
+      "bom-ref": "pkg:alpine/libcrypto1.1@1.1.1q-r0?arch=x86_64\u0026upstream=openssl\u0026distro=alpine-3.13.11\u0026package-id=a5beed4c061fa99f",
       "type": "library",
       "publisher": "Timo Teras \u003ctimo.teras@iki.fi\u003e",
       "name": "libcrypto1.1",
-      "version": "1.1.1n-r0",
+      "version": "1.1.1q-r0",
       "description": "Crypto library from openssl",
       "licenses": [
         {
@@ -3574,8 +3606,8 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:libcrypto1.1:libcrypto1.1:1.1.1n-r0:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/libcrypto1.1@1.1.1n-r0?arch=x86_64\u0026upstream=openssl\u0026distro=alpine-3.13.10",
+      "cpe": "cpe:2.3:a:libcrypto1.1:libcrypto1.1:1.1.1q-r0:*:*:*:*:*:*:*",
+      "purl": "pkg:alpine/libcrypto1.1@1.1.1q-r0?arch=x86_64\u0026upstream=openssl\u0026distro=alpine-3.13.11",
       "externalReferences": [
         {
           "url": "https://www.openssl.org/",
@@ -3597,7 +3629,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -3605,7 +3637,7 @@
         },
         {
           "name": "syft:metadata:gitCommitOfApkPort",
-          "value": "75833d7b85538260658dade2c7c7f7d454075b2c"
+          "value": "19470e4b62c68d3f8bc888e23a278f1dcad2cb65"
         },
         {
           "name": "syft:metadata:installedSize",
@@ -3617,7 +3649,7 @@
         },
         {
           "name": "syft:metadata:pullChecksum",
-          "value": "Q1y0yXSNWzxF5Idw577wnOw/Y6QDM="
+          "value": "Q1jz2V2nHlW5vsmSUHMzsbwelzFio="
         },
         {
           "name": "syft:metadata:pullDependencies",
@@ -3625,16 +3657,16 @@
         },
         {
           "name": "syft:metadata:size",
-          "value": "1212449"
+          "value": "1212438"
         }
       ]
     },
     {
-      "bom-ref": "pkg:alpine/libssl1.1@1.1.1n-r0?arch=x86_64\u0026upstream=openssl\u0026distro=alpine-3.13.10\u0026package-id=ac01cbec11584bbf",
+      "bom-ref": "pkg:alpine/libssl1.1@1.1.1q-r0?arch=x86_64\u0026upstream=openssl\u0026distro=alpine-3.13.11\u0026package-id=9c1b541e01ace927",
       "type": "library",
       "publisher": "Timo Teras \u003ctimo.teras@iki.fi\u003e",
       "name": "libssl1.1",
-      "version": "1.1.1n-r0",
+      "version": "1.1.1q-r0",
       "description": "SSL shared libraries",
       "licenses": [
         {
@@ -3643,8 +3675,8 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:libssl1.1:libssl1.1:1.1.1n-r0:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/libssl1.1@1.1.1n-r0?arch=x86_64\u0026upstream=openssl\u0026distro=alpine-3.13.10",
+      "cpe": "cpe:2.3:a:libssl1.1:libssl1.1:1.1.1q-r0:*:*:*:*:*:*:*",
+      "purl": "pkg:alpine/libssl1.1@1.1.1q-r0?arch=x86_64\u0026upstream=openssl\u0026distro=alpine-3.13.11",
       "externalReferences": [
         {
           "url": "https://www.openssl.org/",
@@ -3666,7 +3698,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -3674,7 +3706,7 @@
         },
         {
           "name": "syft:metadata:gitCommitOfApkPort",
-          "value": "75833d7b85538260658dade2c7c7f7d454075b2c"
+          "value": "19470e4b62c68d3f8bc888e23a278f1dcad2cb65"
         },
         {
           "name": "syft:metadata:installedSize",
@@ -3686,7 +3718,7 @@
         },
         {
           "name": "syft:metadata:pullChecksum",
-          "value": "Q1TVllW/PW+86yCvEHbt47K80lDok="
+          "value": "Q1Ybqr5jyd/9Pu4D3Jfcw10KZ9N0Y="
         },
         {
           "name": "syft:metadata:pullDependencies",
@@ -3694,12 +3726,12 @@
         },
         {
           "name": "syft:metadata:size",
-          "value": "212928"
+          "value": "213098"
         }
       ]
     },
     {
-      "bom-ref": "pkg:alpine/libtls-standalone@2.9.1-r1?arch=x86_64\u0026upstream=libtls-standalone\u0026distro=alpine-3.13.10\u0026package-id=544f825d166bc03f",
+      "bom-ref": "pkg:alpine/libtls-standalone@2.9.1-r1?arch=x86_64\u0026upstream=libtls-standalone\u0026distro=alpine-3.13.11\u0026package-id=544f825d166bc03f",
       "type": "library",
       "name": "libtls-standalone",
       "version": "2.9.1-r1",
@@ -3712,7 +3744,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:libtls-standalone:libtls-standalone:2.9.1-r1:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/libtls-standalone@2.9.1-r1?arch=x86_64\u0026upstream=libtls-standalone\u0026distro=alpine-3.13.10",
+      "purl": "pkg:alpine/libtls-standalone@2.9.1-r1?arch=x86_64\u0026upstream=libtls-standalone\u0026distro=alpine-3.13.11",
       "externalReferences": [
         {
           "url": "https://www.libressl.org/",
@@ -3754,7 +3786,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -3858,7 +3890,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -3930,7 +3962,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -3939,13 +3971,13 @@
       ]
     },
     {
-      "bom-ref": "pkg:gem/msgpack@1.4.5?package-id=7ecc8241ccc3516e",
+      "bom-ref": "pkg:gem/msgpack@1.5.3?package-id=2211e5e419b50735",
       "type": "library",
       "author": "Sadayuki Furuhashi,Theo Hultberg,Satoshi Tagomori",
       "name": "msgpack",
-      "version": "1.4.5",
-      "cpe": "cpe:2.3:a:sadayuki-furuhashi:msgpack:1.4.5:*:*:*:*:*:*:*",
-      "purl": "pkg:gem/msgpack@1.4.5",
+      "version": "1.5.3",
+      "cpe": "cpe:2.3:a:sadayuki-furuhashi:msgpack:1.5.3:*:*:*:*:*:*:*",
+      "purl": "pkg:gem/msgpack@1.5.3",
       "externalReferences": [
         {
           "url": "http://msgpack.org/",
@@ -3971,56 +4003,56 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:sadayuki_furuhashi:msgpack:1.4.5:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:sadayuki_furuhashi:msgpack:1.5.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:satoshi-tagomori:msgpack:1.4.5:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:satoshi-tagomori:msgpack:1.5.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:satoshi_tagomori:msgpack:1.4.5:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:satoshi_tagomori:msgpack:1.5.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:theo-hultberg:msgpack:1.4.5:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:theo-hultberg:msgpack:1.5.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:theo_hultberg:msgpack:1.4.5:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:theo_hultberg:msgpack:1.5.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby-lang:msgpack:1.4.5:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ruby-lang:msgpack:1.5.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby_lang:msgpack:1.4.5:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ruby_lang:msgpack:1.5.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:msgpack:msgpack:1.4.5:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:msgpack:msgpack:1.5.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby:msgpack:1.4.5:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ruby:msgpack:1.5.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:*:msgpack:1.4.5:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:*:msgpack:1.5.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/usr/lib/ruby/gems/2.7.0/specifications/msgpack-1.4.5.gemspec"
+          "value": "/usr/lib/ruby/gems/2.7.0/specifications/msgpack-1.5.3.gemspec"
         }
       ]
     },
     {
-      "bom-ref": "pkg:alpine/musl@1.2.2-r1?arch=x86_64\u0026upstream=musl\u0026distro=alpine-3.13.10\u0026package-id=784a665221201051",
+      "bom-ref": "pkg:alpine/musl@1.2.2-r1?arch=x86_64\u0026upstream=musl\u0026distro=alpine-3.13.11\u0026package-id=784a665221201051",
       "type": "library",
       "publisher": "Timo Teräs \u003ctimo.teras@iki.fi\u003e",
       "name": "musl",
@@ -4034,7 +4066,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:musl:musl:1.2.2-r1:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/musl@1.2.2-r1?arch=x86_64\u0026upstream=musl\u0026distro=alpine-3.13.10",
+      "purl": "pkg:alpine/musl@1.2.2-r1?arch=x86_64\u0026upstream=musl\u0026distro=alpine-3.13.11",
       "externalReferences": [
         {
           "url": "https://musl.libc.org/",
@@ -4056,7 +4088,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -4085,7 +4117,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/musl-utils@1.2.2-r1?arch=x86_64\u0026upstream=musl\u0026distro=alpine-3.13.10\u0026package-id=bb78e562f66d075a",
+      "bom-ref": "pkg:alpine/musl-utils@1.2.2-r1?arch=x86_64\u0026upstream=musl\u0026distro=alpine-3.13.11\u0026package-id=bb78e562f66d075a",
       "type": "library",
       "publisher": "Timo Teräs \u003ctimo.teras@iki.fi\u003e",
       "name": "musl-utils",
@@ -4099,7 +4131,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:musl-utils:musl-utils:1.2.2-r1:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/musl-utils@1.2.2-r1?arch=x86_64\u0026upstream=musl\u0026distro=alpine-3.13.10",
+      "purl": "pkg:alpine/musl-utils@1.2.2-r1?arch=x86_64\u0026upstream=musl\u0026distro=alpine-3.13.11",
       "externalReferences": [
         {
           "url": "https://musl.libc.org/",
@@ -4141,7 +4173,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -4281,7 +4313,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -4290,11 +4322,11 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/ncurses-libs@6.2_p20210109-r0?arch=x86_64\u0026upstream=ncurses\u0026distro=alpine-3.13.10\u0026package-id=2f6cefa32376e1ec",
+      "bom-ref": "pkg:alpine/ncurses-libs@6.2_p20210109-r1?arch=x86_64\u0026upstream=ncurses\u0026distro=alpine-3.13.11\u0026package-id=f64843c9c99bd6b2",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "ncurses-libs",
-      "version": "6.2_p20210109-r0",
+      "version": "6.2_p20210109-r1",
       "description": "Ncurses libraries",
       "licenses": [
         {
@@ -4303,8 +4335,8 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:ncurses-libs:ncurses-libs:6.2_p20210109-r0:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/ncurses-libs@6.2_p20210109-r0?arch=x86_64\u0026upstream=ncurses\u0026distro=alpine-3.13.10",
+      "cpe": "cpe:2.3:a:ncurses-libs:ncurses-libs:6.2_p20210109-r1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpine/ncurses-libs@6.2_p20210109-r1?arch=x86_64\u0026upstream=ncurses\u0026distro=alpine-3.13.11",
       "externalReferences": [
         {
           "url": "https://invisible-island.net/ncurses/",
@@ -4326,27 +4358,27 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ncurses-libs:ncurses_libs:6.2_p20210109-r0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ncurses-libs:ncurses_libs:6.2_p20210109-r1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ncurses_libs:ncurses-libs:6.2_p20210109-r0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ncurses_libs:ncurses-libs:6.2_p20210109-r1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ncurses_libs:ncurses_libs:6.2_p20210109-r0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ncurses_libs:ncurses_libs:6.2_p20210109-r1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ncurses:ncurses-libs:6.2_p20210109-r0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ncurses:ncurses-libs:6.2_p20210109-r1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ncurses:ncurses_libs:6.2_p20210109-r0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ncurses:ncurses_libs:6.2_p20210109-r1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -4354,7 +4386,7 @@
         },
         {
           "name": "syft:metadata:gitCommitOfApkPort",
-          "value": "8967a445c41384883ec1329788aafe10e4ba762f"
+          "value": "f14965f6d733d2596d664bae8a0a7210193276f8"
         },
         {
           "name": "syft:metadata:installedSize",
@@ -4366,24 +4398,24 @@
         },
         {
           "name": "syft:metadata:pullChecksum",
-          "value": "Q1hwq7QHr1tiqALAEWalXzVeRKtWA="
+          "value": "Q1+XnXNXjmM0TYGcpjf6DnqClwXEM="
         },
         {
           "name": "syft:metadata:pullDependencies",
-          "value": "ncurses-terminfo-base=6.2_p20210109-r0 so:libc.musl-x86_64.so.1"
+          "value": "ncurses-terminfo-base=6.2_p20210109-r1 so:libc.musl-x86_64.so.1"
         },
         {
           "name": "syft:metadata:size",
-          "value": "208794"
+          "value": "208851"
         }
       ]
     },
     {
-      "bom-ref": "pkg:alpine/ncurses-terminfo-base@6.2_p20210109-r0?arch=x86_64\u0026upstream=ncurses\u0026distro=alpine-3.13.10\u0026package-id=3ed242dcb6e031f8",
+      "bom-ref": "pkg:alpine/ncurses-terminfo-base@6.2_p20210109-r1?arch=x86_64\u0026upstream=ncurses\u0026distro=alpine-3.13.11\u0026package-id=6e72673a2ea21d76",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "ncurses-terminfo-base",
-      "version": "6.2_p20210109-r0",
+      "version": "6.2_p20210109-r1",
       "description": "Descriptions of common terminals",
       "licenses": [
         {
@@ -4392,8 +4424,8 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:ncurses-terminfo-base:ncurses-terminfo-base:6.2_p20210109-r0:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/ncurses-terminfo-base@6.2_p20210109-r0?arch=x86_64\u0026upstream=ncurses\u0026distro=alpine-3.13.10",
+      "cpe": "cpe:2.3:a:ncurses-terminfo-base:ncurses-terminfo-base:6.2_p20210109-r1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpine/ncurses-terminfo-base@6.2_p20210109-r1?arch=x86_64\u0026upstream=ncurses\u0026distro=alpine-3.13.11",
       "externalReferences": [
         {
           "url": "https://invisible-island.net/ncurses/",
@@ -4415,43 +4447,43 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ncurses-terminfo-base:ncurses_terminfo_base:6.2_p20210109-r0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ncurses-terminfo-base:ncurses_terminfo_base:6.2_p20210109-r1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ncurses_terminfo_base:ncurses-terminfo-base:6.2_p20210109-r0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ncurses_terminfo_base:ncurses-terminfo-base:6.2_p20210109-r1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ncurses_terminfo_base:ncurses_terminfo_base:6.2_p20210109-r0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ncurses_terminfo_base:ncurses_terminfo_base:6.2_p20210109-r1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ncurses-terminfo:ncurses-terminfo-base:6.2_p20210109-r0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ncurses-terminfo:ncurses-terminfo-base:6.2_p20210109-r1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ncurses-terminfo:ncurses_terminfo_base:6.2_p20210109-r0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ncurses-terminfo:ncurses_terminfo_base:6.2_p20210109-r1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ncurses_terminfo:ncurses-terminfo-base:6.2_p20210109-r0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ncurses_terminfo:ncurses-terminfo-base:6.2_p20210109-r1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ncurses_terminfo:ncurses_terminfo_base:6.2_p20210109-r0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ncurses_terminfo:ncurses_terminfo_base:6.2_p20210109-r1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ncurses:ncurses-terminfo-base:6.2_p20210109-r0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ncurses:ncurses-terminfo-base:6.2_p20210109-r1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ncurses:ncurses_terminfo_base:6.2_p20210109-r0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ncurses:ncurses_terminfo_base:6.2_p20210109-r1:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -4459,7 +4491,7 @@
         },
         {
           "name": "syft:metadata:gitCommitOfApkPort",
-          "value": "8967a445c41384883ec1329788aafe10e4ba762f"
+          "value": "f14965f6d733d2596d664bae8a0a7210193276f8"
         },
         {
           "name": "syft:metadata:installedSize",
@@ -4471,11 +4503,11 @@
         },
         {
           "name": "syft:metadata:pullChecksum",
-          "value": "Q1NNl67QondCX547oJRUBvyXgEPgA="
+          "value": "Q18AeNqjClQt0F7t1cv2OuvPnsUcc="
         },
         {
           "name": "syft:metadata:size",
-          "value": "22073"
+          "value": "22085"
         }
       ]
     },
@@ -4587,7 +4619,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -4703,7 +4735,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -4775,7 +4807,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -4847,7 +4879,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -4919,7 +4951,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -4991,7 +5023,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -5087,7 +5119,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -5159,7 +5191,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -5231,7 +5263,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -5276,7 +5308,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -5396,7 +5428,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -5512,7 +5544,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -5628,7 +5660,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -5744,7 +5776,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -5816,7 +5848,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -5904,7 +5936,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -5984,7 +6016,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -6045,7 +6077,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -6054,7 +6086,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/readline@8.1.0-r0?arch=x86_64\u0026upstream=readline\u0026distro=alpine-3.13.10\u0026package-id=300ddf7316f4e2f8",
+      "bom-ref": "pkg:alpine/readline@8.1.0-r0?arch=x86_64\u0026upstream=readline\u0026distro=alpine-3.13.11\u0026package-id=300ddf7316f4e2f8",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "readline",
@@ -6068,7 +6100,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:readline:readline:8.1.0-r0:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/readline@8.1.0-r0?arch=x86_64\u0026upstream=readline\u0026distro=alpine-3.13.10",
+      "purl": "pkg:alpine/readline@8.1.0-r0?arch=x86_64\u0026upstream=readline\u0026distro=alpine-3.13.11",
       "externalReferences": [
         {
           "url": "https://tiswww.cwru.edu/php/chet/readline/rltop.html",
@@ -6090,7 +6122,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -6235,7 +6267,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -6303,7 +6335,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -6380,7 +6412,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -6452,7 +6484,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -6524,7 +6556,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -6533,11 +6565,11 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/ruby@2.7.5-r0?arch=x86_64\u0026upstream=ruby\u0026distro=alpine-3.13.10\u0026package-id=3d9df19f3f1d600f",
+      "bom-ref": "pkg:alpine/ruby@2.7.6-r0?arch=x86_64\u0026upstream=ruby\u0026distro=alpine-3.13.11\u0026package-id=1d2d64e9c5b4df33",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "ruby",
-      "version": "2.7.5-r0",
+      "version": "2.7.6-r0",
       "description": "An object-oriented language for quick and easy programming",
       "licenses": [
         {
@@ -6556,8 +6588,8 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:ruby:ruby:2.7.5-r0:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/ruby@2.7.5-r0?arch=x86_64\u0026upstream=ruby\u0026distro=alpine-3.13.10",
+      "cpe": "cpe:2.3:a:ruby:ruby:2.7.6-r0:*:*:*:*:*:*:*",
+      "purl": "pkg:alpine/ruby@2.7.6-r0?arch=x86_64\u0026upstream=ruby\u0026distro=alpine-3.13.11",
       "externalReferences": [
         {
           "url": "https://www.ruby-lang.org/",
@@ -6579,7 +6611,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -6587,7 +6619,7 @@
         },
         {
           "name": "syft:metadata:gitCommitOfApkPort",
-          "value": "c1e5aa3380f15135c523e5177906fdc890f6ec23"
+          "value": "70e1c6adc41181f82108c8173afd35dbf2622e46"
         },
         {
           "name": "syft:metadata:installedSize",
@@ -6599,7 +6631,7 @@
         },
         {
           "name": "syft:metadata:pullChecksum",
-          "value": "Q14AmamXowoAvK46PcYedL10rdAOk="
+          "value": "Q1ayYfazFheWfF/l45DkcFnXvxtRw="
         },
         {
           "name": "syft:metadata:pullDependencies",
@@ -6607,16 +6639,16 @@
         },
         {
           "name": "syft:metadata:size",
-          "value": "6560"
+          "value": "6561"
         }
       ]
     },
     {
-      "bom-ref": "pkg:alpine/ruby-etc@2.7.5-r0?arch=x86_64\u0026upstream=ruby\u0026distro=alpine-3.13.10\u0026package-id=d44915fbf780536a",
+      "bom-ref": "pkg:alpine/ruby-etc@2.7.6-r0?arch=x86_64\u0026upstream=ruby\u0026distro=alpine-3.13.11\u0026package-id=6c28f7c24ab8aec8",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "ruby-etc",
-      "version": "2.7.5-r0",
+      "version": "2.7.6-r0",
       "description": "Provides access to information typically stored in UNIX /etc directory",
       "licenses": [
         {
@@ -6625,8 +6657,8 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:ruby-etc:ruby-etc:2.7.5-r0:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/ruby-etc@2.7.5-r0?arch=x86_64\u0026upstream=ruby\u0026distro=alpine-3.13.10",
+      "cpe": "cpe:2.3:a:ruby-etc:ruby-etc:2.7.6-r0:*:*:*:*:*:*:*",
+      "purl": "pkg:alpine/ruby-etc@2.7.6-r0?arch=x86_64\u0026upstream=ruby\u0026distro=alpine-3.13.11",
       "externalReferences": [
         {
           "url": "https://www.ruby-lang.org/",
@@ -6648,27 +6680,27 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby-etc:ruby_etc:2.7.5-r0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ruby-etc:ruby_etc:2.7.6-r0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby_etc:ruby-etc:2.7.5-r0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ruby_etc:ruby-etc:2.7.6-r0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby_etc:ruby_etc:2.7.5-r0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ruby_etc:ruby_etc:2.7.6-r0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby:ruby-etc:2.7.5-r0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ruby:ruby-etc:2.7.6-r0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby:ruby_etc:2.7.5-r0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ruby:ruby_etc:2.7.6-r0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -6676,7 +6708,7 @@
         },
         {
           "name": "syft:metadata:gitCommitOfApkPort",
-          "value": "c1e5aa3380f15135c523e5177906fdc890f6ec23"
+          "value": "70e1c6adc41181f82108c8173afd35dbf2622e46"
         },
         {
           "name": "syft:metadata:installedSize",
@@ -6688,7 +6720,7 @@
         },
         {
           "name": "syft:metadata:pullChecksum",
-          "value": "Q146jYWTKiJOP7OeoF6FuF7iDBa/A="
+          "value": "Q1MgjcLbsKO29p9yFL1XeyDGjRJzg="
         },
         {
           "name": "syft:metadata:pullDependencies",
@@ -6696,16 +6728,16 @@
         },
         {
           "name": "syft:metadata:size",
-          "value": "11383"
+          "value": "11379"
         }
       ]
     },
     {
-      "bom-ref": "pkg:alpine/ruby-irb@2.7.5-r0?arch=x86_64\u0026upstream=ruby\u0026distro=alpine-3.13.10\u0026package-id=1144d9ac7b340cd2",
+      "bom-ref": "pkg:alpine/ruby-irb@2.7.6-r0?arch=x86_64\u0026upstream=ruby\u0026distro=alpine-3.13.11\u0026package-id=37656ade68f3f8b1",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "ruby-irb",
-      "version": "2.7.5-r0",
+      "version": "2.7.6-r0",
       "description": "The Interactive Ruby",
       "licenses": [
         {
@@ -6724,8 +6756,8 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:ruby-irb:ruby-irb:2.7.5-r0:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/ruby-irb@2.7.5-r0?arch=x86_64\u0026upstream=ruby\u0026distro=alpine-3.13.10",
+      "cpe": "cpe:2.3:a:ruby-irb:ruby-irb:2.7.6-r0:*:*:*:*:*:*:*",
+      "purl": "pkg:alpine/ruby-irb@2.7.6-r0?arch=x86_64\u0026upstream=ruby\u0026distro=alpine-3.13.11",
       "externalReferences": [
         {
           "url": "https://www.ruby-lang.org/",
@@ -6747,27 +6779,27 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby-irb:ruby_irb:2.7.5-r0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ruby-irb:ruby_irb:2.7.6-r0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby_irb:ruby-irb:2.7.5-r0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ruby_irb:ruby-irb:2.7.6-r0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby_irb:ruby_irb:2.7.5-r0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ruby_irb:ruby_irb:2.7.6-r0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby:ruby-irb:2.7.5-r0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ruby:ruby-irb:2.7.6-r0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby:ruby_irb:2.7.5-r0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ruby:ruby_irb:2.7.6-r0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -6775,7 +6807,7 @@
         },
         {
           "name": "syft:metadata:gitCommitOfApkPort",
-          "value": "c1e5aa3380f15135c523e5177906fdc890f6ec23"
+          "value": "70e1c6adc41181f82108c8173afd35dbf2622e46"
         },
         {
           "name": "syft:metadata:installedSize",
@@ -6787,7 +6819,7 @@
         },
         {
           "name": "syft:metadata:pullChecksum",
-          "value": "Q1Rl39gePoAAl5CW0nR1DEMDJ6cnA="
+          "value": "Q1kPwCmUzntmORu3kszYYthPhVAFU="
         },
         {
           "name": "syft:metadata:pullDependencies",
@@ -6795,16 +6827,16 @@
         },
         {
           "name": "syft:metadata:size",
-          "value": "55056"
+          "value": "55062"
         }
       ]
     },
     {
-      "bom-ref": "pkg:alpine/ruby-libs@2.7.5-r0?arch=x86_64\u0026upstream=ruby\u0026distro=alpine-3.13.10\u0026package-id=3a0b941412fcacdf",
+      "bom-ref": "pkg:alpine/ruby-libs@2.7.6-r0?arch=x86_64\u0026upstream=ruby\u0026distro=alpine-3.13.11\u0026package-id=18ede1c43b252550",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "ruby-libs",
-      "version": "2.7.5-r0",
+      "version": "2.7.6-r0",
       "description": "Libraries necessary to run Ruby",
       "licenses": [
         {
@@ -6823,8 +6855,8 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:ruby-libs:ruby-libs:2.7.5-r0:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/ruby-libs@2.7.5-r0?arch=x86_64\u0026upstream=ruby\u0026distro=alpine-3.13.10",
+      "cpe": "cpe:2.3:a:ruby-libs:ruby-libs:2.7.6-r0:*:*:*:*:*:*:*",
+      "purl": "pkg:alpine/ruby-libs@2.7.6-r0?arch=x86_64\u0026upstream=ruby\u0026distro=alpine-3.13.11",
       "externalReferences": [
         {
           "url": "https://www.ruby-lang.org/",
@@ -6846,27 +6878,27 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby-libs:ruby_libs:2.7.5-r0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ruby-libs:ruby_libs:2.7.6-r0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby_libs:ruby-libs:2.7.5-r0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ruby_libs:ruby-libs:2.7.6-r0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby_libs:ruby_libs:2.7.5-r0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ruby_libs:ruby_libs:2.7.6-r0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby:ruby-libs:2.7.5-r0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ruby:ruby-libs:2.7.6-r0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby:ruby_libs:2.7.5-r0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ruby:ruby_libs:2.7.6-r0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -6874,11 +6906,11 @@
         },
         {
           "name": "syft:metadata:gitCommitOfApkPort",
-          "value": "c1e5aa3380f15135c523e5177906fdc890f6ec23"
+          "value": "70e1c6adc41181f82108c8173afd35dbf2622e46"
         },
         {
           "name": "syft:metadata:installedSize",
-          "value": "14270464"
+          "value": "14274560"
         },
         {
           "name": "syft:metadata:originPackage",
@@ -6886,7 +6918,7 @@
         },
         {
           "name": "syft:metadata:pullChecksum",
-          "value": "Q1MFbnqqMGh217RWwOUlwNl+tYF+k="
+          "value": "Q1mgDAV8moxFxJOJfQ/Bt/7kvTkf8="
         },
         {
           "name": "syft:metadata:pullDependencies",
@@ -6894,16 +6926,16 @@
         },
         {
           "name": "syft:metadata:size",
-          "value": "4202920"
+          "value": "4203048"
         }
       ]
     },
     {
-      "bom-ref": "pkg:alpine/ruby-webrick@2.7.5-r0?arch=x86_64\u0026upstream=ruby\u0026distro=alpine-3.13.10\u0026package-id=794360a47695be64",
+      "bom-ref": "pkg:alpine/ruby-webrick@2.7.6-r0?arch=x86_64\u0026upstream=ruby\u0026distro=alpine-3.13.11\u0026package-id=eb4f4199851652aa",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "ruby-webrick",
-      "version": "2.7.5-r0",
+      "version": "2.7.6-r0",
       "description": "HTTP server toolkit for Ruby",
       "licenses": [
         {
@@ -6912,8 +6944,8 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:ruby-webrick:ruby-webrick:2.7.5-r0:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/ruby-webrick@2.7.5-r0?arch=x86_64\u0026upstream=ruby\u0026distro=alpine-3.13.10",
+      "cpe": "cpe:2.3:a:ruby-webrick:ruby-webrick:2.7.6-r0:*:*:*:*:*:*:*",
+      "purl": "pkg:alpine/ruby-webrick@2.7.6-r0?arch=x86_64\u0026upstream=ruby\u0026distro=alpine-3.13.11",
       "externalReferences": [
         {
           "url": "https://www.ruby-lang.org/",
@@ -6935,27 +6967,27 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby-webrick:ruby_webrick:2.7.5-r0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ruby-webrick:ruby_webrick:2.7.6-r0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby_webrick:ruby-webrick:2.7.5-r0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ruby_webrick:ruby-webrick:2.7.6-r0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby_webrick:ruby_webrick:2.7.5-r0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ruby_webrick:ruby_webrick:2.7.6-r0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby:ruby-webrick:2.7.5-r0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ruby:ruby-webrick:2.7.6-r0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby:ruby_webrick:2.7.5-r0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ruby:ruby_webrick:2.7.6-r0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -6963,7 +6995,7 @@
         },
         {
           "name": "syft:metadata:gitCommitOfApkPort",
-          "value": "c1e5aa3380f15135c523e5177906fdc890f6ec23"
+          "value": "70e1c6adc41181f82108c8173afd35dbf2622e46"
         },
         {
           "name": "syft:metadata:installedSize",
@@ -6975,7 +7007,7 @@
         },
         {
           "name": "syft:metadata:pullChecksum",
-          "value": "Q1QZVSeuY21KIp3QMNJOnlS6nyxUs="
+          "value": "Q1+pEELLUi07JGuLjGdKJ9txcnBV0="
         },
         {
           "name": "syft:metadata:pullDependencies",
@@ -6983,12 +7015,12 @@
         },
         {
           "name": "syft:metadata:size",
-          "value": "59022"
+          "value": "59025"
         }
       ]
     },
     {
-      "bom-ref": "pkg:alpine/scanelf@1.2.8-r0?arch=x86_64\u0026upstream=pax-utils\u0026distro=alpine-3.13.10\u0026package-id=509992a596617d43",
+      "bom-ref": "pkg:alpine/scanelf@1.2.8-r0?arch=x86_64\u0026upstream=pax-utils\u0026distro=alpine-3.13.11\u0026package-id=509992a596617d43",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "scanelf",
@@ -7002,7 +7034,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:scanelf:scanelf:1.2.8-r0:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/scanelf@1.2.8-r0?arch=x86_64\u0026upstream=pax-utils\u0026distro=alpine-3.13.10",
+      "purl": "pkg:alpine/scanelf@1.2.8-r0?arch=x86_64\u0026upstream=pax-utils\u0026distro=alpine-3.13.11",
       "externalReferences": [
         {
           "url": "https://wiki.gentoo.org/wiki/Hardened/PaX_Utilities",
@@ -7024,7 +7056,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -7057,13 +7089,13 @@
       ]
     },
     {
-      "bom-ref": "pkg:gem/serverengine@2.2.5?package-id=37869b73b0c61550",
+      "bom-ref": "pkg:gem/serverengine@2.3.0?package-id=2f01661ba2404a7d",
       "type": "library",
       "author": "Sadayuki Furuhashi",
       "name": "serverengine",
-      "version": "2.2.5",
-      "cpe": "cpe:2.3:a:sadayuki-furuhashi:serverengine:2.2.5:*:*:*:*:*:*:*",
-      "purl": "pkg:gem/serverengine@2.2.5",
+      "version": "2.3.0",
+      "cpe": "cpe:2.3:a:sadayuki-furuhashi:serverengine:2.3.0:*:*:*:*:*:*:*",
+      "purl": "pkg:gem/serverengine@2.3.0",
       "externalReferences": [
         {
           "url": "https://github.com/fluent/serverengine",
@@ -7089,35 +7121,35 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:sadayuki_furuhashi:serverengine:2.2.5:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:sadayuki_furuhashi:serverengine:2.3.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:serverengine:serverengine:2.2.5:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:serverengine:serverengine:2.3.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby-lang:serverengine:2.2.5:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ruby-lang:serverengine:2.3.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby_lang:serverengine:2.2.5:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ruby_lang:serverengine:2.3.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby:serverengine:2.2.5:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ruby:serverengine:2.3.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:*:serverengine:2.2.5:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:*:serverengine:2.3.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/usr/lib/ruby/gems/2.7.0/specifications/serverengine-2.2.5.gemspec"
+          "value": "/usr/lib/ruby/gems/2.7.0/specifications/serverengine-2.3.0.gemspec"
         }
       ]
     },
@@ -7185,7 +7217,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -7257,7 +7289,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -7266,11 +7298,11 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/ssl_client@1.32.1-r8?arch=x86_64\u0026upstream=busybox\u0026distro=alpine-3.13.10\u0026package-id=604ab00666fe94c1",
+      "bom-ref": "pkg:alpine/ssl_client@1.32.1-r9?arch=x86_64\u0026upstream=busybox\u0026distro=alpine-3.13.11\u0026package-id=fac26bdc3f82f8ef",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "ssl_client",
-      "version": "1.32.1-r8",
+      "version": "1.32.1-r9",
       "description": "EXternal ssl_client for busybox wget",
       "licenses": [
         {
@@ -7279,8 +7311,8 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:ssl-client:ssl-client:1.32.1-r8:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/ssl_client@1.32.1-r8?arch=x86_64\u0026upstream=busybox\u0026distro=alpine-3.13.10",
+      "cpe": "cpe:2.3:a:ssl-client:ssl-client:1.32.1-r9:*:*:*:*:*:*:*",
+      "purl": "pkg:alpine/ssl_client@1.32.1-r9?arch=x86_64\u0026upstream=busybox\u0026distro=alpine-3.13.11",
       "externalReferences": [
         {
           "url": "https://busybox.net/",
@@ -7302,27 +7334,27 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ssl-client:ssl_client:1.32.1-r8:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ssl-client:ssl_client:1.32.1-r9:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ssl_client:ssl-client:1.32.1-r8:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ssl_client:ssl-client:1.32.1-r9:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ssl_client:ssl_client:1.32.1-r8:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ssl_client:ssl_client:1.32.1-r9:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ssl:ssl-client:1.32.1-r8:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ssl:ssl-client:1.32.1-r9:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ssl:ssl_client:1.32.1-r8:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ssl:ssl_client:1.32.1-r9:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -7330,7 +7362,7 @@
         },
         {
           "name": "syft:metadata:gitCommitOfApkPort",
-          "value": "652623d1b7c8bfda429b8971973727aca902bd36"
+          "value": "ccc91ed0231f552e529a853e75839c38c1f3c218"
         },
         {
           "name": "syft:metadata:installedSize",
@@ -7342,7 +7374,7 @@
         },
         {
           "name": "syft:metadata:pullChecksum",
-          "value": "Q1zMG4FxWVvLEPZ1TzbRPbpE6gUgY="
+          "value": "Q1Ah2dxji7C9VXp7YI0GWuDjFgmBc="
         },
         {
           "name": "syft:metadata:pullDependencies",
@@ -7418,7 +7450,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -7490,7 +7522,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -7570,7 +7602,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -7642,7 +7674,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -7722,7 +7754,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -7731,7 +7763,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/tini@0.19.0-r0?arch=x86_64\u0026upstream=tini\u0026distro=alpine-3.13.10\u0026package-id=fad443ea54c19205",
+      "bom-ref": "pkg:alpine/tini@0.19.0-r0?arch=x86_64\u0026upstream=tini\u0026distro=alpine-3.13.11\u0026package-id=fad443ea54c19205",
       "type": "library",
       "publisher": "Danilo Bürger \u003cdanilo@feastr.de\u003e",
       "name": "tini",
@@ -7745,7 +7777,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:tini:tini:0.19.0-r0:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/tini@0.19.0-r0?arch=x86_64\u0026upstream=tini\u0026distro=alpine-3.13.10",
+      "purl": "pkg:alpine/tini@0.19.0-r0?arch=x86_64\u0026upstream=tini\u0026distro=alpine-3.13.11",
       "externalReferences": [
         {
           "url": "https://github.com/krallin/tini",
@@ -7767,7 +7799,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -7863,7 +7895,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -7872,11 +7904,11 @@
       ]
     },
     {
-      "bom-ref": "pkg:gem/tzinfo@2.0.4?package-id=1745c1976c2d5273",
+      "bom-ref": "pkg:gem/tzinfo@2.0.5?package-id=7beddcc0abdcedd1",
       "type": "library",
       "author": "Philip Ross",
       "name": "tzinfo",
-      "version": "2.0.4",
+      "version": "2.0.5",
       "licenses": [
         {
           "license": {
@@ -7884,8 +7916,8 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:philip-ross:tzinfo:2.0.4:*:*:*:*:*:*:*",
-      "purl": "pkg:gem/tzinfo@2.0.4",
+      "cpe": "cpe:2.3:a:philip-ross:tzinfo:2.0.5:*:*:*:*:*:*:*",
+      "purl": "pkg:gem/tzinfo@2.0.5",
       "externalReferences": [
         {
           "url": "https://tzinfo.github.io",
@@ -7911,35 +7943,35 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:philip_ross:tzinfo:2.0.4:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:philip_ross:tzinfo:2.0.5:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby-lang:tzinfo:2.0.4:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ruby-lang:tzinfo:2.0.5:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby_lang:tzinfo:2.0.4:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ruby_lang:tzinfo:2.0.5:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:tzinfo:tzinfo:2.0.4:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:tzinfo:tzinfo:2.0.5:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby:tzinfo:2.0.4:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ruby:tzinfo:2.0.5:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:*:tzinfo:2.0.4:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:*:tzinfo:2.0.5:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/usr/lib/ruby/gems/2.7.0/specifications/tzinfo-2.0.4.gemspec"
+          "value": "/usr/lib/ruby/gems/2.7.0/specifications/tzinfo-2.0.5.gemspec"
         }
       ]
     },
@@ -8051,7 +8083,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -8123,7 +8155,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -8211,7 +8243,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -8220,11 +8252,11 @@
       ]
     },
     {
-      "bom-ref": "pkg:gem/yajl-ruby@1.4.2?package-id=2cd6a13c6b4dbd21",
+      "bom-ref": "pkg:gem/yajl-ruby@1.4.3?package-id=4371acd6f442b7f5",
       "type": "library",
       "author": "Brian Lopez,Lloyd Hilaiel",
       "name": "yajl-ruby",
-      "version": "1.4.2",
+      "version": "1.4.3",
       "licenses": [
         {
           "license": {
@@ -8232,11 +8264,11 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:lloyd-hilaiel:yajl-ruby_gem:1.4.2:*:*:*:*:*:*:*",
-      "purl": "pkg:gem/yajl-ruby@1.4.2",
+      "cpe": "cpe:2.3:a:lloyd-hilaiel:yajl-ruby_gem:1.4.3:*:*:*:*:*:*:*",
+      "purl": "pkg:gem/yajl-ruby@1.4.3",
       "externalReferences": [
         {
-          "url": "http://github.com/brianmario/yajl-ruby",
+          "url": "https://github.com/brianmario/yajl-ruby",
           "type": "website"
         }
       ],
@@ -8259,175 +8291,175 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:lloyd_hilaiel:yajl-ruby_gem:1.4.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:lloyd_hilaiel:yajl-ruby_gem:1.4.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:yajl-ruby-gem:yajl-ruby_gem:1.4.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:yajl-ruby-gem:yajl-ruby_gem:1.4.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:yajl-ruby_gem:yajl-ruby_gem:1.4.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:yajl-ruby_gem:yajl-ruby_gem:1.4.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:yajl_ruby_gem:yajl-ruby_gem:1.4.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:yajl_ruby_gem:yajl-ruby_gem:1.4.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:brian-lopez:yajl-ruby_gem:1.4.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:brian-lopez:yajl-ruby_gem:1.4.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:brian_lopez:yajl-ruby_gem:1.4.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:brian_lopez:yajl-ruby_gem:1.4.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:lloyd-hilaiel:yajl-ruby:1.4.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:lloyd-hilaiel:yajl-ruby:1.4.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:lloyd-hilaiel:yajl_ruby:1.4.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:lloyd-hilaiel:yajl_ruby:1.4.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:lloyd_hilaiel:yajl-ruby:1.4.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:lloyd_hilaiel:yajl-ruby:1.4.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:lloyd_hilaiel:yajl_ruby:1.4.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:lloyd_hilaiel:yajl_ruby:1.4.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby-lang:yajl-ruby_gem:1.4.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ruby-lang:yajl-ruby_gem:1.4.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby_lang:yajl-ruby_gem:1.4.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ruby_lang:yajl-ruby_gem:1.4.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:yajl-ruby-gem:yajl-ruby:1.4.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:yajl-ruby-gem:yajl-ruby:1.4.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:yajl-ruby-gem:yajl_ruby:1.4.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:yajl-ruby-gem:yajl_ruby:1.4.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:yajl-ruby:yajl-ruby_gem:1.4.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:yajl-ruby:yajl-ruby_gem:1.4.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:yajl-ruby_gem:yajl-ruby:1.4.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:yajl-ruby_gem:yajl-ruby:1.4.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:yajl-ruby_gem:yajl_ruby:1.4.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:yajl-ruby_gem:yajl_ruby:1.4.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:yajl_ruby:yajl-ruby_gem:1.4.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:yajl_ruby:yajl-ruby_gem:1.4.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:yajl_ruby_gem:yajl-ruby:1.4.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:yajl_ruby_gem:yajl-ruby:1.4.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:yajl_ruby_gem:yajl_ruby:1.4.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:yajl_ruby_gem:yajl_ruby:1.4.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:brian-lopez:yajl-ruby:1.4.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:brian-lopez:yajl-ruby:1.4.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:brian-lopez:yajl_ruby:1.4.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:brian-lopez:yajl_ruby:1.4.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:brian_lopez:yajl-ruby:1.4.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:brian_lopez:yajl-ruby:1.4.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:brian_lopez:yajl_ruby:1.4.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:brian_lopez:yajl_ruby:1.4.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby-lang:yajl-ruby:1.4.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ruby-lang:yajl-ruby:1.4.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby-lang:yajl_ruby:1.4.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ruby-lang:yajl_ruby:1.4.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby_lang:yajl-ruby:1.4.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ruby_lang:yajl-ruby:1.4.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby_lang:yajl_ruby:1.4.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ruby_lang:yajl_ruby:1.4.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:yajl-ruby:yajl-ruby:1.4.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:yajl-ruby:yajl-ruby:1.4.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:yajl-ruby:yajl_ruby:1.4.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:yajl-ruby:yajl_ruby:1.4.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:yajl_ruby:yajl-ruby:1.4.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:yajl_ruby:yajl-ruby:1.4.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:yajl_ruby:yajl_ruby:1.4.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:yajl_ruby:yajl_ruby:1.4.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby:yajl-ruby_gem:1.4.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ruby:yajl-ruby_gem:1.4.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:yajl:yajl-ruby_gem:1.4.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:yajl:yajl-ruby_gem:1.4.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby:yajl-ruby:1.4.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ruby:yajl-ruby:1.4.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ruby:yajl_ruby:1.4.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ruby:yajl_ruby:1.4.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:yajl:yajl-ruby:1.4.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:yajl:yajl-ruby:1.4.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:yajl:yajl_ruby:1.4.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:yajl:yajl_ruby:1.4.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:*:yajl-ruby_gem:1.4.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:*:yajl-ruby_gem:1.4.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:*:yajl-ruby:1.4.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:*:yajl-ruby:1.4.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:*:yajl_ruby:1.4.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:*:yajl_ruby:1.4.3:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
-          "value": "/usr/lib/ruby/gems/2.7.0/specifications/yajl-ruby-1.4.2.gemspec"
+          "value": "/usr/lib/ruby/gems/2.7.0/specifications/yajl-ruby-1.4.3.gemspec"
         }
       ]
     },
@@ -8503,7 +8535,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -8512,7 +8544,7 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/yaml@0.2.5-r0?arch=x86_64\u0026upstream=yaml\u0026distro=alpine-3.13.10\u0026package-id=67cb26c1f07dd406",
+      "bom-ref": "pkg:alpine/yaml@0.2.5-r0?arch=x86_64\u0026upstream=yaml\u0026distro=alpine-3.13.11\u0026package-id=67cb26c1f07dd406",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "yaml",
@@ -8526,7 +8558,7 @@
         }
       ],
       "cpe": "cpe:2.3:a:yaml:yaml:0.2.5-r0:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/yaml@0.2.5-r0?arch=x86_64\u0026upstream=yaml\u0026distro=alpine-3.13.10",
+      "purl": "pkg:alpine/yaml@0.2.5-r0?arch=x86_64\u0026upstream=yaml\u0026distro=alpine-3.13.11",
       "externalReferences": [
         {
           "url": "https://pyyaml.org/wiki/LibYAML",
@@ -8548,7 +8580,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -8652,7 +8684,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -8661,11 +8693,11 @@
       ]
     },
     {
-      "bom-ref": "pkg:alpine/zlib@1.2.12-r0?arch=x86_64\u0026upstream=zlib\u0026distro=alpine-3.13.10\u0026package-id=960340934549f1a9",
+      "bom-ref": "pkg:alpine/zlib@1.2.12-r1?arch=x86_64\u0026upstream=zlib\u0026distro=alpine-3.13.11\u0026package-id=644320726ef68078",
       "type": "library",
       "publisher": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
       "name": "zlib",
-      "version": "1.2.12-r0",
+      "version": "1.2.12-r1",
       "description": "A compression/decompression Library",
       "licenses": [
         {
@@ -8674,8 +8706,8 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:zlib:zlib:1.2.12-r0:*:*:*:*:*:*:*",
-      "purl": "pkg:alpine/zlib@1.2.12-r0?arch=x86_64\u0026upstream=zlib\u0026distro=alpine-3.13.10",
+      "cpe": "cpe:2.3:a:zlib:zlib:1.2.12-r1:*:*:*:*:*:*:*",
+      "purl": "pkg:alpine/zlib@1.2.12-r1?arch=x86_64\u0026upstream=zlib\u0026distro=alpine-3.13.11",
       "externalReferences": [
         {
           "url": "https://zlib.net/",
@@ -8697,7 +8729,7 @@
         },
         {
           "name": "syft:location:0:layerID",
-          "value": "sha256:772bee778be96327735cd6b22df5b8d7b7ee51f5965b54604481cd73f16f5ff3"
+          "value": "sha256:c034a07588ff112e7e6b2beada2a9a3a24a4e38139c109eb1042525c887a3b9a"
         },
         {
           "name": "syft:location:0:path",
@@ -8705,7 +8737,7 @@
         },
         {
           "name": "syft:metadata:gitCommitOfApkPort",
-          "value": "8021efdc169569171e696c41fc96cb91063cbe72"
+          "value": "14b67094a225511a7f23e4c8c856d8aa1824bbac"
         },
         {
           "name": "syft:metadata:installedSize",
@@ -8717,7 +8749,7 @@
         },
         {
           "name": "syft:metadata:pullChecksum",
-          "value": "Q1rkprW7McCkcwcac4rkaQDnbclDw="
+          "value": "Q1H59frx9DTlEV37smHvYqzCBpFbA="
         },
         {
           "name": "syft:metadata:pullDependencies",
@@ -8725,19 +8757,19 @@
         },
         {
           "name": "syft:metadata:size",
-          "value": "53165"
+          "value": "53137"
         }
       ]
     },
     {
       "type": "operating-system",
       "name": "alpine",
-      "version": "3.13.10",
+      "version": "3.13.11",
       "description": "Alpine Linux v3.13",
       "swid": {
         "tagId": "alpine",
         "name": "alpine",
-        "version": "3.13.10"
+        "version": "3.13.11"
       },
       "externalReferences": [
         {
@@ -8760,7 +8792,7 @@
         },
         {
           "name": "syft:distro:versionID",
-          "value": "3.13.10"
+          "value": "3.13.11"
         }
       ]
     }

@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:fba22e38-ce6e-4f43-b095-46f6ae5f527f",
+  "serialNumber": "urn:uuid:8f8492d1-cea2-4937-8617-923b57375e87",
   "version": 1,
   "metadata": {
-    "timestamp": "2022-07-19T01:48:20Z",
+    "timestamp": "2022-07-20T01:26:53Z",
     "tools": [
       {
         "vendor": "anchore",
@@ -13367,56 +13367,9 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/leiningen/leiningen@2.9.8?package-id=570b866176ebbcf5",
+      "bom-ref": "pkg:maven/leiningen-core/leiningen-core@2.9.8?package-id=31726d46a0af575d",
       "type": "library",
       "group": "leiningen",
-      "name": "leiningen",
-      "version": "2.9.8",
-      "cpe": "cpe:2.3:a:leiningen:leiningen:2.9.8:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/leiningen/leiningen@2.9.8",
-      "properties": [
-        {
-          "name": "syft:package:foundBy",
-          "value": "java-cataloger"
-        },
-        {
-          "name": "syft:package:language",
-          "value": "java"
-        },
-        {
-          "name": "syft:package:metadataType",
-          "value": "JavaMetadata"
-        },
-        {
-          "name": "syft:package:type",
-          "value": "java-archive"
-        },
-        {
-          "name": "syft:location:0:layerID",
-          "value": "sha256:a9d602678f30134e9f357c40797f588efa2140736fb85db8b8cf12f766d610a4"
-        },
-        {
-          "name": "syft:location:0:path",
-          "value": "/usr/share/java/leiningen-2.9.8-standalone.jar"
-        },
-        {
-          "name": "syft:metadata:-:artifactID",
-          "value": "leiningen"
-        },
-        {
-          "name": "syft:metadata:-:groupID",
-          "value": "leiningen"
-        },
-        {
-          "name": "syft:metadata:virtualPath",
-          "value": "/usr/share/java/leiningen-2.9.8-standalone.jar:leiningen"
-        }
-      ]
-    },
-    {
-      "bom-ref": "pkg:maven/leiningen-core/leiningen-core@2.9.8?package-id=be46d0146d1b6be9",
-      "type": "library",
-      "group": "leiningen-core",
       "name": "leiningen-core",
       "version": "2.9.8",
       "cpe": "cpe:2.3:a:leiningen-core:leiningen-core:2.9.8:*:*:*:*:*:*:*",
@@ -13464,11 +13417,23 @@
         },
         {
           "name": "syft:cpe23",
+          "value": "cpe:2.3:a:leiningen-core:leiningen:2.9.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
           "value": "cpe:2.3:a:leiningen:leiningen-core:2.9.8:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
           "value": "cpe:2.3:a:leiningen:leiningen_core:2.9.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:leiningen_core:leiningen:2.9.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:leiningen:leiningen:2.9.8:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",
@@ -13480,11 +13445,11 @@
         },
         {
           "name": "syft:metadata:-:artifactID",
-          "value": "leiningen-core"
+          "value": "leiningen"
         },
         {
           "name": "syft:metadata:-:groupID",
-          "value": "leiningen-core"
+          "value": "leiningen"
         },
         {
           "name": "syft:metadata:virtualPath",

@@ -3,7 +3,7 @@
  "name": "docker.io/library/mageia-latest",
  "spdxVersion": "SPDX-2.2",
  "creationInfo": {
-  "created": "2022-07-19T02:05:11.524933233Z",
+  "created": "2022-07-20T01:43:14.582085516Z",
   "creators": [
    "Organization: Anchore, Inc",
    "Tool: syft-0.48.0"
@@ -11,7 +11,7 @@
   "licenseListVersion": "3.17"
  },
  "dataLicense": "CC0-1.0",
- "documentNamespace": "https://anchore.com/syft/image/docker.io/library/mageia-latest-2dac3021-861c-4696-97f3-24072a8d01a9",
+ "documentNamespace": "https://anchore.com/syft/image/docker.io/library/mageia-latest-8da7a7bd-3c00-4229-8f3d-3eb96aa70b43",
  "packages": [
   {
    "SPDXID": "SPDXRef-e8b8b84a4eb6d4ee",
@@ -119725,12 +119725,6 @@
    "relatedSpdxElement": "SPDXRef-e6c2908da32ca79d"
   },
   {
-   "spdxElementId": "SPDXRef-f207b5605b652daa",
-   "relationshipType": "OTHER",
-   "relatedSpdxElement": "SPDXRef-e8b8b84a4eb6d4ee",
-   "comment": "ownership-by-file-overlap: indicates that the parent package claims ownership of a child package since the parent metadata indicates overlap with a location that a cataloger found the child package by"
-  },
-  {
    "spdxElementId": "SPDXRef-e73012b0a880f3c9",
    "relationshipType": "OTHER",
    "relatedSpdxElement": "SPDXRef-4f9c8a9a1aa2ff1",
@@ -119752,6 +119746,12 @@
    "spdxElementId": "SPDXRef-f2bcd17213178762",
    "relationshipType": "OTHER",
    "relatedSpdxElement": "SPDXRef-a6c15447ec509938",
+   "comment": "ownership-by-file-overlap: indicates that the parent package claims ownership of a child package since the parent metadata indicates overlap with a location that a cataloger found the child package by"
+  },
+  {
+   "spdxElementId": "SPDXRef-f207b5605b652daa",
+   "relationshipType": "OTHER",
+   "relatedSpdxElement": "SPDXRef-e8b8b84a4eb6d4ee",
    "comment": "ownership-by-file-overlap: indicates that the parent package claims ownership of a child package since the parent metadata indicates overlap with a location that a cataloger found the child package by"
   }
  ]

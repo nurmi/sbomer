@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:c01d6db6-a8c3-48e6-8721-c322f67cc3c9",
+  "serialNumber": "urn:uuid:2ce03820-bb96-4304-bb51-09bc1b1ef2f6",
   "version": 1,
   "metadata": {
-    "timestamp": "2022-07-19T01:58:01Z",
+    "timestamp": "2022-07-20T01:36:29Z",
     "tools": [
       {
         "vendor": "anchore",
@@ -19499,25 +19499,13 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/org.fusesource.jansi/jansi-linux32@1.8?package-id=964e1b4ab5d537fb",
+      "bom-ref": "pkg:maven/org.fusesource.jansi/jansi-linux32@1.8?package-id=f754d9decfb37815",
       "type": "library",
       "group": "org.fusesource.jansi",
       "name": "jansi-linux32",
       "version": "1.8",
-      "cpe": "cpe:2.3:a:fusesource\\,-corp-:jansi-linux32:1.8:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:jansi-linux32:jansi-linux32:1.8:*:*:*:*:*:*:*",
       "purl": "pkg:maven/org.fusesource.jansi/jansi-linux32@1.8",
-      "externalReferences": [
-        {
-          "url": "",
-          "hashes": [
-            {
-              "alg": "SHA-1",
-              "content": "d9205bbcd4b5f9cd1effe752d18f73bd942d783f"
-            }
-          ],
-          "type": "build-meta"
-        }
-      ],
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -19534,22 +19522,6 @@
         {
           "name": "syft:package:type",
           "value": "java-archive"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:fusesource\\,-corp-:jansi_linux32:1.8:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:fusesource\\,_corp_:jansi-linux32:1.8:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:fusesource\\,_corp_:jansi_linux32:1.8:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jansi-linux32:jansi-linux32:1.8:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
@@ -19570,14 +19542,6 @@
         {
           "name": "syft:cpe23",
           "value": "cpe:2.3:a:fusesource:jansi_linux32:1.8:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:fusesource\\,-corp-:jansi:1.8:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:fusesource\\,_corp_:jansi:1.8:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
@@ -19621,7 +19585,7 @@
         },
         {
           "name": "syft:metadata:virtualPath",
-          "value": "/opt/gradle/lib/jansi-1.18.jar"
+          "value": "/opt/gradle/lib/jansi-1.18.jar:jansi-linux32"
         }
       ]
     },
@@ -19899,13 +19863,25 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/org.fusesource.jansi/jansi-windows32@1.8?package-id=eed87e11063c9f4",
+      "bom-ref": "pkg:maven/org.fusesource.jansi/jansi-windows32@1.8?package-id=c28270d7c95d22cd",
       "type": "library",
       "group": "org.fusesource.jansi",
       "name": "jansi-windows32",
       "version": "1.8",
-      "cpe": "cpe:2.3:a:jansi-windows32:jansi-windows32:1.8:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:fusesource\\,-corp-:jansi-windows32:1.8:*:*:*:*:*:*:*",
       "purl": "pkg:maven/org.fusesource.jansi/jansi-windows32@1.8",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "d9205bbcd4b5f9cd1effe752d18f73bd942d783f"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -19922,6 +19898,22 @@
         {
           "name": "syft:package:type",
           "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fusesource\\,-corp-:jansi_windows32:1.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fusesource\\,_corp_:jansi-windows32:1.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fusesource\\,_corp_:jansi_windows32:1.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jansi-windows32:jansi-windows32:1.8:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
@@ -19942,6 +19934,14 @@
         {
           "name": "syft:cpe23",
           "value": "cpe:2.3:a:fusesource:jansi_windows32:1.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fusesource\\,-corp-:jansi:1.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fusesource\\,_corp_:jansi:1.8:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
@@ -19985,7 +19985,7 @@
         },
         {
           "name": "syft:metadata:virtualPath",
-          "value": "/opt/gradle/lib/jansi-1.18.jar:jansi-windows32"
+          "value": "/opt/gradle/lib/jansi-1.18.jar"
         }
       ]
     },
@@ -20247,13 +20247,13 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/org.glassfish.jaxb/jaxb-core@3.0.0?package-id=903b273624d1420",
+      "bom-ref": "pkg:maven/com.sun.xml.bind/jaxb-core@3.0.0?package-id=abc7a0eafca3ab7",
       "type": "library",
-      "group": "org.glassfish.jaxb",
+      "group": "com.sun.xml.bind",
       "name": "jaxb-core",
       "version": "3.0.0",
       "cpe": "cpe:2.3:a:eclipse-foundation:jaxb-core:3.0.0:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/org.glassfish.jaxb/jaxb-core@3.0.0",
+      "purl": "pkg:maven/com.sun.xml.bind/jaxb-core@3.0.0",
       "externalReferences": [
         {
           "url": "",
@@ -20297,22 +20297,6 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:eclipse-foundation:jaxb:3.0.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:eclipse_foundation:jaxb:3.0.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:glassfish:jaxb-core:3.0.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:glassfish:jaxb_core:3.0.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
           "value": "cpe:2.3:a:jaxb-core:jaxb-core:3.0.0:*:*:*:*:*:*:*"
         },
         {
@@ -20345,23 +20329,11 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:glassfish:jaxb:3.0.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jaxb-core:jaxb:3.0.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
           "value": "cpe:2.3:a:jaxb:jaxb-core:3.0.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
           "value": "cpe:2.3:a:jaxb:jaxb_core:3.0.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jaxb_core:jaxb:3.0.0:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
@@ -20380,26 +20352,6 @@
           "value": "cpe:2.3:a:xml:jaxb_core:3.0.0:*:*:*:*:*:*:*"
         },
         {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:eclipse:jaxb:3.0.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:bind:jaxb:3.0.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jaxb:jaxb:3.0.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:sun:jaxb:3.0.0:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:xml:jaxb:3.0.0:*:*:*:*:*:*:*"
-        },
-        {
           "name": "syft:location:0:layerID",
           "value": "sha256:a6019951fcfaefa19d721b2facedc90ba2cbedc9d3a7f0efc44dcea3271a8209"
         },
@@ -20413,7 +20365,7 @@
         },
         {
           "name": "syft:metadata:-:groupID",
-          "value": "org.glassfish.jaxb"
+          "value": "com.sun.xml.bind"
         },
         {
           "name": "syft:metadata:virtualPath",
@@ -39151,12 +39103,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/org.apache.xmlcommons.Version/xml-apis@1.4.01?package-id=dc6b77682f738dfe",
+      "bom-ref": "pkg:maven/org.w3c.dom.ls/xml-apis@1.4.01?package-id=dc6b77682f738dfe",
       "type": "library",
       "name": "xml-apis",
       "version": "1.4.01",
       "cpe": "cpe:2.3:a:apache-software-foundation:xmlcommons:1.4.01:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/org.apache.xmlcommons.Version/xml-apis@1.4.01",
+      "purl": "pkg:maven/org.w3c.dom.ls/xml-apis@1.4.01",
       "externalReferences": [
         {
           "url": "",

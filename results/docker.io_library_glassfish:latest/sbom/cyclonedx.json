@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:14f8088f-ce4a-4083-a67c-a4ebc8378370",
+  "serialNumber": "urn:uuid:efb9e4cc-410f-4fb1-9a38-e15fd86a332b",
   "version": 1,
   "metadata": {
-    "timestamp": "2022-07-19T01:57:24Z",
+    "timestamp": "2022-07-20T01:35:50Z",
     "tools": [
       {
         "vendor": "anchore",
@@ -36642,97 +36642,6 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/org.glassfish.jaxb/jaxb-core@2.2.10-b140802.1033?package-id=d6c218d079b94b18",
-      "type": "library",
-      "group": "org.glassfish.jaxb",
-      "name": "jaxb-core",
-      "version": "2.2.10-b140802.1033",
-      "cpe": "cpe:2.3:a:glassfish:jaxb-core:2.2.10-b140802.1033:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/org.glassfish.jaxb/jaxb-core@2.2.10-b140802.1033",
-      "properties": [
-        {
-          "name": "syft:package:foundBy",
-          "value": "java-cataloger"
-        },
-        {
-          "name": "syft:package:language",
-          "value": "java"
-        },
-        {
-          "name": "syft:package:metadataType",
-          "value": "JavaMetadata"
-        },
-        {
-          "name": "syft:package:type",
-          "value": "java-archive"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:glassfish:jaxb_core:2.2.10-b140802.1033:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jaxb-core:jaxb-core:2.2.10-b140802.1033:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jaxb-core:jaxb_core:2.2.10-b140802.1033:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jaxb_core:jaxb-core:2.2.10-b140802.1033:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jaxb_core:jaxb_core:2.2.10-b140802.1033:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:glassfish:jaxb:2.2.10-b140802.1033:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jaxb-core:jaxb:2.2.10-b140802.1033:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jaxb:jaxb-core:2.2.10-b140802.1033:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jaxb:jaxb_core:2.2.10-b140802.1033:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jaxb_core:jaxb:2.2.10-b140802.1033:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jaxb:jaxb:2.2.10-b140802.1033:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:location:0:layerID",
-          "value": "sha256:dffdc41054f3ec2e7b642498a715921080de19aca3c8095c4054aa20621c7b3f"
-        },
-        {
-          "name": "syft:location:0:path",
-          "value": "/usr/local/glassfish4/glassfish/modules/jaxb-osgi.jar"
-        },
-        {
-          "name": "syft:metadata:-:artifactID",
-          "value": "jaxb-core"
-        },
-        {
-          "name": "syft:metadata:-:groupID",
-          "value": "org.glassfish.jaxb"
-        },
-        {
-          "name": "syft:metadata:virtualPath",
-          "value": "/usr/local/glassfish4/glassfish/modules/jaxb-osgi.jar:jaxb-core"
-        }
-      ]
-    },
-    {
       "bom-ref": "pkg:maven/com.sun.xml.bind/jaxb-core@2.2.10-b140802.1033?package-id=7b696fed10c46adb",
       "type": "library",
       "group": "com.sun.xml.bind",
@@ -36816,6 +36725,97 @@
         {
           "name": "syft:metadata:-:groupID",
           "value": "com.sun.xml.bind"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/usr/local/glassfish4/glassfish/modules/jaxb-osgi.jar:jaxb-core"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.glassfish.jaxb/jaxb-core@2.2.10-b140802.1033?package-id=d6c218d079b94b18",
+      "type": "library",
+      "group": "org.glassfish.jaxb",
+      "name": "jaxb-core",
+      "version": "2.2.10-b140802.1033",
+      "cpe": "cpe:2.3:a:glassfish:jaxb-core:2.2.10-b140802.1033:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.glassfish.jaxb/jaxb-core@2.2.10-b140802.1033",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:glassfish:jaxb_core:2.2.10-b140802.1033:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jaxb-core:jaxb-core:2.2.10-b140802.1033:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jaxb-core:jaxb_core:2.2.10-b140802.1033:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jaxb_core:jaxb-core:2.2.10-b140802.1033:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jaxb_core:jaxb_core:2.2.10-b140802.1033:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:glassfish:jaxb:2.2.10-b140802.1033:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jaxb-core:jaxb:2.2.10-b140802.1033:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jaxb:jaxb-core:2.2.10-b140802.1033:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jaxb:jaxb_core:2.2.10-b140802.1033:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jaxb_core:jaxb:2.2.10-b140802.1033:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jaxb:jaxb:2.2.10-b140802.1033:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:dffdc41054f3ec2e7b642498a715921080de19aca3c8095c4054aa20621c7b3f"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/usr/local/glassfish4/glassfish/modules/jaxb-osgi.jar"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "jaxb-core"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.glassfish.jaxb"
         },
         {
           "name": "syft:metadata:virtualPath",
@@ -37042,97 +37042,6 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/org.glassfish.jaxb/jaxb-jxc@2.2.10-b140802.1033?package-id=26b76040a8bd9104",
-      "type": "library",
-      "group": "org.glassfish.jaxb",
-      "name": "jaxb-jxc",
-      "version": "2.2.10-b140802.1033",
-      "cpe": "cpe:2.3:a:glassfish:jaxb-jxc:2.2.10-b140802.1033:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/org.glassfish.jaxb/jaxb-jxc@2.2.10-b140802.1033",
-      "properties": [
-        {
-          "name": "syft:package:foundBy",
-          "value": "java-cataloger"
-        },
-        {
-          "name": "syft:package:language",
-          "value": "java"
-        },
-        {
-          "name": "syft:package:metadataType",
-          "value": "JavaMetadata"
-        },
-        {
-          "name": "syft:package:type",
-          "value": "java-archive"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:glassfish:jaxb_jxc:2.2.10-b140802.1033:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jaxb-jxc:jaxb-jxc:2.2.10-b140802.1033:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jaxb-jxc:jaxb_jxc:2.2.10-b140802.1033:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jaxb_jxc:jaxb-jxc:2.2.10-b140802.1033:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jaxb_jxc:jaxb_jxc:2.2.10-b140802.1033:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:glassfish:jaxb:2.2.10-b140802.1033:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jaxb-jxc:jaxb:2.2.10-b140802.1033:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jaxb:jaxb-jxc:2.2.10-b140802.1033:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jaxb:jaxb_jxc:2.2.10-b140802.1033:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jaxb_jxc:jaxb:2.2.10-b140802.1033:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jaxb:jaxb:2.2.10-b140802.1033:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:location:0:layerID",
-          "value": "sha256:dffdc41054f3ec2e7b642498a715921080de19aca3c8095c4054aa20621c7b3f"
-        },
-        {
-          "name": "syft:location:0:path",
-          "value": "/usr/local/glassfish4/glassfish/modules/jaxb-osgi.jar"
-        },
-        {
-          "name": "syft:metadata:-:artifactID",
-          "value": "jaxb-jxc"
-        },
-        {
-          "name": "syft:metadata:-:groupID",
-          "value": "org.glassfish.jaxb"
-        },
-        {
-          "name": "syft:metadata:virtualPath",
-          "value": "/usr/local/glassfish4/glassfish/modules/jaxb-osgi.jar:jaxb-jxc"
-        }
-      ]
-    },
-    {
       "bom-ref": "pkg:maven/com.sun.xml.bind/jaxb-jxc@2.2.10-b140802.1033?package-id=f721d4988e1df228",
       "type": "library",
       "group": "com.sun.xml.bind",
@@ -37216,6 +37125,97 @@
         {
           "name": "syft:metadata:-:groupID",
           "value": "com.sun.xml.bind"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/usr/local/glassfish4/glassfish/modules/jaxb-osgi.jar:jaxb-jxc"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.glassfish.jaxb/jaxb-jxc@2.2.10-b140802.1033?package-id=26b76040a8bd9104",
+      "type": "library",
+      "group": "org.glassfish.jaxb",
+      "name": "jaxb-jxc",
+      "version": "2.2.10-b140802.1033",
+      "cpe": "cpe:2.3:a:glassfish:jaxb-jxc:2.2.10-b140802.1033:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.glassfish.jaxb/jaxb-jxc@2.2.10-b140802.1033",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:glassfish:jaxb_jxc:2.2.10-b140802.1033:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jaxb-jxc:jaxb-jxc:2.2.10-b140802.1033:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jaxb-jxc:jaxb_jxc:2.2.10-b140802.1033:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jaxb_jxc:jaxb-jxc:2.2.10-b140802.1033:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jaxb_jxc:jaxb_jxc:2.2.10-b140802.1033:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:glassfish:jaxb:2.2.10-b140802.1033:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jaxb-jxc:jaxb:2.2.10-b140802.1033:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jaxb:jaxb-jxc:2.2.10-b140802.1033:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jaxb:jaxb_jxc:2.2.10-b140802.1033:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jaxb_jxc:jaxb:2.2.10-b140802.1033:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jaxb:jaxb:2.2.10-b140802.1033:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:dffdc41054f3ec2e7b642498a715921080de19aca3c8095c4054aa20621c7b3f"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/usr/local/glassfish4/glassfish/modules/jaxb-osgi.jar"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "jaxb-jxc"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.glassfish.jaxb"
         },
         {
           "name": "syft:metadata:virtualPath",
@@ -37426,97 +37426,6 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/org.glassfish.jaxb/jaxb-xjc@2.2.10-b140802.1033?package-id=3d1ef38dca8a68e9",
-      "type": "library",
-      "group": "org.glassfish.jaxb",
-      "name": "jaxb-xjc",
-      "version": "2.2.10-b140802.1033",
-      "cpe": "cpe:2.3:a:glassfish:jaxb-xjc:2.2.10-b140802.1033:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/org.glassfish.jaxb/jaxb-xjc@2.2.10-b140802.1033",
-      "properties": [
-        {
-          "name": "syft:package:foundBy",
-          "value": "java-cataloger"
-        },
-        {
-          "name": "syft:package:language",
-          "value": "java"
-        },
-        {
-          "name": "syft:package:metadataType",
-          "value": "JavaMetadata"
-        },
-        {
-          "name": "syft:package:type",
-          "value": "java-archive"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:glassfish:jaxb_xjc:2.2.10-b140802.1033:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jaxb-xjc:jaxb-xjc:2.2.10-b140802.1033:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jaxb-xjc:jaxb_xjc:2.2.10-b140802.1033:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jaxb_xjc:jaxb-xjc:2.2.10-b140802.1033:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jaxb_xjc:jaxb_xjc:2.2.10-b140802.1033:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:glassfish:jaxb:2.2.10-b140802.1033:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jaxb-xjc:jaxb:2.2.10-b140802.1033:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jaxb:jaxb-xjc:2.2.10-b140802.1033:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jaxb:jaxb_xjc:2.2.10-b140802.1033:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jaxb_xjc:jaxb:2.2.10-b140802.1033:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jaxb:jaxb:2.2.10-b140802.1033:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:location:0:layerID",
-          "value": "sha256:dffdc41054f3ec2e7b642498a715921080de19aca3c8095c4054aa20621c7b3f"
-        },
-        {
-          "name": "syft:location:0:path",
-          "value": "/usr/local/glassfish4/glassfish/modules/jaxb-osgi.jar"
-        },
-        {
-          "name": "syft:metadata:-:artifactID",
-          "value": "jaxb-xjc"
-        },
-        {
-          "name": "syft:metadata:-:groupID",
-          "value": "org.glassfish.jaxb"
-        },
-        {
-          "name": "syft:metadata:virtualPath",
-          "value": "/usr/local/glassfish4/glassfish/modules/jaxb-osgi.jar:jaxb-xjc"
-        }
-      ]
-    },
-    {
       "bom-ref": "pkg:maven/com.sun.xml.bind/jaxb-xjc@2.2.10-b140802.1033?package-id=f26455072287459",
       "type": "library",
       "group": "com.sun.xml.bind",
@@ -37600,6 +37509,97 @@
         {
           "name": "syft:metadata:-:groupID",
           "value": "com.sun.xml.bind"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/usr/local/glassfish4/glassfish/modules/jaxb-osgi.jar:jaxb-xjc"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.glassfish.jaxb/jaxb-xjc@2.2.10-b140802.1033?package-id=3d1ef38dca8a68e9",
+      "type": "library",
+      "group": "org.glassfish.jaxb",
+      "name": "jaxb-xjc",
+      "version": "2.2.10-b140802.1033",
+      "cpe": "cpe:2.3:a:glassfish:jaxb-xjc:2.2.10-b140802.1033:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.glassfish.jaxb/jaxb-xjc@2.2.10-b140802.1033",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:glassfish:jaxb_xjc:2.2.10-b140802.1033:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jaxb-xjc:jaxb-xjc:2.2.10-b140802.1033:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jaxb-xjc:jaxb_xjc:2.2.10-b140802.1033:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jaxb_xjc:jaxb-xjc:2.2.10-b140802.1033:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jaxb_xjc:jaxb_xjc:2.2.10-b140802.1033:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:glassfish:jaxb:2.2.10-b140802.1033:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jaxb-xjc:jaxb:2.2.10-b140802.1033:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jaxb:jaxb-xjc:2.2.10-b140802.1033:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jaxb:jaxb_xjc:2.2.10-b140802.1033:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jaxb_xjc:jaxb:2.2.10-b140802.1033:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jaxb:jaxb:2.2.10-b140802.1033:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:dffdc41054f3ec2e7b642498a715921080de19aca3c8095c4054aa20621c7b3f"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/usr/local/glassfish4/glassfish/modules/jaxb-osgi.jar"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "jaxb-xjc"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.glassfish.jaxb"
         },
         {
           "name": "syft:metadata:virtualPath",
