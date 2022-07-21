@@ -3,7 +3,7 @@
  "name": "docker.io/library/docker-latest",
  "spdxVersion": "SPDX-2.2",
  "creationInfo": {
-  "created": "2022-07-20T01:29:23.623662199Z",
+  "created": "2022-07-21T01:28:23.565954901Z",
   "creators": [
    "Organization: Anchore, Inc",
    "Tool: syft-0.48.0"
@@ -11,7 +11,7 @@
   "licenseListVersion": "3.17"
  },
  "dataLicense": "CC0-1.0",
- "documentNamespace": "https://anchore.com/syft/image/docker.io/library/docker-latest-1864451d-3ed0-49bb-a435-5609fde4e2cf",
+ "documentNamespace": "https://anchore.com/syft/image/docker.io/library/docker-latest-7229ae3e-d1ff-4710-a87d-fa3d0c3714bf",
  "packages": [
   {
    "SPDXID": "SPDXRef-35085779bdf473bb",
@@ -389,7 +389,7 @@
    "versionInfo": "v0.81.0"
   },
   {
-   "SPDXID": "SPDXRef-634bdaa5092920c3",
+   "SPDXID": "SPDXRef-15527742ea812e2f",
    "name": "github.com/AlecAivazis/survey/v2",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -411,7 +411,7 @@
    "versionInfo": "v2.3.5"
   },
   {
-   "SPDXID": "SPDXRef-9555e75b3d8fa2d0",
+   "SPDXID": "SPDXRef-9c191db8ef207d02",
    "name": "github.com/Masterminds/semver",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -580,7 +580,7 @@
    "versionInfo": "v1.0.1"
   },
   {
-   "SPDXID": "SPDXRef-f3b67661ab3b1b13",
+   "SPDXID": "SPDXRef-dc3455f55c511214",
    "name": "github.com/beorn7/perks",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -602,7 +602,7 @@
    "versionInfo": "v1.0.1"
   },
   {
-   "SPDXID": "SPDXRef-e7c6ef41fcfe8dcf",
+   "SPDXID": "SPDXRef-3924bf80c440f628",
    "name": "github.com/buger/goterm",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -668,7 +668,7 @@
    "versionInfo": "v2.1.2"
   },
   {
-   "SPDXID": "SPDXRef-52200da1f885bdc7",
+   "SPDXID": "SPDXRef-11413a9c58ea6d04",
    "name": "github.com/cespare/xxhash/v2",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -690,58 +690,58 @@
    "versionInfo": "v2.1.2"
   },
   {
-   "SPDXID": "SPDXRef-38caa7fd9fa7e155",
+   "SPDXID": "SPDXRef-ad4406a4c6def12a",
    "name": "github.com/cnabio/cnab-go",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:cnabio:cnab-go:v0.23.1:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:cnabio:cnab-go:v0.23.4:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:cnabio:cnab_go:v0.23.1:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:cnabio:cnab_go:v0.23.4:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/cnabio/cnab-go@v0.23.1",
+     "referenceLocator": "pkg:golang/github.com/cnabio/cnab-go@v0.23.4",
      "referenceType": "purl"
     }
    ],
    "filesAnalyzed": false,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from go module information: /usr/libexec/docker/cli-plugins/docker-compose",
-   "versionInfo": "v0.23.1"
+   "versionInfo": "v0.23.4"
   },
   {
-   "SPDXID": "SPDXRef-f798af04dcbf6c3c",
+   "SPDXID": "SPDXRef-f644c5e9b068d0f6",
    "name": "github.com/cnabio/cnab-to-oci",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:cnabio:cnab-to-oci:v0.3.3:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:cnabio:cnab-to-oci:v0.3.5:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:cnabio:cnab_to_oci:v0.3.3:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:cnabio:cnab_to_oci:v0.3.5:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/cnabio/cnab-to-oci@v0.3.3",
+     "referenceLocator": "pkg:golang/github.com/cnabio/cnab-to-oci@v0.3.5",
      "referenceType": "purl"
     }
    ],
    "filesAnalyzed": false,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from go module information: /usr/libexec/docker/cli-plugins/docker-compose",
-   "versionInfo": "v0.3.3"
+   "versionInfo": "v0.3.5"
   },
   {
    "SPDXID": "SPDXRef-dc9a8b2a77cba7f4",
@@ -791,51 +791,51 @@
    "versionInfo": "v1.2.1"
   },
   {
-   "SPDXID": "SPDXRef-2d5cc592c65409a",
+   "SPDXID": "SPDXRef-4cc712006c4ebbc1",
    "name": "github.com/compose-spec/compose-go",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:compose-spec:compose-go:v1.2.8:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:compose-spec:compose-go:v1.2.9:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:compose-spec:compose_go:v1.2.8:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:compose-spec:compose_go:v1.2.9:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:compose_spec:compose-go:v1.2.8:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:compose_spec:compose-go:v1.2.9:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:compose_spec:compose_go:v1.2.8:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:compose_spec:compose_go:v1.2.9:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:compose:compose-go:v1.2.8:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:compose:compose-go:v1.2.9:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:compose:compose_go:v1.2.8:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:compose:compose_go:v1.2.9:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/compose-spec/compose-go@v1.2.8",
+     "referenceLocator": "pkg:golang/github.com/compose-spec/compose-go@v1.2.9",
      "referenceType": "purl"
     }
    ],
    "filesAnalyzed": false,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from go module information: /usr/libexec/docker/cli-plugins/docker-compose",
-   "versionInfo": "v1.2.8"
+   "versionInfo": "v1.2.9"
   },
   {
    "SPDXID": "SPDXRef-e05855ac969b8099",
@@ -860,7 +860,7 @@
    "versionInfo": "v1.0.3"
   },
   {
-   "SPDXID": "SPDXRef-6639cdd39c34f72d",
+   "SPDXID": "SPDXRef-9edb15bb054ca10b",
    "name": "github.com/containerd/console",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -904,7 +904,7 @@
    "versionInfo": "v1.6.1"
   },
   {
-   "SPDXID": "SPDXRef-7f857f4264486fd5",
+   "SPDXID": "SPDXRef-cd40a5553ec967f5",
    "name": "github.com/containerd/containerd",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -948,7 +948,7 @@
    "versionInfo": "v0.2.2"
   },
   {
-   "SPDXID": "SPDXRef-4b23852746441689",
+   "SPDXID": "SPDXRef-68bf5a8c71623240",
    "name": "github.com/containerd/continuity",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -992,7 +992,7 @@
    "versionInfo": "v1.1.0"
   },
   {
-   "SPDXID": "SPDXRef-4a11913262ed853",
+   "SPDXID": "SPDXRef-defe56c345e38448",
    "name": "github.com/containerd/ttrpc",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -1036,7 +1036,7 @@
    "versionInfo": "v1.0.2"
   },
   {
-   "SPDXID": "SPDXRef-15ecf1310fe5ccdb",
+   "SPDXID": "SPDXRef-fdd40cea2aaaae03",
    "name": "github.com/containerd/typeurl",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -1058,7 +1058,7 @@
    "versionInfo": "v1.0.2"
   },
   {
-   "SPDXID": "SPDXRef-2e0760b924ea642d",
+   "SPDXID": "SPDXRef-314b88dc2ffa6d92",
    "name": "github.com/cyberphone/json-canonicalization",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -1112,7 +1112,7 @@
    "versionInfo": "v1.1.1"
   },
   {
-   "SPDXID": "SPDXRef-7a63659343f9625c",
+   "SPDXID": "SPDXRef-b1f37f476d8e701d",
    "name": "github.com/davecgh/go-spew",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -1161,7 +1161,7 @@
    "versionInfo": "v3.0.0-20210316161203-a01c71e2477e"
   },
   {
-   "SPDXID": "SPDXRef-31230988cbd08df0",
+   "SPDXID": "SPDXRef-1b511090970d0558",
    "name": "github.com/distribution/distribution/v3",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -1205,7 +1205,7 @@
    "versionInfo": "(devel)"
   },
   {
-   "SPDXID": "SPDXRef-448364234f018306",
+   "SPDXID": "SPDXRef-227d7f1a1317d00b",
    "name": "github.com/docker/buildx",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -1249,7 +1249,7 @@
    "versionInfo": "v20.10.3-0.20220226190722-8667ccd1124c+incompatible"
   },
   {
-   "SPDXID": "SPDXRef-ddd8aebe8bfc60fc",
+   "SPDXID": "SPDXRef-f3e4003fbfe3c635",
    "name": "github.com/docker/cli",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -1298,26 +1298,26 @@
    "versionInfo": "v0.4.0"
   },
   {
-   "SPDXID": "SPDXRef-d30dcb0b7c2f4713",
+   "SPDXID": "SPDXRef-9b041fd3d188b4ca",
    "name": "github.com/docker/compose/v2",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:docker:compose\\/v2:68cf8d5ca0d4852e17aca6fb2d9d08cf2baa3b73:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:docker:compose\\/v2:0b2281348bd6acd5daed42aaafb52cbc04deba02:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/docker/compose/v2@68cf8d5ca0d4852e17aca6fb2d9d08cf2baa3b73",
+     "referenceLocator": "pkg:golang/github.com/docker/compose/v2@0b2281348bd6acd5daed42aaafb52cbc04deba02",
      "referenceType": "purl"
     }
    ],
    "filesAnalyzed": false,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from go module information: /usr/libexec/docker/cli-plugins/docker-compose",
-   "versionInfo": "68cf8d5ca0d4852e17aca6fb2d9d08cf2baa3b73"
+   "versionInfo": "0b2281348bd6acd5daed42aaafb52cbc04deba02"
   },
   {
    "SPDXID": "SPDXRef-b170bb3294ac654d",
@@ -1342,7 +1342,7 @@
    "versionInfo": "v2.8.0+incompatible"
   },
   {
-   "SPDXID": "SPDXRef-7c8956d5861c199f",
+   "SPDXID": "SPDXRef-51c68466c9420bc6",
    "name": "github.com/docker/distribution",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -1386,7 +1386,7 @@
    "versionInfo": "v20.10.3-0.20220121014307-40bb9831756f+incompatible"
   },
   {
-   "SPDXID": "SPDXRef-5fa93c88b4c339e6",
+   "SPDXID": "SPDXRef-3f77fbb0b76bca05",
    "name": "github.com/docker/docker",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -1435,7 +1435,7 @@
    "versionInfo": "v0.6.4"
   },
   {
-   "SPDXID": "SPDXRef-b618e2d80d7ca525",
+   "SPDXID": "SPDXRef-7ec3fe40f1c874da",
    "name": "github.com/docker/docker-credential-helpers",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -1484,7 +1484,7 @@
    "versionInfo": "v1.5.1-1.0.20160303222718-d30aec9fd63c"
   },
   {
-   "SPDXID": "SPDXRef-62f9bbd5353fbc5a",
+   "SPDXID": "SPDXRef-d98bfde7ec279d3b",
    "name": "github.com/docker/go",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -1533,7 +1533,7 @@
    "versionInfo": "v0.4.0"
   },
   {
-   "SPDXID": "SPDXRef-fc95bd2899752fe7",
+   "SPDXID": "SPDXRef-d71549c0e8efbc49",
    "name": "github.com/docker/go-connections",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -1587,7 +1587,7 @@
    "versionInfo": "v0.0.1"
   },
   {
-   "SPDXID": "SPDXRef-88f5064426d80fe6",
+   "SPDXID": "SPDXRef-fc5e7e8b7940afbb",
    "name": "github.com/docker/go-metrics",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -1641,7 +1641,7 @@
    "versionInfo": "v0.4.0"
   },
   {
-   "SPDXID": "SPDXRef-379175686050e33a",
+   "SPDXID": "SPDXRef-58a03a5e0ba16889",
    "name": "github.com/docker/go-units",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -1690,7 +1690,7 @@
    "versionInfo": "v1.0.2"
   },
   {
-   "SPDXID": "SPDXRef-8d405f73d6373ead",
+   "SPDXID": "SPDXRef-b31ed88d7558a5c8",
    "name": "github.com/felixge/httpsnoop",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -1734,7 +1734,7 @@
    "versionInfo": "v1.0.1"
   },
   {
-   "SPDXID": "SPDXRef-5545beff5f5c48bb",
+   "SPDXID": "SPDXRef-39ac40086b57e073",
    "name": "github.com/fvbommel/sortorder",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -1788,7 +1788,7 @@
    "versionInfo": "v1.2.2"
   },
   {
-   "SPDXID": "SPDXRef-c31b011d22e78c0e",
+   "SPDXID": "SPDXRef-dbd5806c959618a",
    "name": "github.com/go-logr/logr",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -1852,7 +1852,7 @@
    "versionInfo": "v1.2.2"
   },
   {
-   "SPDXID": "SPDXRef-f5d2a6707e35b446",
+   "SPDXID": "SPDXRef-8a6ff04564b03d80",
    "name": "github.com/go-logr/stdr",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -1906,7 +1906,7 @@
    "versionInfo": "v0.7.3"
   },
   {
-   "SPDXID": "SPDXRef-d30ed8b599033026",
+   "SPDXID": "SPDXRef-9679f1cea3542fc1",
    "name": "github.com/gofrs/flock",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -1950,7 +1950,7 @@
    "versionInfo": "v1.4.1"
   },
   {
-   "SPDXID": "SPDXRef-b562099bef73ed",
+   "SPDXID": "SPDXRef-81840095f9919332",
    "name": "github.com/gogo/googleapis",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -1994,7 +1994,7 @@
    "versionInfo": "v1.3.2"
   },
   {
-   "SPDXID": "SPDXRef-f4ad70333f1ef34c",
+   "SPDXID": "SPDXRef-865392c0a1367700",
    "name": "github.com/gogo/protobuf",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -2016,7 +2016,7 @@
    "versionInfo": "v1.3.2"
   },
   {
-   "SPDXID": "SPDXRef-5c6c5e4fcb558aa7",
+   "SPDXID": "SPDXRef-35ef6e77417440c3",
    "name": "github.com/golang/mock",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -2060,7 +2060,7 @@
    "versionInfo": "v1.5.2"
   },
   {
-   "SPDXID": "SPDXRef-bb5439c524839859",
+   "SPDXID": "SPDXRef-c0612734a7b15f18",
    "name": "github.com/golang/protobuf",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -2109,7 +2109,7 @@
    "versionInfo": "v0.5.7"
   },
   {
-   "SPDXID": "SPDXRef-cc0348208fa7ba8a",
+   "SPDXID": "SPDXRef-6abab458a00d552",
    "name": "github.com/google/go-cmp",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -2158,7 +2158,7 @@
    "versionInfo": "v1.2.0"
   },
   {
-   "SPDXID": "SPDXRef-fc347b8895e4bb34",
+   "SPDXID": "SPDXRef-cbb8d6418765c424",
    "name": "github.com/google/gofuzz",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -2202,7 +2202,7 @@
    "versionInfo": "v0.0.0-20191202100458-e7afc7fbc510"
   },
   {
-   "SPDXID": "SPDXRef-553c341bc260b7d1",
+   "SPDXID": "SPDXRef-6c72f41bd4f8c6c9",
    "name": "github.com/google/shlex",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -2290,7 +2290,7 @@
    "versionInfo": "v1.8.0"
   },
   {
-   "SPDXID": "SPDXRef-6457b138c0cbcd6a",
+   "SPDXID": "SPDXRef-72f431d80447e5d6",
    "name": "github.com/gorilla/mux",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -2359,7 +2359,7 @@
    "versionInfo": "v1.3.0"
   },
   {
-   "SPDXID": "SPDXRef-44debe14a7e76014",
+   "SPDXID": "SPDXRef-c0a1c1fc0e21af91",
    "name": "github.com/grpc-ecosystem/go-grpc-middleware",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -2453,7 +2453,7 @@
    "versionInfo": "v1.16.0"
   },
   {
-   "SPDXID": "SPDXRef-cb5d17c8e1d8a1e9",
+   "SPDXID": "SPDXRef-19598f74cf9659ac",
    "name": "github.com/grpc-ecosystem/grpc-gateway",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -2500,7 +2500,7 @@
    "versionInfo": "v1.16.0"
   },
   {
-   "SPDXID": "SPDXRef-89ec7fd67f62cc79",
+   "SPDXID": "SPDXRef-99b1cdf916771e89",
    "name": "github.com/hashicorp/errwrap",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -2549,7 +2549,7 @@
    "versionInfo": "v0.0.0-20200930094925-2721b1e36840"
   },
   {
-   "SPDXID": "SPDXRef-a052d72879bec609",
+   "SPDXID": "SPDXRef-afcecb8306263cb6",
    "name": "github.com/hashicorp/go-multierror",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -2576,31 +2576,31 @@
    "versionInfo": "v1.1.1"
   },
   {
-   "SPDXID": "SPDXRef-abe5b516849318e8",
+   "SPDXID": "SPDXRef-2a6d61ca36a33418",
    "name": "github.com/hashicorp/go-version",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:hashicorp:go-version:v1.5.0:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:hashicorp:go-version:v1.6.0:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:hashicorp:go_version:v1.5.0:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:hashicorp:go_version:v1.6.0:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/hashicorp/go-version@v1.5.0",
+     "referenceLocator": "pkg:golang/github.com/hashicorp/go-version@v1.6.0",
      "referenceType": "purl"
     }
    ],
    "filesAnalyzed": false,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from go module information: /usr/libexec/docker/cli-plugins/docker-compose",
-   "versionInfo": "v1.5.0"
+   "versionInfo": "v1.6.0"
   },
   {
    "SPDXID": "SPDXRef-567273ac9df2b59b",
@@ -2647,7 +2647,7 @@
    "versionInfo": "v0.3.12"
   },
   {
-   "SPDXID": "SPDXRef-a8b8b0539d878fc3",
+   "SPDXID": "SPDXRef-2be7973673e7ad44",
    "name": "github.com/imdario/mergo",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -2701,7 +2701,7 @@
    "versionInfo": "v1.1.12"
   },
   {
-   "SPDXID": "SPDXRef-ab0cf8dc5e9e6d31",
+   "SPDXID": "SPDXRef-2fac257dc186b93e",
    "name": "github.com/json-iterator/go",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -2733,7 +2733,7 @@
    "versionInfo": "v1.1.12"
   },
   {
-   "SPDXID": "SPDXRef-157310d1b3d4e950",
+   "SPDXID": "SPDXRef-5e072c21654cf27",
    "name": "github.com/kballard/go-shellquote",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -2782,7 +2782,7 @@
    "versionInfo": "v1.15.0"
   },
   {
-   "SPDXID": "SPDXRef-a3c19271387c97d4",
+   "SPDXID": "SPDXRef-d23aefff7259a104",
    "name": "github.com/klauspost/compress",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -2804,7 +2804,7 @@
    "versionInfo": "v1.15.1"
   },
   {
-   "SPDXID": "SPDXRef-3b937ec47908c4e7",
+   "SPDXID": "SPDXRef-4a25cbc6912e99f",
    "name": "github.com/mattn/go-colorable",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -2831,7 +2831,7 @@
    "versionInfo": "v0.1.12"
   },
   {
-   "SPDXID": "SPDXRef-83dc61338211a152",
+   "SPDXID": "SPDXRef-d3fb9ce514d03715",
    "name": "github.com/mattn/go-isatty",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -2885,7 +2885,7 @@
    "versionInfo": "v1.0.12"
   },
   {
-   "SPDXID": "SPDXRef-7c3dbda56ed5d384",
+   "SPDXID": "SPDXRef-73333f7eec7b239d",
    "name": "github.com/mattn/go-shellwords",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -2939,7 +2939,7 @@
    "versionInfo": "v1.0.2-0.20181231171920-c182affec369"
   },
   {
-   "SPDXID": "SPDXRef-fffeb59a39ecbfcb",
+   "SPDXID": "SPDXRef-ee923129d103e319",
    "name": "github.com/matttproud/golang_protobuf_extensions",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -2966,7 +2966,7 @@
    "versionInfo": "v1.0.2-0.20181231171920-c182affec369"
   },
   {
-   "SPDXID": "SPDXRef-79f4d588b017bb75",
+   "SPDXID": "SPDXRef-2ff8608f2ffb1fb3",
    "name": "github.com/mgutz/ansi",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -3037,7 +3037,7 @@
    "versionInfo": "v1.4.3"
   },
   {
-   "SPDXID": "SPDXRef-4aa646479483a7fc",
+   "SPDXID": "SPDXRef-5ad38caa4fb71a73",
    "name": "github.com/mitchellh/mapstructure",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -3081,7 +3081,7 @@
    "versionInfo": "v0.10.1-0.20220403220257-10e6f94bf90d"
   },
   {
-   "SPDXID": "SPDXRef-ee94e7452994ca57",
+   "SPDXID": "SPDXRef-2892bf96d058a5f3",
    "name": "github.com/moby/buildkit",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -3125,7 +3125,7 @@
    "versionInfo": "v1.0.1"
   },
   {
-   "SPDXID": "SPDXRef-d92322f8daea6dc0",
+   "SPDXID": "SPDXRef-a2dd38f55fd2d189",
    "name": "github.com/moby/locker",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -3235,7 +3235,7 @@
    "versionInfo": "v0.6.0"
   },
   {
-   "SPDXID": "SPDXRef-f4e842b0096cd56d",
+   "SPDXID": "SPDXRef-ff0484a724181e89",
    "name": "github.com/moby/sys/signal",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -3257,7 +3257,7 @@
    "versionInfo": "v0.6.0"
   },
   {
-   "SPDXID": "SPDXRef-6d7e356d1cd57264",
+   "SPDXID": "SPDXRef-d1c90e82a2e1248f",
    "name": "github.com/moby/sys/symlink",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -3301,7 +3301,7 @@
    "versionInfo": "v0.0.0-20210619224110-3f7ff695adc6"
   },
   {
-   "SPDXID": "SPDXRef-db7f49768e3cbd02",
+   "SPDXID": "SPDXRef-8663e0e5ceac5613",
    "name": "github.com/moby/term",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -3355,7 +3355,7 @@
    "versionInfo": "v0.0.0-20180306012644-bacd9c7ef1dd"
   },
   {
-   "SPDXID": "SPDXRef-38cef19e8349fabe",
+   "SPDXID": "SPDXRef-f813dfc76af44b45",
    "name": "github.com/modern-go/concurrent",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -3419,7 +3419,7 @@
    "versionInfo": "v1.0.2"
   },
   {
-   "SPDXID": "SPDXRef-7db5c2387df5dbaa",
+   "SPDXID": "SPDXRef-7d9ba75c3f5fea76",
    "name": "github.com/modern-go/reflect2",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -3473,7 +3473,7 @@
    "versionInfo": "v1.0.0"
   },
   {
-   "SPDXID": "SPDXRef-c08ac2b405c3cc7",
+   "SPDXID": "SPDXRef-5c602632bce86d8d",
    "name": "github.com/morikuni/aec",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -3522,7 +3522,7 @@
    "versionInfo": "v1.0.0"
   },
   {
-   "SPDXID": "SPDXRef-22adb6cae4f32c19",
+   "SPDXID": "SPDXRef-2fa67fdf04ca20e8",
    "name": "github.com/opencontainers/go-digest",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -3576,7 +3576,7 @@
    "versionInfo": "v1.0.2-0.20211117181255-693428a734f5"
   },
   {
-   "SPDXID": "SPDXRef-654ab91449147f6f",
+   "SPDXID": "SPDXRef-9cb3587ce6842b10",
    "name": "github.com/opencontainers/image-spec",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -3625,7 +3625,7 @@
    "versionInfo": "v1.1.0"
   },
   {
-   "SPDXID": "SPDXRef-54a3bc49f74031a6",
+   "SPDXID": "SPDXRef-d1d98123ad9d67a5",
    "name": "github.com/opencontainers/runc",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -3674,7 +3674,7 @@
    "versionInfo": "v1.9.4"
   },
   {
-   "SPDXID": "SPDXRef-c15e17a7ec6f88d5",
+   "SPDXID": "SPDXRef-c652f107fb5055d",
    "name": "github.com/pelletier/go-toml",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -3723,7 +3723,7 @@
    "versionInfo": "v0.9.1"
   },
   {
-   "SPDXID": "SPDXRef-e35c3684130c3a9d",
+   "SPDXID": "SPDXRef-d0d076c869e0e8f1",
    "name": "github.com/pkg/errors",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -3772,7 +3772,7 @@
    "versionInfo": "v1.12.1"
   },
   {
-   "SPDXID": "SPDXRef-f7535362d021552f",
+   "SPDXID": "SPDXRef-99bb6b9c2ffb7cb7",
    "name": "github.com/prometheus/client_golang",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -3826,7 +3826,7 @@
    "versionInfo": "v0.2.0"
   },
   {
-   "SPDXID": "SPDXRef-a4fae9945310e961",
+   "SPDXID": "SPDXRef-1636f76e2934ec42",
    "name": "github.com/prometheus/client_model",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -3875,7 +3875,7 @@
    "versionInfo": "v0.32.1"
   },
   {
-   "SPDXID": "SPDXRef-4f6de36440bd607e",
+   "SPDXID": "SPDXRef-1917ec802299c765",
    "name": "github.com/prometheus/common",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -3919,7 +3919,7 @@
    "versionInfo": "v0.7.3"
   },
   {
-   "SPDXID": "SPDXRef-864907e4fc9cb825",
+   "SPDXID": "SPDXRef-b74b60d2e8ff64ba",
    "name": "github.com/prometheus/procfs",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -3941,7 +3941,7 @@
    "versionInfo": "v0.7.3"
   },
   {
-   "SPDXID": "SPDXRef-b568d2d4fa191743",
+   "SPDXID": "SPDXRef-1b4cd60d094a1cc1",
    "name": "github.com/qri-io/jsonpointer",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -3973,7 +3973,7 @@
    "versionInfo": "v0.1.1"
   },
   {
-   "SPDXID": "SPDXRef-8e9dc37014aa10b0",
+   "SPDXID": "SPDXRef-6f8056653694dce5",
    "name": "github.com/qri-io/jsonschema",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -4005,7 +4005,7 @@
    "versionInfo": "v0.2.2-0.20210831022256-780655b2ba0e"
   },
   {
-   "SPDXID": "SPDXRef-43234bf42d8d1a4b",
+   "SPDXID": "SPDXRef-4ea1bcf0a6ea652d",
    "name": "github.com/sanathkr/go-yaml",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -4076,26 +4076,26 @@
    "versionInfo": "v1.8.1"
   },
   {
-   "SPDXID": "SPDXRef-3ca775d8bf76d903",
+   "SPDXID": "SPDXRef-7ee0efcca42e09c5",
    "name": "github.com/sirupsen/logrus",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:sirupsen:logrus:v1.8.1:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:sirupsen:logrus:v1.9.0:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/sirupsen/logrus@v1.8.1",
+     "referenceLocator": "pkg:golang/github.com/sirupsen/logrus@v1.9.0",
      "referenceType": "purl"
     }
    ],
    "filesAnalyzed": false,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from go module information: /usr/libexec/docker/cli-plugins/docker-compose",
-   "versionInfo": "v1.8.1"
+   "versionInfo": "v1.9.0"
   },
   {
    "SPDXID": "SPDXRef-2533bc616844ebcc",
@@ -4120,26 +4120,26 @@
    "versionInfo": "v1.2.1"
   },
   {
-   "SPDXID": "SPDXRef-62b203c37858ac79",
+   "SPDXID": "SPDXRef-7da4e82741513fa6",
    "name": "github.com/spf13/cobra",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:spf13:cobra:v1.4.0:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:spf13:cobra:v1.5.0:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/spf13/cobra@v1.4.0",
+     "referenceLocator": "pkg:golang/github.com/spf13/cobra@v1.5.0",
      "referenceType": "purl"
     }
    ],
    "filesAnalyzed": false,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from go module information: /usr/libexec/docker/cli-plugins/docker-compose",
-   "versionInfo": "v1.4.0"
+   "versionInfo": "v1.5.0"
   },
   {
    "SPDXID": "SPDXRef-c2d19a70e6bc023d",
@@ -4164,7 +4164,7 @@
    "versionInfo": "v1.0.5"
   },
   {
-   "SPDXID": "SPDXRef-907f9b77c3001b2f",
+   "SPDXID": "SPDXRef-8d2989859dd54f0",
    "name": "github.com/spf13/pflag",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -4208,7 +4208,7 @@
    "versionInfo": "v0.6.1"
   },
   {
-   "SPDXID": "SPDXRef-1f7676f66521d96d",
+   "SPDXID": "SPDXRef-bad2b9e1cac097c7",
    "name": "github.com/theupdateframework/notary",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -4252,7 +4252,7 @@
    "versionInfo": "v0.0.0-20220315205639-9ed612626da3"
   },
   {
-   "SPDXID": "SPDXRef-4d57f9ea634e49d7",
+   "SPDXID": "SPDXRef-5b2205677be71db1",
    "name": "github.com/tonistiigi/fsutil",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -4296,7 +4296,7 @@
    "versionInfo": "v0.0.0-20180711220420-6950e57a87ea"
   },
   {
-   "SPDXID": "SPDXRef-4523fead0552d1b4",
+   "SPDXID": "SPDXRef-7fea02ebc40eb6b4",
    "name": "github.com/tonistiigi/units",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -4340,7 +4340,7 @@
    "versionInfo": "v0.0.0-20210615222946-8066bb97264f"
   },
   {
-   "SPDXID": "SPDXRef-6f8117b00c203426",
+   "SPDXID": "SPDXRef-563db30a3322cb79",
    "name": "github.com/tonistiigi/vt100",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -4384,7 +4384,7 @@
    "versionInfo": "v0.0.0-20180127040702-4e3ac2762d5f"
   },
   {
-   "SPDXID": "SPDXRef-86a8a3eb2d10b06d",
+   "SPDXID": "SPDXRef-cb329d80d572da68",
    "name": "github.com/xeipuuv/gojsonpointer",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -4428,7 +4428,7 @@
    "versionInfo": "v0.0.0-20180127040603-bd5ef7bd5415"
   },
   {
-   "SPDXID": "SPDXRef-b482e6ceca35a41d",
+   "SPDXID": "SPDXRef-fd06538e01b19a12",
    "name": "github.com/xeipuuv/gojsonreference",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -4472,7 +4472,7 @@
    "versionInfo": "v1.2.0"
   },
   {
-   "SPDXID": "SPDXRef-aa5a68edc4bf4a73",
+   "SPDXID": "SPDXRef-ef7c33787bdc1a08",
    "name": "github.com/xeipuuv/gojsonschema",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -4543,7 +4543,7 @@
    "versionInfo": "v0.29.0"
   },
   {
-   "SPDXID": "SPDXRef-336025d786ea8df5",
+   "SPDXID": "SPDXRef-b8c517061ecd3718",
    "name": "go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -4587,7 +4587,7 @@
    "versionInfo": "v0.29.0"
   },
   {
-   "SPDXID": "SPDXRef-e0305466c875b9c3",
+   "SPDXID": "SPDXRef-c8c2b53dc31149",
    "name": "go.opentelemetry.io/contrib/instrumentation/net/http/httptrace/otelhttptrace",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -4631,7 +4631,7 @@
    "versionInfo": "v0.29.0"
   },
   {
-   "SPDXID": "SPDXRef-dc07c62b83a0a515",
+   "SPDXID": "SPDXRef-2c0b4baf49ccc26f",
    "name": "go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -4670,7 +4670,7 @@
    "versionInfo": "v1.4.1"
   },
   {
-   "SPDXID": "SPDXRef-25e87995a3916985",
+   "SPDXID": "SPDXRef-9ef292564dea72b2",
    "name": "go.opentelemetry.io/otel",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -4731,7 +4731,7 @@
    "versionInfo": "v1.4.1"
   },
   {
-   "SPDXID": "SPDXRef-39aacc5cc39e36f0",
+   "SPDXID": "SPDXRef-b1b2f48eb9a041c6",
    "name": "go.opentelemetry.io/otel/exporters/otlp/otlptrace",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -4819,7 +4819,7 @@
    "versionInfo": "v0.27.0"
   },
   {
-   "SPDXID": "SPDXRef-d6cdd4ec1e605726",
+   "SPDXID": "SPDXRef-2ac22da40434a38f",
    "name": "go.opentelemetry.io/otel/internal/metric",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -4863,7 +4863,7 @@
    "versionInfo": "v0.27.0"
   },
   {
-   "SPDXID": "SPDXRef-a2476a9d27bd7ed7",
+   "SPDXID": "SPDXRef-e14bcb0921738d46",
    "name": "go.opentelemetry.io/otel/metric",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -4907,7 +4907,7 @@
    "versionInfo": "v1.4.1"
   },
   {
-   "SPDXID": "SPDXRef-406a67e3d85d7a23",
+   "SPDXID": "SPDXRef-aa59f2b1ffdfa097",
    "name": "go.opentelemetry.io/otel/sdk",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -4951,7 +4951,7 @@
    "versionInfo": "v1.4.1"
   },
   {
-   "SPDXID": "SPDXRef-d0ed8af0c4dc5235",
+   "SPDXID": "SPDXRef-74c6bf9e3f2f309c",
    "name": "go.opentelemetry.io/otel/trace",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -4995,7 +4995,7 @@
    "versionInfo": "v0.12.0"
   },
   {
-   "SPDXID": "SPDXRef-a6d3d489481e874",
+   "SPDXID": "SPDXRef-a8196650a33074e3",
    "name": "go.opentelemetry.io/proto/otlp",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -5039,26 +5039,26 @@
    "versionInfo": "v0.0.0-20211202192323-5770296d904e"
   },
   {
-   "SPDXID": "SPDXRef-2159bad2dd8544e7",
+   "SPDXID": "SPDXRef-4361c76294595b73",
    "name": "golang.org/x/crypto",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:golang:x\\/crypto:v0.0.0-20211202192323-5770296d904e:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:golang:x\\/crypto:v0.0.0-20220214200702-86341886e292:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/golang.org/x/crypto@v0.0.0-20211202192323-5770296d904e",
+     "referenceLocator": "pkg:golang/golang.org/x/crypto@v0.0.0-20220214200702-86341886e292",
      "referenceType": "purl"
     }
    ],
    "filesAnalyzed": false,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from go module information: /usr/libexec/docker/cli-plugins/docker-compose",
-   "versionInfo": "v0.0.0-20211202192323-5770296d904e"
+   "versionInfo": "v0.0.0-20220214200702-86341886e292"
   },
   {
    "SPDXID": "SPDXRef-ae149b79ea5083d0",
@@ -5083,7 +5083,7 @@
    "versionInfo": "v0.0.0-20211216030914-fe4d6282115f"
   },
   {
-   "SPDXID": "SPDXRef-8f941bcacf9627f1",
+   "SPDXID": "SPDXRef-f53004e656abc2fc",
    "name": "golang.org/x/net",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -5127,7 +5127,7 @@
    "versionInfo": "v0.0.0-20210819190943-2bc19b11175f"
   },
   {
-   "SPDXID": "SPDXRef-471f40b91d3e596a",
+   "SPDXID": "SPDXRef-251d9b0d850c553a",
    "name": "golang.org/x/oauth2",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -5171,7 +5171,7 @@
    "versionInfo": "v0.0.0-20210220032951-036812b2e83c"
   },
   {
-   "SPDXID": "SPDXRef-7ac9ca9f0d54559",
+   "SPDXID": "SPDXRef-5f2c9f01c0580a22",
    "name": "golang.org/x/sync",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -5215,26 +5215,26 @@
    "versionInfo": "v0.0.0-20220114195835-da31bd327af9"
   },
   {
-   "SPDXID": "SPDXRef-bbb461a2ea833ba4",
+   "SPDXID": "SPDXRef-eceefebee0c8d201",
    "name": "golang.org/x/sys",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:golang:x\\/sys:v0.0.0-20220422013727-9388b58f7150:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:golang:x\\/sys:v0.0.0-20220715151400-c0bba94af5f8:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/golang.org/x/sys@v0.0.0-20220422013727-9388b58f7150",
+     "referenceLocator": "pkg:golang/golang.org/x/sys@v0.0.0-20220715151400-c0bba94af5f8",
      "referenceType": "purl"
     }
    ],
    "filesAnalyzed": false,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from go module information: /usr/libexec/docker/cli-plugins/docker-compose",
-   "versionInfo": "v0.0.0-20220422013727-9388b58f7150"
+   "versionInfo": "v0.0.0-20220715151400-c0bba94af5f8"
   },
   {
    "SPDXID": "SPDXRef-bbaf6068b1e739f6",
@@ -5259,7 +5259,7 @@
    "versionInfo": "v0.0.0-20210615171337-6886f2dfbf5b"
   },
   {
-   "SPDXID": "SPDXRef-868828f038a342f8",
+   "SPDXID": "SPDXRef-5e23126cb4834de0",
    "name": "golang.org/x/term",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -5303,7 +5303,7 @@
    "versionInfo": "v0.3.7"
   },
   {
-   "SPDXID": "SPDXRef-18241677ff5b8897",
+   "SPDXID": "SPDXRef-75e97e6902ae48de",
    "name": "golang.org/x/text",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -5347,26 +5347,26 @@
    "versionInfo": "v0.0.0-20210723032227-1f47c861a9ac"
   },
   {
-   "SPDXID": "SPDXRef-6515bc945b736123",
+   "SPDXID": "SPDXRef-69191766a089989c",
    "name": "golang.org/x/time",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:golang:x\\/time:v0.0.0-20210723032227-1f47c861a9ac:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:golang:x\\/time:v0.0.0-20220210224613-90d013bbcef8:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/golang.org/x/time@v0.0.0-20210723032227-1f47c861a9ac",
+     "referenceLocator": "pkg:golang/golang.org/x/time@v0.0.0-20220210224613-90d013bbcef8",
      "referenceType": "purl"
     }
    ],
    "filesAnalyzed": false,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from go module information: /usr/libexec/docker/cli-plugins/docker-compose",
-   "versionInfo": "v0.0.0-20210723032227-1f47c861a9ac"
+   "versionInfo": "v0.0.0-20220210224613-90d013bbcef8"
   },
   {
    "SPDXID": "SPDXRef-d1494c01bf2ce7b",
@@ -5391,7 +5391,7 @@
    "versionInfo": "v0.0.0-20211208223120-3a66f561d7aa"
   },
   {
-   "SPDXID": "SPDXRef-87302d380b09a25a",
+   "SPDXID": "SPDXRef-30ad99123bc3f148",
    "name": "google.golang.org/genproto",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -5435,7 +5435,7 @@
    "versionInfo": "v1.44.0"
   },
   {
-   "SPDXID": "SPDXRef-818b662bc31bfcd0",
+   "SPDXID": "SPDXRef-78f8962f43d063d0",
    "name": "google.golang.org/grpc",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -5479,7 +5479,7 @@
    "versionInfo": "v1.27.1"
   },
   {
-   "SPDXID": "SPDXRef-e5556677515b4214",
+   "SPDXID": "SPDXRef-a9867abe3c040d6b",
    "name": "google.golang.org/protobuf",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -5518,7 +5518,7 @@
    "versionInfo": "v0.9.1"
   },
   {
-   "SPDXID": "SPDXRef-e10bf9b4ac1bcf2e",
+   "SPDXID": "SPDXRef-434f486c6fb4d01",
    "name": "gopkg.in/inf.v0",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -5552,7 +5552,7 @@
    "versionInfo": "v2.4.0"
   },
   {
-   "SPDXID": "SPDXRef-b4784abd1321a81a",
+   "SPDXID": "SPDXRef-7485928003753ef8",
    "name": "gopkg.in/yaml.v2",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -5620,7 +5620,7 @@
    "versionInfo": "v0.22.4"
   },
   {
-   "SPDXID": "SPDXRef-553090504e8bc244",
+   "SPDXID": "SPDXRef-925645534a574339",
    "name": "k8s.io/apimachinery",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -5654,7 +5654,7 @@
    "versionInfo": "v0.22.4"
   },
   {
-   "SPDXID": "SPDXRef-7a02c16bdb7be70e",
+   "SPDXID": "SPDXRef-9185979d8f160664",
    "name": "k8s.io/client-go",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -5693,26 +5693,26 @@
    "versionInfo": "v2.30.0"
   },
   {
-   "SPDXID": "SPDXRef-2c3d461457b6d331",
+   "SPDXID": "SPDXRef-e006bd788f7d71e1",
    "name": "k8s.io/klog/v2",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:klog:v2:v2.30.0:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:klog:v2:v2.60.1:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/k8s.io/klog/v2@v2.30.0",
+     "referenceLocator": "pkg:golang/k8s.io/klog/v2@v2.60.1",
      "referenceType": "purl"
     }
    ],
    "filesAnalyzed": false,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from go module information: /usr/libexec/docker/cli-plugins/docker-compose",
-   "versionInfo": "v2.30.0"
+   "versionInfo": "v2.60.1"
   },
   {
    "SPDXID": "SPDXRef-a063af91c8fb3551",
@@ -5732,21 +5732,21 @@
    "versionInfo": "v0.0.0-20210930125809-cb0fa318a74b"
   },
   {
-   "SPDXID": "SPDXRef-7eb5f198321e4d85",
+   "SPDXID": "SPDXRef-aecc9998e738b375",
    "name": "k8s.io/utils",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/k8s.io/utils@v0.0.0-20211116205334-6203023598ed",
+     "referenceLocator": "pkg:golang/k8s.io/utils@v0.0.0-20220210201930-3a6ce19ff2f9",
      "referenceType": "purl"
     }
    ],
    "filesAnalyzed": false,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from go module information: /usr/libexec/docker/cli-plugins/docker-compose",
-   "versionInfo": "v0.0.0-20211116205334-6203023598ed"
+   "versionInfo": "v0.0.0-20220210201930-3a6ce19ff2f9"
   },
   {
    "SPDXID": "SPDXRef-ededb9e6ff708347",
@@ -6363,7 +6363,7 @@
    "versionInfo": "v4.1.2"
   },
   {
-   "SPDXID": "SPDXRef-c689c9a22812fab1",
+   "SPDXID": "SPDXRef-f97d9e896333b3de",
    "name": "sigs.k8s.io/structured-merge-diff/v4",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
@@ -6422,7 +6422,7 @@
    "versionInfo": "v1.2.0"
   },
   {
-   "SPDXID": "SPDXRef-5239dae8852d4494",
+   "SPDXID": "SPDXRef-c1170060b4c3630f",
    "name": "sigs.k8s.io/yaml",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",

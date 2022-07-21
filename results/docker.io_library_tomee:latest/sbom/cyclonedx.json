@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:8a948f68-1054-44f4-b016-de45067d8fdf",
+  "serialNumber": "urn:uuid:87d5c743-f947-40ca-8bc5-a1056eb67cd6",
   "version": 1,
   "metadata": {
-    "timestamp": "2022-07-20T02:03:00Z",
+    "timestamp": "2022-07-21T02:00:54Z",
     "tools": [
       {
         "vendor": "anchore",
@@ -29388,13 +29388,104 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/org.apache.openjpa/openjpa-kernel@3.2.2?package-id=b99d005254971f3",
+      "bom-ref": "pkg:maven/org.apache.openjpa/openjpa-kernel@3.2.2?package-id=d1747c555feeb87c",
       "type": "library",
       "group": "org.apache.openjpa",
       "name": "openjpa-kernel",
       "version": "3.2.2",
-      "cpe": "cpe:2.3:a:PersistenceActivator:openjpa-kernel:3.2.2:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:openjpa-kernel:openjpa-kernel:3.2.2:*:*:*:*:*:*:*",
       "purl": "pkg:maven/org.apache.openjpa/openjpa-kernel@3.2.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:openjpa-kernel:openjpa_kernel:3.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:openjpa_kernel:openjpa-kernel:3.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:openjpa_kernel:openjpa_kernel:3.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:openjpa-kernel:openjpa:3.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:openjpa:openjpa-kernel:3.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:openjpa:openjpa_kernel:3.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:openjpa_kernel:openjpa:3.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:openjpa-kernel:3.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:openjpa_kernel:3.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:openjpa:openjpa:3.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:openjpa:3.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:996e969db6d404c31f8520cc4269354bfd4bfb9abea54853b6093ba74ca493d5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/usr/local/tomee/lib/openjpa-3.2.2.jar"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "openjpa-kernel"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.openjpa"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/usr/local/tomee/lib/openjpa-3.2.2.jar:openjpa-kernel"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.openjpa/openjpa-lib@3.2.2?package-id=d422cb6797242fd7",
+      "type": "library",
+      "group": "org.apache.openjpa",
+      "name": "openjpa-lib",
+      "version": "3.2.2",
+      "cpe": "cpe:2.3:a:PersistenceActivator:openjpa-lib:3.2.2:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.openjpa/openjpa-lib@3.2.2",
       "externalReferences": [
         {
           "url": "",
@@ -29426,23 +29517,7 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:PersistenceActivator:openjpa_kernel:3.2.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:openjpa-kernel:openjpa-kernel:3.2.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:openjpa-kernel:openjpa_kernel:3.2.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:openjpa_kernel:openjpa-kernel:3.2.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:openjpa_kernel:openjpa_kernel:3.2.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:PersistenceActivator:openjpa_lib:3.2.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
@@ -29450,51 +29525,43 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:oracle\\,-inc-:openjpa-kernel:3.2.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:oracle\\,-inc-:openjpa-lib:3.2.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:oracle\\,-inc-:openjpa_kernel:3.2.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:oracle\\,-inc-:openjpa_lib:3.2.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:oracle\\,_inc_:openjpa-kernel:3.2.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:oracle\\,_inc_:openjpa-lib:3.2.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:oracle\\,_inc_:openjpa_kernel:3.2.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:oracle\\,_inc_:openjpa_lib:3.2.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:persistence:openjpa-kernel:3.2.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:openjpa-lib:openjpa-lib:3.2.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:persistence:openjpa_kernel:3.2.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:openjpa-lib:openjpa_lib:3.2.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:openjpa-kernel:openjpa:3.2.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:openjpa_lib:openjpa-lib:3.2.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:openjpa:openjpa-kernel:3.2.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:openjpa_lib:openjpa_lib:3.2.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:openjpa:openjpa_kernel:3.2.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:persistence:openjpa-lib:3.2.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:openjpa_kernel:openjpa:3.2.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache:openjpa-kernel:3.2.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache:openjpa_kernel:3.2.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:persistence:openjpa_lib:3.2.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
@@ -29506,15 +29573,39 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:osgi:openjpa-kernel:3.2.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:openjpa-lib:openjpa:3.2.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:osgi:openjpa_kernel:3.2.2:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:openjpa:openjpa-lib:3.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:openjpa:openjpa_lib:3.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:openjpa_lib:openjpa:3.2.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
           "value": "cpe:2.3:a:persistence:openjpa:3.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:openjpa-lib:3.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:openjpa_lib:3.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:osgi:openjpa-lib:3.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:osgi:openjpa_lib:3.2.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
@@ -29538,97 +29629,6 @@
         },
         {
           "name": "syft:metadata:-:artifactID",
-          "value": "openjpa-kernel"
-        },
-        {
-          "name": "syft:metadata:-:groupID",
-          "value": "org.apache.openjpa"
-        },
-        {
-          "name": "syft:metadata:virtualPath",
-          "value": "/usr/local/tomee/lib/openjpa-3.2.2.jar"
-        }
-      ]
-    },
-    {
-      "bom-ref": "pkg:maven/org.apache.openjpa/openjpa-lib@3.2.2?package-id=f46d185c4bf35411",
-      "type": "library",
-      "group": "org.apache.openjpa",
-      "name": "openjpa-lib",
-      "version": "3.2.2",
-      "cpe": "cpe:2.3:a:openjpa-lib:openjpa-lib:3.2.2:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/org.apache.openjpa/openjpa-lib@3.2.2",
-      "properties": [
-        {
-          "name": "syft:package:foundBy",
-          "value": "java-cataloger"
-        },
-        {
-          "name": "syft:package:language",
-          "value": "java"
-        },
-        {
-          "name": "syft:package:metadataType",
-          "value": "JavaMetadata"
-        },
-        {
-          "name": "syft:package:type",
-          "value": "java-archive"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:openjpa-lib:openjpa_lib:3.2.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:openjpa_lib:openjpa-lib:3.2.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:openjpa_lib:openjpa_lib:3.2.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:openjpa-lib:openjpa:3.2.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:openjpa:openjpa-lib:3.2.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:openjpa:openjpa_lib:3.2.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:openjpa_lib:openjpa:3.2.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache:openjpa-lib:3.2.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache:openjpa_lib:3.2.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:openjpa:openjpa:3.2.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache:openjpa:3.2.2:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:location:0:layerID",
-          "value": "sha256:996e969db6d404c31f8520cc4269354bfd4bfb9abea54853b6093ba74ca493d5"
-        },
-        {
-          "name": "syft:location:0:path",
-          "value": "/usr/local/tomee/lib/openjpa-3.2.2.jar"
-        },
-        {
-          "name": "syft:metadata:-:artifactID",
           "value": "openjpa-lib"
         },
         {
@@ -29637,7 +29637,7 @@
         },
         {
           "name": "syft:metadata:virtualPath",
-          "value": "/usr/local/tomee/lib/openjpa-3.2.2.jar:openjpa-lib"
+          "value": "/usr/local/tomee/lib/openjpa-3.2.2.jar"
         }
       ]
     },

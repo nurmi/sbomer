@@ -3,7 +3,7 @@
  "name": "docker.io/library/drupal-latest",
  "spdxVersion": "SPDX-2.2",
  "creationInfo": {
-  "created": "2022-07-20T01:29:51.119833095Z",
+  "created": "2022-07-21T01:28:51.09949716Z",
   "creators": [
    "Organization: Anchore, Inc",
    "Tool: syft-0.48.0"
@@ -11,7 +11,7 @@
   "licenseListVersion": "3.17"
  },
  "dataLicense": "CC0-1.0",
- "documentNamespace": "https://anchore.com/syft/image/docker.io/library/drupal-latest-5e65ad2e-6c5c-4692-970f-4dd6b57197f0",
+ "documentNamespace": "https://anchore.com/syft/image/docker.io/library/drupal-latest-866b4614-6e6a-4d9d-bafd-20e48da85e2a",
  "packages": [
   {
    "SPDXID": "SPDXRef-a124711c55c5b5ec",
@@ -1147,207 +1147,207 @@
    "versionInfo": "1.20.11"
   },
   {
-   "SPDXID": "SPDXRef-2ad0b3c76a963e85",
+   "SPDXID": "SPDXRef-87f6190314abdda7",
    "name": "drupal/core",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:drupal\\/core:drupal\\/core:9.4.2:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:drupal\\/core:drupal\\/core:9.4.3:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:composer/drupal/core@9.4.2",
+     "referenceLocator": "pkg:composer/drupal/core@9.4.3",
      "referenceType": "purl"
     }
    ],
    "filesAnalyzed": false,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from PHP composer manifest: /opt/drupal/vendor/composer/installed.json",
-   "versionInfo": "9.4.2"
+   "versionInfo": "9.4.3"
   },
   {
-   "SPDXID": "SPDXRef-da2e08429f52e17d",
+   "SPDXID": "SPDXRef-f4c60182423ae2fa",
    "name": "drupal/core-composer-scaffold",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:drupal\\/core-composer-scaffold:drupal\\/core-composer-scaffold:9.4.2:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:drupal\\/core-composer-scaffold:drupal\\/core-composer-scaffold:9.4.3:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:drupal\\/core-composer-scaffold:drupal\\/core_composer_scaffold:9.4.2:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:drupal\\/core-composer-scaffold:drupal\\/core_composer_scaffold:9.4.3:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:drupal\\/core_composer_scaffold:drupal\\/core-composer-scaffold:9.4.2:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:drupal\\/core_composer_scaffold:drupal\\/core-composer-scaffold:9.4.3:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:drupal\\/core_composer_scaffold:drupal\\/core_composer_scaffold:9.4.2:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:drupal\\/core_composer_scaffold:drupal\\/core_composer_scaffold:9.4.3:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:drupal\\/core-composer:drupal\\/core-composer-scaffold:9.4.2:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:drupal\\/core-composer:drupal\\/core-composer-scaffold:9.4.3:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:drupal\\/core-composer:drupal\\/core_composer_scaffold:9.4.2:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:drupal\\/core-composer:drupal\\/core_composer_scaffold:9.4.3:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:drupal\\/core_composer:drupal\\/core-composer-scaffold:9.4.2:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:drupal\\/core_composer:drupal\\/core-composer-scaffold:9.4.3:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:drupal\\/core_composer:drupal\\/core_composer_scaffold:9.4.2:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:drupal\\/core_composer:drupal\\/core_composer_scaffold:9.4.3:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:drupal\\/core:drupal\\/core-composer-scaffold:9.4.2:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:drupal\\/core:drupal\\/core-composer-scaffold:9.4.3:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:drupal\\/core:drupal\\/core_composer_scaffold:9.4.2:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:drupal\\/core:drupal\\/core_composer_scaffold:9.4.3:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:composer/drupal/core-composer-scaffold@9.4.2",
+     "referenceLocator": "pkg:composer/drupal/core-composer-scaffold@9.4.3",
      "referenceType": "purl"
     }
    ],
    "filesAnalyzed": false,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from PHP composer manifest: /opt/drupal/vendor/composer/installed.json",
-   "versionInfo": "9.4.2"
+   "versionInfo": "9.4.3"
   },
   {
-   "SPDXID": "SPDXRef-e334c86931b0dcdf",
+   "SPDXID": "SPDXRef-9afaf8d9f21cfc5b",
    "name": "drupal/core-project-message",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:drupal\\/core-project-message:drupal\\/core-project-message:9.4.2:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:drupal\\/core-project-message:drupal\\/core-project-message:9.4.3:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:drupal\\/core-project-message:drupal\\/core_project_message:9.4.2:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:drupal\\/core-project-message:drupal\\/core_project_message:9.4.3:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:drupal\\/core_project_message:drupal\\/core-project-message:9.4.2:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:drupal\\/core_project_message:drupal\\/core-project-message:9.4.3:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:drupal\\/core_project_message:drupal\\/core_project_message:9.4.2:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:drupal\\/core_project_message:drupal\\/core_project_message:9.4.3:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:drupal\\/core-project:drupal\\/core-project-message:9.4.2:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:drupal\\/core-project:drupal\\/core-project-message:9.4.3:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:drupal\\/core-project:drupal\\/core_project_message:9.4.2:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:drupal\\/core-project:drupal\\/core_project_message:9.4.3:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:drupal\\/core_project:drupal\\/core-project-message:9.4.2:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:drupal\\/core_project:drupal\\/core-project-message:9.4.3:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:drupal\\/core_project:drupal\\/core_project_message:9.4.2:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:drupal\\/core_project:drupal\\/core_project_message:9.4.3:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:drupal\\/core:drupal\\/core-project-message:9.4.2:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:drupal\\/core:drupal\\/core-project-message:9.4.3:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:drupal\\/core:drupal\\/core_project_message:9.4.2:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:drupal\\/core:drupal\\/core_project_message:9.4.3:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:composer/drupal/core-project-message@9.4.2",
+     "referenceLocator": "pkg:composer/drupal/core-project-message@9.4.3",
      "referenceType": "purl"
     }
    ],
    "filesAnalyzed": false,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from PHP composer manifest: /opt/drupal/vendor/composer/installed.json",
-   "versionInfo": "9.4.2"
+   "versionInfo": "9.4.3"
   },
   {
-   "SPDXID": "SPDXRef-1445150e3368708b",
+   "SPDXID": "SPDXRef-64d48212dd5061ec",
    "name": "drupal/core-recommended",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:drupal\\/core-recommended:drupal\\/core-recommended:9.4.2:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:drupal\\/core-recommended:drupal\\/core-recommended:9.4.3:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:drupal\\/core-recommended:drupal\\/core_recommended:9.4.2:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:drupal\\/core-recommended:drupal\\/core_recommended:9.4.3:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:drupal\\/core_recommended:drupal\\/core-recommended:9.4.2:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:drupal\\/core_recommended:drupal\\/core-recommended:9.4.3:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:drupal\\/core_recommended:drupal\\/core_recommended:9.4.2:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:drupal\\/core_recommended:drupal\\/core_recommended:9.4.3:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:drupal\\/core:drupal\\/core-recommended:9.4.2:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:drupal\\/core:drupal\\/core-recommended:9.4.3:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:drupal\\/core:drupal\\/core_recommended:9.4.2:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:drupal\\/core:drupal\\/core_recommended:9.4.3:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:composer/drupal/core-recommended@9.4.2",
+     "referenceLocator": "pkg:composer/drupal/core-recommended@9.4.3",
      "referenceType": "purl"
     }
    ],
    "filesAnalyzed": false,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from PHP composer manifest: /opt/drupal/vendor/composer/installed.json",
-   "versionInfo": "9.4.2"
+   "versionInfo": "9.4.3"
   },
   {
    "SPDXID": "SPDXRef-529fb29c48e0a3a0",

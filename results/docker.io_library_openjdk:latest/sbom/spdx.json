@@ -3,7 +3,7 @@
  "name": "docker.io/library/openjdk-latest",
  "spdxVersion": "SPDX-2.2",
  "creationInfo": {
-  "created": "2022-07-20T01:49:00.820517745Z",
+  "created": "2022-07-21T01:47:36.456415377Z",
   "creators": [
    "Organization: Anchore, Inc",
    "Tool: syft-0.48.0"
@@ -11,7 +11,7 @@
   "licenseListVersion": "3.17"
  },
  "dataLicense": "CC0-1.0",
- "documentNamespace": "https://anchore.com/syft/image/docker.io/library/openjdk-latest-f93c752c-8111-4654-a869-9dc9a27c501b",
+ "documentNamespace": "https://anchore.com/syft/image/docker.io/library/openjdk-latest-de875cb9-9dd1-44d9-9c45-df831f78dbfb",
  "packages": [
   {
    "SPDXID": "SPDXRef-65314e20595f3ef2",
@@ -1436,77 +1436,77 @@
    "versionInfo": "6.5-7.el8"
   },
   {
-   "SPDXID": "SPDXRef-c1be2db8bac81ab1",
+   "SPDXID": "SPDXRef-28ee7d4728e2eab7",
    "name": "jrt-fs",
    "licenseConcluded": "NONE",
    "checksums": [
     {
      "algorithm": "SHA1",
-     "checksumValue": "01122b9f8e916a9a4272a91f2a3624ec191cc229"
+     "checksumValue": "923f0efd90ef2d57c639c9765f35b8f492080999"
     }
    ],
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:oracle-corporation:jrt-fs:18.0.1.1:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:oracle-corporation:jrt-fs:18.0.2:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:oracle-corporation:jrt_fs:18.0.1.1:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:oracle-corporation:jrt_fs:18.0.2:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:oracle_corporation:jrt-fs:18.0.1.1:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:oracle_corporation:jrt-fs:18.0.2:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:oracle_corporation:jrt_fs:18.0.1.1:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:oracle_corporation:jrt_fs:18.0.2:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:jrt-fs:jrt-fs:18.0.1.1:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:jrt-fs:jrt-fs:18.0.2:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:jrt-fs:jrt_fs:18.0.1.1:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:jrt-fs:jrt_fs:18.0.2:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:jrt_fs:jrt-fs:18.0.1.1:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:jrt_fs:jrt-fs:18.0.2:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:jrt_fs:jrt_fs:18.0.1.1:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:jrt_fs:jrt_fs:18.0.2:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:jrt:jrt-fs:18.0.1.1:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:jrt:jrt-fs:18.0.2:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:jrt:jrt_fs:18.0.1.1:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:jrt:jrt_fs:18.0.2:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:maven/jrt-fs/jrt-fs@18.0.1.1",
+     "referenceLocator": "pkg:maven/jrt-fs/jrt-fs@18.0.2",
      "referenceType": "purl"
     }
    ],
    "filesAnalyzed": true,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from installed java archive: /usr/java/openjdk-18/lib/jrt-fs.jar",
-   "versionInfo": "18.0.1.1"
+   "versionInfo": "18.0.2"
   },
   {
    "SPDXID": "SPDXRef-d9b5585bc8ada031",
