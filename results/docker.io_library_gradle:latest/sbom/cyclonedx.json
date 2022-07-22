@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:5ad19f23-d795-47ce-aa31-a13e27f83bf3",
+  "serialNumber": "urn:uuid:ec068a27-f7ea-4d46-998c-fa97ac13d821",
   "version": 1,
   "metadata": {
-    "timestamp": "2022-07-21T01:35:28Z",
+    "timestamp": "2022-07-22T01:43:06Z",
     "tools": [
       {
         "vendor": "anchore",
@@ -19266,6 +19266,57 @@
       ]
     },
     {
+      "bom-ref": "pkg:maven/org.fusesource.jansi/jansi@1.18?package-id=f317f3f8c621d35c",
+      "type": "library",
+      "group": "org.fusesource.jansi",
+      "name": "jansi",
+      "version": "1.18",
+      "cpe": "cpe:2.3:a:fusesource:jansi:1.18:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.fusesource.jansi/jansi@1.18",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jansi:jansi:1.18:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:a6019951fcfaefa19d721b2facedc90ba2cbedc9d3a7f0efc44dcea3271a8209"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/opt/gradle/lib/jansi-1.18.jar"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "jansi"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.fusesource.jansi"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/opt/gradle/lib/jansi-1.18.jar:jansi"
+        }
+      ]
+    },
+    {
       "bom-ref": "pkg:maven/org.fusesource.jansi/jansi-freebsd32@1.8?package-id=43a72896b05a6635",
       "type": "library",
       "group": "org.fusesource.jansi",
@@ -19448,13 +19499,25 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/org.fusesource.jansi/jansi-linux32@1.8?package-id=f754d9decfb37815",
+      "bom-ref": "pkg:maven/org.fusesource.jansi/jansi-linux32@1.8?package-id=964e1b4ab5d537fb",
       "type": "library",
       "group": "org.fusesource.jansi",
       "name": "jansi-linux32",
       "version": "1.8",
-      "cpe": "cpe:2.3:a:jansi-linux32:jansi-linux32:1.8:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:fusesource\\,-corp-:jansi-linux32:1.8:*:*:*:*:*:*:*",
       "purl": "pkg:maven/org.fusesource.jansi/jansi-linux32@1.8",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "d9205bbcd4b5f9cd1effe752d18f73bd942d783f"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -19471,6 +19534,22 @@
         {
           "name": "syft:package:type",
           "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fusesource\\,-corp-:jansi_linux32:1.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fusesource\\,_corp_:jansi-linux32:1.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fusesource\\,_corp_:jansi_linux32:1.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jansi-linux32:jansi-linux32:1.8:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
@@ -19491,6 +19570,14 @@
         {
           "name": "syft:cpe23",
           "value": "cpe:2.3:a:fusesource:jansi_linux32:1.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fusesource\\,-corp-:jansi:1.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fusesource\\,_corp_:jansi:1.8:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
@@ -19534,7 +19621,7 @@
         },
         {
           "name": "syft:metadata:virtualPath",
-          "value": "/opt/gradle/lib/jansi-1.18.jar:jansi-linux32"
+          "value": "/opt/gradle/lib/jansi-1.18.jar"
         }
       ]
     },
@@ -19630,25 +19717,13 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/org.fusesource.jansi/jansi-native@1.8?package-id=92ea7155e08222eb",
+      "bom-ref": "pkg:maven/org.fusesource.jansi/jansi-native@1.8?package-id=c6401bb071d56a4f",
       "type": "library",
       "group": "org.fusesource.jansi",
       "name": "jansi-native",
       "version": "1.8",
-      "cpe": "cpe:2.3:a:fusesource\\,-corp-:jansi-native:1.8:*:*:*:*:*:*:*",
+      "cpe": "cpe:2.3:a:jansi-native:jansi-native:1.8:*:*:*:*:*:*:*",
       "purl": "pkg:maven/org.fusesource.jansi/jansi-native@1.8",
-      "externalReferences": [
-        {
-          "url": "",
-          "hashes": [
-            {
-              "alg": "SHA-1",
-              "content": "d9205bbcd4b5f9cd1effe752d18f73bd942d783f"
-            }
-          ],
-          "type": "build-meta"
-        }
-      ],
       "properties": [
         {
           "name": "syft:package:foundBy",
@@ -19668,22 +19743,6 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:fusesource\\,-corp-:jansi_native:1.8:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:fusesource\\,_corp_:jansi-native:1.8:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:fusesource\\,_corp_:jansi_native:1.8:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:jansi-native:jansi-native:1.8:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
           "value": "cpe:2.3:a:jansi-native:jansi_native:1.8:*:*:*:*:*:*:*"
         },
         {
@@ -19693,14 +19752,6 @@
         {
           "name": "syft:cpe23",
           "value": "cpe:2.3:a:jansi_native:jansi_native:1.8:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:fusesource\\,-corp-:jansi:1.8:*:*:*:*:*:*:*"
-        },
-        {
-          "name": "syft:cpe23",
-          "value": "cpe:2.3:a:fusesource\\,_corp_:jansi:1.8:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
@@ -19744,7 +19795,7 @@
         },
         {
           "name": "syft:metadata:-:artifactID",
-          "value": "jansi"
+          "value": "jansi-native"
         },
         {
           "name": "syft:metadata:-:groupID",
@@ -19752,7 +19803,7 @@
         },
         {
           "name": "syft:metadata:virtualPath",
-          "value": "/opt/gradle/lib/jansi-1.18.jar"
+          "value": "/opt/gradle/lib/jansi-1.18.jar:jansi-native"
         }
       ]
     },
@@ -39052,12 +39103,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/org.w3c.dom/xml-apis@1.4.01?package-id=dc6b77682f738dfe",
+      "bom-ref": "pkg:maven/org.apache.xmlcommons.Version/xml-apis@1.4.01?package-id=dc6b77682f738dfe",
       "type": "library",
       "name": "xml-apis",
       "version": "1.4.01",
       "cpe": "cpe:2.3:a:apache-software-foundation:xmlcommons:1.4.01:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/org.w3c.dom/xml-apis@1.4.01",
+      "purl": "pkg:maven/org.apache.xmlcommons.Version/xml-apis@1.4.01",
       "externalReferences": [
         {
           "url": "",

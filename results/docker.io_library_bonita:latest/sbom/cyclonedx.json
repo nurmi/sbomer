@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:fc6a777d-9eca-4a69-a371-7b64b8dddd1d",
+  "serialNumber": "urn:uuid:94b62d4a-e643-49fa-b5d9-d25d92ac2aa0",
   "version": 1,
   "metadata": {
-    "timestamp": "2022-07-21T01:24:42Z",
+    "timestamp": "2022-07-22T01:31:28Z",
     "tools": [
       {
         "vendor": "anchore",
@@ -5889,13 +5889,64 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/net.sf.ehcache/ehcache-rest-agent@2.10.9.2?package-id=725f51ce164d4058",
+      "bom-ref": "pkg:maven/net.sf.ehcache/ehcache@2.10.9.2?package-id=fb3e517534e70727",
       "type": "library",
       "group": "net.sf.ehcache",
+      "name": "ehcache",
+      "version": "2.10.9.2",
+      "cpe": "cpe:2.3:a:ehcache:ehcache:2.10.9.2:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/net.sf.ehcache/ehcache@2.10.9.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sf:ehcache:2.10.9.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:30f44ec8f2563661ba60a3738e6992b63ef8c4b5b588c4b0b2b04bce0619edd7"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/opt/bonita/server/webapps/bonita/WEB-INF/lib/ehcache-2.10.9.2.jar"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "ehcache"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "net.sf.ehcache"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/opt/bonita/server/webapps/bonita/WEB-INF/lib/ehcache-2.10.9.2.jar:ehcache"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/net.sf.ehcache.internal/ehcache-rest-agent@2.10.9.2?package-id=80bec0f745993b40",
+      "type": "library",
+      "group": "net.sf.ehcache.internal",
       "name": "ehcache-rest-agent",
       "version": "2.10.9.2",
       "cpe": "cpe:2.3:a:ehcache-rest-agent:ehcache-rest-agent:2.10.9.2:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/net.sf.ehcache/ehcache-rest-agent@2.10.9.2",
+      "purl": "pkg:maven/net.sf.ehcache.internal/ehcache-rest-agent@2.10.9.2",
       "externalReferences": [
         {
           "url": "",
@@ -5971,6 +6022,14 @@
         },
         {
           "name": "syft:cpe23",
+          "value": "cpe:2.3:a:internal:ehcache-rest-agent:2.10.9.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:internal:ehcache_rest_agent:2.10.9.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
           "value": "cpe:2.3:a:ehcache-rest-agent:ehcache:2.10.9.2:*:*:*:*:*:*:*"
         },
         {
@@ -6011,6 +6070,10 @@
         },
         {
           "name": "syft:cpe23",
+          "value": "cpe:2.3:a:internal:ehcache:2.10.9.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
           "value": "cpe:2.3:a:ehcache:ehcache:2.10.9.2:*:*:*:*:*:*:*"
         },
         {
@@ -6027,11 +6090,11 @@
         },
         {
           "name": "syft:metadata:-:artifactID",
-          "value": "ehcache"
+          "value": "ehcache-rest-agent"
         },
         {
           "name": "syft:metadata:-:groupID",
-          "value": "net.sf.ehcache"
+          "value": "net.sf.ehcache.internal"
         },
         {
           "name": "syft:metadata:virtualPath",

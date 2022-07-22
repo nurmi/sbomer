@@ -3,7 +3,7 @@
  "name": "docker.io/library/jruby-latest",
  "spdxVersion": "SPDX-2.2",
  "creationInfo": {
-  "created": "2022-07-21T01:39:26.057930924Z",
+  "created": "2022-07-22T01:47:07.646254582Z",
   "creators": [
    "Organization: Anchore, Inc",
    "Tool: syft-0.48.0"
@@ -11,7 +11,7 @@
   "licenseListVersion": "3.17"
  },
  "dataLicense": "CC0-1.0",
- "documentNamespace": "https://anchore.com/syft/image/docker.io/library/jruby-latest-c8299825-f58c-4ec4-bb21-61c59860fc50",
+ "documentNamespace": "https://anchore.com/syft/image/docker.io/library/jruby-latest-f86cd01c-1787-4754-850f-868c66933593",
  "packages": [
   {
    "SPDXID": "SPDXRef-2ab95f9a050ceee6",
@@ -3990,9 +3990,15 @@
    "sourceInfo": "acquired package info from installed java archive: /opt/jruby/lib/ruby/stdlib/jopenssl.jar"
   },
   {
-   "SPDXID": "SPDXRef-947abf169f7269d0",
+   "SPDXID": "SPDXRef-15b753555431f84b",
    "name": "jruby-base",
    "licenseConcluded": "NONE",
+   "checksums": [
+    {
+     "algorithm": "SHA1",
+     "checksumValue": "b88881f0a881c2fb63cd74c610a4c8ee3cf5e800"
+    }
+   ],
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
     {
@@ -4026,26 +4032,40 @@
      "referenceType": "cpe23Type"
     },
     {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:Main:jruby-base:9.3.6.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:Main:jruby_base:9.3.6.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:dist:jruby-base:9.3.6.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:dist:jruby_base:9.3.6.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
      "referenceCategory": "PACKAGE_MANAGER",
      "referenceLocator": "pkg:maven/org.jruby/jruby-base@9.3.6.0",
      "referenceType": "purl"
     }
    ],
-   "filesAnalyzed": false,
+   "filesAnalyzed": true,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from installed java archive: /opt/jruby/lib/jruby.jar",
    "versionInfo": "9.3.6.0"
   },
   {
-   "SPDXID": "SPDXRef-8e64ec71167dd3fe",
+   "SPDXID": "SPDXRef-a44d634b1b58fe6",
    "name": "jruby-core",
    "licenseConcluded": "NONE",
-   "checksums": [
-    {
-     "algorithm": "SHA1",
-     "checksumValue": "b88881f0a881c2fb63cd74c610a4c8ee3cf5e800"
-    }
-   ],
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
     {
@@ -4079,32 +4099,12 @@
      "referenceType": "cpe23Type"
     },
     {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:Main:jruby-core:9.3.6.0:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:Main:jruby_core:9.3.6.0:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:dist:jruby-core:9.3.6.0:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:dist:jruby_core:9.3.6.0:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
      "referenceCategory": "PACKAGE_MANAGER",
      "referenceLocator": "pkg:maven/org.jruby/jruby-core@9.3.6.0",
      "referenceType": "purl"
     }
    ],
-   "filesAnalyzed": true,
+   "filesAnalyzed": false,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from installed java archive: /opt/jruby/lib/jruby.jar",
    "versionInfo": "9.3.6.0"

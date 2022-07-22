@@ -3,7 +3,7 @@
  "name": "docker.io/anchore/syft-latest",
  "spdxVersion": "SPDX-2.2",
  "creationInfo": {
-  "created": "2022-07-21T01:22:56.905564442Z",
+  "created": "2022-07-22T01:29:34.243431095Z",
   "creators": [
    "Organization: Anchore, Inc",
    "Tool: syft-0.48.0"
@@ -11,7 +11,7 @@
   "licenseListVersion": "3.17"
  },
  "dataLicense": "CC0-1.0",
- "documentNamespace": "https://anchore.com/syft/image/docker.io/anchore/syft-latest-7deaecd7-e4bb-40a0-92b5-5513f5e1512b",
+ "documentNamespace": "https://anchore.com/syft/image/docker.io/anchore/syft-latest-4bb84dc3-d7bf-4153-9bdc-a840ae446aea",
  "packages": [
   {
    "SPDXID": "SPDXRef-ea652c9ff56eeded",
@@ -97,31 +97,31 @@
    "versionInfo": "v1.22.1"
   },
   {
-   "SPDXID": "SPDXRef-a0dc3d7beb2e10e4",
+   "SPDXID": "SPDXRef-f2821b4d638deeb3",
    "name": "github.com/Azure/azure-sdk-for-go",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:Azure:azure-sdk-for-go:v63.3.0\\+incompatible:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:Azure:azure-sdk-for-go:v65.0.0\\+incompatible:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:Azure:azure_sdk_for_go:v63.3.0\\+incompatible:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:Azure:azure_sdk_for_go:v65.0.0\\+incompatible:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/Azure/azure-sdk-for-go@v63.3.0+incompatible",
+     "referenceLocator": "pkg:golang/github.com/Azure/azure-sdk-for-go@v65.0.0+incompatible",
      "referenceType": "purl"
     }
    ],
    "filesAnalyzed": false,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from go module information: /syft",
-   "versionInfo": "v63.3.0+incompatible"
+   "versionInfo": "v65.0.0+incompatible"
   },
   {
    "SPDXID": "SPDXRef-af00d048739cef89",
@@ -450,50 +450,6 @@
    "versionInfo": "v0.1.1"
   },
   {
-   "SPDXID": "SPDXRef-e456fe161230c82f",
-   "name": "github.com/PuerkitoBio/purell",
-   "licenseConcluded": "NONE",
-   "downloadLocation": "NOASSERTION",
-   "externalRefs": [
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:PuerkitoBio:purell:v1.1.1:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/PuerkitoBio/purell@v1.1.1",
-     "referenceType": "purl"
-    }
-   ],
-   "filesAnalyzed": false,
-   "licenseDeclared": "NONE",
-   "sourceInfo": "acquired package info from go module information: /syft",
-   "versionInfo": "v1.1.1"
-  },
-  {
-   "SPDXID": "SPDXRef-bbbbfeb7c8e54403",
-   "name": "github.com/PuerkitoBio/urlesc",
-   "licenseConcluded": "NONE",
-   "downloadLocation": "NOASSERTION",
-   "externalRefs": [
-    {
-     "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:PuerkitoBio:urlesc:v0.0.0-20170810143723-de5bf2ad4578:*:*:*:*:*:*:*",
-     "referenceType": "cpe23Type"
-    },
-    {
-     "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/PuerkitoBio/urlesc@v0.0.0-20170810143723-de5bf2ad4578",
-     "referenceType": "purl"
-    }
-   ],
-   "filesAnalyzed": false,
-   "licenseDeclared": "NONE",
-   "sourceInfo": "acquired package info from go module information: /syft",
-   "versionInfo": "v0.0.0-20170810143723-de5bf2ad4578"
-  },
-  {
    "SPDXID": "SPDXRef-425138ba6c033136",
    "name": "github.com/acobaugh/osrelease",
    "licenseConcluded": "NONE",
@@ -668,26 +624,26 @@
    "versionInfo": "v0.0.0-20220708133445-777471f38c5b"
   },
   {
-   "SPDXID": "SPDXRef-bd6e8d17e5223a8e",
+   "SPDXID": "SPDXRef-e262deeeddd5cc85",
    "name": "github.com/anchore/syft",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:anchore:syft:470b13045bbbf150f3c79d1487a01ae6acc5592d:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:anchore:syft:ba9adb17ebb510a2a3bd2b641738b1d9235e1f3e:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/anchore/syft@470b13045bbbf150f3c79d1487a01ae6acc5592d",
+     "referenceLocator": "pkg:golang/github.com/anchore/syft@ba9adb17ebb510a2a3bd2b641738b1d9235e1f3e",
      "referenceType": "purl"
     }
    ],
    "filesAnalyzed": false,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from go module information: /syft",
-   "versionInfo": "470b13045bbbf150f3c79d1487a01ae6acc5592d"
+   "versionInfo": "ba9adb17ebb510a2a3bd2b641738b1d9235e1f3e"
   },
   {
    "SPDXID": "SPDXRef-624f8f7365a0e172",
@@ -1318,58 +1274,58 @@
    "versionInfo": "v1.5.13"
   },
   {
-   "SPDXID": "SPDXRef-1f1f27cb08b206d9",
+   "SPDXID": "SPDXRef-92778c2ce7147473",
    "name": "github.com/containerd/stargz-snapshotter/estargz",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:containerd:stargz-snapshotter\\/estargz:v0.10.1:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:containerd:stargz-snapshotter\\/estargz:v0.11.4:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:containerd:stargz_snapshotter\\/estargz:v0.10.1:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:containerd:stargz_snapshotter\\/estargz:v0.11.4:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/containerd/stargz-snapshotter/estargz@v0.10.1",
+     "referenceLocator": "pkg:golang/github.com/containerd/stargz-snapshotter/estargz@v0.11.4",
      "referenceType": "purl"
     }
    ],
    "filesAnalyzed": false,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from go module information: /syft",
-   "versionInfo": "v0.10.1"
+   "versionInfo": "v0.11.4"
   },
   {
-   "SPDXID": "SPDXRef-338e9a16c66319dc",
+   "SPDXID": "SPDXRef-ae919cb160ec3d1c",
    "name": "github.com/coreos/go-oidc/v3",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:coreos:go-oidc\\/v3:v3.1.0:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:coreos:go-oidc\\/v3:v3.2.0:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:coreos:go_oidc\\/v3:v3.1.0:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:coreos:go_oidc\\/v3:v3.2.0:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/coreos/go-oidc/v3@v3.1.0",
+     "referenceLocator": "pkg:golang/github.com/coreos/go-oidc/v3@v3.2.0",
      "referenceType": "purl"
     }
    ],
    "filesAnalyzed": false,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from go module information: /syft",
-   "versionInfo": "v3.1.0"
+   "versionInfo": "v3.2.0"
   },
   {
    "SPDXID": "SPDXRef-83965e5e287db1db",
@@ -1448,70 +1404,70 @@
    "versionInfo": "v1.1.1"
   },
   {
-   "SPDXID": "SPDXRef-9fd5f0b4df52ff76",
+   "SPDXID": "SPDXRef-9aa59e6db7d427a4",
    "name": "github.com/docker/cli",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:docker:cli:v20.10.12\\+incompatible:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:docker:cli:v20.10.16\\+incompatible:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/docker/cli@v20.10.12+incompatible",
+     "referenceLocator": "pkg:golang/github.com/docker/cli@v20.10.16+incompatible",
      "referenceType": "purl"
     }
    ],
    "filesAnalyzed": false,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from go module information: /syft",
-   "versionInfo": "v20.10.12+incompatible"
+   "versionInfo": "v20.10.16+incompatible"
   },
   {
-   "SPDXID": "SPDXRef-848f3727dda1e875",
+   "SPDXID": "SPDXRef-598b922089dd1fc3",
    "name": "github.com/docker/distribution",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:docker:distribution:v2.8.0\\+incompatible:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:docker:distribution:v2.8.1\\+incompatible:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/docker/distribution@v2.8.0+incompatible",
+     "referenceLocator": "pkg:golang/github.com/docker/distribution@v2.8.1+incompatible",
      "referenceType": "purl"
     }
    ],
    "filesAnalyzed": false,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from go module information: /syft",
-   "versionInfo": "v2.8.0+incompatible"
+   "versionInfo": "v2.8.1+incompatible"
   },
   {
-   "SPDXID": "SPDXRef-353822f18ad4347d",
+   "SPDXID": "SPDXRef-64bc1058e33ecf6d",
    "name": "github.com/docker/docker",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:docker:docker:v20.10.12\\+incompatible:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:docker:docker:v20.10.16\\+incompatible:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/docker/docker@v20.10.12+incompatible",
+     "referenceLocator": "pkg:golang/github.com/docker/docker@v20.10.16+incompatible",
      "referenceType": "purl"
     }
    ],
    "filesAnalyzed": false,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from go module information: /syft",
-   "versionInfo": "v20.10.12+incompatible"
+   "versionInfo": "v20.10.16+incompatible"
   },
   {
    "SPDXID": "SPDXRef-9a41650e083671f",
@@ -1902,36 +1858,36 @@
    "versionInfo": "v0.19.5"
   },
   {
-   "SPDXID": "SPDXRef-3a0b82337785d04b",
+   "SPDXID": "SPDXRef-3d42c57070fb7d64",
    "name": "github.com/go-openapi/jsonreference",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:go-openapi:jsonreference:v0.19.6:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:go-openapi:jsonreference:v0.20.0:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:go_openapi:jsonreference:v0.19.6:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:go_openapi:jsonreference:v0.20.0:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:go:jsonreference:v0.19.6:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:go:jsonreference:v0.20.0:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/go-openapi/jsonreference@v0.19.6",
+     "referenceLocator": "pkg:golang/github.com/go-openapi/jsonreference@v0.20.0",
      "referenceType": "purl"
     }
    ],
    "filesAnalyzed": false,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from go module information: /syft",
-   "versionInfo": "v0.19.6"
+   "versionInfo": "v0.20.0"
   },
   {
    "SPDXID": "SPDXRef-cc675ad714d6dd31",
@@ -1998,36 +1954,36 @@
    "versionInfo": "v0.24.1"
   },
   {
-   "SPDXID": "SPDXRef-860b8780976711c8",
+   "SPDXID": "SPDXRef-79a8abdb8da1d43a",
    "name": "github.com/go-openapi/spec",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:go-openapi:spec:v0.20.4:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:go-openapi:spec:v0.20.6:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:go_openapi:spec:v0.20.4:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:go_openapi:spec:v0.20.6:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:go:spec:v0.20.4:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:go:spec:v0.20.6:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/go-openapi/spec@v0.20.4",
+     "referenceLocator": "pkg:golang/github.com/go-openapi/spec@v0.20.6",
      "referenceType": "purl"
     }
    ],
    "filesAnalyzed": false,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from go module information: /syft",
-   "versionInfo": "v0.20.4"
+   "versionInfo": "v0.20.6"
   },
   {
    "SPDXID": "SPDXRef-71b67f5a1fc4e3a2",
@@ -2094,36 +2050,36 @@
    "versionInfo": "v0.21.1"
   },
   {
-   "SPDXID": "SPDXRef-7371187203210797",
+   "SPDXID": "SPDXRef-48a9c855e30610f9",
    "name": "github.com/go-openapi/validate",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:go-openapi:validate:v0.21.0:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:go-openapi:validate:v0.22.0:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:go_openapi:validate:v0.21.0:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:go_openapi:validate:v0.22.0:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:go:validate:v0.21.0:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:go:validate:v0.22.0:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/go-openapi/validate@v0.21.0",
+     "referenceLocator": "pkg:golang/github.com/go-openapi/validate@v0.22.0",
      "referenceType": "purl"
     }
    ],
    "filesAnalyzed": false,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from go module information: /syft",
-   "versionInfo": "v0.21.0"
+   "versionInfo": "v0.22.0"
   },
   {
    "SPDXID": "SPDXRef-611de975779f3d23",
@@ -2205,36 +2161,36 @@
    "versionInfo": "v0.18.0"
   },
   {
-   "SPDXID": "SPDXRef-3ee1f5ee0d8fa8d6",
+   "SPDXID": "SPDXRef-58194ef3d051ed1d",
    "name": "github.com/go-playground/validator/v10",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:go-playground:validator\\/v10:v10.10.0:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:go-playground:validator\\/v10:v10.11.0:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:go_playground:validator\\/v10:v10.10.0:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:go_playground:validator\\/v10:v10.11.0:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:go:validator\\/v10:v10.10.0:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:go:validator\\/v10:v10.11.0:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/go-playground/validator/v10@v10.10.0",
+     "referenceLocator": "pkg:golang/github.com/go-playground/validator/v10@v10.11.0",
      "referenceType": "purl"
     }
    ],
    "filesAnalyzed": false,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from go module information: /syft",
-   "versionInfo": "v10.10.0"
+   "versionInfo": "v10.11.0"
   },
   {
    "SPDXID": "SPDXRef-c22a8fc2b481cda4",
@@ -2475,31 +2431,31 @@
    "versionInfo": "v0.5.8"
   },
   {
-   "SPDXID": "SPDXRef-988043a37e52cd4",
+   "SPDXID": "SPDXRef-33c14e4c9c91738f",
    "name": "github.com/google/go-containerregistry",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:google:go-containerregistry:v0.8.1-0.20220209165246-a44adc326839:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:google:go-containerregistry:v0.9.0:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:google:go_containerregistry:v0.8.1-0.20220209165246-a44adc326839:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:google:go_containerregistry:v0.9.0:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/google/go-containerregistry@v0.8.1-0.20220209165246-a44adc326839",
+     "referenceLocator": "pkg:golang/github.com/google/go-containerregistry@v0.9.0",
      "referenceType": "purl"
     }
    ],
    "filesAnalyzed": false,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from go module information: /syft",
-   "versionInfo": "v0.8.1-0.20220209165246-a44adc326839"
+   "versionInfo": "v0.9.0"
   },
   {
    "SPDXID": "SPDXRef-1156b30ad15360b8",
@@ -2941,31 +2897,31 @@
    "versionInfo": "v0.3.4-0.20211211042327-af1f9fb822bf"
   },
   {
-   "SPDXID": "SPDXRef-b511dbdad79e54a1",
+   "SPDXID": "SPDXRef-448fc44712d0c31f",
    "name": "github.com/jedisct1/go-minisign",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:jedisct1:go-minisign:v0.0.0-20210703085342-c1f07ee84431:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:jedisct1:go-minisign:v0.0.0-20211028175153-1c139d1cc84b:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:jedisct1:go_minisign:v0.0.0-20210703085342-c1f07ee84431:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:jedisct1:go_minisign:v0.0.0-20211028175153-1c139d1cc84b:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/jedisct1/go-minisign@v0.0.0-20210703085342-c1f07ee84431",
+     "referenceLocator": "pkg:golang/github.com/jedisct1/go-minisign@v0.0.0-20211028175153-1c139d1cc84b",
      "referenceType": "purl"
     }
    ],
    "filesAnalyzed": false,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from go module information: /syft",
-   "versionInfo": "v0.0.0-20210703085342-c1f07ee84431"
+   "versionInfo": "v0.0.0-20211028175153-1c139d1cc84b"
   },
   {
    "SPDXID": "SPDXRef-6837f30db094fee5",
@@ -3071,26 +3027,26 @@
    "versionInfo": "v1.1.12"
   },
   {
-   "SPDXID": "SPDXRef-edfacc36005bc7fe",
+   "SPDXID": "SPDXRef-2a615bb67196ac30",
    "name": "github.com/klauspost/compress",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:klauspost:compress:v1.14.2:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:klauspost:compress:v1.15.4:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/klauspost/compress@v1.14.2",
+     "referenceLocator": "pkg:golang/github.com/klauspost/compress@v1.15.4",
      "referenceType": "purl"
     }
    ],
    "filesAnalyzed": false,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from go module information: /syft",
-   "versionInfo": "v1.14.2"
+   "versionInfo": "v1.15.4"
   },
   {
    "SPDXID": "SPDXRef-cebe47f44a5f2ec7",
@@ -3115,31 +3071,31 @@
    "versionInfo": "v1.2.5"
   },
   {
-   "SPDXID": "SPDXRef-7304b192420172b0",
+   "SPDXID": "SPDXRef-f3ceaeb192b6d8e8",
    "name": "github.com/knqyf263/go-rpmdb",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:knqyf263:go-rpmdb:v0.0.0-20220530130908-5101b033fa0d:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:knqyf263:go-rpmdb:v0.0.0-20220629110411-9a3bd2ebb923:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:knqyf263:go_rpmdb:v0.0.0-20220530130908-5101b033fa0d:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:knqyf263:go_rpmdb:v0.0.0-20220629110411-9a3bd2ebb923:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/knqyf263/go-rpmdb@v0.0.0-20220530130908-5101b033fa0d",
+     "referenceLocator": "pkg:golang/github.com/knqyf263/go-rpmdb@v0.0.0-20220629110411-9a3bd2ebb923",
      "referenceType": "purl"
     }
    ],
    "filesAnalyzed": false,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from go module information: /syft",
-   "versionInfo": "v0.0.0-20220530130908-5101b033fa0d"
+   "versionInfo": "v0.0.0-20220629110411-9a3bd2ebb923"
   },
   {
    "SPDXID": "SPDXRef-63ed6f1b3ec4d041",
@@ -3811,31 +3767,31 @@
    "versionInfo": "v0.9.1"
   },
   {
-   "SPDXID": "SPDXRef-8627ca57dfef9014",
+   "SPDXID": "SPDXRef-74b6abf9511fb609",
    "name": "github.com/prometheus/client_golang",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:prometheus:client-golang:v1.12.1:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:prometheus:client-golang:v1.12.2:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:prometheus:client_golang:v1.12.1:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:prometheus:client_golang:v1.12.2:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/prometheus/client_golang@v1.12.1",
+     "referenceLocator": "pkg:golang/github.com/prometheus/client_golang@v1.12.2",
      "referenceType": "purl"
     }
    ],
    "filesAnalyzed": false,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from go module information: /syft",
-   "versionInfo": "v1.12.1"
+   "versionInfo": "v1.12.2"
   },
   {
    "SPDXID": "SPDXRef-385219ab5b96eb6e",
@@ -3865,26 +3821,26 @@
    "versionInfo": "v0.2.0"
   },
   {
-   "SPDXID": "SPDXRef-56387e1ede76de61",
+   "SPDXID": "SPDXRef-a66363205158ee18",
    "name": "github.com/prometheus/common",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:prometheus:common:v0.32.1:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:prometheus:common:v0.34.0:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/prometheus/common@v0.32.1",
+     "referenceLocator": "pkg:golang/github.com/prometheus/common@v0.34.0",
      "referenceType": "purl"
     }
    ],
    "filesAnalyzed": false,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from go module information: /syft",
-   "versionInfo": "v0.32.1"
+   "versionInfo": "v0.34.0"
   },
   {
    "SPDXID": "SPDXRef-f5ea2cd9dc15bd1c",
@@ -4184,48 +4140,48 @@
    "versionInfo": "v0.1.2-0.20220114150912-86a2036f9bc7"
   },
   {
-   "SPDXID": "SPDXRef-bef226d973797674",
+   "SPDXID": "SPDXRef-45e6809d2eaed99c",
    "name": "github.com/sigstore/rekor",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:sigstore:rekor:v0.4.1-0.20220114213500-23f583409af3:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:sigstore:rekor:v0.9.1:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/sigstore/rekor@v0.4.1-0.20220114213500-23f583409af3",
+     "referenceLocator": "pkg:golang/github.com/sigstore/rekor@v0.9.1",
      "referenceType": "purl"
     }
    ],
    "filesAnalyzed": false,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from go module information: /syft",
-   "versionInfo": "v0.4.1-0.20220114213500-23f583409af3"
+   "versionInfo": "v0.9.1"
   },
   {
-   "SPDXID": "SPDXRef-6758dc512956ac65",
+   "SPDXID": "SPDXRef-9ae00fd052fce714",
    "name": "github.com/sigstore/sigstore",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:sigstore:sigstore:v1.2.1-0.20220424143412-3d41663116d5:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:sigstore:sigstore:v1.2.1-0.20220526001230-8dc4fa90a468:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/sigstore/sigstore@v1.2.1-0.20220424143412-3d41663116d5",
+     "referenceLocator": "pkg:golang/github.com/sigstore/sigstore@v1.2.1-0.20220526001230-8dc4fa90a468",
      "referenceType": "purl"
     }
    ],
    "filesAnalyzed": false,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from go module information: /syft",
-   "versionInfo": "v1.2.1-0.20220424143412-3d41663116d5"
+   "versionInfo": "v1.2.1-0.20220526001230-8dc4fa90a468"
   },
   {
    "SPDXID": "SPDXRef-f9a955c215ff9314",
@@ -4348,26 +4304,26 @@
    "versionInfo": "v1.5.0"
   },
   {
-   "SPDXID": "SPDXRef-430dac1f3853781a",
+   "SPDXID": "SPDXRef-4e7dcc51fb327891",
    "name": "github.com/spf13/cobra",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:spf13:cobra:v1.4.0:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:spf13:cobra:v1.5.0:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/spf13/cobra@v1.4.0",
+     "referenceLocator": "pkg:golang/github.com/spf13/cobra@v1.5.0",
      "referenceType": "purl"
     }
    ],
    "filesAnalyzed": false,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from go module information: /syft",
-   "versionInfo": "v1.4.0"
+   "versionInfo": "v1.5.0"
   },
   {
    "SPDXID": "SPDXRef-610a6bb9911106f3",
@@ -4534,31 +4490,31 @@
    "versionInfo": "v0.0.0-20130607151641-96e4ba3a7613"
   },
   {
-   "SPDXID": "SPDXRef-69089508cf78b8c",
+   "SPDXID": "SPDXRef-6aec29068efcde8",
    "name": "github.com/theupdateframework/go-tuf",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:theupdateframework:go-tuf:v0.3.0:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:theupdateframework:go-tuf:v0.3.1:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:theupdateframework:go_tuf:v0.3.0:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:theupdateframework:go_tuf:v0.3.1:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/github.com/theupdateframework/go-tuf@v0.3.0",
+     "referenceLocator": "pkg:golang/github.com/theupdateframework/go-tuf@v0.3.1",
      "referenceType": "purl"
     }
    ],
    "filesAnalyzed": false,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from go module information: /syft",
-   "versionInfo": "v0.3.0"
+   "versionInfo": "v0.3.1"
   },
   {
    "SPDXID": "SPDXRef-1c0532de7a50e40d",
@@ -4980,21 +4936,21 @@
    "versionInfo": "v1.9.0"
   },
   {
-   "SPDXID": "SPDXRef-2b5d64b69450ea5b",
+   "SPDXID": "SPDXRef-b40aaf8ff211e988",
    "name": "go.uber.org/multierr",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/go.uber.org/multierr@v1.7.0",
+     "referenceLocator": "pkg:golang/go.uber.org/multierr@v1.8.0",
      "referenceType": "purl"
     }
    ],
    "filesAnalyzed": false,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from go module information: /syft",
-   "versionInfo": "v1.7.0"
+   "versionInfo": "v1.8.0"
   },
   {
    "SPDXID": "SPDXRef-f580d887cbcde6c1",
@@ -5278,26 +5234,26 @@
    "versionInfo": "v0.0.0-20220519153652-3a47de7e79bd"
   },
   {
-   "SPDXID": "SPDXRef-f68f0165ecbdab35",
+   "SPDXID": "SPDXRef-584e5b152a18d3a8",
    "name": "google.golang.org/grpc",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "SECURITY",
-     "referenceLocator": "cpe:2.3:a:google:grpc:v1.46.2:*:*:*:*:*:*:*",
+     "referenceLocator": "cpe:2.3:a:google:grpc:v1.47.0:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
     {
      "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/google.golang.org/grpc@v1.46.2",
+     "referenceLocator": "pkg:golang/google.golang.org/grpc@v1.47.0",
      "referenceType": "purl"
     }
    ],
    "filesAnalyzed": false,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from go module information: /syft",
-   "versionInfo": "v1.46.2"
+   "versionInfo": "v1.47.0"
   },
   {
    "SPDXID": "SPDXRef-6ee8dfb6f5acbca7",
@@ -5339,21 +5295,21 @@
    "versionInfo": "v0.9.1"
   },
   {
-   "SPDXID": "SPDXRef-d2b07689050b6994",
+   "SPDXID": "SPDXRef-d18413c36fd5feb",
    "name": "gopkg.in/ini.v1",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/gopkg.in/ini.v1@v1.66.4",
+     "referenceLocator": "pkg:golang/gopkg.in/ini.v1@v1.66.6",
      "referenceType": "purl"
     }
    ],
    "filesAnalyzed": false,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from go module information: /syft",
-   "versionInfo": "v1.66.4"
+   "versionInfo": "v1.66.6"
   },
   {
    "SPDXID": "SPDXRef-ce23d5ea2a397183",
@@ -5390,21 +5346,21 @@
    "versionInfo": "v2.4.0"
   },
   {
-   "SPDXID": "SPDXRef-6c48d54b7ba354c5",
+   "SPDXID": "SPDXRef-7bcb9dad0b7a5c23",
    "name": "gopkg.in/yaml.v3",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/gopkg.in/yaml.v3@v3.0.0",
+     "referenceLocator": "pkg:golang/gopkg.in/yaml.v3@v3.0.1",
      "referenceType": "purl"
     }
    ],
    "filesAnalyzed": false,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from go module information: /syft",
-   "versionInfo": "v3.0.0"
+   "versionInfo": "v3.0.1"
   },
   {
    "SPDXID": "SPDXRef-95e0e9ff4ec0c5c3",
@@ -5531,21 +5487,21 @@
    "versionInfo": "v0.0.0-20220325200448-1f7514acd0c2"
   },
   {
-   "SPDXID": "SPDXRef-53c45a3a7b0caa18",
+   "SPDXID": "SPDXRef-5ceff2c0b1545079",
    "name": "modernc.org/libc",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/modernc.org/libc@v1.14.1",
+     "referenceLocator": "pkg:golang/modernc.org/libc@v1.16.7",
      "referenceType": "purl"
     }
    ],
    "filesAnalyzed": false,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from go module information: /syft",
-   "versionInfo": "v1.14.1"
+   "versionInfo": "v1.16.7"
   },
   {
    "SPDXID": "SPDXRef-f1390b363f173199",
@@ -5565,38 +5521,38 @@
    "versionInfo": "v1.4.1"
   },
   {
-   "SPDXID": "SPDXRef-54c1f0f30bda2057",
+   "SPDXID": "SPDXRef-c9d507727a762bb5",
    "name": "modernc.org/memory",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/modernc.org/memory@v1.0.5",
+     "referenceLocator": "pkg:golang/modernc.org/memory@v1.1.1",
      "referenceType": "purl"
     }
    ],
    "filesAnalyzed": false,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from go module information: /syft",
-   "versionInfo": "v1.0.5"
+   "versionInfo": "v1.1.1"
   },
   {
-   "SPDXID": "SPDXRef-990b986de3348786",
+   "SPDXID": "SPDXRef-4fed36f3910ffc58",
    "name": "modernc.org/sqlite",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/modernc.org/sqlite@v1.14.5",
+     "referenceLocator": "pkg:golang/modernc.org/sqlite@v1.17.3",
      "referenceType": "purl"
     }
    ],
    "filesAnalyzed": false,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from go module information: /syft",
-   "versionInfo": "v1.14.5"
+   "versionInfo": "v1.17.3"
   },
   {
    "SPDXID": "SPDXRef-f4b77108028db9c0",
@@ -5616,21 +5572,21 @@
    "versionInfo": "v0.0.0-20211208200746-9f7c6b3444d2"
   },
   {
-   "SPDXID": "SPDXRef-87ce1a1606cac77b",
+   "SPDXID": "SPDXRef-1a67867cba11f211",
    "name": "sigs.k8s.io/release-utils",
    "licenseConcluded": "NONE",
    "downloadLocation": "NOASSERTION",
    "externalRefs": [
     {
      "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:golang/sigs.k8s.io/release-utils@v0.6.0",
+     "referenceLocator": "pkg:golang/sigs.k8s.io/release-utils@v0.7.1",
      "referenceType": "purl"
     }
    ],
    "filesAnalyzed": false,
    "licenseDeclared": "NONE",
    "sourceInfo": "acquired package info from go module information: /syft",
-   "versionInfo": "v0.6.0"
+   "versionInfo": "v0.7.1"
   },
   {
    "SPDXID": "SPDXRef-8a2bfc811d3211f0",

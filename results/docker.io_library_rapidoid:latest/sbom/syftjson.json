@@ -39841,7 +39841,7 @@
    }
   },
   {
-   "id": "155cfda80f8933a1",
+   "id": "c5c65ef1b7b39edd",
    "name": "rapidoid-net",
    "version": "5.4.6",
    "type": "java-archive",
@@ -39859,26 +39859,13 @@
     "cpe:2.3:a:rapidoid-net:rapidoid_net:5.4.6:*:*:*:*:*:*:*",
     "cpe:2.3:a:rapidoid_net:rapidoid-net:5.4.6:*:*:*:*:*:*:*",
     "cpe:2.3:a:rapidoid_net:rapidoid_net:5.4.6:*:*:*:*:*:*:*",
-    "cpe:2.3:a:platform:rapidoid-net:5.4.6:*:*:*:*:*:*:*",
-    "cpe:2.3:a:platform:rapidoid_net:5.4.6:*:*:*:*:*:*:*",
     "cpe:2.3:a:rapidoid:rapidoid-net:5.4.6:*:*:*:*:*:*:*",
-    "cpe:2.3:a:rapidoid:rapidoid_net:5.4.6:*:*:*:*:*:*:*",
-    "cpe:2.3:a:Main:rapidoid-net:5.4.6:*:*:*:*:*:*:*",
-    "cpe:2.3:a:Main:rapidoid_net:5.4.6:*:*:*:*:*:*:*"
+    "cpe:2.3:a:rapidoid:rapidoid_net:5.4.6:*:*:*:*:*:*:*"
    ],
    "purl": "pkg:maven/org.rapidoid/rapidoid-net@5.4.6",
    "metadataType": "JavaMetadata",
    "metadata": {
-    "virtualPath": "/opt/rapidoid.jar",
-    "manifest": {
-     "main": {
-      "Build-Jdk": "1.8.0_131",
-      "Built-By": "nmihajlovski",
-      "Created-By": "Apache Maven 3.3.9",
-      "Main-Class": "org.rapidoid.platform.Main",
-      "Manifest-Version": "1.0"
-     }
-    },
+    "virtualPath": "/opt/rapidoid.jar:rapidoid-net",
     "pomProperties": {
      "path": "META-INF/maven/org.rapidoid/rapidoid-net/pom.properties",
      "name": "",
@@ -39886,13 +39873,7 @@
      "artifactId": "rapidoid-net",
      "version": "5.4.6",
      "extraFields": {}
-    },
-    "digest": [
-     {
-      "algorithm": "sha1",
-      "value": "08159e21e3dcc475b62256817200bb1931f25e0d"
-     }
-    ]
+    }
    }
   },
   {
@@ -39932,7 +39913,7 @@
    }
   },
   {
-   "id": "b968b4040314d5d4",
+   "id": "f4b1acd1115e4cb4",
    "name": "rapidoid-platform",
    "version": "5.4.6",
    "type": "java-archive",
@@ -39950,13 +39931,31 @@
     "cpe:2.3:a:rapidoid-platform:rapidoid_platform:5.4.6:*:*:*:*:*:*:*",
     "cpe:2.3:a:rapidoid_platform:rapidoid-platform:5.4.6:*:*:*:*:*:*:*",
     "cpe:2.3:a:rapidoid_platform:rapidoid_platform:5.4.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:platform:rapidoid-platform:5.4.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:platform:rapidoid_platform:5.4.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:rapidoid-platform:platform:5.4.6:*:*:*:*:*:*:*",
     "cpe:2.3:a:rapidoid:rapidoid-platform:5.4.6:*:*:*:*:*:*:*",
-    "cpe:2.3:a:rapidoid:rapidoid_platform:5.4.6:*:*:*:*:*:*:*"
+    "cpe:2.3:a:rapidoid:rapidoid_platform:5.4.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:rapidoid_platform:platform:5.4.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:Main:rapidoid-platform:5.4.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:Main:rapidoid_platform:5.4.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:platform:platform:5.4.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:rapidoid:platform:5.4.6:*:*:*:*:*:*:*",
+    "cpe:2.3:a:Main:platform:5.4.6:*:*:*:*:*:*:*"
    ],
    "purl": "pkg:maven/org.rapidoid/rapidoid-platform@5.4.6",
    "metadataType": "JavaMetadata",
    "metadata": {
-    "virtualPath": "/opt/rapidoid.jar:rapidoid-platform",
+    "virtualPath": "/opt/rapidoid.jar",
+    "manifest": {
+     "main": {
+      "Build-Jdk": "1.8.0_131",
+      "Built-By": "nmihajlovski",
+      "Created-By": "Apache Maven 3.3.9",
+      "Main-Class": "org.rapidoid.platform.Main",
+      "Manifest-Version": "1.0"
+     }
+    },
     "pomProperties": {
      "path": "META-INF/maven/org.rapidoid/rapidoid-platform/pom.properties",
      "name": "",
@@ -39964,7 +39963,13 @@
      "artifactId": "rapidoid-platform",
      "version": "5.4.6",
      "extraFields": {}
-    }
+    },
+    "digest": [
+     {
+      "algorithm": "sha1",
+      "value": "08159e21e3dcc475b62256817200bb1931f25e0d"
+     }
+    ]
    }
   },
   {

@@ -3,7 +3,7 @@
  "name": "docker.io/library/bonita-latest",
  "spdxVersion": "SPDX-2.2",
  "creationInfo": {
-  "created": "2022-07-21T01:24:41.743947939Z",
+  "created": "2022-07-22T01:31:28.405678442Z",
   "creators": [
    "Organization: Anchore, Inc",
    "Tool: syft-0.48.0"
@@ -11,7 +11,7 @@
   "licenseListVersion": "3.17"
  },
  "dataLicense": "CC0-1.0",
- "documentNamespace": "https://anchore.com/syft/image/docker.io/library/bonita-latest-207ecb65-1fa4-4599-9612-7c717fc7483a",
+ "documentNamespace": "https://anchore.com/syft/image/docker.io/library/bonita-latest-3edd3b7e-64ff-4c20-87cb-0484fb7013cd",
  "packages": [
   {
    "SPDXID": "SPDXRef-38c6b857939121b0",
@@ -5044,7 +5044,34 @@
    "versionInfo": "4.20"
   },
   {
-   "SPDXID": "SPDXRef-725f51ce164d4058",
+   "SPDXID": "SPDXRef-fb3e517534e70727",
+   "name": "ehcache",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:ehcache:ehcache:2.10.9.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:sf:ehcache:2.10.9.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:maven/net.sf.ehcache/ehcache@2.10.9.2",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from installed java archive: /opt/bonita/server/webapps/bonita/WEB-INF/lib/ehcache-2.10.9.2.jar",
+   "versionInfo": "2.10.9.2"
+  },
+  {
+   "SPDXID": "SPDXRef-80bec0f745993b40",
    "name": "ehcache-rest-agent",
    "licenseConcluded": "NONE",
    "checksums": [
@@ -5117,6 +5144,16 @@
     },
     {
      "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:internal:ehcache-rest-agent:2.10.9.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:internal:ehcache_rest_agent:2.10.9.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
      "referenceLocator": "cpe:2.3:a:ehcache-rest-agent:ehcache:2.10.9.2:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
@@ -5167,6 +5204,11 @@
     },
     {
      "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:internal:ehcache:2.10.9.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
      "referenceLocator": "cpe:2.3:a:ehcache:ehcache:2.10.9.2:*:*:*:*:*:*:*",
      "referenceType": "cpe23Type"
     },
@@ -5177,7 +5219,7 @@
     },
     {
      "referenceCategory": "PACKAGE_MANAGER",
-     "referenceLocator": "pkg:maven/net.sf.ehcache/ehcache-rest-agent@2.10.9.2",
+     "referenceLocator": "pkg:maven/net.sf.ehcache.internal/ehcache-rest-agent@2.10.9.2",
      "referenceType": "purl"
     }
    ],

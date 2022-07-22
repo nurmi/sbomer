@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:74431d2b-4e60-435d-82e0-e23d658eec76",
+  "serialNumber": "urn:uuid:468fab17-a6a9-4302-9f5b-712668c76f75",
   "version": 1,
   "metadata": {
-    "timestamp": "2022-07-21T01:41:47Z",
+    "timestamp": "2022-07-22T01:49:26Z",
     "tools": [
       {
         "vendor": "anchore",
@@ -50992,12 +50992,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/org.apache.xml.serializer/serializer@2.7.2?package-id=619cae7a8b9ba833",
+      "bom-ref": "pkg:maven/org.apache.xml.serializer.utils/serializer@2.7.2?package-id=619cae7a8b9ba833",
       "type": "library",
       "name": "serializer",
       "version": "2.7.2",
       "cpe": "cpe:2.3:a:w3c-recommendation-16-november-1999:serializer:2.7.2:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/org.apache.xml.serializer/serializer@2.7.2",
+      "purl": "pkg:maven/org.apache.xml.serializer.utils/serializer@2.7.2",
       "externalReferences": [
         {
           "url": "",
@@ -53965,12 +53965,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/org.apache.xalan.xsltc/xalan@2.7.2?package-id=d2807e4c447a7b8",
+      "bom-ref": "pkg:maven/org.apache.xalan/xalan@2.7.2?package-id=d2807e4c447a7b8",
       "type": "library",
       "name": "xalan",
       "version": "2.7.2",
       "cpe": "cpe:2.3:a:apache-software-foundation:regexp:2.7.2:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/org.apache.xalan.xsltc/xalan@2.7.2",
+      "purl": "pkg:maven/org.apache.xalan/xalan@2.7.2",
       "externalReferences": [
         {
           "url": "",
@@ -54371,12 +54371,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/org.w3c.dom/xercesImpl@1.4.01?package-id=e3f0112804d2336e",
+      "bom-ref": "pkg:maven/org.w3c.dom.ls/xercesImpl@1.4.01?package-id=e3f0112804d2336e",
       "type": "library",
       "name": "xercesImpl",
       "version": "1.4.01",
       "cpe": "cpe:2.3:a:apache-software-foundation:xercesImpl:1.4.01:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/org.w3c.dom/xercesImpl@1.4.01",
+      "purl": "pkg:maven/org.w3c.dom.ls/xercesImpl@1.4.01",
       "externalReferences": [
         {
           "url": "",
@@ -55089,12 +55089,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:maven/org.xml.sax/xml-apis@1.4.01?package-id=18770472636c3b0d",
+      "bom-ref": "pkg:maven/org.apache.xmlcommons.Version/xml-apis@2.0.2?package-id=ef4f8418cd80c84c",
       "type": "library",
       "name": "xml-apis",
-      "version": "1.4.01",
-      "cpe": "cpe:2.3:a:apache-software-foundation:xmlcommons:1.4.01:*:*:*:*:*:*:*",
-      "purl": "pkg:maven/org.xml.sax/xml-apis@1.4.01",
+      "version": "2.0.2",
+      "cpe": "cpe:2.3:a:apache-software-foundation:xmlcommons:2.0.2:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.xmlcommons.Version/xml-apis@2.0.2",
       "externalReferences": [
         {
           "url": "",
@@ -55126,559 +55126,559 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache_software_foundation:xmlcommons:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:apache_software_foundation:xmlcommons:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:world-wide-web-consortium:xmlcommons:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:world-wide-web-consortium:xmlcommons:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:world_wide_web_consortium:xmlcommons:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:world_wide_web_consortium:xmlcommons:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache-software-foundation:xml-apis:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:apache-software-foundation:xml-apis:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache-software-foundation:xml_apis:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:apache-software-foundation:xml_apis:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache_software_foundation:xml-apis:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:apache_software_foundation:xml-apis:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache_software_foundation:xml_apis:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:apache_software_foundation:xml_apis:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache-software-foundation:Version:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:apache-software-foundation:Version:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache_software_foundation:Version:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:apache_software_foundation:Version:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:world-wide-web-consortium:xml-apis:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:world-wide-web-consortium:xml-apis:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:world-wide-web-consortium:xml_apis:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:world-wide-web-consortium:xml_apis:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:world_wide_web_consortium:xml-apis:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:world_wide_web_consortium:xml-apis:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:world_wide_web_consortium:xml_apis:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:world_wide_web_consortium:xml_apis:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:world-wide-web-consortium:Version:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:world-wide-web-consortium:Version:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:world_wide_web_consortium:Version:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:world_wide_web_consortium:Version:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:sun-microsystems-inc-:xmlcommons:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:sun-microsystems-inc-:xmlcommons:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:sun_microsystems_inc_:xmlcommons:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:sun_microsystems_inc_:xmlcommons:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache-software-foundation:dom:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:apache-software-foundation:dom:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache-software-foundation:sax:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:apache-software-foundation:sax:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache_software_foundation:dom:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:apache_software_foundation:dom:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache_software_foundation:sax:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:apache_software_foundation:sax:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:sun-microsystems-inc-:xml-apis:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:sun-microsystems-inc-:xml-apis:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:sun-microsystems-inc-:xml_apis:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:sun-microsystems-inc-:xml_apis:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:sun_microsystems_inc_:xml-apis:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:sun_microsystems_inc_:xml-apis:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:sun_microsystems_inc_:xml_apis:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:sun_microsystems_inc_:xml_apis:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache-software-foundation:ls:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:apache-software-foundation:ls:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache_software_foundation:ls:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:apache_software_foundation:ls:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:sun-microsystems-inc-:Version:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:sun-microsystems-inc-:Version:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:sun_microsystems_inc_:Version:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:sun_microsystems_inc_:Version:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:world-wide-web-consortium:dom:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:world-wide-web-consortium:dom:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:world-wide-web-consortium:sax:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:world-wide-web-consortium:sax:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:world_wide_web_consortium:dom:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:world_wide_web_consortium:dom:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:world_wide_web_consortium:sax:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:world_wide_web_consortium:sax:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:bea-systems\\,-inc-:xmlcommons:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:bea-systems\\,-inc-:xmlcommons:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:bea_systems\\,_inc_:xmlcommons:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:bea_systems\\,_inc_:xmlcommons:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:world-wide-web-consortium:ls:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:world-wide-web-consortium:ls:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:world_wide_web_consortium:ls:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:world_wide_web_consortium:ls:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:bea-systems\\,-inc-:xml-apis:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:bea-systems\\,-inc-:xml-apis:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:bea-systems\\,-inc-:xml_apis:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:bea-systems\\,-inc-:xml_apis:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:bea_systems\\,_inc_:xml-apis:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:bea_systems\\,_inc_:xml-apis:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:bea_systems\\,_inc_:xml_apis:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:bea_systems\\,_inc_:xml_apis:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:david-megginson:xmlcommons:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:david-megginson:xmlcommons:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:david_megginson:xmlcommons:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:david_megginson:xmlcommons:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:bea-systems\\,-inc-:Version:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:bea-systems\\,-inc-:Version:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:bea_systems\\,_inc_:Version:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:bea_systems\\,_inc_:Version:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:sun-microsystems-inc-:dom:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:sun-microsystems-inc-:dom:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:sun-microsystems-inc-:sax:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:sun-microsystems-inc-:sax:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:sun_microsystems_inc_:dom:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:sun_microsystems_inc_:dom:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:sun_microsystems_inc_:sax:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:sun_microsystems_inc_:sax:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:david-megginson:xml-apis:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:david-megginson:xml-apis:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:david-megginson:xml_apis:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:david-megginson:xml_apis:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:david_megginson:xml-apis:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:david_megginson:xml-apis:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:david_megginson:xml_apis:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:david_megginson:xml_apis:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:sun-microsystems-inc-:ls:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:sun-microsystems-inc-:ls:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:sun_microsystems_inc_:ls:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:sun_microsystems_inc_:ls:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:david-megginson:Version:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:david-megginson:Version:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:david_megginson:Version:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:david_megginson:Version:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:bea-systems\\,-inc-:dom:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:bea-systems\\,-inc-:dom:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:bea-systems\\,-inc-:sax:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:bea-systems\\,-inc-:sax:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:bea_systems\\,_inc_:dom:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:bea_systems\\,_inc_:dom:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:bea_systems\\,_inc_:sax:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:bea_systems\\,_inc_:sax:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:xmlcommons:xmlcommons:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:xmlcommons:xmlcommons:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:bea-systems\\,-inc-:ls:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:bea-systems\\,-inc-:ls:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:bea_systems\\,_inc_:ls:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:bea_systems\\,_inc_:ls:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:david-megginson:dom:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:david-megginson:dom:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:david-megginson:sax:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:david-megginson:sax:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:david_megginson:dom:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:david_megginson:dom:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:david_megginson:sax:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:david_megginson:sax:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:xml-apis:xmlcommons:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:xml-apis:xmlcommons:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:xml_apis:xmlcommons:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:xml_apis:xmlcommons:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:xmlcommons:xml-apis:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:xmlcommons:xml-apis:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:xmlcommons:xml_apis:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:xmlcommons:xml_apis:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:Version:xmlcommons:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:Version:xmlcommons:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:david-megginson:ls:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:david-megginson:ls:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:david_megginson:ls:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:david_megginson:ls:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:xmlcommons:Version:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:xmlcommons:Version:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache:xmlcommons:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:apache:xmlcommons:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:xml-apis:xml-apis:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:xml-apis:xml-apis:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:xml-apis:xml_apis:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:xml-apis:xml_apis:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:xml_apis:xml-apis:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:xml_apis:xml-apis:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:xml_apis:xml_apis:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:xml_apis:xml_apis:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:Version:xml-apis:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:Version:xml-apis:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:Version:xml_apis:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:Version:xml_apis:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:xml-apis:Version:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:xml-apis:Version:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:xml_apis:Version:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:xml_apis:Version:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:Version:Version:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:Version:Version:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache:xml-apis:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:apache:xml-apis:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache:xml_apis:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:apache:xml_apis:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache:Version:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:apache:Version:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:dom:xmlcommons:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:dom:xmlcommons:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:sax:xmlcommons:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:sax:xmlcommons:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:w3c:xmlcommons:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:w3c:xmlcommons:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:xml:xmlcommons:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:xml:xmlcommons:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:xmlcommons:dom:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:xmlcommons:dom:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:xmlcommons:sax:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:xmlcommons:sax:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ls:xmlcommons:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ls:xmlcommons:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:xmlcommons:ls:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:xmlcommons:ls:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:dom:xml-apis:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:dom:xml-apis:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:dom:xml_apis:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:dom:xml_apis:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:sax:xml-apis:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:sax:xml-apis:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:sax:xml_apis:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:sax:xml_apis:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:w3c:xml-apis:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:w3c:xml-apis:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:w3c:xml_apis:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:w3c:xml_apis:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:xml-apis:dom:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:xml-apis:dom:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:xml-apis:sax:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:xml-apis:sax:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:xml:xml-apis:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:xml:xml-apis:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:xml:xml_apis:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:xml:xml_apis:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:xml_apis:dom:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:xml_apis:dom:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:xml_apis:sax:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:xml_apis:sax:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:Version:dom:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:Version:dom:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:Version:sax:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:Version:sax:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:dom:Version:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:dom:Version:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ls:xml-apis:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ls:xml-apis:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ls:xml_apis:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ls:xml_apis:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:sax:Version:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:sax:Version:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:w3c:Version:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:w3c:Version:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:xml-apis:ls:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:xml-apis:ls:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:xml:Version:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:xml:Version:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:xml_apis:ls:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:xml_apis:ls:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:Version:ls:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:Version:ls:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache:dom:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:apache:dom:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache:sax:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:apache:sax:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ls:Version:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ls:Version:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:apache:ls:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:apache:ls:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:dom:dom:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:dom:dom:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:dom:sax:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:dom:sax:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:sax:dom:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:sax:dom:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:sax:sax:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:sax:sax:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:w3c:dom:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:w3c:dom:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:w3c:sax:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:w3c:sax:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:xml:dom:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:xml:dom:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:xml:sax:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:xml:sax:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:dom:ls:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:dom:ls:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ls:dom:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ls:dom:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ls:sax:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ls:sax:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:sax:ls:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:sax:ls:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:w3c:ls:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:w3c:ls:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:xml:ls:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:xml:ls:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:ls:ls:1.4.01:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:ls:ls:2.0.2:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:layerID",

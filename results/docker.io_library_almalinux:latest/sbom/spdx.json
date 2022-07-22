@@ -3,7 +3,7 @@
  "name": "docker.io/library/almalinux-latest",
  "spdxVersion": "SPDX-2.2",
  "creationInfo": {
-  "created": "2022-07-21T01:23:24.764648227Z",
+  "created": "2022-07-22T01:30:07.60284215Z",
   "creators": [
    "Organization: Anchore, Inc",
    "Tool: syft-0.48.0"
@@ -11,7 +11,7 @@
   "licenseListVersion": "3.17"
  },
  "dataLicense": "CC0-1.0",
- "documentNamespace": "https://anchore.com/syft/image/docker.io/library/almalinux-latest-6565869f-20d8-4ef1-9e1a-c9bc36be4fb1",
+ "documentNamespace": "https://anchore.com/syft/image/docker.io/library/almalinux-latest-6b768722-5ef9-4303-9c6e-b474c79b8770",
  "packages": [
   {
    "SPDXID": "SPDXRef-4815265c29bb9788",
@@ -78121,6 +78121,12 @@
    "relatedSpdxElement": "SPDXRef-7005da82f55f09d4"
   },
   {
+   "spdxElementId": "SPDXRef-4777a193b25b7a11",
+   "relationshipType": "OTHER",
+   "relatedSpdxElement": "SPDXRef-e2622ae2864e1f19",
+   "comment": "ownership-by-file-overlap: indicates that the parent package claims ownership of a child package since the parent metadata indicates overlap with a location that a cataloger found the child package by"
+  },
+  {
    "spdxElementId": "SPDXRef-faebc5afc4ec42cf",
    "relationshipType": "OTHER",
    "relatedSpdxElement": "SPDXRef-972141defad33118",
@@ -78136,12 +78142,6 @@
    "spdxElementId": "SPDXRef-8f235ba80f3ffff7",
    "relationshipType": "OTHER",
    "relatedSpdxElement": "SPDXRef-d335458e951b119a",
-   "comment": "ownership-by-file-overlap: indicates that the parent package claims ownership of a child package since the parent metadata indicates overlap with a location that a cataloger found the child package by"
-  },
-  {
-   "spdxElementId": "SPDXRef-4777a193b25b7a11",
-   "relationshipType": "OTHER",
-   "relatedSpdxElement": "SPDXRef-e2622ae2864e1f19",
    "comment": "ownership-by-file-overlap: indicates that the parent package claims ownership of a child package since the parent metadata indicates overlap with a location that a cataloger found the child package by"
   }
  ]
